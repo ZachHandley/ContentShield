@@ -1,0 +1,231 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "variation_system": {
+    "description": "Comprehensive patterns for detecting obfuscated, modified, and variant forms of profanity",
+    "methodology": "Pattern-based approach covering leetspeak, spacing, repetition, and symbol substitutions",
+    "detection_approach": "Fuzzy matching with configurable similarity thresholds"
+  },
+  "substitution_patterns": {
+    "leetspeak_mappings": {
+      "a": ["@", "4", "^", "/\\", "/-\\"],
+      "b": ["6", "8", "|3", "13", "!3"],
+      "c": ["(", "{", "[", "<", "©"],
+      "d": ["|)", "|]", "0", "T)", "I>"],
+      "e": ["3", "€", "£", "[-"],
+      "f": ["|=", "ph", "|#", "/="],
+      "g": ["9", "6", "&", "(_+"],
+      "h": ["#", "|-|", "[-]", ")-(", "}{"],
+      "i": ["1", "!", "|", "l", "I", "]["],
+      "j": [",_|", "_|", ".]", "j"],
+      "k": ["|<", "1<", "l<", "|("],
+      "l": ["1", "|", "7", "L", "£"],
+      "m": ["/\\/\\", "|\\/|", "[]V[]", "^^"],
+      "n": ["|\\|", "/\\/", "[]\\[]", "^/"],
+      "o": ["0", "()", "[]", "oh"],
+      "p": ["|*", "|o", "|>", "|\""],
+      "q": ["9", "(,)", "0_", "kw"],
+      "r": ["|2", "12", "|?", "lz"],
+      "s": ["5", "$", "z", "§"],
+      "t": ["7", "+", "-|-", "']['"],
+      "u": ["|_|", "(_)", "U", "v"],
+      "v": ["\\/", "|/", "\\|"],
+      "w": ["\\/\\/", "vv", "\\N", "'//"],
+      "x": ["><", ")(", "}{", "%"],
+      "y": ["`/", "j", "\\|/", "\\//"],
+      "z": ["2", "7_", "-/_", "%"]
+    },
+    "symbol_substitutions": {
+      "asterisk": ["*", "×", "✱", "⁎"],
+      "punctuation": ["!", "?", ".", ",", ";", ":"],
+      "brackets": ["(", ")", "[", "]", "{", "}", "<", ">"],
+      "special_chars": ["#", "$", "%", "&", "+", "=", "~"]
+    },
+    "unicode_variations": {
+      "homoglyphs": {
+        "a": ["а", "α", "ɑ"],
+        "b": ["Ƅ", "ᏼ", "ḃ"],
+        "c": ["с", "ϲ", "ᴄ"],
+        "d": ["ԁ", "ᵭ", "ḋ"],
+        "e": ["е", "ҽ", "ë"],
+        "f": ["ḟ", "ẝ", "ᶠ"],
+        "g": ["ɡ", "ǥ", "ᵍ"],
+        "h": ["һ", "ḥ", "ᵸ"],
+        "i": ["і", "ɨ", "ḭ"],
+        "j": ["ј", "ʝ", "ĵ"],
+        "k": ["κ", "ḱ", "ᵏ"],
+        "l": ["ӏ", "ḷ", "ᴸ"],
+        "m": ["м", "ṁ", "ᵐ"],
+        "n": ["ո", "ṅ", "ᴺ"],
+        "o": ["о", "օ", "ọ"],
+        "p": ["р", "ṕ", "ᴾ"],
+        "q": ["ԛ", "ʠ", "ᵠ"],
+        "r": ["г", "ṛ", "ᴿ"],
+        "s": ["ѕ", "ś", "ˢ"],
+        "t": ["т", "ṭ", "ᵀ"],
+        "u": ["υ", "ս", "ṳ"],
+        "v": ["ν", "ṿ", "ⱱ"],
+        "w": ["ԝ", "ẁ", "ʷ"],
+        "x": ["х", "ẋ", "ˣ"],
+        "y": ["у", "ẏ", "ʸ"],
+        "z": ["ᴢ", "ẓ", "ᶻ"]
+      }
+    }
+  },
+  "obfuscation_patterns": {
+    "spacing_variations": {
+      "word_splitting": {
+        "description": "Characters separated by spaces or other delimiters",
+        "patterns": [
+          "\\b([a-z])\\s+([a-z])\\s+([a-z])\\b",
+          "\\b([a-z])[-_.]([a-z])[-_.]([a-z])\\b",
+          "\\b([a-z])\\s*[|]\\s*([a-z])\\s*[|]\\s*([a-z])\\b"
+        ],
+        "examples": ["f u c k", "s-h-i-t", "d.a.m.n", "b|i|t|c|h"]
+      },
+      "interspersed_characters": {
+        "description": "Extra characters inserted between letters",
+        "patterns": [
+          "([a-z])[^a-z]*([a-z])[^a-z]*([a-z])",
+          "([a-z])[0-9]+([a-z])[0-9]+([a-z])",
+          "([a-z])[*@#$]+([a-z])[*@#$]+([a-z])"
+        ],
+        "examples": ["f123u456c789k", "s*h*i*t", "d@m@n"]
+      }
+    },
+    "repetition_patterns": {
+      "character_repetition": {
+        "description": "Extra repeated characters for emphasis",
+        "patterns": [
+          "([a-z])\\1{2,}",
+          "([aeiou])\\1+",
+          "([bcdfghjklmnpqrstvwxyz])\\1+"
+        ],
+        "examples": ["fuuuuck", "shiiiit", "dammmn", "asssss"]
+      },
+      "syllable_repetition": {
+        "description": "Repeated syllables or word parts",
+        "patterns": [
+          "([a-z]{2,})\\1+",
+          "(fu|shi|dam)\\1+"
+        ],
+        "examples": ["fufufuck", "shishishit", "damdamn"]
+      }
+    },
+    "case_variations": {
+      "alternating_case": {
+        "description": "Mixed uppercase and lowercase patterns",
+        "patterns": ["([A-Z][a-z])+", "([a-z][A-Z])+"],
+        "examples": ["FuCk", "sHiT", "dAmN", "AsS"]
+      },
+      "random_case": {
+        "description": "Random capitalization patterns",
+        "patterns": ["[A-Za-z]*[A-Z][a-z]*[A-Z][A-Za-z]*"],
+        "examples": ["fuCK", "SHit", "DAmn"]
+      }
+    },
+    "prefix_suffix_obfuscation": {
+      "prefix_addition": {
+        "description": "Adding prefixes to obscure words",
+        "common_prefixes": ["x", "z", "ur", "my", "the", "a"],
+        "examples": ["xfuck", "zshit", "urdamn"]
+      },
+      "suffix_addition": {
+        "description": "Adding suffixes to obscure words",
+        "common_suffixes": ["er", "ing", "ed", "ly", "s", "x", "z"],
+        "examples": ["fucker", "fucking", "damns", "shitx"]
+      }
+    },
+    "phonetic_variations": {
+      "sound_alike": {
+        "description": "Words that sound similar to profanity",
+        "patterns": [
+          "ph -> f sound substitutions",
+          "ck -> k sound substitutions",
+          "double consonant reduction"
+        ],
+        "examples": ["phuck", "fuk", "sht", "dam"]
+      },
+      "vowel_dropping": {
+        "description": "Removing vowels from words",
+        "patterns": ["[bcdfghjklmnpqrstvwxyz]+"],
+        "examples": ["fck", "sht", "dmn", "btch"]
+      }
+    }
+  },
+  "detection_algorithms": {
+    "fuzzy_matching": {
+      "levenshtein_distance": {
+        "description": "Character-level edit distance for similarity",
+        "threshold_recommendations": {
+          "strict": 0.9,
+          "moderate": 0.8,
+          "lenient": 0.7
+        }
+      },
+      "jaro_winkler": {
+        "description": "String similarity metric optimized for typos",
+        "threshold_recommendations": {
+          "strict": 0.85,
+          "moderate": 0.75,
+          "lenient": 0.65
+        }
+      }
+    },
+    "pattern_matching": {
+      "regex_patterns": {
+        "description": "Regular expression patterns for systematic variations",
+        "complexity_levels": ["basic", "intermediate", "advanced"]
+      },
+      "character_mapping": {
+        "description": "Direct character substitution detection",
+        "mapping_confidence": ["high", "medium", "low"]
+      }
+    }
+  },
+  "common_obfuscation_examples": {
+    "leetspeak": [
+      "fu(k -> f*ck, f@ck, f4ck, phuck",
+      "sh1t -> sh!t, $hit, 5h1t",
+      "d4mn -> d@mn, d*mn",
+      "b1tch -> b!tch, 8itch, bi7ch"
+    ],
+    "spacing": [
+      "f u c k",
+      "s h i t",
+      "d a m n",
+      "b-i-t-c-h"
+    ],
+    "repetition": [
+      "fuuuuck",
+      "shiiiit",
+      "dammmn",
+      "bitchhhh"
+    ],
+    "symbols": [
+      "f***",
+      "s***",
+      "d***",
+      "b****"
+    ],
+    "mixed": [
+      "f@u3k",
+      "$h1+",
+      "d4m/n",
+      "8!+ch"
+    ]
+  },
+  "performance_considerations": {
+    "optimization_notes": [
+      "Pre-compile regex patterns for efficiency",
+      "Use trie structures for prefix matching",
+      "Implement caching for repeated phrase analysis",
+      "Consider early termination for obvious non-matches"
+    ],
+    "scaling_recommendations": [
+      "Limit fuzzy matching scope based on string length",
+      "Use progressive filtering (simple to complex patterns)",
+      "Implement confidence scoring to reduce false positives"
+    ]
+  }
+}

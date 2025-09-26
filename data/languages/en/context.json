@@ -1,0 +1,407 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "context_system": {
+    "description": "Context-sensitive word analysis and exception handling for English profanity detection",
+    "methodology": "Multi-layered contextual analysis including semantic, syntactic, and pragmatic considerations",
+    "processing_order": ["whitelist", "context_exceptions", "semantic_analysis", "intent_detection"]
+  },
+  "whitelist": {
+    "description": "Words that should never be flagged as profanity regardless of context",
+    "categories": {
+      "legitimate_words": {
+        "description": "Standard dictionary words that may contain profanity substrings",
+        "words": [
+          "assassin",
+          "assume",
+          "basement",
+          "assistance",
+          "classic",
+          "glasses",
+          "class",
+          "pass",
+          "grass",
+          "mass",
+          "brass",
+          "glass",
+          "bass",
+          "analysis",
+          "massive",
+          "passage",
+          "passenger",
+          "embassy",
+          "ambassador"
+        ]
+      },
+      "proper_nouns": {
+        "description": "Names, places, and proper nouns that may contain flagged substrings",
+        "examples": [
+          "Essex (place name)",
+          "Sussex (place name)",
+          "Massachusetts (state)",
+          "Wessex (historical region)",
+          "Dick (name)",
+          "Peter (name)",
+          "Johnson (surname)"
+        ],
+        "detection_rules": [
+          "Capitalized words at sentence start",
+          "Words preceded by title indicators (Mr., Mrs., Dr.)",
+          "Geographic location patterns"
+        ]
+      },
+      "technical_terms": {
+        "description": "Technical, scientific, or professional terminology",
+        "categories": {
+          "medical": [
+            "angioplasty",
+            "mastectomy",
+            "vasectomy",
+            "biopsy",
+            "proctology"
+          ],
+          "scientific": [
+            "analysis",
+            "synthesis",
+            "hypothesis",
+            "metastasis"
+          ],
+          "legal": [
+            "harassment",
+            "assault",
+            "damages"
+          ],
+          "computing": [
+            "password",
+            "database",
+            "class",
+            "function"
+          ]
+        }
+      },
+      "abbreviations": {
+        "description": "Common abbreviations that may trigger false positives",
+        "examples": [
+          "GPS (Global Positioning System)",
+          "USB (Universal Serial Bus)",
+          "CSS (Cascading Style Sheets)",
+          "RSS (Really Simple Syndication)"
+        ]
+      }
+    }
+  },
+  "context_exceptions": {
+    "educational_contexts": {
+      "description": "Academic or educational discussions about language",
+      "indicators": [
+        "discussing the word",
+        "academic analysis",
+        "linguistic research",
+        "etymology",
+        "dictionary definition",
+        "language study"
+      ],
+      "patterns": [
+        "the word [word]",
+        "term [word]",
+        "[word] means",
+        "definition of [word]",
+        "etymology of [word]"
+      ],
+      "severity_adjustment": -1
+    },
+    "historical_contexts": {
+      "description": "Historical discussions or period-appropriate language",
+      "indicators": [
+        "historical",
+        "period",
+        "century",
+        "historical document",
+        "archive",
+        "museum"
+      ],
+      "considerations": [
+        "Maintain historical accuracy while noting offensive nature",
+        "Provide content warnings for historical slurs",
+        "Consider educational value vs. potential harm"
+      ],
+      "severity_adjustment": -1
+    },
+    "artistic_expression": {
+      "description": "Creative works including literature, music, and performance",
+      "indicators": [
+        "lyrics",
+        "poetry",
+        "novel",
+        "character",
+        "dialogue",
+        "artistic",
+        "creative work"
+      ],
+      "considerations": [
+        "Artistic merit and intent",
+        "Target audience",
+        "Platform guidelines",
+        "Cultural significance"
+      ],
+      "severity_adjustment": -0.5
+    },
+    "medical_scientific": {
+      "description": "Medical or scientific discussions using technical terminology",
+      "indicators": [
+        "medical",
+        "diagnosis",
+        "treatment",
+        "symptom",
+        "condition",
+        "scientific",
+        "research"
+      ],
+      "automatic_whitelist": true,
+      "severity_adjustment": -2
+    },
+    "legal_proceedings": {
+      "description": "Legal documents, court records, or legal discussions",
+      "indicators": [
+        "court",
+        "legal",
+        "testimony",
+        "evidence",
+        "case",
+        "lawsuit",
+        "defendant",
+        "plaintiff"
+      ],
+      "severity_adjustment": -1
+    }
+  },
+  "semantic_analysis": {
+    "intent_detection": {
+      "aggressive_intent": {
+        "description": "Language intended to harm, threaten, or intimidate",
+        "indicators": [
+          "directed at person",
+          "threatening tone",
+          "imperative mood",
+          "repeated targeting"
+        ],
+        "severity_multiplier": 1.5,
+        "examples": [
+          "You are a [profanity]",
+          "Go [profanity] yourself",
+          "[Profanity] you"
+        ]
+      },
+      "casual_usage": {
+        "description": "Profanity used for emphasis without targeting",
+        "indicators": [
+          "exclamatory use",
+          "emphasis",
+          "frustration expression",
+          "non-targeted"
+        ],
+        "severity_multiplier": 0.8,
+        "examples": [
+          "That's [profanity] amazing",
+          "[Profanity], I forgot",
+          "This [profanity] thing won't work"
+        ]
+      },
+      "self_reference": {
+        "description": "Using profanity to describe oneself",
+        "indicators": [
+          "I am",
+          "I'm such a",
+          "I feel like"
+        ],
+        "severity_multiplier": 0.5,
+        "examples": [
+          "I'm such an [profanity]",
+          "I feel like [profanity]"
+        ]
+      }
+    },
+    "target_analysis": {
+      "individual_targeting": {
+        "description": "Profanity directed at specific individuals",
+        "severity_increase": 1,
+        "indicators": [
+          "you are",
+          "direct address",
+          "second person pronouns"
+        ]
+      },
+      "group_targeting": {
+        "description": "Profanity directed at groups or demographics",
+        "severity_increase": 2,
+        "indicators": [
+          "those people",
+          "all [group]",
+          "demographic references"
+        ]
+      },
+      "inanimate_targeting": {
+        "description": "Profanity directed at objects or concepts",
+        "severity_decrease": 1,
+        "indicators": [
+          "this thing",
+          "that [object]",
+          "system",
+          "software"
+        ]
+      }
+    }
+  },
+  "syntactic_patterns": {
+    "grammatical_roles": {
+      "adjective_usage": {
+        "description": "Profanity used as descriptive adjectives",
+        "severity_modifier": 0.9,
+        "examples": [
+          "[profanity] weather",
+          "[profanity] situation"
+        ]
+      },
+      "interjection_usage": {
+        "description": "Profanity used as exclamations",
+        "severity_modifier": 0.7,
+        "examples": [
+          "[Profanity]! I missed the bus",
+          "Well, [profanity]"
+        ]
+      },
+      "noun_usage": {
+        "description": "Profanity used as nouns, potentially targeting",
+        "severity_modifier": 1.2,
+        "examples": [
+          "That [profanity] over there",
+          "Don't be such a [profanity]"
+        ]
+      }
+    },
+    "sentence_position": {
+      "sentence_initial": {
+        "description": "Profanity at the beginning of sentences",
+        "pattern": "^\\s*[profanity]",
+        "severity_modifier": 0.8
+      },
+      "sentence_final": {
+        "description": "Profanity at the end of sentences",
+        "pattern": "[profanity]\\s*[.!?]*$",
+        "severity_modifier": 0.9
+      },
+      "mid_sentence": {
+        "description": "Profanity embedded within sentences",
+        "severity_modifier": 1.0
+      }
+    }
+  },
+  "temporal_context": {
+    "recency_factors": {
+      "repeated_usage": {
+        "description": "Recent repeated use of profanity by same user",
+        "time_window": "24_hours",
+        "severity_multiplier": 1.3
+      },
+      "escalation_patterns": {
+        "description": "Increasing severity of profanity over time",
+        "time_window": "1_hour",
+        "severity_multiplier": 1.5
+      }
+    },
+    "conversation_context": {
+      "ongoing_argument": {
+        "description": "Profanity within heated discussions",
+        "indicators": [
+          "multiple participants",
+          "disagreement markers",
+          "emotional language"
+        ],
+        "severity_multiplier": 1.2
+      },
+      "casual_conversation": {
+        "description": "Profanity in friendly, casual settings",
+        "indicators": [
+          "friendly tone",
+          "familiar participants",
+          "humor indicators"
+        ],
+        "severity_multiplier": 0.8
+      }
+    }
+  },
+  "cultural_considerations": {
+    "regional_variations": {
+      "british_english": {
+        "description": "British English specific considerations",
+        "milder_terms": ["bloody", "bugger", "sod"],
+        "cultural_notes": "Some terms considered milder in British context"
+      },
+      "american_english": {
+        "description": "American English specific considerations",
+        "religious_sensitivity": "Higher sensitivity to religious profanity",
+        "cultural_notes": "Regional variations in acceptability"
+      },
+      "australian_english": {
+        "description": "Australian English specific considerations",
+        "casual_usage": "More casual use of certain terms",
+        "cultural_notes": "Different social acceptability norms"
+      }
+    },
+    "generational_differences": {
+      "younger_users": {
+        "description": "Different profanity norms among younger users",
+        "trends": ["reclaimed slurs", "creative euphemisms", "meme language"]
+      },
+      "older_users": {
+        "description": "Traditional profanity sensitivity patterns",
+        "considerations": ["higher sensitivity", "formal language preference"]
+      }
+    }
+  },
+  "exception_rules": {
+    "automatic_exceptions": [
+      {
+        "rule": "medical_terminology",
+        "description": "Automatic exception for medical terms",
+        "pattern": "medical_context_indicators",
+        "action": "whitelist"
+      },
+      {
+        "rule": "proper_nouns",
+        "description": "Automatic exception for proper nouns",
+        "pattern": "capitalization_patterns",
+        "action": "whitelist"
+      }
+    ],
+    "conditional_exceptions": [
+      {
+        "rule": "educational_context",
+        "description": "Conditional exception for educational discussions",
+        "conditions": ["academic_indicators", "educational_purpose"],
+        "action": "reduce_severity"
+      },
+      {
+        "rule": "artistic_expression",
+        "description": "Conditional exception for artistic works",
+        "conditions": ["creative_context", "artistic_merit"],
+        "action": "reduce_severity"
+      }
+    ]
+  },
+  "implementation_guidelines": {
+    "processing_order": [
+      "Apply whitelist exceptions first",
+      "Check for automatic exceptions",
+      "Analyze semantic context",
+      "Apply conditional exceptions",
+      "Calculate final severity score"
+    ],
+    "confidence_thresholds": {
+      "high_confidence": "Apply full exception",
+      "medium_confidence": "Reduce severity by half",
+      "low_confidence": "Flag for manual review"
+    },
+    "fallback_behavior": "When context is unclear, err on the side of caution with standard severity ratings"
+  }
+}

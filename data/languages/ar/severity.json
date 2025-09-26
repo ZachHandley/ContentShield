@@ -1,0 +1,253 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "severity_system": {
+    "description": "Arabic profanity severity classification considering Islamic values and pan-Arab cultural variations",
+    "methodology": "Based on Islamic jurisprudence, sociolinguistic research across Arabic dialects, and contemporary usage analysis",
+    "cultural_context": "Reflects Islamic religious influence and Arab honor-shame cultural values"
+  },
+  "severity_levels": {
+    "1": {
+      "name": "خفيف (Mild)",
+      "name_en": "Mild",
+      "score_range": "1.0-1.9",
+      "description": "إهانات خفيفة قد تكون مقبولة في بعض السياقات غير الرسمية",
+      "description_en": "Mild insults that may be acceptable in some informal contexts",
+      "social_acceptability": {
+        "male_friends_informal": "cautiously_acceptable",
+        "mixed_company": "inappropriate",
+        "family_casual": "inappropriate",
+        "workplace": "forbidden",
+        "religious_settings": "forbidden"
+      },
+      "examples": ["غبي", "احمق", "بليد"],
+      "cultural_notes": "Still avoided in presence of elders, women, or religious contexts"
+    },
+    "2": {
+      "name": "معتدل (Moderate)",
+      "name_en": "Moderate",
+      "score_range": "2.0-2.9",
+      "description": "لغة خشنة تسبب إساءة معتدلة في معظم السياقات",
+      "description_en": "Coarse language causing moderate offense in most contexts",
+      "social_acceptability": {
+        "male_friends_informal": "limited_acceptance",
+        "mixed_company": "offensive",
+        "family_casual": "forbidden",
+        "workplace": "forbidden",
+        "religious_settings": "forbidden"
+      },
+      "examples": ["كلب", "حمار", "تيز", "خرا"],
+      "cultural_notes": "Causes significant social disapproval, especially from older generations"
+    },
+    "3": {
+      "name": "قوي (Strong)",
+      "name_en": "Strong",
+      "score_range": "3.0-3.9",
+      "description": "لغة مسيئة بشدة تسبب إهانة كبيرة في معظم السياقات",
+      "description_en": "Highly offensive language causing significant offense in most contexts",
+      "social_acceptability": {
+        "male_friends_informal": "very_limited",
+        "mixed_company": "forbidden",
+        "family_casual": "forbidden",
+        "workplace": "forbidden",
+        "religious_settings": "forbidden"
+      },
+      "examples": ["خنزير", "ابن كلب", "زبي", "يلعن ابوك"],
+      "cultural_notes": "Can result in serious social consequences, potential for physical confrontation"
+    },
+    "4": {
+      "name": "شديد (Severe)",
+      "name_en": "Severe",
+      "score_range": "4.0",
+      "description": "لغة مسيئة للغاية، محرمة ومحظورة في جميع السياقات العامة",
+      "description_en": "Extremely offensive language, taboo and forbidden in all public contexts",
+      "social_acceptability": {
+        "all_contexts": "absolutely_forbidden",
+        "private_extreme": "extremely_limited"
+      },
+      "examples": ["كس امك", "شرموطة", "قحبة", "منيوك"],
+      "cultural_notes": "Taboo language that violates fundamental Islamic and Arab cultural values"
+    }
+  },
+  "contextual_factors": {
+    "religious_influence": {
+      "description": "Islamic religious values significantly affect severity perception",
+      "practicing_muslims": {
+        "modifier": "+0.5 to +1.0",
+        "notes": "Higher sensitivity to all profanity, especially religious and sexual content"
+      },
+      "secular_individuals": {
+        "modifier": "-0.2 to -0.3",
+        "notes": "Slightly more tolerant, but still affected by cultural norms"
+      },
+      "religious_content": {
+        "modifier": "+1.0 to +1.5",
+        "notes": "Religious profanity particularly offensive regardless of individual religiosity"
+      }
+    },
+    "regional_variations": {
+      "description": "Significant differences across Arabic-speaking regions",
+      "egypt": {
+        "modifier": "-0.2 to -0.3",
+        "notes": "Relatively more tolerant, strong tradition of colloquial humor",
+        "exceptions": "Religious and family insults still very serious"
+      },
+      "levant_syria_lebanon": {
+        "modifier": "baseline to -0.2",
+        "notes": "Moderate tolerance in urban areas, conservative in rural regions"
+      },
+      "palestine_jordan": {
+        "modifier": "+0.1 to +0.3",
+        "notes": "More conservative due to ongoing conflicts and traditional values"
+      },
+      "gulf_states": {
+        "modifier": "+0.3 to +0.5",
+        "notes": "Very conservative, strong religious influence and tribal values"
+      },
+      "maghreb": {
+        "modifier": "+0.2 to +0.4",
+        "notes": "Conservative with French colonial influence affecting some terms"
+      },
+      "iraq": {
+        "modifier": "+0.1 to +0.3",
+        "notes": "Post-conflict society with mixed conservative and liberal attitudes"
+      }
+    },
+    "generational_differences": {
+      "description": "Significant age-related differences in tolerance and usage",
+      "elderly_60plus": {
+        "modifier": "+0.7 to +1.0",
+        "notes": "Extremely conservative, strong religious influence, traditional values",
+        "gender_expectations": "Much stricter expectations for women"
+      },
+      "middle_aged_40_60": {
+        "modifier": "+0.3 to +0.5",
+        "notes": "Traditional values with some modern flexibility",
+        "context_dependency": "Professional vs personal life distinction important"
+      },
+      "young_adults_20_40": {
+        "modifier": "-0.1 to +0.2",
+        "notes": "More tolerant but still constrained by cultural expectations",
+        "education_factor": "Higher education correlates with slightly more tolerance"
+      },
+      "youth_teenagers": {
+        "modifier": "-0.3 to -0.1",
+        "notes": "Most tolerant generation, influenced by global media",
+        "family_pressure": "Still constrained by family and community expectations"
+      }
+    },
+    "gender_considerations": {
+      "description": "Significant gender differences in both usage permissions and severity perception",
+      "male_speakers": {
+        "modifier": "baseline",
+        "notes": "More social tolerance for male profanity use in appropriate contexts",
+        "limitations": "Still constrained by religious and family honor considerations"
+      },
+      "female_speakers": {
+        "modifier": "+0.5 to +1.0",
+        "notes": "Much higher social stigma for women using profanity",
+        "cultural_expectations": "Expected to maintain linguistic and moral purity",
+        "family_honor": "Female language use reflects on family honor"
+      },
+      "mixed_gender_settings": {
+        "modifier": "+0.7 to +1.0",
+        "notes": "Profanity in mixed gender settings particularly inappropriate"
+      }
+    },
+    "social_class_education": {
+      "description": "Educational and socioeconomic factors affect tolerance",
+      "higher_education": {
+        "modifier": "-0.2 to -0.1",
+        "notes": "Slightly more tolerant, but still culturally constrained",
+        "professional_expectations": "Higher professional standards expected"
+      },
+      "lower_socioeconomic": {
+        "modifier": "-0.1 to +0.1",
+        "notes": "May use more profanity but still sensitive to religious/family insults",
+        "community_pressure": "Strong community social control"
+      },
+      "elite_upper_class": {
+        "modifier": "+0.3 to +0.5",
+        "notes": "Expected to maintain higher linguistic standards",
+        "code_switching": "May use profanity privately but maintain public image"
+      }
+    },
+    "political_context": {
+      "description": "Current political situations affect severity of political profanity",
+      "authoritarian_states": {
+        "modifier": "+1.0 to +2.0 for political content",
+        "notes": "Political profanity can have legal consequences",
+        "surveillance_fear": "Self-censorship due to surveillance concerns"
+      },
+      "conflict_zones": {
+        "modifier": "+0.5 to +1.0",
+        "notes": "Heightened sensitivity to sectarian and ethnic insults",
+        "survival_mode": "Some relaxation of normal social constraints"
+      },
+      "stable_democracies": {
+        "modifier": "+0.1 to +0.3 for political content",
+        "notes": "More political freedom but still cultural constraints"
+      }
+    }
+  },
+  "special_classifications": {
+    "family_honor_attacks": {
+      "description": "Attacks on family honor, particularly mothers and female relatives",
+      "severity_override": "minimum 3.5, often 4.0",
+      "cultural_significance": "Central to Arab honor-shame culture",
+      "social_consequences": "Can lead to serious conflicts, potential violence",
+      "examples": ["كس امك", "يلعن امك", "شرموطة امك"]
+    },
+    "religious_blasphemy": {
+      "description": "Direct blasphemy against Islamic beliefs or figures",
+      "severity_override": "4.0",
+      "religious_significance": "Violates fundamental Islamic principles",
+      "legal_considerations": "Illegal in many Islamic countries",
+      "social_consequences": "Complete social ostracism possible"
+    },
+    "sexual_content": {
+      "description": "Explicit sexual references and anatomical terms",
+      "base_severity": "3.0-4.0",
+      "islamic_modesty": "Violates Islamic requirements for sexual modesty",
+      "gender_impact": "Particularly severe when targeting women",
+      "cultural_taboo": "Fundamental violation of Arab cultural norms"
+    },
+    "forbidden_animal_references": {
+      "description": "References to animals forbidden in Islam (pigs, dogs in some contexts)",
+      "severity_modifier": "+0.5 to +1.0",
+      "religious_basis": "Based on Islamic dietary and purity laws",
+      "examples": ["خنزير", "كلب in insulting context"]
+    }
+  },
+  "usage_guidelines": {
+    "content_filtering": {
+      "family_platforms": "Level 1+ should be filtered",
+      "general_public": "Level 2+ typically requires filtering",
+      "adult_content": "Level 3+ requires warnings and restricted access",
+      "religious_platforms": "All profanity should be filtered"
+    },
+    "age_restrictions": {
+      "under_16": "All profanity inappropriate",
+      "16_21": "Level 1 sometimes acceptable with heavy context consideration",
+      "21_plus": "Context, gender, and family situation dependent"
+    },
+    "cultural_sensitivity_requirements": {
+      "islamic_contexts": "Extreme sensitivity required for religious content",
+      "family_contexts": "Honor-shame culture requires careful family insult handling",
+      "gender_considerations": "Different standards for male vs female users",
+      "political_awareness": "Regional political situations affect appropriate filtering"
+    },
+    "platform_specific": {
+      "educational": "Zero tolerance for profanity",
+      "social_media": "Heavy filtering with cultural awareness",
+      "entertainment": "Context-dependent with strong cultural guidelines",
+      "news_media": "Professional standards with cultural sensitivity"
+    }
+  },
+  "legal_considerations": {
+    "blasphemy_laws": "Many Arab countries have strict blasphemy laws",
+    "honor_protection": "Family honor attacks may have legal implications",
+    "cybercrime_laws": "Online harassment laws increasingly common",
+    "freedom_of_expression": "Varies significantly across different Arab countries"
+  }
+}

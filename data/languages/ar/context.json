@@ -1,0 +1,436 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "context_system": {
+    "description": "Cultural and contextual usage patterns for Arabic profanity across Arab and Islamic societies",
+    "methodology": "Sociolinguistic analysis of Arabic profanity usage across different Arab countries and Islamic cultural contexts"
+  },
+  "cultural_contexts": {
+    "islamic_framework": {
+      "name": "Islamic Religious Framework",
+      "description": "How Islamic teachings and values shape Arabic profanity perception and usage",
+      "key_principles": [
+        "Emphasis on pure speech and avoiding foul language",
+        "Respect for parents and family honor paramount",
+        "Sexual modesty requirements affecting anatomical references",
+        "Prohibition of blasphemy and disrespect toward divine"
+      ],
+      "quranic_influence": [
+        "Quranic emphasis on good speech (qawl kareem)",
+        "Hadith traditions about avoiding offensive language",
+        "Islamic concept of accountability for words spoken",
+        "Community responsibility for moral language standards"
+      ],
+      "contemporary_application": [
+        "Different interpretations across Islamic societies",
+        "Varying levels of religious observance affecting tolerance",
+        "Secular vs religious education influence",
+        "Generational differences in religious adherence"
+      ]
+    },
+    "honor_shame_culture": {
+      "name": "Arab Honor-Shame Cultural System",
+      "description": "Traditional Arab cultural values emphasizing family honor and social reputation",
+      "honor_concepts": [
+        "Family reputation (sum'a) central to social standing",
+        "Male responsibility for family honor protection",
+        "Female behavior reflecting on entire family",
+        "Community enforcement of honor standards"
+      ],
+      "shame_avoidance": [
+        "Public face-saving paramount importance",
+        "Indirect communication to avoid direct confrontation",
+        "Group solidarity versus individual expression",
+        "Collective responsibility for member behavior"
+      ],
+      "linguistic_implications": [
+        "Family insults particularly devastating",
+        "Public vs private language distinctions",
+        "Gender-specific language expectations",
+        "Age and status-based communication protocols"
+      ]
+    },
+    "colonial_postcolonial_impact": {
+      "name": "Colonial and Post-Colonial Linguistic Heritage",
+      "description": "Impact of colonial history on Arabic language attitudes and profanity patterns",
+      "colonial_influence": [
+        "French influence in Maghreb affecting language attitudes",
+        "British influence in Gulf and Levant regions",
+        "European linguistic purism concepts adopted",
+        "Colonial administrative language hierarchies"
+      ],
+      "post_independence": [
+        "Arabic language revival movements",
+        "Rejection of colonial linguistic standards",
+        "Pan-Arab identity through language unity",
+        "Modern Standard Arabic promotion"
+      ],
+      "contemporary_effects": [
+        "Tension between classical and colloquial Arabic",
+        "Foreign language borrowing attitudes",
+        "Educational language policy impacts",
+        "Media language standardization efforts"
+      ]
+    }
+  },
+  "social_contexts": {
+    "male_dominated_spaces": {
+      "description": "Traditional male-only social environments",
+      "characteristics": [
+        "Coffee houses and male social clubs",
+        "Workplace environments (construction, labor)",
+        "Military and police contexts",
+        "Sports and recreational activities"
+      ],
+      "language_patterns": [
+        "Highest tolerance for profanity usage",
+        "Bonding and masculinity demonstration",
+        "Hierarchical usage based on age and status",
+        "Sexual and anatomical references more acceptable"
+      ],
+      "severity_modifiers": {
+        "general_profanity": "-0.5 to -0.8",
+        "sexual_references": "-0.3 to -0.5",
+        "family_insults": "minimal reduction",
+        "religious_blasphemy": "no reduction"
+      },
+      "cultural_functions": [
+        "Male bonding and group solidarity",
+        "Stress relief and emotional expression",
+        "Authority and dominance establishment",
+        "Traditional masculinity performance"
+      ]
+    },
+    "mixed_gender_formal": {
+      "description": "Formal settings with both men and women present",
+      "characteristics": [
+        "Workplace professional environments",
+        "Educational institutions",
+        "Government and official settings",
+        "Mixed social gatherings"
+      ],
+      "language_expectations": [
+        "Extremely high standards for appropriate speech",
+        "Zero tolerance for sexual or anatomical references",
+        "Family insults absolutely forbidden",
+        "Religious sensitivity paramount"
+      ],
+      "severity_modifiers": {
+        "all_profanity": "+1.0 to +1.5",
+        "sexual_content": "+2.0",
+        "family_insults": "+2.0"
+      }
+    },
+    "family_domestic": {
+      "description": "Family and household contexts",
+      "characteristics": [
+        "Extended family gatherings",
+        "Domestic daily interactions",
+        "Child-rearing environments",
+        "Elder care and respect contexts"
+      ],
+      "hierarchical_dynamics": [
+        "Extreme respect required toward elders",
+        "Children expected to use formal respectful language",
+        "Gender-based language role modeling",
+        "Religious education and moral instruction"
+      ],
+      "severity_modifiers": {
+        "in_presence_of_elders": "+1.5 to +2.0",
+        "around_children": "+1.0 to +1.5",
+        "family_insults": "+2.5 (absolutely taboo)"
+      }
+    },
+    "religious_contexts": {
+      "description": "Mosque, religious education, and Islamic contexts",
+      "characteristics": [
+        "Mosque environments and Islamic centers",
+        "Religious education settings",
+        "Islamic holiday and ceremony contexts",
+        "Pilgrimage and religious travel"
+      ],
+      "language_standards": [
+        "Highest possible linguistic purity expected",
+        "Quranic and prophetic language models",
+        "Community moral leadership responsibility",
+        "Teaching and modeling appropriate speech"
+      ],
+      "severity_modifiers": {
+        "all_profanity": "+2.0 to +3.0",
+        "religious_blasphemy": "absolutely forbidden"
+      }
+    },
+    "digital_communication": {
+      "description": "Online and digital communication contexts",
+      "characteristics": [
+        "Social media platforms and messaging",
+        "Online gaming communities",
+        "Digital content creation",
+        "E-commerce and online business"
+      ],
+      "unique_factors": [
+        "Anonymity affecting language choices",
+        "Cross-cultural interaction online",
+        "Platform-specific community norms",
+        "Generational digital divide"
+      ],
+      "severity_modifiers": {
+        "anonymous_contexts": "-0.3 to -0.5",
+        "identified_accounts": "+0.2 to +0.3",
+        "family_visible_content": "+1.0"
+      }
+    },
+    "political_contexts": {
+      "description": "Political discourse and activism environments",
+      "characteristics": [
+        "Political rallies and demonstrations",
+        "Government criticism and opposition",
+        "Sectarian and ethnic tensions",
+        "National and regional conflicts"
+      ],
+      "contextual_factors": [
+        "Authoritarian vs democratic political systems",
+        "Current conflict and tension levels",
+        "Historical grievances and memories",
+        "International relations impacts"
+      ],
+      "severity_modifiers": {
+        "anti_government": "+1.0 to +2.0 in authoritarian contexts",
+        "sectarian_insults": "+1.5 to +2.0",
+        "ethnic_slurs": "+2.0"
+      }
+    }
+  },
+  "regional_contexts": {
+    "egypt": {
+      "cultural_characteristics": [
+        "Strong tradition of humor and comedy",
+        "Relatively more tolerant attitude toward profanity",
+        "Cinema and entertainment industry influence",
+        "Urban-rural divide significant"
+      ],
+      "language_patterns": [
+        "Creative and humorous profanity usage",
+        "Dialectal expressions not understood elsewhere",
+        "Class-based usage variations",
+        "Generational attitude differences"
+      ],
+      "severity_adjustments": "Generally -0.2 to -0.3 except for family/religious insults"
+    },
+    "gulf_states": {
+      "cultural_characteristics": [
+        "Conservative tribal and Bedouin traditions",
+        "Strong Islamic religious influence",
+        "Rapid modernization creating tensions",
+        "Expatriate population affecting dynamics"
+      ],
+      "language_patterns": [
+        "Very conservative profanity attitudes",
+        "Strong family honor emphasis",
+        "Traditional gender role expectations",
+        "Economic status affecting language standards"
+      ],
+      "severity_adjustments": "+0.3 to +0.5 across most categories"
+    },
+    "levant_syria_lebanon": {
+      "cultural_characteristics": [
+        "Diverse religious and ethnic composition",
+        "Historical urban sophistication",
+        "Ongoing political instability effects",
+        "Education and literacy tradition"
+      ],
+      "language_patterns": [
+        "Sophisticated humor and wordplay",
+        "Political sensitivity in language",
+        "Sectarian awareness in communication",
+        "Cross-border dialectal similarities"
+      ],
+      "severity_adjustments": "Baseline to +0.2, with political content higher"
+    },
+    "palestine_jordan": {
+      "cultural_characteristics": [
+        "Ongoing conflict affecting social dynamics",
+        "Strong traditional family structures",
+        "Refugee and displacement experiences",
+        "Resistance culture influences"
+      ],
+      "language_patterns": [
+        "Political language highly charged",
+        "Traditional honor concepts strong",
+        "Educational emphasis on proper Arabic",
+        "Cross-generational trauma effects"
+      ],
+      "severity_adjustments": "+0.1 to +0.3, with ethnic/political content much higher"
+    },
+    "maghreb_north_africa": {
+      "cultural_characteristics": [
+        "French colonial influence on language attitudes",
+        "Berber indigenous language interactions",
+        "Post-independence Arabic revival",
+        "Mediterranean cultural influences"
+      ],
+      "language_patterns": [
+        "French borrowings in profanity",
+        "Dialectal differences from Eastern Arabic",
+        "Urban cosmopolitan vs rural traditional",
+        "National identity through language"
+      ],
+      "severity_adjustments": "+0.2 to +0.4, varying by country and context"
+    },
+    "iraq": {
+      "cultural_characteristics": [
+        "Post-conflict social reconstruction",
+        "Sectarian tensions affecting language",
+        "Historical cultural sophistication",
+        "Economic hardship impacts"
+      ],
+      "language_patterns": [
+        "Political and sectarian sensitivities",
+        "Traditional tribal honor concepts",
+        "Educational system disruption effects",
+        "Generational trauma and adaptation"
+      ],
+      "severity_adjustments": "+0.1 to +0.3, with sectarian content much higher"
+    }
+  },
+  "generational_patterns": {
+    "elderly_60plus": {
+      "characteristics": [
+        "Strong adherence to traditional Islamic and Arab values",
+        "Formal Arabic education emphasis",
+        "Pre-modern communication patterns",
+        "Authority and respect hierarchies"
+      ],
+      "language_attitudes": [
+        "Zero tolerance for profanity in public",
+        "Extreme sensitivity to family honor attacks",
+        "Religious language sensitivity paramount",
+        "Gender-based language expectations strict"
+      ],
+      "severity_perception": "+0.7 to +1.0 across all categories"
+    },
+    "middle_aged_40_60": {
+      "characteristics": [
+        "Bridge generation between traditional and modern",
+        "Professional responsibility awareness",
+        "Family authority and community leadership",
+        "Economic and social stability focus"
+      ],
+      "language_attitudes": [
+        "Context-dependent tolerance",
+        "Professional vs personal distinction",
+        "Children's moral education responsibility",
+        "Community reputation concerns"
+      ],
+      "severity_perception": "+0.3 to +0.5 across most categories"
+    },
+    "young_adults_20_40": {
+      "characteristics": [
+        "Higher education and global exposure",
+        "Social media and internet culture participation",
+        "Economic pressures and modern life challenges",
+        "Traditional vs modern value negotiation"
+      ],
+      "language_attitudes": [
+        "More tolerant but still culturally constrained",
+        "Gender equality attitudes emerging",
+        "Professional context awareness",
+        "Family expectations still influential"
+      ],
+      "severity_perception": "-0.1 to +0.2, varying by education and exposure"
+    },
+    "youth_teenagers": {
+      "characteristics": [
+        "Digital native generation",
+        "Global media and internet influence",
+        "Peer culture and identity formation",
+        "Educational system modern approaches"
+      ],
+      "language_attitudes": [
+        "Most tolerant of all generations",
+        "Creative language adaptation",
+        "Platform-specific communication norms",
+        "Still constrained by family and community"
+      ],
+      "severity_perception": "-0.3 to -0.1, but with strong family/community pressure"
+    }
+  },
+  "special_usage_patterns": {
+    "humor_and_creativity": {
+      "description": "Profanity used for comedic and creative expression",
+      "contexts": [
+        "Egyptian comedy films and television",
+        "Stand-up comedy and entertainment",
+        "Folk humor and storytelling traditions",
+        "Internet memes and viral content"
+      ],
+      "cultural_acceptance": "Higher tolerance for clearly humorous or artistic usage",
+      "severity_reduction": "-0.5 to -1.0 when obviously comedic"
+    },
+    "emotional_expression": {
+      "description": "Profanity as authentic emotional release",
+      "contexts": [
+        "Pain, injury, and shock reactions",
+        "Extreme frustration and anger",
+        "Grief and loss expressions",
+        "Passionate argument participation"
+      ],
+      "cultural_understanding": "Some tolerance for genuine emotional overwhelm",
+      "limitations": "Still constrained by religious and family honor considerations"
+    },
+    "political_resistance": {
+      "description": "Profanity in political protest and resistance",
+      "contexts": [
+        "Anti-government demonstrations",
+        "Social justice movements",
+        "Sectarian conflict expressions",
+        "National liberation struggles"
+      ],
+      "severity_variations": "Highly dependent on political context and regime type",
+      "risk_factors": "Can have serious legal and social consequences"
+    },
+    "religious_taboo_violation": {
+      "description": "Intentional violation of religious language taboos",
+      "contexts": [
+        "Secular intellectual discourse",
+        "Artistic and literary expression",
+        "Political criticism of religious authority",
+        "Personal religious questioning"
+      ],
+      "social_consequences": "Can result in severe social ostracism or legal action",
+      "regional_variations": "Tolerance varies dramatically across different Arab societies"
+    }
+  },
+  "filtering_considerations": {
+    "cultural_sensitivity_requirements": [
+      "Islamic religious values must be considered",
+      "Arab honor-shame culture requires family insult awareness",
+      "Regional political sensitivities affect filtering needs",
+      "Generational differences require flexible approaches"
+    ],
+    "context_dependency_factors": [
+      "Same word vastly different severity by context",
+      "Religious and family contexts require maximum sensitivity",
+      "Political content severity varies by regional situation",
+      "Gender composition affects appropriate filtering levels"
+    ],
+    "platform_specific_considerations": [
+      "Educational platforms require strictest filtering",
+      "Religious platforms need comprehensive profanity blocking",
+      "Social media requires cultural awareness in moderation",
+      "Professional platforms need conservative approach"
+    ],
+    "false_positive_risks": [
+      "Academic research on Arabic linguistics",
+      "Religious studies and Islamic jurisprudence",
+      "Historical and cultural documentation",
+      "Literary analysis and criticism"
+    ],
+    "legal_compliance_requirements": [
+      "Blasphemy laws in many Arab countries",
+      "Cybercrime legislation increasingly common",
+      "Honor protection legal frameworks",
+      "Anti-harassment and online safety laws"
+    ]
+  }
+}

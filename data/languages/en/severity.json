@@ -1,0 +1,149 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "severity_system": {
+    "description": "Four-level severity classification system for English profanity",
+    "methodology": "Based on academic research, social impact assessment, and community standards",
+    "scale_range": [1, 4],
+    "default_severity": 2
+  },
+  "severity_levels": {
+    "1": {
+      "name": "Mild",
+      "description": "Low-impact profanity generally acceptable in casual conversation",
+      "usage_guidelines": {
+        "filtering_recommendation": "Optional filtering, context-dependent",
+        "content_rating": "May appear in PG-13 or teen-rated content",
+        "workplace_appropriateness": "Generally inappropriate in formal business settings",
+        "educational_context": "May be acceptable in certain educational discussions"
+      },
+      "characteristics": [
+        "Common in everyday speech",
+        "Low social stigma",
+        "Rarely causes significant offense",
+        "Often used for emphasis rather than targeting"
+      ],
+      "examples_categories": [
+        "damn",
+        "hell",
+        "crap",
+        "piss",
+        "ass (mild usage)"
+      ],
+      "legal_status": "Generally not subject to broadcast restrictions in most jurisdictions",
+      "social_impact": "Minimal to low impact on recipients"
+    },
+    "2": {
+      "name": "Moderate",
+      "description": "Moderate profanity inappropriate in professional and many social contexts",
+      "usage_guidelines": {
+        "filtering_recommendation": "Recommended filtering in professional and family contexts",
+        "content_rating": "Typically requires R rating or mature content warning",
+        "workplace_appropriateness": "Generally unacceptable in workplace environments",
+        "educational_context": "May be discussed in academic contexts with appropriate warnings"
+      },
+      "characteristics": [
+        "Widely recognized as profane",
+        "Moderate social stigma",
+        "May cause offense in formal settings",
+        "Common in informal adult conversation"
+      ],
+      "examples_categories": [
+        "shit",
+        "bitch (context-dependent)",
+        "bastard",
+        "pussy (non-sexual context)"
+      ],
+      "legal_status": "Subject to broadcast restrictions during certain hours",
+      "social_impact": "Moderate impact, may cause discomfort or offense"
+    },
+    "3": {
+      "name": "Strong",
+      "description": "Strong profanity highly offensive and inappropriate in most contexts",
+      "usage_guidelines": {
+        "filtering_recommendation": "Strong recommendation for filtering in most contexts",
+        "content_rating": "Requires explicit content warnings or mature ratings",
+        "workplace_appropriateness": "Unacceptable and may violate harassment policies",
+        "educational_context": "Only appropriate in specialized academic research contexts"
+      },
+      "characteristics": [
+        "Highly offensive to many people",
+        "Significant social stigma",
+        "May violate community standards",
+        "Often targeting or sexually explicit"
+      ],
+      "examples_categories": [
+        "fuck and variants",
+        "motherfucker",
+        "cocksucker",
+        "Gender-based slurs"
+      ],
+      "legal_status": "Generally prohibited in broadcast media and may violate platform terms",
+      "social_impact": "High impact, likely to cause offense and may create hostile environments"
+    },
+    "4": {
+      "name": "Severe",
+      "description": "Extreme profanity with severe social impact, potentially illegal or harmful",
+      "usage_guidelines": {
+        "filtering_recommendation": "Mandatory filtering in virtually all contexts",
+        "content_rating": "Prohibited in most commercial content platforms",
+        "workplace_appropriateness": "Grounds for disciplinary action or termination",
+        "educational_context": "Only appropriate in highly specialized academic research with strict ethical oversight"
+      },
+      "characteristics": [
+        "Extremely offensive and harmful",
+        "Targets individuals or groups based on identity",
+        "May constitute hate speech or harassment",
+        "Can cause significant psychological harm"
+      ],
+      "examples_categories": [
+        "Racial slurs (n-word, etc.)",
+        "Extreme sexual violence references",
+        "Genocide-related terms",
+        "Identity-based hate speech"
+      ],
+      "legal_status": "May constitute hate speech, harassment, or threats under various jurisdictions",
+      "social_impact": "Severe impact, may cause trauma, perpetuate discrimination, or incite violence"
+    }
+  },
+  "contextual_modifiers": {
+    "intent_factors": {
+      "targeting": "Words directed at individuals or groups increase severity",
+      "harassment": "Repeated or systematic use increases severity",
+      "threat_implication": "Words implying threats or violence increase severity"
+    },
+    "context_factors": {
+      "public_forum": "Public contexts may increase severity impact",
+      "power_dynamics": "Authority figures using profanity may increase severity",
+      "vulnerable_populations": "Targeting vulnerable groups increases severity"
+    },
+    "mitigating_factors": {
+      "self_reference": "Self-directed profanity may have reduced severity",
+      "artistic_expression": "Creative contexts may justify lower severity ratings",
+      "educational_discourse": "Academic discussion may warrant contextual consideration"
+    }
+  },
+  "implementation_guidelines": {
+    "escalation_rules": [
+      "Multiple severity 2+ words in single message upgrade overall severity",
+      "Combination with targeting language increases severity by 1 level",
+      "Repeated violations within timeframe increase effective severity"
+    ],
+    "de_escalation_considerations": [
+      "Historical or academic context may reduce effective severity",
+      "Clear non-malicious intent may warrant severity reduction",
+      "Community standards and cultural context should be considered"
+    ],
+    "special_cases": {
+      "medical_terminology": "Medical or scientific terms generally not subject to severity ratings",
+      "reclaimed_language": "Some communities may reclaim certain terms, requiring contextual analysis",
+      "cross_linguistic": "Borrowed words from other languages may require special consideration"
+    }
+  },
+  "update_protocol": {
+    "review_frequency": "Quarterly review recommended",
+    "community_feedback": "User reports and community input should inform severity adjustments",
+    "academic_updates": "New research on language harm should trigger severity reviews",
+    "cultural_shifts": "Evolving social norms may require severity recalibration"
+  }
+}

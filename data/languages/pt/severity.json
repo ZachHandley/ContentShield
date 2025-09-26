@@ -1,0 +1,235 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "severity_system": {
+    "description": "Portuguese profanity severity classification considering Lusophone cultural variations",
+    "methodology": "Based on sociolinguistic research across Portuguese-speaking countries and contemporary usage patterns",
+    "cultural_context": "Reflects regional differences between Brazil, Portugal, and African Portuguese-speaking nations"
+  },
+  "severity_levels": {
+    "1": {
+      "name": "Leve (Mild)",
+      "name_en": "Mild",
+      "score_range": "1.0-1.9",
+      "description": "Palavrões leves, aceitáveis em ambientes informais",
+      "description_en": "Mild swear words acceptable in informal settings",
+      "social_acceptability": {
+        "informal_friends": "acceptable",
+        "family_casual": "cautious",
+        "workplace": "inappropriate",
+        "public_media": "filtered",
+        "educational": "forbidden"
+      },
+      "examples": ["droga", "raios", "caramba", "peste"],
+      "cultural_notes": "These words are often used without serious intent to offend and may be acceptable in casual conversation"
+    },
+    "2": {
+      "name": "Moderado (Moderate)",
+      "name_en": "Moderate",
+      "score_range": "2.0-2.9",
+      "description": "Linguagem grosseira, inadequada na maioria das situações públicas",
+      "description_en": "Coarse language inappropriate in most public situations",
+      "social_acceptability": {
+        "informal_friends": "acceptable",
+        "family_casual": "inappropriate",
+        "workplace": "offensive",
+        "public_media": "censored",
+        "educational": "forbidden"
+      },
+      "examples": ["merda", "cu", "cacete", "otário"],
+      "cultural_notes": "Vulgar but widely used; causes moderate offense in mixed company"
+    },
+    "3": {
+      "name": "Forte (Strong)",
+      "name_en": "Strong",
+      "score_range": "3.0-3.9",
+      "description": "Palavrões fortes, altamente ofensivos na maioria dos contextos",
+      "description_en": "Strong profanity, highly offensive in most contexts",
+      "social_acceptability": {
+        "informal_friends": "limited",
+        "family_casual": "offensive",
+        "workplace": "forbidden",
+        "public_media": "heavily_censored",
+        "educational": "forbidden"
+      },
+      "examples": ["caralho", "porra", "foder", "puta"],
+      "cultural_notes": "Strong profanity that causes significant social offense, especially in formal contexts"
+    },
+    "4": {
+      "name": "Severo (Severe)",
+      "name_en": "Severe",
+      "score_range": "4.0",
+      "description": "Linguagem extremamente ofensiva, tabu no discurso público",
+      "description_en": "Extremely offensive language, taboo in public discourse",
+      "social_acceptability": {
+        "informal_friends": "very_limited",
+        "family_casual": "forbidden",
+        "workplace": "forbidden",
+        "public_media": "forbidden",
+        "educational": "forbidden"
+      },
+      "examples": ["filho da puta", "hate speech", "racial slurs"],
+      "cultural_notes": "Hate speech and extremely vulgar terms; may result in social or legal consequences"
+    }
+  },
+  "contextual_factors": {
+    "regional_variations": {
+      "description": "Geographic location significantly affects severity perception",
+      "brazil": {
+        "modifier": "-0.3 to -0.5",
+        "notes": "Generally more tolerant of profanity, especially anatomical references",
+        "exceptions": "Religious contexts still conservative"
+      },
+      "portugal": {
+        "modifier": "baseline",
+        "notes": "More traditional approach to profanity",
+        "regional_differences": "Northern regions more conservative than Lisbon"
+      },
+      "angola": {
+        "modifier": "+0.2 to +0.3",
+        "notes": "More conservative due to cultural mixing and colonial legacy",
+        "local_influence": "Portuguese mixed with local language taboos"
+      },
+      "mozambique": {
+        "modifier": "+0.3 to +0.4",
+        "notes": "Conservative approach, strong community values",
+        "cultural_factors": "Islamic influence in northern regions increases sensitivity"
+      }
+    },
+    "generational_differences": {
+      "description": "Age significantly affects both usage and perception",
+      "young_adults_18_30": {
+        "modifier": "-0.4",
+        "notes": "Much more tolerant, especially of anatomical references",
+        "digital_influence": "Internet culture normalizes many terms"
+      },
+      "middle_aged_30_60": {
+        "modifier": "baseline",
+        "notes": "Traditional attitudes with some modern flexibility"
+      },
+      "elderly_60plus": {
+        "modifier": "+0.5 to +0.7",
+        "notes": "Very conservative, strong religious influence",
+        "gender_expectations": "Especially strict expectations for women"
+      }
+    },
+    "gender_considerations": {
+      "description": "Gender affects both usage permissions and severity perception",
+      "female_speakers": {
+        "modifier": "+0.3 across all categories",
+        "notes": "Higher social stigma for women using strong profanity",
+        "exceptions": "Younger urban women face less stigma"
+      },
+      "male_speakers": {
+        "modifier": "baseline",
+        "notes": "More social tolerance for male profanity use"
+      },
+      "machismo_culture": {
+        "modifier": "varies",
+        "notes": "Traditional gender roles affect both usage and perception"
+      }
+    },
+    "socioeconomic_factors": {
+      "description": "Social class affects profanity tolerance and usage",
+      "upper_class": {
+        "modifier": "+0.3 to +0.5",
+        "notes": "Expected to maintain higher linguistic standards",
+        "exceptions": "Private informal settings more tolerant"
+      },
+      "middle_class": {
+        "modifier": "baseline",
+        "notes": "Balanced approach, context-dependent"
+      },
+      "working_class": {
+        "modifier": "-0.2 to -0.3",
+        "notes": "More tolerant of profanity in daily communication"
+      }
+    },
+    "religious_influence": {
+      "description": "Catholic heritage affects profanity perception",
+      "practicing_catholics": {
+        "modifier": "+0.5",
+        "notes": "Religious profanity especially offensive",
+        "regional_strength": "Stronger in rural areas and older generations"
+      },
+      "secular_individuals": {
+        "modifier": "-0.2",
+        "notes": "Less sensitivity to religious profanity"
+      }
+    },
+    "media_context": {
+      "description": "Media platform affects acceptable language levels",
+      "television_radio": {
+        "brazil": "More permissive, Level 2 sometimes acceptable",
+        "portugal": "More conservative, Level 1 maximum",
+        "primetime_restrictions": "Stricter during family viewing hours"
+      },
+      "internet_social_media": {
+        "modifier": "-0.5",
+        "notes": "Much more permissive, platform-specific rules apply",
+        "user_control": "Individual filtering preferences available"
+      },
+      "print_media": {
+        "modifier": "+0.2",
+        "notes": "More conservative approach, asterisk censoring common"
+      }
+    }
+  },
+  "special_classifications": {
+    "anatomical_references_brazil": {
+      "description": "Brazilian Portuguese has unique tolerance for anatomical terms",
+      "words": ["cu", "pinto", "buceta"],
+      "severity_reduction": "-0.5 to -1.0 in Brazil",
+      "cultural_significance": "Part of everyday informal communication",
+      "media_acceptance": "Often uncensored in comedy and casual media"
+    },
+    "hate_speech": {
+      "severity_override": 4,
+      "legal_considerations": "May violate anti-discrimination laws in Brazil and Portugal",
+      "social_consequences": "Can result in social ostracism and legal action",
+      "categories": ["racial_ethnic", "lgbtq_slurs", "severe_gender_discrimination"]
+    },
+    "compound_insults": {
+      "description": "Multi-word insults often more severe than components",
+      "examples": ["filho da puta", "vai se foder"],
+      "severity_modifier": "+0.5 to +1.0",
+      "cultural_impact": "Compound forms carry extra emotional weight"
+    },
+    "religious_profanity": {
+      "description": "Religious references in profanity context",
+      "regional_variation": "Much stronger reaction in rural and religious communities",
+      "examples": ["Jesus Cristo", "Virgem Maria"],
+      "context_dependency": "Severity depends heavily on speaker's intent and audience"
+    }
+  },
+  "usage_guidelines": {
+    "content_filtering": {
+      "family_platforms": "Level 2+ should be filtered",
+      "general_public": "Level 3+ typically requires filtering",
+      "adult_content": "All levels may be acceptable with warnings",
+      "educational": "Only Level 1 acceptable, with pedagogical justification"
+    },
+    "age_restrictions": {
+      "under_13": "All profanity inappropriate",
+      "13_17": "Level 1 sometimes acceptable with context",
+      "18_plus": "Context and platform dependent"
+    },
+    "workplace_policies": {
+      "professional_environment": "Level 2+ typically violates conduct policies",
+      "creative_industries": "More tolerance, but context matters",
+      "blue_collar": "Higher tolerance in some manual labor contexts"
+    },
+    "broadcasting_standards": {
+      "brazil": {
+        "television": "Level 2 sometimes acceptable after 10 PM",
+        "radio": "Level 1 maximum, context dependent",
+        "streaming": "Platform-specific policies apply"
+      },
+      "portugal": {
+        "television": "Level 1 maximum, heavily regulated",
+        "radio": "Very conservative approach",
+        "online": "More flexibility but still regulated"
+      }
+    }
+  }
+}

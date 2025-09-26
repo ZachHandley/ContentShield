@@ -1,0 +1,392 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "variation_system": {
+    "description": "Hindi profanity variations including Devanagari script handling, romanization patterns, and Hinglish mixing",
+    "methodology": "Comprehensive analysis of Hindi digital communication, regional dialects, and English-Hindi code-switching patterns"
+  },
+  "variation_types": {
+    "devanagari_script_variations": {
+      "description": "Variations within Devanagari script including different spellings and character alternatives",
+      "orthographic_variants": {
+        "description": "Different ways to spell the same word in Devanagari",
+        "examples": {
+          "मादरचोद": ["मैडरचोद", "मदरचोद", "मात्रचोद"],
+          "भोसड़ी": ["भोसड़ी", "भोसरी", "भोसड़ा"],
+          "गांडू": ["गांडु", "गन्डु", "गांडू"],
+          "चूतिया": ["चुतिया", "चूतीया", "चुत्तिया"]
+        }
+      },
+      "character_substitutions": {
+        "description": "Using different Devanagari characters with similar pronunciation",
+        "examples": {
+          "द/ड confusion": "मादरचोद vs माडरचोड",
+          "त/ट variations": "कुत्ता vs कुट्टा",
+          "vowel_variations": "चुतिया vs चूतिया"
+        }
+      },
+      "conjunct_consonant_alternatives": {
+        "description": "Different ways to write conjunct consonants",
+        "examples": {
+          "क्क vs क्": "Different ways to show consonant clusters",
+          "halant_usage": "Explicit halant vs implied consonant clusters"
+        }
+      }
+    },
+    "romanization_systems": {
+      "description": "Various systems for writing Hindi profanity in Latin script",
+      "academic_transliteration": {
+        "description": "Scholarly romanization systems",
+        "examples": {
+          "मादरचोद": "mādarcod (with diacritics)",
+          "भोसड़ी": "bhoṣaṛī (academic style)",
+          "हरामी": "harāmī (proper vowel marking)"
+        }
+      },
+      "internet_hindi": {
+        "description": "Common internet and SMS romanization without diacritics",
+        "examples": {
+          "मादरचोद": "madarchod, madarchod, madrchod",
+          "बहनचोद": "bahenchod, bhanchod, bhnchod",
+          "गांडू": "gandu, gaandu, gandoo",
+          "चूतिया": "chutiya, chutia, chootiya"
+        }
+      },
+      "phonetic_approximations": {
+        "description": "Romanizations based on actual pronunciation",
+        "regional_pronunciation": {
+          "northern_hindi": {
+            "examples": {
+              "गांडू": "gandoo (long 'oo' sound)",
+              "लौड़ा": "lauda (diphthong representation)"
+            }
+          },
+          "bihar_eastern": {
+            "examples": {
+              "कुत्ता": "kutta (clear 't' sounds)",
+              "चूतिया": "chutiya (eastern pronunciation)"
+            }
+          }
+        }
+      }
+    },
+    "hinglish_code_switching": {
+      "description": "Hindi-English mixing patterns in profanity usage",
+      "direct_mixing": {
+        "description": "Direct combination of Hindi and English profanity",
+        "examples": {
+          "fucking_madarchod": "Fucking मादरचोद",
+          "bloody_saala": "Bloody साला",
+          "damn_chutiya": "Damn चूतिया"
+        }
+      },
+      "grammatical_mixing": {
+        "description": "Using English grammar with Hindi profanity or vice versa",
+        "examples": {
+          "english_structure": "He is such a chutiya",
+          "hindi_structure": "वो बड़ा asshole है",
+          "verb_mixing": "Stop being गांडू"
+        }
+      },
+      "abbreviation_mixing": {
+        "description": "Using abbreviations from both languages",
+        "examples": {
+          "mc": "मादरचोद (madarchod)",
+          "bc": "बहनचोद (bahenchod)",
+          "wtf_yaar": "WTF यार",
+          "omg_bhenchod": "OMG भेनचोद"
+        }
+      },
+      "contextual_switching": {
+        "description": "Switching languages based on social context",
+        "formal_english": "Using English profanity in formal settings",
+        "casual_hindi": "Using Hindi profanity in casual settings",
+        "family_avoidance": "Switching to English to avoid family understanding"
+      }
+    },
+    "symbol_substitution": {
+      "description": "Character replacement with symbols, numbers, or asterisks",
+      "devanagari_censoring": {
+        "description": "Censoring Devanagari text with symbols",
+        "examples": {
+          "मादरचोद": "मा*रचोद, म***चोद, मा@रचोद",
+          "भोसड़ी": "भो*ड़ी, भ***ी, भोस@ी",
+          "चूतिया": "चू*या, च***या, चू@या"
+        }
+      },
+      "romanized_censoring": {
+        "description": "Censoring romanized Hindi with symbols and numbers",
+        "examples": {
+          "madarchod": "m@d@rch0d, m***chod, mad@rchod",
+          "bhosadi": "bh0s@di, bh***di, bhos@di",
+          "gandu": "g@ndu, g***u, gand00"
+        }
+      },
+      "creative_obfuscation": {
+        "description": "Creative ways to hide profanity while maintaining recognition",
+        "examples": {
+          "number_substitution": "Using numbers that look like letters",
+          "keyboard_symbols": "Using keyboard symbols creatively",
+          "spacing_tricks": "m a d a r c h o d (spaced out)"
+        }
+      }
+    },
+    "abbreviation_patterns": {
+      "description": "Common abbreviations used in digital communication",
+      "consonant_abbreviations": {
+        "description": "Removing vowels, keeping consonants",
+        "examples": {
+          "मादरचोद": "mdrchd",
+          "बहनचोद": "bhnchd",
+          "चूतिया": "cty"
+        }
+      },
+      "initial_abbreviations": {
+        "description": "Using first letters of words",
+        "examples": {
+          "मादरचोद": "mc",
+          "बहनचोद": "bc",
+          "बेहनचोद": "bhc"
+        }
+      },
+      "compound_abbreviations": {
+        "description": "Abbreviating compound profanity expressions",
+        "examples": {
+          "भोसड़ी के": "bk",
+          "रंडी रोना": "rr",
+          "गांडू आदमी": "ga"
+        }
+      }
+    },
+    "regional_dialectal": {
+      "description": "Regional variations in pronunciation and vocabulary",
+      "bihar_eastern": {
+        "pronunciation_variants": {
+          "examples": {
+            "बकचोद": "bakchod (Bihar variant of nonsense talker)",
+            "गंवार": "ganwaar (rural/uncouth person)"
+          }
+        }
+      },
+      "punjabi_influence": {
+        "borrowed_terms": {
+          "examples": {
+            "बेहनचोद": "behnchod (Punjabi influenced pronunciation)",
+            "पुत्त": "putt (son, sometimes used insultingly)"
+          }
+        }
+      },
+      "up_central": {
+        "distinctive_terms": {
+          "examples": {
+            "लफंगा": "lafanga (hooligan, UP specific)",
+            "अवारा": "aawara (vagrant, widely used)"
+          }
+        }
+      },
+      "delhi_urban": {
+        "metropolitan_variants": {
+          "examples": {
+            "भड़वा": "bhadwa (pimp, Delhi common)",
+            "रांड": "raand (derogatory for women, Delhi usage)"
+          }
+        }
+      }
+    },
+    "generational_variations": {
+      "description": "How different generations adapt and use profanity",
+      "traditional_forms": {
+        "characteristics": [
+          "Full pronunciation without abbreviation",
+          "Formal Devanagari script usage",
+          "Religious alternatives when frustrated",
+          "Euphemistic replacements"
+        ],
+        "examples": {
+          "धिक्कार": "dhikkar (traditional curse)",
+          "अरे राम": "are ram (mild religious exclamation)"
+        }
+      },
+      "modern_youth": {
+        "characteristics": [
+          "Heavy abbreviation and symbol use",
+          "English-Hindi mixing common",
+          "Creative obfuscation for social media",
+          "Meme culture adaptations"
+        ],
+        "examples": {
+          "sus": "Suspicious (borrowed from English)",
+          "cringe": "Direct English adoption",
+          "based": "Positive term from internet culture"
+        }
+      },
+      "digital_natives": {
+        "characteristics": [
+          "Platform-specific adaptations",
+          "Emoji and GIF usage with profanity",
+          "Voice message profanity to avoid text filters",
+          "Creative Unicode character usage"
+        ]
+      }
+    },
+    "platform_specific_adaptations": {
+      "description": "How profanity adapts to different digital platforms",
+      "whatsapp": {
+        "characteristics": [
+          "Voice messages to avoid text detection",
+          "Family group appropriate alternatives",
+          "Regional language mixing",
+          "Emoji substitutions"
+        ]
+      },
+      "instagram_facebook": {
+        "characteristics": [
+          "Visual text to avoid algorithm detection",
+          "Story-specific temporary profanity",
+          "Comment censoring creativity",
+          "Hashtag profanity disguising"
+        ]
+      },
+      "twitter": {
+        "characteristics": [
+          "Character limit encouraging abbreviations",
+          "Thread profanity continuations",
+          "Trending hashtag profanity",
+          "Reply chain escalations"
+        ]
+      },
+      "youtube_comments": {
+        "characteristics": [
+          "Creative spacing to avoid deletion",
+          "Regional script mixing",
+          "Time-stamp based profanity",
+          "Community-specific terms"
+        ]
+      }
+    },
+    "euphemistic_substitutions": {
+      "description": "Milder alternatives and indirect references",
+      "religious_alternatives": {
+        "description": "Religious expressions used instead of profanity",
+        "examples": {
+          "हे भगवान": "he bhagwan (oh god - instead of strong curse)",
+          "राम राम": "ram ram (religious greeting, mild frustration)",
+          "अरे बाप रे": "are baap re (oh father - mild shock)"
+        }
+      },
+      "creative_substitutions": {
+        "description": "Creative alternatives that reference original",
+        "examples": {
+          "mother_lover": "English euphemism for मादरचोद",
+          "sister_lover": "English euphemism for बहनचोद",
+          "behind_person": "English euphemism for गांडू"
+        }
+      },
+      "bollywood_influenced": {
+        "description": "Film industry acceptable alternatives",
+        "examples": {
+          "कुत्ते कमीने": "kutte kamine (dogs and scoundrels)",
+          "हरामजादे": "haramzade (bastards - film acceptable)",
+          "साले साब": "saale saab (brother-in-law sir - playful)"
+        }
+      }
+    }
+  },
+  "script_handling_considerations": {
+    "devanagari_complexities": {
+      "description": "Technical challenges specific to Devanagari script",
+      "conjunct_consonants": {
+        "issue": "Combined consonants create different visual forms",
+        "examples": {
+          "क्त": "kta combination creates unique glyph",
+          "द्र": "dra combination in मादरचोद"
+        }
+      },
+      "vowel_matras": {
+        "issue": "Vowel marks attach to consonants, affecting recognition",
+        "examples": {
+          "मा": "ma with aa-matra",
+          "ची": "chi with ii-matra"
+        }
+      },
+      "zero_width_joiners": {
+        "issue": "Invisible characters affect word formation",
+        "usage": "Used to force or prevent consonant joining"
+      }
+    },
+    "unicode_normalization": {
+      "description": "Different Unicode representations of same text",
+      "precomposed_vs_composed": {
+        "issue": "Same visual result, different Unicode sequences",
+        "examples": {
+          "मां": "Can be म + ाँ or precomposed character",
+          "की": "Can be क + ी or precomposed"
+        }
+      },
+      "font_dependent_rendering": {
+        "issue": "Same Unicode renders differently in different fonts",
+        "impact": "Affects visual recognition and filtering"
+      }
+    }
+  },
+  "detection_challenges": {
+    "linguistic_complexity": [
+      "Hindi morphology creates numerous word variations",
+      "Compound word formation affects recognition",
+      "Regional dialect variations significant",
+      "Devanagari script joining rules complex"
+    ],
+    "cultural_context": [
+      "Same word different severity by region and religion",
+      "Family context dramatically changes severity",
+      "Generational differences in perception",
+      "Caste and class implications vary"
+    ],
+    "technical_challenges": [
+      "Devanagari Unicode normalization required",
+      "Conjunct consonant handling",
+      "Romanization variation patterns enormous",
+      "Hinglish mixing creates hybrid expressions",
+      "Font-dependent rendering issues"
+    ],
+    "evolving_patterns": [
+      "Bollywood influence constantly changing terms",
+      "Social media creating new abbreviation patterns",
+      "Generational language evolution accelerating",
+      "English influence growing in urban areas"
+    ]
+  },
+  "filtering_recommendations": {
+    "script_normalization": [
+      "Unicode normalization (NFD/NFC) for Devanagari",
+      "Vowel mark normalization",
+      "Conjunct consonant standardization",
+      "Zero-width character removal"
+    ],
+    "romanization_handling": [
+      "Multiple romanization system support",
+      "Phonetic variation matching",
+      "Abbreviation pattern recognition",
+      "Hinglish mixing detection"
+    ],
+    "cultural_awareness": [
+      "Regional severity adjustment",
+      "Religious context sensitivity",
+      "Family honor special handling",
+      "Caste discrimination zero tolerance"
+    ],
+    "contextual_filtering": [
+      "Platform-specific adaptation",
+      "Age-appropriate filtering",
+      "Educational content exceptions",
+      "Artistic and literary context consideration"
+    ],
+    "false_positive_mitigation": [
+      "Academic Hindi linguistic research",
+      "Religious and philosophical texts",
+      "Historical literature and poetry",
+      "Language education materials",
+      "Bollywood and entertainment industry content"
+    ]
+  }
+}

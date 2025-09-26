@@ -1,0 +1,178 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "es",
+  "category_system": {
+    "description": "Spanish profanity categorization considering regional variations and cultural context",
+    "methodology": "Based on Spanish sociolinguistic research and regional usage patterns"
+  },
+  "categories": {
+    "general": {
+      "name": "Profanidad General",
+      "description": "Common swear words and mild expletives without specific targeting",
+      "examples_note": "Basic profanity used for emphasis or frustration",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "exclamatory": "Words used for emphasis (carajo, joder)",
+        "bodily_functions": "References to bodily functions (cagar, mear)",
+        "mild_curses": "Common curse words (mierda, coño)"
+      }
+    },
+    "sexual": {
+      "name": "Contenido Sexual",
+      "description": "Words related to sexual acts, anatomy, or sexually explicit content",
+      "examples_note": "Sexual references and explicit terminology",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "anatomy": "Sexual body parts and references (verga, coño, culo)",
+        "acts": "References to sexual activities (chingar, coger)",
+        "explicit": "Graphic sexual terminology",
+        "prostitution": "Terms related to sex work (puta, prostituta)"
+      }
+    },
+    "slurs": {
+      "name": "Insultos y Términos Despectivos",
+      "description": "Derogatory terms targeting specific groups or individuals",
+      "examples_note": "Offensive terms for groups and individuals",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "personal_attacks": "Individual targeting (pendejo, cabrón, boludo)",
+        "intelligence": "Intelligence-based insults (idiota, tonto)",
+        "behavior": "Behavior-based insults (mamón, culero)",
+        "appearance": "Physical appearance insults (feo, gordo usado as slurs)"
+      }
+    },
+    "lgbtq": {
+      "name": "Slurs Anti-LGBTQ+",
+      "description": "Derogatory terms targeting LGBTQ+ individuals",
+      "examples_note": "Homophobic and transphobic language",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "homophobic": "Anti-gay slurs (maricón, joto, puto)",
+        "lesbian": "Anti-lesbian slurs (tortillera, machorra)",
+        "transphobic": "Anti-transgender slurs",
+        "gender_nonconforming": "Terms targeting gender expression"
+      }
+    },
+    "racial": {
+      "name": "Insultos Raciales",
+      "description": "Racially charged language and ethnic slurs",
+      "examples_note": "Race-based discriminatory language",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "skin_color": "Color-based discrimination (negro used pejoratively)",
+        "ethnic_origins": "Ethnicity-based slurs",
+        "indigenous": "Anti-indigenous slurs (indio used pejoratively)",
+        "foreign": "Anti-foreigner slurs (gringo, sudaca)"
+      }
+    },
+    "ethnic": {
+      "name": "Insultos Étnicos",
+      "description": "Ethnicity-based discriminatory language",
+      "examples_note": "Targeting specific ethnic groups",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "nationality": "Nationality-based slurs (sudaca, polaco)",
+        "immigration": "Anti-immigrant language",
+        "cultural": "Cultural stereotype slurs",
+        "regional": "Regional discrimination within Spanish-speaking countries"
+      }
+    },
+    "religious": {
+      "name": "Profanidad Religiosa",
+      "description": "Blasphemous or sacrilegious language targeting religious beliefs",
+      "examples_note": "Religious curses and blasphemous language",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "christian": "Anti-Christian blasphemy (me cago en Dios)",
+        "catholic": "Anti-Catholic references",
+        "sacred": "Profaning sacred concepts (hostia, cristo)",
+        "saints": "Inappropriate saint references"
+      }
+    },
+    "violence": {
+      "name": "Violencia y Agresión",
+      "description": "Words promoting or describing violence, threats, or aggressive behavior",
+      "examples_note": "Violent language and threats",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "threats": "Direct or implied threats of harm (te mato)",
+        "weapons": "References to weapons in threatening context",
+        "physical_harm": "Descriptions of violence or harm",
+        "death_wishes": "Expressions wishing harm or death (que te mueras)"
+      }
+    },
+    "scatological": {
+      "name": "Escatológico",
+      "description": "References to bodily waste and bathroom functions",
+      "examples_note": "Toilet humor and waste references",
+      "severity_range": [1, 2],
+      "subcategories": {
+        "waste": "References to feces (mierda, caca)",
+        "urination": "Urination references (mear, meada)",
+        "bathroom": "Bathroom and bodily function humor",
+        "crude_anatomy": "Crude references to body parts involved"
+      }
+    },
+    "body_parts": {
+      "name": "Partes del Cuerpo Inapropiadas",
+      "description": "Crude or inappropriate references to body parts",
+      "examples_note": "Anatomical terms used inappropriately or crudely",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "genitalia": "Male genitalia (verga, polla, pito)",
+        "female_anatomy": "Female genitalia (coño, chocho)",
+        "buttocks": "Rear anatomy (culo, nalgas)",
+        "breasts": "Breast references (tetas, chichonas)"
+      }
+    }
+  },
+  "severity_mapping": {
+    "1": {
+      "level": "Leve",
+      "description": "Generally acceptable in casual conversation but may be filtered in formal settings",
+      "typical_categories": ["scatological.waste", "religious.sacred", "general.exclamatory"],
+      "cultural_notes": "Often used in friendly context, especially in Spain"
+    },
+    "2": {
+      "level": "Moderado",
+      "description": "Inappropriate in most professional or public settings",
+      "typical_categories": ["sexual.anatomy", "slurs.personal_attacks", "body_parts.genitalia"],
+      "cultural_notes": "Context-dependent severity, varies by region and relationship"
+    },
+    "3": {
+      "level": "Fuerte",
+      "description": "Highly offensive and inappropriate in most contexts",
+      "typical_categories": ["sexual.explicit", "slurs.behavior", "racial.skin_color"],
+      "cultural_notes": "Clearly offensive across all Spanish-speaking regions"
+    },
+    "4": {
+      "level": "Severo",
+      "description": "Extremely offensive, potentially illegal, or causing significant harm",
+      "typical_categories": ["lgbtq.homophobic", "ethnic.nationality", "violence.death_wishes"],
+      "cultural_notes": "Hate speech level, can have legal consequences in some countries"
+    }
+  },
+  "regional_considerations": {
+    "spain": {
+      "tolerance_level": "Higher for sexual profanity, lower for religious blasphemy",
+      "common_categories": ["sexual", "general", "religious"],
+      "unique_patterns": ["Frequent use of 'joder'", "Religious profanity still sensitive"]
+    },
+    "mexico": {
+      "tolerance_level": "Complex system of formal/informal speech",
+      "common_categories": ["general", "sexual", "slurs"],
+      "unique_patterns": ["'Chingar' versatility", "Creative compound insults"]
+    },
+    "argentina": {
+      "tolerance_level": "High tolerance for creative insults in informal settings",
+      "common_categories": ["slurs", "general", "ethnic"],
+      "unique_patterns": ["'Boludo' context dependency", "Italian influence"]
+    }
+  },
+  "gender_considerations": {
+    "agreement_rules": "Most Spanish profanity follows grammatical gender agreement",
+    "severity_differences": "Some terms more offensive when targeting women (puta vs puto)",
+    "cultural_impact": "Machismo culture affects severity of gender-specific terms"
+  }
+}

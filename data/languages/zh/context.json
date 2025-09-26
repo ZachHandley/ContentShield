@@ -1,0 +1,367 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "cultural_context_system": {
+    "description": "Chinese cultural context for profanity usage, taboos, internet censorship, and social implications",
+    "methodology": "Based on Confucian values, face-saving culture, regional variations, and internet censorship dynamics"
+  },
+  "core_cultural_values": {
+    "mianzi": {
+      "name": "面子 (Face)",
+      "description": "Personal dignity and social standing in the eyes of others",
+      "profanity_impact": "Public profanity causes severe face-loss for both speaker and target",
+      "application": "Private criticism may be acceptable, public humiliation is devastating",
+      "social_consequences": "Loss of face can affect career, relationships, and family standing"
+    },
+    "hexie": {
+      "name": "和谐 (Harmony)",
+      "description": "Social harmony and avoiding open conflict",
+      "profanity_impact": "Confrontational language disrupts social harmony and is strongly discouraged",
+      "application": "Indirect communication preferred, direct insults violate harmony principles",
+      "modern_context": "Government 'harmonious society' ideology reinforces traditional values"
+    },
+    "xiaodao": {
+      "name": "孝道 (Filial Piety)",
+      "description": "Respect and devotion to parents and elders",
+      "profanity_impact": "Any language disrespecting family or elders is among the most serious violations",
+      "application": "Attacks on family honor are unforgivable in traditional Chinese culture",
+      "intergenerational_dynamics": "Age-based hierarchy requires respectful language to elders"
+    },
+    "xiuyang": {
+      "name": "修养 (Moral Cultivation)",
+      "description": "Personal moral development and refined behavior",
+      "profanity_impact": "Using profanity demonstrates lack of moral cultivation and education",
+      "application": "Educated people are expected to have better language control",
+      "social_mobility": "Language refinement linked to social and economic advancement"
+    },
+    "jiating_rongyu": {
+      "name": "家庭荣誉 (Family Honor)",
+      "description": "Collective family reputation and social standing",
+      "profanity_impact": "Individual language reflects on entire family reputation",
+      "application": "Family members' behavior affects whole family's social standing",
+      "educational_responsibility": "Parents responsible for children's language and moral education"
+    }
+  },
+  "regional_cultural_contexts": {
+    "mainland_china": {
+      "political_environment": {
+        "description": "One-party state with emphasis on social stability",
+        "profanity_implications": "Political profanity can have legal consequences",
+        "censorship_awareness": "Internet users develop sophisticated evasion techniques",
+        "social_credit": "Public behavior including language can affect social credit score"
+      },
+      "internet_culture": {
+        "description": "Heavily censored but creative online community",
+        "meme_development": "Rich tradition of using homophones to evade censorship",
+        "gaming_culture": "Online gaming creates unique profanity subculture",
+        "social_media": "WeChat, Weibo usage patterns affect language evolution"
+      },
+      "generational_divides": {
+        "traditional_values": "Older generations maintain strict language standards",
+        "modern_pressures": "Younger generations balance tradition with global influences",
+        "economic_stress": "Economic competition creates language outlets for frustration"
+      }
+    },
+    "taiwan": {
+      "democratic_context": {
+        "description": "Democratic society with greater expression freedom",
+        "profanity_tolerance": "More liberal attitude toward mild profanity",
+        "political_discourse": "Open political debate affects language norms",
+        "media_freedom": "Freer media allows more diverse language expression"
+      },
+      "japanese_influence": {
+        "description": "Historical Japanese rule left linguistic influences",
+        "borrowed_expressions": "Some Japanese-derived expressions in Taiwanese",
+        "cultural_mixing": "Mix of Chinese, Japanese, and indigenous influences",
+        "generational_differences": "Older generations have more Japanese linguistic influence"
+      },
+      "traditional_character_culture": {
+        "description": "Continued use of traditional Chinese characters",
+        "cultural_identity": "Traditional characters linked to cultural preservation",
+        "visual_profanity": "Different visual substitution patterns from mainland"
+      }
+    },
+    "hong_kong": {
+      "cantonese_culture": {
+        "description": "Cantonese-dominant culture with unique profanity traditions",
+        "linguistic_identity": "Strong regional linguistic identity",
+        "profanity_patterns": "Cantonese profanity has different severity patterns",
+        "code_switching": "English-Cantonese mixing common"
+      },
+      "political_tensions": {
+        "description": "Recent political upheaval affects language sensitivity",
+        "protest_culture": "2019 protests created new political vocabulary",
+        "censorship_resistance": "Creative resistance to increasing censorship",
+        "identity_assertion": "Language use as political and cultural identity marker"
+      },
+      "international_context": {
+        "description": "International financial center with global influences",
+        "multilingual_environment": "English, Cantonese, Mandarin mixing",
+        "business_culture": "Professional language standards important for international business"
+      }
+    },
+    "singapore": {
+      "multicultural_society": {
+        "description": "Majority Chinese in multicultural Southeast Asian context",
+        "language_mixing": "Chinese profanity mixed with English, Malay in 'Singlish'",
+        "cultural_sensitivity": "Must navigate multiple cultural sensitivities",
+        "government_regulation": "Strict government oversight of public language"
+      },
+      "conservative_values": {
+        "description": "Conservative social values with strong rule of law",
+        "public_behavior": "Very low tolerance for public profanity",
+        "legal_consequences": "Offensive language can have legal consequences",
+        "educational_emphasis": "Strong emphasis on proper language in education"
+      }
+    }
+  },
+  "internet_censorship_dynamics": {
+    "the_great_firewall": {
+      "description": "Comprehensive internet censorship system in mainland China",
+      "profanity_filtering": "Automatic filtering of explicit profanity",
+      "keyword_monitoring": "Political and sensitive terms heavily monitored",
+      "circumvention_culture": "Rich culture of creative expression to avoid detection"
+    },
+    "creative_resistance": {
+      "description": "Sophisticated methods to express forbidden content",
+      "homophone_system": "Using similar-sounding words to evade detection",
+      "visual_substitution": "Character components and visual similarities",
+      "meme_evolution": "Memes that carry dual innocent/profane meanings",
+      "cultural_references": "Historical and literary allusions to express criticism"
+    },
+    "grass_mud_horse_phenomenon": {
+      "description": "草泥马 (alpaca) as symbol of creative resistance to censorship",
+      "cultural_significance": "Became symbol of internet freedom and creative expression",
+      "meme_evolution": "Evolved from simple evasion to cultural movement",
+      "international_attention": "Gained global attention as censorship resistance symbol"
+    },
+    "harmonious_society": {
+      "description": "Government concept of social harmony affecting language",
+      "river_crab_meme": "河蟹 (river crab) homophone for 和谐 (harmony/censorship)",
+      "self_censorship": "Users internalize censorship and self-regulate language",
+      "coded_communication": "Development of sophisticated coded communication systems"
+    }
+  },
+  "social_media_contexts": {
+    "wechat_culture": {
+      "description": "Primary social media platform in mainland China",
+      "private_vs_group": "Different language standards for private vs group chats",
+      "family_presence": "Family members in networks affect language choices",
+      "professional_networking": "Business contacts require more formal language",
+      "monitoring_awareness": "Awareness of potential monitoring affects expression"
+    },
+    "weibo_dynamics": {
+      "description": "Chinese microblogging platform with public discourse",
+      "public_visibility": "Public nature requires more careful language",
+      "trending_topics": "Viral content can quickly become political",
+      "celebrity_influence": "Public figures' language sets social standards",
+      "automated_censorship": "Sophisticated AI-based content filtering"
+    },
+    "douyin_tiktok": {
+      "description": "Short video platform with young user base",
+      "youth_culture": "Younger demographics with different language norms",
+      "creative_expression": "Visual and audio elements add context to language",
+      "viral_challenges": "Language challenges and memes spread rapidly",
+      "algorithmic_moderation": "AI moderation affects content visibility"
+    }
+  },
+  "generational_contexts": {
+    "cultural_revolution_generation": {
+      "age_range": "70+",
+      "characteristics": "Lived through political upheaval and language campaigns",
+      "profanity_tolerance": "Extremely low tolerance, strong moral judgment",
+      "political_sensitivity": "Heightened awareness of political implications of language",
+      "classical_education": "Traditional Chinese education emphasizes language refinement"
+    },
+    "reform_opening_generation": {
+      "age_range": "50-70",
+      "characteristics": "Witnessed China's economic transformation",
+      "language_evolution": "Saw rapid changes in acceptable language",
+      "economic_pragmatism": "More practical approach to language appropriateness",
+      "cultural_bridge": "Bridge between traditional and modern values"
+    },
+    "one_child_generation": {
+      "age_range": "30-50",
+      "characteristics": "Grew up during one-child policy, received intense family attention",
+      "educational_pressure": "High educational expectations affect language standards",
+      "global_awareness": "More exposure to international culture and language norms",
+      "family_responsibility": "Intense pressure to maintain family honor and reputation"
+    },
+    "internet_generation": {
+      "age_range": "20-30",
+      "characteristics": "Digital natives with global cultural exposure",
+      "creative_language": "Inventive use of language and meme culture",
+      "cultural_mixing": "Blend traditional Chinese values with global influences",
+      "economic_anxiety": "Economic competition creates stress and language outlets"
+    },
+    "mobile_generation": {
+      "age_range": "Under 20",
+      "characteristics": "Mobile-first, social media native, international perspective",
+      "language_innovation": "Create new forms of expression and communication",
+      "cultural_rebellion": "Challenge traditional language and cultural norms",
+      "global_citizenship": "Identity as global citizens affects language choices"
+    }
+  },
+  "educational_contexts": {
+    "traditional_moral_education": {
+      "description": "Confucian-influenced moral education emphasizing proper speech",
+      "language_cultivation": "Language refinement as moral development",
+      "teacher_authority": "Absolute respect for teachers and educational hierarchy",
+      "peer_pressure": "Student peer groups enforce language norms"
+    },
+    "modern_educational_pressures": {
+      "description": "Intense academic competition affects student behavior",
+      "stress_outlets": "Academic pressure creates need for emotional expression",
+      "english_education": "English language learning introduces foreign profanity",
+      "international_exposure": "Study abroad and international programs affect language norms"
+    },
+    "university_culture": {
+      "description": "Higher education environment with more liberal expression",
+      "peer_relationships": "University friendships allow more casual language",
+      "intellectual_discourse": "Academic freedom allows more open discussion",
+      "social_experimentation": "Young adults experiment with different forms of expression"
+    }
+  },
+  "professional_contexts": {
+    "traditional_workplace": {
+      "description": "Hierarchical workplace with strict respect requirements",
+      "seniority_system": "Age and position hierarchy affects language choices",
+      "face_saving": "Professional reputation and face-saving crucial",
+      "client_relationships": "Customer service culture emphasizes politeness"
+    },
+    "modern_tech_industry": {
+      "description": "More casual workplace culture influenced by global tech companies",
+      "informal_communication": "Slack, internal social networks allow casual language",
+      "international_collaboration": "Working with foreign colleagues affects language norms",
+      "startup_culture": "Entrepreneurial culture may be more tolerant of casual language"
+    },
+    "government_sector": {
+      "description": "Highly formal language requirements in government positions",
+      "political_correctness": "Extreme sensitivity to politically inappropriate language",
+      "public_service": "Serving the people ideology emphasizes respectful language",
+      "media_scrutiny": "Government officials under constant public scrutiny"
+    }
+  },
+  "family_dynamics": {
+    "intergenerational_relationships": {
+      "description": "Complex family hierarchy with strict language requirements",
+      "grandparent_respect": "Absolute deference to grandparents required",
+      "parent_child": "Children expected to show complete linguistic respect to parents",
+      "sibling_hierarchy": "Older siblings deserve linguistic respect from younger ones",
+      "extended_family": "Cousin relationships and family gatherings have language protocols"
+    },
+    "modern_family_changes": {
+      "description": "Changing family structures affect traditional language patterns",
+      "nuclear_families": "Smaller families may have less formal language requirements",
+      "working_parents": "Busy parents may be more tolerant of casual language",
+      "urban_families": "Urban lifestyle affects traditional family language patterns",
+      "international_families": "Mixed cultural families navigate different language norms"
+    }
+  },
+  "religious_and_spiritual_contexts": {
+    "buddhist_influence": {
+      "description": "Buddhist concepts of right speech affect language norms",
+      "karma_consciousness": "Belief that speech affects karma and spiritual development",
+      "compassionate_speech": "Emphasis on speech that doesn't harm others",
+      "temple_etiquette": "Religious settings require especially respectful language"
+    },
+    "confucian_ethics": {
+      "description": "Confucian emphasis on virtuous speech and moral cultivation",
+      "junzi_ideal": "Ideal person (君子) demonstrates virtue through refined speech",
+      "social_responsibility": "Speech as reflection of moral character and social responsibility",
+      "educational_philosophy": "Learning and moral development through proper language use"
+    },
+    "daoist_concepts": {
+      "description": "Daoist influence on natural and harmonious communication",
+      "wu_wei": "Natural action principle applies to speech patterns",
+      "harmony_with_nature": "Speech should be in harmony with natural order",
+      "simplicity_ideal": "Preference for simple, unpretentious language"
+    },
+    "folk_religion": {
+      "description": "Traditional Chinese folk beliefs affect language taboos",
+      "supernatural_concerns": "Fear that negative speech attracts bad luck",
+      "ancestor_veneration": "Respectful language about ancestors and deceased",
+      "festival_language": "Special language requirements during traditional festivals"
+    }
+  },
+  "economic_and_social_mobility": {
+    "class_consciousness": {
+      "description": "Language as marker of social class and educational background",
+      "upward_mobility": "Refined language essential for social and economic advancement",
+      "business_networking": "Professional language crucial for business relationships",
+      "marriage_prospects": "Language refinement affects marriage and relationship prospects"
+    },
+    "rural_urban_divide": {
+      "description": "Different language standards between rural and urban areas",
+      "migration_challenges": "Rural migrants must adapt to urban language norms",
+      "educational_opportunities": "Urban education provides language refinement advantages",
+      "cultural_preservation": "Rural areas maintain traditional language and cultural values"
+    }
+  },
+  "special_cultural_phenomena": {
+    "exam_culture": {
+      "description": "Intense educational competition affects language and behavior",
+      "gaokao_pressure": "University entrance exam pressure creates unique stress responses",
+      "parental_expectations": "Family language expectations intensify during exam periods",
+      "peer_competition": "Student competition affects peer language relationships"
+    },
+    "gaming_culture": {
+      "description": "Online gaming creates unique language communities",
+      "competitive_gaming": "Esports culture has different language norms",
+      "internet_cafe_culture": "Physical gaming spaces have distinct social dynamics",
+      "mobile_gaming": "Casual mobile gaming affects broader language patterns"
+    },
+    "consumer_culture": {
+      "description": "Rapid economic development creates new social dynamics",
+      "brand_consciousness": "Consumer preferences affect social language and status",
+      "lifestyle_aspiration": "Aspirational consumption affects language choices",
+      "social_media_influence": "Influencer culture affects language trends"
+    }
+  },
+  "taboo_hierarchies": {
+    "absolute_taboos": [
+      "Direct attacks on family honor and parents",
+      "Political criticism of core leadership",
+      "Death threats or wishes of violence",
+      "Ethnic hatred and discrimination"
+    ],
+    "strong_taboos": [
+      "Public profanity causing face-loss",
+      "Disrespecting elders and authority figures",
+      "Sexual harassment and gender-based attacks",
+      "Religious mockery and spiritual disrespect"
+    ],
+    "moderate_taboos": [
+      "Casual profanity in inappropriate settings",
+      "Regional discrimination and stereotyping",
+      "Class-based insults and economic shaming",
+      "Educational background attacks"
+    ],
+    "mild_taboos": [
+      "Peer-level casual swearing in private",
+      "Gaming and internet culture expressions",
+      "Generational conflict language",
+      "Minor status-based teasing"
+    ]
+  },
+  "modern_evolution_trends": {
+    "globalization_impact": {
+      "description": "International cultural influence on Chinese language norms",
+      "english_loanwords": "English profanity entering Chinese internet culture",
+      "cultural_hybridization": "Mixing of Chinese and foreign language patterns",
+      "generational_gaps": "Different generations respond differently to global influences"
+    },
+    "technology_influence": {
+      "description": "Digital technology changing communication patterns",
+      "ai_interaction": "Interacting with AI systems affects language expectations",
+      "virtual_reality": "VR and gaming create new social contexts for language",
+      "automation": "Automated systems change human language interaction patterns"
+    },
+    "social_change": {
+      "description": "Rapid social transformation affects language norms",
+      "gender_equality": "Changing gender roles affect language expectations",
+      "urbanization": "Rural-urban migration changes language demographics",
+      "environmental_consciousness": "Environmental concerns create new language priorities"
+    }
+  }
+}

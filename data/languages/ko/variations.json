@@ -1,0 +1,277 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "variation_system": {
+    "description": "Korean profanity variations including romanization systems, internet abbreviations, and cultural alternatives",
+    "methodology": "Based on Revised Romanization of Korean, McCune-Reischauer, and internet culture patterns"
+  },
+  "romanization_systems": {
+    "revised_romanization": {
+      "name": "Revised Romanization of Korean (RR)",
+      "status": "official_standard",
+      "description": "Official Korean government romanization system since 2000",
+      "characteristics": "No apostrophes, simplified vowel representation"
+    },
+    "mccune_reischauer": {
+      "name": "McCune-Reischauer",
+      "status": "traditional_academic",
+      "description": "Traditional academic romanization with diacritical marks",
+      "characteristics": "Uses apostrophes and breves, more linguistically precise"
+    },
+    "yale_romanization": {
+      "name": "Yale Romanization",
+      "status": "linguistic",
+      "description": "Linguistic romanization system",
+      "characteristics": "Preserves Korean phonology most accurately"
+    },
+    "internet_romanization": {
+      "name": "Internet/Gaming Romanization",
+      "status": "informal",
+      "description": "Informal romanization used online and in gaming",
+      "characteristics": "Phonetic spelling variations, creative adaptations"
+    }
+  },
+  "word_variations": {
+    "시발": {
+      "base_word": "시발",
+      "romanizations": {
+        "revised": "sibal",
+        "mccune_reischauer": "sipal",
+        "internet": ["shibal", "sipal", "shival"]
+      },
+      "character_variations": ["씨발", "시1발", "시팔", "쉬발"],
+      "abbreviations": ["ㅅㅂ", "ㅆㅂ"],
+      "euphemisms": ["시팔", "슈발"],
+      "obfuscations": ["s1bal", "si***", "시**"]
+    },
+    "개새끼": {
+      "base_word": "개새끼",
+      "romanizations": {
+        "revised": "gaesaekki",
+        "mccune_reischauer": "kaesaekki",
+        "internet": ["gaesekki", "gaesaekki", "gaesekii"]
+      },
+      "character_variations": ["개색끼", "개세끼", "개색히"],
+      "abbreviations": ["ㄱㅅㄲ", "개색"],
+      "euphemisms": ["개세히", "개색히"],
+      "obfuscations": ["gaes***", "개**", "g***kki"]
+    },
+    "병신": {
+      "base_word": "병신",
+      "romanizations": {
+        "revised": "byeongsin",
+        "mccune_reischauer": "pyŏngsin",
+        "internet": ["byungsin", "byeongsin", "bungsin"]
+      },
+      "character_variations": ["병1신", "뵤신", "벼신"],
+      "abbreviations": ["ㅂㅅ"],
+      "euphemisms": ["벼신", "뵤신"],
+      "obfuscations": ["byeong***", "병**", "b***sin"]
+    },
+    "좆": {
+      "base_word": "좆",
+      "romanizations": {
+        "revised": "jot",
+        "mccune_reischauer": "chot",
+        "internet": ["jot", "joht", "joth"]
+      },
+      "character_variations": ["좇", "졷"],
+      "abbreviations": ["ㅈ"],
+      "euphemisms": ["젓", "좇"],
+      "obfuscations": ["j*t", "좇", "***"]
+    },
+    "존나": {
+      "base_word": "존나",
+      "romanizations": {
+        "revised": "jonna",
+        "mccune_reischauer": "chonna",
+        "internet": ["jonna", "johna", "jona"]
+      },
+      "character_variations": ["존1나", "조나", "조낸"],
+      "abbreviations": ["ㅈㄴ"],
+      "euphemisms": ["조낸", "조나"],
+      "obfuscations": ["jo***", "존*", "j***a"]
+    },
+    "죽어": {
+      "base_word": "죽어",
+      "romanizations": {
+        "revised": "jugeo",
+        "mccune_reischauer": "chugŏ",
+        "internet": ["jukeo", "jugeo", "jookeo"]
+      },
+      "character_variations": ["쥭어", "죽으라", "죽어라"],
+      "abbreviations": ["ㅈㄱ"],
+      "euphemisms": ["지구어", "쥭어"],
+      "obfuscations": ["jug***", "죽*", "***eo"]
+    },
+    "미친": {
+      "base_word": "미친",
+      "romanizations": {
+        "revised": "michin",
+        "mccune_reischauer": "mich'in",
+        "internet": ["michin", "mitchin", "michi"]
+      },
+      "character_variations": ["미1친", "미쳔", "믿친"],
+      "abbreviations": ["ㅁㅊ"],
+      "euphemisms": ["미쳔", "믿친"],
+      "obfuscations": ["michi*", "미**", "m***n"]
+    },
+    "바보": {
+      "base_word": "바보",
+      "romanizations": {
+        "revised": "babo",
+        "mccune_reischauer": "pabo",
+        "internet": ["babo", "babbo", "vabo"]
+      },
+      "character_variations": ["바1보", "빠보", "바뽀"],
+      "abbreviations": ["ㅂㅂ"],
+      "euphemisms": ["빠보", "바뽀"],
+      "obfuscations": ["bab*", "바*", "***o"]
+    },
+    "지랄": {
+      "base_word": "지랄",
+      "romanizations": {
+        "revised": "jiral",
+        "mccune_reischauer": "chiral",
+        "internet": ["jiral", "jirial", "jyral"]
+      },
+      "character_variations": ["지1랄", "지럴", "질알"],
+      "abbreviations": ["ㅈㄹ"],
+      "euphemisms": ["지럴", "질알"],
+      "obfuscations": ["jira*", "지**", "j***l"]
+    },
+    "꺼져": {
+      "base_word": "꺼져",
+      "romanizations": {
+        "revised": "kkeojyeo",
+        "mccune_reischauer": "kkŏjyŏ",
+        "internet": ["kkeojyeo", "kkeojeo", "ggojyeo"]
+      },
+      "character_variations": ["꺼1져", "거져", "꺽져"],
+      "abbreviations": ["ㄲㅈ"],
+      "euphemisms": ["거져", "꺽져"],
+      "obfuscations": ["kkeoj***", "꺼**", "***yeo"]
+    }
+  },
+  "internet_specific_variations": {
+    "consonant_abbreviations": {
+      "description": "Using only consonants to represent profanity",
+      "examples": {
+        "ㅅㅂ": "시발 (sibal)",
+        "ㅆㅂ": "씨발 (ssibal)",
+        "ㅈㄴ": "존나 (jonna)",
+        "ㅂㅅ": "병신 (byeongsin)",
+        "ㄱㅅㄲ": "개새끼 (gaesaekki)",
+        "ㅈㄹ": "지랄 (jiral)",
+        "ㅁㅊ": "미친 (michin)"
+      }
+    },
+    "number_substitutions": {
+      "description": "Using numbers to replace similar-looking characters",
+      "examples": {
+        "시1발": "시발 (sibal)",
+        "병1신": "병신 (byeongsin)",
+        "존1나": "존나 (jonna)",
+        "미1친": "미친 (michin)"
+      }
+    },
+    "creative_spellings": {
+      "description": "Creative alternative spellings to avoid detection",
+      "examples": {
+        "쉬발": "시발 alternative",
+        "벼신": "병신 alternative",
+        "조낸": "존나 alternative",
+        "미쳔": "미친 alternative"
+      }
+    },
+    "english_mixing": {
+      "description": "Mixing English and Korean for obfuscation",
+      "examples": {
+        "fxck": "fucking in Korean context",
+        "shxbal": "시발 mixed with English",
+        "bxbo": "바보 mixed with English"
+      }
+    }
+  },
+  "regional_pronunciation_variations": {
+    "seoul_standard": {
+      "description": "Seoul metropolitan area pronunciation",
+      "characteristics": "Standard pronunciation, baseline for romanization"
+    },
+    "busan_gyeongsang": {
+      "description": "Southeastern dialect variations",
+      "pronunciation_differences": "Stronger consonants, different vowel sounds",
+      "romanization_impact": "May use 'kk', 'tt', 'pp' more frequently"
+    },
+    "jeolla_region": {
+      "description": "Southwestern region variations",
+      "pronunciation_differences": "Softer pronunciation, different intonation",
+      "romanization_impact": "May use softer consonant representations"
+    },
+    "chungcheong_region": {
+      "description": "Central region variations",
+      "pronunciation_differences": "Slower speech patterns",
+      "romanization_impact": "May lengthen vowel representations"
+    }
+  },
+  "historical_variations": {
+    "older_spellings": {
+      "description": "Historical Korean spellings of profanity",
+      "note": "Some words have evolved in spelling over time"
+    },
+    "japanese_colonial_influence": {
+      "description": "Words influenced by Japanese colonial period",
+      "examples": "Some profanity borrowed or adapted from Japanese"
+    },
+    "modern_evolution": {
+      "description": "Recent evolution of profanity through internet culture",
+      "trend": "Increasing abbreviation and creative obfuscation"
+    }
+  },
+  "gaming_culture_variations": {
+    "fps_games": {
+      "common_variations": ["gg병신", "노1옵", "쓰레기팀"],
+      "context": "First-person shooter gaming terminology"
+    },
+    "moba_games": {
+      "common_variations": ["트롤", "피드", "던져"],
+      "context": "MOBA (League of Legends, etc.) specific terms"
+    },
+    "mmorpg": {
+      "common_variations": ["핵쟁이", "작업장"],
+      "context": "MMORPG-specific profanity and accusations"
+    }
+  },
+  "social_media_variations": {
+    "instagram_style": {
+      "trend": "Using special characters and emojis to obscure profanity",
+      "examples": ["시🤬발", "개💩"]
+    },
+    "twitter_style": {
+      "trend": "Character limits drive abbreviation",
+      "examples": ["ㅅㅂ", "ㅈㄴ", "ㅂㅅ"]
+    },
+    "kakao_talk": {
+      "trend": "Emoticon integration with profanity",
+      "examples": ["ㅅㅂ-_-", "(시발)"]
+    }
+  },
+  "detection_evasion_patterns": {
+    "asterisk_replacement": {
+      "description": "Using asterisks to replace characters",
+      "examples": ["시*발", "개**", "병***"]
+    },
+    "similar_character_substitution": {
+      "description": "Using visually similar characters",
+      "examples": ["시팔", "쉬발", "씨팔"]
+    },
+    "spacing_manipulation": {
+      "description": "Adding spaces or separating characters",
+      "examples": ["시 발", "개 새 끼", "병 신"]
+    },
+    "unicode_variations": {
+      "description": "Using different Unicode representations",
+      "note": "Same visual appearance but different character codes"
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "severity_system": {
+    "description": "Korean profanity severity system adapted for hierarchical culture and social harmony values",
+    "methodology": "Based on Korean Confucian hierarchy, social face-saving concepts, and age-respect systems",
+    "cultural_framework": "Incorporates nunchi (social awareness), chemyeon (face/honor), and speech level appropriateness"
+  },
+  "severity_levels": {
+    "1": {
+      "korean_name": "가벼운 (Garyeoun)",
+      "english_name": "Mild",
+      "description": "Generally acceptable among same-age friends or in very casual settings",
+      "social_impact": "Minor social discomfort, easily forgiven with appropriate context",
+      "relationship_impact": "Little to no relationship damage, may be seen as playful",
+      "hierarchical_considerations": "Inappropriate when speaking to elders or superiors, regardless of content",
+      "cultural_severity_factors": [
+        "Age difference of speaker and listener",
+        "Formality of setting",
+        "Relationship closeness"
+      ],
+      "examples": ["바보 (babo)", "똥 (ttong)", "멍청이 (meongcheongi)"],
+      "contextual_variations": {
+        "among_friends": "Often acceptable and used for emphasis",
+        "to_elders": "Never acceptable regardless of content",
+        "in_workplace": "Generally inappropriate",
+        "online_gaming": "Very common and mostly acceptable"
+      }
+    },
+    "2": {
+      "korean_name": "보통 (Botong)",
+      "english_name": "Moderate",
+      "description": "Inappropriate in most social settings, causes noticeable discomfort",
+      "social_impact": "Damages social harmony, requires apology to restore relationships",
+      "relationship_impact": "Can strain relationships, shows lack of social awareness (nunchi)",
+      "hierarchical_considerations": "Serious violation of speech level appropriateness, may end relationships",
+      "cultural_severity_factors": [
+        "Violation of social harmony principles",
+        "Lack of consideration for group dynamics",
+        "Inappropriate casualness in formal settings"
+      ],
+      "examples": ["지랄 (jiral)", "개소리 (gaesori)", "미친 (michin)"],
+      "contextual_variations": {
+        "among_close_friends": "May be acceptable in very casual settings",
+        "formal_settings": "Completely unacceptable",
+        "family_context": "Extremely inappropriate, especially to parents",
+        "generational_context": "Older generations find much more offensive"
+      }
+    },
+    "3": {
+      "korean_name": "심한 (Simhan)",
+      "english_name": "Strong",
+      "description": "Highly offensive, causes significant face-loss and relationship damage",
+      "social_impact": "Serious violation of Korean social norms, public embarrassment",
+      "relationship_impact": "Can permanently damage relationships, requires formal apology",
+      "hierarchical_considerations": "Complete violation of respect hierarchy, may lead to social ostracism",
+      "cultural_severity_factors": [
+        "Attacks on personal or family honor (chemyeon)",
+        "Sexual content inappropriate in Confucian culture",
+        "Disregard for age and status hierarchy"
+      ],
+      "examples": ["시발 (sibal)", "병신 (byeongsin)", "좆 (jot)"],
+      "contextual_variations": {
+        "peer_groups": "May be tolerated in very specific gaming/male bonding contexts",
+        "public_settings": "Completely unacceptable, potential for public shaming",
+        "family_relationships": "Can cause lasting family rifts",
+        "workplace": "Grounds for disciplinary action or termination"
+      }
+    },
+    "4": {
+      "korean_name": "극심한 (Geuksimhan)",
+      "english_name": "Severe",
+      "description": "Extremely offensive, potentially relationship-ending or legally problematic",
+      "social_impact": "Complete social ostracism possible, violation of fundamental Korean values",
+      "relationship_impact": "Relationship-ending, permanent damage to family and social connections",
+      "hierarchical_considerations": "Ultimate violation of Korean social order and respect systems",
+      "cultural_severity_factors": [
+        "Attacks on family honor and ancestral respect",
+        "Death threats violating harmony principles",
+        "Ethnic/national hatred conflicting with Korean identity values"
+      ],
+      "examples": ["죽어 (jugeo)", "니 엄마 (ni eomma)", "창년 (changnyeon)"],
+      "legal_considerations": "May constitute harassment, defamation, or hate speech under Korean law",
+      "contextual_variations": {
+        "no_acceptable_context": "Never socially acceptable in any Korean cultural context",
+        "legal_implications": "Potential criminal charges for threats or defamation",
+        "family_destruction": "Can cause permanent family separation",
+        "social_consequences": "Complete loss of social standing and respect"
+      }
+    }
+  },
+  "cultural_severity_modifiers": {
+    "age_hierarchy": {
+      "description": "Age difference significantly affects severity perception",
+      "modifier_rules": {
+        "to_older_person": "Increases severity by 1-2 levels",
+        "to_younger_person": "May decrease severity by 1 level in casual contexts",
+        "same_age": "Baseline severity applies"
+      }
+    },
+    "speech_level_violation": {
+      "description": "Using inappropriate speech formality level",
+      "modifier_rules": {
+        "banmal_to_elder": "Automatic severity increase to minimum level 2",
+        "formal_insult": "May reduce severity slightly but still inappropriate",
+        "casual_context": "Expected speech level, no modification"
+      }
+    },
+    "public_vs_private": {
+      "description": "Public settings dramatically increase severity impact",
+      "modifier_rules": {
+        "public_humiliation": "Increases severity by 1-2 levels due to face-loss",
+        "private_conversation": "Baseline severity",
+        "online_public": "Similar to public, permanent record increases impact"
+      }
+    },
+    "family_context": {
+      "description": "Family relationships have unique severity considerations",
+      "modifier_rules": {
+        "to_parents": "Extreme violation regardless of word severity",
+        "between_siblings": "More tolerance but still problematic",
+        "extended_family": "Reflects on entire family honor"
+      }
+    },
+    "gender_considerations": {
+      "description": "Gender affects both usage and severity perception",
+      "modifier_rules": {
+        "women_using": "Generally perceived as more shocking",
+        "targeting_women": "Often increases severity due to protective cultural norms",
+        "gender_specific_slurs": "Maximum severity regardless of other factors"
+      }
+    }
+  },
+  "regional_variations": {
+    "seoul_standard": {
+      "description": "Seoul metropolitan area standards",
+      "characteristics": "More tolerance for mild profanity, influenced by global culture"
+    },
+    "busan_gyeongsang": {
+      "description": "Southeastern dialect region",
+      "characteristics": "More direct communication style, slightly higher tolerance"
+    },
+    "jeolla_region": {
+      "description": "Southwestern region",
+      "characteristics": "Traditional values, lower tolerance for profanity"
+    },
+    "rural_areas": {
+      "description": "Rural and traditional communities",
+      "characteristics": "Very low tolerance, traditional Confucian values dominant"
+    }
+  },
+  "generational_differences": {
+    "elder_generation": {
+      "age_range": "60+",
+      "characteristics": "Extremely low tolerance, traditional values, any profanity highly offensive",
+      "modifier": "Increases all severity by 1-2 levels"
+    },
+    "middle_generation": {
+      "age_range": "40-60",
+      "characteristics": "Moderate tolerance in casual settings, professional standards in work",
+      "modifier": "Baseline severity standards"
+    },
+    "younger_generation": {
+      "age_range": "20-40",
+      "characteristics": "Higher tolerance, influenced by internet culture and global media",
+      "modifier": "May reduce severity by 1 level in peer contexts"
+    },
+    "youth_generation": {
+      "age_range": "Under 20",
+      "characteristics": "Highest tolerance, heavy internet and gaming influence",
+      "modifier": "Significantly different standards, gaming context tolerance"
+    }
+  },
+  "situational_contexts": {
+    "military_service": {
+      "description": "Korean mandatory military service context",
+      "severity_impact": "Unique culture with higher tolerance for certain profanity"
+    },
+    "online_gaming": {
+      "description": "Korean gaming culture context",
+      "severity_impact": "Significantly reduced severity for most gaming-related profanity"
+    },
+    "workplace_hierarchy": {
+      "description": "Korean corporate culture",
+      "severity_impact": "Extreme sensitivity to hierarchy violations"
+    },
+    "university_culture": {
+      "description": "Korean university seonbae/hubae (senior/junior) system",
+      "severity_impact": "Moderate tolerance within peer groups, strict hierarchy respect"
+    }
+  },
+  "special_considerations": {
+    "internet_abbreviations": {
+      "description": "Online shortened forms of profanity",
+      "severity_impact": "Generally 1 level lower than full word due to indirectness"
+    },
+    "loan_words": {
+      "description": "English or other foreign profanity used in Korean",
+      "severity_impact": "Often perceived as less severe due to cultural distance"
+    },
+    "historical_context": {
+      "description": "Words with historical oppression context",
+      "severity_impact": "May carry additional emotional and cultural weight"
+    },
+    "media_influence": {
+      "description": "Profanity normalized through media consumption",
+      "severity_impact": "Gradual reduction in severity for commonly heard expressions"
+    }
+  }
+}

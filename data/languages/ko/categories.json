@@ -1,0 +1,174 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "category_system": {
+    "description": "Korean profanity categorization system adapted for hierarchical culture and speech levels",
+    "methodology": "Based on Korean Confucian hierarchy, speech level system (jondaetmal/banmal), and modern internet culture"
+  },
+  "categories": {
+    "general": {
+      "name": "일반적인 욕설 (General Profanity)",
+      "description": "Common swear words and expletives without specific targeting",
+      "examples_note": "Basic profanity used for emphasis or frustration",
+      "severity_range": [1, 3],
+      "cultural_context": "Strong emphasis on respect levels and age hierarchy affects severity",
+      "subcategories": {
+        "exclamatory": "Words used for emphasis (jenjang, aigoo)",
+        "mild_curses": "Common curse words (shibal, ddong)",
+        "frustration": "Expressions of annoyance (jjajeungnanda)"
+      }
+    },
+    "insult": {
+      "name": "모욕어 (Personal Insults)",
+      "description": "Direct personal attacks and derogatory terms targeting individuals",
+      "examples_note": "Personal attacks and character defamation",
+      "severity_range": [1, 4],
+      "cultural_context": "Direct insults violate Korean concepts of nunchi (social awareness) and face-saving",
+      "subcategories": {
+        "intelligence": "Attacks on mental capacity (babo, meongcheonghi)",
+        "appearance": "Physical appearance criticism (motnan, chuham)",
+        "character": "Character defamation (nappeun, biseohan)",
+        "social_status": "Status and class attacks (sangnom, cheonmin)"
+      }
+    },
+    "sexual": {
+      "name": "성적인 언어 (Sexual Content)",
+      "description": "Words related to sexual acts, anatomy, or sexually explicit content",
+      "examples_note": "Sexual references and explicit terminology",
+      "severity_range": [2, 4],
+      "cultural_context": "Sexual content extremely taboo in traditional Korean society, heavy Confucian influence",
+      "subcategories": {
+        "anatomy": "Sexual body parts and references",
+        "acts": "References to sexual activities",
+        "promiscuity": "Sexual behavior criticism",
+        "gender_specific": "Gender-targeted sexual insults"
+      }
+    },
+    "violence": {
+      "name": "폭력적인 언어 (Violence and Threats)",
+      "description": "Words promoting violence, threats, or aggressive behavior",
+      "examples_note": "Violent language and death threats",
+      "severity_range": [3, 4],
+      "cultural_context": "Violence threats taken very seriously, conflicts with Korean harmony values",
+      "subcategories": {
+        "death_wishes": "Death commands and wishes (jukeo, jukjago)",
+        "violence_verbs": "Action verbs for violence (paeda, jjijeo)",
+        "threats": "Direct threatening language",
+        "aggressive_commands": "Hostile imperatives"
+      }
+    },
+    "hate_speech": {
+      "name": "혐오 발언 (Hate Speech)",
+      "description": "Language targeting groups based on identity, nationality, or characteristics",
+      "examples_note": "Discriminatory and hateful language",
+      "severity_range": [3, 4],
+      "cultural_context": "Korea's ethnic homogeneity creates unique patterns of discrimination",
+      "subcategories": {
+        "nationality": "Anti-foreigner and xenophobic terms",
+        "regional": "Inter-Korean regional discrimination (Jeolla/Gyeongsang rivalry)",
+        "north_korean": "Derogatory terms for North Koreans",
+        "gender": "Gender-based hate speech (feminist backlash terms)",
+        "age": "Age-based discrimination (kkondae, yutube)",
+        "class": "Socioeconomic discrimination"
+      }
+    },
+    "family_honor": {
+      "name": "가족 모독 (Family Honor Attacks)",
+      "description": "Attacks on family members, especially parents and ancestors",
+      "examples_note": "Violations of filial piety and family respect",
+      "severity_range": [3, 4],
+      "cultural_context": "Attacking family honor is one of the most serious offenses in Korean culture",
+      "subcategories": {
+        "parent_insults": "Direct attacks on parents (ni eomma, ni appa)",
+        "ancestry": "Ancestral line attacks",
+        "family_shame": "Bringing shame to family name",
+        "generational": "Multi-generational insults"
+      }
+    },
+    "hierarchy_violation": {
+      "name": "위계질서 위반 (Hierarchy Violations)",
+      "description": "Language that violates Korean age and status hierarchy",
+      "examples_note": "Inappropriate speech levels and respect violations",
+      "severity_range": [1, 3],
+      "cultural_context": "Korean society heavily structured by age and status hierarchy",
+      "subcategories": {
+        "banmal_violation": "Using casual speech inappropriately",
+        "seonbae_disrespect": "Disrespecting seniors/elders",
+        "title_omission": "Failing to use proper titles",
+        "age_disrespect": "Disregarding age-based respect"
+      }
+    },
+    "internet_gaming": {
+      "name": "인터넷/게임 욕설 (Internet/Gaming Slang)",
+      "description": "Modern internet and gaming community profanity",
+      "examples_note": "Online gaming and community-specific language",
+      "severity_range": [1, 3],
+      "cultural_context": "Korea's advanced internet culture has developed unique online profanity",
+      "subcategories": {
+        "gaming_rage": "Gaming frustration expressions",
+        "online_insults": "Internet community insults",
+        "abbreviations": "Shortened curse forms (ㅅㅂ, ㄱㅅ)",
+        "meme_curses": "Meme-based profanity"
+      }
+    },
+    "generational": {
+      "name": "세대갈등 언어 (Generational Conflict Language)",
+      "description": "Terms used in intergenerational conflicts and social criticism",
+      "examples_note": "Generational tensions and social commentary",
+      "severity_range": [1, 3],
+      "cultural_context": "Rapid social change has created significant generational tensions",
+      "subcategories": {
+        "boomer_criticism": "Criticism of older generation (kkondae)",
+        "youth_criticism": "Criticism of younger generation",
+        "social_issues": "Social problem-related terms",
+        "economic_frustration": "Economy-related generational anger"
+      }
+    }
+  },
+  "severity_mapping": {
+    "1": {
+      "level": "가벼운 (Mild)",
+      "description": "Generally acceptable among friends but inappropriate in formal settings",
+      "korean_context": "Same-age friends or casual situations only",
+      "typical_categories": ["general.exclamatory", "internet_gaming.abbreviations"]
+    },
+    "2": {
+      "level": "보통 (Moderate)",
+      "description": "Inappropriate in most social settings, offensive to many",
+      "korean_context": "Violates social harmony, causes discomfort",
+      "typical_categories": ["general.mild_curses", "sexual.anatomy", "hierarchy_violation.banmal_violation"]
+    },
+    "3": {
+      "level": "심한 (Strong)",
+      "description": "Highly offensive and damaging to relationships",
+      "korean_context": "Serious face-loss and relationship damage",
+      "typical_categories": ["insult.character", "hate_speech.regional", "family_honor.parent_insults"]
+    },
+    "4": {
+      "level": "극심한 (Severe)",
+      "description": "Extremely offensive, potentially relationship-ending or legally problematic",
+      "korean_context": "Complete social ostracism, potential legal consequences",
+      "typical_categories": ["violence.death_wishes", "family_honor.ancestry", "hate_speech.nationality"]
+    }
+  },
+  "speech_level_considerations": {
+    "jondaetmal": {
+      "name": "존댓말 (Honorific Speech)",
+      "description": "Formal speech requiring different profanity assessment"
+    },
+    "banmal": {
+      "name": "반말 (Casual Speech)",
+      "description": "Informal speech where some profanity may be more acceptable"
+    },
+    "nunchi": {
+      "name": "눈치 (Social Awareness)",
+      "description": "Context-dependent appropriateness based on social reading"
+    }
+  },
+  "cultural_factors": {
+    "confucian_influence": "Confucian values heavily influence severity perception",
+    "face_saving": "Preserving face and avoiding shame is paramount",
+    "group_harmony": "Maintaining social harmony affects acceptability",
+    "generational_change": "Rapid social change creates different standards across generations"
+  }
+}

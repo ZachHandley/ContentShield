@@ -1,0 +1,214 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "category_system": {
+    "description": "Portuguese profanity categorization system covering Lusophone variants and cultural contexts",
+    "methodology": "Based on linguistic research across Portuguese-speaking countries and contemporary usage analysis"
+  },
+  "categories": {
+    "general": {
+      "name": "General Profanity",
+      "description": "Common Portuguese swear words and mild expletives without specific targeting",
+      "examples_note": "Basic profanity used for emphasis or frustration across Portuguese-speaking regions",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "exclamatory": "Words used for emphasis (caralho, porra)",
+        "frustration": "Expressions of annoyance (merda, droga)",
+        "mild_curses": "Relatively mild curse words (cacete, raios)",
+        "intensifiers": "Words used to intensify other expressions"
+      },
+      "regional_variations": {
+        "brazil": "More tolerant, creative usage",
+        "portugal": "Traditional conservative approach",
+        "angola_mozambique": "Colonial influence mixed with local taboos"
+      }
+    },
+    "scatological": {
+      "name": "Scatological Terms",
+      "description": "References to bodily waste and related functions",
+      "examples_note": "Bathroom-related profanity and crude references",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "waste_references": "Direct references to feces and urine",
+        "toilet_humor": "Crude bathroom-related terms",
+        "bodily_functions": "References to natural elimination processes",
+        "crude_comparisons": "Comparing things to waste"
+      }
+    },
+    "anatomical": {
+      "name": "Anatomical References",
+      "description": "Crude or inappropriate references to body parts",
+      "examples_note": "Body parts used inappropriately or crudely",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "genitalia_male": "Male genital references (caralho, pau, pinto)",
+        "genitalia_female": "Female genital references (buceta, xota)",
+        "other_body_parts": "Non-genital body parts used crudely (cu, rabo)",
+        "sexual_anatomy": "Sexually explicit anatomical terminology"
+      },
+      "cultural_notes": "Brazilian Portuguese generally more tolerant of anatomical references than European Portuguese"
+    },
+    "sexual": {
+      "name": "Sexual Content",
+      "description": "Words related to sexual acts, behavior, or sexually explicit content",
+      "examples_note": "Sexual references and explicit terminology",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "sexual_acts": "References to sexual activities (foder, transar)",
+        "prostitution": "Prostitution-related terminology (puta, prostituta)",
+        "sexual_deviance": "Non-normative sexual behavior references",
+        "sexual_orientation": "Sexual orientation-related terms"
+      }
+    },
+    "derogatory": {
+      "name": "Derogatory Terms",
+      "description": "General insults and put-downs targeting individuals or groups",
+      "examples_note": "Personal attacks and character defamation",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "intelligence_insults": "Questioning mental capacity (burro, idiota)",
+        "character_attacks": "Attacks on moral character (sacana, canalha)",
+        "appearance_mockery": "Mocking physical appearance",
+        "behavioral_criticism": "Criticizing actions or habits (vagabundo)"
+      }
+    },
+    "gender_specific": {
+      "name": "Gender-Specific Insults",
+      "description": "Insults that specifically target based on gender",
+      "examples_note": "Gendered slurs and stereotypical insults",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "male_specific": "Insults specifically targeting males (corno, cornudo)",
+        "female_specific": "Insults specifically targeting females (puta, piranha)",
+        "gender_role_mockery": "Mocking adherence to gender roles",
+        "sexual_behavior_judgment": "Judging sexual behavior based on gender"
+      },
+      "cultural_context": "Strong machismo traditions affect severity and usage patterns"
+    },
+    "lgbtq_slurs": {
+      "name": "LGBTQ+ Slurs",
+      "description": "Derogatory terms targeting sexual orientation or gender identity",
+      "examples_note": "Homophobic and transphobic slurs",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "homophobic_slurs": "Anti-gay male slurs (viado, bicha)",
+        "lesbian_slurs": "Anti-lesbian terminology",
+        "transgender_slurs": "Anti-transgender terms",
+        "general_lgbtq_hate": "General anti-LGBTQ+ language"
+      },
+      "legal_considerations": "May violate hate speech laws in Brazil and Portugal",
+      "social_impact": "Causes significant harm to LGBTQ+ community"
+    },
+    "religious": {
+      "name": "Religious Profanity",
+      "description": "Blasphemous or sacrilegious language targeting religious beliefs",
+      "examples_note": "Catholic-influenced profanity and blasphemous language",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "catholic_blasphemy": "Catholic-specific blasphemy",
+        "religious_curses": "Religious-themed curse words",
+        "sacred_mockery": "Mocking religious practices",
+        "deity_references": "Inappropriate deity references (Jesus, Maria)"
+      },
+      "cultural_context": "Catholic influence varies by region and generation"
+    },
+    "racial_ethnic": {
+      "name": "Racial and Ethnic Slurs",
+      "description": "Derogatory terms targeting racial or ethnic groups",
+      "examples_note": "Racist terminology and ethnic discrimination",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "afro_brazilian_slurs": "Anti-Black Brazilian terminology",
+        "indigenous_slurs": "Anti-indigenous terms",
+        "immigrant_slurs": "Anti-immigrant terminology",
+        "colonial_era_terms": "Historical racist terminology"
+      },
+      "legal_considerations": "Illegal under anti-discrimination laws",
+      "historical_context": "Legacy of colonialism and slavery affects severity"
+    },
+    "socioeconomic": {
+      "name": "Socioeconomic Discrimination",
+      "description": "Terms targeting social class or economic status",
+      "examples_note": "Class-based discrimination and poverty mockery",
+      "severity_range": [2, 3],
+      "subcategories": {
+        "poverty_mockery": "Mocking economic disadvantage",
+        "class_discrimination": "Upper class looking down on lower class",
+        "education_mockery": "Mocking lack of education",
+        "occupation_insults": "Demeaning certain occupations"
+      }
+    },
+    "brazilian_specific": {
+      "name": "Brazilian Portuguese Specific",
+      "description": "Profanity specific to Brazilian Portuguese culture and usage",
+      "examples_note": "Terms that are particularly Brazilian in origin or usage",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "carnival_culture": "Terms from carnival and party culture",
+        "favela_slang": "Urban slang from Brazilian favelas",
+        "football_culture": "Soccer-related profanity and insults",
+        "internet_brazilian": "Brazilian internet culture specific terms"
+      }
+    },
+    "european_portuguese": {
+      "name": "European Portuguese Specific",
+      "description": "Profanity specific to European Portuguese culture",
+      "examples_note": "Terms more common or specific to Portugal",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "traditional_insults": "Historical Portuguese insults",
+        "regional_dialects": "Regional Portuguese variations",
+        "colonial_legacy": "Terms from colonial period",
+        "modern_european": "Contemporary European influences"
+      }
+    },
+    "african_portuguese": {
+      "name": "African Portuguese Variants",
+      "description": "Profanity patterns in African Portuguese-speaking countries",
+      "examples_note": "Angola, Mozambique, and other African variants",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "angolan_specific": "Angola-specific terms and usage",
+        "mozambican_specific": "Mozambique-specific variations",
+        "post_colonial": "Post-independence linguistic developments",
+        "local_language_mixing": "Portuguese mixed with local languages"
+      }
+    }
+  },
+  "severity_mapping": {
+    "1": {
+      "level": "Leve (Mild)",
+      "description": "Generally acceptable in informal settings but avoided in formal contexts",
+      "cultural_notes": "May be used casually among friends, varies by region",
+      "typical_categories": ["general.mild_curses", "anatomical.childish_terms", "religious.mild_blasphemy"]
+    },
+    "2": {
+      "level": "Moderado (Moderate)",
+      "description": "Inappropriate in professional or mixed company, causes mild to moderate offense",
+      "cultural_notes": "Avoided in formal situations and around older generations",
+      "typical_categories": ["scatological.waste_references", "derogatory.intelligence_insults", "socioeconomic.class_discrimination"]
+    },
+    "3": {
+      "level": "Forte (Strong)",
+      "description": "Highly offensive and inappropriate in most contexts, causes significant offense",
+      "cultural_notes": "Limited to very informal settings among close acquaintances",
+      "typical_categories": ["sexual.prostitution", "gender_specific.female_specific", "lgbtq_slurs.homophobic_slurs"]
+    },
+    "4": {
+      "level": "Severo (Severe)",
+      "description": "Extremely offensive, taboo in public discourse, may cause serious social consequences",
+      "cultural_notes": "Hate speech and extremely vulgar terms, potentially illegal",
+      "typical_categories": ["racial_ethnic.afro_brazilian_slurs", "lgbtq_slurs.transgender_slurs", "sexual.extreme_vulgarity"]
+    }
+  },
+  "cultural_considerations": {
+    "regional_tolerance": "Brazilian Portuguese generally more tolerant of profanity than European Portuguese",
+    "generational_differences": "Younger generations more accepting, especially with anatomical references",
+    "religious_influence": "Catholic heritage affects perception, stronger in rural areas",
+    "gender_expectations": "Different social expectations for male vs female use of profanity",
+    "class_dynamics": "Upper classes expected to use less profanity, working classes more tolerant",
+    "media_representation": "Brazilian media more permissive than Portuguese media",
+    "colonial_legacy": "Historical colonial relationships affect interregional sensitivities",
+    "machismo_culture": "Traditional gender roles influence severity of gender-specific insults"
+  }
+}

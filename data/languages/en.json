@@ -1,0 +1,2093 @@
+{
+  "language": "en",
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "total_entries": 40,
+  "words": [
+    {
+      "word": "damn",
+      "severity": 1,
+      "categories": [
+        "general",
+        "religious"
+      ],
+      "variations": [
+        "dam",
+        "darn",
+        "d4mn",
+        "d@mn"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild religious profanity, widely acceptable in casual conversation",
+      "target_type": "general"
+    },
+    {
+      "word": "hell",
+      "severity": 1,
+      "categories": [
+        "general",
+        "religious"
+      ],
+      "variations": [
+        "hel",
+        "h3ll",
+        "h*ll"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild religious reference, often used for emphasis",
+      "target_type": "general"
+    },
+    {
+      "word": "crap",
+      "severity": 1,
+      "categories": [
+        "general",
+        "scatological"
+      ],
+      "variations": [
+        "cr@p",
+        "cr4p",
+        "krap"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild scatological reference, generally acceptable",
+      "target_type": "general"
+    },
+    {
+      "word": "piss",
+      "severity": 1,
+      "categories": [
+        "general",
+        "scatological"
+      ],
+      "variations": [
+        "p1ss",
+        "p!ss",
+        "pi$$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild bodily function reference",
+      "target_type": "general"
+    },
+    {
+      "word": "ass",
+      "severity": 2,
+      "categories": [
+        "general",
+        "body_parts"
+      ],
+      "variations": [
+        "@ss",
+        "a$$",
+        "a55",
+        "arse"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Context-dependent severity, can be targeting or general",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "shit",
+      "severity": 2,
+      "categories": [
+        "general",
+        "scatological"
+      ],
+      "variations": [
+        "sh1t",
+        "sh!t",
+        "$hit",
+        "shyt",
+        "shiit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Common profanity, widely recognized as inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "bastard",
+      "severity": 2,
+      "categories": [
+        "general",
+        "slurs"
+      ],
+      "variations": [
+        "b@stard",
+        "basterd",
+        "ba5tard"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Historical slur regarding legitimacy of birth, now general insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "bitch",
+      "severity": 2,
+      "categories": [
+        "general",
+        "sexual",
+        "slurs"
+      ],
+      "variations": [
+        "b1tch",
+        "b!tch",
+        "bi7ch",
+        "bytch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Severity varies greatly by context and target, can be highly offensive when targeting women",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pussy",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts",
+        "slurs"
+      ],
+      "variations": [
+        "pu$$y",
+        "pu55y",
+        "pus5y"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sexual reference, can be used as general insult or specific sexual term",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fuck",
+      "severity": 3,
+      "categories": [
+        "general",
+        "sexual"
+      ],
+      "variations": [
+        "f*ck",
+        "f@ck",
+        "fck",
+        "fuk",
+        "fuq",
+        "f4ck",
+        "phuck",
+        "fvck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Highly versatile profanity, severity depends on usage and context",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fucking",
+      "severity": 3,
+      "categories": [
+        "general",
+        "sexual"
+      ],
+      "variations": [
+        "f*cking",
+        "f@cking",
+        "fcking",
+        "fuking",
+        "fvcking"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Intensive form, often used for emphasis",
+      "target_type": "general"
+    },
+    {
+      "word": "motherfucker",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "violence",
+        "slurs"
+      ],
+      "variations": [
+        "motherf*cker",
+        "motherf@cker",
+        "mofo",
+        "mf",
+        "muthafucker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive compound profanity",
+      "target_type": "individual"
+    },
+    {
+      "word": "cocksucker",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "slurs"
+      ],
+      "variations": [
+        "c*cksucker",
+        "co*ksucker",
+        "cocksu*ker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sexual slur, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "whore",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "slurs"
+      ],
+      "variations": [
+        "wh0re",
+        "wh@re",
+        "h0r",
+        "ho"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive, particularly targeting women",
+      "target_type": "individual"
+    },
+    {
+      "word": "slut",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "slurs"
+      ],
+      "variations": [
+        "$lut",
+        "5lut",
+        "slu7"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sexual slur, particularly offensive to women",
+      "target_type": "individual"
+    },
+    {
+      "word": "nigger",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "racial"
+      ],
+      "variations": [
+        "n*gger",
+        "n1gger",
+        "nigga",
+        "n*gga"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive racial slur, historically and contemporarily harmful",
+      "target_type": "group"
+    },
+    {
+      "word": "nigga",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "racial"
+      ],
+      "variations": [
+        "n*gga",
+        "n1gga",
+        "niqqa"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Variant of racial slur, complex reclamation dynamics within community",
+      "target_type": "group"
+    },
+    {
+      "word": "kike",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "religious"
+      ],
+      "variations": [
+        "k1ke",
+        "kyke"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Antisemitic slur, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "spic",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "ethnic"
+      ],
+      "variations": [
+        "sp1c",
+        "spik"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ethnic slur targeting Hispanic/Latino people",
+      "target_type": "group"
+    },
+    {
+      "word": "chink",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "racial"
+      ],
+      "variations": [
+        "ch1nk",
+        "ch!nk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Racial slur targeting Asian people",
+      "target_type": "group"
+    },
+    {
+      "word": "faggot",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "f*ggot",
+        "fag",
+        "f@ggot",
+        "f4ggot"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, extremely offensive to LGBTQ+ community",
+      "target_type": "group"
+    },
+    {
+      "word": "dyke",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "d*ke",
+        "d!ke"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Lesbian slur, some reclamation within community but generally offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "tranny",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "tr*nny",
+        "tranie"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Transphobic slur, extremely offensive to transgender community",
+      "target_type": "group"
+    },
+    {
+      "word": "retard",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "disability"
+      ],
+      "variations": [
+        "ret@rd",
+        "ret4rd",
+        "r*tard"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ableist slur, offensive to disability community",
+      "target_type": "group"
+    },
+    {
+      "word": "cunt",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts",
+        "slurs"
+      ],
+      "variations": [
+        "c*nt",
+        "cu*t",
+        "c@nt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive sexual/anatomical term, particularly offensive to women",
+      "target_type": "individual"
+    },
+    {
+      "word": "prick",
+      "severity": 2,
+      "categories": [
+        "general",
+        "body_parts",
+        "slurs"
+      ],
+      "variations": [
+        "pr1ck",
+        "pr!ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Anatomical reference used as general insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "dick",
+      "severity": 2,
+      "categories": [
+        "general",
+        "body_parts",
+        "slurs"
+      ],
+      "variations": [
+        "d1ck",
+        "d!ck",
+        "dik"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Common name that's also anatomical slang, context-dependent",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cock",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "c0ck",
+        "c*ck",
+        "kok"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sexual/anatomical reference, also legitimate word for male bird",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tits",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "t1ts",
+        "t!ts",
+        "ti7s"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sexual/anatomical reference",
+      "target_type": "general"
+    },
+    {
+      "word": "boobs",
+      "severity": 1,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "b00bs",
+        "boobz"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild sexual/anatomical reference",
+      "target_type": "general"
+    },
+    {
+      "word": "homo",
+      "severity": 3,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "h0mo",
+        "hom0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, offensive to LGBTQ+ community",
+      "target_type": "individual"
+    },
+    {
+      "word": "gay",
+      "severity": 1,
+      "categories": [
+        "lgbtq"
+      ],
+      "variations": [
+        "g@y",
+        "g4y"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Legitimate identity term, problematic when used as general insult",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "rape",
+      "severity": 4,
+      "categories": [
+        "violence",
+        "sexual"
+      ],
+      "variations": [
+        "r@pe",
+        "r4pe"
+      ],
+      "case_sensitive": false,
+      "context_notes": "References sexual violence, extremely serious",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "kill",
+      "severity": 3,
+      "categories": [
+        "violence"
+      ],
+      "variations": [
+        "kil",
+        "k1ll"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Violence reference, severity depends on context and target",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "murder",
+      "severity": 3,
+      "categories": [
+        "violence"
+      ],
+      "variations": [
+        "murd3r",
+        "murda"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Violence reference, severity depends on context",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "die",
+      "severity": 2,
+      "categories": [
+        "violence"
+      ],
+      "variations": [
+        "d1e",
+        "dy3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Can be neutral or threatening depending on context",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "nazi",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "violence"
+      ],
+      "variations": [
+        "n@zi",
+        "naz1"
+      ],
+      "case_sensitive": false,
+      "context_notes": "References historical fascist ideology, extremely offensive when used as slur",
+      "target_type": "group"
+    },
+    {
+      "word": "hitler",
+      "severity": 3,
+      "categories": [
+        "hate_speech",
+        "violence"
+      ],
+      "variations": [
+        "h1tler",
+        "hit1er"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Historical figure, offensive when used for comparison",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "terrorist",
+      "severity": 3,
+      "categories": [
+        "hate_speech",
+        "violence"
+      ],
+      "variations": [
+        "terr0rist",
+        "terrorist"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Serious accusation, can be hate speech when targeting ethnic/religious groups",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jihad",
+      "severity": 2,
+      "categories": [
+        "religious",
+        "violence"
+      ],
+      "variations": [
+        "j1had",
+        "jihad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Religious term often misunderstood, context-dependent severity",
+      "target_type": "context_dependent"
+    }
+  ],
+  "categories": {
+    "version": "1.0.0",
+    "last_updated": "2025-09-25",
+    "category_system": {
+      "description": "Hierarchical categorization system based on content type and social impact",
+      "methodology": "Based on academic research and community standards for content moderation"
+    },
+    "categories": {
+      "general": {
+        "name": "General Profanity",
+        "description": "Common swear words and mild expletives without specific targeting",
+        "examples_note": "Basic profanity used for emphasis or frustration",
+        "severity_range": [
+          1,
+          3
+        ],
+        "subcategories": {
+          "exclamatory": "Words used for emphasis (damn, hell)",
+          "bodily_functions": "References to bodily functions (crap, piss)",
+          "mild_curses": "Common curse words (shit, ass)"
+        }
+      },
+      "sexual": {
+        "name": "Sexual Content",
+        "description": "Words related to sexual acts, anatomy, or sexually explicit content",
+        "examples_note": "Sexual references and explicit terminology",
+        "severity_range": [
+          2,
+          4
+        ],
+        "subcategories": {
+          "anatomy": "Sexual body parts and references",
+          "acts": "References to sexual activities",
+          "explicit": "Graphic sexual terminology",
+          "pornographic": "Pornography-related terms"
+        }
+      },
+      "violence": {
+        "name": "Violence and Aggression",
+        "description": "Words promoting or describing violence, threats, or aggressive behavior",
+        "examples_note": "Violent language and threats",
+        "severity_range": [
+          2,
+          4
+        ],
+        "subcategories": {
+          "threats": "Direct or implied threats of harm",
+          "weapons": "References to weapons in threatening context",
+          "physical_harm": "Descriptions of violence or harm",
+          "death_wishes": "Expressions wishing harm or death"
+        }
+      },
+      "hate_speech": {
+        "name": "Hate Speech",
+        "description": "Language targeting individuals or groups based on identity characteristics",
+        "examples_note": "Discriminatory and hateful language",
+        "severity_range": [
+          3,
+          4
+        ],
+        "subcategories": {
+          "racial": "Racial slurs and racist language",
+          "ethnic": "Ethnicity-based discrimination",
+          "religious": "Religious hatred and discrimination",
+          "gender": "Gender-based hate speech",
+          "lgbtq": "Anti-LGBTQ+ slurs and discrimination",
+          "disability": "Ableist language and discrimination",
+          "socioeconomic": "Class-based discrimination"
+        }
+      },
+      "substance_abuse": {
+        "name": "Substance Abuse",
+        "description": "References to illegal drugs, drug culture, and substance abuse",
+        "examples_note": "Drug-related terminology and culture references",
+        "severity_range": [
+          1,
+          3
+        ],
+        "subcategories": {
+          "drugs": "Illegal drug names and slang",
+          "paraphernalia": "Drug-related equipment and tools",
+          "culture": "Drug culture and lifestyle references",
+          "dealing": "Drug distribution and sales terminology"
+        }
+      },
+      "body_parts": {
+        "name": "Inappropriate Anatomical References",
+        "description": "Crude or inappropriate references to body parts",
+        "examples_note": "Anatomical terms used inappropriately or crudely",
+        "severity_range": [
+          1,
+          3
+        ],
+        "subcategories": {
+          "crude_anatomy": "Crude references to body parts",
+          "sexual_anatomy": "Inappropriate sexual anatomical references",
+          "scatological": "References to bodily waste and functions"
+        }
+      },
+      "slurs": {
+        "name": "Slurs and Derogatory Terms",
+        "description": "Derogatory terms targeting specific groups or individuals",
+        "examples_note": "Offensive terms for groups and individuals",
+        "severity_range": [
+          3,
+          4
+        ],
+        "subcategories": {
+          "identity_based": "Slurs based on identity characteristics",
+          "appearance": "Derogatory comments about appearance",
+          "behavior": "Offensive terms describing behavior",
+          "historical": "Historically offensive terms and slurs"
+        }
+      },
+      "religious": {
+        "name": "Religious Profanity",
+        "description": "Blasphemous or sacrilegious language targeting religious beliefs",
+        "examples_note": "Religious curses and blasphemous language",
+        "severity_range": [
+          1,
+          3
+        ],
+        "subcategories": {
+          "blasphemy": "Direct blasphemous language",
+          "sacrilege": "Sacrilegious references",
+          "religious_curses": "Religious-themed curse words",
+          "deity_references": "Inappropriate deity references"
+        }
+      }
+    },
+    "severity_mapping": {
+      "1": {
+        "level": "Mild",
+        "description": "Generally acceptable in casual conversation but may be filtered in formal settings",
+        "typical_categories": [
+          "general.exclamatory",
+          "religious.religious_curses",
+          "substance_abuse.culture"
+        ]
+      },
+      "2": {
+        "level": "Moderate",
+        "description": "Inappropriate in most professional or public settings",
+        "typical_categories": [
+          "general.mild_curses",
+          "sexual.anatomy",
+          "violence.physical_harm",
+          "body_parts.crude_anatomy"
+        ]
+      },
+      "3": {
+        "level": "Strong",
+        "description": "Highly offensive and inappropriate in most contexts",
+        "typical_categories": [
+          "sexual.explicit",
+          "hate_speech.gender",
+          "slurs.behavior",
+          "violence.threats"
+        ]
+      },
+      "4": {
+        "level": "Severe",
+        "description": "Extremely offensive, potentially illegal, or causing significant harm",
+        "typical_categories": [
+          "hate_speech.racial",
+          "slurs.identity_based",
+          "violence.death_wishes",
+          "sexual.pornographic"
+        ]
+      }
+    },
+    "cross_category_considerations": {
+      "contextual_severity": "Words may have different severity levels depending on context and target",
+      "cultural_variations": "Severity may vary across different English-speaking regions",
+      "temporal_evolution": "Categories and severity levels evolve with changing social norms"
+    }
+  },
+  "context": {
+    "version": "1.0.0",
+    "last_updated": "2025-09-25",
+    "context_system": {
+      "description": "Context-sensitive word analysis and exception handling for English profanity detection",
+      "methodology": "Multi-layered contextual analysis including semantic, syntactic, and pragmatic considerations",
+      "processing_order": [
+        "whitelist",
+        "context_exceptions",
+        "semantic_analysis",
+        "intent_detection"
+      ]
+    },
+    "whitelist": {
+      "description": "Words that should never be flagged as profanity regardless of context",
+      "categories": {
+        "legitimate_words": {
+          "description": "Standard dictionary words that may contain profanity substrings",
+          "words": [
+            "assassin",
+            "assume",
+            "basement",
+            "assistance",
+            "classic",
+            "glasses",
+            "class",
+            "pass",
+            "grass",
+            "mass",
+            "brass",
+            "glass",
+            "bass",
+            "analysis",
+            "massive",
+            "passage",
+            "passenger",
+            "embassy",
+            "ambassador"
+          ]
+        },
+        "proper_nouns": {
+          "description": "Names, places, and proper nouns that may contain flagged substrings",
+          "examples": [
+            "Essex (place name)",
+            "Sussex (place name)",
+            "Massachusetts (state)",
+            "Wessex (historical region)",
+            "Dick (name)",
+            "Peter (name)",
+            "Johnson (surname)"
+          ],
+          "detection_rules": [
+            "Capitalized words at sentence start",
+            "Words preceded by title indicators (Mr., Mrs., Dr.)",
+            "Geographic location patterns"
+          ]
+        },
+        "technical_terms": {
+          "description": "Technical, scientific, or professional terminology",
+          "categories": {
+            "medical": [
+              "angioplasty",
+              "mastectomy",
+              "vasectomy",
+              "biopsy",
+              "proctology"
+            ],
+            "scientific": [
+              "analysis",
+              "synthesis",
+              "hypothesis",
+              "metastasis"
+            ],
+            "legal": [
+              "harassment",
+              "assault",
+              "damages"
+            ],
+            "computing": [
+              "password",
+              "database",
+              "class",
+              "function"
+            ]
+          }
+        },
+        "abbreviations": {
+          "description": "Common abbreviations that may trigger false positives",
+          "examples": [
+            "GPS (Global Positioning System)",
+            "USB (Universal Serial Bus)",
+            "CSS (Cascading Style Sheets)",
+            "RSS (Really Simple Syndication)"
+          ]
+        }
+      }
+    },
+    "context_exceptions": {
+      "educational_contexts": {
+        "description": "Academic or educational discussions about language",
+        "indicators": [
+          "discussing the word",
+          "academic analysis",
+          "linguistic research",
+          "etymology",
+          "dictionary definition",
+          "language study"
+        ],
+        "patterns": [
+          "the word [word]",
+          "term [word]",
+          "[word] means",
+          "definition of [word]",
+          "etymology of [word]"
+        ],
+        "severity_adjustment": -1
+      },
+      "historical_contexts": {
+        "description": "Historical discussions or period-appropriate language",
+        "indicators": [
+          "historical",
+          "period",
+          "century",
+          "historical document",
+          "archive",
+          "museum"
+        ],
+        "considerations": [
+          "Maintain historical accuracy while noting offensive nature",
+          "Provide content warnings for historical slurs",
+          "Consider educational value vs. potential harm"
+        ],
+        "severity_adjustment": -1
+      },
+      "artistic_expression": {
+        "description": "Creative works including literature, music, and performance",
+        "indicators": [
+          "lyrics",
+          "poetry",
+          "novel",
+          "character",
+          "dialogue",
+          "artistic",
+          "creative work"
+        ],
+        "considerations": [
+          "Artistic merit and intent",
+          "Target audience",
+          "Platform guidelines",
+          "Cultural significance"
+        ],
+        "severity_adjustment": -0.5
+      },
+      "medical_scientific": {
+        "description": "Medical or scientific discussions using technical terminology",
+        "indicators": [
+          "medical",
+          "diagnosis",
+          "treatment",
+          "symptom",
+          "condition",
+          "scientific",
+          "research"
+        ],
+        "automatic_whitelist": true,
+        "severity_adjustment": -2
+      },
+      "legal_proceedings": {
+        "description": "Legal documents, court records, or legal discussions",
+        "indicators": [
+          "court",
+          "legal",
+          "testimony",
+          "evidence",
+          "case",
+          "lawsuit",
+          "defendant",
+          "plaintiff"
+        ],
+        "severity_adjustment": -1
+      }
+    },
+    "semantic_analysis": {
+      "intent_detection": {
+        "aggressive_intent": {
+          "description": "Language intended to harm, threaten, or intimidate",
+          "indicators": [
+            "directed at person",
+            "threatening tone",
+            "imperative mood",
+            "repeated targeting"
+          ],
+          "severity_multiplier": 1.5,
+          "examples": [
+            "You are a [profanity]",
+            "Go [profanity] yourself",
+            "[Profanity] you"
+          ]
+        },
+        "casual_usage": {
+          "description": "Profanity used for emphasis without targeting",
+          "indicators": [
+            "exclamatory use",
+            "emphasis",
+            "frustration expression",
+            "non-targeted"
+          ],
+          "severity_multiplier": 0.8,
+          "examples": [
+            "That's [profanity] amazing",
+            "[Profanity], I forgot",
+            "This [profanity] thing won't work"
+          ]
+        },
+        "self_reference": {
+          "description": "Using profanity to describe oneself",
+          "indicators": [
+            "I am",
+            "I'm such a",
+            "I feel like"
+          ],
+          "severity_multiplier": 0.5,
+          "examples": [
+            "I'm such an [profanity]",
+            "I feel like [profanity]"
+          ]
+        }
+      },
+      "target_analysis": {
+        "individual_targeting": {
+          "description": "Profanity directed at specific individuals",
+          "severity_increase": 1,
+          "indicators": [
+            "you are",
+            "direct address",
+            "second person pronouns"
+          ]
+        },
+        "group_targeting": {
+          "description": "Profanity directed at groups or demographics",
+          "severity_increase": 2,
+          "indicators": [
+            "those people",
+            "all [group]",
+            "demographic references"
+          ]
+        },
+        "inanimate_targeting": {
+          "description": "Profanity directed at objects or concepts",
+          "severity_decrease": 1,
+          "indicators": [
+            "this thing",
+            "that [object]",
+            "system",
+            "software"
+          ]
+        }
+      }
+    },
+    "syntactic_patterns": {
+      "grammatical_roles": {
+        "adjective_usage": {
+          "description": "Profanity used as descriptive adjectives",
+          "severity_modifier": 0.9,
+          "examples": [
+            "[profanity] weather",
+            "[profanity] situation"
+          ]
+        },
+        "interjection_usage": {
+          "description": "Profanity used as exclamations",
+          "severity_modifier": 0.7,
+          "examples": [
+            "[Profanity]! I missed the bus",
+            "Well, [profanity]"
+          ]
+        },
+        "noun_usage": {
+          "description": "Profanity used as nouns, potentially targeting",
+          "severity_modifier": 1.2,
+          "examples": [
+            "That [profanity] over there",
+            "Don't be such a [profanity]"
+          ]
+        }
+      },
+      "sentence_position": {
+        "sentence_initial": {
+          "description": "Profanity at the beginning of sentences",
+          "pattern": "^\\s*[profanity]",
+          "severity_modifier": 0.8
+        },
+        "sentence_final": {
+          "description": "Profanity at the end of sentences",
+          "pattern": "[profanity]\\s*[.!?]*$",
+          "severity_modifier": 0.9
+        },
+        "mid_sentence": {
+          "description": "Profanity embedded within sentences",
+          "severity_modifier": 1
+        }
+      }
+    },
+    "temporal_context": {
+      "recency_factors": {
+        "repeated_usage": {
+          "description": "Recent repeated use of profanity by same user",
+          "time_window": "24_hours",
+          "severity_multiplier": 1.3
+        },
+        "escalation_patterns": {
+          "description": "Increasing severity of profanity over time",
+          "time_window": "1_hour",
+          "severity_multiplier": 1.5
+        }
+      },
+      "conversation_context": {
+        "ongoing_argument": {
+          "description": "Profanity within heated discussions",
+          "indicators": [
+            "multiple participants",
+            "disagreement markers",
+            "emotional language"
+          ],
+          "severity_multiplier": 1.2
+        },
+        "casual_conversation": {
+          "description": "Profanity in friendly, casual settings",
+          "indicators": [
+            "friendly tone",
+            "familiar participants",
+            "humor indicators"
+          ],
+          "severity_multiplier": 0.8
+        }
+      }
+    },
+    "cultural_considerations": {
+      "regional_variations": {
+        "british_english": {
+          "description": "British English specific considerations",
+          "milder_terms": [
+            "bloody",
+            "bugger",
+            "sod"
+          ],
+          "cultural_notes": "Some terms considered milder in British context"
+        },
+        "american_english": {
+          "description": "American English specific considerations",
+          "religious_sensitivity": "Higher sensitivity to religious profanity",
+          "cultural_notes": "Regional variations in acceptability"
+        },
+        "australian_english": {
+          "description": "Australian English specific considerations",
+          "casual_usage": "More casual use of certain terms",
+          "cultural_notes": "Different social acceptability norms"
+        }
+      },
+      "generational_differences": {
+        "younger_users": {
+          "description": "Different profanity norms among younger users",
+          "trends": [
+            "reclaimed slurs",
+            "creative euphemisms",
+            "meme language"
+          ]
+        },
+        "older_users": {
+          "description": "Traditional profanity sensitivity patterns",
+          "considerations": [
+            "higher sensitivity",
+            "formal language preference"
+          ]
+        }
+      }
+    },
+    "exception_rules": {
+      "automatic_exceptions": [
+        {
+          "rule": "medical_terminology",
+          "description": "Automatic exception for medical terms",
+          "pattern": "medical_context_indicators",
+          "action": "whitelist"
+        },
+        {
+          "rule": "proper_nouns",
+          "description": "Automatic exception for proper nouns",
+          "pattern": "capitalization_patterns",
+          "action": "whitelist"
+        }
+      ],
+      "conditional_exceptions": [
+        {
+          "rule": "educational_context",
+          "description": "Conditional exception for educational discussions",
+          "conditions": [
+            "academic_indicators",
+            "educational_purpose"
+          ],
+          "action": "reduce_severity"
+        },
+        {
+          "rule": "artistic_expression",
+          "description": "Conditional exception for artistic works",
+          "conditions": [
+            "creative_context",
+            "artistic_merit"
+          ],
+          "action": "reduce_severity"
+        }
+      ]
+    },
+    "implementation_guidelines": {
+      "processing_order": [
+        "Apply whitelist exceptions first",
+        "Check for automatic exceptions",
+        "Analyze semantic context",
+        "Apply conditional exceptions",
+        "Calculate final severity score"
+      ],
+      "confidence_thresholds": {
+        "high_confidence": "Apply full exception",
+        "medium_confidence": "Reduce severity by half",
+        "low_confidence": "Flag for manual review"
+      },
+      "fallback_behavior": "When context is unclear, err on the side of caution with standard severity ratings"
+    }
+  },
+  "metadata": {
+    "language": "en",
+    "language_name": "English",
+    "version": "1.0.0",
+    "last_updated": "2025-09-25",
+    "total_words": 0,
+    "total_variations": 0,
+    "source_attribution": {
+      "primary_sources": [
+        {
+          "name": "LDNOOBW (List of Dirty, Naughty, Obscene and Otherwise Bad Words)",
+          "url": "https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
+          "license": "Creative Commons",
+          "description": "Comprehensive multilingual profanity list"
+        },
+        {
+          "name": "dsojevic/profanity-list",
+          "url": "https://github.com/dsojevic/profanity-list",
+          "license": "MIT",
+          "description": "Highly consumable profanity list with severity ratings and tags"
+        },
+        {
+          "name": "censor-text/profanity-list",
+          "url": "https://github.com/censor-text/profanity-list",
+          "license": "Unlicense",
+          "description": "Multilingual profanity collection for automated censorship"
+        },
+        {
+          "name": "zautumnz/profane-words",
+          "url": "https://github.com/zautumnz/profane-words",
+          "license": "WTFPL",
+          "description": "Semi-comprehensive English profanity list"
+        }
+      ],
+      "academic_sources": [
+        {
+          "name": "Automated Hate Speech Detection and the Problem of Offensive Language",
+          "url": "https://arxiv.org/abs/1703.04009",
+          "authors": [
+            "Davidson, T.",
+            "Warmsley, D.",
+            "Macy, M.",
+            "Weber, I."
+          ],
+          "description": "Academic research on offensive language categorization"
+        },
+        {
+          "name": "Detection of Offensive Language and Its Severity for Low Resource Language",
+          "url": "https://dl.acm.org/doi/abs/10.1145/3580476",
+          "description": "Recent research on severity-based classification systems"
+        }
+      ]
+    },
+    "compilation_methodology": {
+      "approach": "Multi-source compilation with academic validation",
+      "quality_control": [
+        "Cross-reference validation against multiple sources",
+        "Academic literature review for categorization",
+        "False positive removal",
+        "Cultural sensitivity review"
+      ],
+      "coverage_areas": [
+        "General profanity",
+        "Sexual content",
+        "Violence and aggression",
+        "Hate speech and discrimination",
+        "Substance abuse references",
+        "Anatomical references",
+        "Religious profanity"
+      ]
+    },
+    "technical_specifications": {
+      "encoding": "UTF-8",
+      "case_sensitivity": false,
+      "normalization": "NFD (Unicode Normalization Form Decomposed)",
+      "variation_types": [
+        "leetspeak",
+        "spacing",
+        "repetition",
+        "symbols",
+        "misspellings"
+      ]
+    },
+    "usage_notes": {
+      "intended_use": "Content moderation and profanity filtering",
+      "cultural_context": "Primarily North American and British English",
+      "limitations": [
+        "Context-dependent terms require careful handling",
+        "Regional variations may not be fully covered",
+        "Evolving slang requires regular updates"
+      ],
+      "ethical_considerations": [
+        "Avoid over-censoring legitimate discourse",
+        "Consider cultural and linguistic diversity",
+        "Balance between safety and freedom of expression"
+      ]
+    }
+  },
+  "severity_info": {
+    "version": "1.0.0",
+    "last_updated": "2025-09-25",
+    "severity_system": {
+      "description": "Four-level severity classification system for English profanity",
+      "methodology": "Based on academic research, social impact assessment, and community standards",
+      "scale_range": [
+        1,
+        4
+      ],
+      "default_severity": 2
+    },
+    "severity_levels": {
+      "1": {
+        "name": "Mild",
+        "description": "Low-impact profanity generally acceptable in casual conversation",
+        "usage_guidelines": {
+          "filtering_recommendation": "Optional filtering, context-dependent",
+          "content_rating": "May appear in PG-13 or teen-rated content",
+          "workplace_appropriateness": "Generally inappropriate in formal business settings",
+          "educational_context": "May be acceptable in certain educational discussions"
+        },
+        "characteristics": [
+          "Common in everyday speech",
+          "Low social stigma",
+          "Rarely causes significant offense",
+          "Often used for emphasis rather than targeting"
+        ],
+        "examples_categories": [
+          "damn",
+          "hell",
+          "crap",
+          "piss",
+          "ass (mild usage)"
+        ],
+        "legal_status": "Generally not subject to broadcast restrictions in most jurisdictions",
+        "social_impact": "Minimal to low impact on recipients"
+      },
+      "2": {
+        "name": "Moderate",
+        "description": "Moderate profanity inappropriate in professional and many social contexts",
+        "usage_guidelines": {
+          "filtering_recommendation": "Recommended filtering in professional and family contexts",
+          "content_rating": "Typically requires R rating or mature content warning",
+          "workplace_appropriateness": "Generally unacceptable in workplace environments",
+          "educational_context": "May be discussed in academic contexts with appropriate warnings"
+        },
+        "characteristics": [
+          "Widely recognized as profane",
+          "Moderate social stigma",
+          "May cause offense in formal settings",
+          "Common in informal adult conversation"
+        ],
+        "examples_categories": [
+          "shit",
+          "bitch (context-dependent)",
+          "bastard",
+          "pussy (non-sexual context)"
+        ],
+        "legal_status": "Subject to broadcast restrictions during certain hours",
+        "social_impact": "Moderate impact, may cause discomfort or offense"
+      },
+      "3": {
+        "name": "Strong",
+        "description": "Strong profanity highly offensive and inappropriate in most contexts",
+        "usage_guidelines": {
+          "filtering_recommendation": "Strong recommendation for filtering in most contexts",
+          "content_rating": "Requires explicit content warnings or mature ratings",
+          "workplace_appropriateness": "Unacceptable and may violate harassment policies",
+          "educational_context": "Only appropriate in specialized academic research contexts"
+        },
+        "characteristics": [
+          "Highly offensive to many people",
+          "Significant social stigma",
+          "May violate community standards",
+          "Often targeting or sexually explicit"
+        ],
+        "examples_categories": [
+          "fuck and variants",
+          "motherfucker",
+          "cocksucker",
+          "Gender-based slurs"
+        ],
+        "legal_status": "Generally prohibited in broadcast media and may violate platform terms",
+        "social_impact": "High impact, likely to cause offense and may create hostile environments"
+      },
+      "4": {
+        "name": "Severe",
+        "description": "Extreme profanity with severe social impact, potentially illegal or harmful",
+        "usage_guidelines": {
+          "filtering_recommendation": "Mandatory filtering in virtually all contexts",
+          "content_rating": "Prohibited in most commercial content platforms",
+          "workplace_appropriateness": "Grounds for disciplinary action or termination",
+          "educational_context": "Only appropriate in highly specialized academic research with strict ethical oversight"
+        },
+        "characteristics": [
+          "Extremely offensive and harmful",
+          "Targets individuals or groups based on identity",
+          "May constitute hate speech or harassment",
+          "Can cause significant psychological harm"
+        ],
+        "examples_categories": [
+          "Racial slurs (n-word, etc.)",
+          "Extreme sexual violence references",
+          "Genocide-related terms",
+          "Identity-based hate speech"
+        ],
+        "legal_status": "May constitute hate speech, harassment, or threats under various jurisdictions",
+        "social_impact": "Severe impact, may cause trauma, perpetuate discrimination, or incite violence"
+      }
+    },
+    "contextual_modifiers": {
+      "intent_factors": {
+        "targeting": "Words directed at individuals or groups increase severity",
+        "harassment": "Repeated or systematic use increases severity",
+        "threat_implication": "Words implying threats or violence increase severity"
+      },
+      "context_factors": {
+        "public_forum": "Public contexts may increase severity impact",
+        "power_dynamics": "Authority figures using profanity may increase severity",
+        "vulnerable_populations": "Targeting vulnerable groups increases severity"
+      },
+      "mitigating_factors": {
+        "self_reference": "Self-directed profanity may have reduced severity",
+        "artistic_expression": "Creative contexts may justify lower severity ratings",
+        "educational_discourse": "Academic discussion may warrant contextual consideration"
+      }
+    },
+    "implementation_guidelines": {
+      "escalation_rules": [
+        "Multiple severity 2+ words in single message upgrade overall severity",
+        "Combination with targeting language increases severity by 1 level",
+        "Repeated violations within timeframe increase effective severity"
+      ],
+      "de_escalation_considerations": [
+        "Historical or academic context may reduce effective severity",
+        "Clear non-malicious intent may warrant severity reduction",
+        "Community standards and cultural context should be considered"
+      ],
+      "special_cases": {
+        "medical_terminology": "Medical or scientific terms generally not subject to severity ratings",
+        "reclaimed_language": "Some communities may reclaim certain terms, requiring contextual analysis",
+        "cross_linguistic": "Borrowed words from other languages may require special consideration"
+      }
+    },
+    "update_protocol": {
+      "review_frequency": "Quarterly review recommended",
+      "community_feedback": "User reports and community input should inform severity adjustments",
+      "academic_updates": "New research on language harm should trigger severity reviews",
+      "cultural_shifts": "Evolving social norms may require severity recalibration"
+    }
+  },
+  "variations": {
+    "version": "1.0.0",
+    "last_updated": "2025-09-25",
+    "variation_system": {
+      "description": "Comprehensive patterns for detecting obfuscated, modified, and variant forms of profanity",
+      "methodology": "Pattern-based approach covering leetspeak, spacing, repetition, and symbol substitutions",
+      "detection_approach": "Fuzzy matching with configurable similarity thresholds"
+    },
+    "substitution_patterns": {
+      "leetspeak_mappings": {
+        "a": [
+          "@",
+          "4",
+          "^",
+          "/\\",
+          "/-\\"
+        ],
+        "b": [
+          "6",
+          "8",
+          "|3",
+          "13",
+          "!3"
+        ],
+        "c": [
+          "(",
+          "{",
+          "[",
+          "<",
+          "©"
+        ],
+        "d": [
+          "|)",
+          "|]",
+          "0",
+          "T)",
+          "I>"
+        ],
+        "e": [
+          "3",
+          "€",
+          "£",
+          "[-"
+        ],
+        "f": [
+          "|=",
+          "ph",
+          "|#",
+          "/="
+        ],
+        "g": [
+          "9",
+          "6",
+          "&",
+          "(_+"
+        ],
+        "h": [
+          "#",
+          "|-|",
+          "[-]",
+          ")-(",
+          "}{"
+        ],
+        "i": [
+          "1",
+          "!",
+          "|",
+          "l",
+          "I",
+          "]["
+        ],
+        "j": [
+          ",_|",
+          "_|",
+          ".]",
+          "j"
+        ],
+        "k": [
+          "|<",
+          "1<",
+          "l<",
+          "|("
+        ],
+        "l": [
+          "1",
+          "|",
+          "7",
+          "L",
+          "£"
+        ],
+        "m": [
+          "/\\/\\",
+          "|\\/|",
+          "[]V[]",
+          "^^"
+        ],
+        "n": [
+          "|\\|",
+          "/\\/",
+          "[]\\[]",
+          "^/"
+        ],
+        "o": [
+          "0",
+          "()",
+          "[]",
+          "oh"
+        ],
+        "p": [
+          "|*",
+          "|o",
+          "|>",
+          "|\""
+        ],
+        "q": [
+          "9",
+          "(,)",
+          "0_",
+          "kw"
+        ],
+        "r": [
+          "|2",
+          "12",
+          "|?",
+          "lz"
+        ],
+        "s": [
+          "5",
+          "$",
+          "z",
+          "§"
+        ],
+        "t": [
+          "7",
+          "+",
+          "-|-",
+          "']['"
+        ],
+        "u": [
+          "|_|",
+          "(_)",
+          "U",
+          "v"
+        ],
+        "v": [
+          "\\/",
+          "|/",
+          "\\|"
+        ],
+        "w": [
+          "\\/\\/",
+          "vv",
+          "\\N",
+          "'//"
+        ],
+        "x": [
+          "><",
+          ")(",
+          "}{",
+          "%"
+        ],
+        "y": [
+          "`/",
+          "j",
+          "\\|/",
+          "\\//"
+        ],
+        "z": [
+          "2",
+          "7_",
+          "-/_",
+          "%"
+        ]
+      },
+      "symbol_substitutions": {
+        "asterisk": [
+          "*",
+          "×",
+          "✱",
+          "⁎"
+        ],
+        "punctuation": [
+          "!",
+          "?",
+          ".",
+          ",",
+          ";",
+          ":"
+        ],
+        "brackets": [
+          "(",
+          ")",
+          "[",
+          "]",
+          "{",
+          "}",
+          "<",
+          ">"
+        ],
+        "special_chars": [
+          "#",
+          "$",
+          "%",
+          "&",
+          "+",
+          "=",
+          "~"
+        ]
+      },
+      "unicode_variations": {
+        "homoglyphs": {
+          "a": [
+            "а",
+            "α",
+            "ɑ"
+          ],
+          "b": [
+            "Ƅ",
+            "ᏼ",
+            "ḃ"
+          ],
+          "c": [
+            "с",
+            "ϲ",
+            "ᴄ"
+          ],
+          "d": [
+            "ԁ",
+            "ᵭ",
+            "ḋ"
+          ],
+          "e": [
+            "е",
+            "ҽ",
+            "ë"
+          ],
+          "f": [
+            "ḟ",
+            "ẝ",
+            "ᶠ"
+          ],
+          "g": [
+            "ɡ",
+            "ǥ",
+            "ᵍ"
+          ],
+          "h": [
+            "һ",
+            "ḥ",
+            "ᵸ"
+          ],
+          "i": [
+            "і",
+            "ɨ",
+            "ḭ"
+          ],
+          "j": [
+            "ј",
+            "ʝ",
+            "ĵ"
+          ],
+          "k": [
+            "κ",
+            "ḱ",
+            "ᵏ"
+          ],
+          "l": [
+            "ӏ",
+            "ḷ",
+            "ᴸ"
+          ],
+          "m": [
+            "м",
+            "ṁ",
+            "ᵐ"
+          ],
+          "n": [
+            "ո",
+            "ṅ",
+            "ᴺ"
+          ],
+          "o": [
+            "о",
+            "օ",
+            "ọ"
+          ],
+          "p": [
+            "р",
+            "ṕ",
+            "ᴾ"
+          ],
+          "q": [
+            "ԛ",
+            "ʠ",
+            "ᵠ"
+          ],
+          "r": [
+            "г",
+            "ṛ",
+            "ᴿ"
+          ],
+          "s": [
+            "ѕ",
+            "ś",
+            "ˢ"
+          ],
+          "t": [
+            "т",
+            "ṭ",
+            "ᵀ"
+          ],
+          "u": [
+            "υ",
+            "ս",
+            "ṳ"
+          ],
+          "v": [
+            "ν",
+            "ṿ",
+            "ⱱ"
+          ],
+          "w": [
+            "ԝ",
+            "ẁ",
+            "ʷ"
+          ],
+          "x": [
+            "х",
+            "ẋ",
+            "ˣ"
+          ],
+          "y": [
+            "у",
+            "ẏ",
+            "ʸ"
+          ],
+          "z": [
+            "ᴢ",
+            "ẓ",
+            "ᶻ"
+          ]
+        }
+      }
+    },
+    "obfuscation_patterns": {
+      "spacing_variations": {
+        "word_splitting": {
+          "description": "Characters separated by spaces or other delimiters",
+          "patterns": [
+            "\\b([a-z])\\s+([a-z])\\s+([a-z])\\b",
+            "\\b([a-z])[-_.]([a-z])[-_.]([a-z])\\b",
+            "\\b([a-z])\\s*[|]\\s*([a-z])\\s*[|]\\s*([a-z])\\b"
+          ],
+          "examples": [
+            "f u c k",
+            "s-h-i-t",
+            "d.a.m.n",
+            "b|i|t|c|h"
+          ]
+        },
+        "interspersed_characters": {
+          "description": "Extra characters inserted between letters",
+          "patterns": [
+            "([a-z])[^a-z]*([a-z])[^a-z]*([a-z])",
+            "([a-z])[0-9]+([a-z])[0-9]+([a-z])",
+            "([a-z])[*@#$]+([a-z])[*@#$]+([a-z])"
+          ],
+          "examples": [
+            "f123u456c789k",
+            "s*h*i*t",
+            "d@m@n"
+          ]
+        }
+      },
+      "repetition_patterns": {
+        "character_repetition": {
+          "description": "Extra repeated characters for emphasis",
+          "patterns": [
+            "([a-z])\\1{2,}",
+            "([aeiou])\\1+",
+            "([bcdfghjklmnpqrstvwxyz])\\1+"
+          ],
+          "examples": [
+            "fuuuuck",
+            "shiiiit",
+            "dammmn",
+            "asssss"
+          ]
+        },
+        "syllable_repetition": {
+          "description": "Repeated syllables or word parts",
+          "patterns": [
+            "([a-z]{2,})\\1+",
+            "(fu|shi|dam)\\1+"
+          ],
+          "examples": [
+            "fufufuck",
+            "shishishit",
+            "damdamn"
+          ]
+        }
+      },
+      "case_variations": {
+        "alternating_case": {
+          "description": "Mixed uppercase and lowercase patterns",
+          "patterns": [
+            "([A-Z][a-z])+",
+            "([a-z][A-Z])+"
+          ],
+          "examples": [
+            "FuCk",
+            "sHiT",
+            "dAmN",
+            "AsS"
+          ]
+        },
+        "random_case": {
+          "description": "Random capitalization patterns",
+          "patterns": [
+            "[A-Za-z]*[A-Z][a-z]*[A-Z][A-Za-z]*"
+          ],
+          "examples": [
+            "fuCK",
+            "SHit",
+            "DAmn"
+          ]
+        }
+      },
+      "prefix_suffix_obfuscation": {
+        "prefix_addition": {
+          "description": "Adding prefixes to obscure words",
+          "common_prefixes": [
+            "x",
+            "z",
+            "ur",
+            "my",
+            "the",
+            "a"
+          ],
+          "examples": [
+            "xfuck",
+            "zshit",
+            "urdamn"
+          ]
+        },
+        "suffix_addition": {
+          "description": "Adding suffixes to obscure words",
+          "common_suffixes": [
+            "er",
+            "ing",
+            "ed",
+            "ly",
+            "s",
+            "x",
+            "z"
+          ],
+          "examples": [
+            "fucker",
+            "fucking",
+            "damns",
+            "shitx"
+          ]
+        }
+      },
+      "phonetic_variations": {
+        "sound_alike": {
+          "description": "Words that sound similar to profanity",
+          "patterns": [
+            "ph -> f sound substitutions",
+            "ck -> k sound substitutions",
+            "double consonant reduction"
+          ],
+          "examples": [
+            "phuck",
+            "fuk",
+            "sht",
+            "dam"
+          ]
+        },
+        "vowel_dropping": {
+          "description": "Removing vowels from words",
+          "patterns": [
+            "[bcdfghjklmnpqrstvwxyz]+"
+          ],
+          "examples": [
+            "fck",
+            "sht",
+            "dmn",
+            "btch"
+          ]
+        }
+      }
+    },
+    "detection_algorithms": {
+      "fuzzy_matching": {
+        "levenshtein_distance": {
+          "description": "Character-level edit distance for similarity",
+          "threshold_recommendations": {
+            "strict": 0.9,
+            "moderate": 0.8,
+            "lenient": 0.7
+          }
+        },
+        "jaro_winkler": {
+          "description": "String similarity metric optimized for typos",
+          "threshold_recommendations": {
+            "strict": 0.85,
+            "moderate": 0.75,
+            "lenient": 0.65
+          }
+        }
+      },
+      "pattern_matching": {
+        "regex_patterns": {
+          "description": "Regular expression patterns for systematic variations",
+          "complexity_levels": [
+            "basic",
+            "intermediate",
+            "advanced"
+          ]
+        },
+        "character_mapping": {
+          "description": "Direct character substitution detection",
+          "mapping_confidence": [
+            "high",
+            "medium",
+            "low"
+          ]
+        }
+      }
+    },
+    "common_obfuscation_examples": {
+      "leetspeak": [
+        "fu(k -> f*ck, f@ck, f4ck, phuck",
+        "sh1t -> sh!t, $hit, 5h1t",
+        "d4mn -> d@mn, d*mn",
+        "b1tch -> b!tch, 8itch, bi7ch"
+      ],
+      "spacing": [
+        "f u c k",
+        "s h i t",
+        "d a m n",
+        "b-i-t-c-h"
+      ],
+      "repetition": [
+        "fuuuuck",
+        "shiiiit",
+        "dammmn",
+        "bitchhhh"
+      ],
+      "symbols": [
+        "f***",
+        "s***",
+        "d***",
+        "b****"
+      ],
+      "mixed": [
+        "f@u3k",
+        "$h1+",
+        "d4m/n",
+        "8!+ch"
+      ]
+    },
+    "performance_considerations": {
+      "optimization_notes": [
+        "Pre-compile regex patterns for efficiency",
+        "Use trie structures for prefix matching",
+        "Implement caching for repeated phrase analysis",
+        "Consider early termination for obvious non-matches"
+      ],
+      "scaling_recommendations": [
+        "Limit fuzzy matching scope based on string length",
+        "Use progressive filtering (simple to complex patterns)",
+        "Implement confidence scoring to reduce false positives"
+      ]
+    }
+  }
+}

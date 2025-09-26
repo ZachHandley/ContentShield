@@ -1,0 +1,269 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "fr",
+  "variation_system": {
+    "description": "French profanity variations including obfuscations, verlan forms, and regional dialectal differences",
+    "methodology": "Comprehensive collection of spelling variations, verlan, and regional differences"
+  },
+  "obfuscation_patterns": {
+    "character_substitution": {
+      "a": ["@", "4", "à", "â"],
+      "e": ["3", "é", "è", "ê", "ë"],
+      "i": ["1", "!", "í", "î", "ï"],
+      "o": ["0", "ó", "ô", "ö"],
+      "u": ["ú", "û", "ü"],
+      "s": ["$", "5", "z"],
+      "c": ["k", "q", "ç"],
+      "g": ["j"],
+      "j": ["g"]
+    },
+    "symbol_replacement": {
+      "asterisks": "Replace vowels or consonants with * (p*tain, m*rde)",
+      "underscores": "Replace middle letters with _ (p_tain, m_rde)",
+      "mixed": "Combine multiple techniques (m3rd3, put41n)"
+    },
+    "phonetic_variations": {
+      "k_for_c": "kon for con, konnard for connard",
+      "ph_for_f": "phuck adaptation in French context",
+      "doubled_letters": "putaiin, merrdee for emphasis",
+      "silent_letters": "Adding or removing silent letters"
+    }
+  },
+  "verlan_system": {
+    "description": "Systematic syllable reversal system in French slang",
+    "basic_patterns": {
+      "two_syllable": {
+        "pattern": "AB → BA",
+        "examples": {
+          "femme": "meuf",
+          "flic": "keuf",
+          "black": "kcalb",
+          "arabe": "beur"
+        }
+      },
+      "one_syllable": {
+        "pattern": "Add vowel and reverse",
+        "examples": {
+          "fête": "teuf",
+          "shit": "teshi"
+        }
+      },
+      "three_syllable": {
+        "pattern": "Complex reversal patterns",
+        "examples": {
+          "énervé": "vénère",
+          "bizarre": "zarbi"
+        }
+      }
+    },
+    "profanity_verlan": {
+      "sexual_terms": {
+        "pute": "tepu",
+        "bite": "tebi",
+        "con": "noc"
+      },
+      "general_insults": {
+        "salope": "lopesa",
+        "connard": "nardcon",
+        "enfoiré": "réenfoi"
+      },
+      "ethnic_terms": {
+        "beur": "arabe (already verlan)",
+        "babtou": "toubab (reverse verlan for white)"
+      }
+    },
+    "double_verlan": {
+      "description": "Re-verlaning already verlan words",
+      "examples": [
+        "arabe → beur → rebeu",
+        "femme → meuf → feume"
+      ]
+    }
+  },
+  "regional_variations": {
+    "france": {
+      "verlan_heavy_regions": {
+        "ile_de_france": ["Paris and suburbs", "Heavy verlan usage", "Rapid evolution"],
+        "banlieues": ["Suburban areas", "Creative new verlan", "Youth-driven"]
+      },
+      "southern_variations": {
+        "accent_effects": "Southern accent affects pronunciation",
+        "examples": ["Marseille variations", "Toulouse regional terms"],
+        "italian_spanish_influence": "Some vocabulary borrowing"
+      },
+      "northern_variations": {
+        "flemish_border": "Some Flemish influence",
+        "industrial_regions": "Working-class profanity traditions",
+        "examples": ["Ch'ti dialect influences", "Northern industrial terms"]
+      }
+    },
+    "quebec": {
+      "sacres_variations": {
+        "tabarnac": ["tabarnak", "taboire", "tabernouche", "tabar"],
+        "câlice": ["calice", "câlisse", "caltor"],
+        "crisse": ["criss", "christie", "cristophe"],
+        "ostie": ["osti", "ostique", "estie"]
+      },
+      "compound_sacres": [
+        "câlice de tabarnac",
+        "ostie de crisse de câlice",
+        "tabarnac d'ostie de crisse",
+        "saint-cimonac de calvaire"
+      ],
+      "euphemized_sacres": {
+        "tabarnac": ["tabarnouche", "taboire", "tabarouette"],
+        "câlice": ["câline", "caltor"],
+        "crisse": ["cré", "crime", "cristophe"]
+      },
+      "joual_influences": {
+        "description": "Quebec working-class dialect",
+        "characteristics": ["English loanwords", "Phonetic changes", "Unique grammar"],
+        "examples": ["char for car", "piasse for dollar"]
+      }
+    },
+    "belgium": {
+      "walloon_influences": {
+        "regional_terms": "Walloon language influences",
+        "examples": ["Brussels variations", "Liège regional terms"],
+        "flemish_contact": "Some Flemish loanwords"
+      },
+      "congo_legacy": {
+        "colonial_terms": "Some terms from colonial period",
+        "african_influences": "Limited African vocabulary",
+        "sensitivity": "Awareness of colonial language legacy"
+      }
+    },
+    "switzerland": {
+      "german_influences": {
+        "borrowed_intensifiers": ["Some German curse intensifiers"],
+        "pronunciation": ["German phonetic influence"],
+        "structure": ["Some German syntactic patterns"]
+      },
+      "italian_influences": {
+        "ticino_region": "Italian-French contact area",
+        "borrowed_terms": "Some Italian profanity borrowings",
+        "pronunciation": "Italian phonetic influence"
+      }
+    },
+    "africa": {
+      "west_africa": {
+        "local_mixing": "Local language mixed with French",
+        "examples": ["Senegalese Wolof influences", "Ivorian local terms"],
+        "colonial_context": "Formal French often maintained"
+      },
+      "north_africa": {
+        "arabic_influences": "Arabic loanwords and structures",
+        "examples": ["Maghrebi Arabic mixing", "Berber influences"],
+        "immigration_context": "Terms carried to France"
+      },
+      "central_africa": {
+        "lingala_influences": "Lingala and other local languages",
+        "examples": ["Congolese terms", "Central African variations"],
+        "formal_context": "More formal French in official contexts"
+      }
+    }
+  },
+  "creative_obfuscations": {
+    "euphemisms": {
+      "sexual": {
+        "zut": "Instead of merde",
+        "mince": "Instead of merde",
+        "flûte": "Instead of merde",
+        "punaise": "Instead of putain"
+      },
+      "religious": {
+        "quebec_euphemisms": {
+          "tabarnouche": "Instead of tabarnac",
+          "câline": "Instead of câlice",
+          "crime": "Instead of crisse"
+        },
+        "general": {
+          "saperlipopette": "Euphemistic exclamation",
+          "sapristi": "Mild religious exclamation"
+        }
+      }
+    },
+    "minced_oaths": {
+      "initial_sounds": ["p... for putain", "m... for merde", "s... for salope"],
+      "partial_words": ["put... for putain", "mer... for merde"],
+      "gesture_based": ["Sign of the cross for religious terms", "Hand gestures"]
+    },
+    "code_switching": {
+      "english_mixing": ["fucking putain", "shit de merde"],
+      "other_languages": ["cazzo (Italian)", "scheisse (German)", "joder (Spanish)"],
+      "invented_words": ["merdouille", "putaing", "bordille"]
+    }
+  },
+  "internet_variations": {
+    "leetspeak": {
+      "basic": ["m3rd3", "put41n", "c0nn4rd", "s4l0p3"],
+      "advanced": ["3nf01r3", "54l0p4rd", "c0nn4rd d3 m3rd3"],
+      "mixed": ["put@1n d3 m3rd3", "b0rd3l d3 m3rd3"]
+    },
+    "sms_abbreviations": {
+      "common": ["ptn for putain", "mrd for merde", "fdp for fils de pute"],
+      "quebec": ["tbk for tabarnac", "clc for câlice", "crs for crisse"],
+      "compound": ["ptndmrd for putain de merde"]
+    },
+    "emoji_substitution": {
+      "poop_emoji": "💩 for merde",
+      "middle_finger": "🖕 for various insults",
+      "devil": "😈 for strong profanity",
+      "angry_face": "😡 for general anger expressions"
+    },
+    "meme_variations": {
+      "internet_culture": ["putainposting", "merdecore"],
+      "social_media": ["#putaindevie", "#merdedemerde"],
+      "gaming": ["noob connard", "lag de merde"]
+    }
+  },
+  "linguistic_transformations": {
+    "suffixation": {
+      "diminutives": ["-ard: connard", "-asse: connasse", "-eux: emmerdeux"],
+      "augmentatives": ["-ard: salopard", "-asse: connasse"],
+      "verbalizing": ["-er: emmerder", "-iser: putainiser"]
+    },
+    "gender_variations": {
+      "masculine_feminine": {
+        "con": "con/conne",
+        "salaud": "salaud/salope",
+        "connard": "connard/connasse",
+        "enfoiré": "enfoiré/enfoirée"
+      }
+    },
+    "verb_forms": {
+      "infinitives": ["emmerder", "enculer", "niquer", "foutre"],
+      "gerunds": ["emmerdant", "enculant", "niquant"],
+      "past_participles": ["emmerdé", "enculé", "niqué", "foutu"]
+    }
+  },
+  "detection_challenges": {
+    "false_positives": {
+      "legitimate_words": [
+        {"word": "bite", "legitimate": "boat bollard/penis (context dependent)"},
+        {"word": "con", "legitimate": "stupid (mild) vs vulva (vulgar)"},
+        {"word": "foutre", "legitimate": "to put (archaic) vs to fuck"}
+      ]
+    },
+    "context_dependent": {
+      "friendly_usage": "Many terms acceptable between friends",
+      "regional_acceptance": "Varies dramatically by francophone region",
+      "generational": "Older vs younger speakers have different tolerances",
+      "verlan_masking": "Verlan forms can hide offensive intent"
+    },
+    "compound_variations": {
+      "creative_compounds": ["putaindemerde", "bordeldecalice"],
+      "separated_words": ["fils de pute", "putain de merde"],
+      "mixed_languages": ["fucking connard", "shit de merde"],
+      "verlan_compounds": ["tepu de merde", "nardcon de tebi"]
+    }
+  },
+  "evolution_patterns": {
+    "generational_change": "Youth create new variations faster than documentation",
+    "digital_influence": "Internet and social media accelerate variation creation",
+    "cross_linguistic": "Increasing English influence in French profanity",
+    "regional_convergence": "Some regional differences decreasing due to media",
+    "verlan_evolution": "Constant creation of new verlan forms"
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "variation_types": {
+    "character_variations": {
+      "description": "Different Japanese writing systems for the same word",
+      "types": ["hiragana", "katakana", "kanji", "mixed_scripts"]
+    },
+    "romanization_variations": {
+      "description": "Different romanization systems and common misspellings",
+      "types": ["hepburn", "kunrei", "nihon", "common_misspellings", "internet_adaptations"]
+    },
+    "internet_obfuscation": {
+      "description": "Methods used online to avoid filters or express creativity",
+      "types": ["character_substitution", "leetspeak", "emoji_replacement", "spacing_tricks"]
+    },
+    "regional_dialects": {
+      "description": "Regional variations and dialect equivalents",
+      "types": ["kansai", "tohoku", "kyushu", "historical_forms"]
+    }
+  },
+  "variation_patterns": {
+    "baka_family": {
+      "base_word": "馬鹿",
+      "meaning": "stupid, idiot",
+      "variations": {
+        "character_systems": {
+          "kanji": ["馬鹿"],
+          "hiragana": ["ばか"],
+          "katakana": ["バカ"],
+          "mixed": ["ば馬鹿", "馬バカ"]
+        },
+        "romanization": {
+          "standard": ["baka"],
+          "misspellings": ["baca", "baka-", "bakka"],
+          "leetspeak": ["b4ka", "b@ka", "8aka"],
+          "internet": ["vaka", "buka"]
+        },
+        "obfuscation": {
+          "spacing": ["b a k a", "ba ka", "b-a-k-a"],
+          "symbols": ["b*ka", "ba**", "****"],
+          "emoji": ["🅱️aka", "ba🤡"]
+        },
+        "regional": {
+          "kansai": ["aho (阿呆/あほう/アホ)"],
+          "emphasis": ["bakayarou (馬鹿野郎)", "bakamono (馬鹿者)"]
+        }
+      }
+    },
+    "kuso_family": {
+      "base_word": "糞",
+      "meaning": "shit, damn",
+      "variations": {
+        "character_systems": {
+          "kanji": ["糞"],
+          "hiragana": ["くそ"],
+          "katakana": ["クソ"],
+          "mixed": ["く糞", "糞そ"]
+        },
+        "romanization": {
+          "standard": ["kuso"],
+          "misspellings": ["kusso", "cuso", "kuso-"],
+          "leetspeak": ["ku50", "ku$o", "k*so"],
+          "internet": ["kus0", "quso"]
+        },
+        "obfuscation": {
+          "spacing": ["k u s o", "ku so", "k-u-s-o"],
+          "symbols": ["k**o", "****", "k@so"],
+          "replacement": ["poop", "💩"]
+        },
+        "combinations": {
+          "intensified": ["kusottare (糞たれ)", "kusoyarou (糞野郎)"],
+          "softened": ["kuso-", "kuso na"]
+        }
+      }
+    },
+    "shine_family": {
+      "base_word": "死ね",
+      "meaning": "die (command)",
+      "variations": {
+        "character_systems": {
+          "hiragana": ["しね"],
+          "katakana": ["シネ"],
+          "kanji": ["死ね"],
+          "internet_kanji": ["氏ね", "市ね", "詩ね"]
+        },
+        "romanization": {
+          "standard": ["shine"],
+          "misspellings": ["shyne", "shinie", "chine"],
+          "leetspeak": ["sh1ne", "5hine", "shin3"],
+          "internet": ["$hine", "shine!"]
+        },
+        "obfuscation": {
+          "spacing": ["s h i n e", "shi ne", "sh-in-e"],
+          "symbols": ["****", "s***e", "sh*ne"],
+          "euphemisms": ["go away", "disappear"]
+        },
+        "severity_modifiers": {
+          "intensified": ["shine yo (死ねよ)", "shinjimae (死んじまえ)"],
+          "casual": ["shine-", "shine na"]
+        }
+      }
+    },
+    "appearance_insults": {
+      "busu_variations": {
+        "base_word": "ブス",
+        "meaning": "ugly (woman)",
+        "variations": {
+          "character_systems": {
+            "katakana": ["ブス"],
+            "hiragana": ["ぶす"],
+            "kanji_rare": ["醜女"]
+          },
+          "romanization": {
+            "standard": ["busu"],
+            "misspellings": ["bussu", "buzu", "bus"],
+            "leetspeak": ["bu5u", "bu$u"],
+            "internet": ["buzzu"]
+          },
+          "intensified": ["chou-busu (超ブス)", "busu-onna (ブス女)"]
+        }
+      },
+      "debu_variations": {
+        "base_word": "デブ",
+        "meaning": "fat person",
+        "variations": {
+          "character_systems": {
+            "katakana": ["デブ"],
+            "hiragana": ["でぶ"]
+          },
+          "romanization": {
+            "standard": ["debu"],
+            "misspellings": ["depu", "deby", "deb"],
+            "leetspeak": ["d3bu", "de8u"],
+            "internet": ["devv", "deve"]
+          },
+          "combinations": ["chou-debu (超デブ)", "debu-debu (デブデブ)"]
+        }
+      }
+    },
+    "sexual_terms": {
+      "chinko_variations": {
+        "base_word": "ちんこ",
+        "meaning": "penis (vulgar)",
+        "variations": {
+          "character_systems": {
+            "hiragana": ["ちんこ"],
+            "katakana": ["チンコ"],
+            "alternatives": ["ちんぽ", "チンポ"]
+          },
+          "romanization": {
+            "standard": ["chinko", "chinpo"],
+            "misspellings": ["chinko", "thinko", "chenko"],
+            "leetspeak": ["ch1nko", "chin90"],
+            "internet": ["chink0", "tjinko"]
+          },
+          "obfuscation": {
+            "censored": ["ち***", "***こ", "****"],
+            "euphemisms": ["ochinchin (おちんちん)"],
+            "emoji": ["🍆", "🌭"]
+          }
+        }
+      },
+      "manko_variations": {
+        "base_word": "まんこ",
+        "meaning": "vagina (vulgar)",
+        "variations": {
+          "character_systems": {
+            "hiragana": ["まんこ"],
+            "katakana": ["マンコ"]
+          },
+          "romanization": {
+            "standard": ["manko"],
+            "misspellings": ["manco", "manko", "mankо"],
+            "leetspeak": ["m4nko", "man90"],
+            "internet": ["mank0", "manc0"]
+          },
+          "obfuscation": {
+            "censored": ["ま***", "***こ", "****"],
+            "symbols": ["m***o", "****"],
+            "emoji": ["🐚", "🌮"]
+          }
+        }
+      }
+    },
+    "hate_speech_variations": {
+      "chon_variations": {
+        "base_word": "チョン",
+        "meaning": "ethnic slur for Koreans",
+        "variations": {
+          "character_systems": {
+            "katakana": ["チョン"],
+            "hiragana": ["ちょん"]
+          },
+          "romanization": {
+            "standard": ["chon"],
+            "misspellings": ["tyong", "tyon", "chong"],
+            "internet": ["tj0n", "ch0n"]
+          },
+          "obfuscation": {
+            "censored": ["チ*ン", "***", "c***"],
+            "coded": ["certain people", "neighbors"]
+          }
+        }
+      },
+      "kichigai_variations": {
+        "base_word": "基地外",
+        "meaning": "extremely offensive term for mentally ill",
+        "variations": {
+          "character_systems": {
+            "kanji": ["基地外", "気違い"],
+            "hiragana": ["きちがい"],
+            "katakana": ["キチガイ"]
+          },
+          "romanization": {
+            "standard": ["kichigai"],
+            "misspellings": ["kitchigai", "kichagai", "kicchigai"],
+            "leetspeak": ["k1ch1ga1", "kichi94i"],
+            "internet": ["kitiga", "kitigai"]
+          },
+          "abbreviations": {
+            "internet": ["キチ", "kichi"],
+            "coded": ["異常者", "変な人"]
+          }
+        }
+      }
+    },
+    "internet_culture_terms": {
+      "www_variations": {
+        "base_word": "www",
+        "meaning": "laughter (like lol)",
+        "variations": {
+          "length": ["w", "ww", "www", "wwww", "wwwww"],
+          "alternatives": ["草", "kusa", "ワラ", "wara"],
+          "kaomoji": ["(笑)", "笑", "ｗ"],
+          "mixed": ["wwwww草", "w草w"]
+        }
+      },
+      "orz_variations": {
+        "base_word": "orz",
+        "meaning": "frustration/depression emoticon",
+        "variations": {
+          "ascii_art": ["orz", "○| ̄|_", "OTL", "_| ̄|○"],
+          "rotations": ["rzo", "ozr"],
+          "variations": ["on_", "or2", "OTZ"]
+        }
+      }
+    },
+    "gaming_slang": {
+      "noob_equivalent": {
+        "japanese_terms": ["初心者", "雑魚", "カス"],
+        "romanized": ["shoshinsha", "zako", "kasu"],
+        "gaming_specific": ["noob", "nub", "scrub"],
+        "variations": ["n00b", "nu8", "scrub"]
+      }
+    }
+  },
+  "obfuscation_techniques": {
+    "character_substitution": {
+      "similar_looking": {
+        "の": ["๐", "°", "o"],
+        "ロ": ["口", "□", "ro"],
+        "ー": ["-", "ｰ", "⸺"]
+      },
+      "numeric_substitution": {
+        "一": ["1", "１"],
+        "二": ["2", "２"],
+        "三": ["3", "３"]
+      }
+    },
+    "spacing_techniques": {
+      "letter_spacing": "b a k a",
+      "word_breaking": "ba ka",
+      "hyphenation": "ba-ka",
+      "mixed_spacing": "b a-k a"
+    },
+    "symbol_replacement": {
+      "asterisk_censoring": ["b***", "ba**", "****"],
+      "mixed_symbols": ["b@ka", "ba$a", "b4k4"],
+      "unicode_tricks": ["𝗯𝗮𝗸𝗮", "ｂａｋａ", "🅱️aka"]
+    },
+    "emoji_integration": {
+      "replacement": ["💩" for "kuso", "🤬" for general profanity],
+      "combination": ["ba🤡a", "💀shine", "🖕kuso"],
+      "coded_emoji": ["🇰🇷👎" for ethnic slurs]
+    }
+  },
+  "romanization_systems": {
+    "hepburn": {
+      "description": "Most common system, used in most Japanese learning materials",
+      "examples": {
+        "shi": "し",
+        "chi": "ち",
+        "fu": "ふ",
+        "ja": "じゃ"
+      }
+    },
+    "kunrei": {
+      "description": "Official Japanese government romanization",
+      "examples": {
+        "si": "し",
+        "ti": "ち",
+        "hu": "ふ",
+        "zya": "じゃ"
+      }
+    },
+    "common_mistakes": {
+      "description": "Frequent romanization errors by non-Japanese speakers",
+      "examples": {
+        "tsu → tu": "つ",
+        "chi → ti": "ち",
+        "fu → hu": "ふ",
+        "long_vowels_missed": "ou → o"
+      }
+    }
+  },
+  "detection_patterns": {
+    "high_confidence": [
+      "Exact character matches in any writing system",
+      "Standard romanization matches",
+      "Common misspellings with clear intent"
+    ],
+    "medium_confidence": [
+      "Leetspeak variations with 1-2 character substitutions",
+      "Spacing variations with preserved phonetics",
+      "Mixed writing system variations"
+    ],
+    "low_confidence": [
+      "Heavy symbol replacement",
+      "Extreme spelling variations",
+      "Context-dependent euphemisms"
+    ],
+    "false_positive_risks": [
+      "shine (死ね) vs English 'shine'",
+      "homo (ホモ) vs Latin 'homo sapiens'",
+      "Common Japanese words taken out of context"
+    ]
+  }
+}

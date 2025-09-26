@@ -1,0 +1,225 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "it",
+  "severity_system": {
+    "description": "Italian profanity severity assessment with cultural and regional considerations",
+    "methodology": "Based on Italian sociolinguistic research and regional cultural patterns",
+    "scale": "1-4 scale where 1 is mild and 4 is extremely offensive/potentially illegal"
+  },
+  "severity_levels": {
+    "1": {
+      "name": "Lieve",
+      "description": "Mild profanity, generally acceptable in informal settings",
+      "characteristics": [
+        "Often used casually in everyday conversation",
+        "May be censored in formal media but tolerated socially",
+        "Can be used affectionately between friends",
+        "Regional variations minimal"
+      ],
+      "examples": ["mannaggia", "cavolo", "accidenti", "scemo"],
+      "regional_notes": {
+        "northern_italy": "Generally tolerant across all mild terms",
+        "central_italy": "Similar tolerance to northern regions",
+        "southern_italy": "Slightly more conservative but generally accepting"
+      }
+    },
+    "2": {
+      "name": "Moderato",
+      "description": "Clearly profane but context-dependent severity",
+      "characteristics": [
+        "Inappropriate in formal or professional settings",
+        "Severity varies significantly with context and relationship",
+        "Can be friendly or offensive depending on tone",
+        "Regional attitudes vary moderately"
+      ],
+      "examples": ["cazzo", "merda", "stronzo", "bastardo"],
+      "regional_notes": {
+        "northern_italy": "More casual usage, industrial culture acceptance",
+        "central_italy": "Moderate usage patterns, context-dependent",
+        "southern_italy": "More sensitive in traditional family contexts"
+      }
+    },
+    "3": {
+      "name": "Forte",
+      "description": "Highly offensive across most contexts and regions",
+      "characteristics": [
+        "Clearly inappropriate in most social situations",
+        "Can cause significant offense regardless of intent",
+        "Professional and social consequences likely",
+        "Some regional variations in religious blasphemy"
+      ],
+      "examples": ["puttana", "vaffanculo", "porca madonna", "terrone"],
+      "regional_notes": {
+        "northern_italy": "Religious blasphemy less severe, regional slurs more serious",
+        "central_italy": "Balanced severity across categories",
+        "southern_italy": "Religious blasphemy more severe, family honor terms critical"
+      }
+    },
+    "4": {
+      "name": "Grave",
+      "description": "Extremely offensive, potentially illegal hate speech",
+      "characteristics": [
+        "Always inappropriate and harmful",
+        "May violate Italian hate speech laws",
+        "Targets identity characteristics",
+        "Consistent severity across all regions",
+        "Can result in legal prosecution"
+      ],
+      "examples": ["porco dio", "frocio", "finocchio", "negro"],
+      "regional_notes": {
+        "all_regions": "Consistently severe across Italy",
+        "legal_note": "May violate Italian hate speech and blasphemy laws",
+        "social_impact": "Can cause lasting harm and social ostracism"
+      }
+    }
+  },
+  "contextual_factors": {
+    "relationship": {
+      "family": "Severity reduced in family context except for extreme blasphemy and hate speech",
+      "friends": "Many terms acceptable or even affectionate in close friendships",
+      "strangers": "Full severity applies, especially with elderly or religious individuals",
+      "romantic": "Sexual terms may be more or less offensive depending on relationship stage"
+    },
+    "setting": {
+      "private": "More tolerance for moderate severity terms",
+      "public": "Severity increases significantly due to broader audience",
+      "religious": "Religious terms become much more severe in church contexts",
+      "formal": "Zero tolerance for any profanity above level 1"
+    },
+    "intent": {
+      "affectionate": "Can completely transform meaning (scemo used lovingly)",
+      "aggressive": "Maximizes severity and social consequences",
+      "habitual": "Familiarity can reduce perceived offense",
+      "targeted": "Personal targeting always increases severity significantly"
+    },
+    "gesture_accompaniment": {
+      "with_gesture": "Severity increases when accompanied by offensive hand gestures",
+      "without_gesture": "Some terms lose cultural impact without associated gesture",
+      "gesture_only": "Hand gestures alone can be as offensive as verbal profanity"
+    }
+  },
+  "regional_severity_variations": {
+    "northern_italy": {
+      "generally_milder": ["religious blasphemy", "sexual terms"],
+      "generally_harsher": ["regional discrimination against south", "economic class slurs"],
+      "unique_considerations": [
+        "Industrial culture creates higher tolerance for workplace profanity",
+        "Less Catholic influence reduces religious blasphemy severity",
+        "Economic prosperity affects class-based insult sensitivity",
+        "Lombard and Piedmontese dialects create unique patterns"
+      ]
+    },
+    "central_italy": {
+      "generally_milder": ["moderate across categories"],
+      "generally_harsher": ["vatican proximity affects some areas"],
+      "unique_considerations": [
+        "Roman influence creates balanced profanity patterns",
+        "Tourist industry affects public language standards",
+        "Standard Italian center moderates extreme regional patterns",
+        "Vatican proximity in Rome affects religious sensitivity"
+      ]
+    },
+    "southern_italy": {
+      "generally_milder": ["terms not related to family or religion"],
+      "generally_harsher": ["religious blasphemy", "family honor attacks", "maternal insults"],
+      "unique_considerations": [
+        "Strong Catholic culture increases religious blasphemy severity",
+        "Family honor traditions make maternal insults extremely serious",
+        "Traditional gender roles affect sexual term severity",
+        "Economic challenges increase sensitivity to class-based insults"
+      ]
+    },
+    "sicily": {
+      "generally_milder": ["sicilian dialect terms among locals"],
+      "generally_harsher": ["standard italian profanity", "mafia-related references"],
+      "unique_considerations": [
+        "Sicilian language creates distinct profanity system",
+        "Island culture isolation affects language evolution",
+        "Mafia cultural legacy creates specific linguistic taboos",
+        "Traditional Catholic values maintain religious sensitivity"
+      ]
+    },
+    "sardinia": {
+      "generally_milder": ["sardinian language terms"],
+      "generally_harsher": ["mainland italian references used pejoratively"],
+      "unique_considerations": [
+        "Sardinian substrate creates unique linguistic patterns",
+        "Island identity affects reception of mainland profanity",
+        "Pastoral culture maintains traditional conservative values",
+        "Tourism industry creates linguistic contact effects"
+      ]
+    }
+  },
+  "demographic_considerations": {
+    "age": {
+      "elderly": "Very low tolerance, especially for religious blasphemy and sexual terms",
+      "middle_aged": "Context-dependent, professional awareness important",
+      "youth": "Higher tolerance, creative usage, social media influence",
+      "children": "Strict family controls, regional variation in exposure"
+    },
+    "gender": {
+      "traditional_patterns": "Women historically expected to use less profanity",
+      "modern_evolution": "Younger Italian women using profanity more openly",
+      "sexual_terms": "Terms targeting women carry additional misogynistic weight",
+      "gesture_usage": "Hand gesture profanity shows less gender discrimination"
+    },
+    "education": {
+      "higher_education": "Correlates with understanding of hate speech implications",
+      "professional_context": "Education affects career consequences significantly",
+      "regional_education": "Educational opportunities vary by region affecting attitudes"
+    },
+    "religious_background": {
+      "practicing_catholic": "Religious profanity extremely offensive",
+      "cultural_catholic": "Some religious sensitivity but more tolerance",
+      "secular": "Much higher tolerance for religious references",
+      "other_religions": "Different patterns of religious sensitivity"
+    }
+  },
+  "escalation_patterns": {
+    "mild_to_severe": [
+      "mannaggia → madonna → porca madonna → porco dio",
+      "scemo → stronzo → figlio di puttana",
+      "cavolo → cazzo → cazzo di merda"
+    ],
+    "blasphemy_escalation": [
+      "gesù → cristo → dio → dio cane → porco dio",
+      "madonna → porca madonna → madonna troia"
+    ],
+    "sexual_escalation": [
+      "stupido → coglione → figlio di puttana",
+      "vai via → vattene → vaffanculo"
+    ]
+  },
+  "cultural_notes": {
+    "gesture_integration": "Italian profanity uniquely integrated with hand gesture culture",
+    "religious_heritage": "Catholic cultural heritage creates complex blasphemy hierarchy",
+    "regional_identity": "Strong regional identities affect profanity severity perception",
+    "family_honor": "Southern Italian family honor culture affects severity of certain terms",
+    "artistic_tradition": "Italian literature and cinema influence profanity acceptability",
+    "tourist_influence": "Tourism industry affects public standards in major cities"
+  },
+  "special_severity_considerations": {
+    "blasphemy_laws": "Extreme religious blasphemy can violate Italian penal code",
+    "regional_discrimination": "North-South discrimination carries historical and economic weight",
+    "gesture_amplification": "Hand gestures can amplify verbal profanity severity significantly",
+    "family_targeting": "Terms targeting family members (especially mothers) extremely serious",
+    "lgbtq_sensitivity": "Growing awareness making homophobic slurs increasingly unacceptable",
+    "public_vs_private": "Severity dramatically different in public vs private contexts"
+  },
+  "legal_implications": {
+    "blasphemy_prosecution": "Article 724 of Italian Penal Code covers public blasphemy",
+    "hate_speech_laws": "Racial and homophobic slurs covered under hate speech legislation",
+    "public_decency": "Public profanity can result in fines for disturbing public order",
+    "workplace_harassment": "Employment law provides protection against discriminatory language",
+    "media_regulation": "Broadcasting standards regulate profanity on Italian television",
+    "social_media": "Online hate speech increasingly prosecuted by Italian authorities"
+  },
+  "gesture_severity_interaction": {
+    "amplification_effect": "Gestures typically increase severity by one level",
+    "cultural_specificity": "Some gestures more offensive than verbal equivalents",
+    "international_misunderstanding": "Italian gestures often misunderstood by foreigners",
+    "substitution_pattern": "Gestures sometimes used to replace verbal profanity entirely",
+    "compound_offense": "Verbal profanity plus gesture creates compound offense"
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "it",
+  "variation_system": {
+    "description": "Italian profanity variations including obfuscations, regional forms, and gesture-related expressions",
+    "methodology": "Comprehensive collection of spelling variations, regional dialects, and gesture integration"
+  },
+  "obfuscation_patterns": {
+    "character_substitution": {
+      "a": ["@", "4", "à"],
+      "e": ["3", "é", "è"],
+      "i": ["1", "!", "í", "ì"],
+      "o": ["0", "ó", "ò"],
+      "u": ["ú", "ù"],
+      "s": ["$", "5"],
+      "c": ["k"],
+      "z": ["s"],
+      "g": ["j"]
+    },
+    "symbol_replacement": {
+      "asterisks": "Replace vowels or consonants with * (c*zzo, m*rda)",
+      "underscores": "Replace middle letters with _ (c_zzo, m_rda)",
+      "mixed": "Combine multiple techniques (c@zz0, m3rd@)"
+    },
+    "phonetic_variations": {
+      "double_consonants": "Emphasizing double consonants (cazzzzzo, merrrda)",
+      "vowel_lengthening": "Stretching vowels (caaazzo, meeerda)",
+      "regional_pronunciation": "Reflecting regional accents in spelling"
+    }
+  },
+  "regional_variations": {
+    "northern_italy": {
+      "lombard_influences": {
+        "unique_terms": {
+          "pirla": ["p1rla", "pirlon", "pirlone"],
+          "bauscia": ["b@uscia", "bavscia"],
+          "sciura": ["sciur@", "scior@"]
+        },
+        "pronunciation_variants": "Lombard dialect affects pronunciation of standard terms",
+        "examples": ["cazzo → cass", "merda → merd"]
+      },
+      "piedmontese_influences": {
+        "unique_terms": {
+          "boja": ["b0ja", "boj@"],
+          "mach": ["m@ch", "mac"]
+        },
+        "cultural_context": "Industrial culture creates unique profanity patterns"
+      },
+      "venetian_influences": {
+        "unique_terms": {
+          "ostrega": ["0strega", "@strega"],
+          "madonna": ["madona", "madon@"]
+        },
+        "pronunciation": "Venetian affects religious profanity pronunciation"
+      }
+    },
+    "central_italy": {
+      "roman_dialect": {
+        "unique_terms": {
+          "mortacci": ["mort@cci", "mrtcci"],
+          "anvedi": ["@nvedi", "nvd"],
+          "ammazza": ["@mmazza", "mmzz"]
+        },
+        "pronunciation_variants": "Roman accent affects standard profanity",
+        "examples": ["cazzo → caz", "merda becomes mer'"]
+      },
+      "tuscan_influences": {
+        "unique_terms": {
+          "maremma": ["m@remma", "mrmm"],
+          "boia": ["b01a", "b@ia"]
+        },
+        "cultural_note": "Tuscan forms often considered 'pure' Italian"
+      }
+    },
+    "southern_italy": {
+      "neapolitan_influences": {
+        "unique_terms": {
+          "strunz": ["str*nz", "strnz"],
+          "guaglió": ["gu@glió", "gglio"],
+          "mammt": ["m@mmt", "mmt"]
+        },
+        "pronunciation": "Neapolitan creates distinct phonetic patterns",
+        "cultural_context": "Family-based insult culture"
+      },
+      "calabrian_influences": {
+        "unique_terms": {
+          "minchia": ["m1nchia", "mnch"],
+          "schifo": ["sch1fo", "schf"]
+        },
+        "greek_substrate": "Ancient Greek influences in vocabulary"
+      },
+      "apulian_influences": {
+        "unique_terms": {
+          "merd": ["m3rd", "mrd"],
+          "cazz": ["c@zz", "czz"]
+        },
+        "pronunciation": "Apulian dialect shortens many terms"
+      }
+    },
+    "sicily": {
+      "sicilian_language": {
+        "unique_terms": {
+          "minchia": ["m1nchia", "mnch", "minch"],
+          "culu": ["c*lu", "cl"],
+          "buttana": ["butt@na", "bttn"]
+        },
+        "pronunciation": "Sicilian creates completely different phonetic system",
+        "grammar": "Sicilian grammatical structures affect profanity formation"
+      },
+      "arabic_influences": {
+        "borrowed_terms": "Some Arabic-origin profanity",
+        "examples": ["zebb", "hmar"],
+        "cultural_context": "Historical Arabic presence affects vocabulary"
+      }
+    },
+    "sardinia": {
+      "sardinian_language": {
+        "unique_terms": {
+          "accabadora": ["acc@badora", "ccbdr"],
+          "malu": ["m@lu", "ml"]
+        },
+        "pronunciation": "Sardinian creates distinct phonetic patterns",
+        "isolation_effects": "Island isolation preserves archaic forms"
+      },
+      "catalan_influences": {
+        "borrowed_elements": "Some Catalan linguistic influence",
+        "historical_context": "Historical Catalan presence affects some vocabulary"
+      }
+    }
+  },
+  "creative_obfuscations": {
+    "euphemisms": {
+      "sexual_replacements": {
+        "cazzo": ["cavolo", "caspita", "capperi"],
+        "fica": ["figa", "figata"],
+        "merda": ["mamma mia", "madonna"]
+      },
+      "religious_alternatives": {
+        "madonna": ["mamma mia", "madosca"],
+        "cristo": ["cristiano", "cristallino"],
+        "dio": ["diamine", "diobon"]
+      },
+      "creative_euphemisms": {
+        "ostia": "instead of more severe blasphemy",
+        "accipicchia": "general euphemistic exclamation",
+        "perdindirindina": "elaborate euphemism"
+      }
+    },
+    "minced_oaths": {
+      "initial_sounds": ["c... for cazzo", "m... for merda", "p... for porca"],
+      "partial_words": ["cazz... for cazzo", "putt... for puttana"],
+      "gesture_substitution": "Hand gestures replacing verbal profanity entirely"
+    },
+    "code_switching": {
+      "english_mixing": ["fucking cazzo", "shit merda"],
+      "french_mixing": ["putain cazzo", "merde merda"],
+      "spanish_mixing": ["joder cazzo", "mierda merda"],
+      "dialect_mixing": "Mixing standard Italian with regional dialect"
+    }
+  },
+  "internet_variations": {
+    "leetspeak": {
+      "basic": ["c4zz0", "m3rd4", "putt4n4"],
+      "advanced": ["c@zz0 d1 m3rd@", "v4ff4ncul0"],
+      "mixed": ["c@zz0 m3rd4", "p0rc@ m@d0nn@"]
+    },
+    "social_media_abbreviations": {
+      "common": ["mdv for madonna", "czz for cazzo", "vfnc for vaffanculo"],
+      "blasphemy_codes": ["pd for porco dio", "pm for porca madonna"],
+      "compound_shortcuts": ["fdp for figlio di puttana"]
+    },
+    "emoji_substitution": {
+      "poop_emoji": "💩 for merda",
+      "middle_finger": "🖕 for vaffanculo",
+      "eggplant": "🍆 for sexual references",
+      "italian_gestures": "Various emojis representing Italian hand gestures"
+    },
+    "meme_variations": {
+      "internet_culture": ["cazzoposting", "merdacore"],
+      "social_media": ["#porcamadonna", "#vaffanculo"],
+      "gaming": ["noob stronzo", "lag di merda"]
+    }
+  },
+  "gesture_variations": {
+    "vaffanculo_variants": {
+      "classic_middle_finger": "Single middle finger extended",
+      "double_finger": "Both middle fingers (intensified)",
+      "thumb_gesture": "Thumb between index and middle finger",
+      "regional_variants": "Different hand positions across regions"
+    },
+    "cornuto_variants": {
+      "classic_horns": "Index and pinky extended downward",
+      "upward_horns": "Index and pinky extended upward",
+      "behind_head": "Horns gesture behind someone's head",
+      "intensity_variants": "Different levels of gesture aggression"
+    },
+    "ombrello_variants": {
+      "classic_umbrella": "Forearm thrust upward with closed fist",
+      "bicep_slap": "Slapping bicep while thrusting forearm",
+      "double_arm": "Both arms in umbrella position",
+      "regional_styles": "Different regional execution styles"
+    },
+    "mano_a_borsa": {
+      "classic_purse": "Fingers pinched together pointing upward",
+      "shaking_variant": "Shaking the pinched hand",
+      "questioning_gesture": "Used with interrogative intonation",
+      "emphasis_levels": "Different intensity levels"
+    }
+  },
+  "linguistic_transformations": {
+    "gender_agreement": {
+      "masculine_feminine": {
+        "stronzo": "stronzo/stronza",
+        "scemo": "scemo/scema",
+        "bastardo": "bastardo/bastarda"
+      }
+    },
+    "diminutives": {
+      "-etto/-etta": "stronzetto/stronzetta (little shit)",
+      "-ino/-ina": "cazz*/cazzina, scemino/scemina",
+      "effect": "Can reduce offense or be used ironically"
+    },
+    "augmentatives": {
+      "-one/-ona": "stronzone/stronzona (big shit)",
+      "-accio/-accia": "cazz*/cazzaccia (bad/ugly)",
+      "effect": "Always intensifies offense level"
+    },
+    "verb_forms": {
+      "infinitives": ["cagare", "pisciare", "fottere", "scopare"],
+      "conjugations": ["cago/caghi/caga", "scopo/scopi/scopa"],
+      "gerunds": ["cagando", "scopando", "fottendo"]
+    }
+  },
+  "detection_challenges": {
+    "false_positives": {
+      "legitimate_words": [
+        {"word": "fica", "legitimate": "can mean 'cool/awesome' positively"},
+        {"word": "cazzo", "legitimate": "extremely common, not always offensive"},
+        {"word": "figa", "legitimate": "attractive woman (context-dependent)"}
+      ]
+    },
+    "context_dependent": {
+      "friendly_usage": "Many terms acceptable or affectionate between friends",
+      "regional_acceptance": "Dramatic variations across Italian regions",
+      "gesture_requirement": "Some terms lose impact without accompanying gestures",
+      "tone_dependency": "Italian intonation heavily affects meaning"
+    },
+    "regional_masking": {
+      "dialect_terms": "Regional dialect can mask standard profanity",
+      "pronunciation_variants": "Regional accents create spelling variations",
+      "cultural_context": "Regional cultural knowledge needed for detection",
+      "false_friends": "Same words mean different things in different regions"
+    }
+  },
+  "evolution_patterns": {
+    "youth_innovation": "Young Italians creating new profanity combinations",
+    "social_media_influence": "Internet culture accelerating variation creation",
+    "regional_convergence": "Media reducing some regional differences",
+    "gesture_digitization": "Hand gestures being represented in digital communication",
+    "immigrant_influence": "Immigration creating new multilingual profanity mixing",
+    "tourism_impact": "Tourist areas developing modified profanity patterns"
+  },
+  "special_italian_features": {
+    "gesture_text_integration": "Attempts to represent gestures in written form",
+    "blasphemy_creativity": "Constant creation of new religious profanity combinations",
+    "regional_pride": "Regional profanity as cultural identity markers",
+    "family_honor_variants": "Elaborate insults targeting family honor",
+    "diminutive_affection": "Diminutive forms creating affectionate profanity",
+    "artistic_influence": "Literature and cinema affecting profanity evolution"
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "fr",
+  "cultural_context": {
+    "description": "Cultural context and usage patterns for French profanity across francophone regions",
+    "methodology": "Based on French sociolinguistic research and cultural studies"
+  },
+  "social_contexts": {
+    "family": {
+      "acceptance_level": "Varies significantly by family tradition and region",
+      "generational_differences": {
+        "grandparents": "Generally very low tolerance, especially for sexual terms",
+        "parents": "Context-dependent, often use mild profanity but restrict children",
+        "siblings": "High tolerance in informal settings",
+        "children": "Depends on family rules and regional norms"
+      },
+      "examples": {
+        "acceptable": ["zut", "mince", "flûte", "punaise"],
+        "conditional": ["merde (if not directed)", "putain (casual exclamation)"],
+        "unacceptable": ["sexual slurs", "hate speech", "strong sacres (Quebec)"]
+      },
+      "quebec_specific": "Sacres particularly offensive to older Catholic generations"
+    },
+    "friendship": {
+      "acceptance_level": "Very high, often used for bonding and emphasis",
+      "bonding_function": "Profanity serves as intimacy and solidarity marker",
+      "examples": {
+        "affectionate": ["Salut, connard!", "Comment ça va, enfoiré?"],
+        "playful_insults": ["T'es qu'un gros con!", "Salope, je t'adore!"],
+        "emphasis": ["Putain, c'est génial!", "Bordel, t'as vu ça?!"]
+      },
+      "boundaries": "Even close friends avoid identity-based slurs"
+    },
+    "workplace": {
+      "professional": "Zero tolerance in formal business settings",
+      "informal_workplace": "Mild profanity sometimes tolerated",
+      "blue_collar": "Higher tolerance, part of workplace culture",
+      "consequences": "Can lead to disciplinary action, especially sexual terms",
+      "examples": {
+        "never_acceptable": ["sexual slurs", "hate speech", "targeting individuals"],
+        "sometimes_tolerated": ["merde (frustration)", "putain (mild exclamation)"]
+      }
+    },
+    "public_spaces": {
+      "street_level": "Moderate tolerance depending on neighborhood and context",
+      "transportation": "Generally frowned upon, especially around children",
+      "markets": "Vendors may use mild profanity casually",
+      "formal_public": "Inappropriate in government, medical, educational settings",
+      "consequences": "Can lead to social criticism or official complaints"
+    },
+    "educational": {
+      "schools": "Strictly forbidden with disciplinary consequences",
+      "universities": "More tolerant in informal student interactions",
+      "academic_context": "Acceptable only in linguistic research with proper framing",
+      "teaching_materials": "Requires content warnings and academic justification"
+    },
+    "religious": {
+      "church": "Absolutely forbidden, especially blasphemous terms",
+      "religious_families": "Very low tolerance, particularly for sacres in Quebec",
+      "secular_contexts": "Religious profanity often less offensive",
+      "regional_variations": "Quebec more sensitive to sacres than France"
+    }
+  },
+  "media_context": {
+    "television": {
+      "france": "Moderate permissiveness, stronger terms after watershed hour",
+      "quebec": "Different standards, sacres treated seriously",
+      "cable_satellite": "More lenient than broadcast TV",
+      "streaming": "Content warnings required, platform policies vary"
+    },
+    "radio": {
+      "music": "Often censored or euphemized, especially sexual content",
+      "talk_shows": "Regional variation in tolerance levels",
+      "news": "Professional standards prohibit most profanity"
+    },
+    "print_media": {
+      "newspapers": "Generally avoided except in direct quotes with context",
+      "magazines": "Varies by target audience and editorial policy",
+      "academic": "Acceptable in linguistic and cultural research"
+    },
+    "internet": {
+      "social_media": "Platform-dependent policies, generally more permissive",
+      "gaming": "High usage, often toxic environment",
+      "forums": "Community rules and moderation vary widely",
+      "video_content": "Age restrictions and content warnings required"
+    }
+  },
+  "age_considerations": {
+    "children": {
+      "exposure": "Varies by family, region, and social environment",
+      "education": "Some terms taught in appropriate educational contexts",
+      "consequences": "School discipline for inappropriate usage",
+      "protective_measures": "Parents often use euphemisms and alternatives"
+    },
+    "adolescents": {
+      "peer_pressure": "High usage for social acceptance and identity formation",
+      "rebellion": "Often deliberately provocative usage against authority",
+      "education": "Critical period for understanding appropriate contexts",
+      "online_behavior": "Heavy usage in digital communications and gaming"
+    },
+    "adults": {
+      "professional_impact": "Career consequences for inappropriate workplace usage",
+      "social_navigation": "Must read context, audience, and regional norms",
+      "parenting_role": "Often hypocritical - use but restrict children",
+      "regional_adaptation": "Must adjust when moving between francophone regions"
+    },
+    "elderly": {
+      "traditional_values": "Generally lower tolerance, especially for sexual terms",
+      "regional_patterns": "Rural often more conservative than urban",
+      "quebec_specific": "Older generation very sensitive to sacres",
+      "intergenerational_conflict": "May clash with younger family members' usage"
+    }
+  },
+  "gender_dynamics": {
+    "traditional_patterns": {
+      "patriarchal_influence": "Women historically expected to use less profanity",
+      "double_standards": "Same words more offensive when used by women",
+      "linguistic_sexism": "Terms like 'salope' have no true male equivalent",
+      "protection_myth": "Traditional 'protection' of women from hearing profanity"
+    },
+    "evolving_patterns": {
+      "feminist_reclamation": "Some women deliberately using strong profanity",
+      "generational_change": "Younger women more likely to use profanity openly",
+      "urban_vs_rural": "Urban areas more gender-egalitarian in language use",
+      "professional_equality": "Workplace standards becoming more gender-neutral"
+    },
+    "specific_considerations": {
+      "salope": "Particularly offensive misogynistic term",
+      "sexual_anatomy": "Female anatomy terms generally more taboo",
+      "targeting_differences": "Gender-specific slurs carry additional discriminatory weight"
+    }
+  },
+  "regional_cultural_patterns": {
+    "france": {
+      "cultural_factors": [
+        "Post-1968 social liberalization affected language attitudes",
+        "Secular culture reduces religious profanity impact",
+        "Immigration diversity affects profanity landscape",
+        "European Union context influences hate speech awareness"
+      ],
+      "unique_aspects": [
+        "Verlan system creates coded profanity",
+        "Sexual profanity more culturally accepted",
+        "Regional accents affect perception and severity",
+        "Class distinctions still influence appropriateness"
+      ],
+      "urban_rural": {
+        "paris": "More tolerant, heavy verlan usage",
+        "banlieues": "Creative slang evolution, youth-driven",
+        "rural": "More conservative, traditional patterns maintained",
+        "south": "Regional pride affects language attitudes"
+      }
+    },
+    "quebec": {
+      "cultural_factors": [
+        "Catholic cultural heritage creates unique sacres system",
+        "French language protection affects anglicism attitudes",
+        "Distinct identity from European French influences norms",
+        "North American cultural context"
+      ],
+      "unique_aspects": [
+        "Sacres system completely different from European French",
+        "Religious profanity carries more weight than sexual",
+        "Strong resistance to English profanity adoption",
+        "Joual dialect creates distinct working-class patterns"
+      ],
+      "social_stratification": {
+        "educated_classes": "More European French influence",
+        "working_class": "Strong joual and sacres usage",
+        "rural": "Traditional Catholic sensitivities maintained",
+        "urban": "More accepting of mild sacres"
+      }
+    },
+    "belgium": {
+      "cultural_factors": [
+        "Flemish-French bilingual context affects usage",
+        "European Union seat influences international awareness",
+        "Colonial history creates specific sensitivities",
+        "Regional identity between France and Netherlands"
+      ],
+      "unique_aspects": [
+        "Flemish influences in northern regions",
+        "More conservative than France generally",
+        "Brussels multicultural context",
+        "Walloon regional identity affects language attitudes"
+      ]
+    },
+    "switzerland": {
+      "cultural_factors": [
+        "Multilingual context (French, German, Italian, Romansh)",
+        "Conservative cultural values affect language norms",
+        "International business context requires formal register",
+        "Federal system creates regional variations"
+      ],
+      "unique_aspects": [
+        "Most conservative francophone region",
+        "German Swiss influence on French Swiss attitudes",
+        "Banking and diplomatic culture emphasizes propriety",
+        "Mountain rural culture maintains traditional values"
+      ]
+    },
+    "africa": {
+      "cultural_factors": [
+        "Colonial history affects French language attitudes",
+        "Local languages create linguistic mixing",
+        "Religious diversity affects profanity acceptability",
+        "Post-colonial identity formation"
+      ],
+      "unique_aspects": [
+        "Formal French often maintained in official contexts",
+        "Local language profanity mixing with French",
+        "Different cultural taboos affect severity",
+        "Generational differences in colonial language attitudes"
+      ]
+    }
+  },
+  "situational_appropriateness": {
+    "celebratory": {
+      "acceptable": ["Putain, c'est génial!", "Bordel, on a gagné!", "Merde, quel bonheur!"],
+      "context": "Joy and excitement can make mild profanity more acceptable",
+      "boundaries": "Still avoid hate speech and targeted personal attacks"
+    },
+    "frustration": {
+      "acceptable": ["Merde!", "Putain de bordel!", "Ça me fait chier!"],
+      "context": "Emotional release often forgiven in appropriate settings",
+      "escalation_risk": "Can escalate to more serious profanity if not controlled"
+    },
+    "pain_surprise": {
+      "acceptable": ["Merde!", "Putain!", "Bordel de merde!"],
+      "context": "Involuntary exclamations often excused",
+      "medical_settings": "Healthcare workers understand involuntary profanity"
+    },
+    "humor": {
+      "acceptable": "Most profanity acceptable if genuinely funny and not targeting",
+      "context": "Comedy shows, friendly teasing, wordplay appreciated",
+      "boundaries": "Humor doesn't excuse hate speech or cruel personal attacks"
+    },
+    "quebec_sacres_context": {
+      "traditional_use": "Originally religious expression of frustration",
+      "modern_context": "Now general emphatic expressions",
+      "intensity_scaling": "Can be combined for greater emphasis",
+      "cultural_identity": "Part of distinct Quebec linguistic identity"
+    }
+  },
+  "consequences_and_sanctions": {
+    "social": {
+      "ostracism": "Inappropriate usage can lead to social exclusion",
+      "reputation": "Affects perceptions of education, class, and refinement",
+      "relationship_damage": "Can permanently harm personal relationships",
+      "cultural_isolation": "Using wrong regional forms can mark as outsider"
+    },
+    "professional": {
+      "disciplinary_action": "Warnings, suspensions, termination possible",
+      "career_impact": "Can limit advancement opportunities",
+      "industry_variation": "Some industries more tolerant than others",
+      "customer_facing": "Stricter standards for public-facing roles"
+    },
+    "legal": {
+      "hate_speech": "Identity-based slurs may violate French hate speech laws",
+      "workplace_harassment": "Can constitute harassment or discrimination",
+      "public_disturbance": "Extreme cases may lead to legal action",
+      "educational_consequences": "School discipline, university sanctions"
+    },
+    "digital": {
+      "platform_bans": "Social media accounts may be suspended",
+      "content_removal": "Posts containing profanity may be deleted",
+      "algorithmic_penalties": "Reduced reach for profanity-containing content",
+      "permanent_record": "Digital footprint can affect future opportunities"
+    }
+  },
+  "special_cultural_considerations": {
+    "laïcité": {
+      "description": "French secularism affects religious profanity perception",
+      "impact": "Religious terms less offensive in secular France",
+      "exceptions": "Still sensitive in religious communities"
+    },
+    "quebec_language_laws": {
+      "description": "Language protection laws affect anglicism attitudes",
+      "impact": "English profanity sometimes seen as cultural threat",
+      "alternatives": "Preference for French or Quebec expressions"
+    },
+    "colonial_legacy": {
+      "description": "Colonial history affects ethnic and racial slur severity",
+      "impact": "Heightened sensitivity to terms targeting former colonies",
+      "educational_emphasis": "Teaching about colonial language harm"
+    },
+    "eu_influence": {
+      "description": "European Union context affects hate speech awareness",
+      "impact": "Increased sensitivity to discriminatory language",
+      "legal_framework": "EU human rights standards influence national laws"
+    }
+  }
+}

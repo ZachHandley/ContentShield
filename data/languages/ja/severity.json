@@ -1,0 +1,198 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "cultural_context": {
+    "base_culture": "Japanese society with emphasis on harmony, respect, and hierarchy",
+    "directness_sensitivity": "Direct confrontation and explicit language is significantly more offensive than in Western cultures",
+    "social_consequences": "Japanese society has stronger social consequences for inappropriate language use"
+  },
+  "severity_framework": {
+    "description": "Four-level severity system adapted for Japanese cultural context",
+    "cultural_adjustments": [
+      "Directness penalty: Direct insults receive +0.5 severity adjustment",
+      "Hierarchy violation: Disrespect to superiors receives +1 severity adjustment",
+      "Group harmony disruption: Terms disrupting wa (harmony) receive +0.5 adjustment",
+      "Face-saving violation: Terms causing mentsu loss receive +1 adjustment"
+    ]
+  },
+  "severity_levels": {
+    "1": {
+      "level_name": "軽微 (Keibi - Mild)",
+      "english_equivalent": "Mild",
+      "description": "Words that are casual rudeness, acceptable among close friends but inappropriate in formal or hierarchical settings",
+      "social_consequences": [
+        "Mild social discomfort in formal settings",
+        "Would be overlooked in casual friend groups",
+        "Might draw gentle correction from parents/teachers",
+        "Generally not relationship-damaging"
+      ],
+      "usage_contexts": {
+        "acceptable": ["Close friends in private", "Casual gaming contexts", "Family casual conversation"],
+        "inappropriate": ["Business meetings", "School formal settings", "Conversations with superiors", "Public formal spaces"]
+      },
+      "cultural_notes": [
+        "Still considered more serious than Western equivalent due to directness taboo",
+        "Context heavily determines acceptability",
+        "Regional variations exist (Kansai more tolerant)"
+      ],
+      "examples": ["baka (馬鹿)", "aho (阿呆)", "uzai (うざい)", "mendokusai (めんどくさい)"]
+    },
+    "2": {
+      "level_name": "中程度 (Chuutedo - Moderate)",
+      "english_equivalent": "Moderate",
+      "description": "Clearly inappropriate language that would cause social discomfort in most settings and violates social harmony expectations",
+      "social_consequences": [
+        "Noticeable social discomfort and awkwardness",
+        "Would damage reputation in professional settings",
+        "Requires apology if used inappropriately",
+        "Could strain friendships if used carelessly"
+      ],
+      "usage_contexts": {
+        "acceptable": ["Very close friends who accept such language", "Certain gaming/online communities"],
+        "inappropriate": ["Any professional context", "Family gatherings", "Public spaces", "Academic settings"]
+      },
+      "cultural_notes": [
+        "Violates wa (group harmony) principles",
+        "Shows lack of proper social awareness",
+        "Particularly serious when directed at appearance or sexuality"
+      ],
+      "examples": ["kuso (糞)", "debu (デブ)", "busu (ブス)", "kimoi (きもい)", "chinko (ちんこ)"]
+    },
+    "3": {
+      "level_name": "重大 (Juudai - Strong)",
+      "english_equivalent": "Strong",
+      "description": "Highly offensive language that could damage relationships, social standing, and cause significant loss of face for all involved",
+      "social_consequences": [
+        "Serious damage to social relationships",
+        "Loss of face (mentsu) for both speaker and target",
+        "May require formal apology or social mediation",
+        "Could result in social exclusion from groups",
+        "Professional consequences likely"
+      ],
+      "usage_contexts": {
+        "acceptable": ["Extremely rare circumstances", "Possibly in very specific artistic contexts"],
+        "inappropriate": ["Virtually all social contexts", "Any context where respect is expected"]
+      },
+      "cultural_notes": [
+        "Crosses significant social boundaries",
+        "Shows serious character flaws in speaker",
+        "May trigger intervention from others",
+        "Particularly severe due to Japanese conflict avoidance culture"
+      ],
+      "examples": ["kutabare (くたばれ)", "manko (まんこ)", "inbai (淫売)", "chousenjin (used derogatorily)", "yariman (やりまん)"]
+    },
+    "4": {
+      "level_name": "極めて重大 (Kiwamete Juudai - Severe)",
+      "english_equivalent": "Severe",
+      "description": "Extremely offensive language that is potentially illegal, causes significant social harm, and may result in serious consequences",
+      "social_consequences": [
+        "Complete social ostracism",
+        "Potential legal consequences (threats, discrimination)",
+        "Professional termination likely",
+        "May trigger physical confrontation",
+        "Long-term reputation damage",
+        "Possible intervention by authorities"
+      ],
+      "usage_contexts": {
+        "acceptable": ["None - no acceptable contexts"],
+        "inappropriate": ["All contexts without exception"]
+      },
+      "cultural_notes": [
+        "Completely violates fundamental social contracts",
+        "Shows extreme disrespect for human dignity",
+        "May violate hate speech laws",
+        "Particularly serious in group-oriented Japanese society"
+      ],
+      "examples": ["shine (死ね)", "korosu (殺す)", "kichigai (基地外)", "chon (チョン)", "ikeshou (池沼)"]
+    }
+  },
+  "contextual_modifiers": {
+    "relationship_context": {
+      "stranger": "+1 severity",
+      "acquaintance": "+0.5 severity",
+      "friend": "base severity",
+      "close_friend": "-0.5 severity",
+      "family_member": "+0.5 severity (respect for family important)",
+      "superior": "+2 severity (hierarchy violation)",
+      "subordinate": "+0.5 severity (abuse of power)"
+    },
+    "setting_context": {
+      "public_formal": "+1.5 severity",
+      "workplace": "+1 severity",
+      "school": "+1 severity",
+      "family_gathering": "+0.5 severity",
+      "private_casual": "base severity",
+      "online_gaming": "-0.5 severity",
+      "anonymous_internet": "-1 severity"
+    },
+    "cultural_factors": {
+      "age_gap_upward": "+1 severity (disrespecting elder)",
+      "age_gap_downward": "+0.5 severity (adult should know better)",
+      "gender_directed": "+0.5 severity (additional sensitivity)",
+      "group_vs_individual": "+0.5 severity (affects group harmony)",
+      "public_vs_private": "+1 severity if public (face-saving important)"
+    }
+  },
+  "special_considerations": {
+    "keigo_violations": {
+      "description": "Failure to use appropriate honorific language",
+      "severity_impact": "Can elevate mild terms to moderate severity",
+      "cultural_importance": "Shows fundamental disrespect for social order"
+    },
+    "directness_penalty": {
+      "description": "Direct confrontational language receives additional severity",
+      "cultural_reason": "Japanese culture values indirect communication and conflict avoidance"
+    },
+    "group_harmony_disruption": {
+      "description": "Language that disrupts wa (group harmony)",
+      "severity_impact": "Additional +0.5 severity in group contexts",
+      "cultural_importance": "Group cohesion prioritized over individual expression"
+    },
+    "historical_sensitivity": {
+      "description": "Terms related to historical conflicts (especially Korean/Chinese relations)",
+      "severity_impact": "Significant severity increase due to historical trauma",
+      "cultural_context": "WWII and colonial period create ongoing sensitivities"
+    },
+    "internet_culture_adaptation": {
+      "description": "Online communities have different standards",
+      "severity_impact": "Generally more permissive, but still bounded by basic respect",
+      "cultural_evolution": "2ch/5ch culture has created alternative linguistic norms"
+    }
+  },
+  "age_group_variations": {
+    "elderly_60plus": {
+      "general_sensitivity": "Higher sensitivity to all profanity",
+      "specific_concerns": ["Respect for tradition", "Formal language expectations"],
+      "modifier": "+0.5 to all severity levels"
+    },
+    "middle_aged_30to60": {
+      "general_sensitivity": "Standard sensitivity with workplace awareness",
+      "specific_concerns": ["Professional consequences", "Family reputation"],
+      "modifier": "Base severity levels"
+    },
+    "young_adults_18to30": {
+      "general_sensitivity": "More tolerant but still bounded by cultural norms",
+      "specific_concerns": ["Internet culture influence", "Peer acceptance"],
+      "modifier": "-0.25 for general categories, base for hate speech"
+    },
+    "minors_under18": {
+      "general_sensitivity": "Protected category - additional seriousness when targeting",
+      "specific_concerns": ["Educational environment", "Bullying prevention"],
+      "modifier": "+1 when directed at minors, -0.5 when used by minors"
+    }
+  },
+  "regional_variations": {
+    "tokyo_area": {
+      "characteristics": "More formal, higher sensitivity to directness",
+      "modifier": "+0.25 to insult categories"
+    },
+    "kansai_area": {
+      "characteristics": "More tolerant of casual rudeness, different dialect norms",
+      "modifier": "-0.25 to general profanity, base for serious categories"
+    },
+    "rural_areas": {
+      "characteristics": "Traditional values, higher respect expectations",
+      "modifier": "+0.5 to disrespectful categories"
+    }
+  }
+}

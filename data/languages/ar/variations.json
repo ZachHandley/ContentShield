@@ -1,0 +1,325 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "variation_system": {
+    "description": "Arabic profanity variations including dialectal differences, romanization patterns, and obfuscation techniques",
+    "methodology": "Comprehensive analysis of Arabic dialects, romanization systems, and digital communication patterns"
+  },
+  "variation_types": {
+    "dialectal_variations": {
+      "description": "Regional variations in pronunciation, vocabulary, and usage patterns",
+      "egyptian_arabic": {
+        "characteristics": [
+          "Heavy use of 'g' sound instead of 'j' (جيم)",
+          "Unique vocabulary and expressions",
+          "More tolerant cultural attitude",
+          "Strong comedy and entertainment industry influence"
+        ],
+        "examples": {
+          "كلب": "kelb (pronunciation variant)",
+          "عرص": "3ars (specifically Egyptian)",
+          "يا خرا": "ya khara (common Egyptian expression)"
+        }
+      },
+      "levantine_arabic": {
+        "characteristics": [
+          "Syrian, Lebanese, Palestinian, Jordanian variants",
+          "Distinctive pronunciation patterns",
+          "Urban vs rural differences significant",
+          "Political tensions affect some terms"
+        ],
+        "examples": {
+          "زب": "zabb (Levantine specific)",
+          "شو هالخرا": "shu hal khara (What is this shit - Levantine)",
+          "يلعن ابوك": "yil3an abuk (curse your father - common Levantine)"
+        }
+      },
+      "gulf_arabic": {
+        "characteristics": [
+          "Conservative cultural context",
+          "Bedouin influence on language",
+          "Oil wealth affecting social dynamics",
+          "Strong tribal and family honor concepts"
+        ],
+        "examples": {
+          "حمار": "7maar (Gulf pronunciation)",
+          "يا حيوان": "ya hayawan (you animal - Gulf usage)"
+        }
+      },
+      "maghrebi_arabic": {
+        "characteristics": [
+          "French and Berber language influence",
+          "Distinctive from Eastern Arabic",
+          "Regional nationalism affecting language",
+          "Post-colonial linguistic dynamics"
+        ],
+        "examples": {
+          "كلب": "kalb (Maghrebi pronunciation)",
+          "حقير": "7aqir (contemptible - Maghrebi usage)"
+        }
+      }
+    },
+    "romanization_systems": {
+      "description": "Various systems for writing Arabic profanity in Latin script",
+      "academic_systems": {
+        "description": "Scholarly transliteration systems",
+        "examples": {
+          "خنزير": "khanzīr (academic)",
+          "لعنة": "la'na (academic)",
+          "حمار": "ḥimār (academic with diacritics)"
+        }
+      },
+      "internet_arabic": {
+        "description": "Common internet and SMS romanization",
+        "number_substitutions": {
+          "2": "ء (hamza)",
+          "3": "ع (ain)",
+          "5": "خ (kha)",
+          "6": "ط (ta)",
+          "7": "ح (ha)",
+          "8": "غ (ghain)",
+          "9": "ق (qaf)"
+        },
+        "examples": {
+          "خنزير": "5anzeer, khanzeer, 5nzeer",
+          "كس امك": "kos omak, 2os omak, kus umak",
+          "يلعن ابوك": "yel3an abuk, yil3an abook, yl3n abwk",
+          "حمار": "7mar, 7amaar, himar"
+        }
+      },
+      "gaming_chat": {
+        "description": "Gaming and social media specific romanizations",
+        "examples": {
+          "نيك": "nik, nyk, n1k",
+          "كس": "kus, kos, 2os, k*s",
+          "زب": "zab, zabb, z4b"
+        }
+      }
+    },
+    "symbol_substitution": {
+      "description": "Character replacement with symbols, numbers, or similar letters",
+      "asterisk_censoring": {
+        "description": "Partial replacement with asterisks",
+        "examples": {
+          "كس": "ك*س",
+          "نيك": "ن*ك",
+          "خنزير": "خن*ير"
+        }
+      },
+      "number_leetspeak": {
+        "description": "Arabic numbers and Latin numbers for Arabic letters",
+        "examples": {
+          "كس": "كس → 2os",
+          "خرا": "خرا → 5ara",
+          "حمار": "حمار → 7amaar"
+        }
+      },
+      "mixed_script": {
+        "description": "Mixing Arabic and Latin characters",
+        "examples": {
+          "كلب": "كlb, k لب, ك lb",
+          "خرا": "خr4, 5 را, خ ra"
+        }
+      }
+    },
+    "euphemistic_substitutions": {
+      "description": "Milder alternatives and indirect references",
+      "religious_alternatives": {
+        "description": "Religious expressions used instead of profanity",
+        "examples": {
+          "يلعن الشيطان": "curse the devil (instead of cursing someone)",
+          "استغفر الله": "I seek Allah's forgiveness (when hearing profanity)",
+          "حاشا لله": "God forbid (avoiding direct insults)"
+        }
+      },
+      "creative_substitutions": {
+        "description": "Creative alternatives that reference original without direct usage",
+        "examples": {
+          "كلب": "أبو نباح (father of barking)",
+          "حمار": "أبو حوافر (father of hooves)",
+          "خرا": "البني (the brown thing)"
+        }
+      }
+    },
+    "abbreviation_patterns": {
+      "description": "Common abbreviations used to bypass filters or for brevity",
+      "consonant_clusters": {
+        "description": "Removing vowels, keeping consonants",
+        "examples": {
+          "كس امك": "كسمك → ksmk",
+          "يلعن ابوك": "يلعن ابك → yl3n abk",
+          "ابن كلب": "بن كلب → bn klb"
+        }
+      },
+      "first_last_letters": {
+        "description": "Keeping first and last letters, abbreviating middle",
+        "examples": {
+          "خنزير": "خ...ر",
+          "شرموطة": "ش...ة"
+        }
+      },
+      "internet_shortcuts": {
+        "description": "SMS and chat abbreviations",
+        "examples": {
+          "كس امك": "كسمك, ksmk, 2smk",
+          "روح نيك": "r7 nk (go fuck)",
+          "ابن كلب": "ابك, ebnklb, bn2lb"
+        }
+      }
+    },
+    "phonetic_variants": {
+      "description": "Alternative spellings based on pronunciation and regional accents",
+      "egyptian_phonetics": {
+        "examples": {
+          "جحش": "ga7sh (Egyptian pronunciation of donkey)",
+          "كلب": "kelb (Egyptian 'e' vowel)",
+          "قحبة": "2a7ba (Egyptian qaf as glottal stop)"
+        }
+      },
+      "gulf_phonetics": {
+        "examples": {
+          "شلون": "shalon (how - Gulf specific)",
+          "ويش": "waysh (what - Gulf pronunciation)"
+        }
+      },
+      "levantine_phonetics": {
+        "examples": {
+          "شو": "shu (what - Levantine)",
+          "ليش": "laysh (why - Levantine pronunciation)"
+        }
+      }
+    },
+    "contextual_obfuscation": {
+      "description": "Hiding profanity through context or indirect reference",
+      "metaphorical_usage": {
+        "description": "Using metaphors or indirect references",
+        "examples": {
+          "ابن الحلال": "son of the lawful (sarcastic opposite of son of bitch)",
+          "صاحب الذيل": "owner of the tail (indirect reference to dog)",
+          "المحترمة": "the respectable one (sarcastic for prostitute)"
+        }
+      },
+      "code_switching": {
+        "description": "Switching between formal and colloquial Arabic",
+        "examples": [
+          "Using MSA grammatical forms for dialect curses",
+          "Mixing religious formulas with profanity for irony",
+          "Using classical Arabic meters for crude content"
+        ]
+      }
+    },
+    "digital_age_innovations": {
+      "description": "Modern digital communication specific variations",
+      "emoji_substitution": {
+        "description": "Using emojis to represent or accompany profanity",
+        "examples": {
+          "🐕 for كلب (dog)",
+          "🐷 for خنزير (pig)",
+          "💩 for خرا (shit)"
+        }
+      },
+      "meme_culture": {
+        "description": "Internet meme-influenced variations",
+        "examples": {
+          "Reaction GIFs with profanity text",
+          "Image macros with Arabic curse words",
+          "TikTok audio clips with bleeped profanity"
+        }
+      },
+      "platform_specific": {
+        "whatsapp": "Heavy use of voice messages to avoid text filtering",
+        "instagram": "Creative visual censoring techniques",
+        "tiktok": "Audio obfuscation and visual text variations",
+        "twitter": "Character limit encouraging abbreviations"
+      }
+    }
+  },
+  "script_considerations": {
+    "rtl_handling": {
+      "description": "Right-to-left script considerations for Arabic profanity",
+      "direction_mixing": {
+        "issue": "Mixing Arabic RTL with Latin LTR characters",
+        "examples": {
+          "كلبdog": "Arabic word mixed with English",
+          "5نزير": "Number substitution affecting direction"
+        }
+      },
+      "unicode_complexity": {
+        "joining_behavior": "Arabic letters join differently based on position",
+        "contextual_forms": "Same letter has different shapes in different positions",
+        "diacritic_placement": "Diacritics above and below letters affect recognition"
+      }
+    },
+    "character_normalization": {
+      "description": "Unicode normalization challenges specific to Arabic",
+      "identical_looking": {
+        "examples": {
+          "Arabic-Indic vs European digits",
+          "Different Unicode points for similar letters",
+          "Contextual letter forms"
+        }
+      },
+      "diacritic_variations": {
+        "description": "Same word with or without diacritics",
+        "examples": {
+          "كَلْب vs كلب (with and without diacritics)",
+          "Different vocalization patterns"
+        }
+      }
+    }
+  },
+  "detection_challenges": {
+    "linguistic_complexity": [
+      "Arabic morphology creates numerous word forms",
+      "Root-and-pattern system affects recognition",
+      "Dialectal variations require comprehensive coverage",
+      "RTL script mixing with LTR creates display issues"
+    ],
+    "cultural_context": [
+      "Same word different severity by region and dialect",
+      "Religious context dramatically affects perception",
+      "Political situation influences certain terms",
+      "Honor-shame culture affects family-related insults"
+    ],
+    "technical_challenges": [
+      "Unicode normalization required for Arabic script",
+      "RTL/LTR mixing handling",
+      "Contextual letter form variations",
+      "Diacritic mark handling and removal",
+      "Arabic-Indic numeral conversion"
+    ],
+    "evolving_patterns": [
+      "Political events create new profanity patterns",
+      "Social media platforms develop specific adaptations",
+      "Generational language shifts accelerating",
+      "Cross-cultural influence from global internet"
+    ]
+  },
+  "filtering_recommendations": {
+    "normalization_steps": [
+      "Unicode normalization (NFD/NFC)",
+      "Arabic-Indic to European digit conversion",
+      "Diacritic removal for matching",
+      "Contextual form normalization",
+      "RTL/LTR handling"
+    ],
+    "pattern_matching": [
+      "Root-based matching for morphological variants",
+      "Fuzzy matching for romanization variations",
+      "Regex patterns considering Arabic morphology",
+      "Context-aware severity adjustment"
+    ],
+    "cultural_sensitivity": [
+      "Regional dialect awareness",
+      "Religious content special handling",
+      "Political sensitivity considerations",
+      "Honor-shame culture awareness"
+    ],
+    "false_positive_mitigation": [
+      "Academic and educational content",
+      "Religious and literary contexts",
+      "Historical documentation",
+      "Linguistic research materials"
+    ]
+  }
+}

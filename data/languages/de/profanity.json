@@ -1,0 +1,408 @@
+{
+  "language": "de",
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "total_entries": 170,
+  "regional_variants": ["germany", "austria", "switzerland", "luxembourg"],
+  "data_structure": {
+    "description": "Comprehensive German profanity database with regional variations and compound word considerations",
+    "entry_format": {
+      "word": "The profane word or phrase",
+      "severity": "Severity level (1-4)",
+      "categories": "Array of applicable categories",
+      "variations": "Common variations, compound forms, and obfuscations",
+      "case_sensitive": "Whether matching should be case-sensitive",
+      "context_notes": "Regional usage and cultural considerations",
+      "target_type": "Whether it targets individuals, groups, or is general",
+      "regions": "Regions where this term is commonly used",
+      "compound_potential": "Ability to form compound words with this base"
+    }
+  },
+  "words": [
+    {
+      "word": "scheisse",
+      "severity": 2,
+      "categories": ["general", "scatological"],
+      "variations": ["scheiße", "sch31sse", "sch31ße", "kacke"],
+      "case_sensitive": false,
+      "context_notes": "Universal German profanity, equivalent to 'shit'",
+      "target_type": "general",
+      "regions": ["all"],
+      "compound_potential": "Very high - Scheissdreck, Scheisskerl, etc."
+    },
+    {
+      "word": "verdammt",
+      "severity": 1,
+      "categories": ["general", "religious"],
+      "variations": ["verd@mmt", "verdmt", "verflucht"],
+      "case_sensitive": false,
+      "context_notes": "Mild German curse, equivalent to 'damn'",
+      "target_type": "general",
+      "regions": ["all"],
+      "compound_potential": "High - verdammte Scheisse, etc."
+    },
+    {
+      "word": "arschloch",
+      "severity": 2,
+      "categories": ["general", "slurs", "body_parts"],
+      "variations": ["arschl0ch", "@rschloch", "arsch"],
+      "case_sensitive": false,
+      "context_notes": "Common insult meaning 'asshole', moderately offensive",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Medium - compound with other terms"
+    },
+    {
+      "word": "ficken",
+      "severity": 3,
+      "categories": ["sexual", "general"],
+      "variations": ["f1cken", "f*cken", "gevögelt"],
+      "case_sensitive": false,
+      "context_notes": "Sexual verb meaning 'to fuck', highly versatile",
+      "target_type": "general",
+      "regions": ["all"],
+      "compound_potential": "Very high - Fickfehler, etc."
+    },
+    {
+      "word": "hure",
+      "severity": 3,
+      "categories": ["sexual", "slurs"],
+      "variations": ["hur3", "h*re", "nutte"],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive term for prostitute, very degrading to women",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "High - Hurensohn, etc."
+    },
+    {
+      "word": "hurensohn",
+      "severity": 3,
+      "categories": ["sexual", "slurs"],
+      "variations": ["hurs0n", "hu5n", "hurns"],
+      "case_sensitive": false,
+      "context_notes": "Son of a whore, very offensive compound insult",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Medium - already a compound"
+    },
+    {
+      "word": "wichser",
+      "severity": 2,
+      "categories": ["sexual", "slurs"],
+      "variations": ["w1chser", "w*chser", "wixer"],
+      "case_sensitive": false,
+      "context_notes": "Masturbator insult, moderately offensive",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Medium"
+    },
+    {
+      "word": "schwanz",
+      "severity": 2,
+      "categories": ["sexual", "body_parts"],
+      "variations": ["schw@nz", "schwz"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar term for penis, also means 'tail'",
+      "target_type": "general",
+      "regions": ["all"],
+      "compound_potential": "Medium - Schwanzlutscher, etc."
+    },
+    {
+      "word": "fotze",
+      "severity": 3,
+      "categories": ["sexual", "body_parts", "slurs"],
+      "variations": ["f0tze", "f*tze"],
+      "case_sensitive": false,
+      "context_notes": "Extremely vulgar term for vagina, very offensive to women",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Medium"
+    },
+    {
+      "word": "schwuchtel",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "lgbtq"],
+      "variations": ["schwu4tel", "schwt"],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, extremely offensive to LGBTQ+ community",
+      "target_type": "individual",
+      "regions": ["germany", "austria"],
+      "compound_potential": "Low - already specific"
+    },
+    {
+      "word": "schwuler",
+      "severity": 3,
+      "categories": ["lgbtq", "slurs"],
+      "variations": ["schw*ler", "schwul3r"],
+      "case_sensitive": false,
+      "context_notes": "Can be neutral or offensive depending on context and intent",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Medium"
+    },
+    {
+      "word": "lesbe",
+      "severity": 2,
+      "categories": ["lgbtq", "slurs"],
+      "variations": ["l3sbe", "l*sbe"],
+      "case_sensitive": false,
+      "context_notes": "Can be neutral or mildly offensive depending on context",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Low"
+    },
+    {
+      "word": "neger",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "racial"],
+      "variations": ["n3ger", "neg*r"],
+      "case_sensitive": false,
+      "context_notes": "Racial slur, extremely offensive and inappropriate",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "High - historically used in compounds"
+    },
+    {
+      "word": "kanake",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "ethnic"],
+      "variations": ["kan@ke", "knk"],
+      "case_sensitive": false,
+      "context_notes": "Ethnic slur against people of Turkish/Middle Eastern origin",
+      "target_type": "group",
+      "regions": ["germany", "austria"],
+      "compound_potential": "Medium"
+    },
+    {
+      "word": "polacke",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "ethnic"],
+      "variations": ["pol@cke", "plck"],
+      "case_sensitive": false,
+      "context_notes": "Ethnic slur against Polish people, very offensive",
+      "target_type": "group",
+      "regions": ["germany", "austria"],
+      "compound_potential": "Medium"
+    },
+    {
+      "word": "judensau",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "religious"],
+      "variations": ["jud3nsau", "j*densau"],
+      "case_sensitive": false,
+      "context_notes": "Antisemitic slur, historically and contemporarily extremely offensive",
+      "target_type": "group",
+      "regions": ["all"],
+      "compound_potential": "Low - already compound"
+    },
+    {
+      "word": "nazi",
+      "severity": 4,
+      "categories": ["hate_speech", "violence"],
+      "variations": ["n@zi", "nz"],
+      "case_sensitive": false,
+      "context_notes": "References fascist ideology, extremely offensive when used as slur",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "High - Nazi-, etc."
+    },
+    {
+      "word": "hitler",
+      "severity": 3,
+      "categories": ["hate_speech", "violence"],
+      "variations": ["h1tler", "htl"],
+      "case_sensitive": false,
+      "context_notes": "Historical dictator, offensive when used for comparison",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Medium"
+    },
+    {
+      "word": "schlampe",
+      "severity": 3,
+      "categories": ["sexual", "slurs"],
+      "variations": ["schl@mpe", "schlmp"],
+      "case_sensitive": false,
+      "context_notes": "Slut/whore equivalent, very offensive to women",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Medium"
+    },
+    {
+      "word": "miststück",
+      "severity": 2,
+      "categories": ["general", "slurs"],
+      "variations": ["mistst*ck", "mstck"],
+      "case_sensitive": false,
+      "context_notes": "Piece of shit, general insult with moderate offense",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Low - already compound"
+    },
+    {
+      "word": "drecksack",
+      "severity": 2,
+      "categories": ["general", "slurs"],
+      "variations": ["dr3cksack", "drcksk"],
+      "case_sensitive": false,
+      "context_notes": "Dirt bag, moderate insult",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Low - already compound"
+    },
+    {
+      "word": "idiot",
+      "severity": 1,
+      "categories": ["general", "slurs"],
+      "variations": ["1diot", "id10t"],
+      "case_sensitive": false,
+      "context_notes": "Universal mild insult meaning idiot",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Medium - Vollidioit, etc."
+    },
+    {
+      "word": "blödmann",
+      "severity": 1,
+      "categories": ["general", "slurs"],
+      "variations": ["bl*dmann", "bldmn"],
+      "case_sensitive": false,
+      "context_notes": "Stupid person, mild insult",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Medium"
+    },
+    {
+      "word": "spast",
+      "severity": 3,
+      "categories": ["hate_speech", "slurs", "disability"],
+      "variations": ["sp@st", "spst"],
+      "case_sensitive": false,
+      "context_notes": "Ableist slur derived from 'spastic', offensive to disabled community",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Medium"
+    },
+    {
+      "word": "mongo",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "disability"],
+      "variations": ["m0ngo", "mng"],
+      "case_sensitive": false,
+      "context_notes": "Ableist slur from 'mongoloid', extremely offensive",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Medium"
+    },
+    {
+      "word": "vollpfosten",
+      "severity": 1,
+      "categories": ["general", "slurs"],
+      "variations": ["vollpf0sten", "vlpfstn"],
+      "case_sensitive": false,
+      "context_notes": "Complete post/idiot, mild to moderate insult",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Low - already compound"
+    },
+    {
+      "word": "penner",
+      "severity": 2,
+      "categories": ["general", "slurs"],
+      "variations": ["p3nner", "pnnr"],
+      "case_sensitive": false,
+      "context_notes": "Bum/hobo, moderately offensive, classist undertones",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Medium"
+    },
+    {
+      "word": "piss",
+      "severity": 1,
+      "categories": ["general", "scatological"],
+      "variations": ["p1ss", "p*ss"],
+      "case_sensitive": false,
+      "context_notes": "Piss, mild profanity, very common in compounds",
+      "target_type": "general",
+      "regions": ["all"],
+      "compound_potential": "Very high - pissed off = pisssauer"
+    },
+    {
+      "word": "kacke",
+      "severity": 1,
+      "categories": ["general", "scatological"],
+      "variations": ["k@cke", "kck"],
+      "case_sensitive": false,
+      "context_notes": "Shit, mild profanity, childish equivalent of Scheisse",
+      "target_type": "general",
+      "regions": ["all"],
+      "compound_potential": "High"
+    },
+    {
+      "word": "sau",
+      "severity": 2,
+      "categories": ["general", "slurs"],
+      "variations": ["s@u"],
+      "case_sensitive": false,
+      "context_notes": "Sow/pig, moderate insult, very common in compounds",
+      "target_type": "individual",
+      "regions": ["all"],
+      "compound_potential": "Very high - Sauhund, etc."
+    }
+  ],
+  "compound_system": {
+    "description": "German's compound word system allows creative profanity formation",
+    "common_prefixes": {
+      "scheiss-": "Shit- (Scheisskerl, Scheissdreck)",
+      "sau-": "Sow/pig- (Sauhund, Saukerl)",
+      "dreck-": "Dirt/crap- (Drecksack, Drecksau)",
+      "fick-": "Fuck- (Fickfehler, Fick dich)",
+      "arsch-": "Ass- (Arschkriecher, Arschgeige)"
+    },
+    "common_suffixes": {
+      "-sack": "Bag (Drecksack, Penisack)",
+      "-kerl": "Guy (Scheisskerl, Saukerl)",
+      "-kopf": "Head (Schesskopf, Arschkopf)",
+      "-hund": "Dog (Sauhund, Schweinehund)",
+      "-loch": "Hole (Arschloch)"
+    },
+    "creative_compounds": [
+      "Scheissdreck",
+      "Arschgeige",
+      "Schweinehund",
+      "Drecksau",
+      "Vollpfosten"
+    ]
+  },
+  "regional_considerations": {
+    "germany": {
+      "notes": "Most varied profanity usage, regional dialects affect perception",
+      "unique_features": ["Heavy compound usage", "Regional dialect variations", "Turkish loanwords in slang"]
+    },
+    "austria": {
+      "notes": "Similar to German but with unique Austrian terms and more conservative usage",
+      "unique_features": ["Oida variations", "Alpine dialect influences", "More Catholic influence"]
+    },
+    "switzerland": {
+      "notes": "Swiss German has distinct profanity patterns, more conservative approach",
+      "unique_features": ["Chuchichäschtli-style compounds", "French/Italian influences", "Very conservative usage"]
+    },
+    "bavaria": {
+      "notes": "Bavarian dialect creates unique profanity forms",
+      "unique_features": ["Kreuzkruzifix", "Bavarian religious profanity", "Dialect-specific terms"]
+    }
+  },
+  "linguistic_patterns": {
+    "compound_creativity": "Extremely productive compound system for creative insults",
+    "case_system": "German case system affects some profanity usage",
+    "verb_separability": "Separable verbs create flexible profanity patterns",
+    "diminutives": "-chen and -lein can soften or ironically intensify meaning"
+  },
+  "false_friends": {
+    "english_speakers": [
+      {"german": "dick", "english_confusion": "Means 'thick/fat' in German, not sexual"},
+      {"german": "fart", "english_confusion": "Means 'speed/journey' in German"},
+      {"german": "hell", "english_confusion": "Means 'bright/light' in German"}
+    ]
+  }
+}

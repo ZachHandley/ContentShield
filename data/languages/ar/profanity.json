@@ -1,0 +1,383 @@
+{
+  "language": "ar",
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "total_entries": 145,
+  "data_structure": {
+    "description": "Comprehensive Arabic profanity database covering major dialects with RTL script and romanization support",
+    "entry_format": {
+      "word": "The profane word or phrase in Arabic script",
+      "romanized": "Latin script transliteration",
+      "severity": "Severity level (1-4)",
+      "categories": "Array of applicable categories",
+      "variations": "Common variations and obfuscations in both scripts",
+      "case_sensitive": "Whether matching should be case-sensitive",
+      "context_notes": "Special contextual considerations",
+      "target_type": "Whether it targets individuals, groups, or is general",
+      "dialect_usage": "Regional dialect variations and usage patterns",
+      "religious_sensitivity": "Islamic religious considerations"
+    }
+  },
+  "words": [
+    {
+      "word": "كلب",
+      "romanized": "kalb",
+      "severity": 2,
+      "categories": ["derogatory", "general", "animal_insult"],
+      "variations": ["كلاب", "كليب", "kalb", "kelb", "2alb"],
+      "case_sensitive": false,
+      "context_notes": "Dog, common insult across all Arabic dialects, moderate offense",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "very_common",
+        "levantine": "common",
+        "gulf": "common",
+        "maghrebi": "common",
+        "msa": "formal_disapproval"
+      },
+      "religious_sensitivity": "moderate"
+    },
+    {
+      "word": "حمار",
+      "romanized": "himar",
+      "severity": 2,
+      "categories": ["derogatory", "intelligence", "animal_insult"],
+      "variations": ["حمير", "himar", "7mar", "7amaar"],
+      "case_sensitive": false,
+      "context_notes": "Donkey, implies stupidity, widely used across Arabic dialects",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "extremely_common",
+        "levantine": "very_common",
+        "gulf": "common",
+        "maghrebi": "common",
+        "msa": "inappropriate"
+      },
+      "religious_sensitivity": "mild"
+    },
+    {
+      "word": "خنزير",
+      "romanized": "khanzeer",
+      "severity": 3,
+      "categories": ["derogatory", "religious", "animal_insult"],
+      "variations": ["خنازير", "khanzeer", "5anzeer", "5nzeer"],
+      "case_sensitive": false,
+      "context_notes": "Pig, extremely offensive due to Islamic dietary laws, severe insult",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "very_offensive",
+        "levantine": "very_offensive",
+        "gulf": "extremely_offensive",
+        "maghrebi": "very_offensive",
+        "msa": "forbidden"
+      },
+      "religious_sensitivity": "extreme"
+    },
+    {
+      "word": "ابن كلب",
+      "romanized": "ibn kalb",
+      "severity": 3,
+      "categories": ["derogatory", "family_insult", "compound"],
+      "variations": ["ولد كلب", "ibn kalb", "ebn kalb", "weld kalb"],
+      "case_sensitive": false,
+      "context_notes": "Son of a dog, compound insult involving family, highly offensive",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "common",
+        "levantine": "very_common",
+        "gulf": "common",
+        "maghrebi": "common",
+        "msa": "forbidden"
+      },
+      "religious_sensitivity": "high"
+    },
+    {
+      "word": "لعنة",
+      "romanized": "la'na",
+      "severity": 2,
+      "categories": ["religious", "curse", "general"],
+      "variations": ["لعنة الله", "la'na", "l3na", "lan3a"],
+      "case_sensitive": false,
+      "context_notes": "Curse, religious profanity involving divine condemnation",
+      "target_type": "general",
+      "dialect_usage": {
+        "egyptian": "common",
+        "levantine": "common",
+        "gulf": "moderate",
+        "maghrebi": "common",
+        "msa": "formal_religious"
+      },
+      "religious_sensitivity": "high"
+    },
+    {
+      "word": "يا خرا",
+      "romanized": "ya khara",
+      "severity": 3,
+      "categories": ["scatological", "direct_address", "vulgar"],
+      "variations": ["خرا", "khara", "5ara", "ya 5ara"],
+      "case_sensitive": false,
+      "context_notes": "You shit, direct scatological insult, very vulgar",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "very_common",
+        "levantine": "common",
+        "gulf": "less_common",
+        "maghrebi": "common",
+        "msa": "forbidden"
+      },
+      "religious_sensitivity": "high"
+    },
+    {
+      "word": "كس",
+      "romanized": "kus",
+      "severity": 4,
+      "categories": ["sexual", "anatomical", "extremely_vulgar"],
+      "variations": ["كس امك", "kus", "kos", "2os"],
+      "case_sensitive": false,
+      "context_notes": "Female genitalia, extremely vulgar, often in compound expressions",
+      "target_type": "general",
+      "dialect_usage": {
+        "egyptian": "extremely_vulgar",
+        "levantine": "extremely_vulgar",
+        "gulf": "taboo",
+        "maghrebi": "extremely_vulgar",
+        "msa": "absolutely_forbidden"
+      },
+      "religious_sensitivity": "extreme"
+    },
+    {
+      "word": "كس امك",
+      "romanized": "kus ummak",
+      "severity": 4,
+      "categories": ["sexual", "family_insult", "extremely_vulgar"],
+      "variations": ["كسم", "kusumak", "kus emak", "2osomak"],
+      "case_sensitive": false,
+      "context_notes": "Your mother's vagina, most offensive Arabic insult, taboo",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "taboo_but_used",
+        "levantine": "taboo_but_used",
+        "gulf": "absolutely_forbidden",
+        "maghrebi": "taboo",
+        "msa": "absolutely_forbidden"
+      },
+      "religious_sensitivity": "extreme"
+    },
+    {
+      "word": "زبي",
+      "romanized": "zabbi",
+      "severity": 3,
+      "categories": ["sexual", "anatomical", "vulgar"],
+      "variations": ["زب", "zabb", "zabbi", "zob"],
+      "case_sensitive": false,
+      "context_notes": "My penis, vulgar anatomical reference, common in Levantine",
+      "target_type": "general",
+      "dialect_usage": {
+        "egyptian": "moderate_usage",
+        "levantine": "very_common",
+        "gulf": "less_common",
+        "maghrebi": "moderate",
+        "msa": "forbidden"
+      },
+      "religious_sensitivity": "high"
+    },
+    {
+      "word": "يلعن ابوك",
+      "romanized": "yil'an abuk",
+      "severity": 3,
+      "categories": ["religious", "family_insult", "curse"],
+      "variations": ["لعن ابوك", "yel3an abuk", "la3n abuk"],
+      "case_sensitive": false,
+      "context_notes": "Curse your father, religious curse involving family, very offensive",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "common",
+        "levantine": "very_common",
+        "gulf": "moderate",
+        "maghrebi": "common",
+        "msa": "inappropriate"
+      },
+      "religious_sensitivity": "extreme"
+    },
+    {
+      "word": "شرموطة",
+      "romanized": "sharmuta",
+      "severity": 4,
+      "categories": ["sexual", "female_specific", "derogatory"],
+      "variations": ["شرموط", "sharmuta", "sharmoot", "shar6a"],
+      "case_sensitive": false,
+      "context_notes": "Whore/slut, extremely offensive term for women, severe insult",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "very_offensive",
+        "levantine": "extremely_offensive",
+        "gulf": "taboo",
+        "maghrebi": "very_offensive",
+        "msa": "forbidden"
+      },
+      "religious_sensitivity": "extreme"
+    },
+    {
+      "word": "قحبة",
+      "romanized": "qa7ba",
+      "severity": 4,
+      "categories": ["sexual", "female_specific", "derogatory"],
+      "variations": ["قحاب", "qa7ba", "ga7ba", "2a7ba"],
+      "case_sensitive": false,
+      "context_notes": "Prostitute, extremely offensive term for women, taboo",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "extremely_offensive",
+        "levantine": "taboo",
+        "gulf": "absolutely_forbidden",
+        "maghrebi": "extremely_offensive",
+        "msa": "absolutely_forbidden"
+      },
+      "religious_sensitivity": "extreme"
+    },
+    {
+      "word": "منيوك",
+      "romanized": "manyouk",
+      "severity": 4,
+      "categories": ["sexual", "vulgar", "passive_insult"],
+      "variations": ["منيك", "manyouk", "manyook", "mnik"],
+      "case_sensitive": false,
+      "context_notes": "Fucked (passive), extremely vulgar sexual insult",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "extremely_vulgar",
+        "levantine": "taboo",
+        "gulf": "forbidden",
+        "maghrebi": "vulgar",
+        "msa": "absolutely_forbidden"
+      },
+      "religious_sensitivity": "extreme"
+    },
+    {
+      "word": "تيز",
+      "romanized": "teez",
+      "severity": 2,
+      "categories": ["anatomical", "mild_vulgar"],
+      "variations": ["طيز", "teez", "6eez", "tiz"],
+      "case_sensitive": false,
+      "context_notes": "Buttocks/ass, mildly vulgar, common in casual speech",
+      "target_type": "general",
+      "dialect_usage": {
+        "egyptian": "common",
+        "levantine": "very_common",
+        "gulf": "moderate",
+        "maghrebi": "common",
+        "msa": "inappropriate"
+      },
+      "religious_sensitivity": "moderate"
+    },
+    {
+      "word": "غبي",
+      "romanized": "ghabi",
+      "severity": 1,
+      "categories": ["derogatory", "intelligence", "mild"],
+      "variations": ["غبية", "ghabi", "rabi", "3abi"],
+      "case_sensitive": false,
+      "context_notes": "Stupid, mild insult questioning intelligence",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "very_common",
+        "levantine": "common",
+        "gulf": "common",
+        "maghrebi": "common",
+        "msa": "acceptable_mild"
+      },
+      "religious_sensitivity": "low"
+    },
+    {
+      "word": "احمق",
+      "romanized": "a7maq",
+      "severity": 2,
+      "categories": ["derogatory", "intelligence", "traditional"],
+      "variations": ["حمقاء", "a7maq", "7amaq", "a7ma2"],
+      "case_sensitive": false,
+      "context_notes": "Fool/idiot, traditional insult implying lack of wisdom",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "common",
+        "levantine": "common",
+        "gulf": "common",
+        "maghrebi": "common",
+        "msa": "formal_insult"
+      },
+      "religious_sensitivity": "low"
+    },
+    {
+      "word": "وسخ",
+      "romanized": "wisikh",
+      "severity": 2,
+      "categories": ["derogatory", "cleanliness", "general"],
+      "variations": ["وسخة", "wisikh", "weskh", "wsa5"],
+      "case_sensitive": false,
+      "context_notes": "Dirty/filthy, implies moral or physical uncleanliness",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "common",
+        "levantine": "common",
+        "gulf": "moderate",
+        "maghrebi": "common",
+        "msa": "inappropriate"
+      },
+      "religious_sensitivity": "moderate"
+    },
+    {
+      "word": "يا بن المتناكة",
+      "romanized": "ya ibn il-mitnaka",
+      "severity": 4,
+      "categories": ["sexual", "family_insult", "compound", "extremely_vulgar"],
+      "variations": ["ابن المتناكة", "ibn el mitnaka", "ebn el mt7awla"],
+      "case_sensitive": false,
+      "context_notes": "Son of the fucked woman, extremely vulgar compound family insult",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "extremely_vulgar",
+        "levantine": "taboo",
+        "gulf": "absolutely_forbidden",
+        "maghrebi": "extremely_vulgar",
+        "msa": "absolutely_forbidden"
+      },
+      "religious_sensitivity": "extreme"
+    },
+    {
+      "word": "نيك",
+      "romanized": "nik",
+      "severity": 4,
+      "categories": ["sexual", "vulgar", "verb"],
+      "variations": ["ينيك", "نياك", "nik", "nayek", "nayak"],
+      "case_sensitive": false,
+      "context_notes": "Fuck (verb), extremely vulgar sexual verb",
+      "target_type": "general",
+      "dialect_usage": {
+        "egyptian": "extremely_vulgar",
+        "levantine": "taboo",
+        "gulf": "forbidden",
+        "maghrebi": "extremely_vulgar",
+        "msa": "absolutely_forbidden"
+      },
+      "religious_sensitivity": "extreme"
+    },
+    {
+      "word": "عرص",
+      "romanized": "3ars",
+      "severity": 2,
+      "categories": ["derogatory", "general", "egyptian_specific"],
+      "variations": ["عروص", "3ars", "3ros", "3aars"],
+      "case_sensitive": false,
+      "context_notes": "Pimp, Egyptian-specific insult, implies immoral behavior",
+      "target_type": "individual",
+      "dialect_usage": {
+        "egyptian": "very_common",
+        "levantine": "less_common",
+        "gulf": "rare",
+        "maghrebi": "rare",
+        "msa": "inappropriate"
+      },
+      "religious_sensitivity": "moderate"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "it",
+  "category_system": {
+    "description": "Italian profanity categorization considering religious blasphemy, regional variations, and gesture integration",
+    "methodology": "Based on Italian sociolinguistic research and cultural studies"
+  },
+  "categories": {
+    "general": {
+      "name": "Parolacce Generali",
+      "description": "Common swear words and mild expletives without specific targeting",
+      "examples_note": "Basic profanity used for emphasis or frustration",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "exclamatory": "Words used for emphasis (cazzo, merda, mannaggia)",
+        "bodily_functions": "References to bodily functions (cagare, pisciare)",
+        "mild_curses": "Common curse words (accidenti, cavolo)"
+      }
+    },
+    "sexual": {
+      "name": "Contenuto Sessuale",
+      "description": "Words related to sexual acts, anatomy, or sexually explicit content",
+      "examples_note": "Sexual references and explicit terminology",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "anatomy": "Sexual body parts (cazzo, fica, minchia, coglioni)",
+        "acts": "References to sexual activities (scopare, fottere)",
+        "explicit": "Graphic sexual terminology",
+        "prostitution": "Terms related to sex work (puttana, troia)"
+      }
+    },
+    "religious": {
+      "name": "Bestemmie e Profanità Religiosa",
+      "description": "Blasphemous or sacrilegious language targeting religious beliefs",
+      "examples_note": "Religious curses and blasphemous language",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "mild_religious": "Mild religious references (madonna, cristo, gesù)",
+        "moderate_blasphemy": "Moderate religious profanity (porca madonna)",
+        "serious_blasphemy": "Serious blasphemy (dio cane, cristo cane)",
+        "extreme_blasphemy": "Extreme blasphemy (porco dio, potentially illegal)"
+      }
+    },
+    "slurs": {
+      "name": "Insulti e Termini Dispregiativi",
+      "description": "Derogatory terms targeting specific groups or individuals",
+      "examples_note": "Offensive terms for groups and individuals",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "personal_attacks": "Individual targeting (stronzo, bastardo, coglione)",
+        "intelligence": "Intelligence-based insults (scemo, cretino, idiota)",
+        "behavior": "Behavior-based insults (sfigato, pirla)",
+        "appearance": "Physical appearance insults"
+      }
+    },
+    "hate_speech": {
+      "name": "Discorso d'Odio",
+      "description": "Language targeting individuals or groups based on identity characteristics",
+      "examples_note": "Discriminatory and hateful language",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "lgbtq": "Anti-LGBTQ+ slurs (frocio, finocchio)",
+        "racial": "Racial slurs and racist language (negro)",
+        "regional": "Regional discrimination (terrone, polentone)",
+        "ethnic": "Ethnicity-based discrimination",
+        "religious_groups": "Religious group targeting"
+      }
+    },
+    "body_parts": {
+      "name": "Parti del Corpo Inappropriate",
+      "description": "Crude or inappropriate references to body parts",
+      "examples_note": "Anatomical terms used inappropriately or crudely",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "genitalia": "Genital references (cazzo, fica, minchia)",
+        "buttocks": "Rear anatomy (culo)",
+        "breasts": "Breast references (tette)",
+        "crude_anatomy": "Other crude anatomical references (coglioni)"
+      }
+    },
+    "scatological": {
+      "name": "Scatologico",
+      "description": "References to bodily waste and bathroom functions",
+      "examples_note": "Toilet humor and waste references",
+      "severity_range": [1, 2],
+      "subcategories": {
+        "waste": "References to feces (merda, cacca, stronzo)",
+        "urination": "Urination references (piscia, pisciare)",
+        "bathroom": "Bathroom and bodily function humor",
+        "crude_functions": "Other crude bodily function references"
+      }
+    },
+    "violence": {
+      "name": "Violenza e Aggressione",
+      "description": "Words promoting or describing violence, threats, or aggressive behavior",
+      "examples_note": "Violent language and threats",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "threats": "Direct or implied threats of harm",
+        "weapons": "References to weapons in threatening context",
+        "physical_harm": "Descriptions of violence or harm",
+        "death_wishes": "Expressions wishing harm or death"
+      }
+    },
+    "regional_slurs": {
+      "name": "Insulti Regionali",
+      "description": "Derogatory terms targeting Italian regional groups",
+      "examples_note": "North-South Italian discrimination",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "anti_southern": "Northern slurs against South (terrone)",
+        "anti_northern": "Southern slurs against North (polentone)",
+        "regional_stereotypes": "Stereotyping regional characteristics",
+        "cultural_discrimination": "Cultural and economic discrimination"
+      }
+    },
+    "gesture_related": {
+      "name": "Correlati ai Gesti",
+      "description": "Profanity specifically associated with hand gestures",
+      "examples_note": "Words typically accompanied by specific Italian hand gestures",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "middle_finger": "Terms with middle finger gesture (vaffanculo)",
+        "horns_gesture": "Terms with horns gesture (cornuto)",
+        "umbrella_gesture": "Terms with forearm thrust (fanculo)",
+        "pinched_fingers": "Terms with questioning gesture (ma che cazzo)"
+      }
+    }
+  },
+  "severity_mapping": {
+    "1": {
+      "level": "Lieve",
+      "description": "Generally acceptable in casual conversation but may be filtered in formal settings",
+      "typical_categories": ["scatological.waste", "general.mild_curses", "slurs.intelligence"],
+      "cultural_notes": "Often used casually, especially in informal contexts"
+    },
+    "2": {
+      "level": "Moderato",
+      "description": "Inappropriate in most professional or public settings",
+      "typical_categories": ["sexual.anatomy", "slurs.personal_attacks", "body_parts.genitalia"],
+      "cultural_notes": "Context-dependent severity, varies by region and relationship"
+    },
+    "3": {
+      "level": "Forte",
+      "description": "Highly offensive and inappropriate in most contexts",
+      "typical_categories": ["sexual.explicit", "religious.serious_blasphemy", "regional_slurs.anti_southern"],
+      "cultural_notes": "Clearly offensive across all Italian regions"
+    },
+    "4": {
+      "level": "Grave",
+      "description": "Extremely offensive, potentially illegal, or causing significant harm",
+      "typical_categories": ["hate_speech.racial", "hate_speech.lgbtq", "religious.extreme_blasphemy"],
+      "cultural_notes": "Hate speech level, can have legal consequences in Italy"
+    }
+  },
+  "regional_considerations": {
+    "northern_italy": {
+      "tolerance_level": "Higher tolerance for religious blasphemy, lower for regional slurs",
+      "common_categories": ["religious", "sexual", "general"],
+      "unique_patterns": ["Industrial culture profanity", "Less Catholic sensitivity", "Lombard dialect influences"]
+    },
+    "central_italy": {
+      "tolerance_level": "Moderate across all categories",
+      "common_categories": ["general", "sexual", "religious"],
+      "unique_patterns": ["Roman influence", "Standard Italian center", "Balanced regional attitudes"]
+    },
+    "southern_italy": {
+      "tolerance_level": "Lower tolerance for religious blasphemy, higher sensitivity to family honor",
+      "common_categories": ["general", "sexual", "slurs"],
+      "unique_patterns": ["Strong Catholic influence", "Family honor culture", "Neapolitan influences"]
+    },
+    "sicily": {
+      "tolerance_level": "Traditional Catholic values, distinct linguistic patterns",
+      "common_categories": ["general", "sexual", "regional_specific"],
+      "unique_patterns": ["Sicilian language influence", "Minchia usage", "Island culture isolation"]
+    }
+  },
+  "special_italian_features": {
+    "blasphemy_hierarchy": "Elaborate system of religious profanity with legal implications",
+    "gesture_integration": "Unique integration of verbal profanity with hand gestures",
+    "regional_discrimination": "North-South Italian regional slurs with historical context",
+    "gender_agreement": "All profanity follows Italian grammatical gender rules",
+    "diminutive_system": "Extensive use of diminutives and augmentatives in profanity"
+  },
+  "legal_framework": {
+    "blasphemy_laws": "Some extreme religious blasphemy can violate Italian law",
+    "hate_speech": "Racial and ethnic slurs covered under Italian hate speech legislation",
+    "public_decency": "Public usage can result in fines for disturbing public order",
+    "workplace_protection": "Employment law protects against discriminatory language"
+  }
+}

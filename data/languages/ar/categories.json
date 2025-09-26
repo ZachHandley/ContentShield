@@ -1,0 +1,218 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "category_system": {
+    "description": "Arabic profanity categorization system considering Islamic cultural values and dialectal variations",
+    "methodology": "Based on Islamic jurisprudence, Arabic linguistics research, and contemporary dialectal usage analysis"
+  },
+  "categories": {
+    "religious": {
+      "name": "Religious Profanity",
+      "description": "Blasphemous language, curses invoking divine condemnation, or sacrilegious expressions",
+      "examples_note": "Islamic religious sensitivities and blasphemous expressions",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "divine_curses": "Curses invoking Allah's condemnation (لعنة الله)",
+        "blasphemy": "Direct blasphemous statements against Islamic beliefs",
+        "sacred_mockery": "Mocking Islamic practices, prophets, or holy figures",
+        "religious_oaths": "Inappropriate religious oath usage"
+      },
+      "islamic_context": "Extremely sensitive due to Islamic teachings about respect for divine and sacred",
+      "severity_factors": "Religious context makes these particularly offensive in Muslim societies"
+    },
+    "sexual": {
+      "name": "Sexual Content",
+      "description": "Sexually explicit language, anatomical references, and sexual behavior descriptions",
+      "examples_note": "Highly taboo in Islamic culture due to modesty requirements",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "genitalia": "Male and female genital references (زب، كس)",
+        "sexual_acts": "References to sexual activities (نيك)",
+        "sexual_insults": "Sexual behavior-based insults",
+        "anatomical_vulgar": "Crude anatomical terminology"
+      },
+      "cultural_sensitivity": "Extremely high due to Islamic emphasis on sexual modesty",
+      "gender_implications": "Female sexual insults particularly severe due to honor culture"
+    },
+    "family_insults": {
+      "name": "Family Honor Attacks",
+      "description": "Insults targeting family members, particularly mothers and female relatives",
+      "examples_note": "Attacks on family honor, especially severe in Arab culture",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "mother_insults": "Insults targeting mother (كس امك، يلعن امك)",
+        "father_curses": "Curses involving father (يلعن ابوك)",
+        "family_sexual": "Sexual insults involving family members",
+        "honor_attacks": "Direct attacks on family honor and reputation"
+      },
+      "cultural_significance": "Family honor is central to Arab culture, making these extremely offensive",
+      "social_consequences": "Can lead to serious social conflicts and violence"
+    },
+    "derogatory": {
+      "name": "General Derogatory Terms",
+      "description": "Personal insults and character attacks not falling into specific categories",
+      "examples_note": "General insults and personal attacks",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "intelligence_insults": "Questioning mental capacity (غبي، احمق)",
+        "character_attacks": "Attacks on moral character (وسخ)",
+        "appearance_mockery": "Mocking physical appearance",
+        "behavioral_criticism": "Criticizing actions or habits"
+      }
+    },
+    "animal_insults": {
+      "name": "Animal-Based Insults",
+      "description": "Comparing people to animals, with varying severity based on Islamic views of animals",
+      "examples_note": "Animal comparisons with cultural and religious significance",
+      "severity_range": [2, 3],
+      "subcategories": {
+        "forbidden_animals": "References to islamically forbidden animals (خنزير)",
+        "despised_animals": "Animals viewed negatively in Arab culture (كلب)",
+        "stupidity_animals": "Animals associated with lack of intelligence (حمار)",
+        "general_animal": "Other animal comparisons"
+      },
+      "religious_context": "Some animals (pigs, dogs) have specific religious connotations",
+      "cultural_variations": "Different animals have different significance across Arab regions"
+    },
+    "scatological": {
+      "name": "Scatological References",
+      "description": "References to bodily waste and related functions",
+      "examples_note": "Bathroom-related profanity and crude bodily function references",
+      "severity_range": [2, 3],
+      "subcategories": {
+        "waste_references": "Direct references to feces and urine (خرا)",
+        "toilet_terminology": "Crude bathroom-related terms",
+        "bodily_functions": "References to elimination processes",
+        "comparative_filth": "Using waste metaphors for comparison"
+      },
+      "islamic_cleanliness": "Islam emphasizes cleanliness, making these particularly distasteful"
+    },
+    "anatomical": {
+      "name": "Anatomical References",
+      "description": "References to body parts, particularly those considered private or shameful",
+      "examples_note": "Body part references with varying degrees of acceptability",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "private_parts": "Genital and sexual anatomy (كس، زب)",
+        "buttocks": "Rear end references (تيز، طيز)",
+        "body_parts_crude": "Other body parts used crudely",
+        "anatomy_comparative": "Using body parts for comparison or insult"
+      },
+      "modesty_requirements": "Islamic modesty requirements make anatomical references sensitive"
+    },
+    "gender_specific": {
+      "name": "Gender-Specific Insults",
+      "description": "Insults targeting specific genders, often related to traditional gender roles",
+      "examples_note": "Gender-based insults reflecting patriarchal cultural norms",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "female_sexual": "Sexual insults targeting women (شرموطة، قحبة)",
+        "male_emasculation": "Attacks on masculinity",
+        "gender_role_mockery": "Mocking adherence to traditional gender roles",
+        "honor_shame": "Honor and shame-based gender insults"
+      },
+      "patriarchal_context": "Reflects traditional patriarchal values in Arab societies",
+      "double_standards": "Different severity for male vs female targets"
+    },
+    "sectarian_ethnic": {
+      "name": "Sectarian and Ethnic Slurs",
+      "description": "Terms targeting religious sects, ethnic groups, or national origins",
+      "examples_note": "Discriminatory language targeting group identity",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "sectarian_slurs": "Anti-Sunni, Anti-Shia, or other sectarian attacks",
+        "ethnic_slurs": "Slurs against Arab ethnic minorities",
+        "national_slurs": "Derogatory terms for specific nationalities",
+        "tribal_insults": "Attacks on tribal or clan identity"
+      },
+      "political_sensitivity": "Often connected to regional conflicts and political tensions",
+      "legal_implications": "May violate hate speech laws in some Arab countries"
+    },
+    "political": {
+      "name": "Political Profanity",
+      "description": "Politically charged insults and government-critical language",
+      "examples_note": "Political insults and anti-government language",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "regime_criticism": "Anti-government and anti-leadership language",
+        "political_sexual": "Sexual insults targeting political figures",
+        "ideological_attacks": "Attacks on political ideologies",
+        "revolution_language": "Revolutionary and protest-related profanity"
+      },
+      "authoritarian_context": "Varies greatly in severity based on political system",
+      "legal_risks": "Can result in legal consequences in authoritarian states"
+    },
+    "dialectal_specific": {
+      "name": "Dialect-Specific Terms",
+      "description": "Profanity specific to particular Arabic dialects or regions",
+      "examples_note": "Regional variations in profanity usage and meaning",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "egyptian_specific": "Terms particularly common in Egyptian Arabic",
+        "levantine_specific": "Levantine Arabic (Syrian, Lebanese, Palestinian, Jordanian) specific terms",
+        "gulf_specific": "Gulf Arabic specific profanity",
+        "maghrebi_specific": "North African Arabic specific terms"
+      },
+      "regional_understanding": "May not be understood or have different severity across regions"
+    },
+    "compound_insults": {
+      "name": "Compound Insults",
+      "description": "Multi-word expressions that form complete insults",
+      "examples_note": "Complex insults combining multiple offensive elements",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "family_sexual_compound": "Combining family and sexual insults",
+        "religious_family": "Combining religious curses with family attacks",
+        "multiple_animal": "Combining multiple animal references",
+        "escalated_compound": "Progressively escalating compound expressions"
+      },
+      "cultural_creativity": "Shows linguistic creativity in insult construction",
+      "severity_amplification": "Compound forms typically more severe than individual components"
+    }
+  },
+  "severity_mapping": {
+    "1": {
+      "level": "خفيف (Mild)",
+      "level_en": "Mild",
+      "description": "إهانات خفيفة مقبولة في بعض السياقات غير الرسمية",
+      "description_en": "Mild insults acceptable in some informal contexts",
+      "cultural_notes": "May be used among close friends, still avoided in formal settings",
+      "typical_categories": ["derogatory.intelligence_insults", "animal_insults.general_animal"]
+    },
+    "2": {
+      "level": "معتدل (Moderate)",
+      "level_en": "Moderate",
+      "description": "لغة خشنة غير مناسبة في معظم الأماكن العامة",
+      "description_en": "Coarse language inappropriate in most public settings",
+      "cultural_notes": "Causes offense in mixed company, avoided around elders and authority",
+      "typical_categories": ["scatological.waste_references", "anatomical.buttocks", "religious.divine_curses"]
+    },
+    "3": {
+      "level": "قوي (Strong)",
+      "level_en": "Strong",
+      "description": "لغة مسيئة بشدة وغير مناسبة في معظم السياقات",
+      "description_en": "Highly offensive language inappropriate in most contexts",
+      "cultural_notes": "Causes significant offense, limited to very informal male-only settings",
+      "typical_categories": ["family_insults.mother_insults", "sexual.genitalia", "animal_insults.forbidden_animals"]
+    },
+    "4": {
+      "level": "شديد (Severe)",
+      "level_en": "Severe",
+      "description": "لغة مسيئة للغاية، محرمة في الخطاب العام",
+      "description_en": "Extremely offensive language, taboo in public discourse",
+      "cultural_notes": "Taboo language that can result in serious social consequences",
+      "typical_categories": ["sexual.sexual_acts", "family_insults.family_sexual", "religious.blasphemy"]
+    }
+  },
+  "cultural_considerations": {
+    "islamic_influence": "Islamic religious values significantly affect severity perception across all categories",
+    "honor_shame_culture": "Arab honor-shame culture makes family insults particularly severe",
+    "gender_segregation": "Traditional gender segregation affects acceptable language in mixed company",
+    "generational_respect": "Strong respect for elders affects appropriate language usage",
+    "regional_variations": "Severity perception varies significantly across different Arabic-speaking regions",
+    "sectarian_sensitivities": "Sunni-Shia and other sectarian differences affect religious profanity perception",
+    "political_context": "Current political situations affect the severity of political profanity",
+    "social_class": "Educational and social class background affects both usage and tolerance",
+    "urban_rural_divide": "Urban areas generally more tolerant than traditional rural communities"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "category_system": {
+    "description": "Chinese profanity categorization system for Simplified and Traditional Chinese",
+    "methodology": "Based on Chinese cultural values, Confucian hierarchy, modern internet culture, and regional dialectal variations"
+  },
+  "categories": {
+    "general": {
+      "name": "一般骂话 (General Profanity)",
+      "description": "Common swear words and expletives without specific targeting",
+      "examples_note": "Basic profanity used for emphasis or frustration",
+      "severity_range": [1, 3],
+      "cultural_context": "Chinese culture values harmony and face-saving, making direct confrontation taboo",
+      "subcategories": {
+        "exclamatory": "Words used for emphasis (妈的, 靠, 我去)",
+        "mild_curses": "Common curse words (该死, 他妈的)",
+        "frustration": "Expressions of annoyance (烦死了, 气死我了)"
+      }
+    },
+    "insult": {
+      "name": "侮辱词 (Personal Insults)",
+      "description": "Direct personal attacks and derogatory terms targeting individuals",
+      "examples_note": "Personal attacks and character defamation",
+      "severity_range": [1, 4],
+      "cultural_context": "Face-saving (面子) is crucial in Chinese culture, making personal insults particularly damaging",
+      "subcategories": {
+        "intelligence": "Attacks on mental capacity (笨蛋, 白痴, 蠢货)",
+        "character": "Character defamation (败类, 垃圾, 废物)",
+        "appearance": "Physical appearance attacks (丑八怪, 死胖子)",
+        "social_status": "Status-based insults (穷鬼, 暴发户)"
+      }
+    },
+    "sexual": {
+      "name": "性相关词汇 (Sexual Content)",
+      "description": "Words related to sexual acts, anatomy, or sexually explicit content",
+      "examples_note": "Sexual references and explicit terminology",
+      "severity_range": [2, 4],
+      "cultural_context": "Traditional Chinese culture is very conservative about sexual topics",
+      "subcategories": {
+        "anatomy": "Sexual body parts (鸡鸡, 逼, 屌)",
+        "acts": "References to sexual activities (操, 干)",
+        "promiscuity": "Sexual behavior criticism (婊子, 骚货)",
+        "homosexuality": "Anti-LGBTQ+ slurs (死gay, 基佬)"
+      }
+    },
+    "violence": {
+      "name": "暴力威胁 (Violence and Threats)",
+      "description": "Words promoting violence, threats, or aggressive behavior",
+      "examples_note": "Violent language and death threats",
+      "severity_range": [3, 4],
+      "cultural_context": "Violence threats conflict with Chinese harmony values and can have legal consequences",
+      "subcategories": {
+        "death_wishes": "Death commands and wishes (去死, 死去)",
+        "violence_verbs": "Action verbs for violence (打死你, 杀了你)",
+        "threats": "Direct threatening language",
+        "weapon_references": "Weapon-related threats"
+      }
+    },
+    "hate_speech": {
+      "name": "仇恨言论 (Hate Speech)",
+      "description": "Language targeting groups based on identity, nationality, or ethnicity",
+      "examples_note": "Discriminatory and hateful language",
+      "severity_range": [3, 4],
+      "cultural_context": "China's multi-ethnic society and international relations create sensitive areas",
+      "subcategories": {
+        "ethnic_minorities": "Discrimination against Chinese ethnic minorities",
+        "foreigners": "Anti-foreigner sentiment (洋鬼子, 老外)",
+        "japanese_hatred": "Anti-Japanese sentiment (小日本, 鬼子)",
+        "regional_discrimination": "Inter-regional prejudice",
+        "religion": "Religious discrimination",
+        "political_enemies": "Political opposition hatred"
+      }
+    },
+    "family_honor": {
+      "name": "家族侮辱 (Family Honor Attacks)",
+      "description": "Attacks on family members, especially parents and ancestors",
+      "examples_note": "Violations of filial piety and family respect",
+      "severity_range": [3, 4],
+      "cultural_context": "Filial piety (孝) is fundamental to Chinese culture, making family attacks extremely offensive",
+      "subcategories": {
+        "parent_insults": "Direct attacks on parents (你妈, 你爸)",
+        "ancestry": "Ancestral line attacks (祖宗十八代)",
+        "family_shame": "Bringing shame to family name",
+        "generational": "Multi-generational insults"
+      }
+    },
+    "scatological": {
+      "name": "粪便相关 (Scatological References)",
+      "description": "References to bodily waste and toilet functions",
+      "examples_note": "Bathroom and waste-related profanity",
+      "severity_range": [1, 3],
+      "cultural_context": "Considered vulgar and inappropriate in polite society",
+      "subcategories": {
+        "excrement": "Direct waste references (屎, 大便)",
+        "toilet_functions": "Bathroom activities (拉屎, 撒尿)",
+        "dirty_metaphors": "Using waste as metaphor for worthlessness",
+        "bodily_functions": "Other bodily function references"
+      }
+    },
+    "political": {
+      "name": "政治敏感词 (Political Sensitivity)",
+      "description": "Politically sensitive language and government criticism",
+      "examples_note": "Political dissent and government criticism",
+      "severity_range": [2, 4],
+      "cultural_context": "Political sensitivity varies greatly between mainland China, Taiwan, and Hong Kong",
+      "subcategories": {
+        "government_criticism": "Direct government criticism",
+        "leader_insults": "Attacks on political leaders",
+        "system_criticism": "Criticism of political system",
+        "historical_events": "Sensitive historical references",
+        "separatism": "Independence or separatist language",
+        "foreign_influence": "Foreign interference accusations"
+      }
+    },
+    "internet_memes": {
+      "name": "网络用语 (Internet Memes and Slang)",
+      "description": "Internet-specific profanity and meme-based insults",
+      "examples_note": "Online community and gaming culture language",
+      "severity_range": [1, 3],
+      "cultural_context": "Chinese internet culture has developed unique ways to circumvent censorship",
+      "subcategories": {
+        "gaming_insults": "Gaming community specific insults",
+        "censorship_evasion": "Creative ways to express profanity while avoiding filters",
+        "meme_references": "Meme-based insulting language",
+        "abbreviations": "Shortened forms and acronyms",
+        "homophone_substitution": "Using similar-sounding characters"
+      }
+    },
+    "animal_comparisons": {
+      "name": "动物比喻 (Animal Metaphors)",
+      "description": "Using animal comparisons as insults",
+      "examples_note": "Comparing people to animals as derogatory language",
+      "severity_range": [1, 3],
+      "cultural_context": "Chinese culture has many animal-based metaphors with cultural significance",
+      "subcategories": {
+        "pig_comparisons": "Pig-related insults (猪头, 猪脑子)",
+        "dog_comparisons": "Dog-related insults (狗东西, 走狗)",
+        "other_animals": "Various animal comparisons (牲畜, 畜生)",
+        "mythical_creatures": "Mythological creature references"
+      }
+    }
+  },
+  "severity_mapping": {
+    "1": {
+      "level": "轻微 (Mild)",
+      "description": "Generally acceptable in casual conversation among peers but inappropriate in formal settings",
+      "chinese_context": "May be used among close friends but shows lack of cultivation (修养)",
+      "typical_categories": ["general.exclamatory", "animal_comparisons.mild", "internet_memes.gaming"]
+    },
+    "2": {
+      "level": "中等 (Moderate)",
+      "description": "Inappropriate in most social settings, causes discomfort and face-loss",
+      "chinese_context": "Violates social harmony and proper behavior expectations",
+      "typical_categories": ["general.mild_curses", "sexual.anatomy", "scatological.excrement"]
+    },
+    "3": {
+      "level": "严重 (Strong)",
+      "description": "Highly offensive and damaging to relationships and social standing",
+      "chinese_context": "Serious violation of Chinese social norms and moral values",
+      "typical_categories": ["insult.character", "hate_speech.regional", "family_honor.parent_insults"]
+    },
+    "4": {
+      "level": "极其严重 (Severe)",
+      "description": "Extremely offensive, potentially relationship-ending or legally problematic",
+      "chinese_context": "Complete violation of Chinese cultural values, potential legal consequences",
+      "typical_categories": ["violence.death_wishes", "family_honor.ancestry", "hate_speech.ethnic_minorities"]
+    }
+  },
+  "regional_considerations": {
+    "mainland_china": {
+      "description": "People's Republic of China context",
+      "special_factors": ["Political sensitivity high", "Internet censorship active", "Traditional values mixed with modern"]
+    },
+    "taiwan": {
+      "description": "Republic of China (Taiwan) context",
+      "special_factors": ["More liberal expression", "Traditional characters", "Japanese influence", "Political sensitivity different"]
+    },
+    "hong_kong": {
+      "description": "Hong Kong Special Administrative Region context",
+      "special_factors": ["Cantonese profanity dominant", "British influence", "Recent political tensions", "Code-mixing common"]
+    },
+    "singapore": {
+      "description": "Singapore Chinese community context",
+      "special_factors": ["Multilingual environment", "Conservative social values", "Singlish influence"]
+    },
+    "overseas_communities": {
+      "description": "Diaspora Chinese communities",
+      "special_factors": ["Mixed cultural values", "Language preservation concerns", "Integration pressures"]
+    }
+  },
+  "dialectal_variations": {
+    "mandarin": {
+      "description": "Standard Chinese (Putonghua/Guoyu)",
+      "characteristics": "Basis for most written profanity, official language standard"
+    },
+    "cantonese": {
+      "description": "Cantonese dialect profanity",
+      "characteristics": "Distinctive profanity vocabulary, strong cultural identity",
+      "unique_features": "Many profanity terms not found in Mandarin"
+    },
+    "hokkien": {
+      "description": "Min Nan dialect including Taiwanese",
+      "characteristics": "Strong profanity tradition, different severity levels"
+    },
+    "shanghainese": {
+      "description": "Wu dialect of Shanghai",
+      "characteristics": "Local profanity expressions, urban culture influence"
+    }
+  },
+  "cultural_factors": {
+    "confucian_influence": "Confucian values heavily influence severity perception and social acceptability",
+    "face_culture": "Face-saving (面子) and shame-avoidance affect profanity impact significantly",
+    "harmony_values": "Social harmony ideals make confrontational language more severe",
+    "generational_gaps": "Rapid social change creates different standards across generations",
+    "education_levels": "Educational background significantly affects language standards",
+    "urbanization": "Urban-rural differences in tolerance and usage patterns"
+  }
+}

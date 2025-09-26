@@ -1,0 +1,344 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "variation_system": {
+    "description": "Chinese profanity variations including Traditional/Simplified characters, romanization systems, and internet evasion methods",
+    "methodology": "Based on Pinyin romanization, Traditional/Simplified character relationships, and creative censorship evasion"
+  },
+  "character_systems": {
+    "simplified_chinese": {
+      "name": "简体中文 (Simplified Chinese)",
+      "status": "mainland_standard",
+      "description": "Simplified character system used in Mainland China and Singapore",
+      "unicode_range": "Primarily CJK Unified Ideographs (U+4E00-U+9FFF)"
+    },
+    "traditional_chinese": {
+      "name": "繁體中文 (Traditional Chinese)",
+      "status": "taiwan_hongkong_standard",
+      "description": "Traditional character system used in Taiwan, Hong Kong, and Macau",
+      "unicode_range": "CJK Unified Ideographs and Extension blocks"
+    }
+  },
+  "romanization_systems": {
+    "pinyin": {
+      "name": "Pinyin (拼音)",
+      "status": "official_mainland",
+      "description": "Official romanization system of Mainland China",
+      "characteristics": "Tone marks, standardized spelling"
+    },
+    "wade_giles": {
+      "name": "Wade-Giles",
+      "status": "traditional_academic",
+      "description": "Traditional academic romanization system",
+      "characteristics": "Apostrophes for aspiration, hyphenation"
+    },
+    "zhuyin": {
+      "name": "Zhuyin (注音)",
+      "status": "taiwan_phonetic",
+      "description": "Phonetic system used in Taiwan",
+      "characteristics": "Bopomofo characters, tone marks"
+    },
+    "internet_romanization": {
+      "name": "Internet Romanization",
+      "status": "informal",
+      "description": "Informal romanization used online",
+      "characteristics": "Tone-neutral, phonetic approximation"
+    }
+  },
+  "word_variations": {
+    "操": {
+      "simplified": "操",
+      "traditional": "操",
+      "pinyin": "cāo",
+      "wade_giles": "ts'ao",
+      "tone_number": "cao1",
+      "internet_variations": ["cao", "caoo", "c4o"],
+      "character_substitutions": ["草", "艹", "肏"],
+      "evasion_methods": ["c", "草", "🌿"],
+      "homophone_evasion": ["操作", "草案"],
+      "visual_obfuscation": ["c*o", "c@o", "***"]
+    },
+    "他妈的": {
+      "simplified": "他妈的",
+      "traditional": "他媽的",
+      "pinyin": "tā mā de",
+      "wade_giles": "t'a ma te",
+      "tone_number": "ta1 ma1 de5",
+      "internet_variations": ["ta ma de", "tama", "tmd"],
+      "character_substitutions": ["他马的", "他🐴的"],
+      "evasion_methods": ["tmd", "ta m de", "他m的"],
+      "abbreviations": ["TMD", "tm的", "t妈的"],
+      "visual_obfuscation": ["他***", "t*m*d", "ta**de"]
+    },
+    "草泥马": {
+      "simplified": "草泥马",
+      "traditional": "草泥馬",
+      "pinyin": "cǎo nǐ mā",
+      "wade_giles": "ts'ao ni ma",
+      "tone_number": "cao3 ni3 ma1",
+      "internet_variations": ["caonima", "cnm", "cao ni ma"],
+      "meme_context": "Alpaca (羊驼) homophone for 'fuck your mother'",
+      "character_substitutions": ["🌿你🐴", "草你妈", "艹你妈"],
+      "evasion_methods": ["cnm", "草ni马", "cao你马"],
+      "abbreviations": ["CNM", "cnm", "草nm"],
+      "visual_obfuscation": ["c*n*m", "草n马", "***你***"]
+    },
+    "傻逼": {
+      "simplified": "傻逼",
+      "traditional": "傻逼",
+      "pinyin": "shǎ bī",
+      "wade_giles": "sha pi",
+      "tone_number": "sha3 bi1",
+      "internet_variations": ["shabi", "sha bi", "sb"],
+      "character_substitutions": ["傻b", "煞笔", "沙比"],
+      "evasion_methods": ["sb", "s逼", "傻B"],
+      "abbreviations": ["SB", "sb", "s b"],
+      "visual_obfuscation": ["s*b", "傻*", "***逼"]
+    },
+    "婊子": {
+      "simplified": "婊子",
+      "traditional": "婊子",
+      "pinyin": "biǎo zi",
+      "wade_giles": "piao tzu",
+      "tone_number": "biao3 zi5",
+      "internet_variations": ["biaozi", "biao zi", "bz"],
+      "character_substitutions": ["婊z", "表子", "biao子"],
+      "evasion_methods": ["bz", "b子", "婊Z"],
+      "abbreviations": ["BZ", "bz", "b z"],
+      "visual_obfuscation": ["b***", "婊*", "***子"]
+    },
+    "去死": {
+      "simplified": "去死",
+      "traditional": "去死",
+      "pinyin": "qù sǐ",
+      "wade_giles": "ch'ü szu",
+      "tone_number": "qu4 si3",
+      "internet_variations": ["qusi", "qu si", "去4"],
+      "character_substitutions": ["去si", "去S", "qu死"],
+      "evasion_methods": ["qu4", "去s", "Q死"],
+      "abbreviations": ["QS", "qs", "去s"],
+      "visual_obfuscation": ["q*s", "去*", "***死"]
+    },
+    "白痴": {
+      "simplified": "白痴",
+      "traditional": "白痴",
+      "pinyin": "bái chī",
+      "wade_giles": "pai ch'ih",
+      "tone_number": "bai2 chi1",
+      "internet_variations": ["baichi", "bai chi", "bc"],
+      "character_substitutions": ["白c", "bai痴", "白C"],
+      "evasion_methods": ["bc", "b痴", "白c"],
+      "abbreviations": ["BC", "bc", "b c"],
+      "visual_obfuscation": ["b*c", "白*", "***痴"]
+    },
+    "滚": {
+      "simplified": "滚",
+      "traditional": "滾",
+      "pinyin": "gǔn",
+      "wade_giles": "kun",
+      "tone_number": "gun3",
+      "internet_variations": ["gun", "gunn", "g滚"],
+      "character_substitutions": ["滾", "gun", "G"],
+      "evasion_methods": ["G", "g", "滚滚"],
+      "extended_forms": ["滚开", "滚蛋", "滚犊子"],
+      "visual_obfuscation": ["g*n", "滚*", "***"]
+    },
+    "畜生": {
+      "simplified": "畜生",
+      "traditional": "畜生",
+      "pinyin": "chù shēng",
+      "wade_giles": "ch'u sheng",
+      "tone_number": "chu4 sheng1",
+      "internet_variations": ["chusheng", "chu sheng", "cs"],
+      "character_substitutions": ["畜s", "chu生", "畜S"],
+      "evasion_methods": ["cs", "畜s", "chu生"],
+      "synonymous_terms": ["禽兽", "牲畜", "野兽"],
+      "visual_obfuscation": ["c*s", "畜*", "***生"]
+    },
+    "垃圾": {
+      "simplified": "垃圾",
+      "traditional": "垃圾",
+      "pinyin": "lā jī",
+      "wade_giles": "la chi",
+      "tone_number": "la1 ji1",
+      "internet_variations": ["laji", "la ji", "lj"],
+      "character_substitutions": ["垃j", "la圾", "垃J"],
+      "evasion_methods": ["lj", "垃j", "la圾"],
+      "abbreviations": ["LJ", "lj", "l j"],
+      "visual_obfuscation": ["l*j", "垃*", "***圾"]
+    },
+    "废物": {
+      "simplified": "废物",
+      "traditional": "廢物",
+      "pinyin": "fèi wù",
+      "wade_giles": "fei wu",
+      "tone_number": "fei4 wu4",
+      "internet_variations": ["feiwu", "fei wu", "fw"],
+      "character_substitutions": ["废w", "fei物", "廢物"],
+      "evasion_methods": ["fw", "废w", "fei物"],
+      "abbreviations": ["FW", "fw", "f w"],
+      "visual_obfuscation": ["f*w", "废*", "***物"]
+    }
+  },
+  "internet_evasion_patterns": {
+    "homophone_substitution": {
+      "description": "Using characters with similar pronunciation to avoid detection",
+      "examples": {
+        "河蟹": "hé xiè (river crab) for 和谐 (harmony/censorship)",
+        "草泥马": "cǎo nǐ mā (alpaca) for 肏你妈 (fuck your mother)",
+        "雅蠛蝶": "yǎ miè dié (butterfly) for やめて (yamete/stop in Japanese)"
+      },
+      "cultural_context": "Often becomes internet meme with dual meaning"
+    },
+    "visual_character_replacement": {
+      "description": "Using visually similar characters or radicals",
+      "examples": {
+        "艹": "Grass radical (艹) instead of 操 (fuck)",
+        "屮": "Sprout radical (屮) as general profanity euphemism",
+        "凸": "Convex character (凸) representing middle finger"
+      },
+      "evolution": "Characters gain profane meaning through visual association"
+    },
+    "alphabetic_substitution": {
+      "description": "Using Latin letters mixed with Chinese characters",
+      "examples": {
+        "傻B": "Using 'B' instead of 逼",
+        "NB": "牛逼 (niú bī) meaning 'awesome' but containing profanity",
+        "SB": "傻逼 (shǎ bī) abbreviation"
+      },
+      "typing_convenience": "Easier to type on keyboards, harder to filter"
+    },
+    "emoji_and_symbols": {
+      "description": "Using emojis and Unicode symbols as character substitutes",
+      "examples": {
+        "🌿": "Grass emoji for 草 (fuck)",
+        "🐴": "Horse emoji for 马 replacing 妈 (mother)",
+        "💩": "Poop emoji for scatological references"
+      },
+      "mobile_culture": "Smartphone emoji keyboards enable creative expression"
+    },
+    "spacing_and_punctuation": {
+      "description": "Using spaces, punctuation, or special characters to break up words",
+      "examples": {
+        "操 你": "Adding space between characters",
+        "c-a-o": "Hyphenating romanization",
+        "草.泥.马": "Using periods to separate"
+      },
+      "filter_evasion": "Breaks automatic word recognition patterns"
+    },
+    "number_substitution": {
+      "description": "Using numbers that look like or sound like characters",
+      "examples": {
+        "250": "二百五 (èr bǎi wǔ) meaning 'stupid person'",
+        "3": "散 (sàn) or similar-looking number substitutes",
+        "4": "死 (sǐ) death, unlucky number"
+      },
+      "cultural_numbers": "Some numbers have inherent negative connotations"
+    }
+  },
+  "dialectal_variations": {
+    "cantonese": {
+      "romanization_system": "Jyutping or Yale Cantonese",
+      "unique_profanity": "Many Cantonese profanity terms have no Mandarin equivalent",
+      "examples": {
+        "屌": "diu2 (Cantonese) vs diǎo (Mandarin), different usage patterns",
+        "仆街": "puk1 gaai1 (fall on street) Cantonese-specific curse"
+      },
+      "character_sharing": "Same characters may have different severity in different dialects"
+    },
+    "hokkien_taiwanese": {
+      "romanization_system": "Pe̍h-ōe-jī (POJ) or Taiwanese Phonetic System",
+      "historical_influence": "Japanese colonial influence on profanity vocabulary",
+      "examples": {
+        "夭壽": "iau-siū meaning 'damned' in Taiwanese",
+        "北七": "pak-tshit meaning 'stupid' (from Japanese バカ)"
+      },
+      "local_context": "Strong regional identity affects severity perception"
+    },
+    "shanghainese": {
+      "romanization_system": "Various Wu dialect romanization systems",
+      "urban_culture": "Metropolitan culture creates unique slang patterns",
+      "examples": {
+        "瘪三": "Local Shanghai insult meaning 'good-for-nothing'",
+        "嗲": "Local slang with various connotations"
+      },
+      "generational_change": "Younger generations increasingly use Mandarin profanity"
+    }
+  },
+  "historical_evolution": {
+    "classical_chinese_roots": {
+      "description": "Many insults derive from classical Chinese literature",
+      "examples": "畜生, 禽兽 from classical moral categories",
+      "cultural_weight": "Classical origins give additional gravitas to insults"
+    },
+    "republican_era": {
+      "description": "Early 20th century political and social upheaval language",
+      "examples": "走狗 (running dog), 汉奸 (traitor) from this period",
+      "political_context": "Political insults from revolutionary periods"
+    },
+    "cultural_revolution": {
+      "description": "Political struggle language from 1960s-70s",
+      "examples": "牛鬼蛇神 (monsters and demons), 走资派 (capitalist roader)",
+      "ideological_language": "Class struggle vocabulary as insult language"
+    },
+    "reform_era": {
+      "description": "Economic reform period creating new social tensions",
+      "examples": "暴发户 (nouveau riche), 下海 (going into business)",
+      "economic_insults": "Wealth and status-based language"
+    },
+    "internet_age": {
+      "description": "Digital culture creating new forms and evasion methods",
+      "examples": "草泥马 (alpaca), 河蟹 (river crab)",
+      "meme_evolution": "Internet culture drives rapid language evolution"
+    }
+  },
+  "regional_specific_variations": {
+    "mainland_china": {
+      "censorship_pressure": "Heavy internet filtering drives creative evasion",
+      "political_sensitivity": "Political terms heavily monitored and filtered",
+      "social_media_evolution": "WeChat, Weibo usage patterns affect language",
+      "examples": ["河蟹" for censorship, "草泥马" phenomenon]
+    },
+    "taiwan": {
+      "japanese_influence": "Historical Japanese rule affects some vocabulary",
+      "democratic_expression": "More open political expression affects language norms",
+      "traditional_characters": "Traditional character usage affects visual substitutions",
+      "examples": ["機車" (motorcycle) meaning 'troublesome']
+    },
+    "hong_kong": {
+      "cantonese_dominance": "Cantonese profanity has different patterns from Mandarin",
+      "british_influence": "Historical British rule affects some expression patterns",
+      "recent_political_tension": "2019 protests created new political vocabulary",
+      "code_mixing": "English-Cantonese mixing in profanity"
+    },
+    "singapore": {
+      "multilingual_environment": "Chinese mixed with English, Malay in 'Singlish'",
+      "conservative_society": "Low tolerance for public profanity",
+      "government_regulation": "Strict laws against offensive language",
+      "examples": ["Hokkien profanity mixed with English"]
+    }
+  },
+  "technical_considerations": {
+    "unicode_normalization": {
+      "description": "Different Unicode representations of same character",
+      "importance": "Critical for accurate detection and filtering",
+      "examples": "Traditional/Simplified character pairs, compatibility characters"
+    },
+    "font_variations": {
+      "description": "Same character may appear differently in different fonts",
+      "detection_challenges": "Visual similarity doesn't guarantee Unicode equivalence",
+      "regional_fonts": "Regional font preferences affect character appearance"
+    },
+    "input_methods": {
+      "description": "Different input methods create different typing patterns",
+      "pinyin_ime": "Mainland China standard, affects abbreviation patterns",
+      "zhuyin_ime": "Taiwan standard, creates different shorthand patterns",
+      "handwriting_recognition": "Mobile handwriting creates new variation patterns"
+    },
+    "machine_translation": {
+      "description": "Translation services often struggle with profanity context",
+      "cultural_context": "Cultural appropriateness lost in translation",
+      "censorship_interaction": "Some services automatically censor or modify profanity"
+    }
+  }
+}

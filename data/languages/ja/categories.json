@@ -1,0 +1,228 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "category_system": {
+    "description": "Japanese profanity categorization system adapted for cultural context",
+    "methodology": "Based on Japanese social hierarchy, directness taboos, and internet culture"
+  },
+  "categories": {
+    "general": {
+      "name": "一般的な悪口 (General Profanity)",
+      "description": "Common swear words and mild expletives without specific targeting",
+      "examples_note": "Basic profanity used for emphasis or frustration",
+      "severity_range": [1, 3],
+      "cultural_context": "Less tolerance for direct confrontation than Western cultures",
+      "subcategories": {
+        "exclamatory": "Words used for emphasis (kuso, chikushou)",
+        "mild_curses": "Common curse words (baka, aho)",
+        "internet_slang": "Online community expressions (uzai, kimoi)"
+      }
+    },
+    "insult": {
+      "name": "侮辱語 (Personal Insults)",
+      "description": "Direct personal attacks and derogatory terms for individuals",
+      "examples_note": "Personal attacks and character assassination",
+      "severity_range": [1, 4],
+      "cultural_context": "Direct insults are particularly harsh in Japanese culture due to face-saving importance",
+      "subcategories": {
+        "intelligence": "Attacks on mental capacity (baka, aho, hakuchi)",
+        "character": "Character defamation (DQN, yutori)",
+        "behavior": "Behavioral criticism (uzai, mendokusai)"
+      }
+    },
+    "sexual": {
+      "name": "性的な言葉 (Sexual Content)",
+      "description": "Words related to sexual acts, anatomy, or sexually explicit content",
+      "examples_note": "Sexual references and explicit terminology",
+      "severity_range": [1, 4],
+      "cultural_context": "Sexual content is heavily taboo in formal Japanese society",
+      "subcategories": {
+        "anatomy": "Sexual body parts (chinko, manko)",
+        "acts": "References to sexual activities",
+        "promiscuity": "Sexual behavior criticism (yariman)",
+        "virginity": "Sexual experience references (doutei, shojo)"
+      }
+    },
+    "violence": {
+      "name": "暴力的な言葉 (Violence and Threats)",
+      "description": "Words promoting violence, threats, or aggressive behavior",
+      "examples_note": "Violent language and death threats",
+      "severity_range": [3, 4],
+      "cultural_context": "Violence threats taken extremely seriously in Japanese society",
+      "subcategories": {
+        "death_wishes": "Death commands and wishes (shine, kutabare)",
+        "violence_verbs": "Action verbs for violence (korosu)",
+        "aggressive_commands": "Hostile directives"
+      }
+    },
+    "hate_speech": {
+      "name": "ヘイトスピーチ (Hate Speech)",
+      "description": "Language targeting individuals or groups based on identity",
+      "examples_note": "Discriminatory and hateful language",
+      "severity_range": [3, 4],
+      "cultural_context": "Strong sensitivity to ethnic discrimination due to historical issues",
+      "subcategories": {
+        "ethnic": "Ethnic slurs (chon, shina, chousenjin when derogatory)",
+        "nationality": "Nationality-based discrimination",
+        "disability": "Ableist slurs (kichigai, ikeshou)",
+        "mental_health": "Mental illness discrimination"
+      }
+    },
+    "appearance": {
+      "name": "外見への悪口 (Appearance-based Insults)",
+      "description": "Derogatory comments about physical appearance",
+      "examples_note": "Body shaming and appearance criticism",
+      "severity_range": [2, 3],
+      "cultural_context": "Physical appearance comments are particularly hurtful in image-conscious Japanese society",
+      "subcategories": {
+        "weight": "Weight-based insults (debu)",
+        "attractiveness": "Beauty-based insults (busu)",
+        "physical_features": "Specific feature criticism"
+      }
+    },
+    "lgbtq": {
+      "name": "LGBTQ関連 (LGBTQ-related Terms)",
+      "description": "Terms related to sexual orientation and gender identity",
+      "examples_note": "LGBTQ+ related language, often derogatory",
+      "severity_range": [1, 3],
+      "cultural_context": "Traditional Japanese society less accepting, but changing",
+      "subcategories": {
+        "sexual_orientation": "Orientation-based terms (homo)",
+        "gender_expression": "Gender presentation terms (okama)",
+        "traditional_roles": "Traditional gender role violations"
+      }
+    },
+    "scatological": {
+      "name": "スカトロジー (Scatological References)",
+      "description": "References to bodily waste and bathroom functions",
+      "examples_note": "Toilet humor and bodily function references",
+      "severity_range": [1, 2],
+      "cultural_context": "Bathroom topics are taboo in formal Japanese conversation",
+      "subcategories": {
+        "waste_references": "Direct waste references (kuso)",
+        "bathroom_functions": "Bodily function terminology",
+        "crude_references": "Crude bodily references"
+      }
+    },
+    "body_parts": {
+      "name": "身体部位 (Body Parts)",
+      "description": "Crude references to body parts, especially sexual organs",
+      "examples_note": "Anatomical terms used inappropriately",
+      "severity_range": [2, 3],
+      "cultural_context": "Body part references are highly inappropriate in Japanese formal context",
+      "subcategories": {
+        "sexual_organs": "Sexual anatomy (chinko, manko)",
+        "crude_anatomy": "Other crude body references",
+        "childish_terms": "Juvenile body part terminology"
+      }
+    },
+    "age": {
+      "name": "年齢差別 (Age Discrimination)",
+      "description": "Age-based discrimination and generational slurs",
+      "examples_note": "Ageist language and generational conflicts",
+      "severity_range": [1, 2],
+      "cultural_context": "Respect for age is traditional, but generational tensions exist",
+      "subcategories": {
+        "youth_discrimination": "Anti-young person slurs (chuubou)",
+        "generational": "Generational criticism (yutori)",
+        "maturity": "Maturity-based insults"
+      }
+    },
+    "internet_slang": {
+      "name": "ネットスラング (Internet Slang)",
+      "description": "Online community-specific language and expressions",
+      "examples_note": "Internet culture terminology, not necessarily offensive",
+      "severity_range": [0, 2],
+      "cultural_context": "2ch/5ch culture has created unique linguistic expressions",
+      "subcategories": {
+        "emoticons": "Text-based expressions (orz, www)",
+        "board_culture": "Message board specific terms",
+        "meme_language": "Internet meme terminology (kusa)"
+      }
+    },
+    "religious": {
+      "name": "宗教的冒涜 (Religious Profanity)",
+      "description": "Terms related to Buddhist/Shinto religious concepts used inappropriately",
+      "examples_note": "Religious terms used as curses",
+      "severity_range": [1, 2],
+      "cultural_context": "Buddhist concepts often secularized, less offensive than Christian blasphemy",
+      "subcategories": {
+        "buddhist_terms": "Buddhist concepts as curses (chikushou)",
+        "spiritual_concepts": "Spiritual terminology misused",
+        "afterlife_references": "Death/afterlife concept abuse"
+      }
+    },
+    "generational": {
+      "name": "世代論 (Generational Discrimination)",
+      "description": "Discrimination based on generational membership or characteristics",
+      "examples_note": "Generational stereotyping and discrimination",
+      "severity_range": [1, 2],
+      "cultural_context": "Japan has strong generational identity and associated stereotypes",
+      "subcategories": {
+        "education_system": "Educational era discrimination (yutori)",
+        "work_ethic": "Work attitude generational criticism",
+        "technology_gap": "Technology adaptation mockery"
+      }
+    },
+    "disability": {
+      "name": "障害者差別 (Disability Discrimination)",
+      "description": "Terms discriminating against people with disabilities",
+      "examples_note": "Ableist language and disability-based slurs",
+      "severity_range": [3, 4],
+      "cultural_context": "Disability discrimination heavily stigmatized, mental health especially sensitive",
+      "subcategories": {
+        "mental_disability": "Mental disability slurs (kichigai, ikeshou)",
+        "cognitive_impairment": "Cognitive ability slurs (hakuchi)",
+        "developmental": "Developmental disability discrimination"
+      }
+    }
+  },
+  "severity_mapping": {
+    "1": {
+      "level": "軽微 (Mild)",
+      "description": "Casual rudeness, acceptable among friends but inappropriate in formal settings",
+      "typical_categories": ["general.mild_curses", "insult.character", "age.generational"],
+      "cultural_note": "Still more serious than Western equivalent due to directness taboo"
+    },
+    "2": {
+      "level": "中程度 (Moderate)",
+      "description": "Clearly inappropriate, would cause social discomfort in most settings",
+      "typical_categories": ["appearance.weight", "sexual.anatomy", "lgbtq.gender_expression"],
+      "cultural_note": "Violates social harmony, requires apology if used inappropriately"
+    },
+    "3": {
+      "level": "重大 (Strong)",
+      "description": "Highly offensive, could damage relationships and social standing",
+      "typical_categories": ["hate_speech.ethnic", "sexual.promiscuity", "violence.death_wishes"],
+      "cultural_note": "Serious face-loss for both speaker and target, may require formal apology"
+    },
+    "4": {
+      "level": "極めて重大 (Severe)",
+      "description": "Extremely offensive, potentially illegal, causing significant social harm",
+      "typical_categories": ["hate_speech.disability", "violence.violence_verbs", "disability.mental_disability"],
+      "cultural_note": "Could result in social ostracism, legal consequences, or violence"
+    }
+  },
+  "formality_levels": {
+    "internet_casual": "Acceptable in online gaming/chat contexts",
+    "casual": "Acceptable among close friends in private",
+    "casual_insult": "Mild teasing among friends, inappropriate elsewhere",
+    "rude": "Intentionally disrespectful, socially unacceptable",
+    "very_rude": "Aggressive hostility, relationship-damaging",
+    "extremely_rude": "Extreme aggression, potentially threatening",
+    "potentially_offensive": "Context-dependent, could be neutral or offensive",
+    "potentially_sensitive": "Requires careful context consideration",
+    "discriminatory": "Explicitly discriminatory against groups",
+    "extremely_discriminatory": "Severe discrimination with potential legal implications"
+  },
+  "cultural_considerations": {
+    "keigo_violations": "Failure to use appropriate honorific language can be offensive",
+    "directness_taboo": "Direct confrontation is more offensive than in Western cultures",
+    "group_harmony": "Disrupting wa (group harmony) is particularly serious",
+    "face_saving": "Causing loss of face (mentsu) has severe social consequences",
+    "context_dependency": "Same word can range from playful to offensive based on relationship and setting",
+    "generational_differences": "Older generations may find certain terms more offensive",
+    "regional_variations": "Kansai vs Tokyo differences in acceptable language",
+    "media_influence": "Anime/manga exposure has changed perception of some terms internationally"
+  }
+}

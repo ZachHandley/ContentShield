@@ -1,0 +1,198 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "fr",
+  "language_info": {
+    "name": "French",
+    "native_name": "Français",
+    "iso_codes": {
+      "iso_639_1": "fr",
+      "iso_639_2": "fre/fra",
+      "iso_639_3": "fra"
+    },
+    "family": "Indo-European > Italic > Romance > Gallo-Romance",
+    "speakers": {
+      "native": "~76 million",
+      "total": "~280 million",
+      "rank": "5th most spoken language globally by total speakers"
+    }
+  },
+  "regional_coverage": {
+    "primary_regions": [
+      {
+        "region": "france",
+        "variant": "Metropolitan French",
+        "speakers": "~65 million",
+        "notes": "European French with regional variations, verlan usage prominent"
+      },
+      {
+        "region": "quebec",
+        "variant": "Quebec French",
+        "speakers": "~7 million",
+        "notes": "Distinct sacres system, joual dialect, resistance to anglicisms"
+      },
+      {
+        "region": "belgium",
+        "variant": "Belgian French",
+        "speakers": "~4.5 million",
+        "notes": "Similar to French French with some Flemish influences"
+      },
+      {
+        "region": "switzerland",
+        "variant": "Swiss French",
+        "speakers": "~2 million",
+        "notes": "Conservative variant with German/Italian influences"
+      },
+      {
+        "region": "africa",
+        "variant": "African French varieties",
+        "speakers": "~120 million",
+        "notes": "Varies by country, often more formal register maintained"
+      }
+    ],
+    "coverage_notes": "Database focuses on major francophone regions with distinctive profanity patterns and cultural contexts"
+  },
+  "linguistic_features": {
+    "phonological": [
+      "Nasal vowels distinctive to French",
+      "Silent final consonants in many words",
+      "Liaison affects pronunciation in context",
+      "Regional accent variations affect perception"
+    ],
+    "morphological": [
+      "Grammatical gender affects adjective agreement",
+      "Rich verbal conjugation system",
+      "Formal/informal register distinctions (tu/vous)",
+      "Productive suffix system for creating variations"
+    ],
+    "syntactic": [
+      "Complex pronoun system including clitics",
+      "Subjunctive mood usage",
+      "Flexible word order for emphasis",
+      "Negation system (ne...pas)"
+    ],
+    "lexical": [
+      "Significant regional vocabulary differences",
+      "Verlan system creates coded language",
+      "English borrowings vary by region",
+      "Historical Latin and Germanic influences"
+    ]
+  },
+  "profanity_characteristics": {
+    "unique_features": [
+      "Verlan system allows masking of profanity",
+      "Quebec sacres system completely distinct from European French",
+      "Gender agreement affects severity and usage",
+      "Creative compounding highly valued",
+      "Sexual vs religious profanity hierarchy varies by region",
+      "Formal/informal register affects appropriateness significantly"
+    ],
+    "cultural_factors": [
+      "Laïcité (secularism) affects religious profanity in France",
+      "Catholic heritage creates Quebec sacres sensitivity",
+      "Colonial history affects ethnic slur severity",
+      "Regional identity pride influences term acceptance",
+      "Generational differences in verlan usage",
+      "Class distinctions affect language appropriateness"
+    ],
+    "comparison_to_english": [
+      "More systematic gender-based variations",
+      "Religious profanity more developed (especially Quebec)",
+      "Verlan creates unique obfuscation system",
+      "More regional variation in severity",
+      "Sexual profanity generally more accepted in France",
+      "Compound insults more creative and elaborate"
+    ]
+  },
+  "special_systems": {
+    "verlan": {
+      "description": "Syllable reversal slang system",
+      "prevalence": "Prominent in French urban areas",
+      "profanity_application": "Used to mask offensive terms",
+      "evolution": "Constantly evolving with youth culture"
+    },
+    "quebec_sacres": {
+      "description": "Religious profanity system unique to Quebec",
+      "origin": "Catholic religious terms transformed to profanity",
+      "cultural_significance": "Marker of Quebec linguistic identity",
+      "hierarchy": "Complex intensity system for different religious terms"
+    },
+    "formal_informal": {
+      "description": "Strong register distinctions affect profanity appropriateness",
+      "tu_vous": "Pronoun choice affects acceptable language level",
+      "professional": "Formal contexts have zero tolerance",
+      "casual": "Informal contexts much more permissive"
+    }
+  },
+  "data_collection_methodology": {
+    "sources": [
+      "French sociolinguistic research",
+      "Quebec linguistic studies",
+      "Regional dialectology research",
+      "Cultural anthropology studies",
+      "Media content analysis across regions",
+      "Internet slang and verlan evolution studies"
+    ],
+    "validation_approach": [
+      "Cross-reference across francophone regions",
+      "Verify Quebec sacres system with cultural experts",
+      "Check verlan forms with urban slang dictionaries",
+      "Validate severity with regional communities",
+      "Confirm legal implications under French hate speech law"
+    ],
+    "limitations": [
+      "Verlan evolution outpaces documentation",
+      "African French varieties underrepresented",
+      "Generational gaps in usage patterns",
+      "Regional variations within countries not fully captured",
+      "Legal sensitivity limits some data collection"
+    ]
+  },
+  "ethical_considerations": {
+    "research_ethics": [
+      "Respect for Quebec cultural distinctiveness",
+      "Sensitivity to colonial language legacy",
+      "Recognition of regional identity importance",
+      "Acknowledgment of harm potential across cultures"
+    ],
+    "usage_guidelines": [
+      "Provide cultural context for all regions",
+      "Recognize Quebec sacres as distinct system",
+      "Respect verlan as legitimate linguistic phenomenon",
+      "Consider legal implications under French law",
+      "Update regularly for rapidly evolving slang"
+    ]
+  },
+  "quality_metrics": {
+    "completeness": "Covers major francophone regions and profanity categories",
+    "accuracy": "Cross-validated with regional experts and sources",
+    "cultural_sensitivity": "Reviewed for cultural appropriateness across regions",
+    "currency": "Regular updates planned for verlan and slang evolution",
+    "legal_compliance": "Reviewed against French hate speech legislation"
+  },
+  "future_updates": {
+    "planned_additions": [
+      "More African French variants",
+      "Caribbean French (Antilles) patterns",
+      "New Caledonian and Pacific French",
+      "Emerging internet verlan forms",
+      "Youth culture evolution in profanity"
+    ],
+    "update_frequency": "Quarterly for verlan evolution, annually for regional patterns",
+    "community_input": "Feedback mechanisms for regional and cultural experts"
+  },
+  "technical_notes": {
+    "encoding": "UTF-8 with full French diacritical mark support",
+    "collation": "French alphabetical order with proper accent handling",
+    "regex_patterns": "Account for accent mark variations and verlan forms",
+    "false_positive_handling": "Context-aware detection for legitimate French words",
+    "verlan_detection": "Special patterns for syllable reversal identification"
+  },
+  "legal_framework": {
+    "france": "Governed by French hate speech laws, particularly for ethnic and religious slurs",
+    "quebec": "Subject to Quebec Charter of Rights and Canadian hate speech laws",
+    "belgium": "EU hate speech directives and Belgian anti-discrimination law",
+    "switzerland": "Swiss anti-racism law covers most severe categories",
+    "international": "Varies by country, but generally aligned with Western hate speech norms"
+  }
+}

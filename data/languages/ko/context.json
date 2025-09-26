@@ -1,0 +1,303 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "cultural_context_system": {
+    "description": "Korean cultural context for profanity usage, taboos, and social implications",
+    "methodology": "Based on Korean Confucian values, modern social dynamics, and internet culture evolution"
+  },
+  "core_cultural_values": {
+    "nunchi": {
+      "name": "눈치 (Social Awareness)",
+      "description": "Ability to read social situations and respond appropriately",
+      "profanity_impact": "Using profanity without proper nunchi can destroy relationships",
+      "application": "Must assess age, status, formality, and group dynamics before any potentially offensive language"
+    },
+    "chemyeon": {
+      "name": "체면 (Face/Honor)",
+      "description": "Personal and family dignity and social standing",
+      "profanity_impact": "Public profanity causes massive face-loss for both speaker and target",
+      "application": "Private profanity still damages face but less severely than public"
+    },
+    "hyo": {
+      "name": "효 (Filial Piety)",
+      "description": "Respect and care for parents and elders",
+      "profanity_impact": "Any profanity toward parents is among the worst possible violations",
+      "application": "Family honor attacks (like 'ni eomma') violate fundamental Korean values"
+    },
+    "jeong": {
+      "name": "정 (Emotional Bond)",
+      "description": "Deep emotional connections in relationships",
+      "profanity_impact": "Profanity can irreparably damage jeong between people",
+      "application": "Close friends may use mild profanity to express intimacy paradoxically"
+    },
+    "inhwa": {
+      "name": "인화 (Social Harmony)",
+      "description": "Maintaining group harmony and avoiding conflict",
+      "profanity_impact": "Profanity disrupts group harmony and is seen as selfish",
+      "application": "Group settings have much lower tolerance for any offensive language"
+    }
+  },
+  "hierarchical_systems": {
+    "age_hierarchy": {
+      "description": "Age-based social ranking system",
+      "implications": {
+        "to_older": "Any profanity is severe violation regardless of content",
+        "to_younger": "More tolerance but still inappropriate in formal settings",
+        "same_age": "Baseline appropriateness applies",
+        "generational_gaps": "Older generations have zero tolerance policies"
+      },
+      "speech_level_requirements": {
+        "jondaetmal_required": "All interactions with significantly older people",
+        "banmal_acceptable": "Close friends of same age only",
+        "violation_consequences": "Loss of respect and potential relationship termination"
+      }
+    },
+    "social_status": {
+      "description": "Professional and social position hierarchy",
+      "workplace_dynamics": {
+        "seonbae_hubae": "Senior-junior workplace relationships with strict language rules",
+        "company_hierarchy": "Any profanity up the chain is career-limiting",
+        "peer_relationships": "Careful balance between friendliness and professionalism"
+      },
+      "educational_hierarchy": {
+        "teacher_student": "Absolute prohibition on student profanity to teachers",
+        "university_seonbae": "Underclassmen must show respect to upperclassmen",
+        "study_groups": "More relaxed but still hierarchical"
+      }
+    }
+  },
+  "situational_contexts": {
+    "family_contexts": {
+      "parent_child": {
+        "description": "Parent-child relationship dynamics",
+        "profanity_rules": "Children using profanity to parents is ultimate taboo",
+        "consequences": "Can result in family shame and serious disciplinary action",
+        "exceptions": "None - no context makes this acceptable"
+      },
+      "sibling_relationships": {
+        "description": "Brother-sister dynamics with age considerations",
+        "profanity_rules": "Older sibling has more leeway but still inappropriate",
+        "cultural_note": "Gender dynamics also play role in acceptability"
+      },
+      "extended_family": {
+        "description": "Grandparents, aunts, uncles, cousins",
+        "profanity_rules": "Similar to parent rules but slightly more flexible",
+        "holiday_gatherings": "Especially strict during family gatherings and holidays"
+      }
+    },
+    "educational_contexts": {
+      "elementary_school": {
+        "description": "Elementary school environment",
+        "profanity_rules": "Complete prohibition, parents notified for any violations",
+        "cultural_expectation": "Children should not even know profanity"
+      },
+      "middle_high_school": {
+        "description": "Secondary education environment",
+        "profanity_rules": "Strict prohibition but awareness that students know profanity",
+        "peer_dynamics": "Students may use among themselves but never to teachers"
+      },
+      "university": {
+        "description": "Higher education environment",
+        "profanity_rules": "More tolerance in peer groups but strict hierarchy respect",
+        "seonbae_culture": "Complex senior-junior dynamics affect language use"
+      }
+    },
+    "workplace_contexts": {
+      "corporate_culture": {
+        "description": "Korean corporate (chaebol) culture",
+        "profanity_rules": "Extremely strict, any violation can end careers",
+        "hoesik_culture": "Company dinner culture may allow slightly more casual language"
+      },
+      "military_service": {
+        "description": "Mandatory military service culture",
+        "profanity_rules": "Unique military culture with different standards",
+        "hazing_culture": "Historical issues with abuse and inappropriate language"
+      },
+      "service_industry": {
+        "description": "Customer service and retail environments",
+        "profanity_rules": "Customer-is-king mentality means extreme politeness required",
+        "emotional_labor": "Workers must maintain composure regardless of customer behavior"
+      }
+    }
+  },
+  "internet_culture_contexts": {
+    "gaming_communities": {
+      "pc_bang_culture": {
+        "description": "Internet cafe gaming culture",
+        "profanity_tolerance": "Much higher tolerance for gaming-related frustration",
+        "common_expressions": "Gaming-specific profanity and rage expressions",
+        "community_standards": "Different rules from general society"
+      },
+      "online_gaming": {
+        "description": "League of Legends, PUBG, etc. gaming communities",
+        "anonymity_factor": "Online anonymity leads to increased profanity use",
+        "competitive_pressure": "High-stakes gaming creates emotional outbursts",
+        "toxicity_issues": "Gaming communities struggle with toxic language"
+      },
+      "streaming_culture": {
+        "description": "Twitch/AfreecaTV streaming culture",
+        "entertainment_context": "Streamers use profanity for entertainment value",
+        "audience_expectations": "Different standards for entertainers vs regular people",
+        "monetization_pressure": "Balance between entertainment and appropriateness"
+      }
+    },
+    "social_media": {
+      "facebook_korean": {
+        "description": "Facebook usage in Korea with real names",
+        "profanity_rules": "More conservative due to real identity exposure",
+        "family_visibility": "Family members can see posts, increases caution"
+      },
+      "instagram_culture": {
+        "description": "Image-focused social media",
+        "younger_demographic": "Younger users with different standards",
+        "influence_culture": "Influencers set language trends"
+      },
+      "anonymous_platforms": {
+        "description": "Anonymous forums and imageboards",
+        "higher_tolerance": "Anonymity leads to increased profanity use",
+        "community_norms": "Different communities have different standards"
+      }
+    },
+    "mobile_messaging": {
+      "kakao_talk": {
+        "description": "Primary Korean messaging app",
+        "private_context": "Private messages allow more casual language",
+        "group_chats": "Group dynamics affect appropriateness",
+        "emoticon_culture": "Emoticons and stickers soften profanity impact"
+      }
+    }
+  },
+  "generational_contexts": {
+    "traditional_generation": {
+      "age_range": "60+",
+      "characteristics": "Lived through Korean War and rapid development",
+      "profanity_tolerance": "Extremely low tolerance, traditional Confucian values",
+      "cultural_markers": "Value face-saving and family honor above all",
+      "language_evolution": "May not understand modern internet profanity"
+    },
+    "democratization_generation": {
+      "age_range": "45-60",
+      "characteristics": "Lived through democratization and economic growth",
+      "profanity_tolerance": "Low tolerance but aware of changing social norms",
+      "workplace_culture": "Established current corporate hierarchy culture",
+      "family_dynamics": "Struggle between traditional values and modern pressures"
+    },
+    "imf_generation": {
+      "age_range": "35-45",
+      "characteristics": "Experienced 1997 Asian Financial Crisis",
+      "profanity_tolerance": "Moderate tolerance, understand economic stress",
+      "pragmatic_values": "More pragmatic than idealistic about social rules",
+      "internet_adoption": "Early internet adopters with evolving standards"
+    },
+    "digital_native_generation": {
+      "age_range": "20-35",
+      "characteristics": "Grew up with internet and global culture",
+      "profanity_tolerance": "Higher tolerance, influenced by global media",
+      "cultural_mixing": "Mix traditional Korean values with global influences",
+      "online_offline": "Different standards for online vs offline behavior"
+    },
+    "mz_generation": {
+      "age_range": "Under 25",
+      "characteristics": "Mobile-first, social media native generation",
+      "profanity_tolerance": "Highest tolerance, creative language use",
+      "cultural_rebellion": "Challenge traditional hierarchies and language rules",
+      "meme_culture": "Profanity integrated into meme and humor culture"
+    }
+  },
+  "regional_cultural_variations": {
+    "seoul_metropolitan": {
+      "characteristics": "Cosmopolitan, influenced by global culture",
+      "profanity_context": "More tolerance for casual profanity among peers",
+      "social_dynamics": "Fast-paced lifestyle affects communication patterns"
+    },
+    "busan_gyeongsang": {
+      "characteristics": "Direct communication style, proud regional identity",
+      "profanity_context": "More direct language accepted, slightly higher tolerance",
+      "cultural_markers": "Strong regional dialect and cultural pride"
+    },
+    "jeolla_region": {
+      "characteristics": "Traditional values, slower pace of life",
+      "profanity_context": "Lower tolerance, more conservative values",
+      "historical_context": "Historical political tensions affect language sensitivity"
+    },
+    "rural_areas": {
+      "characteristics": "Traditional Confucian values dominant",
+      "profanity_context": "Very low tolerance, community shame systems",
+      "generational_gaps": "Significant differences between old and young"
+    }
+  },
+  "special_cultural_phenomena": {
+    "korean_wave_influence": {
+      "description": "Hallyu (Korean Wave) global cultural influence",
+      "profanity_impact": "International attention affects language standards",
+      "soft_power": "Korea conscious of international image",
+      "cultural_export": "Concern about profanity in exported content"
+    },
+    "competitive_culture": {
+      "description": "Highly competitive society (education, career)",
+      "stress_outlets": "Profanity as emotional release from pressure",
+      "achievement_pressure": "Academic and career stress creates language outlets",
+      "social_pressure": "Pressure to conform vs individual expression"
+    },
+    "drinking_culture": {
+      "description": "Alcohol's role in Korean social relationships",
+      "context_change": "Drinking contexts allow more casual language",
+      "relationship_building": "Alcohol breaks down formal barriers",
+      "hangover_forgiveness": "Drunk mistakes often forgiven"
+    },
+    "gender_dynamics": {
+      "traditional_expectations": "Different standards for men and women",
+      "changing_norms": "Feminist movements challenge traditional standards",
+      "workplace_equality": "Professional contexts increasingly gender-neutral",
+      "generational_divide": "Significant differences across age groups"
+    }
+  },
+  "taboo_hierarchies": {
+    "absolute_taboos": [
+      "Attacks on parents or family honor",
+      "Death threats or wishes",
+      "Sexual harassment language",
+      "Ethnic or national hatred"
+    ],
+    "strong_taboos": [
+      "Public profanity causing face-loss",
+      "Disrespecting elders or superiors",
+      "Religious or spiritual mockery",
+      "Disability-based discrimination"
+    ],
+    "moderate_taboos": [
+      "Casual profanity in formal settings",
+      "Inappropriate sexual references",
+      "Political extremism language",
+      "Regional discrimination"
+    ],
+    "mild_taboos": [
+      "Casual swearing among friends",
+      "Gaming rage expressions",
+      "Generational conflict language",
+      "Mild insults between equals"
+    ]
+  },
+  "modern_evolution_trends": {
+    "globalization_impact": {
+      "description": "Western cultural influence on language norms",
+      "trend": "Gradual increase in tolerance for mild profanity",
+      "resistance": "Traditional groups push back against changes"
+    },
+    "internet_culture": {
+      "description": "Online communication changing language patterns",
+      "trend": "Creative abbreviations and obfuscation methods",
+      "generational_gap": "Older generations don't understand new forms"
+    },
+    "gender_equality": {
+      "description": "Changing gender roles affect language expectations",
+      "trend": "Reducing double standards for male/female language use",
+      "controversy": "Traditional vs progressive value conflicts"
+    },
+    "mental_health_awareness": {
+      "description": "Growing awareness of language's psychological impact",
+      "trend": "Increased sensitivity to harmful language",
+      "education": "Anti-bullying and respect campaigns in schools"
+    }
+  }
+}

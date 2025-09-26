@@ -1,0 +1,139 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "severity_system": {
+    "description": "Russian profanity severity classification considering cultural and linguistic context",
+    "methodology": "Based on sociolinguistic research of Russian mat system and contemporary usage patterns",
+    "cultural_context": "Reflects traditional Russian attitudes toward mat and modern internet culture influence"
+  },
+  "severity_levels": {
+    "1": {
+      "name": "Мягкий (Mild)",
+      "name_en": "Mild",
+      "score_range": "1.0-1.9",
+      "description": "Мягкая ненормативная лексика, допустимая в неформальной обстановке",
+      "description_en": "Mild profanity acceptable in informal settings",
+      "social_acceptability": {
+        "informal_friends": "acceptable",
+        "family_casual": "cautious",
+        "workplace": "inappropriate",
+        "public_media": "filtered",
+        "educational": "forbidden"
+      },
+      "examples": ["дурак", "дура", "чёрт", "блин"],
+      "cultural_notes": "These words are often used without serious intent to offend and may be acceptable even in semi-formal situations among familiar people"
+    },
+    "2": {
+      "name": "Умеренный (Moderate)",
+      "name_en": "Moderate",
+      "score_range": "2.0-2.9",
+      "description": "Грубая лексика, неприемлемая в большинстве публичных ситуаций",
+      "description_en": "Coarse language inappropriate in most public situations",
+      "social_acceptability": {
+        "informal_friends": "acceptable",
+        "family_casual": "inappropriate",
+        "workplace": "offensive",
+        "public_media": "censored",
+        "educational": "forbidden"
+      },
+      "examples": ["говно", "жопа", "козёл", "дерьмо"],
+      "cultural_notes": "Vulgar but not mat; causes moderate offense in mixed company"
+    },
+    "3": {
+      "name": "Сильный (Strong)",
+      "name_en": "Strong",
+      "score_range": "3.0-3.9",
+      "description": "Сильная ненормативная лексика, включая некоторые производные от мата",
+      "description_en": "Strong profanity including some mat derivatives",
+      "social_acceptability": {
+        "informal_friends": "limited",
+        "family_casual": "offensive",
+        "workplace": "forbidden",
+        "public_media": "heavily_censored",
+        "educational": "forbidden"
+      },
+      "examples": ["сука", "блядь", "пиздец", "шлюха"],
+      "cultural_notes": "Includes mat derivatives and strong insults; causes significant social offense"
+    },
+    "4": {
+      "name": "Жёсткий (Severe)",
+      "name_en": "Severe",
+      "score_range": "4.0",
+      "description": "Мат и крайне оскорбительная лексика, табуированная в публичном дискурсе",
+      "description_en": "Mat and extremely offensive language, taboo in public discourse",
+      "social_acceptability": {
+        "informal_friends": "very_limited",
+        "family_casual": "forbidden",
+        "workplace": "forbidden",
+        "public_media": "forbidden",
+        "educational": "forbidden"
+      },
+      "examples": ["хуй", "пизда", "ебать", "этнические оскорбления"],
+      "cultural_notes": "Core mat words and hate speech; extremely taboo and may result in social consequences"
+    }
+  },
+  "contextual_factors": {
+    "mat_system_special_status": {
+      "description": "Mat words (хуй, пизда, ебать, блядь) have special cultural status",
+      "severity_modifier": "+1 in formal contexts, +0.5 in informal contexts",
+      "notes": "Mat is simultaneously integral to informal Russian communication and completely taboo in public"
+    },
+    "gender_considerations": {
+      "description": "Social expectations differ for male vs female speakers",
+      "severity_modifier": "Female speakers: +0.3 across all categories",
+      "notes": "Higher social stigma for women using strong profanity"
+    },
+    "generational_differences": {
+      "description": "Age affects both usage and perception of profanity",
+      "young_adults": "More tolerant, especially online; -0.2 modifier",
+      "middle_aged": "Traditional attitudes; baseline scoring",
+      "elderly": "Less tolerant; +0.3 modifier",
+      "notes": "Internet culture has normalized some previously stronger profanity among youth"
+    },
+    "regional_variations": {
+      "description": "Geographic location affects severity perception",
+      "urban_areas": "More tolerant; -0.2 modifier",
+      "rural_areas": "More conservative; +0.3 modifier",
+      "moscow_petersburg": "Cosmopolitan attitudes; -0.3 modifier",
+      "caucasus_regions": "Very conservative; +0.5 modifier"
+    },
+    "script_presentation": {
+      "description": "Cyrillic vs Latin script affects perception",
+      "cyrillic_native": "Full severity applies",
+      "latin_transliteration": "Slight reduction; -0.1 modifier",
+      "mixed_script": "Attempt at obfuscation; -0.2 modifier",
+      "notes": "Transliteration often seen as attempt to soften impact"
+    },
+    "political_context": {
+      "description": "Political situation affects acceptability of some terms",
+      "anti_government": "Higher severity in authoritarian periods",
+      "ethnic_tensions": "Severity increases during conflicts",
+      "notes": "Political profanity severity fluctuates with current events"
+    }
+  },
+  "special_classifications": {
+    "mat_core_four": {
+      "words": ["хуй", "пизда", "ебать", "блядь"],
+      "base_severity": 4,
+      "cultural_significance": "These four words form the core of the Russian mat system",
+      "linguistic_productivity": "Form basis for hundreds of derivative expressions"
+    },
+    "ethnic_slurs": {
+      "severity_override": 4,
+      "legal_considerations": "May violate hate speech laws",
+      "social_consequences": "Can result in social ostracism or legal action"
+    },
+    "internet_euphemisms": {
+      "severity_reduction": "-0.5 to -1.0",
+      "examples": ["бля", "пздц", "херня"],
+      "notes": "Abbreviated or modified forms used to bypass filters"
+    }
+  },
+  "usage_guidelines": {
+    "content_filtering": "Level 3+ should be filtered in public platforms",
+    "age_restrictions": "Level 2+ inappropriate for minors",
+    "workplace_policy": "Level 2+ typically violates workplace conduct",
+    "media_broadcasting": "Level 1+ typically requires evening/adult timeslots",
+    "educational_materials": "Only Level 1 acceptable, and only with pedagogical purpose"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "fr",
+  "severity_system": {
+    "description": "French profanity severity assessment with cultural and regional considerations",
+    "methodology": "Based on French sociolinguistic research across francophone regions",
+    "scale": "1-4 scale where 1 is mild and 4 is extremely offensive"
+  },
+  "severity_levels": {
+    "1": {
+      "name": "Léger",
+      "description": "Mild profanity, generally acceptable in informal settings",
+      "characteristics": [
+        "Often used in friendly context",
+        "May be filtered in professional settings",
+        "Regional variations in acceptance",
+        "Can be diminished with tone and context"
+      ],
+      "examples": ["zut", "mince", "flûte", "sacre (Quebec)"],
+      "regional_notes": {
+        "france": "Higher tolerance for mild sexual references",
+        "quebec": "Mild sacres acceptable",
+        "belgium": "Similar to France but slightly more conservative"
+      }
+    },
+    "2": {
+      "name": "Modéré",
+      "description": "Clearly profane but context-dependent severity",
+      "characteristics": [
+        "Inappropriate in formal settings",
+        "Severity varies with target and intent",
+        "Can escalate based on tone",
+        "Regional variations significant"
+      ],
+      "examples": ["merde", "putain", "bordel", "connard", "câlice", "crisse"],
+      "regional_notes": {
+        "france": "'Putain' very mild as exclamation, 'merde' common",
+        "quebec": "Sacres like 'câlice' and 'crisse' moderate severity",
+        "belgium": "Similar patterns to France with regional variations"
+      }
+    },
+    "3": {
+      "name": "Fort",
+      "description": "Highly offensive across most contexts and regions",
+      "characteristics": [
+        "Clearly inappropriate in most situations",
+        "Can cause offense regardless of intent",
+        "Professional consequences likely",
+        "Some regional variations in severity"
+      ],
+      "examples": ["salope", "enculé", "fils de pute", "tabarnac"],
+      "regional_notes": {
+        "france": "Sexual slurs consistently offensive",
+        "quebec": "'Tabarnac' among strongest sacres",
+        "all_regions": "Compound insults generally severe"
+      }
+    },
+    "4": {
+      "name": "Sévère",
+      "description": "Extremely offensive, hate speech level",
+      "characteristics": [
+        "Always inappropriate and harmful",
+        "Can have legal consequences in France",
+        "Targets identity characteristics",
+        "Consistent severity across regions"
+      ],
+      "examples": ["pédé", "nègre", "bougnoule", "youpin", "tapette"],
+      "regional_notes": {
+        "all_regions": "Consistently severe and harmful",
+        "legal_note": "Violate French hate speech laws",
+        "social_impact": "Can cause lasting harm to individuals and communities"
+      }
+    }
+  },
+  "contextual_factors": {
+    "relationship": {
+      "family": "Severity often reduced in family context, except hate speech",
+      "friends": "Many terms acceptable or even affectionate among close friends",
+      "strangers": "Full severity applies",
+      "professional": "Even mild terms inappropriate in formal settings"
+    },
+    "setting": {
+      "private": "More tolerance for higher severity",
+      "public": "Severity increases due to audience",
+      "formal": "Zero tolerance for most profanity",
+      "informal": "Context-dependent acceptance"
+    },
+    "intent": {
+      "playful": "Can reduce severity significantly",
+      "aggressive": "Maximizes severity and impact",
+      "habitual": "Reduces perceived severity through familiarity",
+      "targeted": "Increases severity when directed at person"
+    },
+    "tone": {
+      "affectionate": "Can change meaning (mon connard for close friend)",
+      "angry": "Escalates severity regardless of word choice",
+      "casual": "Moderate reduction in perceived severity",
+      "emphatic": "Increases intensity without necessarily increasing offense"
+    }
+  },
+  "regional_severity_variations": {
+    "france": {
+      "generally_milder": ["putain", "merde", "bordel"],
+      "generally_harsher": ["ethnic slurs", "antisemitic terms"],
+      "unique_considerations": [
+        "Sexual profanity more accepted than in Quebec",
+        "Verlan forms can mask severity",
+        "Urban vs rural tolerance differences",
+        "Generational gaps significant"
+      ]
+    },
+    "quebec": {
+      "generally_milder": ["sacre", "maudit", "batinse"],
+      "generally_harsher": ["strong sacres", "anglicisms in some contexts"],
+      "unique_considerations": [
+        "Religious profanity system unique",
+        "Sacres severity based on Catholic context",
+        "French profanity sometimes less severe than sacres",
+        "Strong cultural identity affects language attitudes"
+      ]
+    },
+    "belgium": {
+      "generally_milder": ["similar to France"],
+      "generally_harsher": ["flemish community sensitivities"],
+      "unique_considerations": [
+        "Flemish-French bilingual context affects usage",
+        "Regional variations within French-speaking areas",
+        "More conservative than France generally",
+        "EU context affects hate speech sensitivity"
+      ]
+    },
+    "switzerland": {
+      "generally_milder": ["mild religious terms"],
+      "generally_harsher": ["most profanity due to conservative culture"],
+      "unique_considerations": [
+        "Multilingual context affects profanity perception",
+        "Generally more conservative approach",
+        "German Swiss influence on French Swiss attitudes",
+        "Formal register more preserved"
+      ]
+    },
+    "africa": {
+      "generally_milder": ["varies by country and context"],
+      "generally_harsher": ["colonial-related terms", "ethnic references"],
+      "unique_considerations": [
+        "Local language influences",
+        "Colonial history affects language attitudes",
+        "More formal French often maintained",
+        "Religious considerations vary by country"
+      ]
+    }
+  },
+  "demographic_considerations": {
+    "age": {
+      "older_generations": "Generally less tolerant, especially of sexual profanity",
+      "middle_aged": "Context-dependent tolerance",
+      "youth": "Higher tolerance, creative verlan usage",
+      "children": "Exposure varies by family and region"
+    },
+    "gender": {
+      "general_patterns": "Some terms more offensive when targeting women",
+      "cultural_sexism": "Terms like 'salope' particularly offensive to women",
+      "evolving_attitudes": "Younger generations challenging traditional patterns"
+    },
+    "education": {
+      "higher_education": "Often correlates with awareness of hate speech",
+      "informal_settings": "Education level less predictive of casual profanity",
+      "professional_impact": "Education affects career consequences"
+    },
+    "religious_background": {
+      "catholic": "Religious profanity particularly offensive",
+      "secular": "More tolerance for religious references",
+      "muslim": "Different religious sensitivities",
+      "quebec_specific": "Catholic background affects sacres perception"
+    },
+    "regional_identity": {
+      "parisian": "Often more tolerant of sexual profanity",
+      "rural": "Generally more conservative",
+      "quebecois": "Unique relationship with sacres",
+      "immigrant_communities": "May have different standards"
+    }
+  },
+  "escalation_patterns": {
+    "mild_to_severe": [
+      "zut → merde → putain de merde",
+      "mince → bordel → putain de bordel",
+      "connard → enculé → fils de pute"
+    ],
+    "quebec_sacres": [
+      "sacre → câlice → tabarnac → câlice de tabarnac",
+      "maudit → crisse → ostie de crisse"
+    ]
+  },
+  "cultural_notes": {
+    "verlan_masking": "Verlan forms can mask severity but maintain offensive intent",
+    "quebec_uniqueness": "Sacres system creates different severity hierarchy",
+    "legal_context": "French hate speech laws affect severity classification",
+    "media_influence": "Television and music affecting regional acceptance",
+    "generational_change": "Rapid evolution in youth language and acceptability",
+    "academic_context": "Higher tolerance in linguistic research and education"
+  },
+  "special_severity_considerations": {
+    "compound_insults": "Multiple profane words compound severity exponentially",
+    "targeting_specificity": "More specific targeting increases severity",
+    "historical_context": "Some terms carry historical weight beyond immediate meaning",
+    "legal_implications": "Some terms can result in legal consequences in France",
+    "professional_consequences": "Even mild profanity can affect career prospects",
+    "social_ostracism": "Inappropriate usage can lead to social exclusion"
+  }
+}

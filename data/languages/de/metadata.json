@@ -1,0 +1,229 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "de",
+  "language_info": {
+    "name": "German",
+    "native_name": "Deutsch",
+    "iso_codes": {
+      "iso_639_1": "de",
+      "iso_639_2": "ger/deu",
+      "iso_639_3": "deu"
+    },
+    "family": "Indo-European > Germanic > West Germanic > High German",
+    "speakers": {
+      "native": "~76 million",
+      "total": "~130 million",
+      "rank": "12th most spoken language globally"
+    }
+  },
+  "regional_coverage": {
+    "primary_regions": [
+      {
+        "region": "germany",
+        "variant": "Standard German (Hochdeutsch)",
+        "speakers": "~83 million",
+        "notes": "Standard German with significant regional dialect influences"
+      },
+      {
+        "region": "austria",
+        "variant": "Austrian German",
+        "speakers": "~8.9 million",
+        "notes": "Distinct Austrian vocabulary and cultural patterns"
+      },
+      {
+        "region": "switzerland",
+        "variant": "Swiss Standard German",
+        "speakers": "~5.6 million",
+        "notes": "Written standard, spoken Swiss German very different"
+      },
+      {
+        "region": "luxembourg",
+        "variant": "Luxembourg German",
+        "speakers": "~0.6 million",
+        "notes": "One of three official languages, distinct patterns"
+      }
+    ],
+    "dialectal_coverage": [
+      {
+        "dialect": "bavarian",
+        "region": "Bavaria, Austria",
+        "speakers": "~12 million",
+        "notes": "Distinct profanity patterns, strong Catholic influence"
+      },
+      {
+        "dialect": "plattdeutsch",
+        "region": "Northern Germany",
+        "speakers": "~0.3 million active",
+        "notes": "Low German, different profanity system"
+      }
+    ],
+    "coverage_notes": "Database focuses on Standard German while acknowledging major regional and dialectal variations"
+  },
+  "linguistic_features": {
+    "phonological": [
+      "Complex consonant clusters affecting pronunciation",
+      "Umlauts (ä, ö, ü) create additional vowel phonemes",
+      "Regional accent variations affect perception",
+      "Final devoicing of consonants"
+    ],
+    "morphological": [
+      "Highly productive compound word system",
+      "Four-case system (nominative, accusative, genitive, dative)",
+      "Complex verbal conjugation with separable prefixes",
+      "Productive derivational morphology"
+    ],
+    "syntactic": [
+      "V2 word order in main clauses",
+      "SOV word order in subordinate clauses",
+      "Complex sentence structure with clause-final verbs",
+      "Flexible word order for emphasis and topicalization"
+    ],
+    "lexical": [
+      "Unlimited compound word formation potential",
+      "Rich system of prefixes and suffixes",
+      "Significant regional vocabulary differences",
+      "Historical borrowings from Latin, French, English"
+    ]
+  },
+  "profanity_characteristics": {
+    "unique_features": [
+      "Highly productive compound profanity system",
+      "Creative compound formation highly valued culturally",
+      "Strong legal framework affects severity classification",
+      "Historical sensitivity creates unique hate speech patterns",
+      "Regional dialects create distinct profanity systems",
+      "Case system affects some profanity usage patterns"
+    ],
+    "cultural_factors": [
+      "Post-war sensitivity to Nazi-related language",
+      "Strong legal framework (Volksverhetzung) affects usage",
+      "Regional Catholic/Protestant differences affect religious profanity",
+      "Compound creativity appreciated as linguistic skill",
+      "Authority relationships affect appropriateness",
+      "Educational system emphasizes historical context of hate speech"
+    ],
+    "comparison_to_english": [
+      "Unlimited compound formation creates infinite profanity potential",
+      "Stronger legal consequences for hate speech",
+      "More systematic compound formation rules",
+      "Regional variations more pronounced",
+      "Historical context more heavily affects current usage",
+      "Creative profanity more culturally appreciated"
+    ]
+  },
+  "compound_system": {
+    "description": "German's most distinctive profanity feature",
+    "productivity": "Unlimited - new combinations constantly created",
+    "cultural_significance": "Compound creativity valued as linguistic skill",
+    "detection_challenges": "Automated detection extremely difficult",
+    "severity_effects": "Compounds often more severe than individual components",
+    "examples": ["Scheissdreck", "Arschgeige", "Vollpfosten", "Hurensohn"]
+  },
+  "legal_framework": {
+    "volksverhetzung": {
+      "description": "German hate speech law covering incitement",
+      "penalties": "Up to 5 years imprisonment",
+      "coverage": "Incitement against groups based on identity",
+      "online_enforcement": "Actively enforced on German internet platforms"
+    },
+    "beleidigung": {
+      "description": "Personal insult laws",
+      "penalties": "Fines up to €185,000",
+      "coverage": "Personal attacks and defamation",
+      "public_figure_extensions": "Special protections for public officials"
+    },
+    "workplace_protections": {
+      "description": "Labor law protections against discriminatory language",
+      "consequences": "Termination for hate speech",
+      "harassment_laws": "Sexual and discriminatory harassment prohibited"
+    }
+  },
+  "data_collection_methodology": {
+    "sources": [
+      "German sociolinguistic research",
+      "Regional dialectology studies",
+      "Legal databases and court cases",
+      "Cultural anthropology research",
+      "Media content analysis",
+      "Internet language evolution studies",
+      "Historical linguistics research on Nazi language"
+    ],
+    "validation_approach": [
+      "Cross-reference with legal precedents",
+      "Verify regional patterns with dialect experts",
+      "Check compound formation rules with linguistic sources",
+      "Validate severity with German cultural consultants",
+      "Confirm historical context with academic sources"
+    ],
+    "limitations": [
+      "Compound formation outpaces documentation",
+      "Regional dialects underrepresented",
+      "Legal sensitivity limits some research access",
+      "Rapid evolution in online contexts",
+      "Generational differences in compound appreciation"
+    ]
+  },
+  "ethical_considerations": {
+    "research_ethics": [
+      "Respect for German historical sensitivity",
+      "Recognition of legal framework constraints",
+      "Acknowledgment of regional cultural differences",
+      "Sensitivity to ongoing social integration challenges"
+    ],
+    "usage_guidelines": [
+      "Always provide historical and legal context",
+      "Recognize compound system complexity",
+      "Respect regional cultural differences",
+      "Consider legal implications under German law",
+      "Update regularly for compound evolution"
+    ],
+    "historical_responsibility": [
+      "Acknowledge Nazi period linguistic legacy",
+      "Respect denazification efforts",
+      "Support educational goals about hate speech harm",
+      "Maintain sensitivity to Holocaust survivors and descendants"
+    ]
+  },
+  "quality_metrics": {
+    "completeness": "Covers major regions and compound patterns",
+    "accuracy": "Cross-validated with legal and linguistic sources",
+    "cultural_sensitivity": "Reviewed for historical and regional appropriateness",
+    "legal_compliance": "Aligned with German hate speech legislation",
+    "compound_coverage": "Systematic coverage of productive compound patterns"
+  },
+  "future_updates": {
+    "planned_additions": [
+      "More Low German (Plattdeutsch) patterns",
+      "Swiss German spoken profanity (distinct from Standard German)",
+      "Emerging immigrant community language mixing",
+      "New internet compound formations",
+      "Youth slang evolution",
+      "Austrian regional variations"
+    ],
+    "update_frequency": "Quarterly for compound evolution, annually for regional patterns",
+    "community_input": "Feedback mechanisms for regional and legal experts",
+    "legal_monitoring": "Regular updates based on legal precedent changes"
+  },
+  "technical_notes": {
+    "encoding": "UTF-8 with full German character support (ä, ö, ü, ß)",
+    "collation": "German alphabetical order with proper umlauts and ß handling",
+    "compound_detection": "Special algorithms needed for compound word analysis",
+    "case_sensitivity": "German capitalization rules affect detection patterns",
+    "regex_patterns": "Complex patterns needed for compound formation rules"
+  },
+  "special_challenges": {
+    "infinite_compounds": "Theoretical unlimited compound formation potential",
+    "legal_sensitivity": "Strong legal framework creates research and usage constraints",
+    "regional_complexity": "Significant differences between regions and dialects",
+    "historical_weight": "Historical context heavily affects modern usage",
+    "automation_difficulty": "Compound system makes automated detection very challenging"
+  },
+  "cultural_integration": {
+    "immigration_context": "Turkish and other immigrant communities affect language evolution",
+    "generational_patterns": "Strong differences between age groups in usage and tolerance",
+    "educational_role": "German education system actively teaches about language harm",
+    "media_regulation": "Strong media regulation affects public language norms",
+    "international_context": "EU context and international business affect language standards"
+  }
+}

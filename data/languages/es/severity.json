@@ -1,0 +1,181 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "es",
+  "severity_system": {
+    "description": "Spanish profanity severity assessment with cultural and regional considerations",
+    "methodology": "Based on sociolinguistic research across Spanish-speaking regions",
+    "scale": "1-4 scale where 1 is mild and 4 is extremely offensive"
+  },
+  "severity_levels": {
+    "1": {
+      "name": "Leve",
+      "description": "Mild profanity, generally acceptable in informal settings",
+      "characteristics": [
+        "Often used in friendly context",
+        "May be filtered in professional settings",
+        "Regional variations in acceptance",
+        "Can be diminished with tone and context"
+      ],
+      "examples": ["caramba", "hostia (Spain)", "huevón (friendly)", "capullo"],
+      "regional_notes": {
+        "spain": "Higher tolerance, 'hostia' very common",
+        "mexico": "Context heavily dependent",
+        "argentina": "Often used affectionately"
+      }
+    },
+    "2": {
+      "name": "Moderado",
+      "description": "Clearly profane but context-dependent severity",
+      "characteristics": [
+        "Inappropriate in formal settings",
+        "Severity varies with target and intent",
+        "Can escalate based on tone",
+        "Regional variations significant"
+      ],
+      "examples": ["mierda", "joder", "cabrón", "pendejo", "culero"],
+      "regional_notes": {
+        "spain": "'Joder' very mild, 'cabrón' can be friendly",
+        "mexico": "'Pendejo' ranges from mild to offensive",
+        "argentina": "'Boludo' highly context-dependent"
+      }
+    },
+    "3": {
+      "name": "Fuerte",
+      "description": "Highly offensive across most contexts and regions",
+      "characteristics": [
+        "Clearly inappropriate in most situations",
+        "Can cause offense regardless of intent",
+        "Professional consequences likely",
+        "Some regional variations in severity"
+      ],
+      "examples": ["coño", "puta", "verga", "hijo de puta"],
+      "regional_notes": {
+        "spain": "'Coño' more acceptable than Latin America",
+        "latin_america": "Sexual terms generally more offensive",
+        "all_regions": "'Hijo de puta' consistently severe"
+      }
+    },
+    "4": {
+      "name": "Severo",
+      "description": "Extremely offensive, hate speech level",
+      "characteristics": [
+        "Always inappropriate and harmful",
+        "Can have legal consequences",
+        "Targets identity characteristics",
+        "Consistent severity across regions"
+      ],
+      "examples": ["maricón", "joto", "sudaca", "tortillera"],
+      "regional_notes": {
+        "all_regions": "Consistently severe and harmful",
+        "legal_note": "May violate hate speech laws",
+        "social_impact": "Can cause lasting harm to individuals and communities"
+      }
+    }
+  },
+  "contextual_factors": {
+    "relationship": {
+      "family": "Severity often reduced in family context",
+      "friends": "Many terms acceptable or even affectionate",
+      "strangers": "Full severity applies",
+      "professional": "Even mild terms inappropriate"
+    },
+    "setting": {
+      "private": "More tolerance for higher severity",
+      "public": "Severity increases due to audience",
+      "formal": "Zero tolerance for most profanity",
+      "informal": "Context-dependent acceptance"
+    },
+    "intent": {
+      "playful": "Can reduce severity significantly",
+      "aggressive": "Maximizes severity and impact",
+      "habitual": "Reduces perceived severity through familiarity",
+      "targeted": "Increases severity when directed at person"
+    },
+    "tone": {
+      "affectionate": "Can completely change meaning (boludo, cabrón)",
+      "angry": "Escalates severity regardless of word choice",
+      "casual": "Moderate reduction in perceived severity",
+      "emphatic": "Increases intensity without necessarily increasing offense"
+    }
+  },
+  "regional_severity_variations": {
+    "spain": {
+      "generally_milder": ["joder", "hostia", "coño"],
+      "generally_harsher": ["religious blasphemy"],
+      "unique_considerations": [
+        "Sexual profanity more accepted",
+        "Religious profanity still sensitive",
+        "Regional dialects affect perception"
+      ]
+    },
+    "mexico": {
+      "generally_milder": ["chingar (creative uses)", "cabrón (friendly)"],
+      "generally_harsher": ["targeted slurs", "maternal insults"],
+      "unique_considerations": [
+        "Formal/informal speech distinction critical",
+        "Mother-related insults extremely serious",
+        "Creative compound insults common"
+      ]
+    },
+    "argentina": {
+      "generally_milder": ["boludo", "pelotudo (friendly)"],
+      "generally_harsher": ["ethnic slurs", "polaco"],
+      "unique_considerations": [
+        "Italian influence on acceptable language",
+        "Class-based insults particularly offensive",
+        "Immigration-related slurs severe"
+      ]
+    },
+    "colombia": {
+      "generally_milder": ["gonorrea (among youth)", "berraco"],
+      "generally_harsher": ["paramilitary/violence references"],
+      "unique_considerations": [
+        "Medical terms used as mild insults",
+        "Violence-related terms extremely sensitive",
+        "Regional variations significant"
+      ]
+    }
+  },
+  "demographic_considerations": {
+    "age": {
+      "older_generations": "Generally less tolerant of profanity",
+      "middle_aged": "Context-dependent tolerance",
+      "youth": "Higher tolerance, creative usage",
+      "children": "Exposure varies by family/region"
+    },
+    "gender": {
+      "general_patterns": "Some terms more offensive when targeting women",
+      "cultural_machismo": "Affects severity of gender-specific insults",
+      "evolving_attitudes": "Younger generations challenging traditional patterns"
+    },
+    "education": {
+      "higher_education": "Often correlates with lower tolerance",
+      "informal_settings": "Education level less predictive",
+      "professional_impact": "Education affects career consequences"
+    },
+    "religious_background": {
+      "catholic": "Religious profanity particularly offensive",
+      "secular": "More tolerance for religious references",
+      "evangelical": "Very low tolerance for most profanity"
+    }
+  },
+  "escalation_patterns": {
+    "mild_to_severe": [
+      "caramba → carajo → coño",
+      "tonto → idiota → hijo de puta",
+      "amigo → cabrón → hijo de la chingada"
+    ],
+    "friendly_to_hostile": [
+      "boludo (friendly) → boludo (insulting) → hijo de puta",
+      "cabrón (buddy) → cabrón (asshole) → hijo de tu madre"
+    ]
+  },
+  "cultural_notes": {
+    "diminutives": "Can soften severity (putita, cabronito) but also intensify sarcasm",
+    "augmentatives": "Always intensify (putón, cabronazzo)",
+    "religious_context": "Varies significantly - some regions very sensitive, others not",
+    "historical_usage": "Some terms losing/gaining severity over time",
+    "media_influence": "Television and music affecting regional acceptance"
+  }
+}

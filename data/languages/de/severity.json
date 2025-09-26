@@ -1,0 +1,216 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "de",
+  "severity_system": {
+    "description": "German profanity severity assessment with cultural and regional considerations",
+    "methodology": "Based on German sociolinguistic research and legal frameworks",
+    "scale": "1-4 scale where 1 is mild and 4 is extremely offensive/potentially illegal"
+  },
+  "severity_levels": {
+    "1": {
+      "name": "Leicht",
+      "description": "Mild profanity, generally acceptable in informal settings",
+      "characteristics": [
+        "Often used casually in everyday conversation",
+        "May be filtered in professional or educational settings",
+        "Regional and generational variations in acceptance",
+        "Can be softened with diminutives or context"
+      ],
+      "examples": ["verdammt", "mist", "kacke", "blöd"],
+      "regional_notes": {
+        "germany": "Generally tolerant, varies by region",
+        "austria": "Similar tolerance to Germany",
+        "switzerland": "More conservative, even mild terms avoided in formal contexts"
+      }
+    },
+    "2": {
+      "name": "Mäßig",
+      "description": "Clearly profane but context-dependent severity",
+      "characteristics": [
+        "Inappropriate in formal or professional settings",
+        "Severity varies with target, intent, and relationship",
+        "Can escalate based on tone and context",
+        "Compound forms may increase severity"
+      ],
+      "examples": ["scheisse", "arschloch", "wichser", "schwanz"],
+      "regional_notes": {
+        "germany": "Common in casual settings, compound usage frequent",
+        "austria": "Similar patterns with some regional variations",
+        "switzerland": "Less tolerant, especially in formal Swiss German contexts"
+      }
+    },
+    "3": {
+      "name": "Stark",
+      "description": "Highly offensive across most contexts and regions",
+      "characteristics": [
+        "Clearly inappropriate in most social situations",
+        "Can cause offense regardless of intent",
+        "Professional and social consequences likely",
+        "Targeting individuals increases severity"
+      ],
+      "examples": ["ficken", "fotze", "hure", "schlampe"],
+      "regional_notes": {
+        "germany": "Sexual terms consistently offensive",
+        "austria": "Similar severity, Catholic influence affects perception",
+        "switzerland": "Very offensive, formal consequences more likely"
+      }
+    },
+    "4": {
+      "name": "Schwer",
+      "description": "Extremely offensive, potentially illegal hate speech",
+      "characteristics": [
+        "Always inappropriate and harmful",
+        "May violate German hate speech laws (Volksverhetzung)",
+        "Targets identity characteristics",
+        "Consistent severity across all German-speaking regions",
+        "Can result in legal prosecution"
+      ],
+      "examples": ["neger", "kanake", "schwuchtel", "judensau"],
+      "regional_notes": {
+        "all_regions": "Consistently severe and potentially illegal",
+        "legal_note": "May violate German, Austrian, and Swiss hate speech laws",
+        "historical_context": "Post-war Germany particularly sensitive to Nazi-related terms"
+      }
+    }
+  },
+  "contextual_factors": {
+    "relationship": {
+      "family": "Severity often reduced in family context, except hate speech",
+      "friends": "Many terms acceptable or even affectionate in close friendships",
+      "strangers": "Full severity applies, especially in formal contexts",
+      "professional": "Even mild terms inappropriate in business settings"
+    },
+    "setting": {
+      "private": "More tolerance for moderate severity terms",
+      "public": "Severity increases due to broader audience",
+      "formal": "Zero tolerance for most profanity",
+      "informal": "Context-dependent acceptance, compound creativity appreciated"
+    },
+    "intent": {
+      "playful": "Can significantly reduce perceived severity",
+      "aggressive": "Maximizes severity and social/legal consequences",
+      "habitual": "Familiarity can reduce perceived offense",
+      "targeted": "Personal targeting always increases severity"
+    },
+    "tone": {
+      "humorous": "Can reduce severity if genuinely funny",
+      "angry": "Escalates severity regardless of word choice",
+      "casual": "Moderate reduction in perceived severity",
+      "emphatic": "Increases intensity without necessarily increasing offense"
+    }
+  },
+  "regional_severity_variations": {
+    "germany": {
+      "generally_milder": ["scheisse", "verdammt", "arschloch"],
+      "generally_harsher": ["nazi-related terms", "ethnic slurs", "historical references"],
+      "unique_considerations": [
+        "Post-war sensitivity to Nazi terminology",
+        "Regional dialects affect perception",
+        "Compound creativity generally appreciated",
+        "East/West historical differences in language attitudes"
+      ]
+    },
+    "austria": {
+      "generally_milder": ["similar to Germany with regional terms"],
+      "generally_harsher": ["religious blasphemy in Catholic areas"],
+      "unique_considerations": [
+        "Catholic cultural influence stronger than Germany",
+        "Austrian-specific terms and sensitivities",
+        "Alpine regional variations",
+        "Historical sensitivity to Nazi period"
+      ]
+    },
+    "switzerland": {
+      "generally_milder": ["very few - conservative approach"],
+      "generally_harsher": ["most profanity due to conservative culture"],
+      "unique_considerations": [
+        "Most conservative German-speaking region",
+        "Swiss German dialect creates different patterns",
+        "Multilingual context affects profanity perception",
+        "Banking and diplomatic culture emphasizes propriety"
+      ]
+    },
+    "bavaria": {
+      "generally_milder": ["regional Bavarian terms"],
+      "generally_harsher": ["religious profanity due to Catholic culture"],
+      "unique_considerations": [
+        "Strong Catholic influence affects religious profanity",
+        "Bavarian dialect creates unique terms (Kreuzkruzifix)",
+        "Regional identity affects language attitudes",
+        "Rural vs urban differences pronounced"
+      ]
+    }
+  },
+  "demographic_considerations": {
+    "age": {
+      "older_generations": "Generally less tolerant, especially of sexual profanity",
+      "middle_aged": "Context-dependent tolerance, professional awareness",
+      "youth": "Higher tolerance, creative compound usage",
+      "children": "Strict controls, educational consequences for usage"
+    },
+    "gender": {
+      "general_patterns": "Some terms more offensive when targeting women",
+      "traditional_expectations": "Some expectation of less profanity from women",
+      "evolving_attitudes": "Generational change toward gender equality in language"
+    },
+    "education": {
+      "higher_education": "Correlates with awareness of hate speech implications",
+      "professional_context": "Education level affects career consequences",
+      "academic_settings": "Tolerance only in linguistic research contexts"
+    },
+    "religious_background": {
+      "catholic": "Religious profanity particularly offensive, especially in Bavaria/Austria",
+      "protestant": "Generally less sensitive to religious profanity",
+      "secular": "More tolerance for religious references"
+    },
+    "regional_identity": {
+      "northern_germany": "Often more direct in language use",
+      "southern_germany": "More conservative, Catholic influence",
+      "eastern_germany": "Some different historical language experiences",
+      "urban_vs_rural": "Urban areas generally more tolerant"
+    }
+  },
+  "escalation_patterns": {
+    "mild_to_severe": [
+      "mist → scheisse → verdammte scheisse",
+      "blöd → idiot → vollpfosten",
+      "arsch → arschloch → arschgeige"
+    ],
+    "compound_escalation": [
+      "sau → saukerl → drecksau → hurensohn",
+      "scheiss → scheisskerl → scheissdreck → scheiss nochmal"
+    ]
+  },
+  "cultural_notes": {
+    "compound_creativity": "German speakers appreciate creative compound formation",
+    "historical_sensitivity": "Post-war Germany extremely sensitive to Nazi-related language",
+    "legal_framework": "German hate speech laws create real consequences for severe terms",
+    "dialect_variations": "Regional dialects can completely change severity perception",
+    "generational_change": "Youth creating new compound forms rapidly",
+    "media_influence": "Television and internet affecting regional acceptance patterns"
+  },
+  "legal_implications": {
+    "volksverhetzung": "German hate speech law covers incitement against groups",
+    "beleidigung": "Personal insult laws can apply to individual targeting",
+    "online_enforcement": "German authorities actively enforce hate speech laws online",
+    "workplace_consequences": "Labor laws protect against discriminatory language",
+    "educational_sanctions": "Schools have strict policies against hate speech",
+    "public_consequences": "Public usage can result in fines or prosecution"
+  },
+  "compound_word_severity": {
+    "multiplication_effect": "Compound words often more severe than individual components",
+    "creative_appreciation": "Clever compounds may be appreciated even if offensive",
+    "detection_difficulty": "New compounds can evade automated detection",
+    "infinite_potential": "German morphology allows unlimited offensive combinations",
+    "context_dependency": "Same compound can vary greatly in severity by context"
+  },
+  "special_severity_considerations": {
+    "nazi_terminology": "Any reference to Nazi ideology carries maximum severity",
+    "historical_context": "Terms carry weight of German historical experience",
+    "legal_uncertainty": "Some terms exist in legal gray areas",
+    "international_context": "German speakers abroad may have different standards",
+    "media_censorship": "German media has specific standards for offensive language",
+    "educational_responsibility": "German education system emphasizes consequences of hate speech"
+  }
+}

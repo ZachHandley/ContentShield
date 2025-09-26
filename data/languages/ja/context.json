@@ -1,0 +1,322 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "cultural_framework": {
+    "primary_values": [
+      "Wa (和) - Group harmony and social cohesion",
+      "Hierarchy and respect for social order",
+      "Face-saving (mentsu) and dignity preservation",
+      "Indirect communication and conflict avoidance",
+      "Collective responsibility over individual expression"
+    ],
+    "communication_principles": [
+      "Tatemae (建前) - Public facade vs. Honne (本音) - True feelings",
+      "Context-dependent appropriateness",
+      "Respect for age, position, and social status",
+      "Seasonal and situational awareness"
+    ]
+  },
+  "contextual_usage_patterns": {
+    "formal_business": {
+      "description": "Corporate, governmental, and professional environments",
+      "language_expectations": "Keigo (honorific language) required, zero tolerance for profanity",
+      "severity_multiplier": 2.0,
+      "specific_considerations": [
+        "Any profanity could result in termination",
+        "Reflects poorly on entire organization",
+        "International business context requires additional sensitivity",
+        "Written communication held to highest standards"
+      ],
+      "acceptable_terms": [],
+      "unacceptable_terms": "All profanity regardless of severity"
+    },
+    "educational_settings": {
+      "description": "Schools, universities, and learning environments",
+      "language_expectations": "Respectful language required, teaching opportunities for correction",
+      "severity_multiplier": 1.5,
+      "specific_considerations": [
+        "Teachers expected to model proper language",
+        "Bullying prevention through language monitoring",
+        "Age-appropriate correction methods",
+        "Cultural education about language impact"
+      ],
+      "acceptable_terms": "None in classroom context",
+      "unacceptable_terms": "All insulting or derogatory language"
+    },
+    "family_gatherings": {
+      "description": "Multi-generational family interactions",
+      "language_expectations": "Respectful language especially toward elders",
+      "severity_multiplier": 1.3,
+      "specific_considerations": [
+        "Respect for elders is paramount",
+        "Children's language carefully monitored",
+        "Family reputation concerns",
+        "Seasonal celebrations require extra politeness"
+      ],
+      "acceptable_terms": "Very mild expressions only among same generation",
+      "unacceptable_terms": "Any direct insults or sexual content"
+    },
+    "peer_groups": {
+      "description": "Same-age friend groups in casual settings",
+      "language_expectations": "Relaxed but still bounded by mutual respect",
+      "severity_multiplier": 0.7,
+      "specific_considerations": [
+        "Playful insults may be acceptable if mutual",
+        "Boundary-testing behavior in youth",
+        "Group dynamics affect acceptability",
+        "Regional variations significant"
+      ],
+      "acceptable_terms": "Level 1 profanity in joking context",
+      "unacceptable_terms": "Hate speech, serious threats, severe personal attacks"
+    },
+    "online_gaming": {
+      "description": "Digital gaming environments and internet culture",
+      "language_expectations": "More permissive but still culturally bounded",
+      "severity_multiplier": 0.5,
+      "specific_considerations": [
+        "Anonymous context reduces some social pressure",
+        "International player interactions",
+        "Platform moderation policies",
+        "Still subject to Japanese cultural norms"
+      ],
+      "acceptable_terms": "Level 1-2 general profanity",
+      "unacceptable_terms": "Hate speech, doxxing threats, extreme personal attacks"
+    },
+    "internet_forums": {
+      "description": "2ch/5ch and other Japanese internet communities",
+      "language_expectations": "Unique cultural norms with both permissiveness and strict taboos",
+      "severity_multiplier": 0.6,
+      "specific_considerations": [
+        "Anonymous culture creates different norms",
+        "Specific board cultures and rules",
+        "Meme culture and linguistic creativity",
+        "Still bounded by legal restrictions"
+      ],
+      "acceptable_terms": "Platform-specific tolerance levels",
+      "unacceptable_terms": "Illegal content, doxxing, extreme threats"
+    },
+    "public_spaces": {
+      "description": "Trains, stations, public areas with diverse audiences",
+      "language_expectations": "Public decorum required, consideration for all ages",
+      "severity_multiplier": 1.8,
+      "specific_considerations": [
+        "Children and elderly present",
+        "Reflects on personal character",
+        "Possible intervention by others",
+        "Tourist/international context in some areas"
+      ],
+      "acceptable_terms": "None - public setting requires restraint",
+      "unacceptable_terms": "All profanity audible to public"
+    }
+  },
+  "relationship_dynamics": {
+    "senpai_kohai": {
+      "description": "Senior-junior relationship hierarchy",
+      "language_flow": "Kohai (junior) must use respectful language to senpai (senior)",
+      "profanity_rules": [
+        "Kohai using profanity toward senpai: +2 severity",
+        "Senpai using profanity toward kohai: +0.5 severity (abuse of power)",
+        "Mutual profanity extremely rare and culturally shocking"
+      ],
+      "cultural_significance": "Fundamental social structure in Japanese society"
+    },
+    "customer_service": {
+      "description": "Service provider and customer interactions",
+      "language_expectations": "Service provider must maintain perfect politeness regardless of customer behavior",
+      "profanity_impact": [
+        "Customer profanity toward staff: Socially unacceptable but happens",
+        "Staff profanity toward customer: Career-ending mistake",
+        "Witnessed profanity: Reflects on business reputation"
+      ],
+      "cultural_principle": "Omotenashi (hospitality) culture requires service excellence"
+    },
+    "peer_relationships": {
+      "description": "Equal status relationships among friends or colleagues",
+      "language_flexibility": "Most flexible context but still culturally bounded",
+      "profanity_guidelines": [
+        "Mutual consent for casual profanity",
+        "Playful insults acceptable if reciprocal",
+        "Serious profanity still relationship-damaging",
+        "Context switching required in mixed company"
+      ],
+      "boundary_considerations": "Even friends have limits based on personal values"
+    },
+    "romantic_relationships": {
+      "description": "Dating and romantic partner interactions",
+      "language_complexity": "Highly individual and relationship-stage dependent",
+      "profanity_considerations": [
+        "Early relationship: Extreme caution required",
+        "Established relationship: More tolerance possible",
+        "Profanity toward partner: Serious relationship red flag",
+        "Public vs. private context still matters"
+      ],
+      "cultural_factors": "Traditional gender role expectations may influence tolerance"
+    }
+  },
+  "situational_modifiers": {
+    "alcohol_consumption": {
+      "description": "Drinking culture and its effect on language standards",
+      "cultural_context": "Nomikai (drinking parties) have different social rules",
+      "language_changes": [
+        "Slightly more tolerance for casual profanity",
+        "Still serious consequences for major violations",
+        "Morning-after apologies expected for inappropriate language",
+        "Professional relationships still protected"
+      ],
+      "severity_adjustment": -0.3
+    },
+    "stress_situations": {
+      "description": "High-stress or emergency situations",
+      "language_flexibility": "Minor increase in tolerance for emotional outbursts",
+      "considerations": [
+        "Temporary emotional state recognized",
+        "Apology expected after situation resolves",
+        "Severity of situation affects tolerance level",
+        "Repeated offenses not excused by stress"
+      ],
+      "severity_adjustment": -0.2
+    },
+    "generational_context": {
+      "description": "Different generational language expectations",
+      "variations": {
+        "elderly": "Extremely low tolerance, traditional values",
+        "middle_aged": "Moderate tolerance, professional awareness",
+        "young_adults": "Higher tolerance but still culturally bounded",
+        "teenagers": "Testing boundaries but still learning social norms"
+      },
+      "intergenerational_interaction": "+1 severity when crossing generations"
+    },
+    "regional_variations": {
+      "tokyo_area": {
+        "characteristics": "More formal, reserved, higher language standards",
+        "profanity_tolerance": "Lower tolerance, more consequence-focused",
+        "severity_adjustment": +0.2
+      },
+      "kansai_area": {
+        "characteristics": "More expressive, merchant culture, humor-focused",
+        "profanity_tolerance": "Slightly higher tolerance for casual rudeness",
+        "severity_adjustment": -0.2
+      },
+      "rural_areas": {
+        "characteristics": "Traditional values, community-focused, elder respect",
+        "profanity_tolerance": "Low tolerance, community judgment strong",
+        "severity_adjustment": +0.3
+      }
+    }
+  },
+  "digital_communication_context": {
+    "email_messaging": {
+      "description": "Digital text communication in professional/personal contexts",
+      "considerations": [
+        "Written record creates permanent evidence",
+        "Professional emails held to highest standard",
+        "Personal messaging more flexible but still bounded",
+        "Emoticon/emoji usage affects interpretation"
+      ],
+      "severity_impact": "Written form increases severity +0.5"
+    },
+    "social_media": {
+      "description": "Public social media platforms",
+      "unique_factors": [
+        "Public visibility affects acceptability",
+        "Platform moderation policies",
+        "Professional reputation concerns",
+        "Viral spread potential"
+      ],
+      "cultural_considerations": [
+        "Real name association increases consequences",
+        "International audience awareness",
+        "Cross-generational visibility",
+        "Screenshot permanence"
+      ]
+    },
+    "anonymous_platforms": {
+      "description": "2ch, 5ch, and anonymous discussion boards",
+      "special_characteristics": [
+        "Different linguistic norms developed",
+        "Creative expression through language",
+        "Still legally bounded content",
+        "Unique meme culture"
+      ],
+      "cultural_evolution": "Created alternative linguistic space in Japanese internet culture"
+    }
+  },
+  "temporal_considerations": {
+    "time_of_day": {
+      "morning": "Higher formality expectations",
+      "business_hours": "Professional standards apply",
+      "evening_social": "More relaxed but still bounded",
+      "late_night": "Most permissive but still culturally limited"
+    },
+    "seasonal_context": {
+      "new_year": "Extra politeness required",
+      "cherry_blossom_season": "Social drinking contexts more common",
+      "summer_festivals": "Casual social interactions",
+      "year_end": "Professional relationship maintenance"
+    },
+    "lifecycle_events": {
+      "weddings": "Extreme formality required",
+      "funerals": "Solemn respect mandatory",
+      "celebrations": "Moderate relaxation acceptable",
+      "business_launches": "Professional excellence required"
+    }
+  },
+  "legal_and_social_consequences": {
+    "hate_speech_laws": {
+      "description": "Legal restrictions on discriminatory language",
+      "covered_categories": ["Ethnicity", "Religion", "Disability", "Sexual orientation"],
+      "potential_consequences": ["Criminal charges", "Civil liability", "Employment termination"],
+      "cultural_context": "Strong social enforcement beyond legal requirements"
+    },
+    "workplace_harassment": {
+      "description": "Professional consequences for inappropriate language",
+      "severity_levels": [
+        "Verbal warning and training",
+        "Written reprimand",
+        "Suspension",
+        "Termination"
+      ],
+      "cultural_factors": "Company reputation concerns amplify consequences"
+    },
+    "social_ostracism": {
+      "description": "Community-level consequences for language violations",
+      "mechanisms": [
+        "Exclusion from social groups",
+        "Professional network damage",
+        "Family shame and intervention",
+        "Long-term reputation damage"
+      ],
+      "cultural_significance": "Often more impactful than legal consequences"
+    }
+  },
+  "educational_context": {
+    "language_learning": {
+      "description": "How profanity is addressed in Japanese language education",
+      "approaches": [
+        "Cultural context explanation required",
+        "Severity level education important",
+        "Comparison with learner's native language",
+        "Practical consequence awareness"
+      ],
+      "special_considerations": [
+        "Anime/manga exposure creates misconceptions",
+        "Internet content affects learning",
+        "Real-world consequences education needed"
+      ]
+    },
+    "cultural_education": {
+      "description": "Teaching appropriate language use to Japanese youth",
+      "methods": [
+        "Situational appropriateness training",
+        "Consequence awareness building",
+        "Respect and empathy development",
+        "Digital citizenship education"
+      ],
+      "challenges": [
+        "Internet culture influence",
+        "International media exposure",
+        "Generational value differences"
+      ]
+    }
+  }
+}

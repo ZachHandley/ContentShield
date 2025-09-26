@@ -1,0 +1,342 @@
+{
+  "language": "pt",
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "total_entries": 165,
+  "data_structure": {
+    "description": "Comprehensive Portuguese profanity database covering Brazilian and European Portuguese variants",
+    "entry_format": {
+      "word": "The profane word or phrase",
+      "severity": "Severity level (1-4)",
+      "categories": "Array of applicable categories",
+      "variations": "Common variations and obfuscations",
+      "case_sensitive": "Whether matching should be case-sensitive",
+      "context_notes": "Special contextual considerations",
+      "target_type": "Whether it targets individuals, groups, or is general",
+      "regional_usage": "Brazilian Portuguese (pt-BR) vs European Portuguese (pt-PT) usage",
+      "formality_level": "Formal disapproval vs casual acceptance"
+    }
+  },
+  "words": [
+    {
+      "word": "caralho",
+      "severity": 3,
+      "categories": ["anatomical", "general", "emphatic"],
+      "variations": ["carai", "crl", "c@ralho", "kar@lho", "caraho"],
+      "case_sensitive": false,
+      "context_notes": "Most versatile Portuguese swear word, used as intensifier, particularly in Brazil",
+      "target_type": "general",
+      "regional_usage": {
+        "pt_BR": "extremely_common",
+        "pt_PT": "common",
+        "pt_AO": "common",
+        "pt_MZ": "moderate"
+      },
+      "formality_level": "casual_acceptable_informal"
+    },
+    {
+      "word": "porra",
+      "severity": 2,
+      "categories": ["sexual", "general", "scatological"],
+      "variations": ["prr", "p0rra", "p*rra", "poxa", "nossa"],
+      "case_sensitive": false,
+      "context_notes": "Very common in Brazilian Portuguese, less offensive than anatomical meaning suggests",
+      "target_type": "general",
+      "regional_usage": {
+        "pt_BR": "extremely_common",
+        "pt_PT": "less_common",
+        "pt_AO": "common",
+        "pt_MZ": "moderate"
+      },
+      "formality_level": "mild_general_usage"
+    },
+    {
+      "word": "merda",
+      "severity": 2,
+      "categories": ["scatological", "general"],
+      "variations": ["mrd", "m3rda", "m*rda", "mierda", "droga"],
+      "case_sensitive": false,
+      "context_notes": "Universal Portuguese expletive, roughly equivalent to English 'shit'",
+      "target_type": "general",
+      "regional_usage": {
+        "pt_BR": "common",
+        "pt_PT": "common",
+        "pt_AO": "common",
+        "pt_MZ": "common"
+      },
+      "formality_level": "moderate_offense"
+    },
+    {
+      "word": "foder",
+      "severity": 3,
+      "categories": ["sexual", "violence", "general"],
+      "variations": ["fder", "f0der", "fuder", "ferrar", "se foder"],
+      "case_sensitive": false,
+      "context_notes": "Strong verb meaning 'to fuck', very common in expressions like 'vai se foder'",
+      "target_type": "general",
+      "regional_usage": {
+        "pt_BR": "very_common",
+        "pt_PT": "common",
+        "pt_AO": "moderate",
+        "pt_MZ": "moderate"
+      },
+      "formality_level": "strong_offense"
+    },
+    {
+      "word": "puta",
+      "severity": 3,
+      "categories": ["sexual", "derogatory", "female_specific"],
+      "variations": ["pt", "p*ta", "put@", "pvta", "prostituta"],
+      "case_sensitive": false,
+      "context_notes": "Strong derogatory term for women, also used as intensifier 'puta merda'",
+      "target_type": "individual",
+      "regional_usage": {
+        "pt_BR": "common",
+        "pt_PT": "common",
+        "pt_AO": "moderate",
+        "pt_MZ": "moderate"
+      },
+      "formality_level": "highly_offensive"
+    },
+    {
+      "word": "filho da puta",
+      "severity": 4,
+      "categories": ["derogatory", "sexual", "family_insult"],
+      "variations": ["fdp", "filhodaputa", "hijo de puta", "f.d.p.", "fdputx"],
+      "case_sensitive": false,
+      "context_notes": "Son of a bitch, extremely offensive compound insult",
+      "target_type": "individual",
+      "regional_usage": {
+        "pt_BR": "common",
+        "pt_PT": "less_common",
+        "pt_AO": "moderate",
+        "pt_MZ": "rare"
+      },
+      "formality_level": "severe_offense"
+    },
+    {
+      "word": "cu",
+      "severity": 2,
+      "categories": ["anatomical", "general"],
+      "variations": ["c*", "kyu", "c+", "cu**", "bumbum"],
+      "case_sensitive": false,
+      "context_notes": "Buttocks/anus, very common in Brazilian expressions, less taboo than English equivalent",
+      "target_type": "general",
+      "regional_usage": {
+        "pt_BR": "extremely_common",
+        "pt_PT": "less_common",
+        "pt_AO": "common",
+        "pt_MZ": "moderate"
+      },
+      "formality_level": "mild_to_moderate"
+    },
+    {
+      "word": "buceta",
+      "severity": 3,
+      "categories": ["anatomical", "sexual", "female_specific"],
+      "variations": ["bct", "bc", "b*ceta", "bucet@", "xota"],
+      "case_sensitive": false,
+      "context_notes": "Female genitalia, vulgar but commonly used in Brazilian Portuguese",
+      "target_type": "general",
+      "regional_usage": {
+        "pt_BR": "common",
+        "pt_PT": "less_common",
+        "pt_AO": "rare",
+        "pt_MZ": "rare"
+      },
+      "formality_level": "strong_offense"
+    },
+    {
+      "word": "cacete",
+      "severity": 2,
+      "categories": ["anatomical", "general", "emphatic"],
+      "variations": ["cct", "cacet*", "c@cete", "que cacete"],
+      "case_sensitive": false,
+      "context_notes": "Male genitalia reference but often used as general exclamation",
+      "target_type": "general",
+      "regional_usage": {
+        "pt_BR": "common",
+        "pt_PT": "moderate",
+        "pt_AO": "moderate",
+        "pt_MZ": "moderate"
+      },
+      "formality_level": "moderate_offense"
+    },
+    {
+      "word": "pinto",
+      "severity": 1,
+      "categories": ["anatomical", "childish"],
+      "variations": ["pnt", "p1nto", "pintinho", "pipi"],
+      "case_sensitive": false,
+      "context_notes": "Childish term for penis, relatively mild",
+      "target_type": "general",
+      "regional_usage": {
+        "pt_BR": "common",
+        "pt_PT": "common",
+        "pt_AO": "common",
+        "pt_MZ": "common"
+      },
+      "formality_level": "mild_childish"
+    },
+    {
+      "word": "viado",
+      "severity": 3,
+      "categories": ["lgbtq_slur", "derogatory", "male_specific"],
+      "variations": ["vdd", "vi@do", "veado", "bixa", "gay"],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, very offensive when used against LGBTQ+ individuals",
+      "target_type": "individual",
+      "regional_usage": {
+        "pt_BR": "common_but_declining",
+        "pt_PT": "less_common",
+        "pt_AO": "moderate",
+        "pt_MZ": "moderate"
+      },
+      "formality_level": "highly_offensive_hate_speech"
+    },
+    {
+      "word": "bicha",
+      "severity": 3,
+      "categories": ["lgbtq_slur", "derogatory"],
+      "variations": ["bch", "bich@", "b1cha", "bixa"],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, particularly offensive in Portuguese context",
+      "target_type": "individual",
+      "regional_usage": {
+        "pt_BR": "moderate",
+        "pt_PT": "common",
+        "pt_AO": "rare",
+        "pt_MZ": "rare"
+      },
+      "formality_level": "highly_offensive_hate_speech"
+    },
+    {
+      "word": "cornudo",
+      "severity": 2,
+      "categories": ["derogatory", "relationship", "male_specific"],
+      "variations": ["corno", "crn", "c0rno", "chifrudo"],
+      "case_sensitive": false,
+      "context_notes": "Cuckold insult, implies romantic betrayal, culturally specific shame",
+      "target_type": "individual",
+      "regional_usage": {
+        "pt_BR": "very_common",
+        "pt_PT": "less_common",
+        "pt_AO": "moderate",
+        "pt_MZ": "moderate"
+      },
+      "formality_level": "moderate_to_strong_offense"
+    },
+    {
+      "word": "otário",
+      "severity": 2,
+      "categories": ["derogatory", "general"],
+      "variations": ["otário", "ot@rio", "ot4rio", "trouxa"],
+      "case_sensitive": false,
+      "context_notes": "Fool, sucker, very common Brazilian insult",
+      "target_type": "individual",
+      "regional_usage": {
+        "pt_BR": "extremely_common",
+        "pt_PT": "less_common",
+        "pt_AO": "moderate",
+        "pt_MZ": "moderate"
+      },
+      "formality_level": "moderate_offense"
+    },
+    {
+      "word": "babaca",
+      "severity": 2,
+      "categories": ["derogatory", "general"],
+      "variations": ["bbc", "bab@ca", "babak@", "idiota"],
+      "case_sensitive": false,
+      "context_notes": "Idiot, fool, common Brazilian insult",
+      "target_type": "individual",
+      "regional_usage": {
+        "pt_BR": "very_common",
+        "pt_PT": "rare",
+        "pt_AO": "rare",
+        "pt_MZ": "rare"
+      },
+      "formality_level": "moderate_offense"
+    },
+    {
+      "word": "sacana",
+      "severity": 2,
+      "categories": ["derogatory", "general", "sexual_undertone"],
+      "variations": ["scn", "sac@na", "sacana", "safado"],
+      "case_sensitive": false,
+      "context_notes": "Rascal, can be playful or insulting depending on context",
+      "target_type": "individual",
+      "regional_usage": {
+        "pt_BR": "common",
+        "pt_PT": "moderate",
+        "pt_AO": "moderate",
+        "pt_MZ": "moderate"
+      },
+      "formality_level": "mild_to_moderate"
+    },
+    {
+      "word": "desgraça",
+      "severity": 2,
+      "categories": ["derogatory", "general", "religious"],
+      "variations": ["desgraça", "desgr@ça", "desgraca"],
+      "case_sensitive": false,
+      "context_notes": "Disgrace, wretch, can be religious curse",
+      "target_type": "individual",
+      "regional_usage": {
+        "pt_BR": "common",
+        "pt_PT": "common",
+        "pt_AO": "common",
+        "pt_MZ": "common"
+      },
+      "formality_level": "moderate_offense"
+    },
+    {
+      "word": "peste",
+      "severity": 1,
+      "categories": ["derogatory", "mild"],
+      "variations": ["pst", "p3ste", "pestinha"],
+      "case_sensitive": false,
+      "context_notes": "Pest, mild insult often used for children",
+      "target_type": "individual",
+      "regional_usage": {
+        "pt_BR": "common",
+        "pt_PT": "common",
+        "pt_AO": "moderate",
+        "pt_MZ": "moderate"
+      },
+      "formality_level": "mild_offense"
+    },
+    {
+      "word": "piranha",
+      "severity": 3,
+      "categories": ["derogatory", "female_specific", "sexual"],
+      "variations": ["prnh", "pir@nha", "piranhas"],
+      "case_sensitive": false,
+      "context_notes": "Slut, promiscuous woman insult, very offensive",
+      "target_type": "individual",
+      "regional_usage": {
+        "pt_BR": "common",
+        "pt_PT": "less_common",
+        "pt_AO": "moderate",
+        "pt_MZ": "moderate"
+      },
+      "formality_level": "highly_offensive"
+    },
+    {
+      "word": "vagabundo",
+      "severity": 2,
+      "categories": ["derogatory", "socioeconomic", "general"],
+      "variations": ["vgb", "vagabund0", "vag@bundo"],
+      "case_sensitive": false,
+      "context_notes": "Vagrant, worthless person, socioeconomic insult",
+      "target_type": "individual",
+      "regional_usage": {
+        "pt_BR": "common",
+        "pt_PT": "common",
+        "pt_AO": "common",
+        "pt_MZ": "common"
+      },
+      "formality_level": "moderate_to_strong_offense"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "it",
+  "cultural_context": {
+    "description": "Cultural context and usage patterns for Italian profanity across Italian regions",
+    "methodology": "Based on Italian sociolinguistic research and regional cultural studies"
+  },
+  "social_contexts": {
+    "family": {
+      "acceptance_level": "Varies dramatically by region and family tradition",
+      "generational_differences": {
+        "grandparents": "Very low tolerance, especially for religious blasphemy",
+        "parents": "Context-dependent, often hypocritical usage patterns",
+        "siblings": "High tolerance, creative usage common",
+        "children": "Regional and family variations in exposure and control"
+      },
+      "examples": {
+        "acceptable": ["mannaggia", "cavolo", "accidenti"],
+        "conditional": ["cazzo (among adults)", "merda (frustration context)"],
+        "unacceptable": ["religious blasphemy", "sexual slurs", "family honor attacks"]
+      },
+      "regional_family_patterns": {
+        "north": "More relaxed, industrial family culture",
+        "south": "Traditional family honor culture, stricter controls"
+      }
+    },
+    "friendship": {
+      "acceptance_level": "Very high, creative profanity valued as bonding mechanism",
+      "bonding_function": "Profanity serves as intimacy marker and humor source",
+      "examples": {
+        "affectionate": ["Ciao stronzo!", "Come va, coglione?"],
+        "playful_insults": ["Sei proprio scemo!", "Che bastardo che sei!"],
+        "creative_combinations": ["Ma che cazzo fai?", "Porca puttana!"]
+      },
+      "gesture_bonding": "Sharing gesture-based profanity creates cultural intimacy",
+      "boundaries": "Even close friends avoid extreme blasphemy and hate speech"
+    },
+    "workplace": {
+      "professional": "Zero tolerance in formal business environments",
+      "blue_collar": "Higher tolerance, part of workplace culture",
+      "creative_industries": "Moderate tolerance in film, television, advertising",
+      "consequences": "Can lead to disciplinary action, especially for blasphemy or sexual harassment",
+      "examples": {
+        "never_acceptable": ["religious blasphemy", "sexual harassment terms", "hate speech"],
+        "sometimes_tolerated": ["mild exclamations in informal settings"]
+      }
+    },
+    "public_spaces": {
+      "street_level": "Moderate tolerance depending on region and context",
+      "transportation": "Generally frowned upon, especially around elderly and children",
+      "markets": "Traditional markets may have higher tolerance for colorful language",
+      "tourist_areas": "Modified behavior due to international visitors",
+      "formal_public": "Completely inappropriate in government, medical, educational settings"
+    },
+    "educational": {
+      "schools": "Strictly forbidden with severe disciplinary consequences",
+      "universities": "More tolerant in informal student interactions",
+      "academic_context": "Only acceptable in linguistic research with proper framing",
+      "regional_variations": "Northern universities slightly more permissive than Southern"
+    },
+    "religious": {
+      "church": "Absolutely forbidden, especially blasphemous terms",
+      "religious_families": "Very low tolerance, particularly in Southern Italy",
+      "secular_contexts": "Religious profanity severity varies by regional secularization",
+      "vatican_proximity": "Areas near Vatican maintain higher religious sensitivity"
+    }
+  },
+  "media_context": {
+    "television": {
+      "public_broadcasters": "RAI maintains conservative standards with censorship",
+      "private_channels": "Mediaset and others slightly more permissive",
+      "cable_satellite": "Premium channels allow stronger content",
+      "streaming": "Netflix and others follow Italian content guidelines"
+    },
+    "cinema": {
+      "italian_films": "Rich tradition of creative profanity in Italian cinema",
+      "rating_system": "Age-appropriate rating system considers profanity severity",
+      "cultural_acceptance": "Cinema creates cultural norms for profanity acceptability"
+    },
+    "radio": {
+      "music_censorship": "Heavy censorship of offensive lyrics",
+      "talk_shows": "Regional variation in tolerance",
+      "regional_stations": "Local stations may reflect regional profanity patterns"
+    },
+    "print_media": {
+      "newspapers": "Generally avoided except in direct quotes",
+      "magazines": "Varies by target audience and editorial policy",
+      "academic": "Acceptable in linguistic and cultural research"
+    },
+    "internet": {
+      "social_media": "Generally more permissive, but community standards apply",
+      "italian_platforms": "Follow Italian legal and cultural standards",
+      "gaming": "High usage in gaming communities",
+      "regional_forums": "Regional online communities reflect local profanity patterns"
+    }
+  },
+  "age_considerations": {
+    "children": {
+      "exposure": "Regional variations in family control and social exposure",
+      "education": "Schools provide some education about appropriate language",
+      "consequences": "Immediate disciplinary action for inappropriate usage",
+      "gesture_learning": "Children often learn hand gestures before understanding verbal profanity"
+    },
+    "adolescents": {
+      "peer_pressure": "High usage for social acceptance and identity formation",
+      "rebellion": "Often use profanity to rebel against traditional authority",
+      "creativity": "Peak period for creative profanity combination formation",
+      "regional_identity": "Adolescents often embrace regional profanity as identity marker"
+    },
+    "adults": {
+      "professional_impact": "Career consequences vary by industry and region",
+      "social_navigation": "Must carefully navigate regional and social context",
+      "gesture_fluency": "Adult profanity includes mastery of gesture integration",
+      "parenting_role": "Often hypocritical - use but restrict children's usage"
+    },
+    "elderly": {
+      "traditional_values": "Generally very low tolerance, especially for blasphemy",
+      "regional_patterns": "Southern elderly more conservative than Northern",
+      "wartime_generation": "May have different relationship with authority and language",
+      "religious_sensitivity": "Often most sensitive to religious profanity"
+    }
+  },
+  "gender_dynamics": {
+    "traditional_patterns": {
+      "gendered_expectations": "Traditional expectations for women to use less profanity",
+      "double_standards": "Same language more criticized when used by women",
+      "maternal_respect": "Mother-related insults extremely serious across all regions",
+      "family_honor": "Women's language use affects family reputation more than men's"
+    },
+    "evolving_patterns": {
+      "feminist_linguistics": "Academic and social attention to sexist language patterns",
+      "generational_change": "Younger Italian women using profanity more openly",
+      "regional_differences": "Northern Italian women more likely to use strong language",
+      "gesture_equality": "Hand gesture profanity shows less gender discrimination"
+    },
+    "specific_considerations": {
+      "sexual_terms": "Female anatomy terms generally more taboo than male",
+      "targeting_patterns": "Terms specifically targeting women carry misogynistic weight",
+      "regional_variations": "Southern Italy maintains stronger gendered language expectations"
+    }
+  },
+  "regional_cultural_patterns": {
+    "northern_italy": {
+      "cultural_factors": [
+        "Industrial culture creates different workplace language norms",
+        "Less Catholic influence reduces religious profanity severity",
+        "Economic prosperity affects class-based language attitudes",
+        "Alpine culture influences in border regions"
+      ],
+      "unique_aspects": [
+        "More direct communication style similar to Germanic cultures",
+        "Industrial working-class profanity traditions",
+        "Lombard and Piedmontese dialect influences",
+        "Higher tolerance for workplace profanity"
+      ]
+    },
+    "central_italy": {
+      "cultural_factors": [
+        "Roman influence creates balanced linguistic patterns",
+        "Vatican proximity affects religious sensitivity in some areas",
+        "Tourist industry influences public language standards",
+        "Standard Italian center moderates regional extremes"
+      ],
+      "unique_aspects": [
+        "Roman dialect creates distinctive profanity patterns",
+        "Renaissance cultural heritage affects artistic language use",
+        "Government center creates formal language awareness",
+        "Tourist accommodation affects public behavior"
+      ]
+    },
+    "southern_italy": {
+      "cultural_factors": [
+        "Strong Catholic cultural influence increases blasphemy severity",
+        "Traditional family honor culture affects language use",
+        "Economic challenges create specific linguistic tensions",
+        "Greek and Arabic historical influences"
+      ],
+      "unique_aspects": [
+        "Family honor traditions make maternal insults extremely serious",
+        "Religious profanity carries much greater weight than North",
+        "Traditional gender roles affect language expectations",
+        "Regional pride creates resistance to Northern linguistic influence"
+      ]
+    },
+    "sicily": {
+      "cultural_factors": [
+        "Sicilian language creates completely distinct profanity system",
+        "Island culture isolation preserves unique linguistic patterns",
+        "Historical Arabic, Norman, and Spanish influences",
+        "Mafia cultural legacy creates specific linguistic taboos"
+      ],
+      "unique_aspects": [
+        "Sicilian profanity often incomprehensible to mainland Italians",
+        "Strong cultural identity affects language attitudes",
+        "Traditional Catholic values maintain religious sensitivity",
+        "Tourism creates linguistic contact with standard Italian"
+      ]
+    },
+    "sardinia": {
+      "cultural_factors": [
+        "Sardinian language substrate creates unique patterns",
+        "Island identity affects reception of mainland profanity",
+        "Pastoral culture maintains traditional conservative values",
+        "Tourism industry creates linguistic contact effects"
+      ],
+      "unique_aspects": [
+        "Sardinian profanity system distinct from Italian",
+        "Strong regional identity affects language loyalty",
+        "Traditional shepherding culture influences",
+        "Economic relationship with mainland affects language attitudes"
+      ]
+    }
+  },
+  "situational_appropriateness": {
+    "celebratory": {
+      "acceptable": ["Cazzo sì!", "Porca puttana, che bello!", "Madonna che figata!"],
+      "context": "Joy and excitement make moderate profanity more acceptable",
+      "regional_variations": "Northern Italy more tolerant of celebratory blasphemy",
+      "gesture_accompaniment": "Celebratory gestures often accompany verbal profanity"
+    },
+    "frustration": {
+      "acceptable": ["Merda!", "Cazzo!", "Madonna mia!"],
+      "context": "Emotional release often excused in private settings",
+      "escalation_risk": "Can rapidly escalate to more severe blasphemy",
+      "regional_patterns": "Southern Italy more understanding of frustration-based profanity"
+    },
+    "pain_surprise": {
+      "acceptable": ["Cazzo!", "Madonna!", "Merda!"],
+      "context": "Involuntary exclamations widely excused across regions",
+      "medical_settings": "Healthcare workers understand involuntary profanity",
+      "religious_context": "Even religious individuals often excuse pain-based profanity"
+    },
+    "humor": {
+      "acceptable": "Creative profanity highly valued for humor across Italy",
+      "context": "Comedy shows, friendly teasing, creative combinations appreciated",
+      "regional_appreciation": "Northern Italy particularly appreciates creative profanity humor",
+      "boundaries": "Humor doesn't excuse extreme blasphemy or hate speech"
+    },
+    "sports": {
+      "acceptable": "High tolerance for profanity in sports contexts",
+      "context": "Football (soccer) culture particularly tolerant",
+      "broadcasting": "Sports broadcasts still maintain professional standards",
+      "fan_culture": "Stadium culture allows extensive creative profanity"
+    },
+    "traffic": {
+      "acceptable": "Road rage profanity widely understood and somewhat tolerated",
+      "context": "Italian driving culture includes extensive gestural and verbal profanity",
+      "regional_variations": "Naples and Rome particularly known for traffic profanity",
+      "gesture_prominence": "Traffic situations heavily emphasize gestural profanity"
+    }
+  },
+  "consequences_and_sanctions": {
+    "social": {
+      "ostracism": "Inappropriate usage can lead to social exclusion, especially blasphemy",
+      "reputation": "Affects perceptions of education, family background, and respectability",
+      "relationship_damage": "Can permanently damage relationships, especially across generations",
+      "regional_marking": "Using wrong regional forms marks as cultural outsider"
+    },
+    "professional": {
+      "disciplinary_action": "Warnings, suspensions, termination possible",
+      "career_impact": "Can significantly limit advancement opportunities",
+      "industry_variation": "Creative industries more tolerant than business or government",
+      "regional_business": "Northern Italian business more tolerant than Southern"
+    },
+    "legal": {
+      "blasphemy_laws": "Public blasphemy can result in fines under Italian law",
+      "hate_speech": "Racial and homophobic slurs covered under Italian hate speech laws",
+      "public_disturbance": "Excessive public profanity can result in disturbing peace charges",
+      "workplace_harassment": "Sexual and discriminatory language prohibited in workplace"
+    },
+    "religious": {
+      "church_sanctions": "Religious communities may impose social sanctions",
+      "family_religious": "Religious families may impose severe social consequences",
+      "regional_religious": "Southern Italy maintains stronger religious social sanctions",
+      "vatican_influence": "Areas near Vatican may have stronger religious consequences"
+    }
+  },
+  "gesture_cultural_context": {
+    "cultural_significance": "Hand gestures integral to Italian profanity culture",
+    "learning_patterns": "Italians learn gestures as part of cultural profanity education",
+    "international_recognition": "Italian profanity gestures internationally recognized",
+    "substitution_function": "Gestures can completely replace verbal profanity",
+    "amplification_effect": "Gestures amplify verbal profanity severity",
+    "artistic_representation": "Italian cinema and art extensively feature gestural profanity",
+    "tourist_interaction": "Gesture profanity often part of Italian cultural experience for tourists",
+    "generational_transmission": "Gesture knowledge transmitted across generations as cultural heritage"
+  },
+  "special_italian_considerations": {
+    "blasphemy_hierarchy": {
+      "cultural_significance": "Elaborate religious profanity system unique to Italian culture",
+      "legal_implications": "Some blasphemy can violate Italian public decency laws",
+      "regional_sensitivity": "Dramatic North-South differences in blasphemy tolerance",
+      "historical_context": "Catholic cultural heritage creates complex blasphemy attitudes"
+    },
+    "regional_discrimination": {
+      "north_south_divide": "Profanity reflects and reinforces regional economic and cultural tensions",
+      "historical_context": "Unification history affects regional profanity attitudes",
+      "economic_implications": "Regional slurs carry economic and social class implications",
+      "political_consequences": "Regional discrimination language can affect political discourse"
+    },
+    "family_honor_culture": {
+      "southern_emphasis": "Southern Italian family honor culture affects profanity severity",
+      "maternal_sanctity": "Mother-related insults extremely serious across all regions",
+      "gender_implications": "Family honor affects women's language use more than men's",
+      "generational_conflict": "Traditional family honor clashes with modern language evolution"
+    },
+    "artistic_cultural_heritage": {
+      "literary_tradition": "Italian literature includes rich profanity traditions",
+      "cinematic_influence": "Italian cinema creates and reflects profanity cultural norms",
+      "comedic_traditions": "Commedia dell'arte and modern comedy extensively feature profanity",
+      "cultural_export": "Italian profanity culture exported globally through media and immigration"
+    }
+  }
+}

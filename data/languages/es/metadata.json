@@ -1,0 +1,182 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "es",
+  "language_info": {
+    "name": "Spanish",
+    "native_name": "Español",
+    "iso_codes": {
+      "iso_639_1": "es",
+      "iso_639_2": "spa",
+      "iso_639_3": "spa"
+    },
+    "family": "Indo-European > Italic > Romance > Ibero-Romance",
+    "speakers": {
+      "native": "~500 million",
+      "total": "~540 million",
+      "rank": "2nd most native speakers globally"
+    }
+  },
+  "regional_coverage": {
+    "primary_regions": [
+      {
+        "region": "spain",
+        "variant": "Peninsular Spanish",
+        "speakers": "~47 million",
+        "notes": "European Spanish, includes Andalusian and other regional variations"
+      },
+      {
+        "region": "mexico",
+        "variant": "Mexican Spanish",
+        "speakers": "~130 million",
+        "notes": "Largest Spanish-speaking population, significant dialectal variation"
+      },
+      {
+        "region": "argentina",
+        "variant": "Rioplatense Spanish",
+        "speakers": "~45 million",
+        "notes": "Includes Uruguay, distinctive voseo and Italian influence"
+      },
+      {
+        "region": "colombia",
+        "variant": "Colombian Spanish",
+        "speakers": "~50 million",
+        "notes": "Regional variations between coast, mountains, and plains"
+      },
+      {
+        "region": "venezuela",
+        "variant": "Venezuelan Spanish",
+        "speakers": "~30 million",
+        "notes": "Similar to Colombian, some unique regional features"
+      },
+      {
+        "region": "peru",
+        "variant": "Peruvian Spanish",
+        "speakers": "~26 million",
+        "notes": "Andean influence, significant indigenous language contact"
+      },
+      {
+        "region": "chile",
+        "variant": "Chilean Spanish",
+        "speakers": "~18 million",
+        "notes": "Distinctive phonological features and vocabulary"
+      }
+    ],
+    "coverage_notes": "Database focuses on major regional variants with highest speaker populations and most distinctive profanity patterns"
+  },
+  "linguistic_features": {
+    "phonological": [
+      "Distinction between /θ/ and /s/ in Spain vs merger in Latin America",
+      "Yeísmo: /ʎ/ and /ʝ/ merger in most regions",
+      "Aspiration and deletion of syllable-final /s/",
+      "Regional variation in /x/ realization"
+    ],
+    "morphological": [
+      "Grammatical gender affects profanity forms",
+      "Diminutives and augmentatives modify severity",
+      "Voseo in Argentina and some other regions",
+      "Rich verbal conjugation system"
+    ],
+    "syntactic": [
+      "Flexible word order allows for emphasis",
+      "Null subject parameter",
+      "Clitic climbing in compound tenses",
+      "Subjunctive mood usage varies regionally"
+    ],
+    "lexical": [
+      "Significant regional vocabulary differences",
+      "Indigenous language borrowings",
+      "Anglicisms varying by region and contact level",
+      "False friends between regions"
+    ]
+  },
+  "profanity_characteristics": {
+    "unique_features": [
+      "Gender agreement affects severity and usage",
+      "Diminutives can soften or intensify meaning",
+      "Creative compound insults highly valued",
+      "Regional variations in severity and acceptability",
+      "Religious and sexual profanity categories distinct",
+      "Mother-related insults universally serious"
+    ],
+    "cultural_factors": [
+      "Machismo culture affects gender-specific terms",
+      "Catholic influence on religious profanity",
+      "Formal/informal speech distinctions critical",
+      "Class-based language expectations",
+      "Generational differences in tolerance",
+      "Regional pride affects term acceptance"
+    ],
+    "comparison_to_english": [
+      "Generally more creative and elaborate",
+      "Sexual terms often more taboo",
+      "Religious profanity more varied",
+      "Regional differences more pronounced",
+      "Gender agreement creates complexity",
+      "Family honor concepts more important"
+    ]
+  },
+  "data_collection_methodology": {
+    "sources": [
+      "Academic sociolinguistic research",
+      "Regional dialectology studies",
+      "Cultural anthropology research",
+      "Media content analysis",
+      "Online community observations",
+      "Cross-regional comparative studies"
+    ],
+    "validation_approach": [
+      "Cross-reference with multiple regional sources",
+      "Verify severity levels across different communities",
+      "Check for evolving usage patterns",
+      "Validate gender and age appropriateness",
+      "Confirm legal and social consequences"
+    ],
+    "limitations": [
+      "Rapid language evolution in digital age",
+      "Difficulty accessing some regional variants",
+      "Potential researcher bias in severity assessment",
+      "Generational gaps in usage understanding",
+      "Political sensitivity around some terms"
+    ]
+  },
+  "ethical_considerations": {
+    "research_ethics": [
+      "Respect for cultural sensitivity across regions",
+      "Acknowledgment of harm potential",
+      "Transparent methodology and limitations",
+      "Appropriate academic and practical applications"
+    ],
+    "usage_guidelines": [
+      "Always provide cultural context warnings",
+      "Recognize severity variations by region",
+      "Respect community standards and norms",
+      "Consider generational and gender differences",
+      "Update regularly as language evolves"
+    ]
+  },
+  "quality_metrics": {
+    "completeness": "Covers major regions and profanity categories",
+    "accuracy": "Cross-validated with multiple sources and regions",
+    "cultural_sensitivity": "Reviewed for cultural appropriateness",
+    "currency": "Regular updates planned for evolving language",
+    "regional_balance": "Attempts to balance major Spanish-speaking regions"
+  },
+  "future_updates": {
+    "planned_additions": [
+      "More Caribbean Spanish variants",
+      "Central American regional patterns",
+      "US Latino/Hispanic community usage",
+      "Emerging internet and youth slang",
+      "LGBTQ+ community language evolution"
+    ],
+    "update_frequency": "Quarterly reviews, annual major updates",
+    "community_input": "Feedback mechanism for regional experts"
+  },
+  "technical_notes": {
+    "encoding": "UTF-8 with full diacritical mark support",
+    "collation": "Spanish alphabetical order with ñ placement",
+    "regex_patterns": "Accounts for accent mark variations",
+    "false_positive_handling": "Context-aware detection patterns"
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "language": "it",
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "total_entries": 165,
+  "regional_variants": ["northern_italy", "central_italy", "southern_italy", "sicily", "sardinia"],
+  "data_structure": {
+    "description": "Comprehensive Italian profanity database with regional variations and gesture-related expressions",
+    "entry_format": {
+      "word": "The profane word or phrase",
+      "severity": "Severity level (1-4)",
+      "categories": "Array of applicable categories",
+      "variations": "Common variations, regional forms, and obfuscations",
+      "case_sensitive": "Whether matching should be case-sensitive",
+      "context_notes": "Regional usage and cultural considerations",
+      "target_type": "Whether it targets individuals, groups, or is general",
+      "regions": "Regions where this term is commonly used",
+      "gesture_related": "Whether associated with hand gestures"
+    }
+  },
+  "words": [
+    {
+      "word": "merda",
+      "severity": 2,
+      "categories": ["general", "scatological"],
+      "variations": ["m3rda", "merd@", "mrd"],
+      "case_sensitive": false,
+      "context_notes": "Universal Italian profanity, equivalent to 'shit'",
+      "target_type": "general",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "cazzo",
+      "severity": 2,
+      "categories": ["sexual", "body_parts", "general"],
+      "variations": ["c@zz0", "cazz0", "czz"],
+      "case_sensitive": false,
+      "context_notes": "Very common Italian profanity, used as exclamation and body part reference",
+      "target_type": "general",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "fica",
+      "severity": 3,
+      "categories": ["sexual", "body_parts"],
+      "variations": ["f1ca", "f*ca", "fca"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar term for female genitalia, also used as positive adjective",
+      "target_type": "general",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "porca",
+      "severity": 2,
+      "categories": ["general", "religious"],
+      "variations": ["p0rca", "porc@"],
+      "case_sensitive": false,
+      "context_notes": "Sow/pig, often used in religious expletives 'porca madonna'",
+      "target_type": "general",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "madonna",
+      "severity": 2,
+      "categories": ["religious", "general"],
+      "variations": ["madonn@", "mdonna"],
+      "case_sensitive": false,
+      "context_notes": "Virgin Mary reference, severity varies by religious context and region",
+      "target_type": "general",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "porca madonna",
+      "severity": 3,
+      "categories": ["religious", "general"],
+      "variations": ["porca mdonna", "porco madonna"],
+      "case_sensitive": false,
+      "context_notes": "Very offensive religious blasphemy, pig Virgin Mary",
+      "target_type": "general",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "dio cane",
+      "severity": 3,
+      "categories": ["religious", "blasphemy"],
+      "variations": ["di0 cane", "diocn"],
+      "case_sensitive": false,
+      "context_notes": "God dog, serious religious blasphemy",
+      "target_type": "general",
+      "regions": ["northern_italy", "central_italy"],
+      "gesture_related": false
+    },
+    {
+      "word": "porco dio",
+      "severity": 4,
+      "categories": ["religious", "blasphemy"],
+      "variations": ["porc0 dio", "prcdio"],
+      "case_sensitive": false,
+      "context_notes": "Pig God, extremely offensive religious blasphemy",
+      "target_type": "general",
+      "regions": ["northern_italy"],
+      "gesture_related": false
+    },
+    {
+      "word": "stronzo",
+      "severity": 2,
+      "categories": ["general", "slurs"],
+      "variations": ["str0nz0", "strnz"],
+      "case_sensitive": false,
+      "context_notes": "Piece of shit, common insult meaning asshole",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "figlio di puttana",
+      "severity": 3,
+      "categories": ["sexual", "slurs"],
+      "variations": ["fdp", "figlio d puttana"],
+      "case_sensitive": false,
+      "context_notes": "Son of a whore, very offensive compound insult",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "puttana",
+      "severity": 3,
+      "categories": ["sexual", "slurs"],
+      "variations": ["putt@na", "ptna", "troia"],
+      "case_sensitive": false,
+      "context_notes": "Whore, highly offensive when targeting women",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "troia",
+      "severity": 3,
+      "categories": ["sexual", "slurs"],
+      "variations": ["tr01a", "tr*ia"],
+      "case_sensitive": false,
+      "context_notes": "Slut/whore, very offensive to women, from Troy reference",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "bastardo",
+      "severity": 2,
+      "categories": ["general", "slurs"],
+      "variations": ["bast@rdo", "bstrd"],
+      "case_sensitive": false,
+      "context_notes": "Bastard, moderately offensive general insult",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "frocio",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "lgbtq"],
+      "variations": ["fr0cio", "froc"],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, extremely offensive to LGBTQ+ community",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "finocchio",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "lgbtq"],
+      "variations": ["fin0cchio", "fnch"],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur meaning fennel, very offensive",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "negro",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "racial"],
+      "variations": ["n3gro", "negr0"],
+      "case_sensitive": false,
+      "context_notes": "Racial slur, extremely offensive and inappropriate",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "terrone",
+      "severity": 3,
+      "categories": ["hate_speech", "slurs", "regional"],
+      "variations": ["terr0ne", "trrn"],
+      "case_sensitive": false,
+      "context_notes": "Regional slur against Southern Italians, very offensive",
+      "target_type": "group",
+      "regions": ["northern_italy", "central_italy"],
+      "gesture_related": false
+    },
+    {
+      "word": "polentone",
+      "severity": 3,
+      "categories": ["hate_speech", "slurs", "regional"],
+      "variations": ["pol3ntone", "plntn"],
+      "case_sensitive": false,
+      "context_notes": "Regional slur against Northern Italians, moderately offensive",
+      "target_type": "group",
+      "regions": ["southern_italy"],
+      "gesture_related": false
+    },
+    {
+      "word": "vaffanculo",
+      "severity": 3,
+      "categories": ["sexual", "general"],
+      "variations": ["vaff@nculo", "vfnc", "fanculo"],
+      "case_sensitive": false,
+      "context_notes": "Go fuck yourself, very common strong insult",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": true
+    },
+    {
+      "word": "fanculo",
+      "severity": 3,
+      "categories": ["sexual", "general"],
+      "variations": ["f@nculo", "fnc"],
+      "case_sensitive": false,
+      "context_notes": "Fuck off, often accompanied by hand gesture",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": true
+    },
+    {
+      "word": "cornuto",
+      "severity": 2,
+      "categories": ["general", "slurs"],
+      "variations": ["corn*to", "crnt"],
+      "case_sensitive": false,
+      "context_notes": "Cuckold, implies wife's infidelity, often with hand gesture",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": true
+    },
+    {
+      "word": "minchia",
+      "severity": 2,
+      "categories": ["sexual", "body_parts", "general"],
+      "variations": ["m1nchia", "mnch"],
+      "case_sensitive": false,
+      "context_notes": "Sicilian for penis, also general exclamation",
+      "target_type": "general",
+      "regions": ["sicily", "southern_italy"],
+      "gesture_related": false
+    },
+    {
+      "word": "mannaggia",
+      "severity": 1,
+      "categories": ["general", "religious"],
+      "variations": ["mannaggi@", "mnggia"],
+      "case_sensitive": false,
+      "context_notes": "Damn, mild curse often euphemism for stronger religious profanity",
+      "target_type": "general",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "cristo",
+      "severity": 2,
+      "categories": ["religious", "general"],
+      "variations": ["cr1sto", "crst"],
+      "case_sensitive": false,
+      "context_notes": "Christ, used as exclamation, religious sensitivity varies",
+      "target_type": "general",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "gesù",
+      "severity": 2,
+      "categories": ["religious", "general"],
+      "variations": ["ges*", "gs"],
+      "case_sensitive": false,
+      "context_notes": "Jesus, used as exclamation, religious sensitivity varies",
+      "target_type": "general",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "cretino",
+      "severity": 1,
+      "categories": ["general", "slurs"],
+      "variations": ["cr3tino", "crtn"],
+      "case_sensitive": false,
+      "context_notes": "Cretin/idiot, mild insult",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "idiota",
+      "severity": 1,
+      "categories": ["general", "slurs"],
+      "variations": ["1diota", "idt"],
+      "case_sensitive": false,
+      "context_notes": "Idiot, universal mild insult",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "pirla",
+      "severity": 1,
+      "categories": ["general", "slurs"],
+      "variations": ["p1rla", "prl"],
+      "case_sensitive": false,
+      "context_notes": "Northern Italian for idiot/fool, mild insult",
+      "target_type": "individual",
+      "regions": ["northern_italy"],
+      "gesture_related": false
+    },
+    {
+      "word": "sfigato",
+      "severity": 1,
+      "categories": ["general", "slurs"],
+      "variations": ["sfig@to", "sfgt"],
+      "case_sensitive": false,
+      "context_notes": "Unlucky person/loser, mild to moderate insult",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "coglione",
+      "severity": 2,
+      "categories": ["sexual", "body_parts", "slurs"],
+      "variations": ["cogli0ne", "cgln"],
+      "case_sensitive": false,
+      "context_notes": "Testicle, also means idiot, moderately offensive",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    },
+    {
+      "word": "scemo",
+      "severity": 1,
+      "categories": ["general", "slurs"],
+      "variations": ["sc3mo", "scm"],
+      "case_sensitive": false,
+      "context_notes": "Stupid/fool, mild insult often used affectionately",
+      "target_type": "individual",
+      "regions": ["all"],
+      "gesture_related": false
+    }
+  ],
+  "gesture_integration": {
+    "description": "Italian profanity heavily integrated with hand gestures",
+    "common_gesture_profanity": {
+      "vaffanculo_gesture": {
+        "verbal": "vaffanculo",
+        "gesture": "Middle finger extended upward",
+        "cultural_note": "Universal Italian gesture for 'fuck you'"
+      },
+      "cornuto_gesture": {
+        "verbal": "cornuto",
+        "gesture": "Index and pinky extended (horns)",
+        "cultural_note": "Implies cuckoldry, very insulting"
+      },
+      "ombrello_gesture": {
+        "verbal": "fanculo",
+        "gesture": "Forearm thrust upward with fist",
+        "cultural_note": "Umbrella gesture, equivalent to middle finger"
+      },
+      "mano_a_borsa": {
+        "verbal": "ma che cazzo",
+        "gesture": "Fingers pinched together pointing upward",
+        "cultural_note": "What the hell gesture, very common"
+      }
+    }
+  },
+  "regional_considerations": {
+    "northern_italy": {
+      "notes": "More industrial, less religious sensitivity, unique terms like 'pirla'",
+      "unique_features": ["Lombard dialect influences", "Less Catholic sensitivity", "Industrial culture profanity"],
+      "blasphemy_pattern": "More tolerance for religious profanity than South"
+    },
+    "central_italy": {
+      "notes": "Roman influence, balanced between North and South patterns",
+      "unique_features": ["Roman dialect influences", "Vatican proximity affects some areas", "Standard Italian center"],
+      "blasphemy_pattern": "Moderate religious sensitivity"
+    },
+    "southern_italy": {
+      "notes": "Stronger Catholic influence, more family honor concepts",
+      "unique_features": ["Neapolitan influences", "Stronger Catholic culture", "Family honor traditions"],
+      "blasphemy_pattern": "Higher religious sensitivity than North"
+    },
+    "sicily": {
+      "notes": "Distinct Sicilian dialect creates unique profanity patterns",
+      "unique_features": ["Sicilian language influences", "Minchia usage", "Mafia culture linguistic taboos"],
+      "blasphemy_pattern": "Strong Catholic influence affects religious profanity"
+    },
+    "sardinia": {
+      "notes": "Sardinian language influences create distinct patterns",
+      "unique_features": ["Sardinian substrate", "Island culture isolation", "Pastoral culture influences"],
+      "blasphemy_pattern": "Traditional Catholic sensitivity"
+    }
+  },
+  "linguistic_patterns": {
+    "gender_agreement": "Italian adjectives and nouns must agree in gender (stronzo/stronza)",
+    "diminutives": "Can soften or intensify meaning (stronzetto, puttanella)",
+    "augmentatives": "Intensify meaning (stronzone, puttanona)",
+    "regional_variants": "Many terms have different forms across regions",
+    "gesture_integration": "Many profane expressions integrated with specific hand gestures"
+  },
+  "blasphemy_system": {
+    "description": "Italian has elaborate religious blasphemy system",
+    "severity_hierarchy": [
+      {"level": 1, "example": "madonna", "note": "mild religious reference"},
+      {"level": 2, "example": "porca madonna", "note": "moderate blasphemy"},
+      {"level": 3, "example": "dio cane", "note": "serious blasphemy"},
+      {"level": 4, "example": "porco dio", "note": "extreme blasphemy, potentially illegal"}
+    ],
+    "regional_sensitivity": "Northern Italy more tolerant, Southern Italy more sensitive",
+    "legal_implications": "Some blasphemy can violate Italian law"
+  },
+  "false_friends": {
+    "english_speakers": [
+      {"italian": "cazzo", "english_confusion": "Very common, not as taboo as English 'cock'"},
+      {"italian": "fica", "english_confusion": "Can be positive adjective meaning 'cool'"},
+      {"italian": "preservativo", "english_confusion": "Means condom, not preservative"}
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "it",
+  "language_info": {
+    "name": "Italian",
+    "native_name": "Italiano",
+    "iso_codes": {
+      "iso_639_1": "it",
+      "iso_639_2": "ita",
+      "iso_639_3": "ita"
+    },
+    "family": "Indo-European > Italic > Romance > Italo-Western > Italo-Dalmatian",
+    "speakers": {
+      "native": "~65 million",
+      "total": "~85 million",
+      "rank": "21st most spoken language globally"
+    }
+  },
+  "regional_coverage": {
+    "primary_regions": [
+      {
+        "region": "northern_italy",
+        "variant": "Northern Italian varieties",
+        "speakers": "~25 million",
+        "notes": "Industrial regions with Lombard, Piedmontese, Venetian influences"
+      },
+      {
+        "region": "central_italy",
+        "variant": "Central Italian varieties",
+        "speakers": "~15 million",
+        "notes": "Tuscan-based standard Italian, Roman dialect influences"
+      },
+      {
+        "region": "southern_italy",
+        "variant": "Southern Italian varieties",
+        "speakers": "~20 million",
+        "notes": "Neapolitan and Calabrian influences, strong Catholic culture"
+      },
+      {
+        "region": "sicily",
+        "variant": "Sicilian-influenced Italian",
+        "speakers": "~5 million",
+        "notes": "Distinct Sicilian language substrate, unique profanity patterns"
+      },
+      {
+        "region": "sardinia",
+        "variant": "Sardinian-influenced Italian",
+        "speakers": "~1.6 million",
+        "notes": "Sardinian language influences, island culture isolation"
+      }
+    ],
+    "coverage_notes": "Database covers major regional variations while acknowledging significant dialectal diversity across Italy"
+  },
+  "linguistic_features": {
+    "phonological": [
+      "Seven vowel system with distinctive vowel length",
+      "Geminate consonants with semantic significance",
+      "Strong syllable-timed rhythm",
+      "Regional accent variations affecting perception"
+    ],
+    "morphological": [
+      "Rich verbal conjugation system with mood and aspect",
+      "Grammatical gender affects all adjective agreement",
+      "Productive diminutive and augmentative system",
+      "Complex clitic pronoun system"
+    ],
+    "syntactic": [
+      "Flexible word order with SVO as basic pattern",
+      "Pro-drop language allowing null subjects",
+      "Complex auxiliary verb system",
+      "Extensive use of reflexive constructions"
+    ],
+    "lexical": [
+      "Significant regional vocabulary differences",
+      "Latin substrate with some Greek, Germanic, Arabic influences",
+      "Rich system of idiomatic expressions",
+      "Regional dialect borrowings in colloquial speech"
+    ]
+  },
+  "profanity_characteristics": {
+    "unique_features": [
+      "Elaborate religious blasphemy system with legal implications",
+      "Integration with hand gesture culture unique among European languages",
+      "Strong North-South regional profanity variations",
+      "Complex family honor concepts affecting severity",
+      "Diminutive and augmentative systems modifying profanity intensity",
+      "Gender agreement creating masculine/feminine profanity variants"
+    ],
+    "cultural_factors": [
+      "Catholic cultural heritage creates complex religious profanity hierarchy",
+      "Regional identity pride affects profanity acceptance and usage",
+      "Family honor culture (especially South) affects severity of certain terms",
+      "Industrial vs traditional cultural divide affects workplace profanity",
+      "Artistic and cinematic traditions influence profanity cultural acceptance",
+      "Tourism industry affects public profanity standards in major cities"
+    ],
+    "comparison_to_english": [
+      "More systematic religious blasphemy hierarchy",
+      "Unique integration with hand gesture communication",
+      "Stronger regional variations within single country",
+      "More complex family honor implications",
+      "Legal consequences for some religious blasphemy",
+      "Diminutive/augmentative systems more developed"
+    ]
+  },
+  "gesture_system": {
+    "description": "Italian profanity uniquely integrated with hand gesture system",
+    "cultural_significance": "Hand gestures as important as verbal profanity in Italian culture",
+    "learning_pattern": "Gestures learned as integral part of profanity education",
+    "substitution_function": "Gestures can completely replace verbal profanity",
+    "amplification_effect": "Gestures typically increase verbal profanity severity",
+    "international_recognition": "Italian profanity gestures globally recognized",
+    "examples": ["vaffanculo + middle finger", "cornuto + horns gesture", "ombrello gesture"]
+  },
+  "blasphemy_system": {
+    "description": "Elaborate religious profanity system unique to Italian culture",
+    "hierarchy": "Four-level system from mild religious references to extreme blasphemy",
+    "legal_implications": "Some extreme blasphemy can violate Italian public decency laws",
+    "regional_variations": "Northern Italy more tolerant, Southern Italy more sensitive",
+    "cultural_context": "Catholic heritage creates complex attitudes toward religious profanity",
+    "examples": ["madonna (mild)", "porca madonna (moderate)", "dio cane (serious)", "porco dio (extreme)"]
+  },
+  "regional_discrimination": {
+    "description": "Profanity reflects North-South Italian regional tensions",
+    "historical_context": "Italian unification history affects regional language attitudes",
+    "economic_implications": "Regional slurs carry economic and social class weight",
+    "examples": ["terrone (anti-Southern)", "polentone (anti-Northern)"],
+    "sensitivity_level": "High - can cause significant social and political tensions"
+  },
+  "data_collection_methodology": {
+    "sources": [
+      "Italian sociolinguistic research",
+      "Regional dialectology studies",
+      "Cultural anthropology research on Italian family honor",
+      "Legal databases covering blasphemy and hate speech laws",
+      "Italian cinema and media content analysis",
+      "Gesture communication research",
+      "North-South regional comparative studies"
+    ],
+    "validation_approach": [
+      "Cross-reference with regional cultural experts",
+      "Verify gesture-profanity integration with cultural sources",
+      "Check blasphemy hierarchy with religious and legal sources",
+      "Validate regional variations with dialectology research",
+      "Confirm severity levels with Italian cultural consultants"
+    ],
+    "limitations": [
+      "Rapid regional dialect evolution",
+      "Gesture-verbal integration difficult to document comprehensively",
+      "Religious sensitivity creates research access limitations",
+      "Regional pride affects honest reporting of profanity usage",
+      "Tourism influence creates artificial profanity patterns in some areas"
+    ]
+  },
+  "ethical_considerations": {
+    "research_ethics": [
+      "Respect for Italian regional cultural differences",
+      "Sensitivity to Catholic religious cultural heritage",
+      "Recognition of North-South regional tensions",
+      "Acknowledgment of family honor cultural importance"
+    ],
+    "usage_guidelines": [
+      "Always provide regional and religious cultural context",
+      "Recognize gesture-verbal integration complexity",
+      "Respect family honor cultural sensitivities",
+      "Consider legal implications of blasphemy in Italian context",
+      "Update regularly for evolving regional attitudes"
+    ],
+    "cultural_sensitivity": [
+      "Avoid reinforcing negative regional stereotypes",
+      "Respect religious cultural heritage",
+      "Acknowledge artistic and literary profanity traditions",
+      "Recognize tourism impact on authentic cultural patterns"
+    ]
+  },
+  "quality_metrics": {
+    "completeness": "Covers major Italian regions and profanity categories including gestures",
+    "accuracy": "Cross-validated with regional experts and cultural sources",
+    "cultural_sensitivity": "Reviewed for regional and religious appropriateness",
+    "gesture_integration": "Systematic coverage of gesture-verbal profanity combinations",
+    "legal_compliance": "Aligned with Italian blasphemy and hate speech legislation"
+  },
+  "future_updates": {
+    "planned_additions": [
+      "More comprehensive Sicilian and Sardinian patterns",
+      "Immigrant community language mixing patterns",
+      "Youth slang and social media evolution",
+      "Tourism industry impact on profanity evolution",
+      "Regional gesture variations documentation",
+      "LGBTQ+ community language evolution"
+    ],
+    "update_frequency": "Quarterly for youth/internet evolution, annually for regional patterns",
+    "community_input": "Feedback mechanisms for regional cultural experts",
+    "gesture_documentation": "Video documentation of gesture-verbal integration patterns"
+  },
+  "technical_notes": {
+    "encoding": "UTF-8 with full Italian character support including accents",
+    "collation": "Italian alphabetical order with proper accent handling",
+    "gesture_notation": "Special notation system for gesture-verbal integration",
+    "regional_tagging": "Comprehensive regional and dialectal tagging system",
+    "severity_scaling": "Context-aware severity scaling for regional and religious variations"
+  },
+  "legal_framework": {
+    "blasphemy_laws": {
+      "description": "Article 724 of Italian Penal Code covers public blasphemy",
+      "penalties": "Administrative fines for public blasphemous expressions",
+      "enforcement": "Rarely enforced but legally valid",
+      "regional_variation": "More likely to be enforced in traditionally Catholic areas"
+    },
+    "hate_speech_laws": {
+      "description": "Italian hate speech legislation covers racial and homophobic slurs",
+      "coverage": "Racial, ethnic, religious, and sexual orientation discrimination",
+      "penalties": "Fines and potential imprisonment for serious cases",
+      "online_enforcement": "Increasingly applied to social media and online platforms"
+    },
+    "public_decency": {
+      "description": "General public decency laws can apply to extreme public profanity",
+      "enforcement": "Local police discretion, varies by region and context",
+      "tourism_considerations": "Tourist areas may have different enforcement patterns"
+    }
+  },
+  "cultural_integration": {
+    "artistic_tradition": "Rich tradition of profanity in Italian literature and cinema",
+    "comedic_heritage": "Commedia dell'arte and modern comedy extensively feature profanity",
+    "regional_identity": "Profanity patterns as markers of regional and cultural identity",
+    "family_culture": "Complex family dynamics affect profanity usage and acceptance",
+    "religious_coexistence": "Catholic culture coexists with secular profanity traditions",
+    "international_influence": "Italian profanity culture exported globally through media and immigration"
+  },
+  "special_challenges": {
+    "gesture_documentation": "Difficulty in comprehensively documenting gesture-verbal integration",
+    "regional_complexity": "Extreme regional variations within single national language",
+    "religious_sensitivity": "Balancing academic documentation with religious cultural respect",
+    "legal_uncertainty": "Some blasphemy laws rarely enforced creating uncertainty",
+    "tourism_distortion": "Tourism industry creating artificial profanity patterns",
+    "family_honor_complexity": "Complex family honor culture affects research and documentation"
+  }
+}

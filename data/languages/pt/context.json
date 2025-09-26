@@ -1,0 +1,404 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "context_system": {
+    "description": "Cultural and contextual usage patterns for Portuguese profanity across Lusophone regions",
+    "methodology": "Sociolinguistic analysis of Portuguese profanity usage across different Portuguese-speaking countries and social contexts"
+  },
+  "cultural_contexts": {
+    "lusophone_colonial_legacy": {
+      "name": "Colonial Legacy Impact",
+      "description": "How Portuguese colonial history affects modern profanity usage and perception",
+      "key_characteristics": [
+        "European Portuguese as historical prestige variety",
+        "Brazilian Portuguese innovation and liberation",
+        "African Portuguese countries maintaining formal Portuguese norms",
+        "Class-based language attitudes inherited from colonial period"
+      ],
+      "contemporary_impact": [
+        "Brazil leads in linguistic innovation and tolerance",
+        "Portugal maintains traditional conservative attitudes",
+        "African countries balance between formal and informal usage",
+        "Diaspora communities preserve home country norms"
+      ]
+    },
+    "catholic_cultural_influence": {
+      "name": "Catholic Cultural Heritage",
+      "description": "Impact of Catholic Christianity on Portuguese profanity taboos",
+      "historical_context": [
+        "Catholic Church influence on language norms",
+        "Religious profanity particularly taboo",
+        "Confession culture affecting guilt around language",
+        "Saints' names used as mild alternatives"
+      ],
+      "modern_secularization": [
+        "Urban areas more secular, less sensitive",
+        "Rural areas maintain strong religious influence",
+        "Generational divide in religious language sensitivity",
+        "Regional variations in Catholic influence strength"
+      ]
+    },
+    "machismo_gender_dynamics": {
+      "name": "Machismo and Gender Expectations",
+      "description": "Traditional gender roles affecting profanity usage and perception",
+      "traditional_expectations": [
+        "Men expected to use stronger language",
+        "Women expected to maintain linguistic purity",
+        "Double standards in social acceptability",
+        "Honor culture affecting family-related insults"
+      ],
+      "contemporary_changes": [
+        "Feminist movements challenging traditional norms",
+        "Urban educated women using profanity more freely",
+        "Youth culture reducing gender-based language restrictions",
+        "Regional variations in gender expectation strength"
+      ]
+    }
+  },
+  "social_contexts": {
+    "brazilian_informal_culture": {
+      "description": "Brazilian Portuguese casual and permissive profanity culture",
+      "characteristics": [
+        "High tolerance for anatomical references",
+        "Creative and humorous profanity use",
+        "Integration into everyday casual conversation",
+        "Carnival culture influence on linguistic freedom"
+      ],
+      "severity_modifiers": {
+        "anatomical_terms": "-1.0 (much more acceptable)",
+        "general_profanity": "-0.5",
+        "sexual_references": "-0.3",
+        "hate_speech": "no change (still severe)"
+      },
+      "social_functions": [
+        "Bonding and authenticity marker",
+        "Emotional expression and emphasis",
+        "Humor and creativity demonstration",
+        "Class solidarity signaling"
+      ]
+    },
+    "portuguese_formal_tradition": {
+      "description": "European Portuguese more conservative approach",
+      "characteristics": [
+        "Stronger formal/informal distinction",
+        "Traditional respect for linguistic norms",
+        "Regional class-based usage patterns",
+        "Educational system reinforcement of standards"
+      ],
+      "severity_modifiers": {
+        "all_profanity": "+0.3",
+        "public_usage": "+0.5",
+        "formal_contexts": "+1.0"
+      },
+      "regional_variations": {
+        "lisbon": "More cosmopolitan, slightly more tolerant",
+        "northern_regions": "More traditional and conservative",
+        "rural_areas": "Very conservative attitudes"
+      }
+    },
+    "african_portuguese_conservatism": {
+      "description": "African Portuguese-speaking countries' approach",
+      "characteristics": [
+        "Formal Portuguese norms maintained",
+        "Local language influence on taboos",
+        "Community-based social control",
+        "Respect for elders affecting language use"
+      ],
+      "cultural_factors": {
+        "angola": [
+          "Portuguese mixed with local languages",
+          "Community hierarchy affects language use",
+          "Urban/rural divide significant"
+        ],
+        "mozambique": [
+          "Islamic influence in northern regions",
+          "Portuguese as prestige language",
+          "Tribal languages affect Portuguese usage"
+        ]
+      }
+    },
+    "internet_global_culture": {
+      "description": "Online Portuguese profanity across all regions",
+      "characteristics": [
+        "Brazilian dominance in Portuguese internet content",
+        "Meme culture spreading Brazilian forms",
+        "Gaming communities mixing languages",
+        "Social media platform-specific adaptations"
+      ],
+      "severity_modifiers": {
+        "meme_usage": "-0.8",
+        "gaming_contexts": "-0.6",
+        "social_media": "-0.4",
+        "educational_platforms": "+0.3"
+      },
+      "cross_cultural_influence": [
+        "Brazilian terms spreading to other Portuguese speakers",
+        "English profanity mixing with Portuguese",
+        "Spanish influence in border regions",
+        "Global youth culture affecting local norms"
+      ]
+    },
+    "workplace_professional": {
+      "description": "Professional environment language expectations",
+      "characteristics": [
+        "Zero tolerance in formal business",
+        "Industry-specific variations",
+        "Hierarchy-based usage permissions",
+        "International business influence"
+      ],
+      "industry_variations": {
+        "banking_finance": "Extremely conservative",
+        "creative_industries": "More tolerant",
+        "construction_manual": "Higher tolerance",
+        "education": "Very strict standards",
+        "healthcare": "Professional standards maintained"
+      },
+      "severity_modifiers": {
+        "formal_meetings": "+2.0",
+        "casual_break_conversation": "+0.5",
+        "client_facing": "+1.5"
+      }
+    },
+    "family_domestic": {
+      "description": "Family and household language norms",
+      "characteristics": [
+        "Strong generational differences",
+        "Children's presence affects usage",
+        "Extended family considerations",
+        "Religious family values influence"
+      ],
+      "generational_dynamics": {
+        "grandparents_present": "+1.0 severity modifier",
+        "children_present": "+1.5 severity modifier",
+        "teenagers_only": "-0.3 severity modifier",
+        "young_adults": "baseline"
+      },
+      "regional_family_patterns": {
+        "brazil": "More permissive, especially urban families",
+        "portugal": "Traditional respect patterns maintained",
+        "african_countries": "Strong elder respect requirements"
+      }
+    }
+  },
+  "generational_patterns": {
+    "elderly_60plus": {
+      "characteristics": [
+        "Strong adherence to traditional norms",
+        "Religious influence on language attitudes",
+        "Formal Portuguese education influence",
+        "Gender-based usage expectations"
+      ],
+      "usage_patterns": [
+        "Prefer euphemistic alternatives",
+        "Strong reaction to others' profanity use",
+        "Religious alternatives when frustrated",
+        "Formal register maintenance"
+      ],
+      "severity_perception": "+0.5 to +0.8 across all categories"
+    },
+    "middle_aged_40_60": {
+      "characteristics": [
+        "Bridge generation between traditional and modern",
+        "Professional responsibility awareness",
+        "Parental role affecting language choices",
+        "Regional variation significance"
+      ],
+      "usage_patterns": [
+        "Context-dependent code-switching",
+        "Professional vs personal language distinction",
+        "Authority figure respect maintenance",
+        "Children's influence on home language"
+      ],
+      "severity_perception": "+0.2 to +0.3 across most categories"
+    },
+    "young_adults_20_40": {
+      "characteristics": [
+        "Internet culture integration",
+        "Global influence acceptance",
+        "Gender equality attitudes",
+        "Creative language play"
+      ],
+      "usage_patterns": [
+        "Platform-specific language adaptation",
+        "International profanity mixing",
+        "Meme culture participation",
+        "Professional context awareness"
+      ],
+      "severity_perception": "-0.2 to -0.4, especially for traditional profanity"
+    },
+    "teenagers_13_20": {
+      "characteristics": [
+        "Heavy social media influence",
+        "Peer pressure language adoption",
+        "Authority rebellion through language",
+        "International culture integration"
+      ],
+      "usage_patterns": [
+        "Creative obfuscation techniques",
+        "Platform-specific adaptations",
+        "Group identity through language choices",
+        "English profanity adoption"
+      ],
+      "severity_perception": "-0.5 to -0.8, normalized through online exposure"
+    }
+  },
+  "regional_contexts": {
+    "brazil_regions": {
+      "southeast_urban": {
+        "characteristics": [
+          "São Paulo/Rio cosmopolitan attitudes",
+          "High tolerance for casual profanity",
+          "Creative language innovation",
+          "Class-based usage variations"
+        ],
+        "severity_modifier": "-0.4 to -0.6"
+      },
+      "northeast": {
+        "characteristics": [
+          "Strong regional identity",
+          "Unique local profanity forms",
+          "Traditional family values mixed with casual attitudes",
+          "Music culture influence"
+        ],
+        "severity_modifier": "-0.2 to -0.3"
+      },
+      "south": {
+        "characteristics": [
+          "European immigration influence",
+          "More conservative than southeast",
+          "Gaucho culture linguistic patterns",
+          "Regional pride in language"
+        ],
+        "severity_modifier": "+0.1 to +0.2"
+      },
+      "north_center_west": {
+        "characteristics": [
+          "Agricultural culture influence",
+          "Indigenous language mixing",
+          "Frontier mentality affecting language",
+          "Rural conservatism"
+        ],
+        "severity_modifier": "+0.2 to +0.4"
+      }
+    },
+    "portugal_regions": {
+      "lisbon_area": {
+        "characteristics": [
+          "Cosmopolitan capital attitudes",
+          "International influence",
+          "Educational elite concentration",
+          "Tourism industry language exposure"
+        ],
+        "severity_modifier": "-0.2 to -0.3"
+      },
+      "northern_regions": {
+        "characteristics": [
+          "Traditional conservative values",
+          "Strong Catholic influence",
+          "Rural community values",
+          "Regional dialect preservation"
+        ],
+        "severity_modifier": "+0.3 to +0.5"
+      },
+      "central_coastal": {
+        "characteristics": [
+          "Tourism industry influence",
+          "Balance between traditional and modern",
+          "University towns affect attitudes",
+          "Fishing/maritime culture"
+        ],
+        "severity_modifier": "baseline to +0.2"
+      }
+    },
+    "african_portuguese": {
+      "angola": {
+        "characteristics": [
+          "Post-conflict society rebuilding norms",
+          "Portuguese as prestige language",
+          "Local language influence",
+          "Urban/rural divide significant"
+        ],
+        "severity_modifier": "+0.3 to +0.5"
+      },
+      "mozambique": {
+        "characteristics": [
+          "Islamic influence in north",
+          "Portuguese colonial legacy",
+          "Tribal language interaction",
+          "Coastal/inland cultural differences"
+        ],
+        "severity_modifier": "+0.4 to +0.6"
+      }
+    }
+  },
+  "special_usage_patterns": {
+    "humor_creativity": {
+      "description": "Profanity used for comedic and creative purposes",
+      "contexts": [
+        "Brazilian comedy shows and standups",
+        "Carnival songs and chants",
+        "Internet memes and viral content",
+        "Friend group bonding humor"
+      ],
+      "social_tolerance": "Much higher tolerance for creative/humorous usage",
+      "severity_reduction": "-0.5 to -1.0 when clearly humorous"
+    },
+    "emotional_expression": {
+      "description": "Profanity as authentic emotional release",
+      "contexts": [
+        "Pain/injury reactions",
+        "Extreme frustration or anger",
+        "Surprise or shock responses",
+        "Passionate argument participation"
+      ],
+      "cultural_acceptance": "Higher tolerance for genuine emotional expression",
+      "regional_variations": "Brazil much more accepting than Portugal or African countries"
+    },
+    "social_bonding": {
+      "description": "Profanity as group membership and intimacy marker",
+      "functions": [
+        "Male bonding in informal settings",
+        "Youth group identity formation",
+        "Working class solidarity expression",
+        "Urban culture authenticity signaling"
+      ],
+      "context_dependency": "Appropriate within group, offensive to outsiders"
+    },
+    "linguistic_creativity": {
+      "description": "Artistic and literary profanity usage",
+      "contexts": [
+        "Brazilian literature and poetry",
+        "Music lyrics and rap culture",
+        "Theater and performance art",
+        "Internet creative content"
+      ],
+      "cultural_value": "Artistic merit can justify otherwise offensive language"
+    }
+  },
+  "filtering_considerations": {
+    "cultural_sensitivity": [
+      "Regional differences require flexible approaches",
+      "Generational gaps need consideration",
+      "Gender expectations vary significantly",
+      "Religious sensitivities affect acceptability"
+    ],
+    "context_dependency": [
+      "Same word, different severity by region and generation",
+      "Creative/humorous usage more acceptable",
+      "Educational content requires different standards",
+      "Professional vs personal context matters"
+    ],
+    "platform_considerations": [
+      "Brazilian-dominated Portuguese internet content",
+      "Educational platforms need stricter filtering",
+      "Social media allows user preference control",
+      "International business requires conservative approach"
+    ],
+    "false_positive_risks": [
+      "Academic linguistic research",
+      "Literary and artistic analysis",
+      "Historical and cultural documentation",
+      "Language education materials"
+    ]
+  }
+}

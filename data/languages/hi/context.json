@@ -1,0 +1,473 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "context_system": {
+    "description": "Cultural and contextual usage patterns for Hindi profanity across Indian society and diaspora",
+    "methodology": "Sociolinguistic analysis of Hindi profanity usage across different Indian social contexts and cultural dynamics"
+  },
+  "cultural_contexts": {
+    "indian_family_structure": {
+      "name": "Traditional Indian Family System",
+      "description": "Joint family structure and hierarchical relationships affecting language usage",
+      "key_characteristics": [
+        "Respect for elders (guru-disciple tradition)",
+        "Family honor (izzat) central to social identity",
+        "Gender-based language expectations",
+        "Collective responsibility for individual behavior"
+      ],
+      "language_implications": [
+        "Extreme deference required in elder presence",
+        "Family insults most severe category of profanity",
+        "Children expected to use sanskaari (cultured) language",
+        "Extended family includes aunts, uncles, cousins in language considerations"
+      ],
+      "contemporary_changes": [
+        "Nuclear families becoming more common in cities",
+        "Western influence challenging traditional hierarchies",
+        "Generational conflicts over language freedom",
+        "Economic independence affecting traditional respect patterns"
+      ]
+    },
+    "hindu_dharmic_values": {
+      "name": "Hindu Dharmic and Sanskaari Culture",
+      "description": "Hindu cultural values emphasizing righteous speech and behavior",
+      "core_principles": [
+        "Ahimsa (non-violence) including verbal non-violence",
+        "Satsang (good company) including pure speech",
+        "Dharmic speech as spiritual practice",
+        "Karma implications of speech and language"
+      ],
+      "linguistic_expectations": [
+        "Pure speech (shuddh bhasha) as spiritual ideal",
+        "Religious contexts require especially pure language",
+        "Sanskaari (cultured) behavior including language use",
+        "Guru-disciple traditions emphasizing respectful speech"
+      ],
+      "modern_adaptations": [
+        "Urban Hindus balancing traditional values with modern life",
+        "Varying levels of religious observance affecting language",
+        "Bollywood influence creating tension with traditional values",
+        "English education challenging traditional Sanskrit-based values"
+      ]
+    },
+    "islamic_cultural_influence": {
+      "name": "Islamic Cultural Values in Hindi-speaking Muslims",
+      "description": "Islamic cultural values affecting Hindi profanity usage among Muslim populations",
+      "key_values": [
+        "Adab (respectful behavior) including speech",
+        "Family honor especially regarding women",
+        "Religious prohibition of foul language",
+        "Community responsibility for moral behavior"
+      ],
+      "language_patterns": [
+        "Urdu-influenced Hindi in Muslim communities",
+        "Religious alternatives to profanity",
+        "Strong family honor concepts affecting severity",
+        "Islamic greetings and expressions preferred"
+      ],
+      "contemporary_dynamics": [
+        "Hindu-Muslim cultural exchange in language",
+        "Bollywood creating shared cultural references",
+        "Educational integration affecting language patterns",
+        "Economic factors overriding some traditional restrictions"
+      ]
+    },
+    "caste_social_hierarchy": {
+      "name": "Caste System and Social Stratification",
+      "description": "How traditional caste hierarchy affects language usage and profanity perception",
+      "traditional_patterns": [
+        "Upper caste expectation of refined language",
+        "Caste-based occupation affecting language norms",
+        "Untouchability concepts extending to language",
+        "Brahminical emphasis on pure speech"
+      ],
+      "contemporary_challenges": [
+        "Dalit movements challenging linguistic hierarchies",
+        "Reservation policies affecting social dynamics",
+        "Urban mixing breaking down traditional barriers",
+        "Legal protections against caste-based language discrimination"
+      ],
+      "linguistic_implications": [
+        "Caste-based insults most severe and illegal",
+        "Educational opportunities changing language access",
+        "Professional contexts requiring caste-neutral communication",
+        "Anti-caste movements using language as resistance tool"
+      ]
+    }
+  },
+  "social_contexts": {
+    "male_dominated_spaces": {
+      "description": "Traditional male-only social environments",
+      "characteristics": [
+        "Tapri (tea stalls) and men's social gathering places",
+        "Sports and recreational activities",
+        "Workplace environments (factories, construction)",
+        "Transportation contexts (trains, buses)"
+      ],
+      "language_patterns": [
+        "Highest tolerance for profanity usage",
+        "Bonding through shared crude language",
+        "Hierarchical usage based on age and status",
+        "Sexual and anatomical references more acceptable"
+      ],
+      "severity_modifiers": {
+        "general_profanity": "-0.4 to -0.6",
+        "sexual_references": "-0.3 to -0.5",
+        "family_insults": "minimal reduction (still severe)",
+        "caste_insults": "no reduction (illegal everywhere)"
+      },
+      "cultural_functions": [
+        "Male bonding and group identity",
+        "Stress relief from social pressures",
+        "Masculine identity performance",
+        "Workplace hierarchy negotiation"
+      ]
+    },
+    "family_domestic_contexts": {
+      "description": "Home and family environments",
+      "characteristics": [
+        "Joint family living arrangements",
+        "Multigenerational household dynamics",
+        "Gender-segregated family activities",
+        "Religious observance in domestic space"
+      ],
+      "language_hierarchies": [
+        "Extreme respect for grandparents and elders",
+        "Parents expect respectful language from children",
+        "Daughter-in-law language expectations especially strict",
+        "Sons given more language freedom than daughters"
+      ],
+      "severity_modifiers": {
+        "elder_presence": "+1.8 to +2.2",
+        "children_present": "+1.2 to +1.5",
+        "religious_occasions": "+1.5 to +2.0",
+        "family_insults": "+2.5 (absolutely taboo)"
+      },
+      "special_considerations": [
+        "Language affects entire family reputation",
+        "Different standards for different family members",
+        "Religious festivals require pure speech",
+        "Marriage arrangements can be affected by language reputation"
+      ]
+    },
+    "educational_institutional": {
+      "description": "Schools, colleges, and educational environments",
+      "characteristics": [
+        "Teacher-student hierarchical relationships",
+        "Peer group dynamics among students",
+        "English-medium vs Hindi-medium differences",
+        "Urban vs rural educational culture differences"
+      ],
+      "language_expectations": [
+        "Teachers expect respectful, cultured language",
+        "Peer groups may use profanity for bonding",
+        "English profanity sometimes seen as more acceptable",
+        "Academic contexts require formal register"
+      ],
+      "severity_modifiers": {
+        "teacher_presence": "+1.5 to +2.0",
+        "classroom_formal": "+1.0 to +1.5",
+        "student_peer_groups": "-0.2 to +0.2",
+        "campus_informal": "-0.3 to -0.1"
+      }
+    },
+    "workplace_professional": {
+      "description": "Office and professional environments",
+      "characteristics": [
+        "Hierarchical corporate structures",
+        "Mixed gender professional environments",
+        "English-dominant communication",
+        "Traditional respect for authority"
+      ],
+      "language_patterns": [
+        "English profanity sometimes more acceptable than Hindi",
+        "Informal Hindi conversations during breaks",
+        "Authority figures expect respectful address",
+        "Gender mixing affects language choices"
+      ],
+      "severity_modifiers": {
+        "formal_meetings": "+2.0",
+        "boss_present": "+1.5 to +1.8",
+        "casual_colleague_chat": "+0.2 to +0.5",
+        "gender_mixed_groups": "+0.8 to +1.2"
+      }
+    },
+    "digital_social_media": {
+      "description": "Online communication and social media platforms",
+      "characteristics": [
+        "Anonymity affecting language choices",
+        "Platform-specific community norms",
+        "Generational differences in online behavior",
+        "Cross-cultural interaction online"
+      ],
+      "unique_factors": [
+        "Family connections on social media affecting behavior",
+        "Professional networking considerations",
+        "Regional and linguistic diversity online",
+        "Platform algorithms affecting content visibility"
+      ],
+      "severity_modifiers": {
+        "anonymous_platforms": "-0.4 to -0.6",
+        "family_visible_content": "+1.2 to +1.5",
+        "professional_networks": "+1.0 to +1.3",
+        "youth_platforms": "-0.3 to -0.1"
+      }
+    },
+    "religious_spiritual": {
+      "description": "Temples, religious gatherings, and spiritual contexts",
+      "characteristics": [
+        "Temple and religious institution environments",
+        "Religious festivals and celebrations",
+        "Spiritual discourse and religious education",
+        "Community religious activities"
+      ],
+      "language_standards": [
+        "Highest possible purity of speech expected",
+        "Religious vocabulary preferred",
+        "Sanskrit influence on acceptable language",
+        "Community moral leadership through speech"
+      ],
+      "severity_modifiers": {
+        "temple_sacred_spaces": "+2.5 to +3.0",
+        "religious_festivals": "+2.0 to +2.5",
+        "spiritual_discourse": "+2.0",
+        "community_religious_events": "+1.5 to +2.0"
+      }
+    }
+  },
+  "regional_contexts": {
+    "delhi_ncr": {
+      "cultural_characteristics": [
+        "Political and administrative center influence",
+        "Cosmopolitan mixing of cultures",
+        "Punjabi cultural influence significant",
+        "Economic opportunities affecting social dynamics"
+      ],
+      "language_patterns": [
+        "Heavy use of Punjabi-influenced Hindi profanity",
+        "Urban youth more tolerant of casual profanity",
+        "Code-switching between Hindi and English common",
+        "Bollywood industry influence on popular language"
+      ],
+      "severity_adjustments": "Generally -0.2 to -0.3 except family/religious"
+    },
+    "uttar_pradesh_bihar": {
+      "cultural_characteristics": [
+        "Hindi heartland with strong traditional values",
+        "Agricultural and rural culture dominance",
+        "Strong caste hierarchies still influential",
+        "Traditional joint family systems prevalent"
+      ],
+      "language_patterns": [
+        "Pure Hindi preferred over English mixing",
+        "Traditional respect hierarchies strongly maintained",
+        "Rural vs urban divide significant",
+        "Caste-based language discrimination still problematic"
+      ],
+      "severity_adjustments": "+0.1 to +0.3, with rural areas +0.4 to +0.6"
+    },
+    "maharashtra_mumbai": {
+      "cultural_characteristics": [
+        "Bollywood film industry influence",
+        "Marathi-Hindi bilingual context",
+        "Commercial and business culture",
+        "Cosmopolitan urban attitudes"
+      ],
+      "language_patterns": [
+        "Hindi profanity influenced by film industry",
+        "Marathi code-switching in profanity",
+        "Business contexts require professional language",
+        "Creative industries more tolerant"
+      ],
+      "severity_adjustments": "-0.3 to -0.4 in urban areas, baseline in rural areas"
+    },
+    "punjab_haryana": {
+      "cultural_characteristics": [
+        "Agricultural prosperity and culture",
+        "Sikh religious influence alongside Hindu",
+        "Strong family honor concepts",
+        "Military service cultural influence"
+      ],
+      "language_patterns": [
+        "Punjabi-Hindi mixing in profanity very common",
+        "Strong emphasis on family honor",
+        "Military culture affecting male language patterns",
+        "Agricultural context affecting metaphors"
+      ],
+      "severity_adjustments": "-0.1 to +0.1, with family insults +0.5"
+    },
+    "rajasthan": {
+      "cultural_characteristics": [
+        "Traditional honor-based culture",
+        "Rajput cultural values influence",
+        "Rural traditional family structures",
+        "Tourism industry creating cultural mixing"
+      ],
+      "language_patterns": [
+        "Strong emphasis on honor and respect",
+        "Traditional Rajasthani influence on Hindi",
+        "Tourism creating some linguistic flexibility",
+        "Rural areas very conservative"
+      ],
+      "severity_adjustments": "+0.2 to +0.4, with honor-related content +0.6"
+    }
+  },
+  "generational_patterns": {
+    "elderly_grandparents_60plus": {
+      "characteristics": [
+        "Traditional Indian cultural values paramount",
+        "Religious observance strongly affecting language",
+        "British colonial education influence for some",
+        "Sanskrit/traditional learning influence"
+      ],
+      "language_attitudes": [
+        "Zero tolerance for profanity in their presence",
+        "Expect extreme deference and respectful address",
+        "Religious alternatives preferred for strong emotions",
+        "Traditional gender roles affect language expectations"
+      ],
+      "severity_perception": "+0.9 to +1.3 across all categories"
+    },
+    "parents_40_60": {
+      "characteristics": [
+        "Balancing traditional values with modern pressures",
+        "Professional careers affecting worldview",
+        "Children's education and future primary concern",
+        "Economic responsibilities influencing priorities"
+      ],
+      "language_attitudes": [
+        "Context-dependent tolerance for mild profanity",
+        "Professional vs family language distinction",
+        "Children's moral development responsibility",
+        "Community reputation concerns significant"
+      ],
+      "severity_perception": "+0.4 to +0.7 across most categories"
+    },
+    "young_adults_20_40": {
+      "characteristics": [
+        "Higher education and career focus",
+        "Global exposure through internet and media",
+        "Marriage and family formation pressures",
+        "Economic independence affecting autonomy"
+      ],
+      "language_attitudes": [
+        "More tolerant but still family-constrained",
+        "Professional reputation considerations",
+        "Peer group influence vs family expectations",
+        "English education affecting Hindi profanity perception"
+      ],
+      "severity_perception": "-0.1 to +0.3, depending on education and exposure"
+    },
+    "teenagers_students_13_20": {
+      "characteristics": [
+        "Heavy social media and internet exposure",
+        "Peer pressure and identity formation",
+        "Educational pressure and competition",
+        "Bollywood and global media influence"
+      ],
+      "language_attitudes": [
+        "Most tolerant of profanity among generations",
+        "Creative language mixing and adaptation",
+        "Peer group bonding through shared language",
+        "Still heavily constrained by family supervision"
+      ],
+      "severity_perception": "-0.4 to -0.1, with strong family pressure override"
+    }
+  },
+  "special_usage_patterns": {
+    "bollywood_entertainment_influence": {
+      "description": "Film and entertainment industry impact on profanity normalization",
+      "contexts": [
+        "Bollywood films normalizing certain profanity",
+        "Web series and digital content pushing boundaries",
+        "Comedy shows and stand-up culture",
+        "Music and popular culture references"
+      ],
+      "cultural_impact": [
+        "Mainstream films making some profanity acceptable",
+        "Youth adopting film dialogue as normal speech",
+        "Regional films affecting local language norms",
+        "Celebrity behavior influencing social acceptance"
+      ],
+      "severity_modification": "-0.3 to -0.5 for film-normalized terms"
+    },
+    "emotional_catharsis": {
+      "description": "Profanity as emotional release and expression",
+      "contexts": [
+        "Traffic frustration and daily stress",
+        "Economic pressure and survival stress",
+        "Educational and career competition pressure",
+        "Family obligation and social pressure relief"
+      ],
+      "cultural_acceptance": [
+        "Some understanding for stress-induced language",
+        "Male emotional expression through profanity more accepted",
+        "Private emotional release vs public behavior distinction",
+        "Mental health awareness increasing tolerance"
+      ]
+    },
+    "political_social_commentary": {
+      "description": "Profanity in political discourse and social criticism",
+      "contexts": [
+        "Political rallies and protest contexts",
+        "Social media political discussion",
+        "Anti-corruption and social justice movements",
+        "Caste and social equality activism"
+      ],
+      "considerations": [
+        "Political profanity can have legal consequences",
+        "Social activism sometimes uses strong language",
+        "Anti-establishment sentiment expressed through language",
+        "Regional political contexts affecting severity"
+      ]
+    },
+    "linguistic_creativity": {
+      "description": "Creative and humorous profanity usage",
+      "contexts": [
+        "Stand-up comedy and humor",
+        "Creative writing and literature",
+        "Internet memes and viral content",
+        "Friendly banter and verbal sparring"
+      ],
+      "cultural_appreciation": [
+        "Wit and creativity appreciated in appropriate contexts",
+        "Literary merit can justify strong language",
+        "Humor can reduce offense level of profanity",
+        "Clever wordplay and linguistic innovation valued"
+      ]
+    }
+  },
+  "filtering_considerations": {
+    "cultural_complexity_requirements": [
+      "Family honor considerations paramount in all filtering",
+      "Religious diversity requires multi-faith sensitivity",
+      "Caste discrimination absolutely forbidden legally and socially",
+      "Regional variations require flexible approaches"
+    ],
+    "contextual_sensitivity_factors": [
+      "Same word vastly different severity by family context",
+      "Educational and religious contexts require maximum filtering",
+      "Professional contexts need conservative approach",
+      "Age and generation significantly affect appropriate levels"
+    ],
+    "platform_specific_considerations": [
+      "Educational platforms require comprehensive filtering",
+      "Family-oriented social media needs cultural awareness",
+      "Professional networking requires conservative standards",
+      "Entertainment platforms need age-appropriate filtering"
+    ],
+    "legal_compliance_requirements": [
+      "Caste-based discrimination illegal and must be filtered",
+      "Gender-based harassment laws increasingly enforced",
+      "Regional hate speech laws vary by state",
+      "Professional workplace harassment regulations"
+    ],
+    "false_positive_mitigation": [
+      "Academic research on Hindi linguistics",
+      "Religious and philosophical texts analysis",
+      "Historical literature and poetry study",
+      "Bollywood and entertainment industry analysis",
+      "Sociolinguistic research and cultural studies"
+    ]
+  }
+}

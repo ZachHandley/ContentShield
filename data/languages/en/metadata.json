@@ -1,0 +1,87 @@
+{
+  "language": "en",
+  "language_name": "English",
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "total_words": 0,
+  "total_variations": 0,
+  "source_attribution": {
+    "primary_sources": [
+      {
+        "name": "LDNOOBW (List of Dirty, Naughty, Obscene and Otherwise Bad Words)",
+        "url": "https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
+        "license": "Creative Commons",
+        "description": "Comprehensive multilingual profanity list"
+      },
+      {
+        "name": "dsojevic/profanity-list",
+        "url": "https://github.com/dsojevic/profanity-list",
+        "license": "MIT",
+        "description": "Highly consumable profanity list with severity ratings and tags"
+      },
+      {
+        "name": "censor-text/profanity-list",
+        "url": "https://github.com/censor-text/profanity-list",
+        "license": "Unlicense",
+        "description": "Multilingual profanity collection for automated censorship"
+      },
+      {
+        "name": "zautumnz/profane-words",
+        "url": "https://github.com/zautumnz/profane-words",
+        "license": "WTFPL",
+        "description": "Semi-comprehensive English profanity list"
+      }
+    ],
+    "academic_sources": [
+      {
+        "name": "Automated Hate Speech Detection and the Problem of Offensive Language",
+        "url": "https://arxiv.org/abs/1703.04009",
+        "authors": ["Davidson, T.", "Warmsley, D.", "Macy, M.", "Weber, I."],
+        "description": "Academic research on offensive language categorization"
+      },
+      {
+        "name": "Detection of Offensive Language and Its Severity for Low Resource Language",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3580476",
+        "description": "Recent research on severity-based classification systems"
+      }
+    ]
+  },
+  "compilation_methodology": {
+    "approach": "Multi-source compilation with academic validation",
+    "quality_control": [
+      "Cross-reference validation against multiple sources",
+      "Academic literature review for categorization",
+      "False positive removal",
+      "Cultural sensitivity review"
+    ],
+    "coverage_areas": [
+      "General profanity",
+      "Sexual content",
+      "Violence and aggression",
+      "Hate speech and discrimination",
+      "Substance abuse references",
+      "Anatomical references",
+      "Religious profanity"
+    ]
+  },
+  "technical_specifications": {
+    "encoding": "UTF-8",
+    "case_sensitivity": false,
+    "normalization": "NFD (Unicode Normalization Form Decomposed)",
+    "variation_types": ["leetspeak", "spacing", "repetition", "symbols", "misspellings"]
+  },
+  "usage_notes": {
+    "intended_use": "Content moderation and profanity filtering",
+    "cultural_context": "Primarily North American and British English",
+    "limitations": [
+      "Context-dependent terms require careful handling",
+      "Regional variations may not be fully covered",
+      "Evolving slang requires regular updates"
+    ],
+    "ethical_considerations": [
+      "Avoid over-censoring legitimate discourse",
+      "Consider cultural and linguistic diversity",
+      "Balance between safety and freedom of expression"
+    ]
+  }
+}

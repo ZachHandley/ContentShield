@@ -1,0 +1,295 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "context_system": {
+    "description": "Cultural and contextual usage patterns for Russian profanity",
+    "methodology": "Sociolinguistic analysis of Russian profanity usage across different social contexts and historical periods"
+  },
+  "cultural_contexts": {
+    "mat_system_traditional": {
+      "name": "Traditional Mat System",
+      "description": "Historical and cultural significance of Russian mat (мат)",
+      "key_characteristics": [
+        "Strictly forbidden in public discourse",
+        "Integral to male bonding and informal communication",
+        "Grammatically productive linguistic system",
+        "Carries both transgressive and expressive power"
+      ],
+      "social_functions": [
+        "Group solidarity marker",
+        "Emotional intensity expression",
+        "Social boundary enforcement",
+        "Masculine identity performance"
+      ],
+      "historical_context": "Mat predates Christianity in Russia, survived Soviet attempts at eradication, remains culturally significant"
+    },
+    "soviet_era": {
+      "name": "Soviet Period Adaptations",
+      "description": "How profanity evolved during Soviet rule (1917-1991)",
+      "characteristics": [
+        "Official suppression of mat in public",
+        "Development of euphemistic alternatives",
+        "Political profanity emergence",
+        "Prison culture influence"
+      ],
+      "legacy_effects": [
+        "Strong public/private distinction",
+        "Euphemistic creativity traditions",
+        "Political sensitivity patterns",
+        "Generational transmission gaps"
+      ]
+    },
+    "post_soviet_liberalization": {
+      "name": "Post-Soviet Era (1991-present)",
+      "description": "Profanity in contemporary Russian society",
+      "changes": [
+        "Gradual public visibility increase",
+        "Media representation evolution",
+        "Internet culture integration",
+        "Generational attitude shifts"
+      ],
+      "current_status": [
+        "Still largely taboo in formal settings",
+        "More accepted in entertainment media",
+        "Online normalization among youth",
+        "Regional variation in acceptance"
+      ]
+    }
+  },
+  "social_contexts": {
+    "informal_male_groups": {
+      "description": "Traditional primary context for mat usage",
+      "characteristics": [
+        "High tolerance and expectation",
+        "Bonding and authenticity marker",
+        "Emotional expression tool",
+        "Hierarchical communication patterns"
+      ],
+      "severity_modifiers": {
+        "mat_words": "-1.5 (much more acceptable)",
+        "general_profanity": "-1.0",
+        "ethnic_slurs": "no change (still severe)"
+      }
+    },
+    "mixed_gender_informal": {
+      "description": "Casual settings with both men and women",
+      "characteristics": [
+        "Moderate tolerance depending on relationships",
+        "Gender role expectations influence usage",
+        "Age and education factors important",
+        "Regional variations significant"
+      ],
+      "severity_modifiers": {
+        "mat_words": "+0.5",
+        "general_profanity": "baseline",
+        "gender_specific_slurs": "+1.0"
+      }
+    },
+    "internet_culture": {
+      "description": "Online spaces and digital communication",
+      "characteristics": [
+        "Normalized through gaming and memes",
+        "Transliteration common",
+        "Creative obfuscation techniques",
+        "Generational divide evident"
+      ],
+      "severity_modifiers": {
+        "transliterated_mat": "-0.5",
+        "meme_usage": "-1.0",
+        "gaming_context": "-0.8"
+      },
+      "platform_variations": {
+        "vkontakte": "More tolerant, Russian-focused",
+        "telegram": "Varies by channel/chat",
+        "youtube": "Comments often unmoderated",
+        "professional_networks": "Still restricted"
+      }
+    },
+    "workplace": {
+      "description": "Professional environments",
+      "characteristics": [
+        "Generally zero tolerance",
+        "Severe social consequences",
+        "Industry variations exist",
+        "Hierarchy affects enforcement"
+      ],
+      "severity_modifiers": {
+        "all_profanity": "+1.5",
+        "mat_words": "+2.0"
+      },
+      "industry_exceptions": {
+        "construction": "More tolerant",
+        "military": "Traditional acceptance",
+        "creative_industries": "Context-dependent",
+        "government": "Strictly forbidden"
+      }
+    },
+    "family_settings": {
+      "description": "Domestic and family contexts",
+      "characteristics": [
+        "Strong generational differences",
+        "Rural/urban divide significant",
+        "Education level correlation",
+        "Religious beliefs influence"
+      ],
+      "severity_modifiers": {
+        "in_front_of_children": "+2.0",
+        "elderly_present": "+1.5",
+        "religious_family": "+1.0"
+      }
+    }
+  },
+  "generational_patterns": {
+    "elderly_60plus": {
+      "attitudes": [
+        "Strong disapproval of public mat",
+        "Gender-based usage expectations",
+        "Religious influence common",
+        "Soviet-era linguistic preferences"
+      ],
+      "usage_patterns": [
+        "Limited personal use",
+        "Euphemistic alternatives preferred",
+        "Strong reaction to others' usage"
+      ]
+    },
+    "middle_aged_40_60": {
+      "attitudes": [
+        "Traditional public/private distinction",
+        "Context-dependent tolerance",
+        "Gender role awareness",
+        "Professional consequences concern"
+      ],
+      "usage_patterns": [
+        "Situational code-switching",
+        "Peer group conformity",
+        "Authority figure respect"
+      ]
+    },
+    "young_adults_20_40": {
+      "attitudes": [
+        "Internet culture influence",
+        "More egalitarian gender views",
+        "Global cultural integration",
+        "Meme culture participation"
+      ],
+      "usage_patterns": [
+        "Creative linguistic play",
+        "Platform-specific adaptation",
+        "International profanity mixing"
+      ]
+    },
+    "teenagers_13_20": {
+      "attitudes": [
+        "High online normalization",
+        "Peer pressure influence",
+        "Identity exploration tool",
+        "Authority rebellion marker"
+      ],
+      "usage_patterns": [
+        "Extensive transliteration",
+        "Gaming culture integration",
+        "Social media obfuscation"
+      ]
+    }
+  },
+  "regional_variations": {
+    "moscow_petersburg": {
+      "characteristics": [
+        "More cosmopolitan attitudes",
+        "Higher education correlation",
+        "International influence",
+        "Creative industry presence"
+      ],
+      "severity_adjustments": "Generally -0.3 across categories"
+    },
+    "siberian_far_east": {
+      "characteristics": [
+        "More traditional attitudes",
+        "Industrial culture influence",
+        "Male-dominated demographics",
+        "Harsh environment correlation"
+      ],
+      "severity_adjustments": "Traditional patterns maintained"
+    },
+    "southern_regions": {
+      "characteristics": [
+        "Conservative social values",
+        "Religious influence stronger",
+        "Extended family importance",
+        "Agricultural culture remnants"
+      ],
+      "severity_adjustments": "Generally +0.3 across categories"
+    },
+    "caucasus_regions": {
+      "characteristics": [
+        "Highly conservative attitudes",
+        "Strong honor culture",
+        "Religious observance important",
+        "Ethnic sensitivity heightened"
+      ],
+      "severity_adjustments": "+0.5 general, +1.0 for ethnic content"
+    }
+  },
+  "special_usage_patterns": {
+    "emotional_intensification": {
+      "description": "Mat used to intensify emotional expression",
+      "examples": [
+        "Pain/injury reactions",
+        "Extreme frustration",
+        "Surprise/shock",
+        "Anger expression"
+      ],
+      "social_tolerance": "Higher tolerance for reflexive emotional usage"
+    },
+    "creative_linguistic_play": {
+      "description": "Artistic and humorous usage",
+      "examples": [
+        "Literature and poetry",
+        "Comedy and entertainment",
+        "Internet memes",
+        "Musical expression"
+      ],
+      "context_dependency": "Artistic merit can reduce offense level"
+    },
+    "group_membership_signaling": {
+      "description": "Mat as in-group marker",
+      "examples": [
+        "Military service bonding",
+        "Prison culture integration",
+        "Working class solidarity",
+        "Youth subcultures"
+      ],
+      "function": "Demonstrates authentic membership in specific social groups"
+    },
+    "power_dynamics": {
+      "description": "Mat usage reflecting social hierarchy",
+      "patterns": [
+        "Upward usage generally forbidden",
+        "Downward usage shows dominance",
+        "Peer usage indicates equality",
+        "Public usage shows disrespect for authority"
+      ]
+    }
+  },
+  "filtering_considerations": {
+    "context_sensitivity": [
+      "Same word, different severity by context",
+      "Speaker-listener relationship matters",
+      "Setting formality affects perception",
+      "Cultural background influences interpretation"
+    ],
+    "false_positive_risks": [
+      "Literary and academic discussions",
+      "Historical and cultural analysis",
+      "Educational content about language",
+      "Artistic expression contexts"
+    ],
+    "platform_specific": [
+      "Educational platforms: strict filtering",
+      "Entertainment platforms: context-dependent",
+      "Social media: user control preferences",
+      "Professional platforms: zero tolerance"
+    ]
+  }
+}

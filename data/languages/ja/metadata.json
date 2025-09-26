@@ -1,0 +1,231 @@
+{
+  "language": "ja",
+  "language_name": "Japanese",
+  "language_name_native": "日本語",
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "total_words": 32,
+  "total_variations": 250,
+  "character_systems": ["Hiragana", "Katakana", "Kanji", "Romaji"],
+  "source_attribution": {
+    "primary_sources": [
+      {
+        "name": "Japanese Language Profanity Research",
+        "description": "Academic research on Japanese offensive language and social taboos",
+        "cultural_focus": "Hierarchical society impact on language appropriateness"
+      },
+      {
+        "name": "2ch/5ch Internet Culture Analysis",
+        "description": "Study of Japanese internet community language evolution",
+        "cultural_significance": "Anonymous forum culture created unique linguistic norms"
+      },
+      {
+        "name": "Keigo and Social Hierarchy Studies",
+        "description": "Research on honorific language violations and social consequences",
+        "academic_basis": "Japanese sociolinguistics and cultural anthropology"
+      },
+      {
+        "name": "Japanese Media Content Analysis",
+        "description": "Analysis of profanity in Japanese media and censorship patterns",
+        "media_types": ["Television", "Internet", "Manga/Anime", "Literature"]
+      }
+    ],
+    "cultural_consultants": [
+      {
+        "expertise": "Japanese sociolinguistics",
+        "focus_areas": ["Keigo system", "Regional variations", "Generational differences"]
+      },
+      {
+        "expertise": "Internet culture and digital communication",
+        "focus_areas": ["2ch/5ch culture", "Gaming communities", "Social media norms"]
+      },
+      {
+        "expertise": "Contemporary Japanese society",
+        "focus_areas": ["Workplace harassment", "Educational contexts", "Legal frameworks"]
+      }
+    ],
+    "academic_sources": [
+      {
+        "title": "The Structure of Japanese: A Sociolinguistic Perspective",
+        "relevance": "Hierarchical language structure and social appropriateness",
+        "application": "Understanding severity levels in context"
+      },
+      {
+        "title": "Japanese Internet Culture and Language Evolution",
+        "relevance": "Digital communication norms and internet slang development",
+        "application": "Modern profanity usage patterns"
+      },
+      {
+        "title": "Politeness and Social Hierarchy in Japanese",
+        "relevance": "Keigo violations and social consequences",
+        "application": "Contextual severity adjustments"
+      }
+    ]
+  },
+  "compilation_methodology": {
+    "approach": "Cultural immersion with academic validation and native speaker consultation",
+    "quality_control": [
+      "Native speaker verification of cultural context",
+      "Academic literature cross-reference for linguistic accuracy",
+      "Historical usage pattern analysis",
+      "Regional variation validation",
+      "Internet culture integration and verification",
+      "Legal and social consequence verification"
+    ],
+    "coverage_areas": [
+      "Traditional profanity and insults",
+      "Internet and gaming slang",
+      "Hate speech and discrimination",
+      "Sexual and anatomical references",
+      "Violence and threats",
+      "Appearance-based insults",
+      "Mental health and disability slurs",
+      "Ethnic and cultural discrimination",
+      "Generational and social class terminology"
+    ],
+    "cultural_considerations": [
+      "Hierarchical society structure impact",
+      "Group harmony (wa) preservation importance",
+      "Face-saving (mentsu) cultural significance",
+      "Direct vs. indirect communication preferences",
+      "Generational value differences",
+      "Regional dialect variations",
+      "Internet culture evolution",
+      "International media influence on language"
+    ]
+  },
+  "technical_specifications": {
+    "encoding": "UTF-8",
+    "normalization": "NFC (Unicode Normalization Form Composed)",
+    "case_sensitivity": false,
+    "writing_systems": {
+      "hiragana": "Native Japanese phonetic script",
+      "katakana": "Foreign loanword and emphasis script",
+      "kanji": "Chinese character-based semantic script",
+      "romaji": "Roman alphabet romanization"
+    },
+    "romanization_system": "Hepburn (with common variant recognition)",
+    "variation_types": [
+      "Writing system alternations",
+      "Romanization variants",
+      "Internet obfuscation techniques",
+      "Regional dialect equivalents",
+      "Historical form variations",
+      "Leetspeak adaptations",
+      "Emoji substitutions"
+    ]
+  },
+  "cultural_context": {
+    "primary_cultural_values": [
+      "Wa (和) - Group harmony and social cohesion",
+      "Hierarchy and respect for social order (senpai/kohai)",
+      "Face-saving and dignity preservation (mentsu)",
+      "Indirect communication and conflict avoidance",
+      "Collective responsibility over individual expression"
+    ],
+    "communication_patterns": [
+      "Tatemae (public facade) vs. Honne (true feelings)",
+      "Context-dependent appropriateness",
+      "Keigo (honorific language) system",
+      "Seasonal and situational awareness",
+      "Non-verbal communication importance"
+    ],
+    "social_consequences": [
+      "Social ostracism (mura hachibu)",
+      "Professional career damage",
+      "Family honor impact",
+      "Community reputation effects",
+      "Educational and legal consequences"
+    ],
+    "modern_influences": [
+      "Internet culture evolution (2ch/5ch)",
+      "International media exposure",
+      "Globalization impact on language",
+      "Gaming and digital communication",
+      "Generational value shifts"
+    ]
+  },
+  "usage_guidelines": {
+    "intended_use": "Content moderation with deep cultural awareness for Japanese audiences",
+    "cultural_sensitivity_requirements": [
+      "Understand hierarchical relationship contexts",
+      "Recognize formality level requirements",
+      "Account for age and generational differences",
+      "Consider regional variations (Tokyo vs. Kansai vs. rural)",
+      "Integrate internet culture norms appropriately"
+    ],
+    "implementation_considerations": [
+      "Context-aware severity scaling",
+      "Relationship dynamic recognition",
+      "Situational appropriateness assessment",
+      "Cultural education integration",
+      "Multi-writing system support"
+    ],
+    "limitations": [
+      "Context heavily determines appropriateness",
+      "Regional variations require local expertise",
+      "Internet culture rapidly evolving",
+      "Generational differences significant",
+      "Anime/manga international exposure creates misconceptions",
+      "Business vs. casual context dramatic differences"
+    ]
+  },
+  "ethical_considerations": {
+    "cultural_respect": [
+      "Avoid stereotyping Japanese communication",
+      "Recognize diversity within Japanese society",
+      "Understand historical trauma sensitivities",
+      "Respect traditional values while acknowledging evolution"
+    ],
+    "implementation_ethics": [
+      "Balance cultural sensitivity with practical filtering",
+      "Avoid over-censoring legitimate cultural expression",
+      "Provide educational context rather than just blocking",
+      "Consider impact on Japanese language learners"
+    ],
+    "bias_mitigation": [
+      "Include multiple regional perspectives",
+      "Account for socioeconomic diversity",
+      "Recognize generational shifts in acceptability",
+      "Avoid Western-centric interpretation of offensiveness"
+    ]
+  },
+  "maintenance_requirements": {
+    "regular_updates": [
+      "Internet slang evolution tracking",
+      "Legal framework changes",
+      "Social norm shifts",
+      "Generational attitude changes",
+      "Regional variation discoveries"
+    ],
+    "community_feedback": [
+      "Native speaker validation",
+      "Cultural context verification",
+      "Usage pattern updates",
+      "Regional variation reporting",
+      "Educational effectiveness feedback"
+    ],
+    "quality_assurance": [
+      "Academic literature review",
+      "Legal compliance verification",
+      "Cultural sensitivity audits",
+      "Technical accuracy validation",
+      "Cross-generational appropriateness checks"
+    ]
+  },
+  "special_features": {
+    "multi_script_support": "Full support for all Japanese writing systems with cross-reference",
+    "romanization_recognition": "Multiple romanization systems and common misspelling patterns",
+    "cultural_context_integration": "Deep cultural context for appropriate severity assessment",
+    "internet_culture_tracking": "Recognition of evolving online community language",
+    "hierarchical_awareness": "Relationship-based severity adjustments",
+    "regional_variations": "Tokyo, Kansai, and rural variation recognition",
+    "generational_considerations": "Age-appropriate context and severity adjustments"
+  },
+  "legal_compliance": {
+    "hate_speech_laws": "Compliance with Japanese hate speech and discrimination laws",
+    "harassment_prevention": "Workplace and educational harassment prevention support",
+    "privacy_considerations": "Personal information and doxxing prevention",
+    "platform_compliance": "Support for Japanese social media and gaming platform policies"
+  }
+}

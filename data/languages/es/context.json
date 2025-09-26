@@ -1,0 +1,240 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "es",
+  "cultural_context": {
+    "description": "Cultural context and usage patterns for Spanish profanity across regions",
+    "methodology": "Based on sociolinguistic research and cultural anthropology studies"
+  },
+  "social_contexts": {
+    "family": {
+      "acceptance_level": "Varies by family tradition and region",
+      "generational_differences": {
+        "grandparents": "Generally very low tolerance",
+        "parents": "Context-dependent, often hypocritical (use but don't allow children)",
+        "siblings": "High tolerance in informal settings",
+        "children": "Depends on family rules and regional norms"
+      },
+      "examples": {
+        "acceptable": ["caramba", "rayos", "jolín (Spain)"],
+        "conditional": ["mierda (if not directed at person)", "joder (Spain, casual)"],
+        "unacceptable": ["sexual terms", "religious blasphemy", "targeted slurs"]
+      }
+    },
+    "friendship": {
+      "acceptance_level": "Very high, often used affectionately",
+      "bonding_function": "Profanity serves as intimacy marker",
+      "examples": {
+        "affectionate": ["¿Qué tal, cabrón?", "¡Boludo, ven acá!", "¡Huevón, ¿cómo estás?!"],
+        "playful_insults": ["¡Eres un pendejo!", "¡Qué hijo de puta eres!", "¡Maricón, te quiero!"],
+        "emphasis": ["¡Joder, qué bueno!", "¡No me jodas!", "¡La puta madre!"]
+      },
+      "boundaries": "Even close friends avoid certain identity-based slurs"
+    },
+    "workplace": {
+      "professional": "Zero tolerance in formal business settings",
+      "informal_workplace": "Mild profanity sometimes tolerated",
+      "blue_collar": "Higher tolerance, part of workplace culture",
+      "consequences": "Can lead to disciplinary action or dismissal",
+      "examples": {
+        "never_acceptable": ["any sexual terms", "hate speech", "targeted slurs"],
+        "sometimes_tolerated": ["mierda (mild frustration)", "joder (Spain only)", "carajo (very informal)"]
+      }
+    },
+    "public_spaces": {
+      "street_level": "Moderate tolerance depending on neighborhood",
+      "transportation": "Generally frowned upon, especially around children",
+      "markets": "Vendors may use mild profanity casually",
+      "formal_public": "Completely inappropriate in government, medical, educational settings",
+      "consequences": "Can lead to social ostracism or official complaints"
+    },
+    "educational": {
+      "schools": "Strictly forbidden, disciplinary consequences",
+      "universities": "Somewhat more tolerant in informal student interactions",
+      "academic_context": "Only acceptable in linguistic research context",
+      "teaching_materials": "Requires careful handling and content warnings"
+    },
+    "religious": {
+      "church": "Absolutely forbidden, especially blasphemous terms",
+      "religious_families": "Very low tolerance across all contexts",
+      "secular_contexts": "Religious profanity often less offensive",
+      "regional_variations": "Spain more secular, Latin America often more religious"
+    }
+  },
+  "media_context": {
+    "television": {
+      "spain": "More permissive, sexual terms after watershed",
+      "latin_america": "Generally more conservative, heavy censorship",
+      "cable_satellite": "More lenient than broadcast TV",
+      "streaming": "Content warnings required, varied by platform"
+    },
+    "radio": {
+      "music": "Often censored or euphemized",
+      "talk_shows": "Regional variation in tolerance",
+      "news": "Professional standards prohibit most profanity"
+    },
+    "print_media": {
+      "newspapers": "Generally avoided except in direct quotes",
+      "magazines": "Varies by target audience and region",
+      "academic": "Acceptable in linguistic and cultural research"
+    },
+    "internet": {
+      "social_media": "Generally more permissive, community standards vary",
+      "gaming": "High usage, often toxic environment",
+      "forums": "Depends on community rules and moderation",
+      "video_content": "Platform-dependent content policies"
+    }
+  },
+  "age_considerations": {
+    "children": {
+      "exposure": "Varies dramatically by region and family",
+      "education": "Sex education may include anatomical terms",
+      "consequences": "School disciplinary action for usage",
+      "protective_measures": "Parents often use euphemisms"
+    },
+    "adolescents": {
+      "peer_pressure": "High usage for social acceptance",
+      "rebellion": "Often deliberately provocative usage",
+      "education": "Critical period for understanding appropriate usage",
+      "online_behavior": "High usage in digital communications"
+    },
+    "adults": {
+      "professional_impact": "Career consequences for inappropriate usage",
+      "social_navigation": "Must read context and audience carefully",
+      "parenting_role": "Often hypocritical - use but forbid children",
+      "regional_adaptation": "Must adjust when moving between regions"
+    },
+    "elderly": {
+      "traditional_values": "Generally lower tolerance",
+      "regional_patterns": "Rural often more conservative than urban",
+      "health_settings": "Medical terminology may overlap with profanity",
+      "intergenerational_conflict": "May clash with younger family members"
+    }
+  },
+  "gender_dynamics": {
+    "traditional_patterns": {
+      "machismo_influence": "Women historically expected to use less profanity",
+      "double_standards": "Same words more offensive when used by or targeting women",
+      "protection_myth": "\"Protecting\" women from hearing profanity",
+      "maternal_respect": "Mother-related insults extremely serious"
+    },
+    "evolving_patterns": {
+      "feminist_reclamation": "Some women deliberately using strong profanity",
+      "generational_change": "Younger women more likely to use profanity openly",
+      "urban_vs_rural": "Urban areas more gender-egalitarian",
+      "professional_equality": "Workplace standards becoming more gender-neutral"
+    },
+    "specific_considerations": {
+      "puta": "Always more offensive than masculine equivalents",
+      "sexual_anatomy": "Female anatomy terms generally more taboo",
+      "maternal_insults": "Cross-culturally more serious than paternal",
+      "lgbtq_slurs": "Affect perceptions of masculinity and femininity"
+    }
+  },
+  "regional_cultural_patterns": {
+    "spain": {
+      "cultural_factors": [
+        "Post-Franco liberalization affected language",
+        "European influence on social norms",
+        "Regional languages provide alternative profanity",
+        "Tourism industry affects public language use"
+      ],
+      "unique_aspects": [
+        "'Joder' extremely common and mild",
+        "Sexual profanity more accepted than religious",
+        "Regional pride affects acceptance of Madrid vs regional terms",
+        "Class distinctions still influence language appropriateness"
+      ]
+    },
+    "mexico": {
+      "cultural_factors": [
+        "Formal/informal speech distinction critical",
+        "Indigenous language influences",
+        "Catholic cultural influence remains strong",
+        "US border influence on northern regions"
+      ],
+      "unique_aspects": [
+        "Mother-related insults extremely serious",
+        "Creative compound insults highly valued",
+        "Class-based language distinctions important",
+        "Regional variations enormous across states"
+      ]
+    },
+    "argentina": {
+      "cultural_factors": [
+        "European immigration influence",
+        "Porteño (Buenos Aires) vs provincial differences",
+        "Economic crisis history affects language",
+        "Italian cultural influence significant"
+      ],
+      "unique_aspects": [
+        "'Boludo' highly context-dependent",
+        "Class-based insults particularly offensive",
+        "Lunfardo and tango culture influence",
+        "Psychoanalysis culture affects language awareness"
+      ]
+    },
+    "colombia": {
+      "cultural_factors": [
+        "Regional differences enormous",
+        "Violence history affects language sensitivity",
+        "Caribbean vs Andean cultural differences",
+        "Paisa culture influences acceptability"
+      ],
+      "unique_aspects": [
+        "Medical terms used as mild insults",
+        "Violence-related terms extremely sensitive",
+        "Regional accents affect perception",
+        "Youth culture creating new terms rapidly"
+      ]
+    }
+  },
+  "situational_appropriateness": {
+    "celebratory": {
+      "acceptable": ["¡Joder, qué bien!", "¡La hostia, ganamos!", "¡Coño, fantástico! (Spain)"],
+      "context": "Excitement and joy can make profanity more acceptable",
+      "boundaries": "Still avoid hate speech and targeted slurs"
+    },
+    "frustration": {
+      "acceptable": ["¡Mierda!", "¡Me cago en...!", "¡Joder!"],
+      "context": "Emotional release often forgiven in appropriate settings",
+      "escalation_risk": "Can escalate to more serious profanity"
+    },
+    "pain_surprise": {
+      "acceptable": ["¡Hostia!", "¡Coño!", "¡Puta madre!"],
+      "context": "Involuntary exclamations often excused",
+      "medical_settings": "Healthcare workers understand involuntary profanity"
+    },
+    "humor": {
+      "acceptable": "Most profanity acceptable if genuinely funny and not targeting",
+      "context": "Comedy shows, friendly teasing, wordplay",
+      "boundaries": "Humor doesn't excuse hate speech or cruel targeting"
+    }
+  },
+  "consequences_and_sanctions": {
+    "social": {
+      "ostracism": "Inappropriate usage can lead to social exclusion",
+      "reputation": "Affects how others perceive education and class",
+      "relationship_damage": "Can permanently harm personal relationships",
+      "intergenerational_conflict": "Often source of family tension"
+    },
+    "professional": {
+      "disciplinary_action": "Warnings, suspensions, termination possible",
+      "career_impact": "Can limit advancement opportunities",
+      "industry_variation": "Some industries more tolerant than others",
+      "customer_facing": "Stricter standards for public-facing roles"
+    },
+    "legal": {
+      "hate_speech": "Identity-based slurs may violate laws",
+      "workplace_harassment": "Can constitute harassment or discrimination",
+      "public_disturbance": "Extreme cases may lead to citations",
+      "educational_consequences": "School discipline, university sanctions"
+    },
+    "digital": {
+      "platform_bans": "Social media accounts may be suspended",
+      "content_removal": "Posts containing profanity may be deleted",
+      "algorithmic_penalties": "Reduced reach for profanity-containing content",
+      "permanent_record": "Digital trail can affect future opportunities"
+    }
+  }
+}

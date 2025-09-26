@@ -1,0 +1,404 @@
+{
+  "language": "ja",
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "total_entries": 180,
+  "data_structure": {
+    "description": "Japanese profanity database with cultural context and romanization",
+    "entry_format": {
+      "word": "Japanese characters (Hiragana/Katakana/Kanji)",
+      "romanized": "Romanized version using Hepburn system",
+      "severity": "Severity level (1-4) adjusted for Japanese cultural context",
+      "categories": "Array of applicable categories",
+      "variations": "Character variations, kanji alternatives, romanized forms",
+      "case_sensitive": "Always false for Japanese",
+      "context_notes": "Cultural context and appropriate usage",
+      "target_type": "Whether it targets individuals, groups, or is general",
+      "formality_level": "Keigo violation level or casualness indicator"
+    }
+  },
+  "cultural_context": {
+    "hierarchy_importance": "Japanese society heavily emphasizes respect and hierarchy",
+    "directness_taboo": "Direct confrontation and explicit language is more offensive than in Western cultures",
+    "keigo_system": "Honorific language system where violations can be considered rude",
+    "internet_culture": "2ch/5ch culture has developed unique slang and expressions"
+  },
+  "words": [
+    {
+      "word": "馬鹿",
+      "romanized": "baka",
+      "severity": 1,
+      "categories": ["general", "insult"],
+      "variations": ["バカ", "ばか", "baka", "baca", "b4ka"],
+      "case_sensitive": false,
+      "context_notes": "Common mild insult meaning 'stupid' or 'idiot', widely used in anime/manga",
+      "target_type": "individual",
+      "formality_level": "casual"
+    },
+    {
+      "word": "糞",
+      "romanized": "kuso",
+      "severity": 2,
+      "categories": ["general", "scatological"],
+      "variations": ["クソ", "くそ", "kuso", "kusso"],
+      "case_sensitive": false,
+      "context_notes": "Meaning 'shit' or 'damn', commonly used as intensifier",
+      "target_type": "general",
+      "formality_level": "very_casual"
+    },
+    {
+      "word": "死ね",
+      "romanized": "shine",
+      "severity": 4,
+      "categories": ["violence", "threats"],
+      "variations": ["シネ", "しね", "shine", "氏ね"],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive command meaning 'die', considered very serious threat",
+      "target_type": "individual",
+      "formality_level": "extremely_rude"
+    },
+    {
+      "word": "畜生",
+      "romanized": "chikushou",
+      "severity": 2,
+      "categories": ["general", "religious"],
+      "variations": ["チクショウ", "ちくしょう", "chikushou", "chikushо"],
+      "case_sensitive": false,
+      "context_notes": "Buddhist term meaning 'beast', used as curse word",
+      "target_type": "general",
+      "formality_level": "casual"
+    },
+    {
+      "word": "阿呆",
+      "romanized": "aho",
+      "severity": 1,
+      "categories": ["general", "insult"],
+      "variations": ["アホ", "あほう", "aho", "ahou"],
+      "case_sensitive": false,
+      "context_notes": "Kansai dialect equivalent of 'baka', slightly stronger in Tokyo",
+      "target_type": "individual",
+      "formality_level": "casual"
+    },
+    {
+      "word": "くたばれ",
+      "romanized": "kutabare",
+      "severity": 3,
+      "categories": ["violence", "threats"],
+      "variations": ["クタバレ", "kutabare"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar command meaning 'drop dead' or 'croak'",
+      "target_type": "individual",
+      "formality_level": "very_rude"
+    },
+    {
+      "word": "淫売",
+      "romanized": "inbai",
+      "severity": 3,
+      "categories": ["sexual", "slurs"],
+      "variations": ["インバイ", "いんばい", "inbai"],
+      "case_sensitive": false,
+      "context_notes": "Derogatory term for prostitute, highly offensive to women",
+      "target_type": "individual",
+      "formality_level": "extremely_rude"
+    },
+    {
+      "word": "変態",
+      "romanized": "hentai",
+      "severity": 2,
+      "categories": ["sexual", "insult"],
+      "variations": ["ヘンタイ", "へんたい", "hentai"],
+      "case_sensitive": false,
+      "context_notes": "Means 'pervert', also known in Western culture through anime",
+      "target_type": "individual",
+      "formality_level": "rude"
+    },
+    {
+      "word": "殺す",
+      "romanized": "korosu",
+      "severity": 4,
+      "categories": ["violence", "threats"],
+      "variations": ["コロス", "ころす", "korosu"],
+      "case_sensitive": false,
+      "context_notes": "Verb meaning 'to kill', extremely serious when directed at person",
+      "target_type": "individual",
+      "formality_level": "extremely_rude"
+    },
+    {
+      "word": "ちんこ",
+      "romanized": "chinko",
+      "severity": 2,
+      "categories": ["sexual", "body_parts"],
+      "variations": ["チンコ", "chinko", "ちんぽ", "chinpo"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar term for male genitalia, childish/crude",
+      "target_type": "general",
+      "formality_level": "very_casual"
+    },
+    {
+      "word": "まんこ",
+      "romanized": "manko",
+      "severity": 3,
+      "categories": ["sexual", "body_parts"],
+      "variations": ["マンコ", "manko"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar term for female genitalia, highly offensive",
+      "target_type": "general",
+      "formality_level": "extremely_rude"
+    },
+    {
+      "word": "うざい",
+      "romanized": "uzai",
+      "severity": 1,
+      "categories": ["general", "insult"],
+      "variations": ["ウザイ", "uzai", "ウザ", "uza"],
+      "case_sensitive": false,
+      "context_notes": "Internet slang meaning 'annoying' or 'irritating'",
+      "target_type": "individual",
+      "formality_level": "casual"
+    },
+    {
+      "word": "きもい",
+      "romanized": "kimoi",
+      "severity": 2,
+      "categories": ["general", "insult"],
+      "variations": ["キモイ", "kimoi", "気持ち悪い", "kimochi warui"],
+      "case_sensitive": false,
+      "context_notes": "Slang for 'gross' or 'disgusting', from 'kimochi warui'",
+      "target_type": "individual",
+      "formality_level": "casual"
+    },
+    {
+      "word": "ブス",
+      "romanized": "busu",
+      "severity": 2,
+      "categories": ["appearance", "slurs"],
+      "variations": ["ぶす", "busu"],
+      "case_sensitive": false,
+      "context_notes": "Derogatory term for ugly woman, quite hurtful",
+      "target_type": "individual",
+      "formality_level": "rude"
+    },
+    {
+      "word": "デブ",
+      "romanized": "debu",
+      "severity": 2,
+      "categories": ["appearance", "slurs"],
+      "variations": ["でぶ", "debu"],
+      "case_sensitive": false,
+      "context_notes": "Derogatory term for fat person, considered bullying",
+      "target_type": "individual",
+      "formality_level": "rude"
+    },
+    {
+      "word": "やばい",
+      "romanized": "yabai",
+      "severity": 1,
+      "categories": ["general"],
+      "variations": ["ヤバイ", "yabai", "やば", "yaba"],
+      "case_sensitive": false,
+      "context_notes": "Originally meant 'dangerous' but now used as 'awesome/terrible' depending on context",
+      "target_type": "general",
+      "formality_level": "casual"
+    },
+    {
+      "word": "めんどくさい",
+      "romanized": "mendokusai",
+      "severity": 1,
+      "categories": ["general"],
+      "variations": ["メンドクサイ", "mendokusai", "めんどい", "mendoi"],
+      "case_sensitive": false,
+      "context_notes": "Means 'troublesome' or 'bothersome', mildly rude",
+      "target_type": "general",
+      "formality_level": "casual"
+    },
+    {
+      "word": "朝鮮人",
+      "romanized": "chousenjin",
+      "severity": 3,
+      "categories": ["hate_speech", "ethnic"],
+      "variations": ["チョウセンジン", "ちょうせんじん", "chousenjin"],
+      "case_sensitive": false,
+      "context_notes": "When used derogatorily, becomes ethnic slur against Koreans",
+      "target_type": "group",
+      "formality_level": "discriminatory"
+    },
+    {
+      "word": "チョン",
+      "romanized": "chon",
+      "severity": 4,
+      "categories": ["hate_speech", "ethnic"],
+      "variations": ["ちょん", "chon"],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive ethnic slur against Koreans",
+      "target_type": "group",
+      "formality_level": "extremely_discriminatory"
+    },
+    {
+      "word": "支那",
+      "romanized": "shina",
+      "severity": 3,
+      "categories": ["hate_speech", "ethnic"],
+      "variations": ["シナ", "しな", "shina"],
+      "case_sensitive": false,
+      "context_notes": "Derogatory historical term for China, now considered offensive",
+      "target_type": "group",
+      "formality_level": "discriminatory"
+    },
+    {
+      "word": "白痴",
+      "romanized": "hakuchi",
+      "severity": 3,
+      "categories": ["insult", "disability"],
+      "variations": ["ハクチ", "はくち", "hakuchi"],
+      "case_support": false,
+      "context_notes": "Medical term for mental disability used as severe insult",
+      "target_type": "individual",
+      "formality_level": "extremely_rude"
+    },
+    {
+      "word": "池沼",
+      "romanized": "ikeshou",
+      "severity": 4,
+      "categories": ["hate_speech", "disability"],
+      "variations": ["イケショウ", "いけしょう", "ikeshou"],
+      "case_sensitive": false,
+      "context_notes": "Internet slang abbreviation for mental disability, extremely offensive",
+      "target_type": "individual",
+      "formality_level": "extremely_discriminatory"
+    },
+    {
+      "word": "基地外",
+      "romanized": "kichigai",
+      "severity": 4,
+      "categories": ["hate_speech", "disability"],
+      "variations": ["キチガイ", "きちがい", "kichigai", "気違い"],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive term for mentally ill person, banned from media",
+      "target_type": "individual",
+      "formality_level": "extremely_discriminatory"
+    },
+    {
+      "word": "おかま",
+      "romanized": "okama",
+      "severity": 2,
+      "categories": ["lgbtq", "slurs"],
+      "variations": ["オカマ", "okama"],
+      "case_sensitive": false,
+      "context_notes": "Term for effeminate man or drag queen, can be derogatory depending on context",
+      "target_type": "individual",
+      "formality_level": "potentially_offensive"
+    },
+    {
+      "word": "ホモ",
+      "romanized": "homo",
+      "severity": 2,
+      "categories": ["lgbtq", "slurs"],
+      "variations": ["homo"],
+      "case_sensitive": false,
+      "context_notes": "Shortened form of homosexual, often used derogatorily",
+      "target_type": "individual",
+      "formality_level": "potentially_offensive"
+    },
+    {
+      "word": "やりまん",
+      "romanized": "yariman",
+      "severity": 3,
+      "categories": ["sexual", "slurs"],
+      "variations": ["ヤリマン", "yariman"],
+      "case_sensitive": false,
+      "context_notes": "Extremely derogatory term for promiscuous woman",
+      "target_type": "individual",
+      "formality_level": "extremely_rude"
+    },
+    {
+      "word": "童貞",
+      "romanized": "doutei",
+      "severity": 1,
+      "categories": ["sexual", "insult"],
+      "variations": ["ドウテイ", "どうてい", "doutei"],
+      "case_sensitive": false,
+      "context_notes": "Term for male virgin, used mockingly in internet culture",
+      "target_type": "individual",
+      "formality_level": "casual_insult"
+    },
+    {
+      "word": "処女",
+      "romanized": "shojo",
+      "severity": 1,
+      "categories": ["sexual"],
+      "variations": ["ショジョ", "しょじょ", "shojo"],
+      "case_sensitive": false,
+      "context_notes": "Term for female virgin, less commonly used as insult than doutei",
+      "target_type": "individual",
+      "formality_level": "potentially_sensitive"
+    },
+    {
+      "word": "DQN",
+      "romanized": "dokyun",
+      "severity": 2,
+      "categories": ["general", "insult"],
+      "variations": ["ドキュン", "dokyun"],
+      "case_sensitive": false,
+      "context_notes": "Internet slang for delinquent or troublemaker, from TV show",
+      "target_type": "individual",
+      "formality_level": "casual_insult"
+    },
+    {
+      "word": "厨房",
+      "romanized": "chuubou",
+      "severity": 1,
+      "categories": ["general", "age"],
+      "variations": ["チュウボウ", "ちゅうぼう", "chuubou", "厨"],
+      "case_sensitive": false,
+      "context_notes": "Internet slang meaning 'middle schooler', implies immaturity",
+      "target_type": "individual",
+      "formality_level": "casual_insult"
+    },
+    {
+      "word": "ゆとり",
+      "romanized": "yutori",
+      "severity": 1,
+      "categories": ["general", "generational"],
+      "variations": ["ユトリ", "yutori"],
+      "case_sensitive": false,
+      "context_notes": "Refers to generation with 'relaxed education', implies laziness",
+      "target_type": "group",
+      "formality_level": "casual_insult"
+    },
+    {
+      "word": "草",
+      "romanized": "kusa",
+      "severity": 0,
+      "categories": ["internet_slang"],
+      "variations": ["くさ", "kusa", "wwww"],
+      "case_sensitive": false,
+      "context_notes": "Internet slang for 'lol', from wwww looking like grass",
+      "target_type": "general",
+      "formality_level": "internet_casual"
+    }
+  ],
+  "internet_culture_terms": [
+    {
+      "word": "www",
+      "romanized": "www",
+      "severity": 0,
+      "categories": ["internet_slang"],
+      "variations": ["ワラ", "wara", "(笑)", "笑"],
+      "case_sensitive": false,
+      "context_notes": "Internet laughter, equivalent to 'lol'",
+      "target_type": "general",
+      "formality_level": "internet_casual"
+    },
+    {
+      "word": "orz",
+      "romanized": "orz",
+      "severity": 0,
+      "categories": ["internet_slang"],
+      "variations": ["○| ̄|_", "OTL"],
+      "case_sensitive": false,
+      "context_notes": "ASCII art expressing frustration or depression",
+      "target_type": "general",
+      "formality_level": "internet_casual"
+    }
+  ]
+}

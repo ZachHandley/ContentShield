@@ -1,0 +1,177 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "variation_system": {
+    "description": "Russian profanity variations including Cyrillic-Latin transliteration and obfuscation patterns",
+    "methodology": "Comprehensive analysis of Russian internet culture, gaming, and social media obfuscation techniques"
+  },
+  "variation_types": {
+    "transliteration": {
+      "description": "Cyrillic to Latin script conversions",
+      "patterns": {
+        "phonetic": "Sound-based transliteration (блядь → blyad)",
+        "qwerty_mapping": "Keyboard layout confusion (Russian ЙЦУКЕН → English QWERTY)",
+        "visual_similarity": "Visually similar Latin characters (а → a, р → p, о → o)",
+        "mixed_script": "Partial transliteration (бля → blya, пздц → pzdc)"
+      },
+      "examples": {
+        "хуй": ["huy", "hui", "hyi", "xy", "xyu"],
+        "блядь": ["blyad", "blyat", "blat", "bl@d", "bl*d"],
+        "сука": ["suka", "cyka", "syk", "cvka", "s*ka"],
+        "пизда": ["pizda", "pzda", "pz", "pi*da", "p*zda"]
+      }
+    },
+    "symbol_substitution": {
+      "description": "Character replacement with symbols or numbers",
+      "patterns": {
+        "leetspeak": "Numbers replacing letters (а → 4, е → 3, о → 0)",
+        "symbols": "Special characters (а → @, и → !, у → y)",
+        "asterisk_censoring": "Partial asterisk replacement (х*й, бл*дь)",
+        "underscore": "Underscore replacement (х_й, с_ка)"
+      },
+      "examples": {
+        "говно": ["g0vno", "g*vno", "g_vno", "g@vno"],
+        "жопа": ["zh0pa", "zh*pa", "zopa", "j0pa"],
+        "дерьмо": ["der'mo", "d3rmo", "d*rmo", "dermo"]
+      }
+    },
+    "phonetic_variants": {
+      "description": "Alternative spellings based on pronunciation",
+      "regional_accents": {
+        "northern": "оканье dialect variations",
+        "southern": "аканье dialect variations",
+        "siberian": "Regional pronunciation differences"
+      },
+      "examples": {
+        "блядь": ["блять", "бладь", "блать"],
+        "ебать": ["йобать", "ёбать", "йебать"],
+        "пиздец": ["пиздос", "пиздеж", "пздц"]
+      }
+    },
+    "diminutive_augmentative": {
+      "description": "Russian grammatical forms that modify intensity",
+      "diminutive_suffixes": ["-ик", "-ок", "-ка", "-енька"],
+      "augmentative_suffixes": ["-ище", "-ина", "-уга", "-ара"],
+      "examples": {
+        "дурак": {
+          "diminutive": ["дурачок", "дурашка"],
+          "augmentative": ["дурачина", "дурачище"]
+        },
+        "сука": {
+          "diminutive": ["сучка", "сученька"],
+          "augmentative": ["сучища", "сучара"]
+        }
+      }
+    },
+    "internet_abbreviations": {
+      "description": "Common internet and SMS abbreviations",
+      "consonant_clusters": {
+        "description": "Removal of vowels, keeping consonants",
+        "examples": {
+          "пиздец": "пздц",
+          "блядь": "бль",
+          "говно": "гвн"
+        }
+      },
+      "first_last_letters": {
+        "description": "Keep first and last letter, abbreviate middle",
+        "examples": {
+          "дерьмо": "д-мо",
+          "козёл": "к-л"
+        }
+      }
+    },
+    "morphological_variants": {
+      "description": "Grammatical transformations and word forms",
+      "verbal_forms": {
+        "description": "Different verb conjugations and aspects",
+        "examples": {
+          "ебать": ["ебу", "ебёт", "ебал", "ебнуть", "ебнул"],
+          "пиздить": ["пиздю", "пиздит", "пиздил", "напиздить"]
+        }
+      },
+      "case_declensions": {
+        "description": "Noun declension patterns",
+        "examples": {
+          "хуй": ["хуя", "хую", "хуём", "хуи", "хуёв"],
+          "пизда": ["пизды", "пизде", "пиздой", "пизд"]
+        }
+      }
+    },
+    "gaming_culture": {
+      "description": "Gaming and esports specific variations",
+      "examples": {
+        "blyat": ["blyat'", "blyatt", "blyt", "bl8"],
+        "cyka": ["cyka blyat", "cykablyat", "c9ka"],
+        "idi_nahuy": ["idi nahui", "иди нахуй", "go nahuy"]
+      },
+      "context": "Popularized through Counter-Strike and Dota communities"
+    },
+    "social_media": {
+      "description": "Platform-specific obfuscation techniques",
+      "platforms": {
+        "vkontakte": "Specific VK.com filtering bypass methods",
+        "telegram": "Telegram-specific variations",
+        "youtube": "YouTube comment filtering evasion"
+      },
+      "techniques": {
+        "zero_width_characters": "Invisible Unicode characters",
+        "homoglyph_substitution": "Visually identical Unicode characters",
+        "reverse_text": "Reversed word order or character sequence"
+      }
+    }
+  },
+  "obfuscation_patterns": {
+    "common_substitutions": {
+      "а": ["a", "@", "4"],
+      "е": ["e", "3", "€"],
+      "и": ["i", "1", "!", "y"],
+      "о": ["o", "0", "°"],
+      "у": ["u", "y"],
+      "ь": ["'", "'"],
+      "х": ["h", "x", "kh"],
+      "ц": ["c", "ts", "tz"],
+      "ч": ["ch", "4"],
+      "ш": ["sh"],
+      "щ": ["sch", "shch"],
+      "ю": ["yu", "iu"],
+      "я": ["ya", "ja"]
+    },
+    "keyboard_layout_confusion": {
+      "description": "Accidental or intentional keyboard layout mixing",
+      "qwerty_to_cyrillic": {
+        "fuck": "аисл",
+        "shit": "ырше",
+        "bitch": "ишеср"
+      },
+      "intentional_mixing": "Using wrong layout to bypass filters"
+    },
+    "unicode_exploitation": {
+      "cyrillic_lookalikes": {
+        "а": "Latin a (U+0061) vs Cyrillic а (U+0430)",
+        "р": "Latin p (U+0070) vs Cyrillic р (U+0440)",
+        "о": "Latin o (U+006F) vs Cyrillic о (U+043E)",
+        "е": "Latin e (U+0065) vs Cyrillic е (U+0435)"
+      },
+      "mixed_scripts": "блyat (Cyrillic 'бл' + Latin 'yat')"
+    }
+  },
+  "detection_challenges": {
+    "normalization_required": [
+      "Unicode normalization (NFD/NFC)",
+      "Case folding",
+      "Script separation",
+      "Homoglyph detection"
+    ],
+    "context_dependent": [
+      "Same word different meaning based on context",
+      "Sarcastic vs literal usage",
+      "Cultural reference vs direct insult"
+    ],
+    "evolving_patterns": [
+      "New obfuscation methods emerge regularly",
+      "Platform-specific adaptations",
+      "Generational language shifts"
+    ]
+  }
+}

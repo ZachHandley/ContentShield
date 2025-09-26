@@ -1,0 +1,296 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "variation_system": {
+    "description": "Portuguese profanity variations including regional, orthographic, and obfuscation patterns",
+    "methodology": "Comprehensive analysis of Lusophone internet culture, regional dialects, and censorship circumvention"
+  },
+  "variation_types": {
+    "regional_spelling": {
+      "description": "Regional variations in spelling and pronunciation",
+      "brazil_portugal_differences": {
+        "description": "Spelling variations between Brazilian and European Portuguese",
+        "examples": {
+          "cu": {
+            "brazil": "cu",
+            "portugal": "cu (same but different usage frequency)"
+          },
+          "caralho": {
+            "brazil": "caralho (very common)",
+            "portugal": "caralho (common but more formal disapproval)"
+          }
+        }
+      },
+      "dialect_variations": {
+        "northeastern_brazil": {
+          "examples": {
+            "danado": "Regional equivalent to 'sacana'",
+            "cabra": "Regional intensifier, can be insulting"
+          }
+        },
+        "southern_brazil": {
+          "examples": {
+            "bah": "Regional exclamation, mild",
+            "tchê": "Can be insulting when used sarcastically"
+          }
+        },
+        "portuguese_regional": {
+          "examples": {
+            "cabrão": "More common in Portugal than Brazil",
+            "sacana": "Different connotations in different regions"
+          }
+        }
+      }
+    },
+    "symbol_substitution": {
+      "description": "Character replacement with symbols, numbers, or similar letters",
+      "patterns": {
+        "asterisk_censoring": "Partial replacement with asterisks (*)",
+        "at_symbol": "Using @ for 'a' (p@rra, c@ralho)",
+        "numeric_leetspeak": "Numbers for letters (p0rra, c4ralho)",
+        "mixed_symbols": "Multiple symbol types (p*rr@, c@r@lh0)"
+      },
+      "examples": {
+        "caralho": ["c*ralho", "c@ralho", "car@lho", "c4ralho", "crl"],
+        "porra": ["p*rra", "p0rra", "p@rra", "prr"],
+        "merda": ["m*rda", "m3rda", "m@rda", "mrd"],
+        "foder": ["f*der", "f0der", "fd*r", "fder"],
+        "puta": ["p*ta", "put@", "pvta", "pt"]
+      }
+    },
+    "abbreviation_patterns": {
+      "description": "Common abbreviations and acronyms used to bypass filters",
+      "consonant_clusters": {
+        "description": "Removal of vowels, keeping consonants",
+        "examples": {
+          "caralho": "crlh",
+          "porra": "prr",
+          "merda": "mrd",
+          "buceta": "bct",
+          "filho da puta": "fdp"
+        }
+      },
+      "first_last_letters": {
+        "description": "Keep first and last letters, abbreviate middle",
+        "examples": {
+          "caralho": "c...ho",
+          "sacana": "s...na"
+        }
+      },
+      "internet_abbreviations": {
+        "description": "SMS and internet chat abbreviations",
+        "examples": {
+          "que porra é essa": "qpee",
+          "vai se foder": "vsf",
+          "filho da puta": "fdp",
+          "vai tomar no cu": "vtnc"
+        }
+      }
+    },
+    "phonetic_variants": {
+      "description": "Alternative spellings based on pronunciation and regional accents",
+      "brazilian_phonetics": {
+        "examples": {
+          "caralho": ["carái", "caramba (euphemistic)"],
+          "porra": ["poxa (euphemistic)", "putz"],
+          "merda": ["mierda (Spanish influence)"]
+        }
+      },
+      "portuguese_phonetics": {
+        "examples": {
+          "cabrão": ["cabrões (plural)"],
+          "sacana": ["sacanas"]
+        }
+      },
+      "african_portuguese": {
+        "description": "Phonetic variations in African Portuguese-speaking countries",
+        "examples": {
+          "mixed_local_languages": "Portuguese profanity mixed with local language phonetics",
+          "colonial_legacy": "Older Portuguese forms preserved"
+        }
+      }
+    },
+    "euphemistic_substitutions": {
+      "description": "Milder alternatives that reference the original without direct usage",
+      "common_euphemisms": {
+        "caralho": ["caramba", "caracas", "caraca"],
+        "porra": ["poxa", "putz", "nossa"],
+        "merda": ["droga", "cruz-credo"],
+        "foder": ["ferrar", "lascar"],
+        "puta": ["rapariga (Portugal)", "moça"]
+      },
+      "religious_alternatives": {
+        "description": "Religious-influenced mild alternatives",
+        "examples": {
+          "jesus": "Used as mild exclamation instead of stronger profanity",
+          "nossa_senhora": "Mild religious exclamation",
+          "ave_maria": "Expression of surprise instead of profanity"
+        }
+      }
+    },
+    "creative_obfuscation": {
+      "description": "Creative methods to disguise profanity while maintaining recognition",
+      "backwards_spelling": {
+        "examples": {
+          "cu": "uc",
+          "merda": "adrem"
+        }
+      },
+      "letter_spacing": {
+        "examples": {
+          "caralho": "c a r a l h o",
+          "porra": "p o r r a"
+        }
+      },
+      "mixed_languages": {
+        "description": "Mixing Portuguese with other languages",
+        "examples": {
+          "spanish_mixing": "porra → pura (Spanish influence)",
+          "english_mixing": "shit → merda interchangeable use",
+          "italian_influence": "cazzo used instead of caralho"
+        }
+      }
+    },
+    "internet_culture": {
+      "description": "Online-specific variations and meme culture adaptations",
+      "meme_variations": {
+        "examples": {
+          "caralho": "Used in memes as 'CARALHO!' for emphasis",
+          "porra": "Porra meu/mano" as internet expression
+        }
+      },
+      "gaming_culture": {
+        "description": "Gaming community specific usage",
+        "examples": {
+          "noob_adaptations": "Profanity mixed with gaming terms",
+          "international_gaming": "Portuguese profanity in international gaming contexts"
+        }
+      },
+      "social_media_adaptations": {
+        "platform_specific": {
+          "whatsapp": "Heavy use of abbreviations due to quick messaging",
+          "instagram": "Creative censoring to avoid algorithm detection",
+          "tiktok": "Audio censoring leads to visual text variations",
+          "twitter": "Character limit encourages abbreviations"
+        }
+      }
+    },
+    "generational_variations": {
+      "description": "How different generations modify and use profanity",
+      "older_generations": {
+        "characteristics": [
+          "More formal curse words",
+          "Religious-influenced alternatives",
+          "Full pronunciation without abbreviation"
+        ],
+        "examples": {
+          "desgraçado": "Preferred over more vulgar alternatives",
+          "malandro": "Traditional insult still in use"
+        }
+      },
+      "younger_generations": {
+        "characteristics": [
+          "Heavy abbreviation and symbol use",
+          "International influence mixing",
+          "Creative obfuscation for social media"
+        ],
+        "examples": {
+          "sus": "Suspicious, adapted from English gaming culture",
+          "cringe": "Direct English borrowing for situations",
+          "based": "Positive term adopted from internet culture"
+        }
+      }
+    }
+  },
+  "obfuscation_techniques": {
+    "visual_similarity": {
+      "description": "Using visually similar characters or symbols",
+      "character_substitutions": {
+        "a": ["@", "4", "á", "à"],
+        "e": ["3", "€", "é", "ê"],
+        "i": ["1", "!", "í"],
+        "o": ["0", "°", "ó", "ô"],
+        "u": ["v", "ú", "ü"]
+      }
+    },
+    "keyboard_layout": {
+      "description": "Intentional or accidental keyboard layout mixing",
+      "qwerty_patterns": {
+        "examples": {
+          "intentional_scrambling": "Using wrong keyboard positions",
+          "autocorrect_avoidance": "Deliberate misspelling to avoid correction"
+        }
+      }
+    },
+    "unicode_exploitation": {
+      "description": "Using Unicode characters to bypass simple filters",
+      "homoglyphs": {
+        "examples": {
+          "cyrillic_lookalikes": "Using Cyrillic characters that look like Latin",
+          "accented_variants": "Using accented characters (á vs a)"
+        }
+      },
+      "zero_width_characters": {
+        "description": "Invisible characters inserted into words",
+        "usage": "cara‌lho (with zero-width non-joiner)"
+      }
+    },
+    "contextual_disguise": {
+      "description": "Hiding profanity within seemingly innocent content",
+      "acrostics": {
+        "description": "First letters of words spelling out profanity",
+        "example": "Pessoas Unem Todas As situações = PUTAS"
+      },
+      "word_games": {
+        "description": "Puzzles or games that resolve to profanity",
+        "examples": "Riddles, anagrams, coded messages"
+      }
+    }
+  },
+  "detection_challenges": {
+    "linguistic_complexity": [
+      "Portuguese conjugation creates many word forms",
+      "Regional variations require comprehensive coverage",
+      "Gender agreement affects word endings",
+      "Diminutive/augmentative forms change word structure"
+    ],
+    "cultural_context": [
+      "Same word different severity by region",
+      "Generational perception differences",
+      "Religious vs secular interpretation",
+      "Social class affects usage and perception"
+    ],
+    "technical_challenges": [
+      "Unicode normalization required",
+      "Accent mark handling",
+      "Case sensitivity variations",
+      "Multi-word expression detection"
+    ],
+    "evolving_patterns": [
+      "New internet slang emerges regularly",
+      "Platform-specific adaptations",
+      "International influence increasing",
+      "Generational language shifts accelerating"
+    ]
+  },
+  "filtering_recommendations": {
+    "normalization_steps": [
+      "Unicode normalization (NFD/NFC)",
+      "Accent removal for matching",
+      "Case folding",
+      "Whitespace normalization"
+    ],
+    "pattern_matching": [
+      "Fuzzy matching for common substitutions",
+      "Regex patterns for abbreviations",
+      "Phonetic matching for regional variants",
+      "Context-aware severity adjustment"
+    ],
+    "false_positive_mitigation": [
+      "Legitimate educational content",
+      "Academic linguistic discussion",
+      "Literary and artistic contexts",
+      "Historical documentation"
+    ]
+  }
+}

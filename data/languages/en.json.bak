@@ -1,0 +1,27 @@
+{
+  "language": "en",
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-25",
+  "words": [
+    {
+      "word": "example",
+      "severity": 1,
+      "categories": ["general"],
+      "variations": ["ex4mple", "3xample"],
+      "caseSensitive": false
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "badw[o0]rd",
+      "severity": 2,
+      "categories": ["general"],
+      "description": "Matches 'badword' with common character substitutions"
+    }
+  ],
+  "metadata": {
+    "totalWords": 1,
+    "totalPatterns": 1,
+    "coverage": "basic example set"
+  }
+}

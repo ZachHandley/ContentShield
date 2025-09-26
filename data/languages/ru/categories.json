@@ -1,0 +1,190 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "category_system": {
+    "description": "Russian profanity categorization system based on traditional mat system and modern usage patterns",
+    "methodology": "Based on linguistic research of Russian mat system and contemporary internet culture analysis"
+  },
+  "categories": {
+    "mat_system": {
+      "name": "Мат (Mat System)",
+      "description": "Traditional Russian profanity system with specific linguistic and cultural significance",
+      "examples_note": "Core mat words forming the foundation of Russian profanity",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "primary_mat": "The four core mat words and their direct derivatives",
+        "secondary_mat": "Mat-related words and expressions",
+        "compound_mat": "Complex expressions using mat elements",
+        "euphemistic_mat": "Softened versions of mat words"
+      },
+      "cultural_context": "Mat has special status in Russian culture, traditionally forbidden in public but widely used in informal settings"
+    },
+    "soviet_legacy": {
+      "name": "Soviet-era Profanity",
+      "description": "Profanity terms that emerged during or relate to the Soviet period",
+      "examples_note": "Political and ideological profanity from Soviet era",
+      "severity_range": [2, 3],
+      "subcategories": {
+        "political": "Soviet political insults and references",
+        "ideological": "Communist ideology-related profanity",
+        "bureaucratic": "Soviet bureaucracy-related insults",
+        "criminal_slang": "Prison/criminal argot from Soviet era"
+      },
+      "cultural_context": "Many terms reflect resistance to or frustration with Soviet system"
+    },
+    "general": {
+      "name": "General Profanity",
+      "description": "Common Russian swear words and mild expletives without specific targeting",
+      "examples_note": "Basic profanity used for emphasis or frustration",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "exclamatory": "Words used for emphasis",
+        "frustration": "Expressions of annoyance or anger",
+        "mild_curses": "Relatively mild curse words",
+        "internet_slang": "Online-specific profanity variations"
+      }
+    },
+    "scatological": {
+      "name": "Scatological Terms",
+      "description": "References to bodily waste and related functions",
+      "examples_note": "Bathroom-related profanity and crude references",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "waste_references": "Direct references to bodily waste",
+        "toilet_humor": "Crude bathroom-related jokes and terms",
+        "bodily_functions": "References to natural bodily processes",
+        "crude_comparisons": "Comparing things to waste or filth"
+      }
+    },
+    "sexual": {
+      "name": "Sexual Content",
+      "description": "Words related to sexual acts, anatomy, or sexually explicit content",
+      "examples_note": "Sexual references and explicit terminology",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "anatomy": "Sexual body parts and references",
+        "acts": "References to sexual activities",
+        "prostitution": "Prostitution-related terminology",
+        "sexual_deviance": "References to non-normative sexual behavior"
+      }
+    },
+    "derogatory": {
+      "name": "Derogatory Terms",
+      "description": "General insults and put-downs targeting individuals or groups",
+      "examples_note": "Personal attacks and character defamation",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "character_attacks": "Attacks on moral character",
+        "intelligence_insults": "Questioning mental capacity",
+        "appearance_mockery": "Mocking physical appearance",
+        "behavioral_criticism": "Criticizing actions or habits"
+      }
+    },
+    "gender_specific": {
+      "name": "Gender-Specific Insults",
+      "description": "Insults that specifically target based on gender",
+      "examples_note": "Gendered slurs and stereotypical insults",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "male_specific": "Insults specifically targeting males",
+        "female_specific": "Insults specifically targeting females",
+        "gender_role_mockery": "Mocking adherence to or deviation from gender roles",
+        "sexual_behavior": "Judging sexual behavior based on gender"
+      }
+    },
+    "anatomical": {
+      "name": "Anatomical References",
+      "description": "Crude or inappropriate references to body parts",
+      "examples_note": "Body parts used inappropriately or crudely",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "genitalia": "Male and female genital references",
+        "body_parts": "Other body parts used crudely",
+        "bodily_functions": "References to natural body functions",
+        "crude_anatomy": "Vulgar anatomical terminology"
+      }
+    },
+    "ethnic_regional": {
+      "name": "Ethnic and Regional Slurs",
+      "description": "Derogatory terms targeting ethnic groups or regional identities",
+      "examples_note": "Slurs against ethnic minorities and regional groups",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "caucasus_slurs": "Slurs against Caucasian peoples",
+        "central_asian_slurs": "Slurs against Central Asian peoples",
+        "jewish_slurs": "Anti-Semitic terminology",
+        "regional_mockery": "Mocking regional characteristics or accents"
+      }
+    },
+    "religious": {
+      "name": "Religious Profanity",
+      "description": "Blasphemous or sacrilegious language targeting religious beliefs",
+      "examples_note": "Orthodox Christian and other religious profanity",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "orthodox_blasphemy": "Russian Orthodox specific blasphemy",
+        "religious_curses": "Religious-themed curse words",
+        "sacred_mockery": "Mocking religious practices or figures",
+        "church_criticism": "Crude criticism of religious institutions"
+      }
+    },
+    "borrowed_profanity": {
+      "name": "Borrowed Profanity",
+      "description": "Profanity borrowed from other languages and adapted to Russian",
+      "examples_note": "Foreign profanity adapted for Russian use",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "english_borrowings": "English profanity used in Russian context",
+        "polish_borrowings": "Polish profanity adapted to Russian",
+        "german_borrowings": "German profanity in Russian usage",
+        "prison_borrowings": "International criminal slang adaptations"
+      }
+    },
+    "internet_culture": {
+      "name": "Internet Culture Profanity",
+      "description": "Profanity that emerged from or is primarily used in online contexts",
+      "examples_note": "Memes, gaming, and social media profanity",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "meme_profanity": "Profanity from internet memes",
+        "gaming_slang": "Gaming community specific profanity",
+        "social_media": "Social platform specific terms",
+        "transliteration_play": "Creative Cyrillic-Latin script mixing"
+      }
+    }
+  },
+  "severity_mapping": {
+    "1": {
+      "level": "Мягкий (Mild)",
+      "description": "Generally acceptable in informal settings but avoided in formal contexts",
+      "cultural_notes": "May be used in casual conversation among friends",
+      "typical_categories": ["general.mild_curses", "religious.religious_curses", "internet_culture.meme_profanity"]
+    },
+    "2": {
+      "level": "Умеренный (Moderate)",
+      "description": "Inappropriate in most professional or public settings, causes mild offense",
+      "cultural_notes": "Avoided in mixed company or formal situations",
+      "typical_categories": ["scatological.waste_references", "anatomical.body_parts", "derogatory.intelligence_insults"]
+    },
+    "3": {
+      "level": "Сильный (Strong)",
+      "description": "Highly offensive and inappropriate in most contexts, causes significant offense",
+      "cultural_notes": "Limited to very informal settings among close acquaintances",
+      "typical_categories": ["mat_system.secondary_mat", "sexual.prostitution", "gender_specific.female_specific"]
+    },
+    "4": {
+      "level": "Жёсткий (Severe)",
+      "description": "Extremely offensive, taboo in public discourse, may cause social consequences",
+      "cultural_notes": "Mat words and hate speech, strictly avoided in public",
+      "typical_categories": ["mat_system.primary_mat", "ethnic_regional.caucasus_slurs", "sexual.acts"]
+    }
+  },
+  "cultural_considerations": {
+    "mat_system_importance": "Mat occupies unique cultural position - simultaneously taboo and integral to informal communication",
+    "generational_differences": "Younger generations more tolerant of profanity, especially in online contexts",
+    "regional_variations": "Severity perception varies between urban/rural areas and different regions",
+    "gender_dynamics": "Different social expectations for male vs female use of profanity",
+    "political_sensitivity": "Some profanity carries political connotations requiring careful handling",
+    "script_considerations": "Cyrillic vs Latin script usage affects perception and filtering complexity"
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "de",
+  "variation_system": {
+    "description": "German profanity variations including obfuscations, compound formations, and regional dialectal differences",
+    "methodology": "Comprehensive collection of spelling variations, compounds, and regional differences"
+  },
+  "obfuscation_patterns": {
+    "character_substitution": {
+      "a": ["@", "4", "ä"],
+      "e": ["3", "ë"],
+      "i": ["1", "!", "í"],
+      "o": ["0", "ö"],
+      "u": ["ú", "ü"],
+      "s": ["$", "5", "ß"],
+      "ss": ["ß", "$"],
+      "ß": ["ss", "sz"],
+      "c": ["k"],
+      "z": ["s"]
+    },
+    "symbol_replacement": {
+      "asterisks": "Replace vowels or consonants with * (sch*isse, f*cken)",
+      "underscores": "Replace middle letters with _ (sch_isse, f_cken)",
+      "mixed": "Combine multiple techniques (sch31ß3, f*ck3n)"
+    },
+    "phonetic_variations": {
+      "k_for_c": "kacke sometimes spelled cacke",
+      "z_for_s": "Regional variations in s/z usage",
+      "dialectal_spelling": "Reflecting regional pronunciations",
+      "length_markers": "Scheeeisse, Arschhhh for emphasis"
+    }
+  },
+  "compound_word_system": {
+    "description": "German's highly productive compound system for profanity",
+    "productive_prefixes": {
+      "scheiss-": {
+        "meaning": "Shit-",
+        "examples": ["scheisskerl", "scheissdreck", "scheissegal", "scheisskopf"],
+        "productivity": "extremely high",
+        "severity_effect": "intensifies base word"
+      },
+      "sau-": {
+        "meaning": "Sow/pig-",
+        "examples": ["sauhund", "saukerl", "saukalt", "saumäßig"],
+        "productivity": "very high",
+        "severity_effect": "adds animalistic insult"
+      },
+      "arsch-": {
+        "meaning": "Ass-",
+        "examples": ["arschloch", "arschgeige", "arschkriecher", "arschkalt"],
+        "productivity": "high",
+        "severity_effect": "adds crude body reference"
+      },
+      "fick-": {
+        "meaning": "Fuck-",
+        "examples": ["fickfehler", "fick dich", "verfickt"],
+        "productivity": "medium",
+        "severity_effect": "adds sexual aggression"
+      },
+      "dreck-": {
+        "meaning": "Dirt/crap-",
+        "examples": ["drecksack", "drecksau", "dreckszeug"],
+        "productivity": "high",
+        "severity_effect": "adds filthiness concept"
+      },
+      "miss-": {
+        "meaning": "Mis-/shit-",
+        "examples": ["miststück", "mistkerl", "mistwetter"],
+        "productivity": "medium",
+        "severity_effect": "moderate intensification"
+      },
+      "hunde-": {
+        "meaning": "Dog-",
+        "examples": ["hundsfott", "hundeelend", "hundemüde"],
+        "productivity": "medium",
+        "severity_effect": "animalistic degradation"
+      }
+    },
+    "productive_suffixes": {
+      "-sack": {
+        "meaning": "Bag/sack",
+        "examples": ["drecksack", "penisack", "blödsack"],
+        "severity_effect": "objectifying insult"
+      },
+      "-kerl": {
+        "meaning": "Guy/fellow",
+        "examples": ["scheisskerl", "saukerl", "mistkerl"],
+        "severity_effect": "personalizing insult"
+      },
+      "-kopf": {
+        "meaning": "Head",
+        "examples": ["schesskopf", "arschkopf", "hohlkopf"],
+        "severity_effect": "mental deficiency implication"
+      },
+      "-loch": {
+        "meaning": "Hole",
+        "examples": ["arschloch", "scheissloch"],
+        "severity_effect": "extreme degradation"
+      },
+      "-hund": {
+        "meaning": "Dog",
+        "examples": ["sauhund", "schweinehund"],
+        "severity_effect": "animalistic insult"
+      },
+      "-gesicht": {
+        "meaning": "Face",
+        "examples": ["scheissgesicht", "arschgesicht"],
+        "severity_effect": "appearance-based insult"
+      }
+    },
+    "creative_compounds": [
+      "scheissdreckshurensohnmistvieh",
+      "arschgeigensaukerl",
+      "drecksackscheisskerl",
+      "vollpfostenblödmannidiot"
+    ]
+  },
+  "regional_variations": {
+    "northern_germany": {
+      "unique_forms": {
+        "moin": "greeting that can be sarcastic",
+        "dösbaddel": "North German for idiot",
+        "klootschieters": "Low German compound insult"
+      },
+      "plattdeutsch_influences": {
+        "description": "Low German dialect influences",
+        "examples": ["dösbaddel", "klabusterbeere", "schmöker"],
+        "pronunciation": "Different vowel systems affect profanity"
+      }
+    },
+    "bavaria_austria": {
+      "unique_forms": {
+        "oida": "Austrian buddy/dude, can be friendly or insulting",
+        "gschissener": "Bavarian/Austrian intensifier",
+        "kreuzkruzifix": "Bavarian religious profanity",
+        "sakra": "Bavarian mild curse"
+      },
+      "religious_profanity": {
+        "kreuzkruzifix": "Cross + crucifix compound",
+        "herrgott": "Lord God exclamation",
+        "sakrament": "Religious term as profanity"
+      },
+      "alpine_terms": {
+        "description": "Mountain culture influences",
+        "examples": ["bergfex", "almrausch"],
+        "cultural_context": "Rural alpine culture creates unique terms"
+      }
+    },
+    "switzerland": {
+      "swiss_german_forms": {
+        "gopferdammi": "Swiss religious exclamation",
+        "chabis": "Swiss for nonsense/crap",
+        "züri": "Zurich-related insults",
+        "chuchichäschtli": "Kitchen cupboard - used in complex compounds"
+      },
+      "multilingual_mixing": {
+        "french_influences": ["sacré", "merde"],
+        "italian_influences": ["madonna", "porca"],
+        "romansh_influences": "Limited but present in Grisons"
+      }
+    },
+    "eastern_germany": {
+      "ddr_legacy": {
+        "description": "Former East German linguistic patterns",
+        "examples": ["ossi", "wessi", "stasi"],
+        "political_context": "Socialist era created specific terms"
+      },
+      "russian_influences": {
+        "borrowed_terms": "Some Russian profanity borrowed",
+        "examples": ["bljad", "suka"],
+        "historical_context": "Soviet occupation influence"
+      }
+    },
+    "rhineland": {
+      "kölsch_influences": {
+        "description": "Cologne dialect influences",
+        "examples": ["kölscher", "döppken"],
+        "carnival_culture": "Carnival season affects language norms"
+      },
+      "dutch_influences": {
+        "border_effects": "Netherlands proximity affects language",
+        "examples": ["verdomme", "klootzak"],
+        "cultural_exchange": "Cross-border profanity sharing"
+      }
+    }
+  },
+  "creative_obfuscations": {
+    "euphemisms": {
+      "mild_replacements": {
+        "scheisse": ["mist", "kacke", "dreck"],
+        "verdammt": ["verflixt", "verfluckt", "verdattert"],
+        "arschloch": ["blödmann", "trottel", "depp"]
+      },
+      "religious_alternatives": {
+        "gottverdammt": ["gottlob", "um gottes willen"],
+        "herrgott": ["ach herrje", "mein gott"]
+      },
+      "creative_euphemisms": {
+        "scheibenkleister": "instead of scheisse",
+        "drat": "instead of dreck",
+        "verflixt": "instead of verflucht"
+      }
+    },
+    "minced_oaths": {
+      "initial_sounds": ["sch... for scheisse", "ver... for verflucht"],
+      "partial_words": ["schei... for scheisse", "ars... for arschloch"],
+      "gesture_based": ["Making the sign without saying word", "Pointing gestures"]
+    },
+    "code_switching": {
+      "english_mixing": ["fucking scheisse", "shit dreck"],
+      "other_languages": ["merda (Italian)", "merde (French)", "kurwa (Polish)"],
+      "invented_euphemisms": ["schmarren", "kapores", "schmarn"]
+    }
+  },
+  "internet_variations": {
+    "leetspeak": {
+      "basic": ["sch31sse", "4rschl0ch", "v3rd@mmt"],
+      "advanced": ["5ch31553", "4r5chl0ch", "v3rd4mm7"],
+      "mixed": ["sch31ß3 dr3ck", "v3rd@mm73 k4ck3"]
+    },
+    "sms_abbreviations": {
+      "common": ["omg for oh mein gott", "wtf for was zur hölle"],
+      "german_specific": ["hdgdl for hab dich ganz doll lieb"],
+      "compound_shortcuts": ["vdmt for verdammt", "schs for scheisse"]
+    },
+    "emoji_substitution": {
+      "poop_emoji": "💩 for scheisse/kacke",
+      "middle_finger": "🖕 for general insults",
+      "angry_face": "😡 for general anger",
+      "pig_emoji": "🐷 for sau-based insults"
+    },
+    "gaming_variations": {
+      "noob_compounds": ["noobkerl", "noobsack"],
+      "lag_complaints": ["scheiss lag", "dreckserver"],
+      "victory_insults": ["pwned arschloch"]
+    }
+  },
+  "linguistic_transformations": {
+    "case_inflection": {
+      "nominative": "der arschloch",
+      "accusative": "den arschloch",
+      "genitive": "des arschlochs",
+      "dative": "dem arschloch"
+    },
+    "gender_variations": {
+      "masculine_feminine": {
+        "blöder": "blöder/blöde",
+        "deutscher": "deutscher/deutsche",
+        "arschloch": "generally masculine form"
+      }
+    },
+    "diminutives": {
+      "-chen": "ärschchen (little ass), slightly less offensive",
+      "-lein": "ärschtlein, archaic diminutive",
+      "effect": "Can reduce or ironically increase offense"
+    },
+    "verb_forms": {
+      "infinitives": ["ficken", "scheissen", "verarschen"],
+      "conjugations": ["fick/fickst/fickt", "scheiss/scheisst"],
+      "past_participles": ["gefickt", "geschissen", "verarscht"]
+    },
+    "comparative_forms": {
+      "comparative": "blöder (more stupid)",
+      "superlative": "blödeste (most stupid)",
+      "intensification": "schweineteuer (pig-expensive)"
+    }
+  },
+  "detection_challenges": {
+    "false_positives": {
+      "legitimate_words": [
+        {"word": "dick", "legitimate": "thick/fat in German"},
+        {"word": "hell", "legitimate": "bright/light in German"},
+        {"word": "gift", "legitimate": "poison in German (not present)"}
+      ]
+    },
+    "context_dependent": {
+      "friendly_compounds": "Many compounds acceptable between friends",
+      "regional_acceptance": "Varies dramatically by German-speaking region",
+      "generational": "Older vs younger speakers have very different tolerances",
+      "compound_masking": "New compounds can hide offensive components"
+    },
+    "infinite_compounds": {
+      "creative_potential": "German allows unlimited compound creation",
+      "detection_difficulty": "New combinations constantly being created",
+      "severity_multiplication": "Multiple offensive components can compound severity",
+      "automation_challenges": "Automated detection very difficult for new compounds"
+    }
+  },
+  "evolution_patterns": {
+    "compound_innovation": "Constant creation of new compound insults",
+    "regional_convergence": "Media reducing some regional differences",
+    "youth_creativity": "Young speakers pushing compound boundaries",
+    "internet_acceleration": "Online communities rapidly spreading new forms",
+    "legal_avoidance": "Creating new terms to avoid hate speech laws",
+    "cultural_adaptation": "Immigration creating new multilingual profanity mixing"
+  },
+  "special_compound_patterns": {
+    "stacking": "Multiple offensive elements in one compound",
+    "alliteration": "Sound patterns in compound creation",
+    "rhythm": "Rhythmic patterns in compound insults",
+    "humor": "Funny compounds may be more acceptable",
+    "absurdity": "Absurdly long compounds can become humorous",
+    "regional_pride": "Regional compounds as identity markers"
+  }
+}

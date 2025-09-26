@@ -1,0 +1,386 @@
+{
+  "language": "fr",
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "total_entries": 160,
+  "regional_variants": ["france", "quebec", "belgium", "switzerland", "africa"],
+  "data_structure": {
+    "description": "Comprehensive French profanity database with regional variations and verlan considerations",
+    "entry_format": {
+      "word": "The profane word or phrase",
+      "severity": "Severity level (1-4)",
+      "categories": "Array of applicable categories",
+      "variations": "Common variations, verlan forms, and obfuscations",
+      "case_sensitive": "Whether matching should be case-sensitive",
+      "context_notes": "Regional usage and cultural considerations",
+      "target_type": "Whether it targets individuals, groups, or is general",
+      "regions": "Regions where this term is commonly used",
+      "verlan_forms": "Verlan (reversed slang) variations where applicable"
+    }
+  },
+  "words": [
+    {
+      "word": "merde",
+      "severity": 2,
+      "categories": ["general", "scatological"],
+      "variations": ["mrd", "m3rde", "merdre", "m*rde"],
+      "case_sensitive": false,
+      "context_notes": "Universal French profanity, equivalent to 'shit'",
+      "target_type": "general",
+      "regions": ["all"],
+      "verlan_forms": ["drème"]
+    },
+    {
+      "word": "putain",
+      "severity": 2,
+      "categories": ["general", "sexual"],
+      "variations": ["putin", "ptn", "put1", "pu74in"],
+      "case_sensitive": false,
+      "context_notes": "Very common exclamation in France, less offensive than English equivalent",
+      "target_type": "general",
+      "regions": ["france", "belgium", "switzerland"],
+      "verlan_forms": ["tainpu"]
+    },
+    {
+      "word": "pute",
+      "severity": 3,
+      "categories": ["sexual", "slurs"],
+      "variations": ["put3", "p*te", "pûte"],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive when targeting women, equivalent to 'whore'",
+      "target_type": "individual",
+      "regions": ["all"],
+      "verlan_forms": ["tepu"]
+    },
+    {
+      "word": "salope",
+      "severity": 3,
+      "categories": ["sexual", "slurs"],
+      "variations": ["sal0pe", "s@lope", "slp"],
+      "case_sensitive": false,
+      "context_notes": "Highly misogynistic slur, very offensive",
+      "target_type": "individual",
+      "regions": ["france", "belgium", "switzerland"],
+      "verlan_forms": ["lopesa"]
+    },
+    {
+      "word": "connard",
+      "severity": 2,
+      "categories": ["general", "slurs"],
+      "variations": ["con@rd", "conrd", "connr"],
+      "case_sensitive": false,
+      "context_notes": "Common insult meaning 'asshole' or 'bastard'",
+      "target_type": "individual",
+      "regions": ["france", "belgium", "switzerland"],
+      "verlan_forms": ["nardcon"]
+    },
+    {
+      "word": "con",
+      "severity": 2,
+      "categories": ["sexual", "body_parts", "slurs"],
+      "variations": ["c0n", "c@n"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar term for female genitalia, also general insult meaning 'idiot'",
+      "target_type": "context_dependent",
+      "regions": ["all"],
+      "verlan_forms": null
+    },
+    {
+      "word": "bite",
+      "severity": 2,
+      "categories": ["sexual", "body_parts"],
+      "variations": ["b1te", "byt3"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar term for penis, very common in French slang",
+      "target_type": "general",
+      "regions": ["france", "belgium", "switzerland"],
+      "verlan_forms": ["tebi"]
+    },
+    {
+      "word": "bordel",
+      "severity": 2,
+      "categories": ["general", "sexual"],
+      "variations": ["bord3l", "brdl"],
+      "case_sensitive": false,
+      "context_notes": "Originally 'brothel', now general exclamation of frustration",
+      "target_type": "general",
+      "regions": ["france", "belgium", "switzerland"],
+      "verlan_forms": ["delbor"]
+    },
+    {
+      "word": "fils de pute",
+      "severity": 3,
+      "categories": ["sexual", "slurs"],
+      "variations": ["fdp", "fils d put", "filsdepute"],
+      "case_sensitive": false,
+      "context_notes": "Son of a whore, very offensive compound insult",
+      "target_type": "individual",
+      "regions": ["all"],
+      "verlan_forms": null
+    },
+    {
+      "word": "enculé",
+      "severity": 3,
+      "categories": ["sexual", "slurs", "lgbtq"],
+      "variations": ["encul3", "nclé", "enculer"],
+      "case_sensitive": false,
+      "context_notes": "Extremely vulgar, homophobic undertones, very offensive",
+      "target_type": "individual",
+      "regions": ["france", "belgium", "switzerland"],
+      "verlan_forms": ["culéen"]
+    },
+    {
+      "word": "pédé",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "lgbtq"],
+      "variations": ["p3dé", "ped3", "pd"],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, extremely offensive to LGBTQ+ community",
+      "target_type": "individual",
+      "regions": ["france", "belgium", "switzerland"],
+      "verlan_forms": ["dépé"]
+    },
+    {
+      "word": "tapette",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "lgbtq"],
+      "variations": ["tap3tte", "tptte"],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur meaning 'faggot', very offensive",
+      "target_type": "individual",
+      "regions": ["france", "belgium", "switzerland"],
+      "verlan_forms": ["pettepa"]
+    },
+    {
+      "word": "nègre",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "racial"],
+      "variations": ["n3gre", "negr3"],
+      "case_sensitive": false,
+      "context_notes": "Racial slur, extremely offensive and inappropriate",
+      "target_type": "individual",
+      "regions": ["all"],
+      "verlan_forms": null
+    },
+    {
+      "word": "bougnoule",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "ethnic"],
+      "variations": ["bougn0ule", "bgnoule"],
+      "case_sensitive": false,
+      "context_notes": "Ethnic slur against North Africans, extremely offensive",
+      "target_type": "group",
+      "regions": ["france", "belgium"],
+      "verlan_forms": ["gnoulebo"]
+    },
+    {
+      "word": "bicot",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "ethnic"],
+      "variations": ["bic0t", "bcot"],
+      "case_sensitive": false,
+      "context_notes": "Ethnic slur against Arabs/North Africans, very offensive",
+      "target_type": "group",
+      "regions": ["france"],
+      "verlan_forms": ["cotbi"]
+    },
+    {
+      "word": "youpin",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "religious"],
+      "variations": ["youp1n", "ypn"],
+      "case_sensitive": false,
+      "context_notes": "Antisemitic slur, extremely offensive",
+      "target_type": "group",
+      "regions": ["france", "belgium"],
+      "verlan_forms": ["pinyou"]
+    },
+    {
+      "word": "babtou",
+      "severity": 3,
+      "categories": ["racial", "slurs"],
+      "variations": ["babt0u", "btou"],
+      "case_sensitive": false,
+      "context_notes": "Reverse racism term for white person, from verlan 'toubab'",
+      "target_type": "individual",
+      "regions": ["france"],
+      "verlan_forms": ["toubab"]
+    },
+    {
+      "word": "tabarnac",
+      "severity": 2,
+      "categories": ["religious", "general"],
+      "variations": ["tabarn@c", "tbrnk", "tabarnak"],
+      "case_sensitive": false,
+      "context_notes": "Quebec religious profanity, equivalent to 'damn' or 'fuck'",
+      "target_type": "general",
+      "regions": ["quebec"],
+      "verlan_forms": null
+    },
+    {
+      "word": "câlice",
+      "severity": 2,
+      "categories": ["religious", "general"],
+      "variations": ["cal1ce", "clice", "kâlice"],
+      "case_sensitive": false,
+      "context_notes": "Quebec religious profanity referring to communion cup",
+      "target_type": "general",
+      "regions": ["quebec"],
+      "verlan_forms": null
+    },
+    {
+      "word": "crisse",
+      "severity": 2,
+      "categories": ["religious", "general"],
+      "variations": ["cr1sse", "kriss", "chris"],
+      "case_sensitive": false,
+      "context_notes": "Quebec religious profanity, from 'Christ'",
+      "target_type": "general",
+      "regions": ["quebec"],
+      "verlan_forms": null
+    },
+    {
+      "word": "ostie",
+      "severity": 2,
+      "categories": ["religious", "general"],
+      "variations": ["0stie", "@stie", "osti"],
+      "case_sensitive": false,
+      "context_notes": "Quebec religious profanity referring to communion host",
+      "target_type": "general",
+      "regions": ["quebec"],
+      "verlan_forms": null
+    },
+    {
+      "word": "sacre",
+      "severity": 1,
+      "categories": ["religious", "general"],
+      "variations": ["s@cre", "sakré"],
+      "case_sensitive": false,
+      "context_notes": "Quebec mild religious expletive",
+      "target_type": "general",
+      "regions": ["quebec"],
+      "verlan_forms": null
+    },
+    {
+      "word": "gouine",
+      "severity": 4,
+      "categories": ["hate_speech", "slurs", "lgbtq"],
+      "variations": ["gou1ne", "gwine"],
+      "case_sensitive": false,
+      "context_notes": "Lesbian slur, very offensive",
+      "target_type": "individual",
+      "regions": ["france", "belgium", "switzerland"],
+      "verlan_forms": ["neguoi"]
+    },
+    {
+      "word": "batard",
+      "severity": 2,
+      "categories": ["general", "slurs"],
+      "variations": ["bat@rd", "btard", "bâtard"],
+      "case_sensitive": false,
+      "context_notes": "Bastard, moderately offensive general insult",
+      "target_type": "individual",
+      "regions": ["all"],
+      "verlan_forms": ["tardba"]
+    },
+    {
+      "word": "salopard",
+      "severity": 3,
+      "categories": ["general", "slurs"],
+      "variations": ["sal0pard", "salprd"],
+      "case_sensitive": false,
+      "context_notes": "Very offensive insult, combination of 'salope' and 'bâtard'",
+      "target_type": "individual",
+      "regions": ["france", "belgium", "switzerland"],
+      "verlan_forms": ["pardsal"]
+    },
+    {
+      "word": "ordure",
+      "severity": 2,
+      "categories": ["general", "slurs"],
+      "variations": ["0rdure", "@rdure"],
+      "case_sensitive": false,
+      "context_notes": "Calling someone 'trash' or 'filth', moderately offensive",
+      "target_type": "individual",
+      "regions": ["all"],
+      "verlan_forms": ["dureor"]
+    },
+    {
+      "word": "enfoiré",
+      "severity": 2,
+      "categories": ["general", "slurs"],
+      "variations": ["enf0iré", "nfr"],
+      "case_sensitive": false,
+      "context_notes": "Common French insult, roughly 'asshole' or 'jerk'",
+      "target_type": "individual",
+      "regions": ["france", "belgium", "switzerland"],
+      "verlan_forms": ["réenfoi"]
+    }
+  ],
+  "quebec_sacres": {
+    "description": "Quebec French religious profanity system (sacres)",
+    "cultural_context": "Unique to Quebec, based on Catholic religious terms",
+    "intensity_levels": [
+      {"word": "sacre", "intensity": 1},
+      {"word": "câlice", "intensity": 2},
+      {"word": "crisse", "intensity": 2},
+      {"word": "ostie", "intensity": 2},
+      {"word": "tabarnac", "intensity": 3},
+      {"word": "calvaire", "intensity": 3},
+      {"word": "saint-cimonac", "intensity": 4}
+    ],
+    "compound_forms": [
+      "câlice de tabarnac",
+      "ostie de crisse",
+      "tabarnac d'enfoiré",
+      "calvaire de marde"
+    ]
+  },
+  "verlan_system": {
+    "description": "French slang system where syllables are reversed",
+    "examples": {
+      "femme": "meuf",
+      "flic": "keuf",
+      "louche": "chelou",
+      "bizarre": "zarbi",
+      "arabe": "beur",
+      "black": "kcalb"
+    },
+    "profanity_applications": "Many profane words have verlan forms to avoid detection"
+  },
+  "regional_considerations": {
+    "france": {
+      "notes": "Most sexually explicit language, verlan usage common in urban areas",
+      "unique_features": ["Verlan profanity", "North African influences", "Banlieue slang"]
+    },
+    "quebec": {
+      "notes": "Unique religious profanity system (sacres), anglicisms avoided",
+      "unique_features": ["Catholic-based profanity", "Joual dialect", "Resistance to English"]
+    },
+    "belgium": {
+      "notes": "Similar to French French but with some Flemish influences",
+      "unique_features": ["Flemish loanwords", "Regional variations", "More conservative usage"]
+    },
+    "switzerland": {
+      "notes": "More conservative approach, German and Italian influences",
+      "unique_features": ["Multilingual context", "Conservative usage", "Regional German influence"]
+    },
+    "africa": {
+      "notes": "Local language influences, often more formal French maintained",
+      "unique_features": ["Indigenous language mixing", "Colonial legacy", "Varied regional patterns"]
+    }
+  },
+  "linguistic_patterns": {
+    "gender_agreement": "Adjectives agree with gender (con/conne, salaud/salope)",
+    "intensity_modifiers": "Use of 'putain de', 'bordel de', 'saloperie de' as intensifiers",
+    "euphemisms": "Creative euphemisms common (zut, mince, punaise)",
+    "compound_profanity": "Complex insult chains common (fils de pute de merde)"
+  },
+  "false_friends": {
+    "english_speakers": [
+      {"french": "bite", "english_confusion": "Pronounced like 'beat', means penis"},
+      {"french": "con", "english_confusion": "Not related to English 'con', means vulva/idiot"},
+      {"french": "préservatif", "english_confusion": "Means condom, not preservative"}
+    ]
+  }
+}

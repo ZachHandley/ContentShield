@@ -1,0 +1,299 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "severity_system": {
+    "description": "Hindi profanity severity classification considering Indian cultural values and regional variations",
+    "methodology": "Based on sociolinguistic research across Hindi-speaking regions and contemporary Indian social dynamics",
+    "cultural_context": "Reflects traditional Indian family values, religious diversity, and modern urban-rural divides"
+  },
+  "severity_levels": {
+    "1": {
+      "name": "हल्का (Mild)",
+      "name_en": "Mild",
+      "score_range": "1.0-1.9",
+      "description": "हल्की अपशब्द भाषा जो अनौपचारिक परिस्थितियों में स्वीकार्य हो सकती है",
+      "description_en": "Mild profanity that may be acceptable in informal circumstances",
+      "social_acceptability": {
+        "male_friends_casual": "cautiously_acceptable",
+        "mixed_gender_informal": "inappropriate",
+        "family_presence": "avoided",
+        "workplace": "inappropriate",
+        "religious_contexts": "forbidden"
+      },
+      "examples": ["गधा", "पागल", "बदमाश", "मूर्ख"],
+      "cultural_notes": "Still avoided in presence of elders, women, or religious contexts"
+    },
+    "2": {
+      "name": "मध्यम (Moderate)",
+      "name_en": "Moderate",
+      "score_range": "2.0-2.9",
+      "description": "अशिष्ट भाषा जो मध्यम अपराध का कारण बनती है",
+      "description_en": "Coarse language causing moderate offense",
+      "social_acceptability": {
+        "male_friends_casual": "limited_acceptance",
+        "mixed_gender": "offensive",
+        "family_presence": "forbidden",
+        "workplace": "forbidden",
+        "educational": "inappropriate"
+      },
+      "examples": ["कुत्ता", "साला", "कमीना", "नालायक"],
+      "cultural_notes": "Causes social disapproval, especially from traditional families"
+    },
+    "3": {
+      "name": "तीव्र (Strong)",
+      "name_en": "Strong",
+      "score_range": "3.0-3.9",
+      "description": "अत्यधिक आपत्तिजनक भाषा जो गंभीर सामाजिक नाराजगी का कारण बनती है",
+      "description_en": "Highly offensive language causing serious social disapproval",
+      "social_acceptability": {
+        "male_friends_very_informal": "very_limited",
+        "mixed_gender": "absolutely_forbidden",
+        "family_presence": "absolutely_forbidden",
+        "public_spaces": "forbidden",
+        "all_formal_contexts": "forbidden"
+      },
+      "examples": ["गांडू", "चूतिया", "हरामी", "कुत्ती"],
+      "cultural_notes": "Can result in serious social consequences and family conflicts"
+    },
+    "4": {
+      "name": "अत्यंत तीव्र (Severe)",
+      "name_en": "Severe",
+      "score_range": "4.0",
+      "description": "अत्यंत आपत्तिजनक भाषा, सभी सार्वजनिक संदर्भों में वर्जित",
+      "description_en": "Extremely offensive language, taboo in all public contexts",
+      "social_acceptability": {
+        "all_contexts": "absolutely_forbidden",
+        "private_extreme": "extremely_limited"
+      },
+      "examples": ["मादरचोद", "बहनचोद", "भोसड़ी के", "रंडी"],
+      "cultural_notes": "Violates fundamental Indian cultural values, can provoke violence"
+    }
+  },
+  "contextual_factors": {
+    "family_hierarchy": {
+      "description": "Indian family structure significantly affects language acceptability",
+      "elder_presence": {
+        "modifier": "+1.5 to +2.0",
+        "notes": "Extreme respect required for elders, all profanity highly inappropriate"
+      },
+      "parent_child_dynamics": {
+        "modifier": "+1.0 to +1.5",
+        "notes": "Children expected to use respectful language with parents"
+      },
+      "family_honor_context": {
+        "modifier": "+2.0 for family insults",
+        "notes": "Family honor attacks violate core cultural values"
+      }
+    },
+    "religious_context": {
+      "description": "Religious diversity and spirituality affect profanity perception",
+      "hindu_traditional": {
+        "modifier": "+0.5 to +0.8",
+        "notes": "Traditional Hindu values emphasize pure speech and ahimsa"
+      },
+      "muslim_communities": {
+        "modifier": "+0.7 to +1.0",
+        "notes": "Islamic emphasis on respectful speech and family honor"
+      },
+      "sikh_communities": {
+        "modifier": "+0.5 to +0.7",
+        "notes": "Sikh values emphasize respectful communication"
+      },
+      "religious_festivals": {
+        "modifier": "+1.0 to +1.5",
+        "notes": "Religious occasions require especially pure speech"
+      }
+    },
+    "regional_variations": {
+      "description": "Significant differences across Hindi-speaking regions",
+      "delhi_ncr": {
+        "modifier": "-0.2 to -0.3",
+        "notes": "More cosmopolitan, slightly more tolerant of casual profanity",
+        "youth_culture": "Urban youth more accepting"
+      },
+      "uttar_pradesh_bihar": {
+        "modifier": "baseline to +0.2",
+        "notes": "Traditional heartland, maintains conservative attitudes",
+        "rural_areas": "Very conservative, +0.4 to +0.5 modifier"
+      },
+      "punjab_haryana": {
+        "modifier": "-0.1 to +0.1",
+        "notes": "Moderate tolerance, agricultural culture influence"
+      },
+      "rajasthan": {
+        "modifier": "+0.2 to +0.4",
+        "notes": "Traditional honor culture, very sensitive to family insults"
+      },
+      "mumbai_hindi_speakers": {
+        "modifier": "-0.3 to -0.4",
+        "notes": "Cosmopolitan film industry influence, more tolerant"
+      }
+    },
+    "caste_considerations": {
+      "description": "Caste dynamics affect both usage and perception",
+      "upper_caste_expectations": {
+        "modifier": "+0.3 to +0.5",
+        "notes": "Expected to maintain higher linguistic standards"
+      },
+      "caste_based_insults": {
+        "severity_override": "4.0",
+        "legal_implications": "Illegal under SC/ST Prevention of Atrocities Act"
+      },
+      "progressive_anti_caste": {
+        "modifier": "-0.2",
+        "notes": "Anti-caste movements more tolerant of challenging traditional norms"
+      }
+    },
+    "generational_differences": {
+      "description": "Significant age-related differences in tolerance and usage",
+      "elderly_60plus": {
+        "modifier": "+0.8 to +1.2",
+        "notes": "Extremely conservative, strong traditional values",
+        "religious_influence": "High religious observance affects language attitudes"
+      },
+      "middle_aged_40_60": {
+        "modifier": "+0.4 to +0.6",
+        "notes": "Traditional values with some modern flexibility",
+        "parental_role": "Responsibility for children's moral development"
+      },
+      "young_adults_20_40": {
+        "modifier": "-0.1 to +0.2",
+        "notes": "More tolerant but still culturally constrained",
+        "education_factor": "Higher education correlates with slight tolerance increase"
+      },
+      "youth_teenagers": {
+        "modifier": "-0.3 to -0.1",
+        "notes": "Most tolerant, influenced by global media and internet culture",
+        "family_pressure": "Still heavily constrained by family expectations"
+      }
+    },
+    "gender_dynamics": {
+      "description": "Strong gender differences in usage permissions and expectations",
+      "male_speakers": {
+        "modifier": "baseline",
+        "notes": "More social tolerance for male profanity use in appropriate contexts"
+      },
+      "female_speakers": {
+        "modifier": "+0.7 to +1.2",
+        "notes": "Much higher social stigma for women using profanity",
+        "family_honor": "Female language use reflects on entire family honor"
+      },
+      "gender_specific_insults": {
+        "modifier": "+0.5 to +1.0 when targeting women",
+        "notes": "Insults targeting women particularly severe in patriarchal context"
+      }
+    },
+    "educational_socioeconomic": {
+      "description": "Education and class significantly affect language attitudes",
+      "higher_education": {
+        "modifier": "-0.2 to -0.1",
+        "notes": "Slightly more tolerant, exposed to diverse perspectives",
+        "english_education": "English-educated more familiar with global attitudes"
+      },
+      "lower_socioeconomic": {
+        "modifier": "-0.1 to +0.1",
+        "notes": "May use more profanity but still sensitive to family/religious insults",
+        "community_pressure": "Strong community social control"
+      },
+      "elite_upper_class": {
+        "modifier": "+0.3 to +0.5",
+        "notes": "Expected to maintain sophisticated linguistic standards",
+        "code_switching": "May use English profanity instead of Hindi"
+      }
+    },
+    "urban_rural_divide": {
+      "description": "Significant differences between urban and rural attitudes",
+      "major_cities": {
+        "modifier": "-0.3 to -0.5",
+        "notes": "More cosmopolitan, diverse exposure, film industry influence"
+      },
+      "small_towns": {
+        "modifier": "+0.1 to +0.3",
+        "notes": "More traditional, closer community monitoring"
+      },
+      "rural_villages": {
+        "modifier": "+0.4 to +0.7",
+        "notes": "Very traditional, strong community values, elder respect paramount"
+      }
+    },
+    "bollywood_media_influence": {
+      "description": "Film industry and media affect profanity normalization",
+      "mainstream_bollywood": {
+        "modifier": "-0.2 to -0.3",
+        "notes": "Normalized certain mild profanity through popular culture"
+      },
+      "web_series_content": {
+        "modifier": "-0.3 to -0.4",
+        "notes": "Digital content more permissive, youth audience"
+      },
+      "traditional_media": {
+        "modifier": "+0.2",
+        "notes": "Traditional TV and radio maintain conservative standards"
+      }
+    }
+  },
+  "special_classifications": {
+    "family_honor_violations": {
+      "description": "Attacks on family honor, particularly mothers and sisters",
+      "severity_override": "4.0",
+      "cultural_significance": "Violates fundamental Indian cultural values",
+      "social_consequences": "Can provoke violence, permanent social ostracism",
+      "examples": ["मादरचोद", "बहनचोद", "माँ की ***"]
+    },
+    "caste_discrimination": {
+      "description": "Caste-based discriminatory language",
+      "severity_override": "4.0",
+      "legal_implications": "Illegal under Indian anti-discrimination laws",
+      "social_consequences": "Legal action, social boycott possible"
+    },
+    "religious_blasphemy": {
+      "description": "Direct blasphemy against religious beliefs",
+      "severity_depends_on_community": "3.0-4.0 depending on religious context",
+      "interfaith_sensitivity": "Must consider multi-religious sensitivities"
+    },
+    "lgbtq_discrimination": {
+      "description": "Homophobic and transphobic language",
+      "severity_increasing": "3.0-4.0, increasing awareness",
+      "legal_context": "Growing legal protections and social awareness",
+      "generational_divide": "Younger generations more sensitive"
+    },
+    "hinglish_code_switching": {
+      "description": "Mixed Hindi-English profanity",
+      "severity_modifier": "-0.2 to -0.3",
+      "urban_phenomenon": "More common in educated urban contexts",
+      "examples": ["What the hell यार", "BC English mixing"]
+    }
+  },
+  "usage_guidelines": {
+    "content_filtering": {
+      "family_platforms": "Level 1+ should be filtered",
+      "educational_platforms": "All profanity should be filtered",
+      "social_media": "Level 2+ typically requires filtering",
+      "entertainment_adult": "Level 3+ requires warnings"
+    },
+    "age_restrictions": {
+      "under_16": "All profanity inappropriate",
+      "16_21": "Level 1 sometimes acceptable with heavy cultural context",
+      "21_plus": "Context, family situation, and regional culture dependent"
+    },
+    "cultural_sensitivity_requirements": {
+      "family_contexts": "Extreme sensitivity to family honor required",
+      "religious_contexts": "Multi-religious sensitivity essential",
+      "caste_awareness": "Zero tolerance for caste-based discrimination",
+      "gender_considerations": "Different standards for male vs female users and targets"
+    },
+    "regional_adaptation": {
+      "delhi_ncr": "Slightly more permissive urban approach",
+      "hindi_heartland": "Conservative traditional approach required",
+      "mumbai_bollywood": "Film industry influence consideration",
+      "rural_areas": "Very conservative filtering recommended"
+    }
+  },
+  "legal_considerations": {
+    "anti_discrimination_laws": "Caste and religious discrimination illegal",
+    "womens_protection": "Gender-based harassment laws increasingly enforced",
+    "cybercrime_legislation": "IT Act covers online harassment and hate speech",
+    "film_certification": "Censor board guidelines for media content",
+    "regional_variations": "Different states may have additional restrictions"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "es",
+  "variation_system": {
+    "description": "Spanish profanity variations including obfuscations, regional forms, and linguistic patterns",
+    "methodology": "Comprehensive collection of spelling variations, l33t speak, and regional dialectal differences"
+  },
+  "obfuscation_patterns": {
+    "character_substitution": {
+      "a": ["@", "4", "á"],
+      "e": ["3", "é", "ë"],
+      "i": ["1", "!", "í", "ï"],
+      "o": ["0", "ó", "ö"],
+      "u": ["ú", "ü"],
+      "s": ["$", "5", "z"],
+      "c": ["k", "q"],
+      "g": ["j"],
+      "j": ["h", "x"]
+    },
+    "symbol_replacement": {
+      "asterisks": "Replace vowels or consonants with * (p*ta, m*erda)",
+      "underscores": "Replace middle letters with _ (p_ta, mi_rda)",
+      "mixed": "Combine multiple techniques (m13rd@, c0ñ0)"
+    },
+    "phonetic_variations": {
+      "k_for_c": "kulo for culo, kabrón for cabrón",
+      "z_for_s": "cozo for coño in some regions",
+      "ph_for_f": "phuck adaptation in Spanish context",
+      "doubled_letters": "mierdaa, putaa for emphasis"
+    }
+  },
+  "regional_variations": {
+    "spain": {
+      "unique_forms": {
+        "joder": ["jodé", "jodete", "me jodo", "que jodido"],
+        "coño": ["coñazo", "coñazos", "cojonudo"],
+        "hostia": ["ostia", "ostias", "hostiaza", "hostion"],
+        "gilipollas": ["gili", "gilipos", "gilipolleces"]
+      },
+      "andalusian": {
+        "dropped_s": "Plural forms lose final -s in speech",
+        "aspirated_s": "S becomes h sound before consonants",
+        "examples": ["putas → putah", "cabrones → cabroneh"]
+      },
+      "catalan_influence": {
+        "borrowed_intensifiers": ["collons", "merda"],
+        "structure": "Catalan sentence structure in Spanish profanity"
+      }
+    },
+    "mexico": {
+      "unique_forms": {
+        "chingar": ["chingón", "chingada", "chingadera", "achingar", "rechingar"],
+        "pendejo": ["pendejada", "pendejear", "pendejón", "pendejito"],
+        "cabrón": ["cabrona", "cabronear", "cabronada", "recabrón"],
+        "madre": ["madreador", "madrear", "desmadre", "madrazo"]
+      },
+      "nahuatl_influence": {
+        "cuate": "Friend, can be used in insults",
+        "naco": "Indigenous influence, considered classist",
+        "examples": ["pinche cuate", "naco culero"]
+      },
+      "northern_mexico": {
+        "pocho": "Mexican-American influenced variations",
+        "spanglish": ["fucking cabrón", "shit de la verga"],
+        "border_slang": ["pinche wey", "órale cabrón"]
+      }
+    },
+    "argentina": {
+      "unique_forms": {
+        "boludo": ["boluda", "boludear", "boludez", "reboludo"],
+        "pelotudo": ["pelotuda", "pelotudez", "pelotudear"],
+        "concha": ["conchudo", "conchuda", "reconcha"],
+        "forro": ["forrito", "aforrado", "desforrarse"]
+      },
+      "lunfardo": {
+        "vesre": "Reverse syllables (tango → gotan style)",
+        "examples": ["jermu for mujer", "gotán style reversals"],
+        "italian_loans": ["merda", "cazzo", "porca miseria"]
+      },
+      "rioplatense": {
+        "vos_forms": "Conjugation changes with vos",
+        "examples": ["vos sos un boludo", "andá a la concha de tu madre"],
+        "intonation": "Different stress patterns affect perception"
+      }
+    },
+    "colombia": {
+      "unique_forms": {
+        "gonorrea": ["gonorrienta", "gonorriado"],
+        "berraco": ["berracada", "berracamente", "emberracarse"],
+        "hijueputa": ["hijueputada", "hijueputismo", "hijuemadre"],
+        "chimba": ["chimbada", "chimbón", "achimbado"]
+      },
+      "paisa": {
+        "regional_accent": "Affects pronunciation and perception",
+        "examples": ["¡Ay, gonorrea!", "¡Qué berraquera!"],
+        "diminutives": "Heavy use of -ico/-ica endings"
+      },
+      "costeño": {
+        "caribbean_influence": "Different rhythm and intonation",
+        "examples": ["jajajay gonorrea", "ombe gonorrienta"],
+        "african_influences": "Some vocabulary from African heritage"
+      }
+    },
+    "chile": {
+      "unique_forms": {
+        "huevón": ["weón", "weona", "aweonado", "aweonaíto"],
+        "fome": ["fomeke", "fomardo"],
+        "culiao": ["culia", "culiaíto", "reculiao"],
+        "pico": ["picó", "picolín", "picaíto"]
+      },
+      "chilean_spanish": {
+        "rapid_speech": "Affects how profanity is perceived",
+        "examples": ["weón po", "la weá fome"],
+        "dropping_syllables": "Shortened forms very common"
+      }
+    }
+  },
+  "creative_obfuscations": {
+    "euphemisms": {
+      "religious": {
+        "dios_mío": "Instead of blasphemous alternatives",
+        "por_favor": "Avoiding stronger religious references",
+        "santo_cielo": "Religious euphemism for stronger expressions"
+      },
+      "sexual": {
+        "rayos": "Instead of coño",
+        "caracoles": "Instead of carajo",
+        "porquería": "Instead of mierda"
+      },
+      "creative": {
+        "mecachis": "Euphemism for me cago",
+        "jolín": "Spanish euphemism for joder",
+        "ostras": "Euphemism for hostias"
+      }
+    },
+    "minced_oaths": {
+      "initial_sounds": ["j... for joder", "p... for puta", "h... for hijo de puta"],
+      "partial_words": ["cab... for cabrón", "hij... for hijueputa"],
+      "gesture_based": ["Showing first letter with fingers", "Hand gestures replacing words"]
+    },
+    "code_switching": {
+      "english_mixing": ["fucking cabrón", "shit de mierda"],
+      "other_languages": ["merda (Italian)", "merde (French)", "scheisse (German)"],
+      "invented_words": ["miércoles for mierda", "púchica for puta"]
+    }
+  },
+  "internet_variations": {
+    "leetspeak": {
+      "basic": ["m13rd4", "c4br0n", "put4", "j0d3r"],
+      "advanced": ["|-|1j0 d3 pu74", "c4br0nc1t0", "p3nd3j4d4"],
+      "mixed": ["mierd@ c4br0n", "j0d3r qu3 put@"]
+    },
+    "emoji_substitution": {
+      "poop_emoji": "💩 for mierda",
+      "eggplant": "🍆 for sexual references",
+      "middle_finger": "🖕 for general insults",
+      "devil": "😈 for evil-related profanity"
+    },
+    "meme_variations": {
+      "internet_culture": ["mierdaposting", "cabroncore"],
+      "social_media": ["#putavida", "#jodermevoy"],
+      "gaming": ["newb cabrón", "lag de mierda"]
+    }
+  },
+  "linguistic_transformations": {
+    "diminutives": {
+      "affectionate": ["cabronito", "pendejito", "putita"],
+      "sarcastic": ["santito", "angelito", "princesita"],
+      "intensifying": ["mierditon", "puticon", "cabronazzo"]
+    },
+    "augmentatives": {
+      "intensifying": ["putón", "cabronazzo", "mierdaza"],
+      "emphasis": ["pendejote", "culerote", "maricónazo"],
+      "regional": ["bolazón (Argentina)", "huevonzote (Chile)"]
+    },
+    "verb_forms": {
+      "infinitives": ["joder", "chingar", "pendejear", "cabronear"],
+      "gerunds": ["jodiendo", "chingando", "pendejeando"],
+      "past_participles": ["jodido", "chingado", "cabroneado"]
+    }
+  },
+  "detection_challenges": {
+    "false_positives": {
+      "legitimate_words": [
+        {"word": "puto", "legitimate": "male duck (archaic)"},
+        {"word": "coger", "legitimate": "to take (Spain)"},
+        {"word": "concha", "legitimate": "shell, seashell"}
+      ]
+    },
+    "context_dependent": {
+      "friendly_usage": "Many terms acceptable between friends",
+      "regional_acceptance": "Varies dramatically by Spanish-speaking region",
+      "generational": "Older vs younger speakers have different tolerances"
+    },
+    "compound_variations": {
+      "creative_compounds": ["hijodelagranputa", "mequieromorir"],
+      "separated_words": ["hijo de puta", "me cago en"],
+      "mixed_languages": ["fucking pendejo", "shit cabrón"]
+    }
+  }
+}

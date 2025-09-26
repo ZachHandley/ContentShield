@@ -1,0 +1,228 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "category_system": {
+    "description": "Hindi profanity categorization system considering Hindu-Muslim cultural dynamics and modern Indian society",
+    "methodology": "Based on sociolinguistic research across Hindi-speaking regions and contemporary usage analysis"
+  },
+  "categories": {
+    "family_insults": {
+      "name": "Family Honor Attacks",
+      "description": "Insults targeting family members, particularly mothers and sisters",
+      "examples_note": "Attacks on family honor, extremely severe in Indian cultural context",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "mother_insults": "Sexual insults targeting mother (मादरचोद)",
+        "sister_insults": "Sexual insults targeting sister (बहनचोद)",
+        "family_relationship": "Inappropriate family relationship references",
+        "honor_destruction": "Direct attacks on family reputation and honor"
+      },
+      "cultural_significance": "Family honor is central to Indian society, making these most offensive",
+      "social_consequences": "Can lead to serious conflicts, violence, and social ostracism"
+    },
+    "sexual": {
+      "name": "Sexual Content",
+      "description": "Sexually explicit language, anatomical references, and sexual behavior descriptions",
+      "examples_note": "Highly taboo due to traditional Indian cultural values around sexual modesty",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "genitalia_male": "Male genital references (लौड़ा, लंड)",
+        "genitalia_female": "Female genital references (भोसड़ी, चूत)",
+        "sexual_acts": "References to sexual activities",
+        "prostitution": "Prostitution-related terminology (रंडी, रांड)"
+      },
+      "cultural_sensitivity": "Extremely high due to traditional values around sexual purity",
+      "religious_implications": "Conflicts with Hindu and Islamic teachings on sexual modesty"
+    },
+    "anatomical": {
+      "name": "Anatomical References",
+      "description": "References to body parts, particularly private areas and bodily functions",
+      "examples_note": "Body parts used inappropriately or crudely",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "private_parts": "Genital and sexual anatomy references",
+        "buttocks_anus": "Rear end and anal references (गांडू, गांड)",
+        "bodily_functions": "References to elimination and sexual functions",
+        "crude_anatomy": "Other body parts used insultingly"
+      },
+      "cultural_context": "Indian culture emphasizes bodily modesty and cleanliness"
+    },
+    "derogatory": {
+      "name": "General Derogatory Terms",
+      "description": "Personal insults and character attacks without specific targeting",
+      "examples_note": "General insults attacking personality, character, or behavior",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "character_attacks": "Attacks on moral character (कमीना, हरामी)",
+        "intelligence_insults": "Questioning mental capacity (गधा, मूर्ख)",
+        "worthlessness": "Implying lack of value or purpose (नालायक)",
+        "behavioral_criticism": "Criticizing actions or habits (बदमाश)"
+      }
+    },
+    "animal_insults": {
+      "name": "Animal-Based Insults",
+      "description": "Comparing people to animals, with cultural significance in Hindu context",
+      "examples_note": "Animal comparisons with religious and cultural implications",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "dog_references": "Dog comparisons (कुत्ता, कुत्ती)",
+        "donkey_references": "Donkey comparisons implying stupidity (गधा)",
+        "sacred_animal_insults": "Inappropriate references to religiously significant animals",
+        "general_animal": "Other animal comparisons"
+      },
+      "hindu_context": "Some animals have religious significance in Hinduism",
+      "cultural_variations": "Different animals have different cultural connotations"
+    },
+    "religious_blasphemy": {
+      "name": "Religious Profanity",
+      "description": "Language targeting religious beliefs, practices, or figures",
+      "examples_note": "Blasphemous or sacrilegious language across Hindu-Muslim contexts",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "hindu_blasphemy": "Inappropriate references to Hindu deities or practices",
+        "islamic_blasphemy": "Inappropriate references to Islamic beliefs",
+        "religious_curses": "Using religious elements inappropriately",
+        "sacred_mockery": "Mocking religious practices or beliefs"
+      },
+      "interfaith_sensitivity": "Must consider Hindu, Muslim, Sikh, and other religious sensitivities"
+    },
+    "caste_discrimination": {
+      "name": "Caste-Based Discrimination",
+      "description": "Terms targeting caste identity and social hierarchy",
+      "examples_note": "Discriminatory language based on traditional caste system",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "lower_caste_slurs": "Slurs against Dalits and other marginalized castes",
+        "caste_superiority": "Language asserting caste-based superiority",
+        "untouchability": "References to traditional untouchability concepts",
+        "occupation_based": "Caste-occupation linked discrimination"
+      },
+      "legal_considerations": "Caste discrimination is illegal in India",
+      "social_impact": "Perpetuates harmful social hierarchies"
+    },
+    "regional_ethnic": {
+      "name": "Regional and Ethnic Slurs",
+      "description": "Discriminatory terms targeting regional, ethnic, or linguistic groups",
+      "examples_note": "Discrimination based on regional origin or ethnicity",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "north_south_divide": "North Indian vs South Indian discrimination",
+        "linguistic_discrimination": "Language-based discrimination",
+        "tribal_slurs": "Discrimination against tribal communities",
+        "regional_stereotypes": "Negative regional stereotyping"
+      }
+    },
+    "gender_specific": {
+      "name": "Gender-Specific Insults",
+      "description": "Insults specifically targeting gender identity or roles",
+      "examples_note": "Gendered insults reflecting patriarchal social structures",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "female_specific": "Insults specifically targeting women (रंडी, कुत्ती)",
+        "masculinity_attacks": "Attacks on male masculinity",
+        "gender_role_mockery": "Mocking traditional gender role adherence",
+        "sexual_behavior_judgment": "Judging sexual behavior based on gender"
+      },
+      "patriarchal_context": "Reflects traditional patriarchal values in Indian society"
+    },
+    "lgbtq_discrimination": {
+      "name": "LGBTQ+ Discrimination",
+      "description": "Terms targeting sexual orientation or gender identity",
+      "examples_note": "Homophobic and transphobic language",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "homophobic_slurs": "Anti-gay slurs (छक्का)",
+        "transgender_discrimination": "Anti-transgender language",
+        "effeminacy_mockery": "Mocking perceived effeminacy in men",
+        "sexual_orientation_attacks": "Attacks based on sexual orientation"
+      },
+      "legal_context": "India has decriminalized homosexuality, increasing sensitivity",
+      "social_progress": "Growing awareness and rights movements"
+    },
+    "mental_health": {
+      "name": "Mental Health Stigmatization",
+      "description": "Terms that stigmatize mental health conditions",
+      "examples_note": "Language perpetuating mental health stigma",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "madness_insults": "Calling someone crazy or mad (पागल)",
+        "intellectual_disability": "Mocking intellectual disabilities",
+        "mental_illness_mockery": "Using mental illness as insult",
+        "behavioral_abnormality": "Stigmatizing non-normative behavior"
+      },
+      "awareness_growing": "Increasing awareness of mental health sensitivity"
+    },
+    "hinglish_modern": {
+      "name": "Modern Hinglish Profanity",
+      "description": "Contemporary profanity mixing Hindi and English",
+      "examples_note": "Modern urban profanity mixing languages",
+      "severity_range": [1, 4],
+      "subcategories": {
+        "english_hindi_mixing": "Code-switching between Hindi and English profanity",
+        "urban_youth_slang": "Profanity popular among urban youth",
+        "internet_culture": "Online-specific Hindi-English profanity mixing",
+        "bollywood_influence": "Film industry influence on mixed language profanity"
+      },
+      "generational_factor": "More common among younger, educated, urban populations"
+    },
+    "traditional_formal": {
+      "name": "Traditional Formal Insults",
+      "description": "Classical or formal Hindi insults with historical context",
+      "examples_note": "Traditional insults from classical Hindi literature and formal usage",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "classical_insults": "Insults from classical Hindi literature",
+        "formal_disapproval": "Formal ways of expressing strong disapproval",
+        "historical_terms": "Terms with historical social context",
+        "literary_references": "Insults derived from literary works"
+      },
+      "educational_context": "Sometimes acceptable in academic or literary contexts"
+    }
+  },
+  "severity_mapping": {
+    "1": {
+      "level": "हल्का (Mild)",
+      "level_en": "Mild",
+      "description": "हल्की गाली-गलौज जो अनौपचारिक माहौल में स्वीकार्य हो सकती है",
+      "description_en": "Mild profanity that may be acceptable in informal settings",
+      "cultural_notes": "May be used among friends but avoided in family and formal contexts",
+      "typical_categories": ["animal_insults.donkey_references", "mental_health.madness_insults", "derogatory.intelligence_insults"]
+    },
+    "2": {
+      "level": "मध्यम (Moderate)",
+      "level_en": "Moderate",
+      "description": "अशिष्ट भाषा जो अधिकांश सार्वजनिक स्थानों पर अनुचित है",
+      "description_en": "Coarse language inappropriate in most public settings",
+      "cultural_notes": "Causes offense in mixed company, avoided around elders and women",
+      "typical_categories": ["animal_insults.dog_references", "derogatory.character_attacks", "regional_ethnic.linguistic_discrimination"]
+    },
+    "3": {
+      "level": "तीव्र (Strong)",
+      "level_en": "Strong",
+      "description": "अत्यधिक आपत्तिजनक भाषा जो अधिकांश संदर्भों में अनुचित है",
+      "description_en": "Highly offensive language inappropriate in most contexts",
+      "cultural_notes": "Causes significant offense, limited to very informal male-only settings",
+      "typical_categories": ["sexual.genitalia", "gender_specific.female_specific", "lgbtq_discrimination.homophobic_slurs"]
+    },
+    "4": {
+      "level": "अत्यंत तीव्र (Severe)",
+      "level_en": "Severe",
+      "description": "अत्यंत आपत्तिजनक भाषा, सार्वजनिक चर्चा में वर्जित",
+      "description_en": "Extremely offensive language, taboo in public discourse",
+      "cultural_notes": "Taboo language that violates fundamental Indian cultural values",
+      "typical_categories": ["family_insults.mother_insults", "sexual.prostitution", "caste_discrimination.lower_caste_slurs"]
+    }
+  },
+  "cultural_considerations": {
+    "family_honor_centrality": "Family honor (izzat) is central to Indian culture, making family insults most severe",
+    "religious_diversity": "Must consider Hindu, Muslim, Sikh, Christian, and other religious sensitivities",
+    "caste_sensitivity": "Caste-based discrimination is illegal and socially condemned",
+    "gender_dynamics": "Traditional gender roles affect both usage and perception of profanity",
+    "regional_variations": "Severity and usage vary significantly across different Hindi-speaking regions",
+    "generational_differences": "Significant differences between traditional and modern attitudes",
+    "education_class": "Educational level and socioeconomic class significantly affect language attitudes",
+    "urban_rural_divide": "Urban areas more tolerant, rural areas more traditional",
+    "bollywood_influence": "Film industry significantly influences popular language and attitudes",
+    "hinglish_evolution": "Growing mixing of Hindi and English in urban contexts"
+  }
+}

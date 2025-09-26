@@ -1,0 +1,299 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "language": "de",
+  "cultural_context": {
+    "description": "Cultural context and usage patterns for German profanity across German-speaking regions",
+    "methodology": "Based on German sociolinguistic research, legal frameworks, and cultural studies"
+  },
+  "social_contexts": {
+    "family": {
+      "acceptance_level": "Varies significantly by family tradition, region, and generation",
+      "generational_differences": {
+        "grandparents": "Very low tolerance, especially those with wartime experiences",
+        "parents": "Context-dependent, often use mild profanity but restrict children",
+        "siblings": "High tolerance in informal settings, compound creativity appreciated",
+        "children": "Strict controls, educational consequences for inappropriate usage"
+      },
+      "examples": {
+        "acceptable": ["mist", "verflixt", "mensch"],
+        "conditional": ["scheisse (if not directed)", "verdammt (mild frustration)"],
+        "unacceptable": ["sexual terms", "hate speech", "Nazi-related terms", "ethnic slurs"]
+      },
+      "regional_differences": "Bavarian/Austrian families more sensitive to religious profanity"
+    },
+    "friendship": {
+      "acceptance_level": "Very high, compound creativity often appreciated and bonding",
+      "bonding_function": "Creative compound insults serve as intimacy markers and humor",
+      "examples": {
+        "affectionate": ["Du Arsch!", "Scheisskerl, wie geht's?"],
+        "playful_insults": ["Du Vollpfosten!", "Saukerl!", "Du verrücktes Arschloch!"],
+        "creative_compounds": ["Du Scheissdreckshurensohn!", "Vollhonk!"]
+      },
+      "boundaries": "Even close friends avoid identity-based hate speech"
+    },
+    "workplace": {
+      "professional": "Zero tolerance in formal business settings, strict consequences",
+      "informal_workplace": "Mild profanity sometimes tolerated in blue-collar environments",
+      "consequences": "Can lead to immediate disciplinary action or termination",
+      "legal_implications": "Workplace hate speech can result in legal action",
+      "examples": {
+        "never_acceptable": ["hate speech", "sexual harassment terms", "targeted personal attacks"],
+        "rarely_tolerated": ["mild exclamations like 'mist' in very informal settings"]
+      }
+    },
+    "public_spaces": {
+      "street_level": "Moderate tolerance depending on context and audience",
+      "transportation": "Generally frowned upon, especially around children and elderly",
+      "formal_public": "Completely inappropriate in government, medical, educational settings",
+      "consequences": "Can lead to social criticism, official complaints, or legal action for hate speech",
+      "regional_variations": "Northern Germany slightly more direct, Southern more conservative"
+    },
+    "educational": {
+      "schools": "Strictly forbidden with severe disciplinary consequences",
+      "universities": "More tolerant in informal student interactions, but not in academic context",
+      "academic_context": "Only acceptable in linguistic research with proper academic framing",
+      "teaching_materials": "Requires extensive justification and content warnings"
+    },
+    "military_police": {
+      "historical_context": "Post-war German military culture very sensitive to language",
+      "current_practice": "Strict codes of conduct, zero tolerance for hate speech",
+      "consequences": "Career-ending implications for inappropriate language"
+    }
+  },
+  "media_context": {
+    "television": {
+      "public_broadcasters": "Very conservative approach, extensive censorship",
+      "private_channels": "Slightly more permissive, but still heavily regulated",
+      "watershed_rules": "Stronger content allowed after 22:00",
+      "regional_differences": "Bavarian broadcasters more conservative due to CSU influence"
+    },
+    "radio": {
+      "music_censorship": "Heavy censorship of offensive lyrics",
+      "talk_shows": "Professional standards with zero tolerance for hate speech",
+      "regional_stations": "Some variation, but generally conservative approach"
+    },
+    "print_media": {
+      "newspapers": "Generally avoided except in direct quotes with heavy contextualization",
+      "magazines": "Varies by target audience, but generally cautious approach",
+      "academic_publications": "Acceptable in linguistic and sociological research"
+    },
+    "internet": {
+      "german_platforms": "Strict enforcement of German hate speech laws",
+      "social_media": "Active monitoring and removal of hate speech",
+      "gaming": "High usage but German servers often heavily moderated",
+      "legal_enforcement": "German authorities actively pursue online hate speech"
+    }
+  },
+  "age_considerations": {
+    "children": {
+      "exposure": "Heavily controlled, parents use extensive euphemisms",
+      "education": "Schools provide education about language harm and consequences",
+      "consequences": "Immediate disciplinary action for inappropriate usage",
+      "protection_measures": "German culture strongly emphasizes protecting children from harmful language"
+    },
+    "adolescents": {
+      "peer_pressure": "High usage for social acceptance, compound creativity valued",
+      "rebellion": "Often use profanity as form of rebellion against authority",
+      "education": "Critical period for learning about hate speech consequences and history",
+      "online_behavior": "Heavy usage in gaming and social media"
+    },
+    "adults": {
+      "professional_impact": "Career consequences for inappropriate usage very serious",
+      "social_navigation": "Must carefully read context, audience, and regional norms",
+      "legal_awareness": "Adults expected to understand legal implications of hate speech",
+      "parenting_responsibility": "Expected to model appropriate language for children"
+    },
+    "elderly": {
+      "wartime_generation": "Often most sensitive due to historical experiences",
+      "traditional_values": "Generally very low tolerance for most profanity",
+      "regional_patterns": "Rural elderly more conservative than urban",
+      "intergenerational_tension": "May clash significantly with younger family members"
+    }
+  },
+  "gender_dynamics": {
+    "traditional_patterns": {
+      "gendered_expectations": "Traditional expectations for women to use less profanity",
+      "double_standards": "Same language more criticized when used by women",
+      "protective_attitudes": "Traditional 'protection' of women from harsh language",
+      "linguistic_sexism": "Some terms specifically target women with no male equivalent"
+    },
+    "evolving_patterns": {
+      "feminist_linguistics": "Academic attention to sexist language patterns",
+      "generational_change": "Younger women more likely to use strong language openly",
+      "workplace_equality": "Professional standards becoming more gender-neutral",
+      "compound_creativity": "Women participating equally in creative compound formation"
+    },
+    "specific_considerations": {
+      "targeting_women": "Terms like 'schlampe' carry additional misogynistic weight",
+      "sexual_terms": "Female anatomy terms generally more taboo than male",
+      "compound_patterns": "Some compounds specifically designed to target women"
+    }
+  },
+  "regional_cultural_patterns": {
+    "northern_germany": {
+      "cultural_factors": [
+        "Hanseatic tradition of directness in communication",
+        "Protestant cultural background less sensitive to blasphemy",
+        "Maritime culture with traditional sailor profanity",
+        "Industrial working-class profanity traditions"
+      ],
+      "unique_aspects": [
+        "More direct communication style",
+        "Plattdeutsch (Low German) influences",
+        "Less religious sensitivity than South",
+        "Hamburg and Bremen cosmopolitan influences"
+      ]
+    },
+    "southern_germany_bavaria": {
+      "cultural_factors": [
+        "Strong Catholic cultural influence affects blasphemy sensitivity",
+        "Conservative CSU political culture",
+        "Alpine rural traditions",
+        "Austrian cultural similarities"
+      ],
+      "unique_aspects": [
+        "Religious profanity more offensive than sexual",
+        "Bavarian dialect creates unique profanity forms",
+        "Rural-urban divides more pronounced",
+        "Oktoberfest culture allows temporary language relaxation"
+      ]
+    },
+    "eastern_germany": {
+      "cultural_factors": [
+        "DDR (East German) socialist cultural legacy",
+        "Different historical language experiences",
+        "Economic transformation stress affects language",
+        "Different relationship with authority"
+      ],
+      "unique_aspects": [
+        "Some unique DDR-era terms and references",
+        "Different attitude toward authority-challenging language",
+        "Economic frustration can affect language use",
+        "Integration challenges create language tensions"
+      ]
+    },
+    "austria": {
+      "cultural_factors": [
+        "Strong Catholic cultural influence",
+        "Habsburg cultural legacy affects formality",
+        "Alpine culture influences",
+        "Distinct national identity from Germany"
+      ],
+      "unique_aspects": [
+        "'Oida' culture - friendly insults common",
+        "More conservative than Germany generally",
+        "Austrian German has distinct profanity patterns",
+        "Ski culture creates informal language contexts"
+      ]
+    },
+    "switzerland": {
+      "cultural_factors": [
+        "Multilingual context affects German profanity",
+        "Conservative culture emphasizes propriety",
+        "Banking and diplomatic culture",
+        "Cantonal diversity creates regional variations"
+      ],
+      "unique_aspects": [
+        "Most conservative German-speaking region",
+        "Swiss German dialect very different from standard German",
+        "French and Italian influences on German profanity",
+        "Direct democracy culture affects authority attitudes"
+      ]
+    }
+  },
+  "situational_appropriateness": {
+    "celebratory": {
+      "acceptable": ["Verdammt gut!", "Scheisse, das ist toll!", "Saugenial!"],
+      "context": "Joy and excitement can make moderate profanity more acceptable",
+      "boundaries": "Still avoid hate speech and targeted personal attacks"
+    },
+    "frustration": {
+      "acceptable": ["Scheisse!", "Verdammt!", "Mist!"],
+      "context": "Emotional release often excused in private settings",
+      "escalation_risk": "Can rapidly escalate to more severe language"
+    },
+    "pain_surprise": {
+      "acceptable": ["Verdammt!", "Scheisse!", "Mist!"],
+      "context": "Involuntary exclamations widely excused",
+      "medical_settings": "Healthcare workers understand involuntary profanity"
+    },
+    "humor": {
+      "acceptable": "Creative compound profanity often appreciated for humor",
+      "context": "Comedy shows, friendly teasing, wordplay valued",
+      "boundaries": "Humor doesn't excuse hate speech or cruel personal targeting"
+    },
+    "sports": {
+      "acceptable": "Moderate profanity common in sports contexts",
+      "context": "Competitive excitement allows some language relaxation",
+      "broadcasting": "Sports broadcasts still maintain professional standards"
+    }
+  },
+  "consequences_and_sanctions": {
+    "social": {
+      "ostracism": "Inappropriate usage can lead to complete social exclusion",
+      "reputation": "Affects perceptions of education, character, and respectability",
+      "relationship_damage": "Can permanently destroy personal and professional relationships",
+      "cultural_marking": "Marks speaker as outside cultural norms"
+    },
+    "professional": {
+      "disciplinary_action": "Warnings, suspensions, immediate termination possible",
+      "career_destruction": "Can completely destroy career prospects",
+      "industry_blacklisting": "May be blacklisted within entire industries",
+      "public_sector": "Especially serious consequences in government employment"
+    },
+    "legal": {
+      "volksverhetzung": "Hate speech laws carry serious criminal penalties",
+      "beleidigung": "Personal insult laws can result in fines",
+      "workplace_law": "Labor protections against discriminatory language",
+      "online_enforcement": "Active prosecution of online hate speech",
+      "international_consequences": "Can affect visa and immigration status"
+    },
+    "educational": {
+      "school_suspension": "Immediate suspension for hate speech",
+      "university_expulsion": "Can be expelled from universities",
+      "academic_consequences": "Can affect academic and research careers",
+      "scholarship_loss": "May lose funding and scholarships"
+    }
+  },
+  "historical_context": {
+    "nazi_period": {
+      "linguistic_legacy": "Nazi ideology created lasting language sensitivity",
+      "denazification": "Post-war efforts to remove Nazi language from society",
+      "legal_framework": "Current laws directly respond to Nazi-era hate speech",
+      "educational_emphasis": "Schools heavily emphasize historical context of hate speech"
+    },
+    "east_west_division": {
+      "different_developments": "East and West Germany developed different language patterns",
+      "reunification_impact": "Language differences part of reunification challenges",
+      "authority_relationships": "Different relationships with authority affect language use"
+    },
+    "immigration_impact": {
+      "turkish_community": "Large Turkish population affects German profanity landscape",
+      "multilingual_context": "Immigration creates new language mixing patterns",
+      "integration_tensions": "Language use becomes marker of cultural integration"
+    }
+  },
+  "special_cultural_considerations": {
+    "compound_word_culture": {
+      "creative_appreciation": "Germans appreciate creative compound formation",
+      "humor_value": "Clever compounds valued even when offensive",
+      "linguistic_identity": "Compound creativity part of German linguistic identity"
+    },
+    "authority_relationships": {
+      "formality_traditions": "Strong traditions of formal address (Sie/Du)",
+      "hierarchy_respect": "Traditional respect for authority affects language use",
+      "generational_change": "Younger generations challenging traditional authority language"
+    },
+    "regional_pride": {
+      "dialect_preservation": "Regional dialects create distinct profanity patterns",
+      "local_identity": "Regional profanity patterns as identity markers",
+      "resistance_to_standardization": "Local forms resist standard German influence"
+    },
+    "legal_culture": {
+      "rule_of_law": "Strong legal framework affects language attitudes",
+      "hate_speech_sensitivity": "Very high awareness of legal consequences",
+      "enforcement_reality": "Real prosecutions create genuine deterrent effect"
+    }
+  }
+}

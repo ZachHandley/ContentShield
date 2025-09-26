@@ -1,0 +1,134 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "category_system": {
+    "description": "Hierarchical categorization system based on content type and social impact",
+    "methodology": "Based on academic research and community standards for content moderation"
+  },
+  "categories": {
+    "general": {
+      "name": "General Profanity",
+      "description": "Common swear words and mild expletives without specific targeting",
+      "examples_note": "Basic profanity used for emphasis or frustration",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "exclamatory": "Words used for emphasis (damn, hell)",
+        "bodily_functions": "References to bodily functions (crap, piss)",
+        "mild_curses": "Common curse words (shit, ass)"
+      }
+    },
+    "sexual": {
+      "name": "Sexual Content",
+      "description": "Words related to sexual acts, anatomy, or sexually explicit content",
+      "examples_note": "Sexual references and explicit terminology",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "anatomy": "Sexual body parts and references",
+        "acts": "References to sexual activities",
+        "explicit": "Graphic sexual terminology",
+        "pornographic": "Pornography-related terms"
+      }
+    },
+    "violence": {
+      "name": "Violence and Aggression",
+      "description": "Words promoting or describing violence, threats, or aggressive behavior",
+      "examples_note": "Violent language and threats",
+      "severity_range": [2, 4],
+      "subcategories": {
+        "threats": "Direct or implied threats of harm",
+        "weapons": "References to weapons in threatening context",
+        "physical_harm": "Descriptions of violence or harm",
+        "death_wishes": "Expressions wishing harm or death"
+      }
+    },
+    "hate_speech": {
+      "name": "Hate Speech",
+      "description": "Language targeting individuals or groups based on identity characteristics",
+      "examples_note": "Discriminatory and hateful language",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "racial": "Racial slurs and racist language",
+        "ethnic": "Ethnicity-based discrimination",
+        "religious": "Religious hatred and discrimination",
+        "gender": "Gender-based hate speech",
+        "lgbtq": "Anti-LGBTQ+ slurs and discrimination",
+        "disability": "Ableist language and discrimination",
+        "socioeconomic": "Class-based discrimination"
+      }
+    },
+    "substance_abuse": {
+      "name": "Substance Abuse",
+      "description": "References to illegal drugs, drug culture, and substance abuse",
+      "examples_note": "Drug-related terminology and culture references",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "drugs": "Illegal drug names and slang",
+        "paraphernalia": "Drug-related equipment and tools",
+        "culture": "Drug culture and lifestyle references",
+        "dealing": "Drug distribution and sales terminology"
+      }
+    },
+    "body_parts": {
+      "name": "Inappropriate Anatomical References",
+      "description": "Crude or inappropriate references to body parts",
+      "examples_note": "Anatomical terms used inappropriately or crudely",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "crude_anatomy": "Crude references to body parts",
+        "sexual_anatomy": "Inappropriate sexual anatomical references",
+        "scatological": "References to bodily waste and functions"
+      }
+    },
+    "slurs": {
+      "name": "Slurs and Derogatory Terms",
+      "description": "Derogatory terms targeting specific groups or individuals",
+      "examples_note": "Offensive terms for groups and individuals",
+      "severity_range": [3, 4],
+      "subcategories": {
+        "identity_based": "Slurs based on identity characteristics",
+        "appearance": "Derogatory comments about appearance",
+        "behavior": "Offensive terms describing behavior",
+        "historical": "Historically offensive terms and slurs"
+      }
+    },
+    "religious": {
+      "name": "Religious Profanity",
+      "description": "Blasphemous or sacrilegious language targeting religious beliefs",
+      "examples_note": "Religious curses and blasphemous language",
+      "severity_range": [1, 3],
+      "subcategories": {
+        "blasphemy": "Direct blasphemous language",
+        "sacrilege": "Sacrilegious references",
+        "religious_curses": "Religious-themed curse words",
+        "deity_references": "Inappropriate deity references"
+      }
+    }
+  },
+  "severity_mapping": {
+    "1": {
+      "level": "Mild",
+      "description": "Generally acceptable in casual conversation but may be filtered in formal settings",
+      "typical_categories": ["general.exclamatory", "religious.religious_curses", "substance_abuse.culture"]
+    },
+    "2": {
+      "level": "Moderate",
+      "description": "Inappropriate in most professional or public settings",
+      "typical_categories": ["general.mild_curses", "sexual.anatomy", "violence.physical_harm", "body_parts.crude_anatomy"]
+    },
+    "3": {
+      "level": "Strong",
+      "description": "Highly offensive and inappropriate in most contexts",
+      "typical_categories": ["sexual.explicit", "hate_speech.gender", "slurs.behavior", "violence.threats"]
+    },
+    "4": {
+      "level": "Severe",
+      "description": "Extremely offensive, potentially illegal, or causing significant harm",
+      "typical_categories": ["hate_speech.racial", "slurs.identity_based", "violence.death_wishes", "sexual.pornographic"]
+    }
+  },
+  "cross_category_considerations": {
+    "contextual_severity": "Words may have different severity levels depending on context and target",
+    "cultural_variations": "Severity may vary across different English-speaking regions",
+    "temporal_evolution": "Categories and severity levels evolve with changing social norms"
+  }
+}

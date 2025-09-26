@@ -1,0 +1,393 @@
+{
+  "language": "hi",
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "total_entries": 155,
+  "data_structure": {
+    "description": "Comprehensive Hindi profanity database with Devanagari script and romanized forms covering regional variations",
+    "entry_format": {
+      "word": "The profane word or phrase in Devanagari script",
+      "romanized": "Latin script transliteration",
+      "severity": "Severity level (1-4)",
+      "categories": "Array of applicable categories",
+      "variations": "Common variations and obfuscations in both scripts",
+      "case_sensitive": "Whether matching should be case-sensitive",
+      "context_notes": "Special contextual considerations",
+      "target_type": "Whether it targets individuals, groups, or is general",
+      "regional_usage": "Regional variations across Hindi-speaking areas",
+      "cultural_sensitivity": "Hindu/Muslim/Sikh cultural considerations",
+      "hinglish_mixing": "English mixing patterns common in modern usage"
+    }
+  },
+  "words": [
+    {
+      "word": "मादरचोद",
+      "romanized": "madarchod",
+      "severity": 4,
+      "categories": ["sexual", "family_insult", "extremely_vulgar"],
+      "variations": ["मैडरचोद", "mc", "m@d@rch0d", "madarchod", "mc", "म***ड"],
+      "case_sensitive": false,
+      "context_notes": "Motherfucker, most severe Hindi insult combining family and sexual abuse",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "extremely_common",
+        "delhi_region": "very_common",
+        "bihar_up": "extremely_common",
+        "mumbai": "common",
+        "south_india": "known_but_less_common"
+      },
+      "cultural_sensitivity": "extreme",
+      "hinglish_mixing": "often abbreviated as MC in English contexts"
+    },
+    {
+      "word": "भोसड़ी के",
+      "romanized": "bhosadi ke",
+      "severity": 4,
+      "categories": ["sexual", "anatomical", "extremely_vulgar"],
+      "variations": ["भोसड़ी", "bhosdi", "bhosdike", "bhosri", "b**sdi"],
+      "case_sensitive": false,
+      "context_notes": "Cunt-related insult, extremely vulgar reference to female genitalia",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "very_common",
+        "delhi_region": "extremely_common",
+        "bihar_up": "very_common",
+        "punjabi_influence": "common",
+        "south_india": "less_common"
+      },
+      "cultural_sensitivity": "extreme",
+      "hinglish_mixing": "sometimes written as BK in English"
+    },
+    {
+      "word": "रंडी",
+      "romanized": "randi",
+      "severity": 4,
+      "categories": ["sexual", "female_specific", "derogatory"],
+      "variations": ["रंडिया", "रानी", "randi", "r@ndi", "rndee"],
+      "case_sensitive": false,
+      "context_notes": "Whore/prostitute, extremely derogatory term for women",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "common",
+        "delhi_region": "common",
+        "bihar_up": "very_common",
+        "punjabi_region": "common",
+        "mumbai": "moderate"
+      },
+      "cultural_sensitivity": "extreme",
+      "hinglish_mixing": "often mixed with English expletives"
+    },
+    {
+      "word": "कुत्ता",
+      "romanized": "kutta",
+      "severity": 2,
+      "categories": ["animal_insult", "derogatory", "general"],
+      "variations": ["कुत्ते", "कुत्ती", "kutta", "kutte", "kutiya"],
+      "case_sensitive": false,
+      "context_notes": "Dog, common insult implying low status, cowardice, or servility",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "extremely_common",
+        "delhi_region": "very_common",
+        "bihar_up": "extremely_common",
+        "all_regions": "universally_understood",
+        "rural_areas": "very_common"
+      },
+      "cultural_sensitivity": "moderate",
+      "hinglish_mixing": "often used with English: 'kutta hai' (he's a dog)"
+    },
+    {
+      "word": "बहनचोद",
+      "romanized": "bahenchod",
+      "severity": 4,
+      "categories": ["sexual", "family_insult", "extremely_vulgar"],
+      "variations": ["bc", "बहनचोद", "bhnchod", "bahanchod", "b@hench0d"],
+      "case_sensitive": false,
+      "context_notes": "Sister-fucker, extremely severe family and sexual insult",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "very_common",
+        "delhi_region": "extremely_common",
+        "bihar_up": "very_common",
+        "punjabi_region": "common",
+        "mumbai": "common"
+      },
+      "cultural_sensitivity": "extreme",
+      "hinglish_mixing": "commonly abbreviated as BC in English text"
+    },
+    {
+      "word": "गांडू",
+      "romanized": "gandu",
+      "severity": 3,
+      "categories": ["sexual", "homophobic", "anatomical"],
+      "variations": ["गांडु", "gandu", "g@ndu", "gandoo", "गं***"],
+      "case_sensitive": false,
+      "context_notes": "Asshole/gay insult, refers to anal anatomy with homophobic connotations",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "very_common",
+        "delhi_region": "extremely_common",
+        "bihar_up": "very_common",
+        "mumbai": "common",
+        "youth_culture": "widespread"
+      },
+      "cultural_sensitivity": "high",
+      "hinglish_mixing": "popular in urban youth Hinglish"
+    },
+    {
+      "word": "चूतिया",
+      "romanized": "chutiya",
+      "severity": 3,
+      "categories": ["sexual", "anatomical", "derogatory"],
+      "variations": ["चुतिया", "chutia", "ch00tiya", "chutiaa", "च***या"],
+      "case_sensitive": false,
+      "context_notes": "Cunt-related insult, implies stupidity through sexual organ reference",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "extremely_common",
+        "delhi_region": "very_common",
+        "bihar_up": "extremely_common",
+        "mumbai": "common",
+        "punjabi_region": "common"
+      },
+      "cultural_sensitivity": "high",
+      "hinglish_mixing": "very common in urban settings"
+    },
+    {
+      "word": "लौड़ा",
+      "romanized": "lauda",
+      "severity": 3,
+      "categories": ["anatomical", "sexual", "male_specific"],
+      "variations": ["लंड", "lauda", "loda", "l@uda", "lund"],
+      "case_sensitive": false,
+      "context_notes": "Penis, male anatomical reference used as general insult",
+      "target_type": "general",
+      "regional_usage": {
+        "northern_hindi": "very_common",
+        "bihar_up": "extremely_common",
+        "delhi_region": "common",
+        "rural_areas": "very_common",
+        "mumbai": "moderate"
+      },
+      "cultural_sensitivity": "high",
+      "hinglish_mixing": "sometimes mixed with English expressions"
+    },
+    {
+      "word": "हरामी",
+      "romanized": "harami",
+      "severity": 3,
+      "categories": ["religious", "derogatory", "illegitimate_birth"],
+      "variations": ["हरामजादा", "harami", "haramzada", "h@rami", "हरामख़ोर"],
+      "case_sensitive": false,
+      "context_notes": "Bastard, illegitimate birth insult with religious/moral implications",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "very_common",
+        "muslim_areas": "particularly_offensive",
+        "delhi_region": "common",
+        "bihar_up": "very_common",
+        "punjabi_region": "common"
+      },
+      "cultural_sensitivity": "high_religious",
+      "hinglish_mixing": "used in both Hindi and Urdu contexts"
+    },
+    {
+      "word": "साला",
+      "romanized": "saala",
+      "severity": 2,
+      "categories": ["family_insult", "relationship", "mild"],
+      "variations": ["साले", "saala", "sala", "s@ala"],
+      "case_sensitive": false,
+      "context_notes": "Brother-in-law, mild family-related insult, very common",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "extremely_common",
+        "all_regions": "universally_understood",
+        "bollywood": "popularized_through_films",
+        "casual_usage": "widely_accepted"
+      },
+      "cultural_sensitivity": "low_to_moderate",
+      "hinglish_mixing": "extremely common in Hinglish expressions"
+    },
+    {
+      "word": "कमीना",
+      "romanized": "kameena",
+      "severity": 2,
+      "categories": ["derogatory", "character", "general"],
+      "variations": ["कमीने", "kamina", "kameena", "kam33na"],
+      "case_sensitive": false,
+      "context_notes": "Scoundrel, mean person, character attack without specific vulgarity",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "very_common",
+        "bollywood": "frequent_usage",
+        "all_regions": "widely_understood",
+        "formal_tolerance": "somewhat_acceptable"
+      },
+      "cultural_sensitivity": "moderate",
+      "hinglish_mixing": "popular in Bollywood and casual speech"
+    },
+    {
+      "word": "बदमाश",
+      "romanized": "badmash",
+      "severity": 1,
+      "categories": ["derogatory", "character", "mild"],
+      "variations": ["बदमाशी", "badmash", "b@dmash", "badmaashi"],
+      "case_sensitive": false,
+      "context_notes": "Rascal, mischievous person, relatively mild character insult",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "very_common",
+        "all_regions": "universally_understood",
+        "children": "often_used_playfully",
+        "bollywood": "romanticized_usage"
+      },
+      "cultural_sensitivity": "low",
+      "hinglish_mixing": "commonly used in English contexts"
+    },
+    {
+      "word": "गधा",
+      "romanized": "gadha",
+      "severity": 1,
+      "categories": ["animal_insult", "intelligence", "mild"],
+      "variations": ["गधे", "gadha", "g@dha", "gadhe"],
+      "case_sensitive": false,
+      "context_notes": "Donkey, implies stupidity, very common mild insult",
+      "target_type": "individual",
+      "regional_usage": {
+        "all_regions": "universally_common",
+        "rural_areas": "extremely_common",
+        "children": "frequently_used",
+        "educational": "sometimes_acceptable"
+      },
+      "cultural_sensitivity": "very_low",
+      "hinglish_mixing": "often used in English sentences"
+    },
+    {
+      "word": "पागल",
+      "romanized": "pagal",
+      "severity": 1,
+      "categories": ["mental_health", "derogatory", "mild"],
+      "variations": ["पगला", "pagal", "p@gal", "paagal"],
+      "case_sensitive": false,
+      "context_notes": "Crazy/mad, mild insult questioning sanity, can be playful",
+      "target_type": "individual",
+      "regional_usage": {
+        "all_regions": "universally_common",
+        "bollywood": "romanticized_usage",
+        "casual_friendship": "often_playful",
+        "youth_culture": "common_expression"
+      },
+      "cultural_sensitivity": "low",
+      "hinglish_mixing": "extremely common in casual English conversation"
+    },
+    {
+      "word": "मूर्ख",
+      "romanized": "murkh",
+      "severity": 1,
+      "categories": ["intelligence", "formal", "mild"],
+      "variations": ["मूर्खता", "murkh", "moorakh", "m00rkh"],
+      "case_sensitive": false,
+      "context_notes": "Fool/idiot, formal term for lack of intelligence",
+      "target_type": "individual",
+      "regional_usage": {
+        "formal_hindi": "appropriate_usage",
+        "educational": "academically_acceptable",
+        "all_regions": "understood",
+        "literature": "classical_usage"
+      },
+      "cultural_sensitivity": "very_low",
+      "hinglish_mixing": "less common in English mixing"
+    },
+    {
+      "word": "छक्का",
+      "romanized": "chakka",
+      "severity": 3,
+      "categories": ["homophobic", "gender", "transphobic"],
+      "variations": ["छक्के", "chakka", "ch@kka", "chhakka"],
+      "case_sensitive": false,
+      "context_notes": "Derogatory term for homosexual/transgender, implies effeminacy",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "common_but_declining",
+        "youth_awareness": "increasingly_recognized_as_offensive",
+        "urban_areas": "sensitivity_increasing",
+        "traditional_usage": "still_common"
+      },
+      "cultural_sensitivity": "very_high_lgbtq",
+      "hinglish_mixing": "sometimes used in discriminatory English contexts"
+    },
+    {
+      "word": "रांड",
+      "romanized": "raand",
+      "severity": 4,
+      "categories": ["sexual", "female_specific", "extremely_derogatory"],
+      "variations": ["रांडी", "raand", "r@and", "raandi"],
+      "case_sensitive": false,
+      "context_notes": "Widow turned prostitute, extremely derogatory for women, historical context",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "very_offensive",
+        "traditional_areas": "extremely_taboo",
+        "historical_usage": "caste_and_class_implications",
+        "modern_usage": "declining_but_still_severe"
+      },
+      "cultural_sensitivity": "extreme",
+      "hinglish_mixing": "rarely used in English contexts due to severity"
+    },
+    {
+      "word": "भड़वा",
+      "romanized": "bhadwa",
+      "severity": 3,
+      "categories": ["sexual", "male_specific", "pimp"],
+      "variations": ["भड़वे", "bhadwa", "bh@dwa", "bhadwe"],
+      "case_sensitive": false,
+      "context_notes": "Pimp, male who exploits women sexually, implies moral corruption",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "common",
+        "delhi_region": "frequently_used",
+        "bihar_up": "common",
+        "urban_areas": "well_understood"
+      },
+      "cultural_sensitivity": "high",
+      "hinglish_mixing": "sometimes used in English contexts"
+    },
+    {
+      "word": "नालायक",
+      "romanized": "nalayak",
+      "severity": 2,
+      "categories": ["derogatory", "worthlessness", "family"],
+      "variations": ["नालायकी", "nalayak", "n@layak", "naalayak"],
+      "case_sensitive": false,
+      "context_notes": "Worthless, useless person, often used by parents for children",
+      "target_type": "individual",
+      "regional_usage": {
+        "all_regions": "commonly_understood",
+        "family_usage": "parent_to_child_common",
+        "bollywood": "frequent_usage",
+        "emotional_context": "disappointment_expression"
+      },
+      "cultural_sensitivity": "moderate",
+      "hinglish_mixing": "common in family contexts"
+    },
+    {
+      "word": "कुत्ती",
+      "romanized": "kutti",
+      "severity": 3,
+      "categories": ["animal_insult", "female_specific", "derogatory"],
+      "variations": ["कुतिया", "kutti", "kutiya", "k00tti"],
+      "case_sensitive": false,
+      "context_notes": "Female dog/bitch, specifically targeting women with animal comparison",
+      "target_type": "individual",
+      "regional_usage": {
+        "northern_hindi": "very_common",
+        "gender_specific": "particularly_offensive_to_women",
+        "youth_culture": "frequently_used",
+        "urban_areas": "common"
+      },
+      "cultural_sensitivity": "high_gender",
+      "hinglish_mixing": "often mixed with English 'bitch'"
+    }
+  ]
+}

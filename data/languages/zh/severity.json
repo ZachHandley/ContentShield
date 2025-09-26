@@ -1,0 +1,278 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "severity_system": {
+    "description": "Chinese profanity severity system adapted for Confucian culture and regional variations",
+    "methodology": "Based on Chinese face-saving culture, Confucian hierarchy, and regional dialectal differences",
+    "cultural_framework": "Incorporates 面子 (face), 和谐 (harmony), and 孝道 (filial piety) concepts"
+  },
+  "severity_levels": {
+    "1": {
+      "chinese_name": "轻微 (Qīngwēi)",
+      "english_name": "Mild",
+      "description": "Generally tolerated among close friends but inappropriate in formal settings",
+      "social_impact": "Minor social discomfort, easily overlooked with proper context",
+      "relationship_impact": "Little relationship damage, may indicate casual intimacy",
+      "face_considerations": "Minimal face-loss, mostly about appropriate context",
+      "cultural_severity_factors": [
+        "Age and status of participants",
+        "Public vs private setting",
+        "Regional cultural tolerance levels",
+        "Educational background expectations"
+      ],
+      "examples": ["笨蛋 (bèn dàn)", "猪头 (zhū tóu)", "妈的 (mā de)"],
+      "contextual_variations": {
+        "among_friends": "Often acceptable and used for emphasis or affection",
+        "to_elders": "Never appropriate regardless of content due to respect requirements",
+        "formal_settings": "Inappropriate and shows lack of cultivation (修养)",
+        "online_casual": "Very common and mostly acceptable"
+      }
+    },
+    "2": {
+      "chinese_name": "中等 (Zhōngděng)",
+      "english_name": "Moderate",
+      "description": "Inappropriate in most social contexts, causes noticeable discomfort and minor face-loss",
+      "social_impact": "Damages social harmony, shows poor upbringing or lack of education",
+      "relationship_impact": "Can strain relationships, requires acknowledgment or apology",
+      "face_considerations": "Moderate face-loss for both speaker and target, especially in public",
+      "cultural_severity_factors": [
+        "Violation of social harmony expectations",
+        "Demonstration of poor moral cultivation",
+        "Inappropriate for educated person's behavior",
+        "Reflects poorly on family upbringing"
+      ],
+      "examples": ["白痴 (bái chī)", "滚 (gǔn)", "废物 (fèi wù)"],
+      "contextual_variations": {
+        "peer_groups": "May be tolerated in very casual male-bonding contexts",
+        "family_settings": "Inappropriate and disrespectful to family harmony",
+        "professional": "Completely unacceptable, damages professional reputation",
+        "regional_differences": "Urban areas slightly more tolerant than rural"
+      }
+    },
+    "3": {
+      "chinese_name": "严重 (Yánzhòng)",
+      "english_name": "Strong",
+      "description": "Highly offensive, causes significant face-loss and relationship damage",
+      "social_impact": "Serious violation of Chinese social norms and moral expectations",
+      "relationship_impact": "Can permanently damage relationships, requires formal apology and behavior change",
+      "face_considerations": "Major face-loss that can affect social standing and reputation",
+      "cultural_severity_factors": [
+        "Attacks on personal or family honor",
+        "Sexual content inappropriate in conservative culture",
+        "Dehumanizing language violating human dignity concepts",
+        "Public confrontation violating harmony ideals"
+      ],
+      "examples": ["操 (cāo)", "傻逼 (shǎ bī)", "婊子 (biǎo zi)"],
+      "contextual_variations": {
+        "very_close_friends": "May be used in extreme emotional contexts but still risky",
+        "public_settings": "Completely unacceptable, causes public embarrassment",
+        "family_relationships": "Can cause lasting family rifts and shame",
+        "professional": "Career-limiting or ending, complete loss of professional respect"
+      }
+    },
+    "4": {
+      "chinese_name": "极其严重 (Jí qí yánzhòng)",
+      "english_name": "Severe",
+      "description": "Extremely offensive, potentially relationship-ending or legally problematic",
+      "social_impact": "Complete violation of Chinese cultural values, social ostracism possible",
+      "relationship_impact": "Relationship-ending, permanent damage to social connections and family ties",
+      "face_considerations": "Total face destruction, can affect entire family's social standing",
+      "cultural_severity_factors": [
+        "Attacks on family honor and filial piety",
+        "Death threats violating sanctity of life",
+        "Ethnic hatred conflicting with national unity values",
+        "Political accusations with serious legal implications"
+      ],
+      "examples": ["草泥马 (cǎo nǐ mā)", "去死 (qù sǐ)", "卖国贼 (mài guó zéi)"],
+      "legal_considerations": "May constitute defamation, threats, or hate speech under Chinese law",
+      "contextual_variations": {
+        "no_acceptable_context": "Never socially acceptable in any Chinese cultural context",
+        "legal_implications": "Potential criminal charges for threats, defamation, or incitement",
+        "family_consequences": "Can lead to family disownment or complete social isolation",
+        "political_ramifications": "Political accusations can have severe legal and social consequences"
+      }
+    }
+  },
+  "cultural_severity_modifiers": {
+    "confucian_hierarchy": {
+      "description": "Age and social status significantly affect severity perception",
+      "modifier_rules": {
+        "to_elders": "Automatically increases severity by 2 levels minimum",
+        "to_juniors": "May decrease severity by 1 level in educational contexts",
+        "peer_level": "Baseline severity applies",
+        "teacher_student": "Teacher using to student may be disciplinary, student to teacher is ultimate taboo"
+      }
+    },
+    "face_saving_dynamics": {
+      "description": "Public vs private settings dramatically affect face-loss",
+      "modifier_rules": {
+        "public_humiliation": "Increases severity by 2 levels due to public face-loss",
+        "private_conversation": "Baseline severity, less face-loss concern",
+        "social_media_public": "Similar to public, permanent record increases impact",
+        "group_settings": "Increases severity due to witness factor"
+      }
+    },
+    "educational_expectations": {
+      "description": "Educational background affects language expectations",
+      "modifier_rules": {
+        "highly_educated": "Higher expectations, profanity more shocking",
+        "professional_class": "Professional reputation at stake, increases severity",
+        "student_context": "Educational setting expects proper behavior",
+        "rural_vs_urban": "Urban educated populations have higher language standards"
+      }
+    },
+    "family_harmony": {
+      "description": "Family context has unique severity considerations",
+      "modifier_rules": {
+        "intergenerational": "Any profanity between generations highly inappropriate",
+        "sibling_relationships": "More tolerance but still reflects family upbringing",
+        "extended_family": "Reflects on entire family honor and reputation",
+        "family_gatherings": "Especially strict during festivals and formal occasions"
+      }
+    },
+    "gender_considerations": {
+      "description": "Gender affects both usage patterns and severity perception",
+      "modifier_rules": {
+        "women_using": "Traditionally more shocking due to cultural expectations",
+        "targeting_women": "Often increases severity due to protective cultural norms",
+        "gender_specific_slurs": "Maximum severity regardless of other factors",
+        "changing_norms": "Younger generations have more equal standards"
+      }
+    }
+  },
+  "regional_variations": {
+    "mainland_china": {
+      "description": "People's Republic of China context",
+      "characteristics": "Strong emphasis on social harmony, political sensitivity, internet censorship awareness",
+      "modifier_factors": "Political content has higher severity, internet slang more common"
+    },
+    "taiwan": {
+      "description": "Republic of China (Taiwan) context",
+      "characteristics": "More liberal expression, Japanese cultural influence, different political sensitivities",
+      "modifier_factors": "Political references have different implications, more tolerance for mild profanity"
+    },
+    "hong_kong": {
+      "description": "Hong Kong Special Administrative Region",
+      "characteristics": "Cantonese-dominant culture, British influence, recent political tensions",
+      "modifier_factors": "Cantonese profanity different standards, political sensitivity heightened recently"
+    },
+    "singapore": {
+      "description": "Singapore Chinese community",
+      "characteristics": "Conservative social values, multicultural environment, strong rule of law",
+      "modifier_factors": "Very low tolerance for public profanity, legal consequences possible"
+    },
+    "overseas_communities": {
+      "description": "Chinese diaspora communities worldwide",
+      "characteristics": "Mixed cultural standards, generational differences, integration pressures",
+      "modifier_factors": "Traditional values mixed with local cultural norms"
+    }
+  },
+  "dialectal_considerations": {
+    "mandarin_standard": {
+      "severity_baseline": "Standard severity levels apply",
+      "cultural_context": "Formal language expectations higher",
+      "social_expectations": "Educated speaker standards"
+    },
+    "cantonese": {
+      "severity_baseline": "Generally more tolerance for direct expression",
+      "cultural_context": "Different profanity vocabulary with different severity levels",
+      "social_expectations": "Regional cultural norms may differ from Mandarin standards"
+    },
+    "hokkien_taiwanese": {
+      "severity_baseline": "Traditional values mixed with local cultural evolution",
+      "cultural_context": "Local dialect profanity may have different cultural weight",
+      "social_expectations": "Generational differences significant"
+    },
+    "other_dialects": {
+      "severity_baseline": "Local cultural norms may override standard severity",
+      "cultural_context": "Regional historical and cultural factors affect perception",
+      "social_expectations": "Urban vs rural variations significant"
+    }
+  },
+  "generational_differences": {
+    "traditional_generation": {
+      "age_range": "65+",
+      "characteristics": "Strong traditional values, Confucian moral expectations",
+      "severity_modifier": "Increases all profanity severity by 1-2 levels",
+      "cultural_markers": "Zero tolerance for disrespectful language, strong moral judgment"
+    },
+    "cultural_revolution_generation": {
+      "age_range": "50-65",
+      "characteristics": "Complex relationship with traditional and revolutionary values",
+      "severity_modifier": "Traditional moral standards with political awareness",
+      "cultural_markers": "Political language sensitivity, traditional respect expectations"
+    },
+    "reform_generation": {
+      "age_range": "35-50",
+      "characteristics": "Economic pragmatism mixed with traditional values",
+      "severity_modifier": "Baseline severity with practical considerations",
+      "cultural_markers": "Professional reputation concerns, moderate traditional values"
+    },
+    "internet_generation": {
+      "age_range": "20-35",
+      "characteristics": "Global influence mixed with Chinese cultural identity",
+      "severity_modifier": "May reduce severity by 1 level in peer contexts",
+      "cultural_markers": "Internet culture influence, creative language use"
+    },
+    "digital_native_generation": {
+      "age_range": "Under 20",
+      "characteristics": "Mobile-first, international media influence, meme culture",
+      "severity_modifier": "Significantly different standards, creative obfuscation",
+      "cultural_markers": "Gaming culture, international slang mixing, ironic usage"
+    }
+  },
+  "situational_contexts": {
+    "political_sensitivity": {
+      "description": "Political context affects severity significantly",
+      "severity_impact": "Political accusations or criticism can have legal implications",
+      "regional_variation": "Different political sensitivities across regions"
+    },
+    "internet_culture": {
+      "description": "Online communication has developed unique standards",
+      "severity_impact": "Creative evasion reduces perceived severity but maintains meaning",
+      "censorship_awareness": "Users develop sophisticated ways to express forbidden content"
+    },
+    "business_professional": {
+      "description": "Professional settings have very low tolerance",
+      "severity_impact": "Any profanity can damage career prospects and business relationships",
+      "reputation_stakes": "Professional reputation and family face intertwined"
+    },
+    "educational_settings": {
+      "description": "Schools and universities expect proper behavior",
+      "severity_impact": "Educational settings have higher behavioral standards",
+      "moral_education": "Language reflects moral and cultural education"
+    },
+    "family_festivals": {
+      "description": "Traditional holidays and family gatherings",
+      "severity_impact": "Extremely strict standards during cultural celebrations",
+      "harmony_emphasis": "Family harmony and proper behavior especially important"
+    }
+  },
+  "special_considerations": {
+    "internet_censorship": {
+      "description": "Mainland Chinese internet filtering affects severity perception",
+      "severity_impact": "Creative evasion methods may reduce severity but maintain taboo nature",
+      "legal_implications": "Serious profanity can trigger automated monitoring"
+    },
+    "political_implications": {
+      "description": "Political profanity can have legal consequences",
+      "severity_impact": "Maximum severity regardless of linguistic content",
+      "regional_differences": "Political sensitivity varies greatly by region"
+    },
+    "historical_context": {
+      "description": "Historical events affect certain language severity",
+      "severity_impact": "Terms related to historical traumas carry extra emotional weight",
+      "cultural_memory": "Collective historical memory influences language taboos"
+    },
+    "religious_considerations": {
+      "description": "Religious and spiritual content sensitivity",
+      "severity_impact": "Varies by individual belief but generally respectful approach expected",
+      "cultural_diversity": "Multiple religious traditions create complex sensitivity landscape"
+    },
+    "ethnic_sensitivity": {
+      "description": "China's multi-ethnic society creates language sensitivities",
+      "severity_impact": "Ethnic discrimination language has legal and social consequences",
+      "national_unity": "Language that damages ethnic harmony is severely condemned"
+    }
+  }
+}
