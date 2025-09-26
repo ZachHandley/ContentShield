@@ -1,0 +1,611 @@
+{
+  "language": "tr",
+  "version": "1.0.0",
+  "last_updated": "2025-09-25",
+  "total_entries": 67,
+  "words": [
+    {
+      "word": "kahretsin",
+      "severity": 1,
+      "categories": ["general", "religious"],
+      "variations": ["kahrolsun", "k4hretsin", "kahrolayım"],
+      "case_sensitive": false,
+      "context_notes": "Mild curse, equivalent to 'damn it' in English",
+      "target_type": "general"
+    },
+    {
+      "word": "lanet",
+      "severity": 1,
+      "categories": ["general", "religious"],
+      "variations": ["lanet olsun", "l4net", "la'net"],
+      "case_sensitive": false,
+      "context_notes": "Mild religious curse meaning 'curse' or 'damn'",
+      "target_type": "general"
+    },
+    {
+      "word": "Allah kahretsin",
+      "severity": 1,
+      "categories": ["religious"],
+      "variations": ["allahkahretsin", "allah k4hretsin"],
+      "case_sensitive": false,
+      "context_notes": "Religious exclamation, mildly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "cehennem",
+      "severity": 1,
+      "categories": ["religious"],
+      "variations": ["cehenneme", "c3hennem"],
+      "case_sensitive": false,
+      "context_notes": "Religious reference to hell, mild profanity",
+      "target_type": "general"
+    },
+    {
+      "word": "bok",
+      "severity": 2,
+      "categories": ["scatological"],
+      "variations": ["boktan", "b0k", "bokum", "boku", "bokunu", "boklar"],
+      "case_sensitive": false,
+      "context_notes": "Common scatological term meaning 'shit'",
+      "target_type": "general"
+    },
+    {
+      "word": "pislik",
+      "severity": 2,
+      "categories": ["general", "scatological"],
+      "variations": ["pislik", "p1slik", "pisliği"],
+      "case_sensitive": false,
+      "context_notes": "Means 'filth' or 'dirt', moderately offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "göt",
+      "severity": 2,
+      "categories": ["anatomical"],
+      "variations": ["götün", "götü", "götüm", "g0t", "götveren"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar term for buttocks",
+      "target_type": "general"
+    },
+    {
+      "word": "mal",
+      "severity": 2,
+      "categories": ["general", "insult"],
+      "variations": ["malın", "malı", "m4l", "malsın"],
+      "case_sensitive": false,
+      "context_notes": "Common insult meaning 'stupid' or 'idiot'",
+      "target_type": "individual"
+    },
+    {
+      "word": "salak",
+      "severity": 2,
+      "categories": ["general", "insult"],
+      "variations": ["salağın", "salağı", "s4lak", "salaksın"],
+      "case_sensitive": false,
+      "context_notes": "Common insult meaning 'stupid' or 'dumb'",
+      "target_type": "individual"
+    },
+    {
+      "word": "aptal",
+      "severity": 2,
+      "categories": ["general", "insult"],
+      "variations": ["aptalın", "aptalı", "4ptal", "aptalsın"],
+      "case_sensitive": false,
+      "context_notes": "Insult meaning 'stupid' or 'fool'",
+      "target_type": "individual"
+    },
+    {
+      "word": "gerizekalı",
+      "severity": 2,
+      "categories": ["general", "insult"],
+      "variations": ["gerizekalısı", "g3rizekalı", "geri zekalı"],
+      "case_sensitive": false,
+      "context_notes": "Offensive term meaning 'retard' or 'backward'",
+      "target_type": "individual"
+    },
+    {
+      "word": "dangalak",
+      "severity": 2,
+      "categories": ["general", "insult"],
+      "variations": ["dangalağın", "d4ngalak"],
+      "case_sensitive": false,
+      "context_notes": "Regional insult meaning 'stupid' or 'fool'",
+      "target_type": "individual"
+    },
+    {
+      "word": "ibne",
+      "severity": 3,
+      "categories": ["homophobic", "sexual"],
+      "variations": ["ibnesi", "1bne", "ibnelik"],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive homophobic slur",
+      "target_type": "individual"
+    },
+    {
+      "word": "piç",
+      "severity": 3,
+      "categories": ["sexual", "family"],
+      "variations": ["pici", "piçi", "p1ç", "piçlik"],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive term meaning 'bastard'",
+      "target_type": "individual"
+    },
+    {
+      "word": "orospu",
+      "severity": 3,
+      "categories": ["sexual", "gender"],
+      "variations": ["orospusu", "orospunun", "0rospu", "orsp"],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive term for prostitute, very derogatory",
+      "target_type": "individual"
+    },
+    {
+      "word": "orospu çocuğu",
+      "severity": 4,
+      "categories": ["sexual", "family", "gender"],
+      "variations": ["orospu cocugu", "orospucocugu", "orospu evladı"],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive compound insult meaning 'son of a bitch'",
+      "target_type": "individual"
+    },
+    {
+      "word": "kahpe",
+      "severity": 3,
+      "categories": ["sexual", "gender"],
+      "variations": ["kahpesi", "k4hpe", "kahpelik"],
+      "case_sensitive": false,
+      "context_notes": "Derogatory term for women, meaning 'whore' or 'bitch'",
+      "target_type": "individual"
+    },
+    {
+      "word": "sürtük",
+      "severity": 3,
+      "categories": ["sexual", "gender"],
+      "variations": ["sürtüğün", "surtuk", "s3rtük"],
+      "case_sensitive": false,
+      "context_notes": "Derogatory term for women with sexual implications",
+      "target_type": "individual"
+    },
+    {
+      "word": "fahişe",
+      "severity": 3,
+      "categories": ["sexual", "gender"],
+      "variations": ["fahişesi", "f4hişe"],
+      "case_sensitive": false,
+      "context_notes": "Formal but derogatory term for prostitute",
+      "target_type": "individual"
+    },
+    {
+      "word": "kaltak",
+      "severity": 3,
+      "categories": ["sexual", "gender"],
+      "variations": ["kaltağın", "k4ltak"],
+      "case_sensitive": false,
+      "context_notes": "Derogatory term for women, similar to 'bitch'",
+      "target_type": "individual"
+    },
+    {
+      "word": "amcık",
+      "severity": 4,
+      "categories": ["sexual", "anatomical"],
+      "variations": ["amcığın", "amcığı", "4mcık", "amcık"],
+      "case_sensitive": false,
+      "context_notes": "Extremely vulgar term for female genitalia",
+      "target_type": "general"
+    },
+    {
+      "word": "am",
+      "severity": 3,
+      "categories": ["sexual", "anatomical"],
+      "variations": ["amın", "amı", "4m"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar term for female genitalia",
+      "target_type": "general"
+    },
+    {
+      "word": "yarrak",
+      "severity": 4,
+      "categories": ["sexual", "anatomical"],
+      "variations": ["yarrağın", "yarrağı", "y4rrak", "yarram"],
+      "case_sensitive": false,
+      "context_notes": "Extremely vulgar term for male genitalia",
+      "target_type": "general"
+    },
+    {
+      "word": "sik",
+      "severity": 3,
+      "categories": ["sexual", "anatomical"],
+      "variations": ["sikin", "siki", "s1k", "sikm"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar term for male genitalia",
+      "target_type": "general"
+    },
+    {
+      "word": "taşak",
+      "severity": 3,
+      "categories": ["sexual", "anatomical"],
+      "variations": ["taşağın", "taşağı", "t4şak", "taşşak"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar term for testicles",
+      "target_type": "general"
+    },
+    {
+      "word": "meme",
+      "severity": 2,
+      "categories": ["anatomical"],
+      "variations": ["memesi", "memeleri", "m3me"],
+      "case_sensitive": false,
+      "context_notes": "Slang term for breast, mildly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "siktir",
+      "severity": 3,
+      "categories": ["sexual", "general"],
+      "variations": ["siktiri", "s1ktir", "siktir git"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar dismissal, equivalent to 'f*ck off'",
+      "target_type": "general"
+    },
+    {
+      "word": "sikeyim",
+      "severity": 4,
+      "categories": ["sexual"],
+      "variations": ["sikiyim", "s1keyim", "sikeyim seni"],
+      "case_sensitive": false,
+      "context_notes": "Extremely vulgar sexual threat",
+      "target_type": "individual"
+    },
+    {
+      "word": "götüne koyayım",
+      "severity": 4,
+      "categories": ["sexual", "anatomical"],
+      "variations": ["gotune koyayim", "götünekoyayım"],
+      "case_sensitive": false,
+      "context_notes": "Extremely vulgar sexual threat",
+      "target_type": "individual"
+    },
+    {
+      "word": "amına koyayım",
+      "severity": 4,
+      "categories": ["sexual", "anatomical"],
+      "variations": ["amina koyayim", "aminakoyayim", "amk"],
+      "case_sensitive": false,
+      "context_notes": "Extremely vulgar sexual expletive, often abbreviated as 'amk'",
+      "target_type": "general"
+    },
+    {
+      "word": "amk",
+      "severity": 4,
+      "categories": ["sexual", "abbreviation"],
+      "variations": ["amq", "4mk", "a.m.k"],
+      "case_sensitive": false,
+      "context_notes": "Abbreviated form of 'amına koyayım', extremely common online",
+      "target_type": "general"
+    },
+    {
+      "word": "aq",
+      "severity": 3,
+      "categories": ["sexual", "abbreviation"],
+      "variations": ["4q", "a.q"],
+      "case_sensitive": false,
+      "context_notes": "Abbreviated vulgar expression",
+      "target_type": "general"
+    },
+    {
+      "word": "mk",
+      "severity": 3,
+      "categories": ["sexual", "abbreviation"],
+      "variations": ["m.k", "mk."],
+      "case_sensitive": false,
+      "context_notes": "Abbreviated vulgar expression",
+      "target_type": "general"
+    },
+    {
+      "word": "lan",
+      "severity": 1,
+      "categories": ["general"],
+      "variations": ["l4n", "laan"],
+      "case_sensitive": false,
+      "context_notes": "Casual address, can be mildly rude depending on context",
+      "target_type": "individual"
+    },
+    {
+      "word": "ulan",
+      "severity": 2,
+      "categories": ["general"],
+      "variations": ["ul4n", "ulaan"],
+      "case_sensitive": false,
+      "context_notes": "Dismissive address, moderately rude",
+      "target_type": "individual"
+    },
+    {
+      "word": "herifte",
+      "severity": 2,
+      "categories": ["general"],
+      "variations": ["herif", "h3rif"],
+      "case_sensitive": false,
+      "context_notes": "Derogatory term for a person, meaning 'guy' or 'fellow'",
+      "target_type": "individual"
+    },
+    {
+      "word": "kevaşe",
+      "severity": 3,
+      "categories": ["sexual", "gender"],
+      "variations": ["kevaşesi", "k3vaşe"],
+      "case_sensitive": false,
+      "context_notes": "Archaic but highly offensive term for prostitute",
+      "target_type": "individual"
+    },
+    {
+      "word": "pezevenk",
+      "severity": 3,
+      "categories": ["sexual"],
+      "variations": ["pezevengi", "p3zevenk"],
+      "case_sensitive": false,
+      "context_notes": "Offensive term meaning 'pimp' or 'scoundrel'",
+      "target_type": "individual"
+    },
+    {
+      "word": "gavat",
+      "severity": 3,
+      "categories": ["sexual", "family"],
+      "variations": ["gavatın", "g4vat"],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive term related to cuckoldry",
+      "target_type": "individual"
+    },
+    {
+      "word": "piçkurusu",
+      "severity": 4,
+      "categories": ["sexual", "family"],
+      "variations": ["piç kurusu", "picurusu"],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive compound insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "amına kodumun",
+      "severity": 4,
+      "categories": ["sexual", "anatomical"],
+      "variations": ["amina kodumun", "aminakodumun"],
+      "case_sensitive": false,
+      "context_notes": "Extremely vulgar compound expletive",
+      "target_type": "general"
+    },
+    {
+      "word": "sikik",
+      "severity": 3,
+      "categories": ["sexual"],
+      "variations": ["s1kik", "sikigi"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar adjective meaning 'f*cked' or 'screwed'",
+      "target_type": "general"
+    },
+    {
+      "word": "züppe",
+      "severity": 2,
+      "categories": ["general", "insult"],
+      "variations": ["züppesi", "z3ppe"],
+      "case_sense": false,
+      "context_notes": "Insult meaning 'snob' or 'pretentious person'",
+      "target_type": "individual"
+    },
+    {
+      "word": "namussuz",
+      "severity": 3,
+      "categories": ["honor", "family"],
+      "variations": ["namussuzu", "n4mussuz"],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive attack on honor, meaning 'dishonorable'",
+      "target_type": "individual"
+    },
+    {
+      "word": "şerefsiz",
+      "severity": 3,
+      "categories": ["honor"],
+      "variations": ["şerefsizi", "ş3refsiz", "serefsiz"],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive attack on honor, meaning 'shameless'",
+      "target_type": "individual"
+    },
+    {
+      "word": "alçak",
+      "severity": 2,
+      "categories": ["general", "insult"],
+      "variations": ["alçağın", "4lçak"],
+      "case_sensitive": false,
+      "context_notes": "Insult meaning 'lowlife' or 'despicable'",
+      "target_type": "individual"
+    },
+    {
+      "word": "köpek",
+      "severity": 2,
+      "categories": ["animal", "insult"],
+      "variations": ["köpeği", "k0pek"],
+      "case_sensitive": false,
+      "context_notes": "Animal insult meaning 'dog', moderately offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "domuz",
+      "severity": 2,
+      "categories": ["animal", "insult"],
+      "variations": ["domuzu", "d0muz"],
+      "case_sensitive": false,
+      "context_notes": "Animal insult meaning 'pig', can be religiously offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "eşek",
+      "severity": 2,
+      "categories": ["animal", "insult"],
+      "variations": ["eşeği", "3şek"],
+      "case_sensitive": false,
+      "context_notes": "Animal insult meaning 'donkey' or 'ass'",
+      "target_type": "individual"
+    },
+    {
+      "word": "it",
+      "severity": 2,
+      "categories": ["animal", "insult"],
+      "variations": ["iti", "1t"],
+      "case_sensitive": false,
+      "context_notes": "Derogatory term meaning 'mutt' or 'cur'",
+      "target_type": "individual"
+    },
+    {
+      "word": "kahbe evladı",
+      "severity": 4,
+      "categories": ["sexual", "family", "gender"],
+      "variations": ["kahbe evladi", "kahbeevladi"],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive compound family insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "anasını sikeyim",
+      "severity": 4,
+      "categories": ["sexual", "family"],
+      "variations": ["anasini sikeyim", "anasinisikeyim"],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive family-targeted sexual threat",
+      "target_type": "individual"
+    },
+    {
+      "word": "bacını sikeyim",
+      "severity": 4,
+      "categories": ["sexual", "family"],
+      "variations": ["bacini sikeyim", "bacinisikeyim"],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive family-targeted sexual threat",
+      "target_type": "individual"
+    },
+    {
+      "word": "karını sikeyim",
+      "severity": 4,
+      "categories": ["sexual", "family"],
+      "variations": ["karini sikeyim", "karinisikeyim"],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive family-targeted sexual threat",
+      "target_type": "individual"
+    },
+    {
+      "word": "götlek",
+      "severity": 3,
+      "categories": ["anatomical", "sexual"],
+      "variations": ["götleği", "g0tlek"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar insult related to buttocks",
+      "target_type": "individual"
+    },
+    {
+      "word": "sikko",
+      "severity": 3,
+      "categories": ["sexual"],
+      "variations": ["s1kko", "sikkosu"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar dismissive term",
+      "target_type": "general"
+    },
+    {
+      "word": "dalyarak",
+      "severity": 3,
+      "categories": ["sexual", "insult"],
+      "variations": ["d4lyarak", "dal yarrak"],
+      "case_sensitive": false,
+      "context_notes": "Compound vulgar insult combining 'branch' and male genitalia",
+      "target_type": "individual"
+    },
+    {
+      "word": "ananı sikeyim",
+      "severity": 4,
+      "categories": ["sexual", "family"],
+      "variations": ["anani sikeyim", "ananisikeyim"],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive mother-targeted sexual threat",
+      "target_type": "individual"
+    },
+    {
+      "word": "siktiğimin",
+      "severity": 4,
+      "categories": ["sexual"],
+      "variations": ["siktimin", "siktigimin"],
+      "case_sensitive": false,
+      "context_notes": "Extremely vulgar possessive form",
+      "target_type": "general"
+    },
+    {
+      "word": "amına koyduğumun",
+      "severity": 4,
+      "categories": ["sexual", "anatomical"],
+      "variations": ["amina koydugumun", "aminakoydugumun"],
+      "case_sensitive": false,
+      "context_notes": "Extremely vulgar possessive form",
+      "target_type": "general"
+    },
+    {
+      "word": "götveren",
+      "severity": 4,
+      "categories": ["sexual", "anatomical", "homophobic"],
+      "variations": ["göt veren", "g0tveren"],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive homophobic sexual insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "göt lalesi",
+      "severity": 3,
+      "categories": ["anatomical", "homophobic"],
+      "variations": ["gotlalesi", "göt l4lesi"],
+      "case_sensitive": false,
+      "context_notes": "Offensive homophobic insult meaning 'ass tulip'",
+      "target_type": "individual"
+    },
+    {
+      "word": "oç",
+      "severity": 4,
+      "categories": ["sexual", "family", "abbreviation"],
+      "variations": ["0ç", "o.ç", "oc"],
+      "case_sensitive": false,
+      "context_notes": "Abbreviated form of 'orospu çocuğu', extremely offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "sg",
+      "severity": 3,
+      "categories": ["sexual", "abbreviation"],
+      "variations": ["s.g", "sg."],
+      "case_sensitive": false,
+      "context_notes": "Abbreviated form of 'siktir git'",
+      "target_type": "individual"
+    },
+    {
+      "word": "sikerim",
+      "severity": 4,
+      "categories": ["sexual"],
+      "variations": ["s1kerim", "sikerim seni"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar sexual threat meaning 'I'll f*ck'",
+      "target_type": "individual"
+    },
+    {
+      "word": "sikişmek",
+      "severity": 3,
+      "categories": ["sexual"],
+      "variations": ["sikişme", "s1kişmek"],
+      "case_sensitive": false,
+      "context_notes": "Vulgar term for sexual intercourse",
+      "target_type": "general"
+    },
+    {
+      "word": "sikmek",
+      "severity": 4,
+      "categories": ["sexual"],
+      "variations": ["sikme", "s1kmek"],
+      "case_sensitive": false,
+      "context_notes": "Extremely vulgar term for sexual intercourse",
+      "target_type": "general"
+    }
+  ]
+}

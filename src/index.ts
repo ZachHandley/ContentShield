@@ -3,7 +3,7 @@
  * and content moderation with severity levels and customizable filtering
  *
  * Features:
- * - Multi-language support (12+ languages)
+ * - Multi-language support (17 languages)
  * - Performance optimizations with intelligent caching
  * - Comprehensive configuration system
  * - Advanced language integration
@@ -285,7 +285,7 @@ export function getLibraryInfo(): {
 } {
   return {
     version: VERSION,
-    supportedLanguages: ['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'ar', 'hi'],
+    supportedLanguages: ['en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'ar', 'hi', 'nl', 'sv', 'pl', 'he', 'tr'],
     features: [
       'Multi-language detection',
       'Performance optimization',
