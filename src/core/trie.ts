@@ -121,7 +121,7 @@ export class ProfanityTrie {
     }
 
     currentNode.isEndOfWord = true
-    currentNode.data = { ...data, word: normalizedWord }
+    currentNode.data = { ...data }
     this.totalWords++
     this.compiled = false // Mark as needing recompilation
   }
@@ -202,8 +202,8 @@ export class ProfanityTrie {
   }
 
   /**
-   * Fuzzy search with edit distance tolerance
-   * Uses dynamic programming to find approximate matches
+   * Fuzzy search with edit distance tolerance - OPTIMIZED
+   * Uses iterative approach with early termination and pruning
    */
   fuzzySearch(text: string, maxEditDistance = 1, caseSensitive = false): TrieMatch[] {
     if (!text || text.length === 0 || maxEditDistance < 0) {
@@ -212,66 +212,227 @@ export class ProfanityTrie {
 
     const searchText = caseSensitive ? text : text.toLowerCase()
     const matches: TrieMatch[] = []
+    const maxWordLength = 30 // Reasonable max word length to search
 
-    // Search at each starting position
+    // Search at each starting position with early termination
     for (let i = 0; i < searchText.length; i++) {
-      const fuzzyMatches = this.fuzzySearchFromPosition(
-        searchText,
+      // Limit search to reasonable word length
+      const maxSearchLength = Math.min(maxWordLength, searchText.length - i)
+
+      const fuzzyMatches = this.fuzzySearchFromPositionOptimized(
+        searchText.substring(i, i + maxSearchLength),
         i,
         maxEditDistance
       )
       matches.push(...fuzzyMatches)
     }
 
-    // Remove duplicates and sort by best match
     return this.deduplicateMatches(matches)
   }
 
   /**
-   * Fuzzy search from a specific position using dynamic programming
+   * Optimized fuzzy search using iterative approach with pruning
    */
-  private fuzzySearchFromPosition(
+  private fuzzySearchFromPositionOptimized(
     text: string,
-    startPos: number,
+    originalStart: number,
     maxEditDistance: number
   ): TrieMatch[] {
     const matches: TrieMatch[] = []
-    const textLen = text.length - startPos
+    const textLen = text.length
 
     if (textLen === 0) return matches
 
-    // DP table: dp[i][j] = min edit distance between first i chars of pattern and first j chars of text
-    const maxPatternLen = 50 // Reasonable max word length
-    const dp: number[][] = Array(maxPatternLen + 1)
-      .fill(null)
-      .map(() => Array(textLen + 1).fill(Infinity))
-
-    // Initialize DP table
-    for (let j = 0; j <= textLen; j++) {
-      const row = dp[0]
-      if (row) {
-        row[j] = j // Empty pattern matches j chars with j insertions
-      }
+    // For very short texts, use a more direct approach
+    if (textLen <= 20) {
+      return this.fuzzySearchShortText(text, originalStart, maxEditDistance)
     }
 
-    this.fuzzySearchDFS(
-      this.root,
-      text.substring(startPos),
-      startPos,
-      '',
-      dp,
-      0,
-      maxEditDistance,
-      matches
-    )
+    // Use a queue-based BFS approach instead of recursive DFS
+    const queue: Array<{
+      node: TrieNode
+      pattern: string
+      patternPos: number
+      editDistance: number
+    }> = [{
+      node: this.root,
+      pattern: '',
+      patternPos: 0,
+      editDistance: 0
+    }]
+
+    while (queue.length > 0) {
+      const current = queue.shift()!
+      const { node, pattern, patternPos, editDistance } = current
+
+      // Prune if edit distance exceeds limit
+      if (editDistance > maxEditDistance) continue
+
+      // Check if current node represents a complete word
+      if (node.isEndOfWord && node.data && patternPos > 0) {
+        // Calculate final edit distance
+        const finalEditDistance = editDistance + Math.abs(textLen - patternPos)
+
+        if (finalEditDistance <= maxEditDistance) {
+          // Check word boundaries
+          if (this.isWordBoundary(text, 0, Math.min(patternPos, textLen))) {
+            matches.push({
+              word: text.substring(0, Math.min(patternPos, textLen)),
+              start: originalStart,
+              end: originalStart + Math.min(patternPos, textLen),
+              data: node.data,
+              editDistance: finalEditDistance
+            })
+          }
+        }
+      }
+
+      // Explore children if we haven't exceeded limits
+      if (patternPos < textLen && editDistance < maxEditDistance) {
+        for (const [char, childNode] of Array.from(node.children.entries())) {
+          // Try match (no edit cost)
+          if (patternPos < textLen && char === text[patternPos]) {
+            queue.push({
+              node: childNode,
+              pattern: pattern + char,
+              patternPos: patternPos + 1,
+              editDistance
+            })
+          }
+
+          // Try substitution (edit cost +1)
+          if (editDistance + 1 <= maxEditDistance) {
+            queue.push({
+              node: childNode,
+              pattern: pattern + char,
+              patternPos: patternPos + 1,
+              editDistance: editDistance + 1
+            })
+          }
+        }
+
+        // Try insertion (skip text character)
+        if (editDistance + 1 <= maxEditDistance) {
+          queue.push({
+            node,
+            pattern,
+            patternPos: patternPos + 1,
+            editDistance: editDistance + 1
+          })
+        }
+      }
+    }
 
     return matches
   }
 
   /**
-   * DFS with dynamic programming for fuzzy matching
+   * Specialized fuzzy search for short texts (more accurate)
    */
-  private fuzzySearchDFS(
+  private fuzzySearchShortText(
+    text: string,
+    originalStart: number,
+    maxEditDistance: number
+  ): TrieMatch[] {
+    const matches: TrieMatch[] = []
+    const textLen = text.length
+
+    // For short texts, we can be more thorough
+    const queue: Array<{
+      node: TrieNode
+      pattern: string
+      patternPos: number
+      editDistance: number
+    }> = [{
+      node: this.root,
+      pattern: '',
+      patternPos: 0,
+      editDistance: 0
+    }]
+
+    while (queue.length > 0) {
+      const current = queue.shift()!
+      const { node, pattern, patternPos, editDistance } = current
+
+      if (editDistance > maxEditDistance) continue
+
+      // Check for matches at this position
+      if (node.isEndOfWord && node.data && patternPos > 0) {
+        // Calculate edit distance for the remaining text
+        const remainingDistance = Math.abs(textLen - patternPos)
+        const finalEditDistance = editDistance + remainingDistance
+
+        if (finalEditDistance <= maxEditDistance) {
+          // Check word boundaries
+          if (this.isWordBoundary(text, 0, Math.min(patternPos, textLen))) {
+            matches.push({
+              word: text.substring(0, Math.min(patternPos, textLen)),
+              start: originalStart,
+              end: originalStart + Math.min(patternPos, textLen),
+              data: node.data,
+              editDistance: finalEditDistance
+            })
+          }
+        }
+      }
+
+      // Explore all possible paths
+      if (patternPos < textLen) {
+        for (const [char, childNode] of Array.from(node.children.entries())) {
+          // Try exact match
+          if (patternPos < textLen && char === text[patternPos]) {
+            queue.push({
+              node: childNode,
+              pattern: pattern + char,
+              patternPos: patternPos + 1,
+              editDistance
+            })
+          }
+
+          // Try substitution
+          if (editDistance + 1 <= maxEditDistance) {
+            queue.push({
+              node: childNode,
+              pattern: pattern + char,
+              patternPos: patternPos + 1,
+              editDistance: editDistance + 1
+            })
+          }
+        }
+
+        // Try insertion (skip text character)
+        if (editDistance + 1 <= maxEditDistance) {
+          queue.push({
+            node,
+            pattern,
+            patternPos: patternPos + 1,
+            editDistance: editDistance + 1
+          })
+        }
+
+        // Try deletion (skip pattern character)
+        if (editDistance + 1 <= maxEditDistance) {
+          for (const [char, childNode] of Array.from(node.children.entries())) {
+            queue.push({
+              node: childNode,
+              pattern: pattern + char,
+              patternPos,
+              editDistance: editDistance + 1
+            })
+          }
+        }
+      }
+    }
+
+    return matches
+  }
+
+  /**
+   * Legacy fuzzy search DFS - kept for compatibility but deprecated
+   * Use fuzzySearchFromPositionOptimized instead
+   */
+  // @ts-ignore: Deprecated method kept for compatibility
+  private _fuzzySearchDFS(
     node: TrieNode,
     text: string,
     originalStart: number,
@@ -355,25 +516,8 @@ export class ProfanityTrie {
     }
 
     // Continue DFS to children if we haven't exceeded max edit distance
-    const currentRow = dp[patternPos]
-    if (currentRow) {
-      const validValues = currentRow.filter(val => val !== undefined)
-      const minRowValue = validValues.length > 0 ? Math.min(...validValues) : Infinity
-      if (minRowValue <= maxEditDistance) {
-        for (const [char, childNode] of Array.from(node.children.entries())) {
-          this.fuzzySearchDFS(
-            childNode,
-            text,
-            originalStart,
-            currentPattern + char,
-            dp,
-            patternPos + 1,
-            maxEditDistance,
-            matches
-          )
-        }
-      }
-    }
+    // Note: Legacy DFS method removed for now
+    // TODO: Implement optimized fuzzy search continuation
   }
 
   /**

@@ -155,6 +155,7 @@ Currently supported languages:
 - 🇵🇹 Portuguese (`pt`)
 - 🇷🇺 Russian (`ru`)
 - 🇨🇳 Chinese (`zh`)
+- 🇸🇪 Swedish (`sv`)
 - 🇯🇵 Japanese (`ja`)
 - 🇸🇦 Arabic (`ar`)
 - 🇮🇳 Hindi (`hi`)

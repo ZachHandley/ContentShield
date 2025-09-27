@@ -45,6 +45,13 @@ export enum ProfanityCategory {
   SUBSTANCE_ABUSE = 'substance_abuse',
   RELIGIOUS = 'religious',
   POLITICAL = 'political',
+  BODY_PARTS = 'body_parts',
+  SCATOLOGICAL = 'scatological',
+  SLURS = 'slurs',
+  DISABILITY = 'disability',
+  ETHNIC = 'ethnic',
+  LGBTQ = 'lgbtq',
+  RACIAL = 'racial',
 }
 
 /**

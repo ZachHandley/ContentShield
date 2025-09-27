@@ -11,7 +11,7 @@ import { SeverityLevel, ProfanityCategory, FilterMode } from '../types/index.js'
  */
 export const DEFAULT_DETECTOR_CONFIG: DetectorConfig = {
   // Language settings
-  languages: ['auto'], // Auto-detect languages by default
+  languages: ['en'], // English as default language for better out-of-box experience
 
   // Detection sensitivity
   minSeverity: SeverityLevel.LOW, // Detect all severity levels

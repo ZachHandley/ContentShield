@@ -23,13 +23,7 @@ export class LanguageDetector {
    */
   async detect(text: string): Promise<LanguageDetection[]> {
     if (!text || text.trim().length === 0) {
-      return [
-        {
-          language: 'en' as LanguageCode,
-          confidence: 0.1,
-          sample: '',
-        },
-      ]
+      return []
     }
 
     // Normalize text for better detection accuracy

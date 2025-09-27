@@ -93,102 +93,6 @@ const LANGUAGE_FREQUENCIES: Record<string, Record<string, number>> = {
 }
 
 /**
- * Common patterns and character sets for each language
- */
-const LANGUAGE_PATTERNS: Record<string, RegExp[]> = {
-  en: [
-    /\b(the|and|that|have|for|not|with|you|this|but|his|from|they)\b/gi,
-    /[a-z]/gi,
-    /\b\w+ing\b/gi,
-    /\b\w+ed\b/gi,
-    /\b\w+ly\b/gi
-  ],
-  es: [
-    /\b(que|de|el|la|en|y|un|es|se|no|te|lo|le|da|su|por|son|con|para|una|tiene|los|las)\b/gi,
-    /[a-záéíóúüñ]/gi,
-    /\b\w+ción\b/gi,
-    /\b\w+mente\b/gi
-  ],
-  fr: [
-    /\b(le|de|et|être|un|il|avoir|ne|je|son|que|se|qui|ce|dans|en|du|elle|au|de|à|tout|y)\b/gi,
-    /[a-záàâäéèêëïîôöùûüÿç]/gi,
-    /\b\w+ment\b/gi,
-    /\b\w+tion\b/gi
-  ],
-  de: [
-    /\b(der|die|und|in|den|von|zu|das|mit|sich|des|auf|für|ist|im|dem|nicht|ein|eine|als|auch|es|an|werden|aus|er|hat|dass|sie|nach|wird|bei|einer|um|am|sind|noch|wie|einem|über|einen|kann|so|man|aber|aus|mehr|nur|wenn|auch|können|bis|zum|durch|gegen|jetzt|seit|ohne)\b/gi,
-    /[a-zäöüß]/gi,
-    /\b\w+ung\b/gi,
-    /\b\w+lich\b/gi
-  ],
-  it: [
-    /\b(che|di|il|un|a|è|per|una|in|del|la|non|le|si|da|questo|con|io|se|lui|anche|tutto|alla|della|più|come|ma|aveva|già|o|quando|qui|dove|cosa|dove|ora|bene|molto|stesso|dopo|però|così|fatto|prima|grande|volta|mentre|poi|senza|sono|altri|anni|ancora|parte|tutti|dire|fare|poco|ogni|sempre|mai)\b/gi,
-    /[a-zàáèéìíîòóùúü]/gi,
-    /\b\w+zione\b/gi,
-    /\b\w+mente\b/gi
-  ],
-  pt: [
-    /\b(que|de|o|a|e|do|da|em|um|para|é|com|não|uma|os|no|se|na|por|mais|as|dos|como|mas|foi|ao|ele|das|tem|à|seu|sua|ou|ser|quando|muito|há|nos|já|está|eu|também|só|pelo|pela|até|isso|ela|entre|era|depois|sem|mesmo|aos|ter|seus|suas|nem|na|dessa|desse|essa|essa|deles|delas|toda|todo|toda|cada|bem|onde|então|pode|dia|vez|dois|três|quem)\b/gi,
-    /[a-záàâãéêíóôõúç]/gi,
-    /\b\w+ção\b/gi,
-    /\b\w+mente\b/gi
-  ],
-  ru: [
-    /\b(в|и|не|на|я|быть|с|он|а|как|это|она|по|но|они|к|у|ты|из|мы|за|что|то|все|о|так|его|но|да|ты|к|же|на|вы|теперь|может|после|жизнь|эти|два|раз|уже|там|чем|нас|ну|ни|сейчас|тут|кто|конечно)\b/gi,
-    /[а-яё]/gi,
-    /\b\w+ость\b/gi,
-    /\b\w+ение\b/gi
-  ],
-  zh: [
-    /[一二三四五六七八九十百千万亿]/g,
-    /[的了是在不和有人这中大上个国我以要他时来用们生到作地于出就分对成会可主发年动同工也能下过子说产种面而方后多定行学法所民得经十三之进着等部度家电力里如水化高自二理起小物现实加量都两体制机当使点从业本去把性好应开它合还因由其些然前外天政四日那社义事平形相全表间样与关各重新线内数正心反你明看原又么利比或但质气第向道命此变条只没结解问意建月公无系军很情者最立代想已通并提直题党程展五果料象员革位入常文总次品式活设及管特件长求老头基资边流路级少图山统接知较将组见计别她手角期根论运农指几九区强放决西被干做必战先回则任取据处队南给色光门即保治北造百规热领七海地口东导器压志世金增争济阶油思术极交受联什认六共权收证改清己美再采转更单风切打白教速花带安场身车例真务具万每目至达走积示议声报斗完类八离华名确才科张信马节话米整空元况今集温传土许步群广石记需段研界拉林律叫且究观越织装影算低持音众书布复容儿须际商非验连断深难近矿千周委素技备半办青省列习响约支般史感劳便团往酸历市克何除消构府称太准精值号率族维划选标写存候毛亲快效斯院查江型眼王按格养易置派层片始却专状育厂京识适属圆包火住调满县局照参红细引听该铁价严龙飞)]([\u4e00-\u9fff]+)/g,
-    /[\u4e00-\u9fff]/g
-  ],
-  ja: [
-    /[\u3040-\u309f]/g, // Hiragana
-    /[\u30a0-\u30ff]/g, // Katakana
-    /[\u4e00-\u9faf]/g, // Kanji
-    /です|である|だ|だった|ます|ました|でした|だろう|でしょう/g
-  ],
-  ar: [
-    /[\u0600-\u06ff]/g, // Arabic script
-    /\b(في|من|إلى|على|هذا|هذه|التي|الذي|كان|كانت|يكون|أن|لا|ما|قد|قال|كل|بعد|أم|أما|أو|لكن|إذا|حتى|عند|منذ|حول|تحت|فوق|بين|خلال|ضد|مع|بدون|سوف|لقد|قبل|بعد|أثناء|رغم|بسبب)\b/g
-  ],
-  he: [
-    /[\u0590-\u05ff]/g, // Hebrew script
-    /\b(של|את|אל|על|זה|זו|אשר|כי|הוא|היא|אני|אתה|אתם|אנחנו|לא|מה|איפה|מתי|למה|איך|כל|אחר|גם|רק|עוד|פה|שם|עכשיו|אז|אולי|כן)\b/g
-  ],
-  hi: [
-    /[\u0900-\u097f]/g, // Devanagari script
-    /\b(और|में|की|के|को|से|पर|है|था|थी|होना|यह|वह|जो|कि|नहीं|भी|तो|ही|अब|जब|तक|बाद|पहले|साथ|बिना|लेकिन|क्योंकि|इसलिए|फिर|अगर|या|कुछ|सब|कोई|कई|अधिक|कम|बहुत|बड़ा|छोटा|नया|पुराना|अच्छा|बुरा|सही|गलत|काला|सफेद|लाल|नीला|हरा|पीला)\b/g
-  ],
-  ko: [
-    /[\uac00-\ud7af]/g, // Hangul syllables
-    /[\u1100-\u11ff]/g, // Hangul Jamo
-    /[\u3130-\u318f]/g, // Hangul Compatibility Jamo
-    /\b(이|그|저|의|을|를|에|에서|로|로서|와|과|하고|그리고|하지만|그러나|또한|또|그래서|그러면|만약|만일|때문에|위해|대해|관해|통해|따라|따르면|같이|처럼|보다|더|가장|아주|매우|정말|진짜|항상|때때로|가끔|자주|항상|결코|절대|모두|모든|어떤|몇|많은|적은|큰|작은|새로운|오래된|좋은|나쁜|맞는|틀린|검은|하얀|빨간|파란|초록|노란)\b/g
-  ],
-  nl: [
-    /\b(de|het|een|van|in|is|op|dat|met|voor|als|zijn|er|maar|om|door|over|ze|uit|aan|bij|naar|hun|werd|heeft|had|meer|mijn|zou|dus|wel|nog|wat|onder|tegen|tot|hier|hoe|toen|omdat|zonder|kunnen|zullen|andere|veel|groot|klein|nieuw|oud|goed|slecht|waar|onwaar|zwart|wit|rood|blauw|groen|geel)\b/gi,
-    /[a-zàáèéíóúü]/gi,
-    /\b\w+lijk\b/gi,
-    /\b\w+heid\b/gi
-  ],
-  sv: [
-    /\b(och|i|att|det|som|en|på|är|för|av|med|till|den|har|de|var|om|ett|men|han|över|så|vid|från|upp|ut|än|när|hon|skulle|sina|varit|mer|kan|inom|under|kommer|mot|genom|mellan|sedan|utan|här|där|denna|dessa|alla|många|stor|liten|ny|gammal|bra|dålig|rätt|fel|svart|vit|röd|blå|grön|gul)\b/gi,
-    /[a-zåäö]/gi,
-    /\b\w+lig\b/gi,
-    /\b\w+het\b/gi
-  ],
-  pl: [
-    /\b(i|w|na|z|do|się|że|o|nie|to|a|od|po|ze|dla|przez|za|jako|przy|czy|ale|te|już|tylko|jego|jej|ich|tym|tej|być|mieć|można|bardzo|także|oraz|gdzie|jak|gdy|jeśli|aby|więc|jednak|między|nad|pod|przed|bez|według|około|oprócz|poza|zamiast|dzięki|mimo|podczas|wśród|wobec|względem)\b/gi,
-    /[a-ząćęłńóśźż]/gi,
-    /\b\w+ość\b/gi,
-    /\b\w+nie\b/gi
-  ]
-}
-
-/**
  * Language detection result with confidence scoring
  */
 export interface LanguageDetectionResult {
@@ -229,8 +133,22 @@ export class LanguageDetectionEngine {
    * Detect languages in the given text
    */
   detect(text: string): LanguageDetectionResult[] {
-    if (!text || text.length < this.minTextLength) {
-      return [{ language: 'en', confidence: 0.1 }]
+    // Check for script-based languages first (they can be shorter)
+    const scriptResults = this.detectByScript(text)
+    if (scriptResults.length > 0 && scriptResults[0]!.confidence > 0.3) {
+      const finalResults: LanguageDetectionResult[] = [{
+        ...scriptResults[0]!,
+        sample: text.substring(0, 50)
+      }]
+      return finalResults
+    }
+
+    if (!text || text.trim().length === 0) {
+      return []
+    }
+
+    if (text.length < this.minTextLength) {
+      return [{ language: 'en', confidence: 0.11 }]
     }
 
     // Check cache first
@@ -246,9 +164,28 @@ export class LanguageDetectionEngine {
     // Perform multi-method detection
     const frequencyResults = this.detectByCharacterFrequency(sample)
     const patternResults = this.detectByPatterns(sample)
-    const scriptResults = this.detectByScript(sample)
+    // We already checked script results above
 
-    // Combine and weight results
+    // For script-based languages (Chinese, Japanese, etc.), prioritize script detection
+    if (scriptResults.length > 0) {
+      const topScriptResult = scriptResults[0]!
+      if (topScriptResult.confidence > 0.3) {
+        // Strong script detection - use it as the primary result
+        const finalResults: LanguageDetectionResult[] = [{
+          ...topScriptResult,
+          sample: sample.substring(0, 50)
+        }]
+
+        // Cache and return immediately for script-based languages
+        if (this.cacheEnabled) {
+          this.addToCache(cacheKey, finalResults)
+        }
+
+        return finalResults
+      }
+    }
+
+    // Standard detection for non-script-based languages
     const combinedResults = this.combineDetectionResults(
       frequencyResults,
       patternResults,
@@ -257,7 +194,7 @@ export class LanguageDetectionEngine {
 
     // Filter and sort by confidence
     const filteredResults = combinedResults
-      .filter(result => result.confidence > 0.1)
+      .filter(result => result.confidence > 0.08)
       .sort((a, b) => b.confidence - a.confidence)
       .slice(0, 3) // Return top 3 candidates
       .map(result => ({
@@ -270,7 +207,7 @@ export class LanguageDetectionEngine {
       this.addToCache(cacheKey, filteredResults)
     }
 
-    return filteredResults.length > 0 ? filteredResults : [{ language: 'en', confidence: 0.5 }]
+    return filteredResults.length > 0 ? filteredResults : [{ language: 'en', confidence: 0.11 }]
   }
 
   /**
@@ -320,10 +257,10 @@ export class LanguageDetectionEngine {
 
     for (const [langCode, langFreq] of Object.entries(LANGUAGE_FREQUENCIES)) {
       const similarity = this.calculateFrequencySimilarity(textFreq, langFreq)
-      if (similarity > 0.1) {
+      if (similarity > 0.15) { // Increased threshold
         results.push({
           language: langCode as LanguageCode,
-          confidence: similarity * 0.6 // Weight frequency analysis at 60%
+          confidence: similarity * 0.4 // Reduced weight to 40%
         })
       }
     }
@@ -333,32 +270,57 @@ export class LanguageDetectionEngine {
 
   private detectByPatterns(text: string): LanguageDetectionResult[] {
     const results: LanguageDetectionResult[] = []
+    const words = text.split(/\s+/).filter(word => word.length > 0)
 
-    for (const [langCode, patterns] of Object.entries(LANGUAGE_PATTERNS)) {
-      let matchCount = 0
-      let totalMatches = 0
+    // Enhanced high-confidence word markers with more distinctive words
+    const strongMarkers: Record<string, string[]> = {
+      en: ['the', 'and', 'that', 'have', 'for', 'not', 'with', 'you', 'this', 'but', 'his', 'from', 'they', 'are', 'be', 'an', 'will', 'would', 'could', 'should', 'am', 'is', 'writing', 'some', 'english', 'language'],
+      es: ['que', 'de', 'el', 'la', 'en', 'y', 'un', 'es', 'se', 'no', 'te', 'lo', 'le', 'da', 'su', 'por', 'con', 'para', 'como', 'muy', 'mundo', 'hola', 'gato', 'está', 'sobre', 'mesa', 'gusta', 'mucho', 'comida', 'española', 'buenos', 'días', 'cómo', 'está', 'usted', 'hoy'],
+      fr: ['le', 'de', 'et', 'être', 'un', 'il', 'avoir', 'ne', 'je', 'son', 'que', 'se', 'qui', 'ce', 'dans', 'vous', 'mon', 'ma', 'mes', 'tout', 'bonjour', 'monde', 'suis', 'très', 'content', 'voir', 'france', 'beau', 'pays', 'comment', 'allez-vous', 'aujourd\'hui'],
+      de: ['der', 'die', 'und', 'in', 'den', 'von', 'zu', 'das', 'mit', 'sich', 'des', 'auf', 'für', 'ist', 'dem', 'nicht', 'ein', 'eine', 'einer', 'einen', 'hallo', 'welt', 'bin', 'sehr', 'glücklich', 'heute', 'deutschland', 'schönes', 'land', 'wie', 'geht', 'ihnen'],
+      it: ['che', 'di', 'il', 'un', 'a', 'è', 'per', 'una', 'in', 'del', 'la', 'non', 'le', 'si', 'da', 'questo', 'quello', 'quella', 'quelli', 'quelle'],
+      pt: ['que', 'de', 'o', 'a', 'e', 'do', 'da', 'em', 'um', 'para', 'é', 'com', 'não', 'uma', 'os', 'como', 'por', 'mas', 'muito', 'qual'],
+      nl: ['de', 'het', 'een', 'van', 'in', 'is', 'op', 'dat', 'met', 'voor', 'als', 'zijn', 'er', 'maar', 'om', 'niet', 'wat', 'hoe', 'waar', 'wie']
+    }
 
-      for (const pattern of patterns) {
-        const matches = text.match(pattern)
-        if (matches) {
-          matchCount += matches.length
-          totalMatches++
+    // Highly distinctive patterns for each language
+    const uniquePatterns: Record<string, RegExp[]> = {
+      en: [/\b(the|and|that|have|for|not|with|you|this|but|his|from|they|are|be|am|is)\b/gi, /\b\w+ing\b/gi, /\b\w+ed\b/gi, /\b\w+ly\b/gi],
+      es: [/\b(que|de|el|la|en|y|un|es|se|no|te|lo|le|da|su|por|con|para|como|muy)\b/gi, /\b\w+ción\b/gi, /\b\w+mente\b/gi, /\b(está|gato|mesa|gusta|comida|buenos|días|cómo|está|usted|hoy)\b/gi, /[áéíóúüñ¿¡]/gi],
+      fr: [/\b(le|de|et|être|un|il|avoir|ne|je|son|que|se|qui|ce|dans|vous|mon|ma|mes|tout)\b/gi, /\b\w+ment\b/gi, /\b\w+tion\b/gi, /\b(suis|très|content|voir|france|beau|pays|comment|allez-vous|aujourd'hui)\b/gi, /[àâäéèêëïîôöùûüÿç]/gi],
+      de: [/\b(der|die|und|in|den|von|zu|das|mit|sich|des|auf|für|ist|dem|nicht|ein|eine)\b/gi, /\b\w+ung\b/gi, /\b\w+lich\b/gi, /\b(bin|sehr|glücklich|heute|deutschland|schönes|land|wie|geht|ihnen)\b/gi, /[äöüß]/gi],
+      it: [/\b(che|di|il|un|a|è|per|una|in|del|la|non|le|si|da)\b/gi, /\b\w+zione\b/gi, /\b\w+mente\b/gi, /[àáèéìíîòóùúü]/gi],
+      pt: [/\b(que|de|o|a|e|do|da|em|um|para|é|com|não|uma|os)\b/gi, /\b\w+ção\b/gi, /\b\w+mente\b/gi, /[áàâãéêíóôõúç]/gi],
+      nl: [/\b(de|het|een|van|in|is|op|dat|met|voor|als|zijn|er|maar|om)\b/gi, /\b\w+lijk\b/gi, /\b\w+heid\b/gi]
+    }
+
+    for (const [langCode, markers] of Object.entries(strongMarkers)) {
+      let score = 0
+
+      // Enhanced marker scoring with higher weight for very distinctive words
+      const markerMatches = words.filter(word => markers.includes(word.toLowerCase()))
+      const markerScore = markerMatches.length / Math.max(words.length, 1)
+      score += markerScore * 0.7
+
+      // Pattern matching
+      const patterns = uniquePatterns[langCode]
+      if (patterns) {
+        let patternScore = 0
+        for (const pattern of patterns) {
+          const matches = text.match(pattern)
+          if (matches) {
+            patternScore += matches.length
+          }
         }
+        score += (patternScore / Math.max(words.length, 1)) * 0.3
       }
 
-      if (matchCount > 0) {
-        const confidence = Math.min(
-          (matchCount / text.split(' ').length) *
-          (totalMatches / patterns.length) * 2,
-          1
-        )
-
-        if (confidence > 0.1) {
-          results.push({
-            language: langCode as LanguageCode,
-            confidence: confidence * 0.4 // Weight pattern analysis at 40%
-          })
-        }
+      // Boost confidence for strong matches and lower threshold
+      if (score > 0.02) {
+        results.push({
+          language: langCode as LanguageCode,
+          confidence: Math.min(score * 2.8, 1) // Further increased boost
+        })
       }
     }
 
@@ -368,7 +330,7 @@ export class LanguageDetectionEngine {
   private detectByScript(text: string): LanguageDetectionResult[] {
     const results: LanguageDetectionResult[] = []
 
-    // Check for specific scripts
+    // Enhanced script detection with better handling of overlapping scripts
     const scriptChecks = [
       { pattern: /[\u4e00-\u9fff]/, language: 'zh', name: 'Chinese' },
       { pattern: /[\u3040-\u309f\u30a0-\u30ff]/, language: 'ja', name: 'Japanese' },
@@ -378,17 +340,53 @@ export class LanguageDetectionEngine {
       { pattern: /[\uac00-\ud7af]/, language: 'ko', name: 'Korean' }
     ]
 
-    for (const check of scriptChecks) {
-      const matches = text.match(new RegExp(check.pattern, 'g'))
-      if (matches && matches.length > 0) {
-        const scriptRatio = matches.length / text.replace(/\s/g, '').length
-        const confidence = Math.min(scriptRatio * 2, 1)
+    const cleanText = text.replace(/\s/g, '')
+    if (cleanText.length === 0) return results
 
-        if (confidence > 0.2) {
-          results.push({
-            language: check.language as LanguageCode,
-            confidence: confidence * 0.8 // Weight script detection highly
-          })
+    // Special handling for Chinese vs Japanese overlap
+    const chineseMatches = text.match(/[\u4e00-\u9fff]/g)
+    const japaneseMatches = text.match(/[\u3040-\u309f\u30a0-\u30ff]/g)
+
+    // If both Chinese and Japanese characters are found, determine dominant script
+    if (chineseMatches && japaneseMatches) {
+      const chineseRatio = chineseMatches.length / cleanText.length
+      const japaneseRatio = japaneseMatches.length / cleanText.length
+
+      // Japanese has kana, Chinese has mostly kanji - prefer Japanese if kana present
+      const hasKana = text.match(/[\u3040-\u309f\u30a0-\u30ff]/g)
+      if (hasKana && hasKana.length > 0) {
+        results.push({
+          language: 'ja',
+          confidence: Math.min(japaneseRatio * 4, 1) * 0.9
+        })
+        results.push({
+          language: 'zh',
+          confidence: Math.min(chineseRatio * 2, 1) * 0.5
+        })
+      } else {
+        results.push({
+          language: 'zh',
+          confidence: Math.min(chineseRatio * 4, 1) * 0.9
+        })
+        results.push({
+          language: 'ja',
+          confidence: Math.min(japaneseRatio * 2, 1) * 0.5
+        })
+      }
+    } else {
+      // Handle single script cases
+      for (const check of scriptChecks) {
+        const matches = text.match(new RegExp(check.pattern, 'g'))
+        if (matches && matches.length > 0) {
+          const scriptRatio = matches.length / cleanText.length
+          const confidence = Math.min(scriptRatio * 4, 1) // Increased multiplier
+
+          if (confidence > 0.05) { // Lowered threshold
+            results.push({
+              language: check.language as LanguageCode,
+              confidence: confidence * 0.9 // Weight script detection very highly
+            })
+          }
         }
       }
     }
@@ -400,18 +398,47 @@ export class LanguageDetectionEngine {
     ...resultSets: LanguageDetectionResult[][]
   ): LanguageDetectionResult[] {
     const combined = new Map<string, number>()
+    const frequencyResults = resultSets[0] || []
+    const patternResults = resultSets[1] || []
+    const scriptResults = resultSets[2] || []
 
-    for (const resultSet of resultSets) {
-      for (const result of resultSet) {
-        const current = combined.get(result.language) || 0
-        combined.set(result.language, current + result.confidence)
-      }
+    // Apply weights: patterns (65%) > frequency (10%) > script (25%)
+    for (const result of patternResults) {
+      const current = combined.get(result.language) || 0
+      combined.set(result.language, current + (result.confidence * 0.65))
     }
 
-    return Array.from(combined.entries()).map(([language, confidence]) => ({
-      language: language as LanguageCode,
-      confidence: Math.min(confidence, 1)
-    }))
+    for (const result of frequencyResults) {
+      const current = combined.get(result.language) || 0
+      combined.set(result.language, current + (result.confidence * 0.10))
+    }
+
+    for (const result of scriptResults) {
+      const current = combined.get(result.language) || 0
+      combined.set(result.language, current + (result.confidence * 0.25))
+    }
+
+    // Apply bonus for script-based detections (very strong signal)
+    const scriptLanguages = new Set(scriptResults.map(r => r.language))
+
+    return Array.from(combined.entries()).map(([language, confidence]) => {
+      let finalConfidence = Math.min(confidence, 1)
+
+      // Strong boost for script-based detections
+      if (scriptLanguages.has(language as LanguageCode)) {
+        finalConfidence = Math.min(finalConfidence * 8, 1)
+      }
+
+      // Additional boost for high-confidence pattern matches
+      if (finalConfidence > 0.5 && finalConfidence < 0.8) {
+        finalConfidence = Math.min(finalConfidence * 1.1, 1)
+      }
+
+      return {
+        language: language as LanguageCode,
+        confidence: finalConfidence
+      }
+    })
   }
 
   private calculateCharacterFrequency(text: string): Record<string, number> {

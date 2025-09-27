@@ -363,7 +363,7 @@ export async function healthCheck(): Promise<{
 }
 
 // Version info
-export const VERSION = '1.0.0'
+export const VERSION = '0.1.0'
 
 // Re-export key types for convenience
 export type {

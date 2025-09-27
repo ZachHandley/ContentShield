@@ -1,4 +1,6 @@
 import { defineConfig } from 'tsup'
+import { copy } from 'fs-extra'
+import path from 'path'
 
 export default defineConfig({
   entry: ['src/index.ts'],
@@ -14,7 +16,7 @@ export default defineConfig({
   external: [],
   noExternal: [],
   banner: {
-    js: '/* NaughtyWords v1.0.0 - A modern profanity detection library */',
+    js: '/* NaughtyWords v0.1.0 - A modern profanity detection library */',
   },
   esbuildOptions(options) {
     options.conditions = ['module']
@@ -32,4 +34,13 @@ export default defineConfig({
   minifySyntax: true,
   // Bundle analysis
   metafile: true,
+  // Copy data files after build
+  async onSuccess() {
+    console.log('Copying data files to dist directory...')
+    await copy(
+      path.join(process.cwd(), 'data'),
+      path.join(process.cwd(), 'dist', 'data')
+    )
+    console.log('Data files copied successfully!')
+  }
 })

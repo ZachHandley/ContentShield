@@ -196,7 +196,7 @@ export class ConfigValidator {
   /**
    * Validate languages array
    */
-  private static validateLanguages(languages: any): {
+  private static validateLanguages(languages: unknown): {
     errors: string[]
     warnings: string[]
     sanitizedLanguages?: LanguageCode[]
@@ -253,24 +253,24 @@ export class ConfigValidator {
   /**
    * Validate severity level
    */
-  private static validateSeverity(severity: any): {
+  private static validateSeverity(severity: unknown): {
     errors: string[]
     sanitizedSeverity?: SeverityLevel
   } {
     const errors: string[] = []
 
-    if (!Object.values(SeverityLevel).includes(severity)) {
+    if (!Object.values(SeverityLevel).includes(severity as SeverityLevel)) {
       errors.push(`Invalid severity level: ${severity}`)
       return { errors }
     }
 
-    return { errors, sanitizedSeverity: severity }
+    return { errors, sanitizedSeverity: severity as SeverityLevel }
   }
 
   /**
    * Validate categories array
    */
-  private static validateCategories(categories: any): {
+  private static validateCategories(categories: unknown): {
     errors: string[]
     warnings: string[]
     sanitizedCategories?: ProfanityCategory[]
@@ -313,7 +313,7 @@ export class ConfigValidator {
   /**
    * Validate fuzzy threshold
    */
-  private static validateFuzzyThreshold(threshold: any): {
+  private static validateFuzzyThreshold(threshold: unknown): {
     errors: string[]
     warnings: string[]
     sanitizedThreshold?: number
@@ -345,7 +345,7 @@ export class ConfigValidator {
   /**
    * Validate custom words
    */
-  private static validateCustomWords(customWords: any): {
+  private static validateCustomWords(customWords: unknown): {
     errors: string[]
     warnings: string[]
     sanitizedWords?: CustomWord[]
@@ -392,7 +392,7 @@ export class ConfigValidator {
         const validWord: CustomWord = {
           word: word.word.trim(),
           severity: Object.values(SeverityLevel).includes(word.severity) ? word.severity : SeverityLevel.MEDIUM,
-          categories: Array.isArray(word.categories) ? word.categories.filter((c: any) => Object.values(ProfanityCategory).includes(c)) : [ProfanityCategory.PROFANITY],
+          categories: Array.isArray(word.categories) ? word.categories.filter((c: unknown) => Object.values(ProfanityCategory).includes(c as ProfanityCategory)) : [ProfanityCategory.PROFANITY],
           language: typeof word.language === 'string' && SUPPORTED_LANGUAGES.has(word.language) ? word.language : 'en'
         }
 
@@ -408,7 +408,7 @@ export class ConfigValidator {
   /**
    * Validate whitelist
    */
-  private static validateWhitelist(whitelist: any): {
+  private static validateWhitelist(whitelist: unknown): {
     warnings: string[]
     sanitizedWhitelist?: string[]
   } {
@@ -444,7 +444,7 @@ export class ConfigValidator {
   /**
    * Validate replacement character
    */
-  private static validateReplacementChar(char: any): {
+  private static validateReplacementChar(char: unknown): {
     warnings: string[]
     sanitizedChar: string | undefined
   } {

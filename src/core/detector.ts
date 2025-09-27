@@ -1,6 +1,7 @@
 import type {
   DetectorConfig,
   DetectionResult,
+  DetectionMatch,
   AnalysisOptions,
   LanguageCode,
   CustomWord,
@@ -13,6 +14,7 @@ import { LanguageDetector } from './language-detector.js'
 import { textNormalizer } from '../utils/text-normalizer.js'
 import fs from 'fs/promises'
 import path from 'path'
+import { fileURLToPath } from 'url'
 
 /**
  * Main profanity detection class with comprehensive analysis capabilities
@@ -41,7 +43,8 @@ export class NaughtyWordsDetector {
   async initialize(dataPath?: string): Promise<void> {
     if (this.isInitialized) return
 
-    const basePath = dataPath || path.join(process.cwd(), 'data', 'languages')
+    // Resolve data path relative to package location
+    const basePath = dataPath || path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'data', 'languages')
 
     // Load language data for each configured language
     const loadPromises = this.config.languages
@@ -79,6 +82,12 @@ export class NaughtyWordsDetector {
   ): Promise<EnhancedDetectionResult> {
     await this.ensureInitialized()
 
+    // Handle null/undefined/empty inputs
+    if (!text || text.length === 0) {
+      const builder = new DetectionResultBuilder(text || '')
+      return builder.build() as EnhancedDetectionResult
+    }
+
     const effectiveOptions = this.mergeAnalysisOptions(options)
     const builder = new DetectionResultBuilder(text)
 
@@ -92,8 +101,13 @@ export class NaughtyWordsDetector {
     let detectedLanguages: LanguageCode[] = []
     if (this.config.languages.includes('auto')) {
       const languageResults = await this.languageDetector.detect(text)
+
+      // For mixed text with multiple scripts, be more permissive
+      const hasMultipleScripts = this.hasMultipleScripts(text)
+      const threshold = hasMultipleScripts ? 0.1 : 0.5
+
       detectedLanguages = languageResults
-        .filter(result => result.confidence > 0.5)
+        .filter(result => result.confidence > threshold)
         .map(result => result.language)
 
       // Fallback to English if no languages detected
@@ -172,6 +186,30 @@ export class NaughtyWordsDetector {
   }
 
   /**
+   * Check if text contains multiple Unicode scripts
+   */
+  private hasMultipleScripts(text: string): boolean {
+    const scripts = [
+      { pattern: /[\u4e00-\u9fff]/, name: 'Chinese' },
+      { pattern: /[\u3040-\u309f\u30a0-\u30ff]/, name: 'Japanese' },
+      { pattern: /[\u0600-\u06ff]/, name: 'Arabic' },
+      { pattern: /[\u0400-\u04ff]/, name: 'Cyrillic' },
+      { pattern: /[\u0900-\u097f]/, name: 'Devanagari' },
+      { pattern: /[\uac00-\ud7af]/, name: 'Korean' },
+      { pattern: /[a-zA-Z]/, name: 'Latin' }
+    ]
+
+    const detectedScripts = new Set<string>()
+    for (const script of scripts) {
+      if (script.pattern.test(text)) {
+        detectedScripts.add(script.name)
+      }
+    }
+
+    return detectedScripts.size > 1
+  }
+
+  /**
    * Quick check if text contains profanity
    */
   async isProfane(text: string): Promise<boolean> {
@@ -210,8 +248,23 @@ export class NaughtyWordsDetector {
   getStats(): {
     isInitialized: boolean
     configHash: string
-    matcherStats: any
-    filterStats: any
+    matcherStats: {
+      totalLanguages: number
+      totalWords: number
+      trieStats: Record<string, {
+        totalWords: number
+        totalNodes: number
+        averageDepth: number
+        maxDepth: number
+        memoryUsage: number
+      }>
+    }
+    filterStats: {
+      customReplacements: number
+      categoryReplacements: number
+      currentMode: import('../types/index.js').FilterMode
+      preserveStructure: boolean
+    }
     supportedLanguages: LanguageCode[]
   } {
     return {
@@ -274,7 +327,7 @@ export class NaughtyWordsDetector {
   /**
    * Import detector configuration
    */
-  importConfig(exportedConfig: any): void {
+  importConfig(exportedConfig: { config?: DetectorConfig }): void {
     if (exportedConfig.config) {
       this.updateConfig(exportedConfig.config)
     }
@@ -347,7 +400,7 @@ export class NaughtyWordsDetector {
   /**
    * Calculate overall confidence based on matches
    */
-  private calculateOverallConfidence(matches: any[], text: string): number {
+  private calculateOverallConfidence(matches: DetectionMatch[], text: string): number {
     if (matches.length === 0) return 1.0
 
     // Base confidence on average match confidence, text length, and context
@@ -367,7 +420,7 @@ export class NaughtyWordsDetector {
    */
   private addWarningsAndRecommendations(
     builder: DetectionResultBuilder,
-    matches: any[],
+    matches: DetectionMatch[],
     text: string
   ): void {
     // Add warnings for potential issues
@@ -474,7 +527,10 @@ export class NaughtyWordsDetector {
     // Check cache first
     if (this.analysisCache.has(cacheKey)) {
       this.analysisCacheHits++
-      return this.analysisCache.get(cacheKey)!
+      const cachedResult = this.analysisCache.get(cacheKey)
+      if (cachedResult) {
+        return cachedResult
+      }
     }
 
     this.analysisCacheMisses++
@@ -577,7 +633,7 @@ export class NaughtyWordsDetector {
       return
     }
 
-    const safePath = dataPath || path.join(process.cwd(), 'data', 'languages')
+    const safePath = dataPath || path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'data', 'languages')
     await this.loadLanguageData(language, safePath)
     this.lazyLoadedLanguages.add(language)
   }
@@ -605,8 +661,8 @@ export class NaughtyWordsDetector {
 
     for (const result of chunkResults) {
 
-      if ((result as any).severity > maxSeverity) {
-        maxSeverity = (result as any).severity
+      if (result.maxSeverity > maxSeverity) {
+        maxSeverity = result.maxSeverity
       }
 
       result.detectedLanguages?.forEach(lang => allLanguages.add(lang))
@@ -659,7 +715,7 @@ export class NaughtyWordsDetector {
 
     // Also clear trie caches if available
     if (this.matcher && 'clearCaches' in this.matcher) {
-      (this.matcher as any).clearCaches()
+      ;(this.matcher as { clearCaches: () => void }).clearCaches()
     }
   }
 

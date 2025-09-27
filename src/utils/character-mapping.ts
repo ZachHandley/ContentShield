@@ -184,17 +184,18 @@ export const HOMOGRAPH_MAPPINGS: Record<string, string[]> = {
 export const DIACRITIC_MAPPINGS: Record<string, Record<string, string[]>> = {
   // Latin-based languages
   general: {
-    'à': ['a'], 'á': ['a'], 'â': ['a'], 'ã': ['a'], 'ä': ['a'], 'å': ['a'],
+    'à': ['a'], 'á': ['a'], 'â': ['a'], 'ã': ['a'], 'å': ['a'],
     'è': ['e'], 'é': ['e'], 'ê': ['e'], 'ë': ['e'],
     'ì': ['i'], 'í': ['i'], 'î': ['i'], 'ï': ['i'],
-    'ò': ['o'], 'ó': ['o'], 'ô': ['o'], 'õ': ['o'], 'ö': ['o'],
-    'ù': ['u'], 'ú': ['u'], 'û': ['u'], 'ü': ['u'],
+    'ò': ['o'], 'ó': ['o'], 'ô': ['o'], 'õ': ['o'],
+    'ù': ['u'], 'ú': ['u'], 'û': ['u'],
     'ý': ['y'], 'ÿ': ['y'],
     'ñ': ['n'], 'ç': ['c']
   },
   // German specific
   de: {
-    'ä': ['ae', 'a'], 'ö': ['oe', 'o'], 'ü': ['ue', 'u'], 'ß': ['ss', 'b']
+    'ä': ['ae', 'a'], 'ö': ['oe', 'o'], 'ü': ['ue', 'u'], 'ß': ['ss', 'b'],
+    'Ä': ['Ae', 'A'], 'Ö': ['Oe', 'O'], 'Ü': ['Ue', 'U']
   },
   // French specific
   fr: {
@@ -331,10 +332,11 @@ export class CharacterMapper {
   normalizeDiacritics(text: string, language: LanguageCode = this.language): string {
     const generalMappings = DIACRITIC_MAPPINGS.general || {}
     const languageMappings = DIACRITIC_MAPPINGS[language] || {}
-    const allMappings = { ...generalMappings, ...languageMappings }
 
     let normalized = text
-    for (const [diacritic, normalChars] of Object.entries(allMappings)) {
+
+    // Apply language-specific mappings first (they take precedence)
+    for (const [diacritic, normalChars] of Object.entries(languageMappings)) {
       if (normalChars.length > 0 && normalChars[0]) {
         normalized = normalized.replace(
           new RegExp(this.escapeRegex(diacritic), 'g'),
@@ -342,15 +344,27 @@ export class CharacterMapper {
         )
       }
     }
+
+    // Then apply general mappings for characters not covered by language-specific ones
+    for (const [diacritic, normalChars] of Object.entries(generalMappings)) {
+      if (normalChars.length > 0 && normalChars[0]) {
+        normalized = normalized.replace(
+          new RegExp(this.escapeRegex(diacritic), 'g'),
+          normalChars[0]
+        )
+      }
+    }
+
     return normalized
   }
 
   /**
    * Normalize repetitive characters
    */
-  normalizeRepetition(text: string): string {
+  normalizeRepetition(text: string, maxRepetition?: number): string {
+    const max = maxRepetition ?? REPETITION_PATTERNS.MAX_REPETITION
     return text.replace(REPETITION_PATTERNS.REPETITION_REGEX, (match, char) => {
-      return char.repeat(Math.min(match.length, REPETITION_PATTERNS.MAX_REPETITION))
+      return char.repeat(Math.min(match.length, max))
     })
   }
 
@@ -500,8 +514,13 @@ export function normalizeCharacters(
   const normalized = mapper.normalizeLeetspeak(text)
   const withoutHomographs = mapper.normalizeHomographs(normalized)
   const withoutDiacritics = mapper.normalizeDiacritics(withoutHomographs, language)
-  const withoutRepetition = mapper.normalizeRepetition(withoutDiacritics)
-  return mapper.removeSeparators(withoutRepetition)
+
+  // Apply repetition normalization (reduce to single character for this function)
+  const withoutRepetition = mapper.normalizeRepetition(withoutDiacritics, 1)
+  const cleanText = mapper.removeSeparators(withoutRepetition)
+
+  // Convert to lowercase for consistency
+  return cleanText.toLowerCase()
 }
 
 /**

@@ -1,6 +1,6 @@
 {
   "name": "naughty-words",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A modern TypeScript library for multi-language profanity detection and content moderation with severity levels and customizable filtering",
   "keywords": [
     "profanity",
@@ -77,6 +77,7 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.2",
+    "fs-extra": "^11.3.2",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.1",

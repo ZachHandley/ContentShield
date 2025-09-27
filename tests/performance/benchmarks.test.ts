@@ -142,6 +142,9 @@ describe('Performance Benchmarks', () => {
     })
 
     largeTrie.compile() // Compile for optimal performance
+
+    // Also load test data into the detector for accuracy tests
+    await detector.matcher.loadLanguage('en' as LanguageCode, testWords.slice(0, 500))
   }
 
   describe('Trie Performance', () => {

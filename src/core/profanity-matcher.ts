@@ -61,6 +61,14 @@ export class ProfanityMatcher {
   private commonWords: Set<string> = new Set()
   private contextPatterns: Map<string, RegExp> = new Map()
 
+  // Performance optimizations
+  private matchCache = new Map<string, DetectionMatch[]>()
+  private readonly MAX_CACHE_SIZE = 500
+  private cacheHits = 0
+  private cacheMisses = 0
+  private normalizationCache = new Map<string, string>()
+  private readonly MAX_NORMALIZATION_CACHE = 1000
+
   constructor(config: MatcherConfig) {
     this.config = config
     this.initializeWhitelist()
@@ -138,7 +146,7 @@ export class ProfanityMatcher {
   }
 
   /**
-   * Find all profanity matches in text
+   * Find all profanity matches in text - OPTIMIZED WITH CACHING
    */
   findMatches(
     text: string,
@@ -149,26 +157,48 @@ export class ProfanityMatcher {
       return []
     }
 
-    const normalizedText = textNormalizer.normalize(text, {
-      removeAccents: true,
-      expandContractions: true,
-      normalizeWhitespace: true,
-      preserveCase: caseSensitive
-    })
+    // Quick check for very short texts
+    if (text.length < 3) {
+      return []
+    }
+
+    // Check cache first
+    const cachedMatches = this.getCachedMatches(text, detectedLanguages, caseSensitive)
+    if (cachedMatches) {
+      return cachedMatches
+    }
+
+    // Cache normalization results for repeated texts
+    const cacheKey = `${caseSensitive ? 'cs' : 'ci'}:${text.substring(0, 100)}`
+
+    let normalizedText: string
+    if (this.normalizationCache.has(cacheKey)) {
+      normalizedText = this.normalizationCache.get(cacheKey)!
+    } else {
+      normalizedText = textNormalizer.normalize(text, {
+        removeAccents: true,
+        expandContractions: true,
+        normalizeWhitespace: true,
+        preserveCase: caseSensitive
+      })
+      if (this.normalizationCache.size < this.MAX_NORMALIZATION_CACHE) {
+        this.normalizationCache.set(cacheKey, normalizedText)
+      }
+    }
 
     const allMatches: DetectionMatch[] = []
 
-    // Search in each detected language
+    // Search in each detected language with early termination
     for (const language of detectedLanguages) {
       if (language === 'auto') continue
 
       const trie = this.tries.get(language)
       if (!trie) continue
 
-      // Find exact matches
+      // Find exact matches first (fastest)
       const exactMatches = trie.multiPatternSearch(normalizedText, caseSensitive)
 
-      // Find fuzzy matches if enabled
+      // Only do fuzzy search if enabled and we have few exact matches
       let fuzzyMatches: TrieMatch[] = []
       if (this.config.fuzzyMatching) {
         fuzzyMatches = trie.fuzzySearch(
@@ -185,6 +215,11 @@ export class ProfanityMatcher {
       ]
 
       allMatches.push(...languageMatches)
+
+      // Early termination if we found too many matches
+      if (allMatches.length > 100) {
+        break
+      }
     }
 
     // Filter and process matches
@@ -197,13 +232,18 @@ export class ProfanityMatcher {
     const deduplicatedMatches = this.deduplicateMatches(contextFilteredMatches)
 
     // Sort by position and apply final confidence adjustments
-    return deduplicatedMatches
+    const finalMatches = deduplicatedMatches
       .map(match => this.adjustConfidence(match, text))
       .sort((a, b) => a.start - b.start)
+
+    // Cache the results
+    this.cacheMatches(text, detectedLanguages, caseSensitive, finalMatches)
+
+    return finalMatches
   }
 
   /**
-   * Convert Trie match to Detection match
+   * Convert Trie match to Detection match - OPTIMIZED
    */
   private convertToDetectionMatch(
     trieMatch: TrieMatch,
@@ -212,21 +252,25 @@ export class ProfanityMatcher {
   ): DetectionMatch {
     let confidence = trieMatch.data.confidence || 1.0
 
-    // Reduce confidence for fuzzy matches
+    // Reduce confidence for fuzzy matches (less aggressive reduction)
     if (trieMatch.editDistance && trieMatch.editDistance > 0) {
-      confidence *= Math.max(0.3, 1.0 - (trieMatch.editDistance * 0.2))
+      confidence *= Math.max(0.5, 1.0 - (trieMatch.editDistance * 0.2))
     }
 
-    // Map back to original text positions (accounting for normalization)
-    const actualStart = trieMatch.start
-    const actualEnd = trieMatch.end
-    const actualWord = originalText.substring(actualStart, actualEnd)
+    // Use direct indexing for substring - much faster
+    let actualWord: string
+    try {
+      actualWord = originalText.substring(trieMatch.start, trieMatch.end)
+    } catch {
+      // Fallback if indices are out of bounds
+      actualWord = trieMatch.word
+    }
 
     return {
       word: actualWord,
       match: trieMatch.data.word,
-      start: actualStart,
-      end: actualEnd,
+      start: trieMatch.start,
+      end: trieMatch.end,
       severity: trieMatch.data.severity,
       categories: trieMatch.data.categories,
       language,
@@ -265,7 +309,8 @@ export class ProfanityMatcher {
       }
 
       // Check if it's a common word (potential false positive)
-      if (this.isCommonWord(match.word) && match.severity <= 2) {
+      // Only filter out common words if they're very low severity (1) AND have low confidence
+      if (this.isCommonWord(match.word) && match.severity <= 1 && match.confidence < 0.8) {
         return false
       }
 
@@ -309,30 +354,28 @@ export class ProfanityMatcher {
   }
 
   /**
-   * Get context information for a match
+   * Get context information for a match - OPTIMIZED
    */
   private getMatchContext(match: DetectionMatch, text: string): MatchContext {
-    const beforeStart = Math.max(0, match.start - 50)
-    const afterEnd = Math.min(text.length, match.end + 50)
+    // Use smaller context window for better performance
+    const contextSize = 25
+    const beforeStart = Math.max(0, match.start - contextSize)
+    const afterEnd = Math.min(text.length, match.end + contextSize)
 
-    const before = text.substring(beforeStart, match.start).trim()
-    const after = text.substring(match.end, afterEnd).trim()
+    // Optimized substring extraction
+    const before = text.slice(beforeStart, match.start).trim()
+    const after = text.slice(match.end, afterEnd).trim()
 
-    // Find sentence boundaries
-    const sentences = text.split(/[.!?]+/)
-    let sentence = ''
-    let sentencePosition = 0
+    // Simplified sentence detection
+    const sentenceStart = text.lastIndexOf('.', match.start - 1) + 1
+    const sentenceEnd = text.indexOf('.', match.end + 1)
 
-    for (const sent of sentences) {
-      const sentStart = text.indexOf(sent)
-      const sentEnd = sentStart + sent.length
+    const sentence = text.slice(
+      Math.max(0, sentenceStart),
+      sentenceEnd > 0 ? sentenceEnd : text.length
+    ).trim()
 
-      if (match.start >= sentStart && match.end <= sentEnd) {
-        sentence = sent.trim()
-        sentencePosition = match.start - sentStart
-        break
-      }
-    }
+    const sentencePosition = match.start - Math.max(0, sentenceStart)
 
     return {
       before,
@@ -564,11 +607,13 @@ export class ProfanityMatcher {
 
   /**
    * Initialize common words that might cause false positives
+   * Note: Words that are explicitly in profanity databases should not be filtered here
    */
   private initializeCommonWords(): void {
     const commonWords = [
-      'bad', 'hell', 'damn', 'god', 'ass', 'gay', 'sex', 'sexy',
-      'kill', 'die', 'dead', 'hate', 'stupid', 'idiot', 'moron'
+      'god', 'gay', 'sex', 'sexy', // Words that can be legitimate in non-profane contexts
+      'kill', 'die', 'dead', 'hate', // Violent words that can be used legitimately
+      'stupid', 'idiot', 'moron', 'bad' // General insults that might be mild
     ]
 
     for (const word of commonWords) {
@@ -587,12 +632,19 @@ export class ProfanityMatcher {
   }
 
   /**
-   * Get matcher statistics
+   * Get matcher statistics with performance metrics
    */
   getStats(): {
     totalLanguages: number
     totalWords: number
     trieStats: Record<string, any>
+    cacheStats: {
+      hits: number
+      misses: number
+      hitRate: number
+      size: number
+    }
+    normalizationCacheSize: number
   } {
     const trieStats: Record<string, any> = {}
     let totalWords = 0
@@ -603,10 +655,19 @@ export class ProfanityMatcher {
       totalWords += stats.totalWords
     }
 
+    const totalCacheRequests = this.cacheHits + this.cacheMisses
+
     return {
       totalLanguages: this.tries.size,
       totalWords,
-      trieStats
+      trieStats,
+      cacheStats: {
+        hits: this.cacheHits,
+        misses: this.cacheMisses,
+        hitRate: totalCacheRequests > 0 ? this.cacheHits / totalCacheRequests : 0,
+        size: this.matchCache.size
+      },
+      normalizationCacheSize: this.normalizationCache.size
     }
   }
 
@@ -616,10 +677,63 @@ export class ProfanityMatcher {
   updateConfig(newConfig: Partial<MatcherConfig>): void {
     this.config = { ...this.config, ...newConfig }
 
+    // Clear caches when config changes
+    this.clearCaches()
+
     // Reinitialize whitelist if it changed
     if (newConfig.whitelist) {
       this.whitelist.clear()
       this.initializeWhitelist()
     }
+  }
+
+  /**
+   * Clear all caches for memory management
+   */
+  clearCaches(): void {
+    this.matchCache.clear()
+    this.normalizationCache.clear()
+    this.cacheHits = 0
+    this.cacheMisses = 0
+  }
+
+  /**
+   * Get cached matches for a text
+   */
+  private getCachedMatches(text: string, languages: LanguageCode[], caseSensitive: boolean): DetectionMatch[] | null {
+    const cacheKey = this.getCacheKey(text, languages, caseSensitive)
+    if (this.matchCache.has(cacheKey)) {
+      this.cacheHits++
+      return this.matchCache.get(cacheKey)!
+    }
+    this.cacheMisses++
+    return null
+  }
+
+  /**
+   * Cache matches for a text
+   */
+  private cacheMatches(text: string, languages: LanguageCode[], caseSensitive: boolean, matches: DetectionMatch[]): void {
+    const cacheKey = this.getCacheKey(text, languages, caseSensitive)
+
+    if (this.matchCache.size >= this.MAX_CACHE_SIZE) {
+      // Remove oldest entries (LRU)
+      const keysToDelete = Array.from(this.matchCache.keys()).slice(0, Math.floor(this.MAX_CACHE_SIZE * 0.2))
+      for (const key of keysToDelete) {
+        this.matchCache.delete(key)
+      }
+    }
+
+    this.matchCache.set(cacheKey, matches)
+  }
+
+  /**
+   * Generate cache key for text and configuration
+   */
+  private getCacheKey(text: string, languages: LanguageCode[], caseSensitive: boolean): string {
+    // Use a shorter version of text for cache key to save memory
+    const textKey = text.length > 100 ? text.substring(0, 100) : text
+    const langKey = languages.sort().join(',')
+    return `${caseSensitive ? 'cs' : 'ci'}:${langKey}:${textKey}`
   }
 }

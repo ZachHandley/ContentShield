@@ -3,7 +3,7 @@
  * Handles configuration loading, validation, environment overrides, and hot-swapping
  */
 
-import type { DetectorConfig, LanguageCode } from '../types/index.js'
+import type { DetectorConfig, LanguageCode, SeverityLevel } from '../types/index.js'
 import {
   DEFAULT_DETECTOR_CONFIG,
   getEnvironmentConfig,
@@ -13,6 +13,7 @@ import {
 } from './default-config.js'
 import { ConfigValidator } from './config-validator.js'
 import fs from 'fs/promises'
+import { watch } from 'fs'
 
 /**
  * Configuration source types
@@ -53,7 +54,7 @@ export class ConfigManager {
   private currentConfig: DetectorConfig
   private configHistory: Array<{ config: DetectorConfig; timestamp: Date; source: ConfigSource }> = []
   private changeListeners: Array<(event: ConfigChangeEvent) => void> = []
-  private fileWatcher?: any
+  private fileWatcher: ReturnType<typeof watch> | null | undefined
   private configCache = new Map<string, DetectorConfig>()
 
   private readonly options: Required<ConfigManagerOptions>
@@ -89,7 +90,8 @@ export class ConfigManager {
       if (!validation.isValid) {
         throw new Error(`Configuration validation failed: ${validation.errors.join(', ')}`)
       }
-      this.currentConfig = validation.sanitizedConfig!
+      // If validation is valid, sanitizedConfig should be available
+      this.currentConfig = validation.sanitizedConfig || mergedConfig as DetectorConfig
     } else {
       this.currentConfig = mergedConfig as DetectorConfig
     }
@@ -130,7 +132,8 @@ export class ConfigManager {
       if (!validation.isValid) {
         throw new Error(`Configuration validation failed: ${validation.errors.join(', ')}`)
       }
-      this.currentConfig = validation.sanitizedConfig!
+      // If validation is valid, sanitizedConfig should be available
+      this.currentConfig = validation.sanitizedConfig || mergedConfig as DetectorConfig
     } else {
       this.currentConfig = mergedConfig as DetectorConfig
     }
@@ -209,7 +212,10 @@ export class ConfigManager {
     }
 
     if (process.env.NAUGHTY_WORDS_MIN_SEVERITY) {
-      envOverrides.minSeverity = process.env.NAUGHTY_WORDS_MIN_SEVERITY as any
+      const severityValue = parseInt(process.env.NAUGHTY_WORDS_MIN_SEVERITY, 10)
+      if (!isNaN(severityValue) && severityValue >= 1 && severityValue <= 4) {
+        envOverrides.minSeverity = severityValue as SeverityLevel
+      }
     }
 
     if (process.env.NAUGHTY_WORDS_FUZZY_MATCHING) {
@@ -357,7 +363,10 @@ export class ConfigManager {
     const cacheKey = languages.sort().join(',')
 
     if (this.options.cacheValidatedConfigs && this.configCache.has(cacheKey)) {
-      return this.configCache.get(cacheKey)!
+      const cachedConfig = this.configCache.get(cacheKey)
+      if (cachedConfig) {
+        return cachedConfig
+      }
     }
 
     let optimizedConfig = { ...this.currentConfig }
@@ -388,7 +397,7 @@ export class ConfigManager {
   dispose(): void {
     if (this.fileWatcher) {
       this.fileWatcher.close()
-      this.fileWatcher = null
+      this.fileWatcher = undefined
     }
 
     this.changeListeners.length = 0
@@ -408,8 +417,8 @@ export class ConfigManager {
     const allKeys = new Set([...Object.keys(oldConfig), ...Object.keys(newConfig)])
 
     for (const key of allKeys) {
-      const oldValue = (oldConfig as any)[key]
-      const newValue = (newConfig as any)[key]
+      const oldValue = (oldConfig as unknown as Record<string, unknown>)[key]
+      const newValue = (newConfig as unknown as Record<string, unknown>)[key]
 
       if (oldValue === undefined && newValue !== undefined) {
         changes.added.push(key)

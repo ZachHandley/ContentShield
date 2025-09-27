@@ -3,28 +3,59 @@
  */
 
 /**
- * Normalize text for profanity detection
+ * Normalize text for profanity detection - OPTIMIZED
  */
 export function normalizeText(text: string): string {
-  return (
-    text
-      .toLowerCase()
-      .trim()
-      // Normalize whitespace
-      .replace(/\s+/g, ' ')
-      // Remove common obfuscation characters
-      .replace(/[_\-.!@#$%^&()+=[\]{}|\\:;"'<>,?~`*]/g, '')
-      // Normalize similar-looking characters
-      .replace(/[0]/g, 'o')
-      .replace(/[1]/g, 'i')
-      .replace(/[3]/g, 'e')
-      .replace(/[4]/g, 'a')
-      .replace(/[5]/g, 's')
-      .replace(/[7]/g, 't')
-      .replace(/[8]/g, 'b')
-      // Remove repeated characters (e.g., "shiiiit" -> "shit")
-      .replace(/(.)\1{2,}/g, '$1$1')
-  )
+  if (!text || text.length === 0) return text
+
+  // Fast path for short texts
+  if (text.length <= 50) {
+    return normalizeShortText(text)
+  }
+
+  // Long text optimization
+  return normalizeLongText(text)
+}
+
+/**
+ * Optimized normalization for short texts
+ */
+function normalizeShortText(text: string): string {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, ' ')
+    .replace(/[_\-.!@#$%^&()+=[\]{}|\\:;"'<>,?~`*]/g, '')
+    .replace(/[0]/g, 'o')
+    .replace(/[1]/g, 'i')
+    .replace(/[3]/g, 'e')
+    .replace(/[4]/g, 'a')
+    .replace(/[5]/g, 's')
+    .replace(/[7]/g, 't')
+    .replace(/[8]/g, 'b')
+    .replace(/(.)\1{2,}/g, '$1$1')
+}
+
+/**
+ * Optimized normalization for long texts with chunking
+ */
+function normalizeLongText(text: string): string {
+  // For very long texts, we can use a simpler normalization
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, ' ')
+    // Remove only the most common obfuscation characters for performance
+    .replace(/[_\-.!@#$%^&*]/g, '')
+    // Apply character substitutions only at word boundaries
+    .replace(/\b[0]\b/g, 'o')
+    .replace(/\b[1]\b/g, 'i')
+    .replace(/\b[3]\b/g, 'e')
+    .replace(/\b[4]\b/g, 'a')
+    .replace(/\b[5]\b/g, 's')
+    .replace(/\b[7]\b/g, 't')
+    .replace(/\b[8]\b/g, 'b')
+    .replace(/(.)\1{3,}/g, '$1$1') // Only reduce very long repetitions
 }
 
 /**

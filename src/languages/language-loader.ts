@@ -5,6 +5,7 @@
 
 import fs from 'fs/promises'
 import path from 'path'
+import { fileURLToPath } from 'url'
 import type { LanguageCode, SeverityLevel, ProfanityCategory } from '../types/index.js'
 
 /**
@@ -71,8 +72,11 @@ export class LanguageLoader {
   private cacheMisses = 0
 
   constructor(options: LanguageLoadOptions = {}) {
+    // Resolve data path relative to package location
+    const defaultDataPath = options.dataPath || path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'data', 'languages')
+
     this.options = {
-      dataPath: path.join(process.cwd(), 'data', 'languages'),
+      dataPath: defaultDataPath,
       cacheEnabled: true,
       preloadCommonWords: true,
       validateData: true,
@@ -183,7 +187,12 @@ export class LanguageLoader {
 
     for (const result of results) {
       if (result.data) {
-        languageData[result.filename] = result.data
+        // Handle wrapper structure in profanity.json
+        if (result.filename === 'profanity' && result.data.words) {
+          languageData[result.filename] = result.data.words
+        } else {
+          languageData[result.filename] = result.data
+        }
       }
     }
 

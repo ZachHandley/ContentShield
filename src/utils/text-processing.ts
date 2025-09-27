@@ -46,7 +46,7 @@ const LANGUAGE_NORMALIZATION: Record<string, Record<string, string>> = {
 /**
  * Unicode category mappings for normalization
  */
-const UNICODE_CATEGORIES = {
+export const UNICODE_CATEGORIES = {
   // Diacritical marks to remove
   DIACRITICS: /[\u0300-\u036f]/g,
   // Combining marks - use Unicode property escapes
@@ -59,8 +59,9 @@ const UNICODE_CATEGORIES = {
   PUNCTUATION: /[\u0021-\u002f\u003a-\u0040\u005b-\u0060\u007b-\u007e\u00a1-\u00bf\u2000-\u206f\u2e00-\u2e7f]/g,
   // Mathematical operators
   MATH_OPERATORS: /[\u2200-\u22ff\u27c0-\u27ef\u2980-\u29ff\u2a00-\u2aff]/g,
-  // Emoji ranges
-  EMOJI: /[\u1f600-\u1f64f\u1f300-\u1f5ff\u1f680-\u1f6ff\u1f700-\u1f77f\u1f780-\u1f7ff\u1f800-\u1f8ff\u2600-\u26ff\u2700-\u27bf]/g
+  // Emoji ranges (updated to include modern emoji)
+  // eslint-disable-next-line no-misleading-character-class
+  EMOJI: /[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F700}-\u{1F77F}\u{1F780}-\u{1F7FF}\u{1F800}-\u{1F8FF}\u{1F900}-\u{1F9FF}\u{1FA00}-\u{1FA6F}\u{1FA70}-\u{1FAFF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F1E6}-\u{1F1FF}\u{1F3FB}-\u{1F3FF}]/gu
 }
 
 /**
@@ -158,17 +159,17 @@ export class TextProcessor {
       processed = this.processRTL(processed)
     }
 
+    // Language-specific normalization (before case conversion)
+    processed = this.applyLanguageNormalization(processed, config.language)
+
+    // Case normalization (before diacritic removal for Turkish)
+    if (config.lowercase) {
+      processed = this.normalizeCase(processed, config.language)
+    }
+
     // Remove diacritics
     if (config.removeDiacritics) {
       processed = this.removeDiacritics(processed)
-    }
-
-    // Language-specific normalization
-    processed = this.applyLanguageNormalization(processed, config.language)
-
-    // Case normalization
-    if (config.lowercase) {
-      processed = this.normalizeCase(processed, config.language)
     }
 
     // Remove punctuation
@@ -178,7 +179,7 @@ export class TextProcessor {
 
     // Remove emoji
     if (config.removeEmoji) {
-      processed = processed.replace(UNICODE_CATEGORIES.EMOJI, '')
+      processed = this.removeEmoji(processed)
     }
 
     // Normalize whitespace
@@ -243,10 +244,32 @@ export class TextProcessor {
   normalizeCase(text: string, language: LanguageCode): string {
     switch (language) {
       case 'tr': // Turkish has special case rules for i/I
-        return text
-          .replace(/İ/g, 'i')
-          .replace(/I/g, 'ı')
-          .toLowerCase()
+        {
+          // Handle Turkish dotted/undotted i correctly
+          // Process character by character to preserve Turkish case rules
+          let result = ''
+          for (let i = 0; i < text.length; i++) {
+            const char = text[i]
+            switch (char) {
+              case 'İ':
+                result += 'i'  // Capital dotted I -> lowercase dotted i
+                break
+              case 'I':
+                result += 'ı'  // Capital undotted I -> lowercase undotted ı
+                break
+              case 'i':
+                result += 'i'  // lowercase dotted i stays the same
+                break
+              case 'ı':
+                result += 'ı'  // lowercase undotted ı stays the same
+                break
+              default:
+                result += char!.toLowerCase()
+                break
+            }
+          }
+          return result
+        }
 
       case 'de': // German ß handling
         return text.toLowerCase().replace(/ß/g, 'ss')
@@ -254,6 +277,14 @@ export class TextProcessor {
       default:
         return text.toLowerCase()
     }
+  }
+
+  /**
+   * Remove emoji from text
+   */
+  removeEmoji(text: string): string {
+    // Use the updated emoji regex
+    return text.replace(UNICODE_CATEGORIES.EMOJI, '')
   }
 
   /**
@@ -409,9 +440,9 @@ export function extractWords(
 
   return normalized
     .split(/\s+/)
-    .map(word => word.replace(/[^\w]/g, ''))
+    .map(word => word.replace(/[^a-zA-Z]/g, ''))
     .filter(word => word.length >= minLength && word.length <= maxLength)
-    .filter(word => /\w/.test(word)) // Must contain at least one word character
+    .filter(word => /[a-zA-Z]/.test(word)) // Must contain at least one letter
 }
 
 /**

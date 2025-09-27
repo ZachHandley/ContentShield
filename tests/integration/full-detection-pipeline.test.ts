@@ -25,30 +25,31 @@ describe('Full Detection Pipeline Integration', () => {
     en: {
       words: [
         {
-          word: 'badword',
-          severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL],
-          variations: ['b4dword', 'badw0rd', 'b@dword'],
+          word: 'damn',
+          severity: SeverityLevel.LOW,
+          categories: [ProfanityCategory.GENERAL, ProfanityCategory.RELIGIOUS],
+          variations: ['dam', 'darn', 'd4mn', 'd@mn'],
           caseSensitive: false
         },
         {
-          word: 'terrible',
-          severity: SeverityLevel.HIGH,
-          categories: [ProfanityCategory.VIOLENCE, ProfanityCategory.GENERAL],
-          variations: ['terrib1e', 't3rrible'],
+          word: 'shit',
+          severity: SeverityLevel.MEDIUM,
+          categories: [ProfanityCategory.GENERAL, ProfanityCategory.SCATOLOGICAL],
+          variations: ['sh1t', 'sh!t', '$hit'],
           caseSensitive: false
         },
         {
-          word: 'explicit',
+          word: 'fuck',
           severity: SeverityLevel.SEVERE,
-          categories: [ProfanityCategory.SEXUAL],
-          variations: ['3xplicit', 'expl1cit'],
+          categories: [ProfanityCategory.SEXUAL, ProfanityCategory.GENERAL],
+          variations: ['f*ck', 'f**k', 'fck'],
           caseSensitive: false
         },
         {
-          word: 'hate',
-          severity: SeverityLevel.HIGH,
-          categories: [ProfanityCategory.HATE_SPEECH],
+          word: 'ass',
+          severity: SeverityLevel.MEDIUM,
+          categories: [ProfanityCategory.GENERAL, ProfanityCategory.BODY_PARTS],
+          variations: ['@ss', 'a$$', 'a55', 'arse'],
           caseSensitive: false
         }
       ]
@@ -56,9 +57,9 @@ describe('Full Detection Pipeline Integration', () => {
     es: {
       words: [
         {
-          word: 'malo',
-          severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL],
+          word: 'mierda',
+          severity: SeverityLevel.MEDIUM,
+          categories: [ProfanityCategory.GENERAL, ProfanityCategory.SCATOLOGICAL],
           caseSensitive: false
         }
       ]
@@ -103,7 +104,7 @@ describe('Full Detection Pipeline Integration', () => {
 
   describe('End-to-End Detection Scenarios', () => {
     it('should detect and filter basic profanity', async () => {
-      const input = 'This text contains badword and should be filtered.'
+      const input = 'This text contains damn and should be filtered.'
 
       const result = await detector.analyzeEnhanced(input, {
         filterMode: FilterMode.CENSOR,
@@ -115,7 +116,7 @@ describe('Full Detection Pipeline Integration', () => {
       expect(result.totalMatches).toBeGreaterThan(0)
       expect(result.filteredText).not.toBe(input)
       expect(result.filteredText).toContain('*')
-      expect(result.maxSeverity).toBe(SeverityLevel.MODERATE)
+      expect(result.maxSeverity).toBe(SeverityLevel.LOW)
 
       // Check enhanced results
       expect(result.enhancedMatches).toHaveLength(result.totalMatches)
@@ -129,44 +130,44 @@ describe('Full Detection Pipeline Integration', () => {
     })
 
     it('should handle multiple severity levels correctly', async () => {
-      const input = 'This has badword which is moderate, terrible which is high, and explicit which is severe.'
+      const input = 'This has damn which is low, shit which is medium, and fuck which is severe.'
 
       const result = await detector.analyzeEnhanced(input)
 
       expect(result.hasProfanity).toBe(true)
       expect(result.totalMatches).toBe(3)
-      expect(result.maxSeverity).toBe(SeverityLevel.SEVERE)
+      expect(result.maxSeverity).toBe(SeverityLevel.HIGH)
 
       // Check severity distribution
       const severities = result.matches.map(m => m.severity)
-      expect(severities).toContain(SeverityLevel.MODERATE)
+      expect(severities).toContain(SeverityLevel.LOW)
+      expect(severities).toContain(SeverityLevel.MEDIUM)
       expect(severities).toContain(SeverityLevel.HIGH)
-      expect(severities).toContain(SeverityLevel.SEVERE)
 
       // Statistics should reflect distribution
-      expect(result.statistics.severityDistribution[SeverityLevel.MODERATE]).toBeGreaterThan(0)
+      expect(result.statistics.severityDistribution[SeverityLevel.LOW]).toBeGreaterThan(0)
+      expect(result.statistics.severityDistribution[SeverityLevel.MEDIUM]).toBeGreaterThan(0)
       expect(result.statistics.severityDistribution[SeverityLevel.HIGH]).toBeGreaterThan(0)
-      expect(result.statistics.severityDistribution[SeverityLevel.SEVERE]).toBeGreaterThan(0)
     })
 
     it('should handle category-based filtering', async () => {
-      const input = 'This content has explicit sexual material and hate speech.'
+      const input = 'This content has fuck sexual material and damn religious speech.'
 
       const result = await detector.analyzeEnhanced(input)
 
       if (result.hasProfanity) {
         const categories = result.matches.flatMap(m => m.categories)
         expect(categories).toContain(ProfanityCategory.SEXUAL)
-        expect(categories).toContain(ProfanityCategory.HATE_SPEECH)
+        expect(categories).toContain(ProfanityCategory.RELIGIOUS)
 
         // Category distribution should be tracked
         expect(result.statistics.categoryDistribution[ProfanityCategory.SEXUAL]).toBeGreaterThan(0)
-        expect(result.statistics.categoryDistribution[ProfanityCategory.HATE_SPEECH]).toBeGreaterThan(0)
+        expect(result.statistics.categoryDistribution[ProfanityCategory.RELIGIOUS]).toBeGreaterThan(0)
       }
     })
 
     it('should detect word variations and fuzzy matches', async () => {
-      const input = 'This text has b4dword and terrib1e variations.'
+      const input = 'This text has d4mn and sh1t variations.'
 
       const result = await detector.analyzeEnhanced(input)
 
@@ -175,13 +176,13 @@ describe('Full Detection Pipeline Integration', () => {
 
       // Should match variations to original words
       const originalWords = result.matches.map(m => m.match)
-      expect(originalWords).toContain('badword')
-      expect(originalWords).toContain('terrible')
+      expect(originalWords).toContain('damn')
+      expect(originalWords).toContain('shit')
     })
 
     it('should handle context-aware filtering', async () => {
-      const negatedInput = 'This is not badword according to research.'
-      const positiveInput = 'This is definitely badword content.'
+      const negatedInput = 'This is not damn according to research.'
+      const positiveInput = 'This is definitely damn content.'
 
       const negatedResult = await detector.analyze(negatedInput)
       const positiveResult = await detector.analyze(positiveInput)
@@ -216,7 +217,7 @@ describe('Full Detection Pipeline Integration', () => {
 
   describe('Multi-Language Detection', () => {
     it('should detect profanity in multiple languages', async () => {
-      const input = 'This is badword in English and malo in Spanish.'
+      const input = 'This is damn in English and mierda in Spanish.'
 
       const result = await detector.analyzeEnhanced(input)
 
@@ -243,7 +244,7 @@ describe('Full Detection Pipeline Integration', () => {
   })
 
   describe('Filter Mode Integration', () => {
-    const testInput = 'This badword text is terrible and needs filtering.'
+    const testInput = 'This damn text is shit and needs filtering.'
 
     it('should apply CENSOR mode correctly', async () => {
       const result = await detector.analyze(testInput, {
@@ -261,8 +262,8 @@ describe('Full Detection Pipeline Integration', () => {
       })
 
       expect(result.filteredText).not.toBe(testInput)
-      expect(result.filteredText).not.toContain('badword')
-      expect(result.filteredText).not.toContain('terrible')
+      expect(result.filteredText).not.toContain('damn')
+      expect(result.filteredText).not.toContain('shit')
       expect(result.filteredText.length).toBeLessThan(testInput.length)
     })
 
@@ -272,8 +273,8 @@ describe('Full Detection Pipeline Integration', () => {
       })
 
       expect(result.filteredText).not.toBe(testInput)
-      expect(result.filteredText).not.toContain('badword')
-      expect(result.filteredText).not.toContain('terrible')
+      expect(result.filteredText).not.toContain('damn')
+      expect(result.filteredText).not.toContain('shit')
       expect(result.filteredText).toMatch(/\[.*\]|inappropriate|offensive/)
     })
 
@@ -291,10 +292,10 @@ describe('Full Detection Pipeline Integration', () => {
     it('should handle batch processing efficiently', async () => {
       const inputs = [
         'Clean text example',
-        'This contains badword',
-        'Another terrible example',
-        'More clean content here',
-        'Final explicit test case'
+        'This contains damn',
+        'Another shit example',
+        'This is completely clean text',
+        'Final fuck test case'
       ]
 
       const startTime = Date.now()
@@ -306,10 +307,10 @@ describe('Full Detection Pipeline Integration', () => {
 
       // Check that results are properly differentiated
       expect(results[0].hasProfanity).toBe(false) // Clean text
-      expect(results[1].hasProfanity).toBe(true)  // Contains badword
-      expect(results[2].hasProfanity).toBe(true)  // Contains terrible
+      expect(results[1].hasProfanity).toBe(true)  // Contains damn
+      expect(results[2].hasProfanity).toBe(true)  // Contains shit
       expect(results[3].hasProfanity).toBe(false) // Clean content
-      expect(results[4].hasProfanity).toBe(true)  // Contains explicit
+      expect(results[4].hasProfanity).toBe(true)  // Contains fuck
     })
 
     it('should maintain accuracy with large text', async () => {
@@ -317,17 +318,17 @@ describe('Full Detection Pipeline Integration', () => {
         This is a comprehensive test document that contains various types of content.
         Some paragraphs are completely clean and appropriate for all audiences.
 
-        However, other sections contain badword content that should be detected.
-        There might also be terrible language mixed in with regular content.
+        However, other sections contain damn content that should be detected.
+        There might also be shit language mixed in with regular content.
 
-        The system should be able to handle explicit material when it appears.
-        Context matters too - words that are "not badword" should be treated differently.
+        The system should be able to handle fuck material when it appears.
+        Context matters too - words that are "not damn" should be treated differently.
 
         Technical terms like assess, classic, and basement should be whitelisted.
         Custom terms like customoffensive should also be detected properly.
 
-        Mixed language content with malo (Spanish) should work across languages.
-        Variations like b4dword and terrib1e should match their base forms.
+        Mixed language content with mierda (Spanish) should work across languages.
+        Variations like d4mn and sh1t should match their base forms.
 
         This document is intentionally long to test the system's ability to handle
         substantial amounts of text while maintaining accuracy and performance.
@@ -408,7 +409,7 @@ describe('Full Detection Pipeline Integration', () => {
       const matcher = (restrictiveDetector as any).matcher
       await matcher.loadLanguage('en', testProfanityData.en.words)
 
-      const input = 'This has badword (moderate) and terrible (high) content.'
+      const input = 'This has damn (low) and shit (medium) content.'
       const result = await restrictiveDetector.analyze(input)
 
       if (result.hasProfanity) {
@@ -426,7 +427,7 @@ describe('Full Detection Pipeline Integration', () => {
       const matcher = (categoryDetector as any).matcher
       await matcher.loadLanguage('en', testProfanityData.en.words)
 
-      const input = 'This has badword (general) and explicit (sexual) content.'
+      const input = 'This has damn (general) and fuck (sexual) content.'
       const result = await categoryDetector.analyze(input)
 
       if (result.hasProfanity) {
@@ -440,7 +441,7 @@ describe('Full Detection Pipeline Integration', () => {
 
   describe('Component Integration Verification', () => {
     it('should properly integrate Trie, Matcher, Filter, and ResultBuilder', async () => {
-      const input = 'Test integration: badword, terrible, and explicit content.'
+      const input = 'Test integration: damn, shit, and fuck content.'
 
       const result = await detector.analyzeEnhanced(input, {
         measurePerformance: true,
@@ -473,7 +474,7 @@ describe('Full Detection Pipeline Integration', () => {
     })
 
     it('should maintain data consistency across components', async () => {
-      const input = 'Consistency test with badword and terrible content.'
+      const input = 'Consistency test with damn and shit content.'
 
       const result = await detector.analyzeEnhanced(input)
 
@@ -498,8 +499,8 @@ describe('Full Detection Pipeline Integration', () => {
   describe('Real-World Usage Scenarios', () => {
     it('should handle social media content', async () => {
       const socialMediaPost = `
-        OMG this is so badword!!! 😡
-        Why are people so terrible these days?
+        OMG this is so damn!!! 😡
+        Why are people so shit these days?
         #frustrated @friend check this out
         https://example.com/article
       `
@@ -517,9 +518,9 @@ describe('Full Detection Pipeline Integration', () => {
       const emailContent = `
         From: user@example.com
         To: admin@company.com
-        Subject: Complaint about terrible service
+        Subject: Complaint about shit service
 
-        This badword experience was explicit and unacceptable.
+        This damn experience was fuck and unacceptable.
       `
 
       const result = await detector.analyzeEnhanced(emailContent)
@@ -533,11 +534,11 @@ describe('Full Detection Pipeline Integration', () => {
     it('should handle formal document content', async () => {
       const formalDoc = `
         This research paper examines the impact of inappropriate language
-        in digital communications. Studies show that exposure to badword
-        content and terrible messaging can affect user experience.
+        in digital communications. Studies show that exposure to damn
+        content and shit messaging can affect user experience.
 
         Our methodology assessed various communication patterns and
-        classified explicit material according to severity levels.
+        classified fuck material according to severity levels.
       `
 
       const result = await detector.analyzeEnhanced(formalDoc)
