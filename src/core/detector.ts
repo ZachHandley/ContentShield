@@ -5,6 +5,7 @@ import type {
   AnalysisOptions,
   LanguageCode,
   CustomWord,
+  StaticLanguageData,
 } from '../types/index.js'
 import { SeverityLevel, FilterMode } from '../types/index.js'
 import { DEFAULT_DETECTOR_CONFIG } from '../config/default-config.js'
@@ -13,9 +14,7 @@ import { ProfanityFilter, type FilterConfig } from './filter.js'
 import { DetectionResultBuilder, type EnhancedDetectionResult } from './detection-result.js'
 import { LanguageDetector } from './language-detector.js'
 import { textNormalizer } from '../utils/text-normalizer.js'
-import fs from 'fs/promises'
-import path from 'path'
-import { fileURLToPath } from 'url'
+import { LANGUAGE_DATA } from '../languages/data/index.js'
 
 /**
  * Main profanity detection class with comprehensive analysis capabilities
@@ -41,38 +40,31 @@ export class ContentShieldDetector {
   /**
    * Initialize the detector with language data
    */
-  async initialize(dataPath?: string): Promise<void> {
+  async initialize(_dataPath?: string): Promise<void> {
     if (this.isInitialized) return
 
-    // If languageData is provided in config, use it directly (static imports)
-    if (this.config.languageData) {
-      const loadPromises = this.config.languages
-        .filter(lang => lang !== 'auto')
-        .map(async (lang) => {
-          const langCode = lang as LanguageCode
-          const langData = this.config.languageData?.[langCode]
+    // Load language data for each configured language
+    const loadPromises = this.config.languages
+      .filter(lang => lang !== 'auto')
+      .map(async (lang) => {
+        const langCode = lang as LanguageCode
 
-          if (langData) {
-            // StaticLanguageData has a 'words' array ready to use
-            const words = langData.words || []
-            await this.matcher.loadLanguage(langCode, words)
+        // Priority 1: Use languageData from config if provided
+        if (this.config.languageData?.[langCode]) {
+          const words = this.config.languageData[langCode].words || []
+          await this.matcher.loadLanguage(langCode, words)
+        } else {
+          // Priority 2: Use static LANGUAGE_DATA imports
+          const langData = LANGUAGE_DATA[langCode as keyof typeof LANGUAGE_DATA] as unknown as StaticLanguageData | undefined
+          if (langData?.words) {
+            await this.matcher.loadLanguage(langCode, langData.words)
           } else {
-            console.warn(`Language data for ${langCode} not found in languageData config`)
+            console.warn(`Language data for ${langCode} not found`)
           }
-        })
+        }
+      })
 
-      await Promise.all(loadPromises)
-    } else {
-      // Resolve data path relative to package location
-      const basePath = dataPath || path.join(process.cwd(), 'data', 'languages')
-
-      // Load language data for each configured language
-      const loadPromises = this.config.languages
-        .filter(lang => lang !== 'auto')
-        .map(lang => this.loadLanguageData(lang as LanguageCode, basePath))
-
-      await Promise.all(loadPromises)
-    }
+    await Promise.all(loadPromises)
 
     // Add custom words if any
     if (this.config.customWords.length > 0) {
@@ -364,73 +356,6 @@ export class ContentShieldDetector {
   }
 
   /**
-   * Load language data from file
-   * Now supports split-file structure: profanity.json, severity.json, etc.
-   */
-  private async loadLanguageData(
-    language: LanguageCode,
-    basePath: string
-  ): Promise<void> {
-    try {
-      // Try new split-file structure first
-      const langDir = path.join(basePath, language)
-      const profanityPath = path.join(langDir, 'profanity.json')
-
-      try {
-        // Load split files
-        const profanityContent = await fs.readFile(profanityPath, 'utf-8')
-        const profanityData = JSON.parse(profanityContent)
-
-        // Load additional files if they exist
-        let severityData: any = {}
-        let categoriesData: any = {}
-        let variationsData: any = {}
-
-        try {
-          const severityContent = await fs.readFile(path.join(langDir, 'severity.json'), 'utf-8')
-          severityData = JSON.parse(severityContent)
-        } catch { /* optional file */ }
-
-        try {
-          const categoriesContent = await fs.readFile(path.join(langDir, 'categories.json'), 'utf-8')
-          categoriesData = JSON.parse(categoriesContent)
-        } catch { /* optional file */ }
-
-        try {
-          const variationsContent = await fs.readFile(path.join(langDir, 'variations.json'), 'utf-8')
-          variationsData = JSON.parse(variationsContent)
-        } catch { /* optional file */ }
-
-        // Merge data from split files
-        const words = profanityData.words || []
-        const mergedWords = words.map((word: any) => {
-          const wordKey = typeof word === 'string' ? word : word.word
-          return {
-            word: wordKey,
-            severity: severityData[wordKey] || word.severity || 1,
-            categories: categoriesData[wordKey] || word.categories || ['general'],
-            variations: variationsData[wordKey] || word.variations || []
-          }
-        })
-
-        await this.matcher.loadLanguage(language, mergedWords)
-      } catch {
-        // Fall back to monolithic file structure
-        const filePath = path.join(basePath, `${language}.json`)
-        const fileContent = await fs.readFile(filePath, 'utf-8')
-        const languageData = JSON.parse(fileContent)
-
-        if (languageData.words && Array.isArray(languageData.words)) {
-          await this.matcher.loadLanguage(language, languageData.words)
-        }
-      }
-    } catch (error) {
-      console.warn(`Failed to load language data for ${language}:`, error)
-      // Continue with other languages
-    }
-  }
-
-  /**
    * Create matcher configuration from detector config
    */
   private createMatcherConfig(): MatcherConfig {
@@ -681,14 +606,21 @@ export class ContentShieldDetector {
    */
   private lazyLoadedLanguages = new Set<LanguageCode>()
 
-  async ensureLanguageLoaded(language: LanguageCode, dataPath?: string): Promise<void> {
+  async ensureLanguageLoaded(language: LanguageCode, _dataPath?: string): Promise<void> {
     if (this.lazyLoadedLanguages.has(language)) {
       return
     }
 
-    const safePath = dataPath || path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'data', 'languages')
-    await this.loadLanguageData(language, safePath)
-    this.lazyLoadedLanguages.add(language)
+    // Use static LANGUAGE_DATA imports
+    const langData = LANGUAGE_DATA[language as keyof typeof LANGUAGE_DATA] as unknown as StaticLanguageData | undefined
+
+    if (langData?.words) {
+      await this.matcher.loadLanguage(language, langData.words)
+      this.lazyLoadedLanguages.add(language)
+    } else {
+      console.warn(`Language data for ${language} not found in LANGUAGE_DATA`)
+      throw new Error(`Unable to load language data for ${language}`)
+    }
   }
 
   /**
