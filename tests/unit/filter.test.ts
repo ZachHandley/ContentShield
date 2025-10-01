@@ -18,9 +18,9 @@ describe('ProfanityFilter', () => {
         word: 'shit',
         match: 'shit',
         start: 8,
-        end: 15,
+        end: 12,
         severity: SeverityLevel.MODERATE,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en',
         confidence: 0.95
       },
@@ -30,7 +30,7 @@ describe('ProfanityFilter', () => {
         start: 20,
         end: 28,
         severity: SeverityLevel.HIGH,
-        categories: [ProfanityCategory.VIOLENCE],
+        categories: ['violence'],
         language: 'en',
         confidence: 0.90
       }
@@ -87,7 +87,7 @@ describe('ProfanityFilter', () => {
     it('should censor with asterisks by default', () => {
       const result = filter.filter('this is shit text', sampleMatches.slice(0, 1))
 
-      expect(result.filteredText).toBe('this is ******* text')
+      expect(result.filteredText).toBe('this is **** text')
       expect(result.filteredCount).toBe(1)
       expect(result.structurePreserved).toBe(true)
     })
@@ -96,7 +96,7 @@ describe('ProfanityFilter', () => {
       filter.updateConfig({ preserveStructure: true })
       const result = filter.filter('this is shit text', sampleMatches.slice(0, 1))
 
-      expect(result.filteredText).toBe('this is ******* text')
+      expect(result.filteredText).toBe('this is **** text')
       expect(result.filteredText.length).toBe('this is shit text'.length)
     })
 
@@ -104,15 +104,15 @@ describe('ProfanityFilter', () => {
       filter.updateConfig({ preserveStructure: false })
       const result = filter.filter('this is shit text', sampleMatches.slice(0, 1))
 
-      expect(result.filteredText).toBe('this is ******* text')
-      expect(result.filteredText).toContain('*******')
+      expect(result.filteredText).toBe('this is **** text')
+      expect(result.filteredText).toContain('****')
     })
 
     it('should use custom replacement character', () => {
       filter.updateConfig({ replacementChar: '#' })
       const result = filter.filter('this is shit text', sampleMatches.slice(0, 1))
 
-      expect(result.filteredText).toBe('this is ####### text')
+      expect(result.filteredText).toBe('this is #### text')
     })
 
     it('should handle multiple matches', () => {
@@ -131,7 +131,7 @@ describe('ProfanityFilter', () => {
         start: 8,
         end: 13,
         severity: SeverityLevel.LOW,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en',
         confidence: 0.80
       }
@@ -147,7 +147,7 @@ describe('ProfanityFilter', () => {
         start: 8,
         end: 11,
         severity: SeverityLevel.LOW,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en',
         confidence: 0.75
       }
@@ -203,7 +203,7 @@ describe('ProfanityFilter', () => {
       const result = filter.filter(text, sampleMatches)
 
       const cleaned = result.filteredText.replace(/\s+/g, ' ').trim()
-      expect(cleaned).toBe('this  is  indeed')
+      expect(cleaned).toBe('this is indeed')
     })
   })
 
@@ -231,8 +231,8 @@ describe('ProfanityFilter', () => {
         severity: SeverityLevel.SEVERE
       }
 
-      const lowResult = filter.filter('text', [lowSeverityMatch])
-      const highResult = filter.filter('text', [highSeverityMatch])
+      const lowResult = filter.filter('this is shit text', [lowSeverityMatch])
+      const highResult = filter.filter('this is shit text', [highSeverityMatch])
 
       expect(lowResult.filteredText).not.toBe(highResult.filteredText)
     })
@@ -247,7 +247,7 @@ describe('ProfanityFilter', () => {
     it('should handle multiple categories', () => {
       const multiCategoryMatch: DetectionMatch = {
         ...sampleMatches[0],
-        categories: [ProfanityCategory.GENERAL, ProfanityCategory.VIOLENCE]
+        categories: ['general', 'violence']
       }
 
       const result = filter.filter('this is shit text', [multiCategoryMatch])
@@ -309,7 +309,7 @@ describe('ProfanityFilter', () => {
       const result = filter.filter('this is shit text', [highIntensityMatch])
 
       // Should apply full replacement
-      expect(result.filteredText).toBe('this is ******* text')
+      expect(result.filteredText).toBe('this is **** text')
     })
 
     it('should disable gradual filtering when configured', () => {
@@ -324,7 +324,7 @@ describe('ProfanityFilter', () => {
       const result = filter.filter('this is shit text', [lowIntensityMatch])
 
       // Should apply full censoring regardless of intensity
-      expect(result.filteredText).toBe('this is ******* text')
+      expect(result.filteredText).toBe('this is **** text')
     })
   })
 
@@ -344,7 +344,7 @@ describe('ProfanityFilter', () => {
     })
 
     it('should handle wildcard patterns', () => {
-      filter.addCustomReplacement('bad*', '[WILDCARD]')
+      filter.addCustomReplacement('shit*', '[WILDCARD]')
       filter.updateConfig({ mode: FilterMode.REPLACE })
 
       const result = filter.filter('this is shit text', sampleMatches.slice(0, 1))
@@ -556,7 +556,7 @@ describe('ProfanityFilter', () => {
           start: 8,
           end: 15,
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           language: 'en',
           confidence: 0.8
         },
@@ -566,7 +566,7 @@ describe('ProfanityFilter', () => {
           start: 11,
           end: 15,
           severity: SeverityLevel.HIGH,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           language: 'en',
           confidence: 0.9
         }
@@ -619,7 +619,7 @@ describe('ProfanityFilter', () => {
         true
       )
 
-      expect(filteredText).toBe('this is ####### text')
+      expect(filteredText).toBe('this is #### text')
     })
 
     it('should maintain backward compatibility with existing API', () => {

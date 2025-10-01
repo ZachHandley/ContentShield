@@ -14,7 +14,7 @@ describe('ProfanityMatcher', () => {
     config = {
       languages: ['en'],
       minSeverity: SeverityLevel.LOW,
-      categories: [ProfanityCategory.GENERAL, ProfanityCategory.SEXUAL, ProfanityCategory.VIOLENCE],
+      categories: ['general', 'sexual', 'violence'],
       fuzzyMatching: true,
       fuzzyThreshold: 0.8,
       whitelist: [],
@@ -52,14 +52,14 @@ describe('ProfanityMatcher', () => {
         {
           word: 'shit',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           variations: ['b4dword', 'badw0rd'],
           caseSensitive: false
         },
         {
           word: 'terrible',
           severity: SeverityLevel.HIGH,
-          categories: [ProfanityCategory.GENERAL, ProfanityCategory.VIOLENCE],
+          categories: ['general', 'violence'],
           caseSensitive: false
         }
       ]
@@ -81,7 +81,7 @@ describe('ProfanityMatcher', () => {
       const restrictiveConfig = {
         ...config,
         minSeverity: SeverityLevel.HIGH,
-        categories: [ProfanityCategory.VIOLENCE]
+        categories: ['violence']
       }
 
       const restrictiveMatcher = new ProfanityMatcher(restrictiveConfig)
@@ -90,17 +90,17 @@ describe('ProfanityMatcher', () => {
         {
           word: 'mild',
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         },
         {
           word: 'violent',
           severity: SeverityLevel.HIGH,
-          categories: [ProfanityCategory.VIOLENCE]
+          categories: ['violence']
         },
         {
           word: 'sexual',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.SEXUAL]
+          categories: ['sexual']
         }
       ]
 
@@ -118,17 +118,17 @@ describe('ProfanityMatcher', () => {
         {
           word: 'shit',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         },
         {
           word: 'terrible',
           severity: SeverityLevel.HIGH,
-          categories: [ProfanityCategory.VIOLENCE]
+          categories: ['violence']
         },
         {
           word: 'explicit',
           severity: SeverityLevel.SEVERE,
-          categories: [ProfanityCategory.SEXUAL]
+          categories: ['sexual']
         }
       ]
 
@@ -142,7 +142,7 @@ describe('ProfanityMatcher', () => {
       expect(matches[0].word).toBe('shit')
       expect(matches[0].match).toBe('shit')
       expect(matches[0].severity).toBe(SeverityLevel.MODERATE)
-      expect(matches[0].categories).toContain(ProfanityCategory.GENERAL)
+      expect(matches[0].categories).toContain('general')
       expect(matches[0].language).toBe('en')
       expect(matches[0].confidence).toBeGreaterThan(0)
     })
@@ -186,7 +186,7 @@ describe('ProfanityMatcher', () => {
         {
           word: 'profanity',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -216,7 +216,7 @@ describe('ProfanityMatcher', () => {
         {
           word: 'profanity',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -233,12 +233,12 @@ describe('ProfanityMatcher', () => {
         {
           word: 'bad',
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         },
         {
           word: 'hell',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -281,7 +281,7 @@ describe('ProfanityMatcher', () => {
         {
           word: 'bad',
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -298,7 +298,7 @@ describe('ProfanityMatcher', () => {
         {
           word: 'existing',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -311,7 +311,7 @@ describe('ProfanityMatcher', () => {
           word: 'customword',
           language: 'en' as LanguageCode,
           severity: SeverityLevel.HIGH,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           variations: ['cust0mword'],
           caseSensitive: false
         }
@@ -331,7 +331,7 @@ describe('ProfanityMatcher', () => {
           word: 'custom',
           language: 'en' as LanguageCode,
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           variations: ['cust0m', 'c@stom'],
           caseSensitive: false
         }
@@ -354,7 +354,7 @@ describe('ProfanityMatcher', () => {
           word: 'customword',
           language: 'en' as LanguageCode,
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           caseSensitive: false
         }
       ]
@@ -376,17 +376,17 @@ describe('ProfanityMatcher', () => {
         {
           word: 'assess',
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         },
         {
           word: 'class',
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         },
         {
           word: 'bass',
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -401,7 +401,7 @@ describe('ProfanityMatcher', () => {
         {
           word: 'assess',
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -420,12 +420,12 @@ describe('ProfanityMatcher', () => {
         {
           word: 'mild',
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         },
         {
           word: 'severe',
           severity: SeverityLevel.HIGH,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -438,19 +438,19 @@ describe('ProfanityMatcher', () => {
     })
 
     it('should filter by categories', () => {
-      const categoryConfig = { ...config, categories: [ProfanityCategory.VIOLENCE] }
+      const categoryConfig = { ...config, categories: ['violence'] }
       const categoryMatcher = new ProfanityMatcher(categoryConfig)
 
       const testWords = [
         {
           word: 'general',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         },
         {
           word: 'violent',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.VIOLENCE]
+          categories: ['violence']
         }
       ]
 
@@ -470,12 +470,12 @@ describe('ProfanityMatcher', () => {
         {
           word: 'bad',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         },
         {
           word: 'terrible',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -494,7 +494,7 @@ describe('ProfanityMatcher', () => {
         {
           word: 'bad',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -502,7 +502,7 @@ describe('ProfanityMatcher', () => {
         {
           word: 'malo',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -530,7 +530,7 @@ describe('ProfanityMatcher', () => {
       const testWords = Array.from({ length: 100 }, (_, i) => ({
         word: `word${i}`,
         severity: SeverityLevel.MODERATE,
-        categories: [ProfanityCategory.GENERAL]
+        categories: ['general']
       }))
 
       await matcher.loadLanguage('en' as LanguageCode, testWords)
@@ -563,7 +563,7 @@ describe('ProfanityMatcher', () => {
         {
           word: 'exact',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -601,12 +601,12 @@ describe('ProfanityMatcher', () => {
         {
           word: 'test',
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         },
         {
           word: 'testing',
           severity: SeverityLevel.HIGH,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 
@@ -632,7 +632,7 @@ describe('ProfanityMatcher', () => {
         {
           word: '',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         },
         null as any,
         undefined as any
@@ -649,7 +649,7 @@ describe('ProfanityMatcher', () => {
         {
           word: 'test',
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL]
+          categories: ['general']
         }
       ]
 

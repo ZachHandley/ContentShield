@@ -101,7 +101,7 @@ describe('Configuration System', () => {
             {
               word: 'customBad',
               severity: SeverityLevel.HIGH,
-              categories: [ProfanityCategory.PROFANITY],
+              categories: ['profanity'],
               language: 'en'
             }
           ]
@@ -113,7 +113,7 @@ describe('Configuration System', () => {
         expect(result.sanitizedConfig?.customWords[0]).toMatchObject({
           word: 'customBad',
           severity: SeverityLevel.HIGH,
-          categories: [ProfanityCategory.PROFANITY],
+          categories: ['profanity'],
           language: 'en'
         })
       })
@@ -147,7 +147,7 @@ describe('Configuration System', () => {
         expect(result.isValid).toBe(true)
         const sanitizedWord = result.sanitizedConfig?.customWords[0]
         expect(sanitizedWord?.severity).toBe(SeverityLevel.MEDIUM) // Default
-        expect(sanitizedWord?.categories).toEqual([ProfanityCategory.PROFANITY]) // Default
+        expect(sanitizedWord?.categories).toEqual(['profanity']) // Default
         expect(sanitizedWord?.language).toBe('en') // Default
       })
     })

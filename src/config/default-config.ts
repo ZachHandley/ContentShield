@@ -3,8 +3,31 @@
  * Provides sensible defaults for all configuration options
  */
 
-import type { DetectorConfig, AnalysisOptions } from '../types/index.js'
-import { SeverityLevel, ProfanityCategory, FilterMode } from '../types/index.js'
+import type { DetectorConfig, AnalysisOptions, ProfanityCategory } from '../types/index.js'
+import { SeverityLevel, FilterMode } from '../types/index.js'
+
+/**
+ * All available profanity categories
+ */
+export const ALL_CATEGORIES: ProfanityCategory[] = [
+  // Core categories
+  'general',
+  'profanity',
+  'sexual',
+  'violence',
+  'hate_speech',
+  'discrimination',
+  'substance_abuse',
+  'religious',
+  'political',
+  'body_parts',
+  'scatological',
+  'slurs',
+  'disability',
+  'ethnic',
+  'lgbtq',
+  'racial',
+]
 
 /**
  * Default detector configuration
@@ -15,7 +38,7 @@ export const DEFAULT_DETECTOR_CONFIG: DetectorConfig = {
 
   // Detection sensitivity
   minSeverity: SeverityLevel.LOW, // Detect all severity levels
-  categories: Object.values(ProfanityCategory), // All categories enabled
+  categories: ALL_CATEGORIES, // All categories enabled
 
   // Matching settings
   fuzzyMatching: true, // Enable fuzzy matching for variations
@@ -79,9 +102,9 @@ export const STRICT_CONFIG: Partial<DetectorConfig> = {
   fuzzyMatching: true,
   fuzzyThreshold: 0.9, // Very high threshold
   categories: [
-    ProfanityCategory.GENERAL,
-    ProfanityCategory.SEXUAL,
-    ProfanityCategory.HATE_SPEECH,
+    'general',
+    'sexual',
+    'hate_speech',
   ], // Core categories only
 }
 
@@ -93,7 +116,7 @@ export const LENIENT_CONFIG: Partial<DetectorConfig> = {
   minSeverity: SeverityLevel.LOW,
   fuzzyMatching: true,
   fuzzyThreshold: 0.6, // Lower threshold for more matches
-  categories: Object.values(ProfanityCategory), // All categories
+  categories: ALL_CATEGORIES, // All categories
 }
 
 /**

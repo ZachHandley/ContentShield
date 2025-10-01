@@ -12,7 +12,7 @@ describe('NaughtyWordsDetector', () => {
   describe('constructor', () => {
     it('should create a detector with default configuration', () => {
       const config = detector.getConfig()
-      expect(config.languages).toEqual(['auto'])
+      expect(config.languages).toEqual(['en'])
       expect(config.minSeverity).toBe(SeverityLevel.LOW)
       expect(config.fuzzyMatching).toBe(true)
     })

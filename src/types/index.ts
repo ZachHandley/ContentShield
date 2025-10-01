@@ -34,25 +34,189 @@ export enum SeverityLevel {
 
 /**
  * Categories of profanity content
+ * String union type to support diverse categorizations across languages
  */
-export enum ProfanityCategory {
-  GENERAL = 'general',
-  PROFANITY = 'profanity',
-  SEXUAL = 'sexual',
-  VIOLENCE = 'violence',
-  HATE_SPEECH = 'hate_speech',
-  DISCRIMINATION = 'discrimination',
-  SUBSTANCE_ABUSE = 'substance_abuse',
-  RELIGIOUS = 'religious',
-  POLITICAL = 'political',
-  BODY_PARTS = 'body_parts',
-  SCATOLOGICAL = 'scatological',
-  SLURS = 'slurs',
-  DISABILITY = 'disability',
-  ETHNIC = 'ethnic',
-  LGBTQ = 'lgbtq',
-  RACIAL = 'racial',
-}
+export type ProfanityCategory =
+  // Core categories
+  | 'general'
+  | 'profanity'
+  | 'sexual'
+  | 'violence'
+  | 'hate_speech'
+  | 'discrimination'
+  | 'substance_abuse'
+  | 'religious'
+  | 'political'
+  | 'body_parts'
+  | 'scatological'
+  | 'slurs'
+  | 'disability'
+  | 'ethnic'
+  | 'lgbtq'
+  | 'racial'
+  // Extended categories for language-specific expressions
+  | 'abbreviation'
+  | 'ableist'
+  | 'adjective'
+  | 'age'
+  | 'ageist'
+  | 'anatomical'
+  | 'anatomy'
+  | 'animal'
+  | 'animal_comparisons'
+  | 'animal_insult'
+  | 'appearance'
+  | 'arabic_loanword'
+  | 'archaic'
+  | 'avoidance'
+  | 'behavior'
+  | 'biblical'
+  | 'blasphemy'
+  | 'bodily_function'
+  | 'body_shaming'
+  | 'borrowed'
+  | 'caste'
+  | 'chaos'
+  | 'character'
+  | 'childish'
+  | 'class'
+  | 'classist'
+  | 'cleanliness'
+  | 'command'
+  | 'commands'
+  | 'complaining'
+  | 'compound'
+  | 'condition'
+  | 'container'
+  | 'context_dependent'
+  | 'creative'
+  | 'creepy'
+  | 'criminal'
+  | 'curse'
+  | 'damnation'
+  | 'death_threat'
+  | 'death_wish'
+  | 'derogatory'
+  | 'diminutive'
+  | 'direct_address'
+  | 'direct_insult'
+  | 'directness'
+  | 'discriminatory'
+  | 'disease'
+  | 'disgust'
+  | 'dismissal'
+  | 'dismissive'
+  | 'disrespect'
+  | 'drug_reference'
+  | 'drugs'
+  | 'duty'
+  | 'egyptian_specific'
+  | 'emotion'
+  | 'emphatic'
+  | 'endearment'
+  | 'english_loan'
+  | 'euphemism'
+  | 'exclamation'
+  | 'extreme'
+  | 'extreme_threat'
+  | 'extremely_derogatory'
+  | 'extremely_offensive'
+  | 'extremely_vulgar'
+  | 'family'
+  | 'family_honor'
+  | 'family_insult'
+  | 'female_specific'
+  | 'finality'
+  | 'flemish'
+  | 'food'
+  | 'formal'
+  | 'gender'
+  | 'gender_slur'
+  | 'gendered'
+  | 'generational'
+  | 'gesture'
+  | 'gulf_specific'
+  | 'homeless'
+  | 'homophobic'
+  | 'honor'
+  | 'humorous'
+  | 'illegitimate_birth'
+  | 'impatience'
+  | 'imperative'
+  | 'insult'
+  | 'intelligence'
+  | 'intensifier'
+  | 'internet_euphemism'
+  | 'internet_gaming'
+  | 'internet_memes'
+  | 'laziness'
+  | 'levantine_specific'
+  | 'lgbtq_slur'
+  | 'maghrebi_specific'
+  | 'male_specific'
+  | 'masturbation'
+  | 'mat_system'
+  | 'memory_erasure'
+  | 'mental'
+  | 'mental_health'
+  | 'mess'
+  | 'metaphorical'
+  | 'mild'
+  | 'mild_profanity'
+  | 'mild_vulgar'
+  | 'military'
+  | 'misogynistic'
+  | 'modern'
+  | 'moral'
+  | 'mythological'
+  | 'nationality'
+  | 'nonsense'
+  | 'noun'
+  | 'object'
+  | 'objectification'
+  | 'offensive'
+  | 'passive_insult'
+  | 'phrase'
+  | 'physical_appearance'
+  | 'physical_threat'
+  | 'pimp'
+  | 'pity'
+  | 'positive'
+  | 'prefixed'
+  | 'prison'
+  | 'profession'
+  | 'pronouns'
+  | 'quantity'
+  | 'racial_slur'
+  | 'racist'
+  | 'regional'
+  | 'relationship'
+  | 'rude_command'
+  | 'sarcasm'
+  | 'seniority'
+  | 'sexual_undertone'
+  | 'situation'
+  | 'slang'
+  | 'slur'
+  | 'social'
+  | 'social_class'
+  | 'socially_acceptable'
+  | 'socioeconomic'
+  | 'suffix'
+  | 'supernatural'
+  | 'surprise'
+  | 'threat'
+  | 'threats'
+  | 'traditional'
+  | 'transphobic'
+  | 'verb'
+  | 'violent'
+  | 'vulgar'
+  | 'vulgar_command'
+  | 'vulgar_verb'
+  | 'weakness'
+  | 'weather'
+  | 'worthlessness'
 
 /**
  * Detection result for a single word or phrase
@@ -101,6 +265,40 @@ export interface DetectionResult {
 }
 
 /**
+ * Language metadata information
+ */
+export interface LanguageMetadata {
+  name: string
+  code: LanguageCode
+  version: string
+  wordCount: number
+  lastUpdated: string
+  contributors?: string[]
+}
+
+/**
+ * Word entry in language data
+ */
+export interface WordEntry {
+  word: string
+  severity: SeverityLevel
+  categories: ProfanityCategory[]
+  variations?: string[]
+  case_sensitive?: boolean
+  context_notes?: string
+  target_type?: string
+}
+
+/**
+ * Simplified static language data structure for tree-shaking optimization
+ * This is a simplified version that only contains essential word data
+ */
+export interface StaticLanguageData {
+  metadata: LanguageMetadata
+  words: WordEntry[]
+}
+
+/**
  * Configuration options for the profanity detector
  */
 export interface DetectorConfig {
@@ -126,6 +324,8 @@ export interface DetectorConfig {
   replacementChar: string
   /** Whether to preserve word structure when censoring */
   preserveStructure: boolean
+  /** Static language data for tree-shaking (bypasses dynamic loading) */
+  languageData?: Partial<Record<LanguageCode, StaticLanguageData>>
 }
 
 /**

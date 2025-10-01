@@ -1,5 +1,6 @@
 import type { DetectorConfig } from '../types/index.js'
-import { SeverityLevel as SL, ProfanityCategory as PC } from '../types/index.js'
+import { SeverityLevel as SL } from '../types/index.js'
+import { ALL_CATEGORIES } from '../config/default-config.js'
 
 /**
  * Create a default detector configuration
@@ -8,7 +9,7 @@ export function createDefaultConfig(): DetectorConfig {
   return {
     languages: ['auto'],
     minSeverity: SL.LOW,
-    categories: Object.values(PC),
+    categories: ALL_CATEGORIES,
     fuzzyMatching: true,
     fuzzyThreshold: 0.8,
     customWords: [],
@@ -41,7 +42,7 @@ export function createLenientConfig(): DetectorConfig {
     ...createDefaultConfig(),
     minSeverity: SL.MODERATE,
     fuzzyMatching: false,
-    categories: [PC.HATE_SPEECH, PC.DISCRIMINATION], // Only severe categories
+    categories: ['hate_speech', 'discrimination'], // Only severe categories
   }
 }
 
@@ -52,7 +53,7 @@ export function createFamilyFriendlyConfig(): DetectorConfig {
   return {
     ...createDefaultConfig(),
     minSeverity: SL.LOW,
-    categories: Object.values(PC),
+    categories: ALL_CATEGORIES,
     fuzzyMatching: true,
     fuzzyThreshold: 0.9,
   }

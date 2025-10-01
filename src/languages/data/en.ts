@@ -1,0 +1,10588 @@
+/**
+ * English profanity data
+ * Auto-generated from JSON files - DO NOT EDIT MANUALLY
+ *
+ * Language: English
+ * Version: 1.0.0
+ * Last Updated: 2025-09-30
+ * Total Entries: 714
+ */
+
+export const EN = {
+  "metadata": {
+    "name": "English",
+    "code": "en",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-30",
+    "wordCount": 714
+  },
+  "words": [
+    {
+      "word": "@$$",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "@sshole",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "@sshol3",
+        "@ssh0le",
+        "@$$hole"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "a$$",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "@$$",
+        "4$$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "a55",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "@55",
+        "455"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "anal",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "@n@l",
+        "4n4l"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "anus",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@nus",
+        "4nus",
+        "anu$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "arse",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "@rse",
+        "4rse",
+        "ars3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "arse (british for ass)",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "@rse (british for @ss)",
+        "4rse (british for 4ss)",
+        "ars3 (british for ass)"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "arsehole",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "@rsehole",
+        "4rsehole",
+        "ars3hol3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "arsehole (british for asshole)",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "@rsehole (british for @sshole)",
+        "4rsehole (british for 4sshole)",
+        "ars3hol3 (british for asshol3)"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "arsewipe",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "@rsewipe",
+        "4rsewipe",
+        "ars3wip3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "ass",
+      "severity": 2,
+      "categories": [
+        "general",
+        "body_parts"
+      ],
+      "variations": [
+        "@ss",
+        "a$$",
+        "a55",
+        "arse"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Context-dependent severity, can be targeting or general",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assbandit",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssb@ndit",
+        "4ssb4ndit",
+        "assband1t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assbanger",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssb@nger",
+        "4ssb4nger",
+        "assbang3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assbite",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssbite",
+        "4ssbite",
+        "assbit3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assbucket",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssbucket",
+        "4ssbucket",
+        "assbuck3t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asscactus",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssc@ctus",
+        "4ssc4ctus",
+        "a$$cactu$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assclam",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sscl@m",
+        "4sscl4m",
+        "a$$clam"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assclown",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssclown",
+        "4ssclown",
+        "asscl0wn"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asscock",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sscock",
+        "4sscock",
+        "assc0ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asscracker",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sscr@cker",
+        "4sscr4cker",
+        "asscrack3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asses",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sses",
+        "4sses",
+        "ass3s"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assface",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssf@ce",
+        "4ssf4ce",
+        "assfac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assfaggot",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssf@ggot",
+        "4ssf4ggot",
+        "assfagg0t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assfuck",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssfuck",
+        "4ssfuck",
+        "a$$fuck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assfucker",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssfucker",
+        "4ssfucker",
+        "assfuck3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assgoblin",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssgoblin",
+        "4ssgoblin",
+        "assgobl1n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asshat",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssh@t",
+        "4ssh4t",
+        "a$$hat"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asshead",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sshe@d",
+        "4sshe4d",
+        "assh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asshole",
+      "severity": 3,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sshole",
+        "4sshole",
+        "asshol3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "asshopper",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sshopper",
+        "4sshopper",
+        "asshopp3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assjacker",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssj@cker",
+        "4ssj4cker",
+        "assjack3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assjuice",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssjuice",
+        "4ssjuice",
+        "assjuic3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asskisser",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sskisser",
+        "4sskisser",
+        "asskiss3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asslick",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sslick",
+        "4sslick",
+        "assl1ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asslicker",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sslicker",
+        "4sslicker",
+        "asslick3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assmonkey",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssmonkey",
+        "4ssmonkey",
+        "assmonk3y"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assmunch",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssmunch",
+        "4ssmunch",
+        "a$$munch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assmuncher",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssmuncher",
+        "4ssmuncher",
+        "assmunch3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assnigger",
+      "severity": 4,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssnigger",
+        "4ssnigger",
+        "assnigg3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assnozzle",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssnozzle",
+        "4ssnozzle",
+        "assnozzl3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asspirate",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sspir@te",
+        "4sspir4te",
+        "asspirat3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assshit",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssshit",
+        "4ssshit",
+        "asssh1t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "assshole",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssshole",
+        "4ssshole",
+        "assshol3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asssucker",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sssucker",
+        "4sssucker",
+        "asssuck3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asswad",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@ssw@d",
+        "4ssw4d",
+        "a$$wad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asswhole",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sswhole",
+        "4sswhole",
+        "asswhol3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "asswipe",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sswipe",
+        "4sswipe",
+        "asswip3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "axwound",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "@xwound",
+        "4xwound",
+        "axw0und"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "b!tch",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "b1tch",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "ballbag",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "b@llb@g",
+        "b4llb4g"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "ballsack",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "b@lls@ck",
+        "b4lls4ck",
+        "ball$ack"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "barmy",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b@rmy",
+        "b4rmy"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bastard",
+      "severity": 2,
+      "categories": [
+        "general",
+        "slurs"
+      ],
+      "variations": [
+        "b@stard",
+        "basterd",
+        "ba5tard"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Historical slur regarding legitimacy of birth, now general insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "bastard (milder in au)",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b@st@rd (milder in @u)",
+        "b4st4rd (milder in 4u)",
+        "bastard (mild3r in au)"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "individual"
+    },
+    {
+      "word": "beaner",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "be@ner",
+        "be4ner",
+        "b3an3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ethnic slur targeting Hispanic/Latino people",
+      "target_type": "group"
+    },
+    {
+      "word": "beaners",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "be@ners",
+        "be4ners",
+        "b3an3rs"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ethnic slur targeting Hispanic/Latino people",
+      "target_type": "group"
+    },
+    {
+      "word": "beastial",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "be@sti@l",
+        "be4sti4l",
+        "b3astial"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "beastiality",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "be@sti@lity",
+        "be4sti4lity",
+        "b3astiality"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bellend",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b3ll3nd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "berk",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b3rk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bint",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b1nt",
+        "b!nt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bitch",
+      "severity": 2,
+      "categories": [
+        "general",
+        "sexual",
+        "slurs"
+      ],
+      "variations": [
+        "b1tch",
+        "b!tch",
+        "bi7ch",
+        "bytch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Severity varies greatly by context and target, can be highly offensive when targeting women",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bitchass",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bitch@ss",
+        "bitch4ss",
+        "b1tchass"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "individual"
+    },
+    {
+      "word": "bitches",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bitch3s",
+        "b1tches",
+        "b!tches"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "individual"
+    },
+    {
+      "word": "bitchface",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bitchf@ce",
+        "bitchf4ce",
+        "bitchfac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "individual"
+    },
+    {
+      "word": "bitchslap",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bitchsl@p",
+        "bitchsl4p",
+        "b1tchslap"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "individual"
+    },
+    {
+      "word": "bitchtits",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b1tcht1ts",
+        "b!tcht!ts",
+        "bitchtit$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "individual"
+    },
+    {
+      "word": "bitchy",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b1tchy",
+        "b!tchy"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "individual"
+    },
+    {
+      "word": "blighter",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "blight3r",
+        "bl1ghter",
+        "bl!ghter"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bloody",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bl00dy"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bloody hell",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bloody h3ll",
+        "bl00dy hell"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bloody oath",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bloody o@th",
+        "bloody o4th",
+        "bl00dy 0ath"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "blooming",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bloom1ng",
+        "bloom!ng",
+        "bl00ming"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "blow job",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bl0w j0b"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "blowjob",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bl0wj0b"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "boffing",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "boff1ng",
+        "boff!ng",
+        "b0ffing"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bogan",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bog@n",
+        "bog4n",
+        "b0gan"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bollocks",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b0ll0cks",
+        "bollock$",
+        "bollock5"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bollox",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b0ll0x"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "boner",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bon3r",
+        "b0ner"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bonk",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b0nk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "boob",
+      "severity": 1,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "b00b"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "boobs",
+      "severity": 1,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "b00bs",
+        "boobz"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild sexual/anatomical reference",
+      "target_type": "general"
+    },
+    {
+      "word": "booger",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "boog3r",
+        "b00ger"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bookie",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "booki3",
+        "book1e",
+        "book!e"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "boong",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b00ng"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "booze",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "booz3",
+        "b00ze"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "boozer",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "booz3r",
+        "b00zer"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "boozy",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b00zy"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "brothel",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "broth3l",
+        "br0thel"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bugger",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bugg3r",
+        "bvgger"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bugger all",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bugger @ll",
+        "bugger 4ll",
+        "bugg3r all"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bugger off",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bugg3r off",
+        "bugger 0ff",
+        "bvgger off"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bukkake",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bukk@ke",
+        "bukk4ke",
+        "bukkak3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bullshit",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bullsh1t",
+        "bullsh!t",
+        "bull$hit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bumblefuck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bumbl3fuck",
+        "bvmblefvck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "bung",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bvng"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "butt",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "bvtt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "buttbrain",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "buttbr@in",
+        "buttbr4in",
+        "buttbra1n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "buttface",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "buttf@ce",
+        "buttf4ce",
+        "buttfac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "buttfuck",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "bvttfvck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "buttfucker",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "buttfuck3r",
+        "bvttfvcker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "butthead",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "butthe@d",
+        "butthe4d",
+        "butth3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "butthole",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "butthol3",
+        "butth0le",
+        "bvtthole"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "buttmonkey",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "buttmonk3y",
+        "buttm0nkey",
+        "bvttmonkey"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "buttmunch",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "bvttmvnch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "buttpirate",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "buttpir@te",
+        "buttpir4te",
+        "buttpirat3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "buttplug",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "bvttplvg"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "buttsex",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "butts3x",
+        "butt$ex",
+        "butt5ex"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "c*nt",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "c0ck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "carpetmuncher",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "c@rpetmuncher",
+        "c4rpetmuncher",
+        "carp3tmunch3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "chav",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "ch@v",
+        "ch4v"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "chickenhead",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "chickenhe@d",
+        "chickenhe4d",
+        "chick3nh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "chink",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "racial"
+      ],
+      "variations": [
+        "ch1nk",
+        "ch!nk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Racial slur targeting Asian people",
+      "target_type": "group"
+    },
+    {
+      "word": "choad",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "cho@d",
+        "cho4d",
+        "ch0ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "chode",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "chod3",
+        "ch0de"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cksucker",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "cksuck3r",
+        "ck$ucker",
+        "ck5ucker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "clit",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "cl1t",
+        "cl!t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "clitoris",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "cl1tor1s",
+        "cl!tor!s",
+        "clit0ris"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "clusterfuck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "clust3rfuck",
+        "clu$terfuck",
+        "clu5terfuck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cock",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "c0ck",
+        "c*ck",
+        "kok"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sexual/anatomical reference, also legitimate word for male bird",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockass",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cock@ss",
+        "cock4ss",
+        "c0ckass"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockbite",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockbit3",
+        "cockb1te",
+        "cockb!te"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockblock",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "c0ckbl0ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockcheese",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockch33s3",
+        "c0ckcheese",
+        "cockchee$e"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockface",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockf@ce",
+        "cockf4ce",
+        "cockfac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockgobbler",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockgobbl3r",
+        "c0ckg0bbler"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockhead",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockhe@d",
+        "cockhe4d",
+        "cockh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockholster",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockholst3r",
+        "c0ckh0lster",
+        "cockhol$ter"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockjockey",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockjock3y",
+        "c0ckj0ckey"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockknob",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "c0ckkn0b"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockmaster",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockm@ster",
+        "cockm4ster",
+        "cockmast3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockmongler",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockmongl3r",
+        "c0ckm0ngler"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockmongruel",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockmongru3l",
+        "c0ckm0ngruel",
+        "cockmongrvel"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockmonkey",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockmonk3y",
+        "c0ckm0nkey"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockmuncher",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockmunch3r",
+        "c0ckmuncher",
+        "cockmvncher"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cocknose",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cocknos3",
+        "c0ckn0se",
+        "cockno$e"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cocknugget",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cocknugg3t",
+        "c0cknugget",
+        "cocknvgget"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockpocket",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockpock3t",
+        "c0ckp0cket"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockshit",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cocksh1t",
+        "cocksh!t",
+        "c0ckshit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cocksmith",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cocksm1th",
+        "cocksm!th",
+        "c0cksmith"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cocksmoke",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cocksmok3",
+        "c0cksm0ke",
+        "cock$moke"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cocksmoker",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cocksmok3r",
+        "c0cksm0ker",
+        "cock$moker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cocksucker",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "slurs"
+      ],
+      "variations": [
+        "c*cksucker",
+        "co*ksucker",
+        "cocksu*ker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sexual slur, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "cocksucking",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cocksuck1ng",
+        "cocksuck!ng",
+        "c0cksucking"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cockwaffle",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cockw@ffle",
+        "cockw4ffle",
+        "cockwaffl3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "consider reclaimed language dynamics",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "consider recl@imed l@ngu@ge dyn@mics",
+        "consider recl4imed l4ngu4ge dyn4mics",
+        "consid3r r3claim3d languag3 dynamics"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "coon",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "c00n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "coonass",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "coon@ss",
+        "coon4ss",
+        "c00nass"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "coonie",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "cooni3",
+        "coon1e",
+        "coon!e"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "cooter",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "coot3r",
+        "c00ter"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cooze",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "cooz3",
+        "c00ze"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cracka",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "cr@ck@",
+        "cr4ck4"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cracker",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "cr@cker",
+        "cr4cker",
+        "crack3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "crap",
+      "severity": 1,
+      "categories": [
+        "general",
+        "scatological"
+      ],
+      "variations": [
+        "cr@p",
+        "cr4p",
+        "krap"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild scatological reference, generally acceptable",
+      "target_type": "general"
+    },
+    {
+      "word": "crappy",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "cr@ppy",
+        "cr4ppy"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "creampie",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "cre@mpie",
+        "cre4mpie",
+        "cr3ampi3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cum",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "cvm"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cumbox",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "cumb0x",
+        "cvmbox"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cumbucket",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "cumbuck3t",
+        "cvmbvcket"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cumdumpster",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "cumdumpst3r",
+        "cumdump$ter",
+        "cumdump5ter"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cumguzzler",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "cumguzzl3r",
+        "cvmgvzzler"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cumming",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "cumm1ng",
+        "cumm!ng",
+        "cvmming"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cums",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "cum$",
+        "cum5",
+        "cvms"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cumshot",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "cumsh0t",
+        "cum$hot",
+        "cum5hot"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cumslut",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "cum$lut",
+        "cum5lut",
+        "cvmslvt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cumstain",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "cumst@in",
+        "cumst4in",
+        "cumsta1n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cumtart",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "cumt@rt",
+        "cumt4rt",
+        "cvmtart"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cumwad",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "cumw@d",
+        "cumw4d",
+        "cvmwad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cun7",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "cvn7"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "cunt",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts",
+        "slurs"
+      ],
+      "variations": [
+        "c*nt",
+        "cu*t",
+        "c@nt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive sexual/anatomical term, particularly offensive to women",
+      "target_type": "individual"
+    },
+    {
+      "word": "cunt (used casually in au, still offensive)",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cunt (used c@su@lly in @u, still offensive)",
+        "cunt (used c4su4lly in 4u, still offensive)",
+        "cunt (us3d casually in au, still off3nsiv3)"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "cuntass",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cunt@ss",
+        "cunt4ss",
+        "cunta$$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "cuntbag",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cuntb@g",
+        "cuntb4g",
+        "cvntbag"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "cuntcake",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cuntc@ke",
+        "cuntc4ke",
+        "cuntcak3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "cuntface",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cuntf@ce",
+        "cuntf4ce",
+        "cuntfac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "cuntfart",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cuntf@rt",
+        "cuntf4rt",
+        "cvntfart"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "cunthole",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cunthol3",
+        "cunth0le",
+        "cvnthole"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "cuntlicker",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cuntlick3r",
+        "cuntl1cker",
+        "cuntl!cker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "cuntmuffin",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cuntmuff1n",
+        "cuntmuff!n",
+        "cvntmvffin"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "cuntpuncher",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cuntpunch3r",
+        "cvntpvncher"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "cuntrag",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cuntr@g",
+        "cuntr4g",
+        "cvntrag"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "cunts",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "cunt$",
+        "cunt5",
+        "cvnts"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "d!ck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "d@mn",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "d1ck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dago",
+      "severity": 1,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "d@go",
+        "d4go",
+        "dag0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "dammit",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "d@mmit",
+        "d4mmit",
+        "damm1t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "damn",
+      "severity": 1,
+      "categories": [
+        "general",
+        "religious"
+      ],
+      "variations": [
+        "dam",
+        "darn",
+        "d4mn",
+        "d@mn"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild religious profanity, widely acceptable in casual conversation",
+      "target_type": "general"
+    },
+    {
+      "word": "damnit",
+      "severity": 1,
+      "categories": [
+        "religious"
+      ],
+      "variations": [
+        "d@mnit",
+        "d4mnit",
+        "damn1t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "darkie",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "d@rkie",
+        "d4rkie",
+        "darki3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dick",
+      "severity": 2,
+      "categories": [
+        "general",
+        "body_parts",
+        "slurs"
+      ],
+      "variations": [
+        "d1ck",
+        "d!ck",
+        "dik"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Common name that's also anatomical slang, context-dependent",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickbag",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickb@g",
+        "dickb4g",
+        "d1ckbag"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickbeaters",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickbe@ters",
+        "dickbe4ters",
+        "dickb3at3rs"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickcheese",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickch33s3",
+        "d1ckcheese",
+        "d!ckcheese"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickface",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickf@ce",
+        "dickf4ce",
+        "dickfac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickfart",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickf@rt",
+        "dickf4rt",
+        "d1ckfart"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickfuck",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "d1ckfuck",
+        "d!ckfuck",
+        "dickfvck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickfucker",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickfuck3r",
+        "d1ckfucker",
+        "d!ckfucker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickgoblin",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "d1ckgobl1n",
+        "d!ckgobl!n",
+        "dickg0blin"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickhead",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickhe@d",
+        "dickhe4d",
+        "dickh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "dickhole",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickhol3",
+        "d1ckhole",
+        "d!ckhole"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickjuice",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickjuic3",
+        "d1ckju1ce",
+        "d!ckju!ce"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickless",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickl3ss",
+        "d1ckless",
+        "d!ckless"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dicklick",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "d1ckl1ck",
+        "d!ckl!ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dicklicker",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dicklick3r",
+        "d1ckl1cker",
+        "d!ckl!cker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickmonger",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickmong3r",
+        "d1ckmonger",
+        "d!ckmonger"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickmonkey",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickmonk3y",
+        "d1ckmonkey",
+        "d!ckmonkey"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dicknose",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dicknos3",
+        "d1cknose",
+        "d!cknose"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickpunch",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "d1ckpunch",
+        "d!ckpunch",
+        "dickpvnch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dicks",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "d1cks",
+        "d!cks",
+        "dick$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickshit",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "d1cksh1t",
+        "d!cksh!t",
+        "dick$hit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickslap",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dicksl@p",
+        "dicksl4p",
+        "d1ckslap"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dicksnot",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "d1cksnot",
+        "d!cksnot",
+        "dicksn0t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dicksplash",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickspl@sh",
+        "dickspl4sh",
+        "d1cksplash"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dicksplat",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickspl@t",
+        "dickspl4t",
+        "d1cksplat"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dicksucker",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dicksuck3r",
+        "d1cksucker",
+        "d!cksucker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dicksucking",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "d1cksuck1ng",
+        "d!cksuck!ng",
+        "dick$ucking"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dicktickler",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dicktickl3r",
+        "d1ckt1ckler",
+        "d!ckt!ckler"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickwad",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickw@d",
+        "dickw4d",
+        "d1ckwad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickweasel",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickwe@sel",
+        "dickwe4sel",
+        "dickw3as3l"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickweed",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickw33d",
+        "d1ckweed",
+        "d!ckweed"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickwipe",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "dickwip3",
+        "d1ckw1pe",
+        "d!ckw!pe"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dickwod",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "d1ckwod",
+        "d!ckwod",
+        "dickw0d"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "die",
+      "severity": 2,
+      "categories": [
+        "violence"
+      ],
+      "variations": [
+        "d1e",
+        "dy3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Can be neutral or threatening depending on context",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dike",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "dik3",
+        "d1ke",
+        "d!ke"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dildo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "d1ldo",
+        "d!ldo",
+        "dild0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dipshit",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "d1psh1t",
+        "d!psh!t",
+        "dip$hit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "document cultural context and target type",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "document cultur@l context @nd t@rget type",
+        "document cultur4l context 4nd t4rget type",
+        "docum3nt cultural cont3xt and targ3t typ3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "doochbag",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "doochb@g",
+        "doochb4g",
+        "d00chbag"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "doofus",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "d00fus",
+        "doofu$",
+        "doofu5"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dookie",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "dooki3",
+        "dook1e",
+        "dook!e"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "douche",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "douch3",
+        "d0uche",
+        "dovche"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "douchebag",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "doucheb@g",
+        "doucheb4g",
+        "douch3bag"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "douchecanoe",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "douchec@noe",
+        "douchec4noe",
+        "douch3cano3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "doucheface",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "douchef@ce",
+        "douchef4ce",
+        "douch3fac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "douchenozzle",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "douch3nozzl3",
+        "d0uchen0zzle",
+        "dovchenozzle"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "douchepickle",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "douch3pickl3",
+        "douchep1ckle",
+        "douchep!ckle"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "douchewad",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "douchew@d",
+        "douchew4d",
+        "douch3wad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "douchewaffle",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "douchew@ffle",
+        "douchew4ffle",
+        "douch3waffl3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "drongo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "dr0ng0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "drongos",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "dr0ng0s",
+        "drongo$",
+        "drongo5"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dumbass",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "dumb@ss",
+        "dumb4ss",
+        "dumba$$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dumbfuck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "dvmbfvck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dumbshit",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "dumbsh1t",
+        "dumbsh!t",
+        "dumb$hit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dumshit",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "dumsh1t",
+        "dumsh!t",
+        "dum$hit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "dyke",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "d*ke",
+        "d!ke"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Lesbian slur, some reclamation within community but generally offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "f@ck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "f*ck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "f4ck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fack",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "f@ck",
+        "f4ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fag",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "f@g",
+        "f4g"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, extremely offensive to LGBTQ+ community",
+      "target_type": "group"
+    },
+    {
+      "word": "faggot",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "f*ggot",
+        "fag",
+        "f@ggot",
+        "f4ggot"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, extremely offensive to LGBTQ+ community",
+      "target_type": "group"
+    },
+    {
+      "word": "faggotcock",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "f@ggotcock",
+        "f4ggotcock",
+        "fagg0tc0ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, extremely offensive to LGBTQ+ community",
+      "target_type": "group"
+    },
+    {
+      "word": "faggy",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "f@ggy",
+        "f4ggy"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, extremely offensive to LGBTQ+ community",
+      "target_type": "group"
+    },
+    {
+      "word": "fagtard",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "f@gt@rd",
+        "f4gt4rd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, extremely offensive to LGBTQ+ community",
+      "target_type": "group"
+    },
+    {
+      "word": "fartface",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "f@rtf@ce",
+        "f4rtf4ce",
+        "fartfac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fartknockeer",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "f@rtknockeer",
+        "f4rtknockeer",
+        "fartknock33r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fatass",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "f@t@ss",
+        "f4t4ss",
+        "fata$$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fatso",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "f@tso",
+        "f4tso",
+        "fats0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fawk",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "f@wk",
+        "f4wk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fcuk",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "fcvk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "feck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "f3ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fellate",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fell@te",
+        "fell4te",
+        "f3llat3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fellatio",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fell@tio",
+        "fell4tio",
+        "f3llatio"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "feltch",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "f3ltch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "feltcher",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "f3ltch3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fist",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "f1st",
+        "f!st",
+        "fi$t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fisted",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "fist3d",
+        "f1sted",
+        "f!sted"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fisting",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "f1st1ng",
+        "f!st!ng",
+        "fi$ting"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "flag false positive potential",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "fl@g f@lse positive potenti@l",
+        "fl4g f4lse positive potenti4l",
+        "flag fals3 positiv3 pot3ntial"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "flange",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "fl@nge",
+        "fl4nge",
+        "flang3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "flog",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "fl0g"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fondle",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "fondl3",
+        "f0ndle"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fook",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "f00k"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "foreskin",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "for3skin",
+        "foresk1n",
+        "foresk!n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fu*k",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "fv*k"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fuc",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "fvc"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fuck",
+      "severity": 3,
+      "categories": [
+        "general",
+        "sexual"
+      ],
+      "variations": [
+        "f*ck",
+        "f@ck",
+        "fck",
+        "fuk",
+        "fuq",
+        "f4ck",
+        "phuck",
+        "fvck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Highly versatile profanity, severity depends on usage and context",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fuckass",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuck@ss",
+        "fuck4ss",
+        "fucka$$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckbag",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckb@g",
+        "fuckb4g",
+        "fvckbag"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckboy",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckb0y",
+        "fvckboy"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckbrain",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckbr@in",
+        "fuckbr4in",
+        "fuckbra1n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckbrains",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckbr@ins",
+        "fuckbr4ins",
+        "fuckbra1ns"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckbutt",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fvckbvtt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckbutter",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckbutt3r",
+        "fvckbvtter"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fucked",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuck3d",
+        "fvcked"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fucker",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuck3r",
+        "fvcker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckersucker",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuck3rsuck3r",
+        "fucker$ucker",
+        "fucker5ucker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckface",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckf@ce",
+        "fuckf4ce",
+        "fuckfac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "fuckfart",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckf@rt",
+        "fuckf4rt",
+        "fvckfart"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckhead",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckhe@d",
+        "fuckhe4d",
+        "fuckh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckhole",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckhol3",
+        "fuckh0le",
+        "fvckhole"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckin",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuck1n",
+        "fuck!n",
+        "fvckin"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fucking",
+      "severity": 3,
+      "categories": [
+        "general",
+        "sexual"
+      ],
+      "variations": [
+        "f*cking",
+        "f@cking",
+        "fcking",
+        "fuking",
+        "fvcking"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Intensive form, often used for emphasis",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckknob",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckkn0b",
+        "fvckknob"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fucknugget",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fucknugg3t",
+        "fvcknvgget"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fucknut",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fvcknvt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fucknutt",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fvcknvtt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckoff",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuck0ff",
+        "fvckoff"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckpuppet",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckpupp3t",
+        "fvckpvppet"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fucks",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuck$",
+        "fuck5",
+        "fvcks"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fucksicle",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fucksicl3",
+        "fucks1cle",
+        "fucks!cle"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckstain",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckst@in",
+        "fuckst4in",
+        "fucksta1n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckstick",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckst1ck",
+        "fuckst!ck",
+        "fuck$tick"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fucktard",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckt@rd",
+        "fuckt4rd",
+        "fvcktard"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fucktoy",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckt0y",
+        "fvcktoy"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fucktrumpet",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fucktrump3t",
+        "fvcktrvmpet"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fucktwat",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fucktw@t",
+        "fucktw4t",
+        "fvcktwat"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckup",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fvckvp"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckwad",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckw@d",
+        "fuckw4d",
+        "fvckwad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckwit",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckw1t",
+        "fuckw!t",
+        "fvckwit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fuckwitted",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fuckwitt3d",
+        "fuckw1tted",
+        "fuckw!tted"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "general"
+    },
+    {
+      "word": "fudge",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "fudg3",
+        "fvdge"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fudgepacker",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "fudgep@cker",
+        "fudgep4cker",
+        "fudg3pack3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fuk",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fvk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "fvck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gash",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g@sh",
+        "g4sh",
+        "ga$h"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gay",
+      "severity": 1,
+      "categories": [
+        "lgbtq"
+      ],
+      "variations": [
+        "g@y",
+        "g4y"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Legitimate identity term, problematic when used as general insult",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gayass",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g@y@ss",
+        "g4y4ss",
+        "gaya$$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gaybob",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g@ybob",
+        "g4ybob",
+        "gayb0b"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gaydo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g@ydo",
+        "g4ydo",
+        "gayd0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gayfuck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g@yfuck",
+        "g4yfuck",
+        "gayfvck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gayfuckist",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g@yfuckist",
+        "g4yfuckist",
+        "gayfuck1st"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gaylord",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g@ylord",
+        "g4ylord",
+        "gayl0rd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gaytard",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g@yt@rd",
+        "g4yt4rd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gaywad",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g@yw@d",
+        "g4yw4d"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gimp",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g1mp",
+        "g!mp"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "ginzo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g1nzo",
+        "g!nzo",
+        "ginz0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "git",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g1t",
+        "g!t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gobshite",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "gobshit3",
+        "gobsh1te",
+        "gobsh!te"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "goddamn",
+      "severity": 1,
+      "categories": [
+        "religious"
+      ],
+      "variations": [
+        "godd@mn",
+        "godd4mn",
+        "g0ddamn"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "goddamnit",
+      "severity": 1,
+      "categories": [
+        "religious"
+      ],
+      "variations": [
+        "godd@mnit",
+        "godd4mnit",
+        "goddamn1t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gooch",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g00ch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gook",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "g00k"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Racial slur targeting Asian people",
+      "target_type": "group"
+    },
+    {
+      "word": "goy",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g0y"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "gringo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "gr1ngo",
+        "gr!ngo",
+        "gring0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "guido",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "gu1do",
+        "gu!do",
+        "guid0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "h3ll",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "handjob",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "h@ndjob",
+        "h4ndjob",
+        "handj0b"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "hapa",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "h@p@",
+        "h4p4"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "hard on",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "h@rd on",
+        "h4rd on",
+        "hard 0n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "hardon",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "h@rdon",
+        "h4rdon",
+        "hard0n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "heeb",
+      "severity": 1,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "h33b"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "hell",
+      "severity": 1,
+      "categories": [
+        "general",
+        "religious"
+      ],
+      "variations": [
+        "hel",
+        "h3ll",
+        "h*ll"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild religious reference, often used for emphasis",
+      "target_type": "general"
+    },
+    {
+      "word": "hillbilly",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "h1llb1lly",
+        "h!llb!lly"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "hitler",
+      "severity": 3,
+      "categories": [
+        "hate_speech",
+        "violence"
+      ],
+      "variations": [
+        "h1tler",
+        "hit1er"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Historical figure, offensive when used for comparison",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "ho",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "h0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "hoe",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "ho3",
+        "h0e"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "homo",
+      "severity": 3,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "h0mo",
+        "hom0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, offensive to LGBTQ+ community",
+      "target_type": "individual"
+    },
+    {
+      "word": "homodumbshit",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "homodumbsh1t",
+        "homodumbsh!t",
+        "h0m0dumbshit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "honkey",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "honk3y",
+        "h0nkey"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "hooker",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "hook3r",
+        "h00ker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "hoor",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "h00r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "horny",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "h0rny"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "humping",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "hump1ng",
+        "hump!ng",
+        "hvmping"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "idiot",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "1d1ot",
+        "!d!ot",
+        "idi0t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "indicate severity level (1-4)",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "indic@te severity level (1-4)",
+        "indic4te severity level (1-4)",
+        "indicat3 s3v3rity l3v3l (1-4)"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jackass",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "j@ck@ss",
+        "j4ck4ss",
+        "jacka$$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jackhole",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "j@ckhole",
+        "j4ckhole",
+        "jackhol3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jackoff",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "j@ckoff",
+        "j4ckoff",
+        "jack0ff"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jap",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "j@p",
+        "j4p"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jerk",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "j3rk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jerkass",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "jerk@ss",
+        "jerk4ss",
+        "j3rkass"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jerkoff",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "j3rkoff",
+        "jerk0ff"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jigaboo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "jig@boo",
+        "jig4boo",
+        "j1gaboo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jihad",
+      "severity": 2,
+      "categories": [
+        "religious",
+        "violence"
+      ],
+      "variations": [
+        "j1had",
+        "jihad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Religious term often misunderstood, context-dependent severity",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jism",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "j1sm",
+        "j!sm",
+        "ji$m"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jiz",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "j1z",
+        "j!z"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jizm",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "j1zm",
+        "j!zm"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jizz",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "j1zz",
+        "j!zz"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "jizzed",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "jizz3d",
+        "j1zzed",
+        "j!zzed"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "kaffir",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "k@ffir",
+        "k4ffir",
+        "kaff1r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "kebab",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "keb@b",
+        "keb4b",
+        "k3bab"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "kike",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "religious"
+      ],
+      "variations": [
+        "k1ke",
+        "kyke"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Antisemitic slur, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "kikes",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "kik3s",
+        "k1kes",
+        "k!kes"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Antisemitic slur, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "kill",
+      "severity": 3,
+      "categories": [
+        "violence"
+      ],
+      "variations": [
+        "kil",
+        "k1ll"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Violence reference, severity depends on context and target",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "knacker",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "kn@cker",
+        "kn4cker",
+        "knack3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "knob",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "kn0b"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "knobend",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "knob3nd",
+        "kn0bend"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "knobhead",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "knobhe@d",
+        "knobhe4d",
+        "knobh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "knobrot",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "kn0br0t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "kooch",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "k00ch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "kootch",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "k00tch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "kraut",
+      "severity": 1,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "kr@ut",
+        "kr4ut",
+        "kravt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "kunt",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "kvnt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "kyke",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "kyk3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "labia",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "l@bi@",
+        "l4bi4",
+        "lab1a"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "lech",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "l3ch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "lezzie",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "l3zzi3",
+        "lezz1e",
+        "lezz!e"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "limey",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "lim3y",
+        "l1mey",
+        "l!mey"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "mcfagget",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "mcf@gget",
+        "mcf4gget",
+        "mcfagg3t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "meth",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "m3th"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "meth head",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "meth he@d",
+        "meth he4d",
+        "m3th h3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "methhead",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "methhe@d",
+        "methhe4d",
+        "m3thh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "mick",
+      "severity": 1,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "m1ck",
+        "m!ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "minge",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "ming3",
+        "m1nge",
+        "m!nge"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "minger",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "ming3r",
+        "m1nger",
+        "m!nger"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "mongoloid",
+      "severity": 1,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "mongolo1d",
+        "mongolo!d",
+        "m0ng0l0id"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "moth3rfucker",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "moth3rfuck3r",
+        "m0th3rfucker",
+        "moth3rfvcker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "mothafucka",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "moth@fuck@",
+        "moth4fuck4",
+        "m0thafucka"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "mothafuckin",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "moth@fuckin",
+        "moth4fuckin",
+        "mothafuck1n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "mothafuckings",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "moth@fuckings",
+        "moth4fuckings",
+        "mothafuck1ngs"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "motherfuck",
+      "severity": 3,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "moth3rfuck",
+        "m0therfuck",
+        "motherfvck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "motherfucker",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "violence",
+        "slurs"
+      ],
+      "variations": [
+        "motherf*cker",
+        "motherf@cker",
+        "mofo",
+        "mf",
+        "muthafucker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive compound profanity",
+      "target_type": "individual"
+    },
+    {
+      "word": "motherfucking",
+      "severity": 3,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "moth3rfucking",
+        "motherfuck1ng",
+        "motherfuck!ng"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "muff",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "mvff"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "muffdiver",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "muffdiv3r",
+        "muffd1ver",
+        "muffd!ver"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "mulatto",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "mul@tto",
+        "mul4tto",
+        "mulatt0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "munging",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "mung1ng",
+        "mung!ng",
+        "mvnging"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "munter",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "munt3r",
+        "mvnter"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "murder",
+      "severity": 3,
+      "categories": [
+        "violence"
+      ],
+      "variations": [
+        "murd3r",
+        "murda"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Violence reference, severity depends on context",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "naff",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "n@ff",
+        "n4ff"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "nazi",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "violence"
+      ],
+      "variations": [
+        "n@zi",
+        "naz1"
+      ],
+      "case_sensitive": false,
+      "context_notes": "References historical fascist ideology, extremely offensive when used as slur",
+      "target_type": "group"
+    },
+    {
+      "word": "negro",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "n3gro",
+        "negr0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "nig nog",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "n1g nog",
+        "n!g nog",
+        "nig n0g"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "nigaboo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "nig@boo",
+        "nig4boo",
+        "n1gaboo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "nigga",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "racial"
+      ],
+      "variations": [
+        "n*gga",
+        "n1gga",
+        "niqqa"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Variant of racial slur, complex reclamation dynamics within community",
+      "target_type": "group"
+    },
+    {
+      "word": "niggah",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "nigg@h",
+        "nigg4h",
+        "n1ggah"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive racial slur against Black people",
+      "target_type": "group"
+    },
+    {
+      "word": "niggas",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "nigg@s",
+        "nigg4s",
+        "n1ggas"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive racial slur against Black people",
+      "target_type": "group"
+    },
+    {
+      "word": "niggaz",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "nigg@z",
+        "nigg4z",
+        "n1ggaz"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive racial slur against Black people",
+      "target_type": "group"
+    },
+    {
+      "word": "nigger",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "racial"
+      ],
+      "variations": [
+        "n*gger",
+        "n1gger",
+        "nigga",
+        "n*gga"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive racial slur, historically and contemporarily harmful",
+      "target_type": "group"
+    },
+    {
+      "word": "niggers",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "nigg3rs",
+        "n1ggers",
+        "n!ggers"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive racial slur against Black people",
+      "target_type": "group"
+    },
+    {
+      "word": "niglet",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "nigl3t",
+        "n1glet",
+        "n!glet"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "nignag",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "nign@g",
+        "nign4g",
+        "n1gnag"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "nignog",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "n1gnog",
+        "n!gnog",
+        "nign0g"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "note compound potential",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "note compound potenti@l",
+        "note compound potenti4l",
+        "not3 compound pot3ntial"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "nut sack",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "nut s@ck",
+        "nut s4ck",
+        "nut $ack"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "nutsack",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "nuts@ck",
+        "nuts4ck",
+        "nut$ack"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "nympho",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "nymph0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "paki",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "p@ki",
+        "p4ki",
+        "pak1"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "panooch",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p@nooch",
+        "p4nooch",
+        "pan00ch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pansy",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p@nsy",
+        "p4nsy",
+        "pan$y"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pecker",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p3ck3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "peckerhead",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "peckerhe@d",
+        "peckerhe4d",
+        "p3ck3rh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "peckerwood",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p3ck3rwood",
+        "peckerw00d"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pedo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p3do",
+        "ped0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pedophile",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p3dophil3",
+        "pedoph1le",
+        "pedoph!le"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "penis",
+      "severity": 1,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "p3nis",
+        "pen1s",
+        "pen!s"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "penisbanger",
+      "severity": 1,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "penisb@nger",
+        "penisb4nger",
+        "p3nisbang3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "penisfucker",
+      "severity": 1,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "p3nisfuck3r",
+        "pen1sfucker",
+        "pen!sfucker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "penispuffer",
+      "severity": 1,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "p3nispuff3r",
+        "pen1spuffer",
+        "pen!spuffer"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "phuck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "phvck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "phuk",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "phvk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pillock",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p1llock",
+        "p!llock",
+        "pill0ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "piss",
+      "severity": 1,
+      "categories": [
+        "general",
+        "scatological"
+      ],
+      "variations": [
+        "p1ss",
+        "p!ss",
+        "pi$$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild bodily function reference",
+      "target_type": "general"
+    },
+    {
+      "word": "pissant",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "piss@nt",
+        "piss4nt",
+        "p1ssant"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pissbrain",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "pissbr@in",
+        "pissbr4in",
+        "p1ssbra1n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pissdrinker",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "pissdrink3r",
+        "p1ssdr1nker",
+        "p!ssdr!nker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pissed",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "piss3d",
+        "p1ssed",
+        "p!ssed"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pisser",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "piss3r",
+        "p1sser",
+        "p!sser"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pisses",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "piss3s",
+        "p1sses",
+        "p!sses"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pissface",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "pissf@ce",
+        "pissf4ce",
+        "pissfac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pissflaps",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "pissfl@ps",
+        "pissfl4ps",
+        "p1ssflaps"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pisshead",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "pisshe@d",
+        "pisshe4d",
+        "pissh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pissin",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "p1ss1n",
+        "p!ss!n",
+        "pi$$in"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pissing",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "p1ss1ng",
+        "p!ss!ng",
+        "pi$$ing"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pissoff",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "p1ssoff",
+        "p!ssoff",
+        "piss0ff"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "plonker",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "plonk3r",
+        "pl0nker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "polack",
+      "severity": 1,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "pol@ck",
+        "pol4ck",
+        "p0lack"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "polock",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p0l0ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "ponce",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "ponc3",
+        "p0nce"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "poof",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "p00f"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "poon",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "p00n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "poontang",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "poont@ng",
+        "poont4ng",
+        "p00ntang"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "poopchute",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "poopchut3",
+        "p00pchute",
+        "poopchvte"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "porch monkey",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "porch monk3y",
+        "p0rch m0nkey"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "porchmonkey",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "porchmonk3y",
+        "p0rchm0nkey"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "porn",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p0rn"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "porno",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p0rn0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pornography",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pornogr@phy",
+        "pornogr4phy",
+        "p0rn0graphy"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pr1ck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "prat",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pr@t",
+        "pr4t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "prick",
+      "severity": 2,
+      "categories": [
+        "general",
+        "body_parts",
+        "slurs"
+      ],
+      "variations": [
+        "pr1ck",
+        "pr!ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Anatomical reference used as general insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "prickhead",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "prickhe@d",
+        "prickhe4d",
+        "prickh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pu$$y",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pv$$y"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pu55y",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pv55y"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pube",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pub3",
+        "pvbe"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "punkass",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "punk@ss",
+        "punk4ss",
+        "punka$$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "punky",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pvnky"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "punter",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "punt3r",
+        "pvnter"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pus5y",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pu$5y",
+        "pu55y",
+        "pvs5y"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "puss",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pu$$",
+        "pu55",
+        "pvss"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pussies",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pussi3s",
+        "puss1es",
+        "puss!es"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pussy",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts",
+        "slurs"
+      ],
+      "variations": [
+        "pu$$y",
+        "pu55y",
+        "pus5y"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sexual reference, can be used as general insult or specific sexual term",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "pussylicking",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "pussyl1ck1ng",
+        "pussyl!ck!ng",
+        "pu$$ylicking"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "puto",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "put0",
+        "pvto"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "queaf",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "que@f",
+        "que4f",
+        "qu3af"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "queef",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "qu33f",
+        "qveef"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "queer",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "qu33r",
+        "qveer"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "queerbait",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "queerb@it",
+        "queerb4it",
+        "qu33rbait"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "queerhole",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "qu33rhol3",
+        "queerh0le",
+        "qveerhole"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "queermo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "qu33rmo",
+        "queerm0",
+        "qveermo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "queermonger",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "qu33rmong3r",
+        "queerm0nger",
+        "qveermonger"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "quim",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "qu1m",
+        "qu!m",
+        "qvim"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "raghead",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "r@ghe@d",
+        "r4ghe4d",
+        "ragh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "rape",
+      "severity": 4,
+      "categories": [
+        "violence",
+        "sexual"
+      ],
+      "variations": [
+        "r@pe",
+        "r4pe"
+      ],
+      "case_sensitive": false,
+      "context_notes": "References sexual violence, extremely serious",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "raping",
+      "severity": 4,
+      "categories": [
+        "violence"
+      ],
+      "variations": [
+        "r@ping",
+        "r4ping",
+        "rap1ng"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "rapist",
+      "severity": 4,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "r@pist",
+        "r4pist",
+        "rap1st"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "raunch",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "r@unch",
+        "r4unch",
+        "ravnch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "rectum",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "r3ctum",
+        "rectvm"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "redneck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "r3dn3ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "redskin",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "r3dskin",
+        "redsk1n",
+        "redsk!n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "renob",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "r3nob",
+        "ren0b"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "retard",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "disability"
+      ],
+      "variations": [
+        "ret@rd",
+        "ret4rd",
+        "r*tard"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ableist slur, offensive to disability community",
+      "target_type": "group"
+    },
+    {
+      "word": "retarded",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "ret@rded",
+        "ret4rded",
+        "r3tard3d"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ableist slur, offensive to disability community",
+      "target_type": "group"
+    },
+    {
+      "word": "retards",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "ret@rds",
+        "ret4rds",
+        "r3tards"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ableist slur, offensive to disability community",
+      "target_type": "group"
+    },
+    {
+      "word": "rim",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "r1m",
+        "r!m"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "rimjaw",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "rimj@w",
+        "rimj4w",
+        "r1mjaw"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "rimjob",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "r1mjob",
+        "r!mjob",
+        "rimj0b"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "rimming",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "r1mm1ng",
+        "r!mm!ng"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "root (sexual)",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "root (sexu@l)",
+        "root (sexu4l)",
+        "root (s3xual)"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "rooting",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "root1ng",
+        "root!ng",
+        "r00ting"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "roundeye",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "round3y3",
+        "r0undeye",
+        "rovndeye"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "rumprammer",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "rumpr@mmer",
+        "rumpr4mmer",
+        "rumpramm3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "s.h.i.t",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "s.h.1.t",
+        "s.h.!.t",
+        "$.h.i.t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sambo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "s@mbo",
+        "s4mbo",
+        "samb0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sand nigger",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "s@nd nigger",
+        "s4nd nigger",
+        "sand nigg3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sandnigger",
+      "severity": 4,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "s@ndnigger",
+        "s4ndnigger",
+        "sandnigg3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "scank",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sc@nk",
+        "sc4nk",
+        "$cank"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "schlong",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "schl0ng",
+        "$chlong",
+        "5chlong"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "screwing",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "scr3wing",
+        "screw1ng",
+        "screw!ng"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "scroat",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "scro@t",
+        "scro4t",
+        "scr0at"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "scrog",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "scr0g",
+        "$crog",
+        "5crog"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "scrot",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "scr0t",
+        "$crot",
+        "5crot"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "scrote",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "scrot3",
+        "scr0te",
+        "$crote"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "scrotum",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "scr0tum",
+        "$crotum",
+        "5crotum"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "scrubber",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "scrubb3r",
+        "$crubber",
+        "5crubber"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "scrud",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "$crud",
+        "5crud",
+        "scrvd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "scum",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "$cum",
+        "5cum",
+        "scvm"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "semen",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "s3m3n",
+        "$emen",
+        "5emen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sex",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "s3x",
+        "$ex",
+        "5ex"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sexed",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "s3x3d",
+        "$exed",
+        "5exed"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sexual",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "sexu@l",
+        "sexu4l",
+        "s3xual"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sexy",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "s3xy",
+        "$exy",
+        "5exy"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sh!t",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "$h!t",
+        "5h!t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sh1t",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "$h1t",
+        "5h1t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "shag",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sh@g",
+        "sh4g",
+        "$hag"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "shagging",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sh@gging",
+        "sh4gging",
+        "shagg1ng"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "shamedame",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sh@med@me",
+        "sh4med4me",
+        "sham3dam3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "shat",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sh@t",
+        "sh4t",
+        "$hat"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "shiat",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "shi@t",
+        "shi4t",
+        "sh1at"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "shiit",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sh11t",
+        "sh!!t",
+        "$hiit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "shit",
+      "severity": 2,
+      "categories": [
+        "general",
+        "scatological"
+      ],
+      "variations": [
+        "sh1t",
+        "sh!t",
+        "$hit",
+        "shyt",
+        "shiit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Common profanity, widely recognized as inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitass",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shit@ss",
+        "shit4ss",
+        "sh1tass"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitbag",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitb@g",
+        "shitb4g",
+        "sh1tbag"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitbagger",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitb@gger",
+        "shitb4gger",
+        "shitbagg3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitbird",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tb1rd",
+        "sh!tb!rd",
+        "$hitbird"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitbiscuit",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tb1scu1t",
+        "sh!tb!scu!t",
+        "$hitbi$cuit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitbox",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tbox",
+        "sh!tbox",
+        "shitb0x"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitbrains",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitbr@ins",
+        "shitbr4ins",
+        "sh1tbra1ns"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitbreath",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitbre@th",
+        "shitbre4th",
+        "shitbr3ath"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitcanned",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitc@nned",
+        "shitc4nned",
+        "shitcann3d"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitclown",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tclown",
+        "sh!tclown",
+        "shitcl0wn"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitcock",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tcock",
+        "sh!tcock",
+        "shitc0ck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitcunt",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tcunt",
+        "sh!tcunt",
+        "$hitcunt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitdick",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1td1ck",
+        "sh!td!ck",
+        "$hitdick"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shite",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shit3",
+        "sh1te",
+        "sh!te"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shiteater",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shite@ter",
+        "shite4ter",
+        "shit3at3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shited",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shit3d",
+        "sh1ted",
+        "sh!ted"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitey",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shit3y",
+        "sh1tey",
+        "sh!tey"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitface",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitf@ce",
+        "shitf4ce",
+        "shitfac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitfaced",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitf@ced",
+        "shitf4ced",
+        "shitfac3d"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitfest",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitf3st",
+        "sh1tfest",
+        "sh!tfest"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitforbrains",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitforbr@ins",
+        "shitforbr4ins",
+        "sh1tforbra1ns"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitfuck",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tfuck",
+        "sh!tfuck",
+        "$hitfuck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitfucker",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitfuck3r",
+        "sh1tfucker",
+        "sh!tfucker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitfull",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tfull",
+        "sh!tfull",
+        "$hitfull"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitgibbon",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tg1bbon",
+        "sh!tg!bbon",
+        "shitgibb0n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitguzzler",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitguzzl3r",
+        "sh1tguzzler",
+        "sh!tguzzler"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shithead",
+      "severity": 3,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shithe@d",
+        "shithe4d",
+        "shith3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "shithole",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shithol3",
+        "sh1thole",
+        "sh!thole"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shithouse",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shithous3",
+        "sh1thouse",
+        "sh!thouse"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shiting",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1t1ng",
+        "sh!t!ng",
+        "$hiting"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitings",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1t1ngs",
+        "sh!t!ngs",
+        "$hiting$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitlips",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tl1ps",
+        "sh!tl!ps",
+        "$hitlip$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitlord",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tlord",
+        "sh!tlord",
+        "shitl0rd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitnugget",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitnugg3t",
+        "sh1tnugget",
+        "sh!tnugget"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitpile",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitpil3",
+        "sh1tp1le",
+        "sh!tp!le"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shits",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1ts",
+        "sh!ts",
+        "$hit$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitsack",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shits@ck",
+        "shits4ck",
+        "sh1tsack"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitshow",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tshow",
+        "sh!tshow",
+        "shitsh0w"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitslinger",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitsling3r",
+        "sh1tsl1nger",
+        "sh!tsl!nger"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitspitter",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitspitt3r",
+        "sh1tsp1tter",
+        "sh!tsp!tter"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitstack",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitst@ck",
+        "shitst4ck",
+        "sh1tstack"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitstain",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitst@in",
+        "shitst4in",
+        "sh1tsta1n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitted",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitt3d",
+        "sh1tted",
+        "sh!tted"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitter",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitt3r",
+        "sh1tter",
+        "sh!tter"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shittiest",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitti3st",
+        "sh1tt1est",
+        "sh!tt!est"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitting",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tt1ng",
+        "sh!tt!ng",
+        "$hitting"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shittings",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tt1ngs",
+        "sh!tt!ngs",
+        "$hitting$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitty",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "sh1tty",
+        "sh!tty",
+        "$hitty"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shitwaffle",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "shitw@ffle",
+        "shitw4ffle",
+        "shitwaffl3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "general"
+    },
+    {
+      "word": "shiz",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sh1z",
+        "sh!z",
+        "$hiz"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "shiznit",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sh1zn1t",
+        "sh!zn!t",
+        "$hiznit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "shyster",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "shyst3r",
+        "$hy$ter",
+        "5hy5ter"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "shyt",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "$hyt",
+        "5hyt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "skank",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sk@nk",
+        "sk4nk",
+        "$kank"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "skeet",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sk33t",
+        "$keet",
+        "5keet"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "skullfuck",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "$kullfuck",
+        "5kullfuck",
+        "skvllfvck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "slag",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sl@g",
+        "sl4g",
+        "$lag"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "slanteye",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sl@nteye",
+        "sl4nteye",
+        "slant3y3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "slave",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sl@ve",
+        "sl4ve",
+        "slav3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sleaze",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sle@ze",
+        "sle4ze",
+        "sl3az3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "slut",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "slurs"
+      ],
+      "variations": [
+        "$lut",
+        "5lut",
+        "slu7"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sexual slur, particularly offensive to women",
+      "target_type": "individual"
+    },
+    {
+      "word": "slutbag",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "slutb@g",
+        "slutb4g",
+        "$lutbag"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "sluts",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "$lut$",
+        "5lut5",
+        "slvts"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "smeg",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sm3g",
+        "$meg",
+        "5meg"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "smegma",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "smegm@",
+        "smegm4",
+        "sm3gma"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "snatch",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sn@tch",
+        "sn4tch",
+        "$natch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sod",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "s0d",
+        "$od",
+        "5od"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sod off",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "s0d 0ff",
+        "$od off",
+        "5od off"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "sodding",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sodd1ng",
+        "sodd!ng",
+        "s0dding"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "spearchucker",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "spe@rchucker",
+        "spe4rchucker",
+        "sp3archuck3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "specify regional variation if applicable (uk/us/au)",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "specify region@l v@ri@tion if @pplic@ble (uk/us/@u)",
+        "specify region4l v4ri4tion if 4pplic4ble (uk/us/4u)",
+        "sp3cify r3gional variation if applicabl3 (uk/us/au)"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "spic",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "ethnic"
+      ],
+      "variations": [
+        "sp1c",
+        "spik"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ethnic slur targeting Hispanic/Latino people",
+      "target_type": "group"
+    },
+    {
+      "word": "spick",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "sp1ck",
+        "sp!ck",
+        "$pick"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ethnic slur targeting Hispanic/Latino people",
+      "target_type": "group"
+    },
+    {
+      "word": "spig",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sp1g",
+        "sp!g",
+        "$pig"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "spigotty",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sp1gotty",
+        "sp!gotty",
+        "spig0tty"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "spik",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sp1k",
+        "sp!k",
+        "$pik"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "spiks",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sp1ks",
+        "sp!ks",
+        "$pik$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "spooge",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "spoog3",
+        "sp00ge",
+        "$pooge"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "spook",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sp00k",
+        "$pook",
+        "5pook"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "spunk",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "$punk",
+        "5punk",
+        "spvnk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "squinty",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "squ1nty",
+        "squ!nty",
+        "$quinty"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "stuffed",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "stuff3d",
+        "$tuffed",
+        "5tuffed"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "suckass",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "suck@ss",
+        "suck4ss",
+        "$ucka$$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "taintlicker",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "t@intlicker",
+        "t4intlicker",
+        "taintlick3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tarbaby",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "t@rb@by",
+        "t4rb4by"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tard",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "t@rd",
+        "t4rd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "teat",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "te@t",
+        "te4t",
+        "t3at"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "terd",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "t3rd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "terrorist",
+      "severity": 3,
+      "categories": [
+        "hate_speech",
+        "violence"
+      ],
+      "variations": [
+        "terr0rist",
+        "terrorist"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Serious accusation, can be hate speech when targeting ethnic/religious groups",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "testicle",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "t3sticl3",
+        "test1cle",
+        "test!cle"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "thug",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "thvg"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "thundercunt",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "thund3rcunt",
+        "thvndercvnt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tit",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "t1t",
+        "t!t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "titfuck",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "t1tfuck",
+        "t!tfuck",
+        "titfvck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "titfucker",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "titfuck3r",
+        "t1tfucker",
+        "t!tfucker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "titjob",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "t1tjob",
+        "t!tjob",
+        "titj0b"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "titmouse",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "titmous3",
+        "t1tmouse",
+        "t!tmouse"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tits",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "t1ts",
+        "t!ts",
+        "ti7s"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sexual/anatomical reference",
+      "target_type": "general"
+    },
+    {
+      "word": "titt",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "t1tt",
+        "t!tt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tittie",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "titti3",
+        "t1tt1e",
+        "t!tt!e"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tittiefucker",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "titti3fuck3r",
+        "t1tt1efucker",
+        "t!tt!efucker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "titties",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "titti3s",
+        "t1tt1es",
+        "t!tt!es"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "titty",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "t1tty",
+        "t!tty"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tittyfuck",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "t1ttyfuck",
+        "t!ttyfuck",
+        "tittyfvck"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tittyfucker",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "tittyfuck3r",
+        "t1ttyfucker",
+        "t!ttyfucker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tittys",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "t1ttys",
+        "t!ttys",
+        "titty$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "toke",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tok3",
+        "t0ke"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "toots",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "t00ts",
+        "toot$",
+        "toot5"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tosser",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "toss3r",
+        "t0sser",
+        "to$$er"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tossing",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "toss1ng",
+        "toss!ng",
+        "t0ssing"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "towelhead",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "towelhe@d",
+        "towelhe4d",
+        "tow3lh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "trailer trash",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tr@iler tr@sh",
+        "tr4iler tr4sh",
+        "trail3r trash"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tramp",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tr@mp",
+        "tr4mp"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "trannie",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tr@nnie",
+        "tr4nnie",
+        "tranni3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "tranny",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "tr*nny",
+        "tranie"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Transphobic slur, extremely offensive to transgender community",
+      "target_type": "group"
+    },
+    {
+      "word": "transsexual",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tr@nssexu@l",
+        "tr4nssexu4l",
+        "transs3xual"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "trashy",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tr@shy",
+        "tr4shy",
+        "tra$hy"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "triplesod",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tripl3sod",
+        "tr1plesod",
+        "tr!plesod"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "troglodyte",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "troglodyt3",
+        "tr0gl0dyte"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "turd",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "tvrd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "twat",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tw@t",
+        "tw4t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "twatbag",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tw@tb@g",
+        "tw4tb4g"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "twatface",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tw@tf@ce",
+        "tw4tf4ce",
+        "twatfac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "twatlips",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tw@tlips",
+        "tw4tlips",
+        "twatl1ps"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "twatmuffin",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tw@tmuffin",
+        "tw4tmuffin",
+        "twatmuff1n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "twats",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tw@ts",
+        "tw4ts",
+        "twat$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "twatty",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tw@tty",
+        "tw4tty"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "twatwaffle",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tw@tw@ffle",
+        "tw4tw4ffle",
+        "twatwaffl3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "twink",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tw1nk",
+        "tw!nk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "twit",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tw1t",
+        "tw!t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "twunt",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "twvnt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "unclefucker",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "uncl3fuck3r",
+        "vnclefvcker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "va-j-j",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "v@-j-j",
+        "v4-j-j"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "vag",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "v@g",
+        "v4g"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "vagina",
+      "severity": 1,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "v@gin@",
+        "v4gin4",
+        "vag1na"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "vajayjay",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "v@j@yj@y",
+        "v4j4yj4y"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "verify usage with native speakers across regions",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "verify us@ge with n@tive spe@kers @cross regions",
+        "verify us4ge with n4tive spe4kers 4cross regions",
+        "v3rify usag3 with nativ3 sp3ak3rs across r3gions"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "viagra",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "vi@gr@",
+        "vi4gr4",
+        "v1agra"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "vjayjay",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "vj@yj@y",
+        "vj4yj4y"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wad",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "w@d",
+        "w4d"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wang",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "w@ng",
+        "w4ng"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wank",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "w@nk",
+        "w4nk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wanker",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "w@nker",
+        "w4nker",
+        "wank3r"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wanking",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "w@nking",
+        "w4nking",
+        "wank1ng"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wankjob",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "w@nkjob",
+        "w4nkjob",
+        "wankj0b"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wankstain",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "w@nkst@in",
+        "w4nkst4in",
+        "wanksta1n"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wanky",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "w@nky",
+        "w4nky"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moderate profanity, inappropriate in formal settings",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wazoo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "w@zoo",
+        "w4zoo",
+        "waz00"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wetback",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "wetb@ck",
+        "wetb4ck",
+        "w3tback"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ethnic slur targeting Hispanic/Latino people",
+      "target_type": "group"
+    },
+    {
+      "word": "whitey",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "whit3y",
+        "wh1tey",
+        "wh!tey"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "whiz",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "wh1z",
+        "wh!z"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "whore",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "slurs"
+      ],
+      "variations": [
+        "wh0re",
+        "wh@re",
+        "h0r",
+        "ho"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Highly offensive, particularly targeting women",
+      "target_type": "individual"
+    },
+    {
+      "word": "whorebag",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "whoreb@g",
+        "whoreb4g",
+        "whor3bag"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "whored",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "whor3d",
+        "wh0red"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "whoreface",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "whoref@ce",
+        "whoref4ce",
+        "whor3fac3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "whorefucker",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "whor3fuck3r",
+        "wh0refucker",
+        "whorefvcker"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "whorehopper",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "whor3hopp3r",
+        "wh0reh0pper"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "whorehouse",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "whor3hous3",
+        "wh0reh0use",
+        "whorehou$e"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "whores",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "whor3s",
+        "wh0res",
+        "whore$"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Strong profanity, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "whoring",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "whor1ng",
+        "whor!ng",
+        "wh0ring"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wigga",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "wigg@",
+        "wigg4",
+        "w1gga"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wigger",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "wigg3r",
+        "w1gger",
+        "w!gger"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "wog",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "w0g"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "wop",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "w0p"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "yid",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs"
+      ],
+      "variations": [
+        "y1d",
+        "y!d"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Hate speech term, extremely offensive",
+      "target_type": "group"
+    },
+    {
+      "word": "yobbo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "y0bb0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    },
+    {
+      "word": "zipperhead",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "zipperhe@d",
+        "zipperhe4d",
+        "zipp3rh3ad"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild profanity, generally less offensive",
+      "target_type": "context_dependent"
+    }
+  ]
+} as const
+
+export type ENType = typeof EN

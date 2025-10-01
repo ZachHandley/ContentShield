@@ -115,7 +115,7 @@ export interface TrieMatch {
  * - Aho-Corasick algorithm for multi-pattern matching
  */
 export class ProfanityTrie {
-  private root: TrieNode = new TrieNode()
+  public root: TrieNode = new TrieNode()
   private totalWords = 0
   private compiled = false
 
@@ -629,9 +629,17 @@ export class ProfanityTrie {
       for (const [char, child] of Array.from(current.children.entries())) {
         queue.push(child)
 
-        // Find failure link
+        // Find failure link with cycle detection
         let failure = current.failureLink
+        const visitedFailureNodes = new Set<TrieNode>()
+
         while (failure !== null && !failure.children.has(char)) {
+          if (visitedFailureNodes.has(failure)) {
+            // Cycle detected in failure links, break to root
+            failure = null
+            break
+          }
+          visitedFailureNodes.add(failure)
           failure = failure.failureLink
         }
 
@@ -656,7 +664,7 @@ export class ProfanityTrie {
    * Multi-pattern search using Aho-Corasick algorithm
    * More efficient than multiple single searches
    */
-  multiPatternSearch(text: string, caseSensitive = false): TrieMatch[] {
+  multiPatternSearch(text: string, caseSensitive = false, maxMatches = Infinity): TrieMatch[] {
     this.compile()
 
     if (!text || text.length === 0) {
@@ -668,11 +676,25 @@ export class ProfanityTrie {
     let currentNode = this.root
 
     for (let i = 0; i < searchText.length; i++) {
+      // Early termination if we've found enough matches
+      if (matches.length >= maxMatches) {
+        break
+      }
+
       const char = searchText[i]
       if (!char) continue
 
       // Follow failure links until we find a match or reach root
+      const traversedNodes = new Set<TrieNode>()
+
       while (currentNode !== this.root && !currentNode.children.has(char)) {
+        if (traversedNodes.has(currentNode)) {
+          // Cycle detected, reset to root
+          currentNode = this.root
+          break
+        }
+        traversedNodes.add(currentNode)
+
         if (currentNode.failureLink) {
           currentNode = currentNode.failureLink
         } else {
@@ -690,7 +712,15 @@ export class ProfanityTrie {
 
       // Check for matches at current position
       let outputNode: TrieNode | null = currentNode
+      const visitedNodes = new Set<TrieNode>()
+
       while (outputNode !== null) {
+        // Prevent infinite loops from circular outputLink references
+        if (visitedNodes.has(outputNode)) {
+          break
+        }
+        visitedNodes.add(outputNode)
+
         if (outputNode.isEndOfWord && outputNode.data) {
           const wordLength = outputNode.data.word.length
           const start = i - wordLength + 1
@@ -703,6 +733,10 @@ export class ProfanityTrie {
               end,
               data: outputNode.data
             })
+            // Check if we've reached the limit after adding
+            if (matches.length >= maxMatches) {
+              return matches
+            }
           }
         }
         outputNode = outputNode.outputLink

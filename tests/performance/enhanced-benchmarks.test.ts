@@ -52,7 +52,7 @@ describe('Enhanced Performance Benchmarks', () => {
       trie.insert(word, {
         word,
         severity: SeverityLevel.MEDIUM,
-        categories: [ProfanityCategory.PROFANITY],
+        categories: ['profanity'],
         language: 'en'
       })
     }

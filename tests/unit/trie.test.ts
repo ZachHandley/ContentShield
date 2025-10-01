@@ -24,7 +24,7 @@ describe('ProfanityTrie', () => {
       const data: TrieNodeData = {
         word: 'test',
         severity: SeverityLevel.LOW,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       }
 
@@ -40,7 +40,7 @@ describe('ProfanityTrie', () => {
         trie.insert(word, {
           word,
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           language: 'en'
         })
       })
@@ -53,7 +53,7 @@ describe('ProfanityTrie', () => {
       trie.insert('', {
         word: '',
         severity: SeverityLevel.LOW,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
 
@@ -68,7 +68,7 @@ describe('ProfanityTrie', () => {
       trie.insertWithVariations('variation', variations, {
         word: 'variation',
         severity: SeverityLevel.MODERATE,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
 
@@ -81,7 +81,7 @@ describe('ProfanityTrie', () => {
       trie.insertWithVariations('test', variations, {
         word: 'test',
         severity: SeverityLevel.LOW,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
 
@@ -105,7 +105,7 @@ describe('ProfanityTrie', () => {
         trie.insert(word, {
           word,
           severity,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           language: 'en'
         })
       })
@@ -129,7 +129,7 @@ describe('ProfanityTrie', () => {
       trie.insert('ass', {
         word: 'ass',
         severity: SeverityLevel.MODERATE,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
 
@@ -155,7 +155,7 @@ describe('ProfanityTrie', () => {
       trie.insert('profanity', {
         word: 'profanity',
         severity: SeverityLevel.MODERATE,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
     })
@@ -209,7 +209,7 @@ describe('ProfanityTrie', () => {
         trie.insert(word, {
           word,
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           language: 'en'
         })
       })
@@ -220,7 +220,7 @@ describe('ProfanityTrie', () => {
       trie.insert('shit', {
         word: 'shit',
         severity: SeverityLevel.HIGH,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
 
@@ -272,7 +272,7 @@ describe('ProfanityTrie', () => {
         trie.insert(`word${i}`, {
           word: `word${i}`,
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           language: 'en'
         })
       }
@@ -291,7 +291,7 @@ describe('ProfanityTrie', () => {
         trie.insert(`testword${i}`, {
           word: `testword${i}`,
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           language: 'en'
         })
       }
@@ -312,7 +312,7 @@ describe('ProfanityTrie', () => {
         trie.insert(word, {
           word,
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           language: 'en'
         })
       })
@@ -332,7 +332,7 @@ describe('ProfanityTrie', () => {
         trie.insert(word, {
           word,
           severity: SeverityLevel.MODERATE,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           language: 'en'
         })
       })
@@ -381,7 +381,7 @@ describe('ProfanityTrie', () => {
       trie.insert(unicodeWord, {
         word: unicodeWord,
         severity: SeverityLevel.LOW,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
 
@@ -395,7 +395,7 @@ describe('ProfanityTrie', () => {
       trie.insert(specialWord, {
         word: specialWord,
         severity: SeverityLevel.LOW,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
 
@@ -409,7 +409,7 @@ describe('ProfanityTrie', () => {
       trie.insert(longWord, {
         word: longWord,
         severity: SeverityLevel.LOW,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
 
@@ -422,7 +422,7 @@ describe('ProfanityTrie', () => {
       trie.insert('a', {
         word: 'a',
         severity: SeverityLevel.LOW,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
 
@@ -437,7 +437,7 @@ describe('ProfanityTrie', () => {
       trie.insert('test', {
         word: 'test',
         severity: SeverityLevel.LOW,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
 
@@ -456,7 +456,7 @@ describe('ProfanityTrie', () => {
       trie.insert('test1', {
         word: 'test1',
         severity: SeverityLevel.LOW,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
 
@@ -465,7 +465,7 @@ describe('ProfanityTrie', () => {
       trie.insert('test2', {
         word: 'test2',
         severity: SeverityLevel.MODERATE,
-        categories: [ProfanityCategory.GENERAL],
+        categories: ['general'],
         language: 'en'
       })
 

@@ -1,0 +1,3068 @@
+/**
+ * Hebrew profanity data
+ * Auto-generated from JSON files - DO NOT EDIT MANUALLY
+ *
+ * Language: Hebrew
+ * Version: 1.0.0
+ * Last Updated: 2025-09-30
+ * Total Entries: 200
+ */
+
+export const HE = {
+  "metadata": {
+    "name": "Hebrew",
+    "code": "he",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-30",
+    "wordCount": 200
+  },
+  "words": [
+    {
+      "word": "משוגע",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "mental_health"
+      ],
+      "variations": [
+        "משוגעת",
+        "משוגעים",
+        "meshuga",
+        "meshugga"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Crazy/insane, mild insult implying mental instability (romanized: meshuga)",
+      "target_type": "individual"
+    },
+    {
+      "word": "טיפש",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence"
+      ],
+      "variations": [
+        "טיפשה",
+        "טיפשים",
+        "tipesh",
+        "tipsh"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Stupid/foolish, mild intellectual insult (romanized: tipesh)",
+      "target_type": "individual"
+    },
+    {
+      "word": "אידיוט",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence"
+      ],
+      "variations": [
+        "אידיוטים",
+        "idiot",
+        "eedyot"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Idiot, borrowed from English/Greek, mild insult (romanized: idiot)",
+      "target_type": "individual"
+    },
+    {
+      "word": "דביל",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence"
+      ],
+      "variations": [
+        "דבילה",
+        "דבילים",
+        "debil"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moron, from Russian, mild intellectual insult (romanized: debil)",
+      "target_type": "individual"
+    },
+    {
+      "word": "כסיל",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence",
+        "biblical"
+      ],
+      "variations": [
+        "כסילה",
+        "כסילים",
+        "ksil",
+        "kesil"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Fool, biblical Hebrew term for stupid person (romanized: ksil)",
+      "target_type": "individual"
+    },
+    {
+      "word": "מטומטם",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence"
+      ],
+      "variations": [
+        "מטומטמת",
+        "מטומטמים",
+        "metumtam"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Dumb/stupid, implies lack of intelligence (romanized: metumtam)",
+      "target_type": "individual"
+    },
+    {
+      "word": "חרא",
+      "severity": 2,
+      "categories": [
+        "profanity",
+        "general",
+        "scatological",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "khara",
+        "7ara",
+        "חַרְאָא"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Shit (Arabic: خرا khara), common profanity from Arabic, moderate severity (romanized: khara)",
+      "target_type": "general"
+    },
+    {
+      "word": "זין",
+      "severity": 2,
+      "categories": [
+        "profanity",
+        "sexual",
+        "anatomy"
+      ],
+      "variations": [
+        "זַיִן",
+        "zayin",
+        "zain",
+        "zayn"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Dick/penis (romanized: zayin), also means weapon in Hebrew, moderate sexual profanity",
+      "target_type": "general"
+    },
+    {
+      "word": "יא זין",
+      "severity": 2,
+      "categories": [
+        "profanity",
+        "sexual",
+        "direct_insult"
+      ],
+      "variations": [
+        "ya zayin",
+        "יא זַיִן"
+      ],
+      "case_sensitive": false,
+      "context_notes": "You dick (romanized: ya zayin), direct insult using sexual organ, can be used jokingly among friends",
+      "target_type": "individual"
+    },
+    {
+      "word": "זונה",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "gender_slur"
+      ],
+      "variations": [
+        "זוֹנָה",
+        "zona",
+        "zuna",
+        "זונות",
+        "zonot"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Whore/prostitute (romanized: zona), derogatory term for women",
+      "target_type": "individual"
+    },
+    {
+      "word": "מניאק",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "מניאקית",
+        "מניאקים",
+        "manyak",
+        "maniak"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Maniac/asshole (romanized: manyak), implies crazy or antisocial behavior",
+      "target_type": "individual"
+    },
+    {
+      "word": "מנוול",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "character"
+      ],
+      "variations": [
+        "מנוולת",
+        "מנוולים",
+        "menuval"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Scoundrel/dishonest person (romanized: menuval), implies moral corruption",
+      "target_type": "individual"
+    },
+    {
+      "word": "ערס",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "social_class",
+        "discriminatory"
+      ],
+      "variations": [
+        "ערסית",
+        "ערסים",
+        "ars"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Low-class person (romanized: ars), discriminatory term ruled offensive by Israeli courts",
+      "target_type": "individual"
+    },
+    {
+      "word": "פרחה",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "gender_slur",
+        "intelligence"
+      ],
+      "variations": [
+        "פְּרַחָה",
+        "freha",
+        "frecha"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Bimbo (romanized: freha), derogatory term for attractive but unintelligent woman",
+      "target_type": "individual"
+    },
+    {
+      "word": "לך לעזאזל",
+      "severity": 2,
+      "categories": [
+        "curse",
+        "biblical",
+        "dismissal"
+      ],
+      "variations": [
+        "לך לאזאזל",
+        "lech la'azazel",
+        "lech le'azazel"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Go to hell (romanized: lech la'azazel), biblical curse meaning go to the devil",
+      "target_type": "individual"
+    },
+    {
+      "word": "תזדיין",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "vulgar_command"
+      ],
+      "variations": [
+        "תִּזְדַּיֵּן",
+        "tizdayen",
+        "lech lehizdayen",
+        "tiz-dayen",
+        "tezdayen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Go fuck yourself (romanized: tizdayen), strong sexual curse commanding masturbation",
+      "target_type": "individual"
+    },
+    {
+      "word": "לך להזדיין",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "vulgar_command"
+      ],
+      "variations": [
+        "lech lehizdayen",
+        "לך להִזְדַּיֵּן"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Go fuck yourself (romanized: lech lehizdayen), full phrase commanding sexual self-gratification",
+      "target_type": "individual"
+    },
+    {
+      "word": "בן זונה",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "family_insult",
+        "compound"
+      ],
+      "variations": [
+        "בֶּן זוֹנָה",
+        "ben zona",
+        "ben zuna",
+        "benzuna",
+        "ben-zona"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Son of a whore (romanized: ben zona), compound family insult attacking mother's reputation",
+      "target_type": "individual"
+    },
+    {
+      "word": "כוס",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "anatomy",
+        "vulgar",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "כּוּס",
+        "kus",
+        "koos",
+        "cus",
+        "cos",
+        "kos"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Cunt/vagina (Arabic: كس kus), highly vulgar sexual organ reference, also means cup/glass in formal Hebrew",
+      "target_type": "general"
+    },
+    {
+      "word": "כוס אמק",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "family_insult",
+        "compound",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "כוס אמך",
+        "kus emek",
+        "kus imcha",
+        "כּוּס אִמֶּךָ"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Your mother's cunt (romanized: kus emek), compound sexual family insult from Arabic",
+      "target_type": "individual"
+    },
+    {
+      "word": "לזיין",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "vulgar_verb"
+      ],
+      "variations": [
+        "לְזַיֵּן",
+        "lezayen",
+        "zayen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To fuck (romanized: lezayen), sexual verb meaning to have intercourse aggressively",
+      "target_type": "general"
+    },
+    {
+      "word": "מזדיין",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "masturbation"
+      ],
+      "variations": [
+        "מִזְדַּיֵּן",
+        "mizdayen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Masturbating (romanized: mizdayen), someone engaging in self-gratification",
+      "target_type": "individual"
+    },
+    {
+      "word": "חתיכה",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "objectification"
+      ],
+      "variations": [
+        "חֲתִיכָה",
+        "hatikha",
+        "piece"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Piece (romanized: hatikha), objectifying term for attractive woman, literally means piece",
+      "target_type": "individual"
+    },
+    {
+      "word": "שרמוטה",
+      "severity": 3,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "gender_slur",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "שַׁרְמוּטָה",
+        "sharmuta",
+        "shar",
+        "sharmuta",
+        "sharmota"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Slut/whore (Arabic: شرموطة sharmuta), highly derogatory sexual slur against women from Arabic",
+      "target_type": "individual"
+    },
+    {
+      "word": "גחון",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "physical_appearance"
+      ],
+      "variations": [
+        "גַּחוֹן",
+        "gachon"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Belly (romanized: gachon), derogatory term for fat person, focuses on stomach",
+      "target_type": "individual"
+    },
+    {
+      "word": "נבל",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "character",
+        "biblical"
+      ],
+      "variations": [
+        "נְבָל",
+        "naval",
+        "nabal"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Scoundrel/villain (romanized: naval), biblical term for morally corrupt person",
+      "target_type": "individual"
+    },
+    {
+      "word": "ממזר",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "family_insult",
+        "biblical"
+      ],
+      "variations": [
+        "מַמְזֵר",
+        "mamzer"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Bastard (romanized: mamzer), biblical term for illegitimate child, general insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "חזיר",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "animal_insult",
+        "religious"
+      ],
+      "variations": [
+        "חֲזִיר",
+        "khazir",
+        "chazir"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Pig (romanized: khazir), insulting comparison to non-kosher animal, implies uncleanliness",
+      "target_type": "individual"
+    },
+    {
+      "word": "כלב",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "animal_insult",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "כֶּלֶב",
+        "kelev",
+        "kalb"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Dog (Hebrew: כלב kelev, Arabic: كلب kalb), common animal insult implying loyalty betrayal or lowness",
+      "target_type": "individual"
+    },
+    {
+      "word": "חמור",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence",
+        "animal_insult"
+      ],
+      "variations": [
+        "חֲמוֹר",
+        "chamor",
+        "khamor"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Donkey/ass (romanized: chamor), mild insult implying stupidity, biblical reference",
+      "target_type": "individual"
+    },
+    {
+      "word": "שוטה",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence",
+        "biblical"
+      ],
+      "variations": [
+        "שׁוֹטֶה",
+        "shoteh"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Fool (romanized: shoteh), biblical/talmudic term for foolish person",
+      "target_type": "individual"
+    },
+    {
+      "word": "רשע",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "character",
+        "biblical"
+      ],
+      "variations": [
+        "רָשָׁע",
+        "rasha",
+        "reshaim"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Wicked person/villain (romanized: rasha), biblical term for evil character",
+      "target_type": "individual"
+    },
+    {
+      "word": "מפגר",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "mental_health",
+        "ableist"
+      ],
+      "variations": [
+        "מְפַגֵּר",
+        "mefager",
+        "מפגרת",
+        "mefageret"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Retarded (romanized: mefager), offensive term for mentally disabled, highly inappropriate",
+      "target_type": "individual"
+    },
+    {
+      "word": "גוי",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "ethnic",
+        "religious"
+      ],
+      "variations": [
+        "גּוֹי",
+        "goy",
+        "goyim"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Non-Jew (romanized: goy), can be neutral or derogatory depending on context and tone",
+      "target_type": "individual"
+    },
+    {
+      "word": "קוקסינל",
+      "severity": 3,
+      "categories": [
+        "derogatory",
+        "military",
+        "homophobic",
+        "slurs"
+      ],
+      "variations": [
+        "kuksinel"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Faggot (romanized: kuksinel), military slang for incompetent soldier, also homophobic slur, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "שוקיסט",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "military",
+        "behavior"
+      ],
+      "variations": [
+        "shokist"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Military slang (romanized: shokist) for soldier who adapts/compromises principles, mild criticism",
+      "target_type": "individual"
+    },
+    {
+      "word": "ג'ובניק",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "military",
+        "duty"
+      ],
+      "variations": [
+        "jobnik"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Military slang (romanized: jobnik) for non-combat soldier, implies easier service",
+      "target_type": "individual"
+    },
+    {
+      "word": "פזמניק",
+      "severity": 1,
+      "categories": [
+        "military",
+        "seniority"
+      ],
+      "variations": [
+        "pazamnik"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Senior soldier (romanized: pazamnik) nearing discharge, military hierarchy term",
+      "target_type": "individual"
+    },
+    {
+      "word": "מתחפשן",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "military",
+        "laziness"
+      ],
+      "variations": [
+        "mitchapsen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Military slang (romanized: mitchapsen) for soldier doing minimum work, implies laziness",
+      "target_type": "individual"
+    },
+    {
+      "word": "שבוץ",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "military",
+        "complaining"
+      ],
+      "variations": [
+        "shavuz"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Military slang (romanized: shavuz) for tired/complaining soldier",
+      "target_type": "individual"
+    },
+    {
+      "word": "מת'חפן",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "military",
+        "avoidance"
+      ],
+      "variations": [
+        "methaphen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Military slang (romanized: methaphen) for someone who avoids duties/responsibilities",
+      "target_type": "individual"
+    },
+    {
+      "word": "זבל",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "general",
+        "worthlessness"
+      ],
+      "variations": [
+        "זֶבֶל",
+        "zevel"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Garbage/trash (romanized: zevel), calling someone worthless or disgusting",
+      "target_type": "individual"
+    },
+    {
+      "word": "חתיכת זבל",
+      "severity": 3,
+      "categories": [
+        "derogatory",
+        "compound",
+        "worthlessness"
+      ],
+      "variations": [
+        "hatikhat zevel",
+        "חֲתִיכַת זֶבֶל"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Piece of garbage (romanized: hatikhat zevel), compound insult emphasizing complete worthlessness",
+      "target_type": "individual"
+    },
+    {
+      "word": "פדרסט",
+      "severity": 3,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "homophobic"
+      ],
+      "variations": [
+        "פֶּדְרַסְט",
+        "pederast"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Pederast (romanized: pederast), homophobic slur with sexual connotations, highly offensive",
+      "target_type": "individual"
+    },
+    {
+      "word": "הומו",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "homophobic"
+      ],
+      "variations": [
+        "הוֹמוֹ",
+        "homo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homo (romanized: homo), derogatory shortening of homosexual, offensive slur",
+      "target_type": "individual"
+    },
+    {
+      "word": "לסבית",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "homophobic"
+      ],
+      "variations": [
+        "לֶסְבִּית",
+        "lesbit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Lesbian (romanized: lesbit), can be neutral term or slur depending on context",
+      "target_type": "individual"
+    },
+    {
+      "word": "יאללה",
+      "severity": 1,
+      "categories": [
+        "dismissal",
+        "impatience"
+      ],
+      "variations": [
+        "יַאלָּה",
+        "yalla"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Come on/let's go (romanized: yalla), borrowed from Arabic, can be dismissive",
+      "target_type": "general"
+    },
+    {
+      "word": "תכלס",
+      "severity": 1,
+      "categories": [
+        "slang",
+        "directness"
+      ],
+      "variations": [
+        "תַּכְלֵס",
+        "tachles"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Bottom line/seriously (romanized: tachles), slang for getting to the point",
+      "target_type": "general"
+    },
+    {
+      "word": "וואלה",
+      "severity": 1,
+      "categories": [
+        "exclamation",
+        "surprise"
+      ],
+      "variations": [
+        "וַאלָּה",
+        "wallah",
+        "walla"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Really/wow (romanized: wallah), borrowed from Arabic, expression of surprise",
+      "target_type": "general"
+    },
+    {
+      "word": "חלאס",
+      "severity": 1,
+      "categories": [
+        "dismissal",
+        "finality"
+      ],
+      "variations": [
+        "חַלָאס",
+        "khalas"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Enough/finished (romanized: khalas), borrowed from Arabic, shows finality",
+      "target_type": "general"
+    },
+    {
+      "word": "מסכין",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "pity"
+      ],
+      "variations": [
+        "מִסְכֵּן",
+        "misken"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Poor thing/pathetic (romanized: misken), shows condescending pity, from Arabic",
+      "target_type": "individual"
+    },
+    {
+      "word": "כפרה",
+      "severity": 1,
+      "categories": [
+        "endearment",
+        "slang"
+      ],
+      "variations": [
+        "כַּפְרָה",
+        "kfara"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Dude/bro (romanized: kfara), term of endearment among young Israelis",
+      "target_type": "individual"
+    },
+    {
+      "word": "סטירה",
+      "severity": 2,
+      "categories": [
+        "violence",
+        "physical_threat"
+      ],
+      "variations": [
+        "סְטִירָה",
+        "stira",
+        "סטריאה",
+        "styrea"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Slap (romanized: stira), threat of physical violence, implies hitting, from Arabic",
+      "target_type": "individual"
+    },
+    {
+      "word": "מכות",
+      "severity": 2,
+      "categories": [
+        "violence",
+        "physical_threat"
+      ],
+      "variations": [
+        "מַכּוֹת",
+        "makot",
+        "מכה",
+        "maka"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Beatings (romanized: makot), plural form threatening physical violence",
+      "target_type": "individual"
+    },
+    {
+      "word": "לתת לך על הפנים",
+      "severity": 3,
+      "categories": [
+        "violence",
+        "physical_threat",
+        "compound"
+      ],
+      "variations": [
+        "latet lecha al hapanim"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To hit you in the face (romanized: latet lecha al hapanim), direct threat of facial violence",
+      "target_type": "individual"
+    },
+    {
+      "word": "תסתום ת'פה",
+      "severity": 2,
+      "categories": [
+        "dismissal",
+        "rude_command"
+      ],
+      "variations": [
+        "tistom et hape",
+        "תִּסְתּוֹם אֶת הַפֶּה"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Shut your mouth (romanized: tistom et hape), rude command to stop talking",
+      "target_type": "individual"
+    },
+    {
+      "word": "שתוק",
+      "severity": 2,
+      "categories": [
+        "dismissal",
+        "rude_command"
+      ],
+      "variations": [
+        "שְׁתוֹק",
+        "shtok"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Shut up (romanized: shtok), direct rude command to be quiet",
+      "target_type": "individual"
+    },
+    {
+      "word": "תלך למות",
+      "severity": 4,
+      "categories": [
+        "death_wish",
+        "extreme_threat"
+      ],
+      "variations": [
+        "telech lamut",
+        "תֵּלֵךְ לָמוּת"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Go die (romanized: telech lamut), extreme death wish, highly offensive threat",
+      "target_type": "individual"
+    },
+    {
+      "word": "אני אהרוג אותך",
+      "severity": 4,
+      "categories": [
+        "death_threat",
+        "violence",
+        "extreme_threat"
+      ],
+      "variations": [
+        "ani eherog otcha",
+        "אֲנִי אֶהֱרוֹג אוֹתְךָ"
+      ],
+      "case_sensitive": false,
+      "context_notes": "I will kill you (romanized: ani eherog otcha), direct death threat, extremely serious",
+      "target_type": "individual"
+    },
+    {
+      "word": "קללה",
+      "severity": 2,
+      "categories": [
+        "curse",
+        "general",
+        "biblical"
+      ],
+      "variations": [
+        "קְלָלָה",
+        "klala"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Curse (romanized: klala), general term for curse or profanity, biblical origin",
+      "target_type": "general"
+    },
+    {
+      "word": "ארור",
+      "severity": 3,
+      "categories": [
+        "curse",
+        "biblical",
+        "damnation"
+      ],
+      "variations": [
+        "אָרוּר",
+        "arur",
+        "ארור תהיה",
+        "arur tihiye"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Cursed/damned (romanized: arur), biblical curse wishing divine punishment",
+      "target_type": "individual"
+    },
+    {
+      "word": "יימח שמו",
+      "severity": 3,
+      "categories": [
+        "curse",
+        "religious",
+        "memory_erasure",
+        "hate_speech"
+      ],
+      "variations": [
+        "יִמַּח שְׁמוֹ",
+        "yimach shmo",
+        "יימח שמך",
+        "yimach shimkha"
+      ],
+      "case_sensitive": false,
+      "context_notes": "May his/your name be erased (romanized: yimach shmo/shimkha), severe religious curse wishing memory obliteration",
+      "target_type": "individual"
+    },
+    {
+      "word": "לעזאזל איתך",
+      "severity": 3,
+      "categories": [
+        "curse",
+        "biblical",
+        "damnation"
+      ],
+      "variations": [
+        "le'azazel itcha",
+        "לָעֲזָזֵל אִתְּךָ"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To hell with you (romanized: le'azazel itcha), biblical curse sending someone to demons",
+      "target_type": "individual"
+    },
+    {
+      "word": "תחת",
+      "severity": 2,
+      "categories": [
+        "profanity",
+        "anatomy",
+        "scatological"
+      ],
+      "variations": [
+        "tachat",
+        "תחת שלי",
+        "tachat sheli"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ass/buttocks (romanized: tachat), anatomical profanity",
+      "target_type": "general"
+    },
+    {
+      "word": "נשק לי תחת",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "compound"
+      ],
+      "variations": [
+        "nashek li tachat"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Kiss my ass (romanized: nashek li tachat), strong dismissive insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "לחרבן",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "vulgar_verb"
+      ],
+      "variations": [
+        "leharben"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To destroy/fuck up (romanized: leharben), strong sexual profanity",
+      "target_type": "general"
+    },
+    {
+      "word": "מזדיינת",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "masturbation",
+        "gender_slur"
+      ],
+      "variations": [
+        "mizdayenet"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Female form of fucker/masturbating (romanized: mizdayenet)",
+      "target_type": "individual"
+    },
+    {
+      "word": "זיין אותך",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "direct_insult"
+      ],
+      "variations": [
+        "zayen otkha",
+        "zayen otcha"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Fuck you (romanized: zayen otkha), direct sexual insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "זיין ת'מוח",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "mental"
+      ],
+      "variations": [
+        "zayen t'moach"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mindfuck (romanized: zayen t'moach), mental manipulation profanity",
+      "target_type": "general"
+    },
+    {
+      "word": "מזוין",
+      "severity": 2,
+      "categories": [
+        "profanity",
+        "sexual",
+        "military"
+      ],
+      "variations": [
+        "mezuyan"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Fucked/armed (romanized: mezuyan), dual meaning - sexual or military context",
+      "target_type": "general"
+    },
+    {
+      "word": "גחבה",
+      "severity": 3,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "gender_slur",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "gachba"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Whore (Arabic: جحبة gahba, romanized: gachba), from Arabic",
+      "target_type": "individual"
+    },
+    {
+      "word": "קלבה",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "gender_slur",
+        "animal_insult",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "kalba"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Bitch (Arabic: كلبة kalba), female dog, derogatory term for women",
+      "target_type": "individual"
+    },
+    {
+      "word": "בת זונה",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "family_insult",
+        "gender_slur",
+        "compound"
+      ],
+      "variations": [
+        "bat zona",
+        "bat zuna"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Daughter of a whore (romanized: bat zona), female version of ben zona",
+      "target_type": "individual"
+    },
+    {
+      "word": "זיין אותי",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual"
+      ],
+      "variations": [
+        "zayen oti"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Fuck me (romanized: zayen oti), sexual expression",
+      "target_type": "general"
+    },
+    {
+      "word": "נזדיין",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual"
+      ],
+      "variations": [
+        "nizdayen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "We'll fuck/masturbate (romanized: nizdayen), plural sexual profanity",
+      "target_type": "general"
+    },
+    {
+      "word": "כוסית",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "anatomy",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "kusit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Vagina (romanized: kusit), diminutive form of kus",
+      "target_type": "general"
+    },
+    {
+      "word": "כוסי",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "anatomy",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "kusi"
+      ],
+      "case_sensitive": false,
+      "context_notes": "My vagina (romanized: kusi), possessive form",
+      "target_type": "general"
+    },
+    {
+      "word": "כוס רבק",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "compound",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "kus rabak"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Variant curse using vagina (romanized: kus rabak)",
+      "target_type": "general"
+    },
+    {
+      "word": "זין בעין",
+      "severity": 4,
+      "categories": [
+        "profanity",
+        "sexual",
+        "extreme_threat",
+        "violence"
+      ],
+      "variations": [
+        "zayin ba'ayin"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Penis in the eye (romanized: zayin ba'ayin), extreme curse combining sexual and violent imagery",
+      "target_type": "individual"
+    },
+    {
+      "word": "תזדיין בחיים",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "compound"
+      ],
+      "variations": [
+        "tizdayen bachayim"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Fuck your life (romanized: tizdayen bachayim), strong sexual curse",
+      "target_type": "individual"
+    },
+    {
+      "word": "ביצים",
+      "severity": 2,
+      "categories": [
+        "profanity",
+        "sexual",
+        "anatomy"
+      ],
+      "variations": [
+        "beitsim",
+        "יש לי ביצים",
+        "yesh li beitsim"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Balls/testicles (romanized: beitsim), also means courage in context",
+      "target_type": "general"
+    },
+    {
+      "word": "אשכים",
+      "severity": 2,
+      "categories": [
+        "profanity",
+        "sexual",
+        "anatomy",
+        "biblical"
+      ],
+      "variations": [
+        "ashkhim"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Testicles (romanized: ashkhim), formal/biblical term",
+      "target_type": "general"
+    },
+    {
+      "word": "זוב",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "scatological",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "zov"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Discharge/cum (romanized: zov), from Arabic",
+      "target_type": "general"
+    },
+    {
+      "word": "מנוש",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "anatomy",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "manush"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Pussy (romanized: manush), from Arabic",
+      "target_type": "general"
+    },
+    {
+      "word": "אהבל",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence"
+      ],
+      "variations": [
+        "ahabal",
+        "חתיכת אהבל",
+        "hatikhat ahabal"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moron/idiot (romanized: ahabal), very common Israeli insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "טמבל",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence",
+        "military"
+      ],
+      "variations": [
+        "tembel"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Fool/idiot (romanized: tembel), military slang",
+      "target_type": "individual"
+    },
+    {
+      "word": "סרוט",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "mental_health"
+      ],
+      "variations": [
+        "saroot"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Scratched/crazy (romanized: saroot), slang for mentally unstable",
+      "target_type": "individual"
+    },
+    {
+      "word": "מטורף",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "mental_health"
+      ],
+      "variations": [
+        "metoraf"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Crazy/insane (romanized: metoraf), mild mental health insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "דפוק",
+      "severity": 2,
+      "categories": [
+        "profanity",
+        "general"
+      ],
+      "variations": [
+        "dafook"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Fucked up/broken (romanized: dafook), describes something/someone broken",
+      "target_type": "general"
+    },
+    {
+      "word": "גזור",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "mental_health"
+      ],
+      "variations": [
+        "gazur"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Messed up in the head (romanized: gazur), mental insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "אוטיסט",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "ableist",
+        "slurs"
+      ],
+      "variations": [
+        "otist"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Autist (romanized: otist), ableist slur, highly inappropriate",
+      "target_type": "individual"
+    },
+    {
+      "word": "דאון",
+      "severity": 3,
+      "categories": [
+        "derogatory",
+        "ableist",
+        "slurs",
+        "hate_speech"
+      ],
+      "variations": [
+        "daon"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Down syndrome (romanized: daon), extremely offensive ableist slur",
+      "target_type": "individual"
+    },
+    {
+      "word": "נכה",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "ableist",
+        "slurs"
+      ],
+      "variations": [
+        "nekhe"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Crippled (romanized: nekhe), ableist slur",
+      "target_type": "individual"
+    },
+    {
+      "word": "טיפש בן אדם",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence",
+        "compound"
+      ],
+      "variations": [
+        "tipesh ben adam"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Stupid person (romanized: tipesh ben adam), mild compound insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "משכמו ומעלה",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence",
+        "sarcasm"
+      ],
+      "variations": [
+        "mishkmo uma'ala"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Head and shoulders (romanized: mishkmo uma'ala), sarcastic insult implying superiority complex",
+      "target_type": "individual"
+    },
+    {
+      "word": "ראש ריק",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence",
+        "compound"
+      ],
+      "variations": [
+        "rosh reik"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Empty head (romanized: rosh reik), implies lack of intelligence",
+      "target_type": "individual"
+    },
+    {
+      "word": "ראש קטן",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence",
+        "compound"
+      ],
+      "variations": [
+        "rosh katan"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Small head/mind (romanized: rosh katan), implies narrow thinking",
+      "target_type": "individual"
+    },
+    {
+      "word": "בלתי נסבל",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "bilti nisvol"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Unbearable person (romanized: bilti nisvol), describes intolerable behavior",
+      "target_type": "individual"
+    },
+    {
+      "word": "חצוף",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "khatzuf"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Rude/impudent (romanized: khatzuf), describes rude behavior",
+      "target_type": "individual"
+    },
+    {
+      "word": "חוצפן",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "khutspan"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Impudent person (romanized: khutspan), someone with chutzpah in negative sense",
+      "target_type": "individual"
+    },
+    {
+      "word": "עזות פנים",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior",
+        "compound"
+      ],
+      "variations": [
+        "azut panim"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Shamelessness (romanized: azut panim), describes brazen behavior",
+      "target_type": "individual"
+    },
+    {
+      "word": "חדל איש",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "character"
+      ],
+      "variations": [
+        "khadal ish"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Failed person (romanized: khadal ish), implies total failure",
+      "target_type": "individual"
+    },
+    {
+      "word": "שפל",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "character"
+      ],
+      "variations": [
+        "shafel"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Low/vile (romanized: shafel), describes base character",
+      "target_type": "individual"
+    },
+    {
+      "word": "פחות",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "character"
+      ],
+      "variations": [
+        "pakhot"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Less/inferior (romanized: pakhot), implies inferiority",
+      "target_type": "individual"
+    },
+    {
+      "word": "זלזול",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "disrespect"
+      ],
+      "variations": [
+        "zilzul"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Contempt/disrespect (romanized: zilzul), describes contemptuous attitude",
+      "target_type": "general"
+    },
+    {
+      "word": "שמוק",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "intelligence"
+      ],
+      "variations": [
+        "shmok"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Schmuck (romanized: shmok), mild Yiddish insult for fool",
+      "target_type": "individual"
+    },
+    {
+      "word": "פטצן",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "anatomy"
+      ],
+      "variations": [
+        "petzn"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Nipple/jerk (romanized: petzn), mild insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "שוויץ",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "shvitz"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Show-off (romanized: shvitz), describes boastful behavior",
+      "target_type": "individual"
+    },
+    {
+      "word": "יהיר",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "yahir"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Arrogant (romanized: yahir), describes arrogant person",
+      "target_type": "individual"
+    },
+    {
+      "word": "מתנשא",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "mitnase"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Pretentious (romanized: mitnase), describes pretentious behavior",
+      "target_type": "individual"
+    },
+    {
+      "word": "גרגרן",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "gargeran"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Glutton (romanized: gargeran), describes excessive eating",
+      "target_type": "individual"
+    },
+    {
+      "word": "בטלן",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "batlan"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Lazy person (romanized: batlan), describes idle person",
+      "target_type": "individual"
+    },
+    {
+      "word": "עצלן",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "atzlan"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Lazy (romanized: atzlan), describes laziness",
+      "target_type": "individual"
+    },
+    {
+      "word": "שקרן",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "character"
+      ],
+      "variations": [
+        "shakran"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Liar (romanized: shakran), describes habitual liar",
+      "target_type": "individual"
+    },
+    {
+      "word": "רמאי",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "character"
+      ],
+      "variations": [
+        "ramai"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Cheater/fraudster (romanized: ramai), describes dishonest person",
+      "target_type": "individual"
+    },
+    {
+      "word": "גנב",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "character"
+      ],
+      "variations": [
+        "ganav"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Thief (romanized: ganav), describes stealing person",
+      "target_type": "individual"
+    },
+    {
+      "word": "גזלן",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "character"
+      ],
+      "variations": [
+        "gazlan"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Robber (romanized: gazlan), describes violent thief",
+      "target_type": "individual"
+    },
+    {
+      "word": "יא כלב",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "animal_insult",
+        "compound",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "ya kelev",
+        "ya kalb"
+      ],
+      "case_sensitive": false,
+      "context_notes": "You dog (Arabic: يا كلب ya kalb, romanized: ya kelev), direct animal insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "כלב בן כלב",
+      "severity": 3,
+      "categories": [
+        "derogatory",
+        "animal_insult",
+        "compound",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "kelev ben kelev",
+        "kalb ibn kalb"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Dog son of dog (Arabic: كلب ابن كلب, romanized: kelev ben kelev), compound animal insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "חמאר",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "animal_insult",
+        "intelligence",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "khamar"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Donkey (Arabic: حمار himar, romanized: khamar), Arabic pronunciation for donkey",
+      "target_type": "individual"
+    },
+    {
+      "word": "יא חמאר",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "animal_insult",
+        "intelligence",
+        "compound",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "ya khamar"
+      ],
+      "case_sensitive": false,
+      "context_notes": "You donkey (Arabic: يا حمار ya himar, romanized: ya khamar), direct animal insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "כוס אוח'ת",
+      "severity": 4,
+      "categories": [
+        "profanity",
+        "sexual",
+        "family_insult",
+        "extreme_threat",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "kus okhot",
+        "kus ukht"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Your sister's vagina (Arabic: كس اختك kus ukhtik, romanized: kus okhot), extreme family sexual insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "כוס אבוך",
+      "severity": 4,
+      "categories": [
+        "profanity",
+        "sexual",
+        "family_insult",
+        "extreme_threat",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "kus abukh",
+        "kus abuk"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Your father's vagina (Arabic: كس ابوك kus abuk, romanized: kus abukh), absurd extreme insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "פראייר",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "character"
+      ],
+      "variations": [
+        "frayer",
+        "fraier"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sucker (romanized: frayer), from German via Yiddish, describes gullible person",
+      "target_type": "individual"
+    },
+    {
+      "word": "סחבק",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "sakhbak"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mess around (romanized: sakhbak), describes wasting time",
+      "target_type": "general"
+    },
+    {
+      "word": "לך לגיהנום",
+      "severity": 2,
+      "categories": [
+        "curse",
+        "biblical",
+        "dismissal"
+      ],
+      "variations": [
+        "lech le'gehinnom"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Go to hell/Gehenna (romanized: lech le'gehinnom), biblical curse",
+      "target_type": "individual"
+    },
+    {
+      "word": "שטן",
+      "severity": 2,
+      "categories": [
+        "curse",
+        "biblical",
+        "religious"
+      ],
+      "variations": [
+        "satan"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Satan/adversary (romanized: satan), biblical term for adversary",
+      "target_type": "individual"
+    },
+    {
+      "word": "מלאך המוות",
+      "severity": 2,
+      "categories": [
+        "curse",
+        "biblical",
+        "death_wish"
+      ],
+      "variations": [
+        "malakh hamavet"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Angel of death (romanized: malakh hamavet), biblical death reference",
+      "target_type": "individual"
+    },
+    {
+      "word": "בעל זבוב",
+      "severity": 2,
+      "categories": [
+        "curse",
+        "biblical",
+        "religious"
+      ],
+      "variations": [
+        "ba'al zvuv"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Beelzebub (romanized: ba'al zvuv), lord of flies, biblical demon",
+      "target_type": "individual"
+    },
+    {
+      "word": "עזאזל",
+      "severity": 2,
+      "categories": [
+        "curse",
+        "biblical",
+        "damnation"
+      ],
+      "variations": [
+        "azazel"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Demon/hell (romanized: azazel), biblical scapegoat demon",
+      "target_type": "general"
+    },
+    {
+      "word": "לך לשאול",
+      "severity": 2,
+      "categories": [
+        "curse",
+        "biblical",
+        "damnation"
+      ],
+      "variations": [
+        "lech lish'ol"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Go to Sheol (romanized: lech lish'ol), biblical underworld curse",
+      "target_type": "individual"
+    },
+    {
+      "word": "חרם",
+      "severity": 2,
+      "categories": [
+        "curse",
+        "religious",
+        "social"
+      ],
+      "variations": [
+        "cherem"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Excommunication/ban (romanized: cherem), religious social punishment",
+      "target_type": "individual"
+    },
+    {
+      "word": "נידוי",
+      "severity": 2,
+      "categories": [
+        "curse",
+        "religious",
+        "social"
+      ],
+      "variations": [
+        "niddui"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ostracism (romanized: niddui), religious social exclusion",
+      "target_type": "individual"
+    },
+    {
+      "word": "מחלל שבת",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "religious"
+      ],
+      "variations": [
+        "mekhalel shabbat"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sabbath desecrator (romanized: mekhalel shabbat), religious insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "אפיקורוס",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "religious"
+      ],
+      "variations": [
+        "apikoros"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Heretic (romanized: apikoros), religious insult for non-believer",
+      "target_type": "individual"
+    },
+    {
+      "word": "כופר",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "religious"
+      ],
+      "variations": [
+        "kofer"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Denier/heretic (romanized: kofer), religious insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "חארבן",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "military",
+        "general"
+      ],
+      "variations": [
+        "kharban"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mess/disaster (romanized: kharban), military slang for chaotic situation",
+      "target_type": "general"
+    },
+    {
+      "word": "חרטה",
+      "severity": 2,
+      "categories": [
+        "profanity",
+        "military",
+        "scatological"
+      ],
+      "variations": [
+        "kharta"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Regret/shit situation (romanized: kharta), military slang",
+      "target_type": "general"
+    },
+    {
+      "word": "בלגן",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "general"
+      ],
+      "variations": [
+        "balagan"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mess/chaos (romanized: balagan), from Russian, describes chaotic situation",
+      "target_type": "general"
+    },
+    {
+      "word": "פאדיחה",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "social",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "fadicha",
+        "fadiha"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Embarrassment/shame (Arabic: فضيحة fadiha, romanized: fadicha), from Arabic",
+      "target_type": "general"
+    },
+    {
+      "word": "חרפה",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "social"
+      ],
+      "variations": [
+        "kherpa"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Disgrace (romanized: kherpa), describes shameful situation",
+      "target_type": "general"
+    },
+    {
+      "word": "חרא עליך",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "scatological",
+        "compound",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "khara alekha",
+        "khara aleikha"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Shit on you (Arabic/Hebrew: خرا عليك khara aleik, romanized: khara alekha), strong dismissive insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "יא חרא",
+      "severity": 2,
+      "categories": [
+        "profanity",
+        "scatological",
+        "compound",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "ya khara"
+      ],
+      "case_sensitive": false,
+      "context_notes": "You shit (Arabic: يا خرا ya khara, romanized: ya khara), direct insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "חתיכת חרא",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "scatological",
+        "compound",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "hatikhat khara"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Piece of shit (romanized: hatikhat khara), strong compound insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "כוסמק",
+      "severity": 4,
+      "categories": [
+        "profanity",
+        "sexual",
+        "family_insult",
+        "compound",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "kusemek",
+        "kus emek"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Motherfucker (romanized: kusemek), compound curse combining kus + emek",
+      "target_type": "individual"
+    },
+    {
+      "word": "להרביץ",
+      "severity": 2,
+      "categories": [
+        "violence",
+        "physical_threat"
+      ],
+      "variations": [
+        "leharbitz"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To beat up (romanized: leharbitz), threat of violence",
+      "target_type": "individual"
+    },
+    {
+      "word": "חבט",
+      "severity": 2,
+      "categories": [
+        "violence",
+        "physical_threat"
+      ],
+      "variations": [
+        "khavat"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Bang/hit (romanized: khavat), implies physical violence",
+      "target_type": "individual"
+    },
+    {
+      "word": "לוזר",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "character"
+      ],
+      "variations": [
+        "loser"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Loser (romanized: loser), English loanword",
+      "target_type": "individual"
+    },
+    {
+      "word": "קריפי",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "creepy"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Creepy (romanized: creepy), English loanword",
+      "target_type": "individual"
+    },
+    {
+      "word": "ווירדו",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "weirdo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Weirdo (romanized: weirdo), English loanword",
+      "target_type": "individual"
+    },
+    {
+      "word": "נולייפר",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "social"
+      ],
+      "variations": [
+        "nolifer"
+      ],
+      "case_sensitive": false,
+      "context_notes": "No-lifer (romanized: nolifer), internet slang from English",
+      "target_type": "individual"
+    },
+    {
+      "word": "נרד",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "social"
+      ],
+      "variations": [
+        "nerd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Nerd (romanized: nerd), English loanword",
+      "target_type": "individual"
+    },
+    {
+      "word": "מלכלך",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "behavior"
+      ],
+      "variations": [
+        "melakhlekh"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Dirty/pervert (romanized: melakhlekh), implies sexual deviance",
+      "target_type": "individual"
+    },
+    {
+      "word": "סוטה",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "behavior"
+      ],
+      "variations": [
+        "soteh"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Pervert/deviant (romanized: soteh), describes sexual deviance",
+      "target_type": "individual"
+    },
+    {
+      "word": "סאדיסט",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "behavior"
+      ],
+      "variations": [
+        "sadist"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sadist (romanized: sadist), describes cruel person",
+      "target_type": "individual"
+    },
+    {
+      "word": "פדופיל",
+      "severity": 4,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "extreme_threat",
+        "hate_speech"
+      ],
+      "variations": [
+        "pedophile"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Pedophile (romanized: pedophile), extremely serious accusation",
+      "target_type": "individual"
+    },
+    {
+      "word": "אונס",
+      "severity": 4,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "violence",
+        "extreme_threat"
+      ],
+      "variations": [
+        "ones",
+        "אנס",
+        "anas"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Rapist (romanized: ones/anas), extremely serious accusation",
+      "target_type": "individual"
+    },
+    {
+      "word": "אני אדפוק אותך",
+      "severity": 3,
+      "categories": [
+        "violence",
+        "physical_threat",
+        "compound"
+      ],
+      "variations": [
+        "ani edefok otkha"
+      ],
+      "case_sensitive": false,
+      "context_notes": "I'll fuck you up (romanized: ani edefok otkha), threat of violence",
+      "target_type": "individual"
+    },
+    {
+      "word": "אני אהרוס אותך",
+      "severity": 3,
+      "categories": [
+        "violence",
+        "physical_threat",
+        "compound"
+      ],
+      "variations": [
+        "ani eharos otkha"
+      ],
+      "case_sensitive": false,
+      "context_notes": "I'll destroy you (romanized: ani eharos otkha), threat of violence",
+      "target_type": "individual"
+    },
+    {
+      "word": "אני אשבור לך את הפרצוף",
+      "severity": 4,
+      "categories": [
+        "violence",
+        "physical_threat",
+        "extreme_threat",
+        "compound"
+      ],
+      "variations": [
+        "ani eshbor lekha et hapartzuf"
+      ],
+      "case_sensitive": false,
+      "context_notes": "I'll break your face (romanized: ani eshbor lekha et hapartzuf), extreme threat of violence",
+      "target_type": "individual"
+    },
+    {
+      "word": "אני אעשה לך ת'חיים",
+      "severity": 3,
+      "categories": [
+        "violence",
+        "threat",
+        "compound"
+      ],
+      "variations": [
+        "ani e'ese lekha et hakhayim"
+      ],
+      "case_sensitive": false,
+      "context_notes": "I'll make your life hell (romanized: ani e'ese lekha et hakhayim), threat",
+      "target_type": "individual"
+    },
+    {
+      "word": "תמות",
+      "severity": 4,
+      "categories": [
+        "death_wish",
+        "extreme_threat"
+      ],
+      "variations": [
+        "tamut"
+      ],
+      "case_sensitive": false,
+      "context_notes": "You'll die (romanized: tamut), death wish",
+      "target_type": "individual"
+    },
+    {
+      "word": "מוות",
+      "severity": 3,
+      "categories": [
+        "death_wish",
+        "threat"
+      ],
+      "variations": [
+        "mavet"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Death (romanized: mavet), death reference",
+      "target_type": "general"
+    },
+    {
+      "word": "רוצח",
+      "severity": 3,
+      "categories": [
+        "derogatory",
+        "violence"
+      ],
+      "variations": [
+        "rotzeach"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Murderer (romanized: rotzeach), serious accusation",
+      "target_type": "individual"
+    },
+    {
+      "word": "אלימות",
+      "severity": 2,
+      "categories": [
+        "violence",
+        "threat"
+      ],
+      "variations": [
+        "alimat"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Violence (romanized: alimat), violent behavior reference",
+      "target_type": "general"
+    },
+    {
+      "word": "הרס",
+      "severity": 2,
+      "categories": [
+        "violence",
+        "threat"
+      ],
+      "variations": [
+        "heres"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Destruction (romanized: heres), destructive threat",
+      "target_type": "general"
+    },
+    {
+      "word": "להכות",
+      "severity": 2,
+      "categories": [
+        "violence",
+        "physical_threat"
+      ],
+      "variations": [
+        "lehakot"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To hit (romanized: lehakot), threat of physical violence",
+      "target_type": "individual"
+    },
+    {
+      "word": "להשפיל",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "social",
+        "threat"
+      ],
+      "variations": [
+        "lehashpil"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To humiliate (romanized: lehashpil), threat of humiliation",
+      "target_type": "individual"
+    },
+    {
+      "word": "להוריד",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "social",
+        "threat"
+      ],
+      "variations": [
+        "lehorid"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To take down/humiliate (romanized: lehorid), threat of social degradation",
+      "target_type": "individual"
+    },
+    {
+      "word": "לרסק",
+      "severity": 2,
+      "categories": [
+        "violence",
+        "physical_threat"
+      ],
+      "variations": [
+        "lerasek"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To crush (romanized: lerasek), threat of violence",
+      "target_type": "individual"
+    },
+    {
+      "word": "להרוג",
+      "severity": 4,
+      "categories": [
+        "death_threat",
+        "violence",
+        "extreme_threat"
+      ],
+      "variations": [
+        "laharog"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To kill (romanized: laharog), death threat",
+      "target_type": "individual"
+    },
+    {
+      "word": "להשמיד",
+      "severity": 3,
+      "categories": [
+        "violence",
+        "extreme_threat"
+      ],
+      "variations": [
+        "lehashmid"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To annihilate (romanized: lehashmid), extreme threat",
+      "target_type": "individual"
+    },
+    {
+      "word": "הומוזה",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "homophobic",
+        "slurs"
+      ],
+      "variations": [
+        "homozeh"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur (romanized: homozeh), offensive LGBT slur",
+      "target_type": "individual"
+    },
+    {
+      "word": "מפרפר",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "homophobic",
+        "slurs"
+      ],
+      "variations": [
+        "mefarper"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Butterfly/effeminate (romanized: mefarper), homophobic slur implying effeminacy",
+      "target_type": "individual"
+    },
+    {
+      "word": "נשי",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "gender_slur"
+      ],
+      "variations": [
+        "nashi"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Feminine/womanly (romanized: nashi), used as insult for men",
+      "target_type": "individual"
+    },
+    {
+      "word": "בתולה",
+      "severity": 1,
+      "categories": [
+        "derogatory",
+        "sexual"
+      ],
+      "variations": [
+        "betula"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Virgin (romanized: betula), used as insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "אין לך ביצים",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "compound"
+      ],
+      "variations": [
+        "ein lekha beitsim"
+      ],
+      "case_sensitive": false,
+      "context_notes": "You have no balls (romanized: ein lekha beitsim), implies cowardice",
+      "target_type": "individual"
+    },
+    {
+      "word": "פרוצה",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "gender_slur"
+      ],
+      "variations": [
+        "prutza"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Promiscuous woman (romanized: prutza), derogatory term for women",
+      "target_type": "individual"
+    },
+    {
+      "word": "זונית",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "gender_slur"
+      ],
+      "variations": [
+        "zonit"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Little whore (romanized: zonit), diminutive derogatory term",
+      "target_type": "individual"
+    },
+    {
+      "word": "זנות",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "sexual"
+      ],
+      "variations": [
+        "znut"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Prostitution (romanized: znut), derogatory reference",
+      "target_type": "general"
+    },
+    {
+      "word": "בחורה קלה",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "sexual",
+        "gender_slur",
+        "compound"
+      ],
+      "variations": [
+        "bakhura kala"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Easy girl (romanized: bakhura kala), derogatory term for promiscuous woman",
+      "target_type": "individual"
+    },
+    {
+      "word": "שפירה",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "gender_slur",
+        "intelligence"
+      ],
+      "variations": [
+        "shapira"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Attractive but stupid woman (romanized: shapira), objectifying insult",
+      "target_type": "individual"
+    },
+    {
+      "word": "לך תזדיין במערה",
+      "severity": 3,
+      "categories": [
+        "profanity",
+        "sexual",
+        "compound",
+        "vulgar_command"
+      ],
+      "variations": [
+        "lech tizdayen bame'ara"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Go fuck yourself in a cave (romanized: lech tizdayen bame'ara), enhanced fuck-off",
+      "target_type": "individual"
+    },
+    {
+      "word": "תמות בייסורים",
+      "severity": 4,
+      "categories": [
+        "death_wish",
+        "extreme_threat",
+        "compound"
+      ],
+      "variations": [
+        "tamut beyisurim"
+      ],
+      "case_sensitive": false,
+      "context_notes": "May you die in agony (romanized: tamut beyisurim), extreme death curse",
+      "target_type": "individual"
+    },
+    {
+      "word": "תמות ברעב",
+      "severity": 4,
+      "categories": [
+        "death_wish",
+        "extreme_threat",
+        "compound"
+      ],
+      "variations": [
+        "tamut bara'av"
+      ],
+      "case_sensitive": false,
+      "context_notes": "May you die of hunger (romanized: tamut bara'av), extreme death curse",
+      "target_type": "individual"
+    },
+    {
+      "word": "יהרג נא",
+      "severity": 4,
+      "categories": [
+        "death_wish",
+        "extreme_threat"
+      ],
+      "variations": [
+        "yehareg na"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Let him be killed (romanized: yehareg na), biblical death wish",
+      "target_type": "individual"
+    },
+    {
+      "word": "תעוף מפה",
+      "severity": 2,
+      "categories": [
+        "dismissal",
+        "rude_command",
+        "compound"
+      ],
+      "variations": [
+        "ta'uf mipo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Fly away from here (romanized: ta'uf mipo), dismissive command",
+      "target_type": "individual"
+    },
+    {
+      "word": "לך תחפש",
+      "severity": 1,
+      "categories": [
+        "dismissal",
+        "rude_command"
+      ],
+      "variations": [
+        "lech tekhapes"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Go search/get lost (romanized: lech tekhapes), mild dismissal",
+      "target_type": "individual"
+    },
+    {
+      "word": "תסתלק",
+      "severity": 2,
+      "categories": [
+        "dismissal",
+        "rude_command"
+      ],
+      "variations": [
+        "tistalek"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Get out of here (romanized: tistalek), rude dismissal",
+      "target_type": "individual"
+    },
+    {
+      "word": "תיעלם",
+      "severity": 2,
+      "categories": [
+        "dismissal",
+        "rude_command"
+      ],
+      "variations": [
+        "te'alem"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Disappear (romanized: te'alem), rude dismissal",
+      "target_type": "individual"
+    },
+    {
+      "word": "לך מפה",
+      "severity": 1,
+      "categories": [
+        "dismissal",
+        "rude_command"
+      ],
+      "variations": [
+        "lech mipo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Get out of here (romanized: lech mipo), mild dismissal",
+      "target_type": "individual"
+    },
+    {
+      "word": "לך תמות",
+      "severity": 4,
+      "categories": [
+        "death_wish",
+        "extreme_threat"
+      ],
+      "variations": [
+        "lech tamut"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Go die (romanized: lech tamut), death wish",
+      "target_type": "individual"
+    },
+    {
+      "word": "תיפול מת",
+      "severity": 4,
+      "categories": [
+        "death_wish",
+        "extreme_threat"
+      ],
+      "variations": [
+        "tipol met"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Drop dead (romanized: tipol met), death wish",
+      "target_type": "individual"
+    },
+    {
+      "word": "איזה חרא",
+      "severity": 2,
+      "categories": [
+        "profanity",
+        "scatological",
+        "compound",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "eize khara"
+      ],
+      "case_sensitive": false,
+      "context_notes": "What shit (romanized: eize khara), exclamation of disgust",
+      "target_type": "general"
+    },
+    {
+      "word": "מה זה החרא הזה",
+      "severity": 2,
+      "categories": [
+        "profanity",
+        "scatological",
+        "compound",
+        "arabic_loanword"
+      ],
+      "variations": [
+        "ma ze hakhara haze"
+      ],
+      "case_sensitive": false,
+      "context_notes": "What is this shit (romanized: ma ze hakhara haze), question of disgust",
+      "target_type": "general"
+    },
+    {
+      "word": "לא מעניין אותי",
+      "severity": 1,
+      "categories": [
+        "dismissal",
+        "disrespect",
+        "compound"
+      ],
+      "variations": [
+        "lo me'anyen oti"
+      ],
+      "case_sensitive": false,
+      "context_notes": "I don't care (romanized: lo me'anyen oti), dismissive phrase",
+      "target_type": "general"
+    },
+    {
+      "word": "קללת השם",
+      "severity": 3,
+      "categories": [
+        "curse",
+        "religious",
+        "biblical",
+        "hate_speech"
+      ],
+      "variations": [
+        "klalat hashem"
+      ],
+      "case_sensitive": false,
+      "context_notes": "God's curse (romanized: klalat hashem), severe religious curse",
+      "target_type": "individual"
+    }
+  ]
+} as const
+
+export type HEType = typeof HE

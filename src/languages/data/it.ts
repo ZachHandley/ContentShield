@@ -1,0 +1,4161 @@
+/**
+ * Italian profanity data
+ * Auto-generated from JSON files - DO NOT EDIT MANUALLY
+ *
+ * Language: Italian
+ * Version: 1.0.0
+ * Last Updated: 2025-09-30
+ * Total Entries: 229
+ */
+
+export const IT = {
+  "metadata": {
+    "name": "Italian",
+    "code": "it",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-30",
+    "wordCount": 229
+  },
+  "words": [
+    {
+      "word": "ammucchiata",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "@mmucchi@t@",
+        "ammucch1ata"
+      ],
+      "case_sensitive": false,
+      "context_notes": "orgy",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "arrapante",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "@rr@p@nte",
+        "arrapant3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "sexy/arousing",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "arrapare",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "@rr@p@re",
+        "arrapar3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to sexually arouse",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "arrapata",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "@rr@p@t@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "sexually aroused/horny (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "arrapato",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "@rr@p@to",
+        "arrapat0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "sexually aroused/horny (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "asino",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "@sino",
+        "asin0",
+        "as1no"
+      ],
+      "case_sensitive": false,
+      "context_notes": "donkey/ass - mild insult",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "bagascia",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "b@g@sci@",
+        "bagasc1a"
+      ],
+      "case_sensitive": false,
+      "context_notes": "whore/prostitute",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "baldracca",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "b@ldr@cc@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "whore/slut",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "bastarda",
+      "severity": 1,
+      "categories": [
+        "slurs"
+      ],
+      "variations": [
+        "b@st@rd@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "bastard (feminine)",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "bastardo",
+      "severity": 2,
+      "categories": [
+        "general",
+        "slurs"
+      ],
+      "variations": [
+        "bast@rdo",
+        "bstrd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Bastard, moderately offensive general insult",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "battona",
+      "severity": 3,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "b@tton@",
+        "batt0na"
+      ],
+      "case_sensitive": false,
+      "context_notes": "prostitute/hooker",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "bernarda",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "bern@rd@",
+        "b3rnarda"
+      ],
+      "case_sensitive": false,
+      "context_notes": "prostitute - slang",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "bocchinara",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "bocchin@r@",
+        "b0cchinara",
+        "bocch1nara"
+      ],
+      "case_sensitive": false,
+      "context_notes": "one who gives blowjobs",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "bocchino",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "b0cchin0",
+        "bocch1no"
+      ],
+      "case_sensitive": false,
+      "context_notes": "blowjob",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "buco del culo",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "asshole",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "busone",
+      "severity": 1,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "bus0ne",
+        "buson3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "faggot - regional",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cacare",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "c@c@re",
+        "cacar3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to shit",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cacasotto",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "c@c@sotto",
+        "cacas0tt0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "coward/scaredy-cat",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cacca",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "c@cc@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "poop - mild/childish",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cagare",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "c@g@re",
+        "cagar3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to shit",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cagata",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "c@g@t@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "crap/bullshit",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cane",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "c@ne",
+        "can3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "dog - used in blasphemy",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cazz",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "c@zz"
+      ],
+      "case_sensitive": false,
+      "context_notes": "cazzo abbreviation",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cazzata",
+      "severity": 2,
+      "categories": [
+        "scatological",
+        "slurs"
+      ],
+      "variations": [
+        "c@zz@t@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "bullshit/stupid thing",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cazzi tuoi",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "your problem/none of your business",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cazzo",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts",
+        "general"
+      ],
+      "variations": [
+        "c@zz0",
+        "cazz0",
+        "czz"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Very common Italian profanity, used as exclamation and body part reference",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cazzo vuoi",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "what the fuck do you want",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cazzone",
+      "severity": 2,
+      "categories": [
+        "body_parts",
+        "slurs"
+      ],
+      "variations": [
+        "c@zzone",
+        "cazz0ne",
+        "cazzon3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "big dick/idiot",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cazzuta",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "c@zzut@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "ballsy/tough (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cazzuto",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "c@zzuto",
+        "cazzut0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "ballsy/tough (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "che cazzo",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "what the fuck",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "checca",
+      "severity": 1,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "checc@",
+        "ch3cca"
+      ],
+      "case_sensitive": false,
+      "context_notes": "faggot/effeminate gay man",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "chiappa",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "chi@pp@",
+        "ch1appa"
+      ],
+      "case_sensitive": false,
+      "context_notes": "butt cheek",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "chiavare",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "chi@v@re",
+        "ch1avare",
+        "chiavar3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to fuck - literally \"to key\"",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "chiavata",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "chi@v@t@",
+        "ch1avata"
+      ],
+      "case_sensitive": false,
+      "context_notes": "a fuck/screw",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "ciuccio",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "ciucci0",
+        "c1ucc1o"
+      ],
+      "case_sensitive": false,
+      "context_notes": "pacifier/sucker - insult",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "ciula",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "ciul@",
+        "c1ula"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to fuck - regional",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "ciulare",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "ciul@re",
+        "c1ulare",
+        "ciular3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to fuck - regional",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "coglionare",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "coglion@re",
+        "c0gli0nare",
+        "cogl1onare"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to make fun of/trick",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "coglione",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts",
+        "slurs"
+      ],
+      "variations": [
+        "cogli0ne",
+        "cgln"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Testicle, also means idiot, moderately offensive",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "coglioni",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "c0gli0ni",
+        "cogl1on1"
+      ],
+      "case_sensitive": false,
+      "context_notes": "balls/testicles",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cojones",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "c0j0nes",
+        "cojon3s"
+      ],
+      "case_sensitive": false,
+      "context_notes": "balls - from Spanish",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cornuta",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "cornut@",
+        "c0rnuta"
+      ],
+      "case_sensitive": false,
+      "context_notes": "cuckold - very insulting (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": true
+    },
+    {
+      "word": "cornuto",
+      "severity": 2,
+      "categories": [
+        "general",
+        "slurs"
+      ],
+      "variations": [
+        "corn*to",
+        "crnt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Cuckold, implies wife's infidelity, often with hand gesture",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": true
+    },
+    {
+      "word": "cretina",
+      "severity": 1,
+      "categories": [
+        "slurs"
+      ],
+      "variations": [
+        "cretin@",
+        "cret1na",
+        "cr3tina"
+      ],
+      "case_sensitive": false,
+      "context_notes": "cretin/moron (feminine)",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cretino",
+      "severity": 1,
+      "categories": [
+        "general",
+        "slurs"
+      ],
+      "variations": [
+        "cr3tino",
+        "crtn"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Cretin/idiot, mild insult",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "cristo",
+      "severity": 2,
+      "categories": [
+        "religious",
+        "general"
+      ],
+      "variations": [
+        "cr1sto",
+        "crst"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Christ, used as exclamation, religious sensitivity varies",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "crucco",
+      "severity": 1,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "racial"
+      ],
+      "variations": [
+        "crucc0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "kraut - offensive for Germans",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "culo",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "cul0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "ass/butt",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "deficiente",
+      "severity": 1,
+      "categories": [
+        "slurs"
+      ],
+      "variations": [
+        "def1c1ente",
+        "d3fici3nt3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "retard/moron - ableist",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "dio",
+      "severity": 1,
+      "categories": [
+        "religious"
+      ],
+      "variations": [
+        "di0",
+        "d1o"
+      ],
+      "case_sensitive": false,
+      "context_notes": "God - used in blasphemy",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "dio boia",
+      "severity": 4,
+      "categories": [
+        "religious"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "God executioner - blasphemy",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "dio cane",
+      "severity": 3,
+      "categories": [
+        "religious",
+        "blasphemy"
+      ],
+      "variations": [
+        "di0 cane",
+        "diocn"
+      ],
+      "case_sensitive": false,
+      "context_notes": "God dog, serious religious blasphemy",
+      "target_type": "general",
+      "regions": [
+        "northern_italy",
+        "central_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "dio merda",
+      "severity": 4,
+      "categories": [
+        "religious",
+        "scatological"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "God shit - extreme blasphemy",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "dio porco",
+      "severity": 4,
+      "categories": [
+        "religious"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "pig God - variant",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "e che cazzo",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "for fuck's sake",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "fancazzista",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "f@nc@zzist@",
+        "fancazz1sta"
+      ],
+      "case_sensitive": false,
+      "context_notes": "slacker/lazy person",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "fanculo",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "general"
+      ],
+      "variations": [
+        "f@nculo",
+        "fnc"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Fuck off, often accompanied by hand gesture",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": true
+    },
+    {
+      "word": "fare schifo",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "to suck/be disgusting",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "fica",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "f1ca",
+        "f*ca",
+        "fca"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Vulgar term for female genitalia, also used as positive adjective",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "figa",
+      "severity": 3,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "fig@",
+        "f1ga"
+      ],
+      "case_sensitive": false,
+      "context_notes": "pussy/cunt - also \"cool\"",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "figlio",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "figli0",
+        "f1gl1o"
+      ],
+      "case_sensitive": false,
+      "context_notes": "son/daughter of a whore",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "figlio di puttana",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "slurs"
+      ],
+      "variations": [
+        "fdp",
+        "figlio d puttana"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Son of a whore, very offensive compound insult",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "figlio di troia",
+      "severity": 3,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "son of a bitch",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "figlio/a di mignotta",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "son/daughter of a whore",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "figlio/a di puttana",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "son/daughter of a whore",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "figlio/a di troia",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "son/daughter of a bitch",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "finocchio",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "fin0cchio",
+        "fnch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur meaning fennel, very offensive",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "fottere",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "f0ttere",
+        "fott3r3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to fuck/screw over",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "fottuta",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "fottut@",
+        "f0ttuta"
+      ],
+      "case_sensitive": false,
+      "context_notes": "fucked (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "fottuto",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "f0ttut0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "fucked (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "frega",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "freg@",
+        "fr3ga"
+      ],
+      "case_sensitive": false,
+      "context_notes": "fuck/screw - from fregare",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "fregare",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "freg@re",
+        "fr3gar3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to fuck/cheat/steal",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "frocio",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "fr0cio",
+        "froc"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homophobic slur, extremely offensive to LGBTQ+ community",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "froscio",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "fr0sci0",
+        "frosc1o"
+      ],
+      "case_sensitive": false,
+      "context_notes": "faggot - variant",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "gas",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "g@s"
+      ],
+      "case_sensitive": false,
+      "context_notes": "cool/awesome - can be vulgar context",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "gesù",
+      "severity": 2,
+      "categories": [
+        "religious",
+        "general"
+      ],
+      "variations": [
+        "ges*",
+        "gs"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Jesus, used as exclamation, religious sensitivity varies",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "giuda",
+      "severity": 1,
+      "categories": [
+        "religious"
+      ],
+      "variations": [
+        "giud@",
+        "g1uda"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Judas - mild religious curse",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "idiota",
+      "severity": 1,
+      "categories": [
+        "general",
+        "slurs"
+      ],
+      "variations": [
+        "1diota",
+        "idt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Idiot, universal mild insult",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "imbecille",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "1mbec1lle",
+        "imb3cill3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "imbecile",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "incazzare",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "inc@zz@re",
+        "1ncazzare",
+        "incazzar3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to piss off/get angry",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "incazzata",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "inc@zz@t@",
+        "1ncazzata"
+      ],
+      "case_sensitive": false,
+      "context_notes": "pissed off/angry (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "incazzato",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "inc@zz@to",
+        "incazzat0",
+        "1ncazzato"
+      ],
+      "case_sensitive": false,
+      "context_notes": "pissed off/angry (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "inchiappettare",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "inchi@ppett@re",
+        "1nch1appettare",
+        "inchiapp3ttar3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to buttfuck",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "inculare",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "body_parts"
+      ],
+      "variations": [
+        "incul@re",
+        "1nculare",
+        "incular3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to buttfuck/screw over",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "inculata",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "incul@t@",
+        "1nculata"
+      ],
+      "case_sensitive": false,
+      "context_notes": "fucked/screwed (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "inculato",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "incul@to",
+        "inculat0",
+        "1nculato"
+      ],
+      "case_sensitive": false,
+      "context_notes": "fucked/screwed (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "ladra",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "l@dr@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "thief - can be insulting (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "ladro",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "l@dro",
+        "ladr0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "thief - can be insulting (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "leccaculo",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "lecc@culo",
+        "leccacul0",
+        "l3ccaculo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "ass-licker/brown-noser",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "lecchina",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "lecchin@",
+        "lecch1na",
+        "l3cchina"
+      ],
+      "case_sensitive": false,
+      "context_notes": "ass-kisser/brown-noser (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "lecchino",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "lecchin0",
+        "lecch1no",
+        "l3cchino"
+      ],
+      "case_sensitive": false,
+      "context_notes": "ass-kisser/brown-noser (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "ma che cazzo",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "what the hell",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "madonna",
+      "severity": 2,
+      "categories": [
+        "religious",
+        "general"
+      ],
+      "variations": [
+        "madonn@",
+        "mdonna"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Virgin Mary reference, severity varies by religious context and region",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "madonna maiala",
+      "severity": 3,
+      "categories": [
+        "religious"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Virgin Mary pig - blasphemy",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "madonna puttana",
+      "severity": 3,
+      "categories": [
+        "religious",
+        "sexual"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Virgin Mary whore - blasphemy",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "maiale",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "m@i@le",
+        "ma1ale",
+        "maial3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "pig - insult",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "malata",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "m@l@t@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "sick/crazy - offensive (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "malato",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "m@l@to",
+        "malat0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "sick/crazy - offensive (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "malnata",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "m@ln@t@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "poorly born/scumbag (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "malnato",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "m@ln@to",
+        "malnat0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "poorly born/scumbag (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "mammone",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "m@mmone",
+        "mamm0ne",
+        "mammon3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "mama's boy",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "manico",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "m@nico",
+        "manic0",
+        "man1co"
+      ],
+      "case_sensitive": false,
+      "context_notes": "handle/dick - slang",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "mannaggia",
+      "severity": 1,
+      "categories": [
+        "general",
+        "religious"
+      ],
+      "variations": [
+        "mannaggi@",
+        "mnggia"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Damn, mild curse often euphemism for stronger religious profanity",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "marocchino",
+      "severity": 1,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "racial"
+      ],
+      "variations": [
+        "m@rocchino",
+        "mar0cchin0",
+        "marocch1no"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Moroccan - can be ethnic slur",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "mazza",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "m@zz@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "club/dick - slang",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "merda",
+      "severity": 2,
+      "categories": [
+        "general",
+        "scatological"
+      ],
+      "variations": [
+        "m3rda",
+        "merd@",
+        "mrd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Universal Italian profanity, equivalent to 'shit'",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "merdaccia",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "merd@cci@",
+        "merdacc1a",
+        "m3rdaccia"
+      ],
+      "case_sensitive": false,
+      "context_notes": "piece of shit - augmentative",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "merdaiola",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "merd@iol@",
+        "merdai0la",
+        "merda1ola"
+      ],
+      "case_sensitive": false,
+      "context_notes": "shitty person (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "merdaiolo",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "merd@iolo",
+        "merdai0l0",
+        "merda1olo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "shitty person (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "merdosa",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "merdos@",
+        "merd0sa",
+        "m3rdosa"
+      ],
+      "case_sensitive": false,
+      "context_notes": "shitty (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "merdoso",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "merd0s0",
+        "m3rdoso"
+      ],
+      "case_sensitive": false,
+      "context_notes": "shitty (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "mignotta",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "mignott@",
+        "mign0tta",
+        "m1gnotta"
+      ],
+      "case_sensitive": false,
+      "context_notes": "whore",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "minchia",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "body_parts",
+        "general"
+      ],
+      "variations": [
+        "m1nchia",
+        "mnch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sicilian for penis, also general exclamation",
+      "target_type": "general",
+      "regions": [
+        "sicily",
+        "southern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "minchione",
+      "severity": 1,
+      "categories": [
+        "slurs"
+      ],
+      "variations": [
+        "minchi0ne",
+        "m1nch1one",
+        "minchion3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "idiot - from minchia",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "mona",
+      "severity": 3,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "mon@",
+        "m0na"
+      ],
+      "case_sensitive": false,
+      "context_notes": "pussy - Venetian, Northern Italy",
+      "target_type": "general",
+      "regions": [
+        "northern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "mortacci tua",
+      "severity": 2,
+      "categories": [
+        "slurs"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "your dead relatives - Southern insult, Southern Italy",
+      "target_type": "individual",
+      "regions": [
+        "southern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "muori male",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "die badly - curse",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "negra",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "racial"
+      ],
+      "variations": [
+        "negr@",
+        "n3gra"
+      ],
+      "case_sensitive": false,
+      "context_notes": "negro - racial slur (feminine)",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "negro",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "racial"
+      ],
+      "variations": [
+        "n3gro",
+        "negr0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Racial slur, extremely offensive and inappropriate",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "omosessuale",
+      "severity": 1,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "omosessu@le",
+        "0m0sessuale",
+        "omos3ssual3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "homosexual - can be derogatory context",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "ostia",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "osti@",
+        "0stia",
+        "ost1a"
+      ],
+      "case_sensitive": false,
+      "context_notes": "host - religious, mild curse",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "palle",
+      "severity": 2,
+      "categories": [
+        "body_parts",
+        "scatological"
+      ],
+      "variations": [
+        "p@lle",
+        "pall3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "balls/lies/bullshit",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pallosa",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p@llos@",
+        "pall0sa"
+      ],
+      "case_sensitive": false,
+      "context_notes": "boring/ball-breaking (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "palloso",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p@lloso",
+        "pall0s0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "boring/ball-breaking (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "panico",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "p@nico",
+        "panic0",
+        "pan1co"
+      ],
+      "case_sensitive": false,
+      "context_notes": "panic/balls - slang",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "parac",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "p@r@c"
+      ],
+      "case_sensitive": false,
+      "context_notes": "balls - Milanese dialect, Northern Italy",
+      "target_type": "general",
+      "regions": [
+        "northern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "patacca",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p@t@cc@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "worthless thing/fake",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pecorina",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pecorin@",
+        "pec0rina",
+        "pecor1na"
+      ],
+      "case_sensitive": false,
+      "context_notes": "doggy style position",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pezzo di merda",
+      "severity": 3,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "piece of shit",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pia",
+      "severity": 3,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "pi@",
+        "p1a"
+      ],
+      "case_sensitive": false,
+      "context_notes": "pussy - regional slang",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "piaga",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pi@g@",
+        "p1aga"
+      ],
+      "case_sensitive": false,
+      "context_notes": "pain/annoying person",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "picio",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "pici0",
+        "p1c1o"
+      ],
+      "case_sensitive": false,
+      "context_notes": "dick - Tuscan, Central Italy",
+      "target_type": "general",
+      "regions": [
+        "central_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pipì",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "p1pì"
+      ],
+      "case_sensitive": false,
+      "context_notes": "pee - childish",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pippa",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pipp@",
+        "p1ppa"
+      ],
+      "case_sensitive": false,
+      "context_notes": "wank/masturbation",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pippone",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "pipp0ne",
+        "p1ppone",
+        "pippon3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "long boring speech/wanker",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pirla",
+      "severity": 1,
+      "categories": [
+        "general",
+        "slurs"
+      ],
+      "variations": [
+        "p1rla",
+        "prl"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Northern Italian for idiot/fool, mild insult",
+      "target_type": "individual",
+      "regions": [
+        "northern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pisciare",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "pisci@re",
+        "p1sc1are",
+        "pisciar3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to piss",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "piscio",
+      "severity": 1,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "pisci0",
+        "p1sc1o"
+      ],
+      "case_sensitive": false,
+      "context_notes": "piss",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pisello",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "pisell0",
+        "p1sello",
+        "pis3llo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "pea/little dick - childish",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "polentone",
+      "severity": 3,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "regional"
+      ],
+      "variations": [
+        "pol3ntone",
+        "plntn"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Regional slur against Northern Italians, moderately offensive",
+      "target_type": "group",
+      "regions": [
+        "southern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pompino",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p0mpin0",
+        "pomp1no"
+      ],
+      "case_sensitive": false,
+      "context_notes": "blowjob",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "porca",
+      "severity": 2,
+      "categories": [
+        "general",
+        "religious"
+      ],
+      "variations": [
+        "p0rca",
+        "porc@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Sow/pig, often used in religious expletives 'porca madonna'",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "porca madonna",
+      "severity": 3,
+      "categories": [
+        "religious",
+        "general"
+      ],
+      "variations": [
+        "porca mdonna",
+        "porco madonna"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Very offensive religious blasphemy, pig Virgin Mary",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "porca miseria",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "pig misery - mild curse",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "porca puttana",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "pig whore - strong curse",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "porca troia",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "pig whore - variant",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "porco",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "p0rc0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "pig/swine",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "porco cristo",
+      "severity": 3,
+      "categories": [
+        "religious"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "pig Christ",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "porco dio",
+      "severity": 4,
+      "categories": [
+        "religious",
+        "blasphemy"
+      ],
+      "variations": [
+        "porc0 dio",
+        "prcdio"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Pig God, extremely offensive religious blasphemy",
+      "target_type": "general",
+      "regions": [
+        "northern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "porco giuda",
+      "severity": 3,
+      "categories": [
+        "religious"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "pig Judas - moderate curse",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "potta",
+      "severity": 3,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "pott@",
+        "p0tta"
+      ],
+      "case_sensitive": false,
+      "context_notes": "pussy - Northern dialect, Northern Italy",
+      "target_type": "general",
+      "regions": [
+        "northern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pugnetta",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pugnett@",
+        "pugn3tta"
+      ],
+      "case_sensitive": false,
+      "context_notes": "handjob/wank",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "pula",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "pul@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "police/cops - mildly offensive",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "puttana",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "slurs"
+      ],
+      "variations": [
+        "putt@na",
+        "ptna",
+        "troia"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Whore, highly offensive when targeting women",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "puttanata",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "scatological"
+      ],
+      "variations": [
+        "putt@n@t@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "bullshit/whore thing",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "puttanella",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "putt@nell@",
+        "puttan3lla"
+      ],
+      "case_sensitive": false,
+      "context_notes": "little whore",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "puttaniere",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "putt@niere",
+        "puttan1ere",
+        "puttani3r3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "whoremonger/john",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "quaglia",
+      "severity": 1,
+      "categories": [
+        "slurs"
+      ],
+      "variations": [
+        "qu@gli@",
+        "quagl1a"
+      ],
+      "case_sensitive": false,
+      "context_notes": "quail/idiot - Tuscan, Central Italy",
+      "target_type": "individual",
+      "regions": [
+        "central_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "recchione",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "recchi0ne",
+        "recch1one",
+        "r3cchion3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "faggot - Southern dialect, Southern Italy",
+      "target_type": "individual",
+      "regions": [
+        "southern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "ricchione",
+      "severity": 4,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "lgbtq"
+      ],
+      "variations": [
+        "ricchi0ne",
+        "r1cch1one",
+        "ricchion3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "faggot - variant spelling, Southern Italy",
+      "target_type": "individual",
+      "regions": [
+        "southern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "rincoglionire",
+      "severity": 1,
+      "categories": [
+        "slurs"
+      ],
+      "variations": [
+        "rinc0gli0nire",
+        "r1ncogl1on1re",
+        "rincoglionir3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to become senile/stupid",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "rincoglionita",
+      "severity": 1,
+      "categories": [
+        "slurs"
+      ],
+      "variations": [
+        "rincoglionit@",
+        "rinc0gli0nita",
+        "r1ncogl1on1ta"
+      ],
+      "case_sensitive": false,
+      "context_notes": "senile/stupid (feminine)",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "rincoglionito",
+      "severity": 1,
+      "categories": [
+        "slurs"
+      ],
+      "variations": [
+        "rinc0gli0nit0",
+        "r1ncogl1on1to"
+      ],
+      "case_sensitive": false,
+      "context_notes": "senile/stupid (masculine)",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "rompiballe",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "rompib@lle",
+        "r0mpiballe",
+        "romp1balle"
+      ],
+      "case_sensitive": false,
+      "context_notes": "ball-breaker/annoying",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "rompicazzo",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "rompic@zzo",
+        "r0mpicazz0",
+        "romp1cazzo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "dick-breaker/annoying",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "rompicoglioni",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "r0mpic0gli0ni",
+        "romp1cogl1on1"
+      ],
+      "case_sensitive": false,
+      "context_notes": "ball-breaker/pain",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "rompipalle",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "rompip@lle",
+        "r0mpipalle",
+        "romp1palle"
+      ],
+      "case_sensitive": false,
+      "context_notes": "ball-breaker - variant",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "ruffiana",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "ruffi@n@",
+        "ruff1ana"
+      ],
+      "case_sensitive": false,
+      "context_notes": "brown-noser/suck-up (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "ruffiano",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "ruffi@no",
+        "ruffian0",
+        "ruff1ano"
+      ],
+      "case_sensitive": false,
+      "context_notes": "brown-noser/suck-up (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "samba",
+      "severity": 1,
+      "categories": [
+        "slurs"
+      ],
+      "variations": [
+        "s@mb@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "samba/idiot - Milanese, Northern Italy",
+      "target_type": "individual",
+      "regions": [
+        "northern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "sbattersi",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "sb@ttersi",
+        "sbatters1",
+        "sbatt3rsi"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to not give a fuck",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "sborra",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sborr@",
+        "sb0rra"
+      ],
+      "case_sensitive": false,
+      "context_notes": "cum/jizz",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "sborrata",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sborr@t@",
+        "sb0rrata"
+      ],
+      "case_sensitive": false,
+      "context_notes": "cumshot",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "sborrone",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sb0rr0ne",
+        "sborron3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "big cumshot/jerk",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "scassacazzo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sc@ss@c@zzo",
+        "scassacazz0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "ball-breaker",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "scema",
+      "severity": 1,
+      "categories": [
+        "slurs"
+      ],
+      "variations": [
+        "scem@",
+        "sc3ma"
+      ],
+      "case_sensitive": false,
+      "context_notes": "stupid/fool (feminine)",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "scemo",
+      "severity": 1,
+      "categories": [
+        "general",
+        "slurs"
+      ],
+      "variations": [
+        "sc3mo",
+        "scm"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Stupid/fool, mild insult often used affectionately",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "schifo",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "schif0",
+        "sch1fo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "disgusting/shit",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "schifosa",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "schifos@",
+        "schif0sa",
+        "sch1fosa"
+      ],
+      "case_sensitive": false,
+      "context_notes": "disgusting/gross (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "schifoso",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "schif0s0",
+        "sch1foso"
+      ],
+      "case_sensitive": false,
+      "context_notes": "disgusting/gross (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "scopare",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "scop@re",
+        "sc0pare",
+        "scopar3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to fuck - literally \"to sweep\"",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "scopata",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "scop@t@",
+        "sc0pata"
+      ],
+      "case_sensitive": false,
+      "context_notes": "a fuck/screw",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "sega",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "seg@",
+        "s3ga"
+      ],
+      "case_sensitive": false,
+      "context_notes": "saw/handjob/wank",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "segaiolo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "seg@iolo",
+        "segai0l0",
+        "sega1olo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "chronic masturbator",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "segarsi",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "seg@rsi",
+        "segars1",
+        "s3garsi"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to jerk off",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "sfigata",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sfig@t@",
+        "sf1gata"
+      ],
+      "case_sensitive": false,
+      "context_notes": "unlucky/loser (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "sfigato",
+      "severity": 1,
+      "categories": [
+        "general",
+        "slurs"
+      ],
+      "variations": [
+        "sfig@to",
+        "sfgt"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Unlucky person/loser, mild to moderate insult",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "sfigatone",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "sfig@tone",
+        "sfigat0ne",
+        "sf1gatone"
+      ],
+      "case_sensitive": false,
+      "context_notes": "big loser",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "sorca",
+      "severity": 3,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "sorc@",
+        "s0rca"
+      ],
+      "case_sensitive": false,
+      "context_notes": "mouse/pussy - Milanese, Northern Italy",
+      "target_type": "general",
+      "regions": [
+        "northern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "stocazzo",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "stoc@zzo",
+        "st0cazz0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "this dick - compound curse",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "stonzo",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "st0nz0"
+      ],
+      "case_sensitive": false,
+      "context_notes": "variant of stronzo",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "strafottente",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "str@fottente",
+        "straf0ttente",
+        "strafott3nt3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "arrogant/not giving a fuck",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "strafottere",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "str@fottere",
+        "straf0ttere",
+        "strafott3r3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to not give a fuck",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "stronza",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "stronz@",
+        "str0nza"
+      ],
+      "case_sensitive": false,
+      "context_notes": "female turd/bitch",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "stronzata",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "stronz@t@",
+        "str0nzata"
+      ],
+      "case_sensitive": false,
+      "context_notes": "bullshit/crap",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "stronzetta",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "stronzett@",
+        "str0nzetta",
+        "stronz3tta"
+      ],
+      "case_sensitive": false,
+      "context_notes": "little shit (feminine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "stronzetto",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [
+        "str0nzett0",
+        "stronz3tto"
+      ],
+      "case_sensitive": false,
+      "context_notes": "little shit (masculine)",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "stronzo",
+      "severity": 2,
+      "categories": [
+        "general",
+        "slurs"
+      ],
+      "variations": [
+        "str0nz0",
+        "strnz"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Piece of shit, common insult meaning asshole",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "stronzone",
+      "severity": 2,
+      "categories": [
+        "body_parts",
+        "slurs"
+      ],
+      "variations": [
+        "str0nz0ne",
+        "stronzon3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "big asshole",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "terrona",
+      "severity": 1,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "regional"
+      ],
+      "variations": [
+        "terron@",
+        "terr0na",
+        "t3rrona"
+      ],
+      "case_sensitive": false,
+      "context_notes": "peasant - offensive to Southern Italians (feminine), Southern Italy",
+      "target_type": "individual",
+      "regions": [
+        "southern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "terrone",
+      "severity": 3,
+      "categories": [
+        "hate_speech",
+        "slurs",
+        "regional"
+      ],
+      "variations": [
+        "terr0ne",
+        "trrn"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Regional slur against Southern Italians, very offensive",
+      "target_type": "group",
+      "regions": [
+        "northern_italy",
+        "central_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "testa di cazzo",
+      "severity": 3,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "dickhead",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "testa di cazzo/minchia",
+      "severity": 3,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "dickhead, Sicilian",
+      "target_type": "individual",
+      "regions": [
+        "sicily",
+        "southern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "testa di minchia",
+      "severity": 3,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "dickhead - Sicilian, Sicilian",
+      "target_type": "individual",
+      "regions": [
+        "sicily",
+        "southern_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "tette",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "t3tt3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "tits/boobs",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "tettone",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "tett0ne",
+        "t3tton3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "big tits",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "tizio",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "tizi0",
+        "t1z1o"
+      ],
+      "case_sensitive": false,
+      "context_notes": "guy/random person - mildly dismissive",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "troia",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "slurs"
+      ],
+      "variations": [
+        "tr01a",
+        "tr*ia"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Slut/whore, very offensive to women, from Troy reference",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "troiata",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "scatological"
+      ],
+      "variations": [
+        "troi@t@",
+        "tr0iata",
+        "tro1ata"
+      ],
+      "case_sensitive": false,
+      "context_notes": "slutty thing/bullshit",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "troietta",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "troiett@",
+        "tr0ietta",
+        "tro1etta"
+      ],
+      "case_sensitive": false,
+      "context_notes": "little whore",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "troione",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "tr0i0ne",
+        "tro1one",
+        "troion3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "big whore",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "trombare",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "tromb@re",
+        "tr0mbare",
+        "trombar3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "to fuck - literally \"to trumpet\"",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "trombata",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "tromb@t@",
+        "tr0mbata"
+      ],
+      "case_sensitive": false,
+      "context_notes": "a fuck",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "trombone",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "slurs"
+      ],
+      "variations": [
+        "tr0mb0ne",
+        "trombon3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "big fuck/idiot",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "trombonista",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "trombonist@",
+        "tr0mb0nista",
+        "trombon1sta"
+      ],
+      "case_sensitive": false,
+      "context_notes": "one who fucks around",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "uccello",
+      "severity": 2,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "uccell0",
+        "ucc3llo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "bird/dick",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "vacca",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "v@cc@"
+      ],
+      "case_sensitive": false,
+      "context_notes": "cow/bitch",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "vaffanculo",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "general"
+      ],
+      "variations": [
+        "vaff@nculo",
+        "vfnc",
+        "fanculo"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Go fuck yourself, very common strong insult",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": true
+    },
+    {
+      "word": "vaffanculo a chi t'è morto",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "fuck your dead relatives",
+      "target_type": "individual",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": true
+    },
+    {
+      "word": "vai a cagare",
+      "severity": 2,
+      "categories": [
+        "scatological"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "go shit yourself",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "vai a farti fottere",
+      "severity": 2,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "go get fucked",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "vai a morì ammazzato",
+      "severity": 2,
+      "categories": [
+        "general"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "go die murdered - Roman, Central Italy/Roman",
+      "target_type": "general",
+      "regions": [
+        "central_italy"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "verme",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "v3rm3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "worm/lowlife",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "zinna",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "zinn@",
+        "z1nna"
+      ],
+      "case_sensitive": false,
+      "context_notes": "tit - archaic/regional",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "zinne",
+      "severity": 1,
+      "categories": [
+        "body_parts"
+      ],
+      "variations": [
+        "z1nne",
+        "zinn3"
+      ],
+      "case_sensitive": false,
+      "context_notes": "tits - plural",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "zio",
+      "severity": 1,
+      "categories": [
+        "general"
+      ],
+      "variations": [
+        "zi0",
+        "z1o"
+      ],
+      "case_sensitive": false,
+      "context_notes": "uncle - can be offensive in some contexts",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "zoccola",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "zoccol@",
+        "z0cc0la"
+      ],
+      "case_sensitive": false,
+      "context_notes": "rat/slut/whore",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    },
+    {
+      "word": "zoccoletta",
+      "severity": 3,
+      "categories": [
+        "sexual"
+      ],
+      "variations": [
+        "zoccolett@",
+        "z0cc0letta",
+        "zoccol3tta"
+      ],
+      "case_sensitive": false,
+      "context_notes": "little slut",
+      "target_type": "general",
+      "regions": [
+        "all"
+      ],
+      "gesture_related": false
+    }
+  ]
+} as const
+
+export type ITType = typeof IT

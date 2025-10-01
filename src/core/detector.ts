@@ -44,15 +44,35 @@ export class NaughtyWordsDetector {
   async initialize(dataPath?: string): Promise<void> {
     if (this.isInitialized) return
 
-    // Resolve data path relative to package location
-    const basePath = dataPath || path.join(process.cwd(), 'data', 'languages')
+    // If languageData is provided in config, use it directly (static imports)
+    if (this.config.languageData) {
+      const loadPromises = this.config.languages
+        .filter(lang => lang !== 'auto')
+        .map(async (lang) => {
+          const langCode = lang as LanguageCode
+          const langData = this.config.languageData?.[langCode]
 
-    // Load language data for each configured language
-    const loadPromises = this.config.languages
-      .filter(lang => lang !== 'auto')
-      .map(lang => this.loadLanguageData(lang as LanguageCode, basePath))
+          if (langData) {
+            // StaticLanguageData has a 'words' array ready to use
+            const words = langData.words || []
+            await this.matcher.loadLanguage(langCode, words)
+          } else {
+            console.warn(`Language data for ${langCode} not found in languageData config`)
+          }
+        })
 
-    await Promise.all(loadPromises)
+      await Promise.all(loadPromises)
+    } else {
+      // Resolve data path relative to package location
+      const basePath = dataPath || path.join(process.cwd(), 'data', 'languages')
+
+      // Load language data for each configured language
+      const loadPromises = this.config.languages
+        .filter(lang => lang !== 'auto')
+        .map(lang => this.loadLanguageData(lang as LanguageCode, basePath))
+
+      await Promise.all(loadPromises)
+    }
 
     // Add custom words if any
     if (this.config.customWords.length > 0) {
@@ -423,7 +443,8 @@ export class NaughtyWordsDetector {
       whitelist: this.config.whitelist,
       contextAware: true,
       minWordLength: 2,
-      maxEditDistance: Math.max(1, Math.floor(this.config.fuzzyThreshold * 3))
+      // Conservative edit distance: max 1 for high threshold (0.8), max 2 for lower thresholds
+      maxEditDistance: this.config.fuzzyThreshold >= 0.8 ? 1 : Math.max(1, Math.floor(this.config.fuzzyThreshold * 3))
     }
   }
 

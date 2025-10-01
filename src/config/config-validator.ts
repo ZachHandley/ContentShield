@@ -3,9 +3,9 @@
  * Ensures all configuration options are valid and safe
  */
 
-import type { DetectorConfig, AnalysisOptions, LanguageCode, CustomWord } from '../types/index.js'
-import { SeverityLevel, ProfanityCategory, FilterMode } from '../types/index.js'
-import { DEFAULT_DETECTOR_CONFIG, DEFAULT_ANALYSIS_OPTIONS } from './default-config.js'
+import type { DetectorConfig, AnalysisOptions, LanguageCode, CustomWord, ProfanityCategory } from '../types/index.js'
+import { SeverityLevel, FilterMode } from '../types/index.js'
+import { DEFAULT_DETECTOR_CONFIG, DEFAULT_ANALYSIS_OPTIONS, ALL_CATEGORIES } from './default-config.js'
 
 /**
  * Configuration validation result
@@ -285,23 +285,23 @@ export class ConfigValidator {
       return { errors, warnings }
     }
 
-    const validCategories = Object.values(ProfanityCategory)
+    const validCategories = ALL_CATEGORIES
     const sanitized: ProfanityCategory[] = []
     const seen = new Set<string>()
 
     for (const category of categories) {
-      if (!validCategories.includes(category)) {
+      if (!validCategories.includes(category as ProfanityCategory)) {
         warnings.push(`Invalid category: ${category}, skipping`)
         continue
       }
 
-      if (seen.has(category)) {
+      if (seen.has(String(category))) {
         warnings.push(`Duplicate category: ${category}, skipping`)
         continue
       }
 
-      seen.add(category)
-      sanitized.push(category)
+      seen.add(String(category))
+      sanitized.push(category as ProfanityCategory)
     }
 
     if (sanitized.length === 0) {
@@ -376,7 +376,7 @@ export class ConfigValidator {
         sanitized.push({
           word,
           severity: SeverityLevel.MEDIUM,
-          categories: [ProfanityCategory.PROFANITY],
+          categories: ['profanity'],
           language: 'en'
         })
       } else if (typeof word === 'object' && word !== null) {
@@ -394,13 +394,13 @@ export class ConfigValidator {
         seenWords.add(word.word.toLowerCase())
 
         const filteredCategories = Array.isArray(word.categories)
-          ? word.categories.filter((c: unknown) => Object.values(ProfanityCategory).includes(c as ProfanityCategory))
+          ? word.categories.filter((c: unknown) => typeof c === 'string' && ALL_CATEGORIES.includes(c as ProfanityCategory))
           : []
 
         const validWord: CustomWord = {
           word: word.word.trim(),
           severity: Object.values(SeverityLevel).includes(word.severity) ? word.severity : SeverityLevel.MEDIUM,
-          categories: filteredCategories.length > 0 ? filteredCategories : [ProfanityCategory.PROFANITY],
+          categories: filteredCategories.length > 0 ? filteredCategories : ['profanity'],
           language: typeof word.language === 'string' && SUPPORTED_LANGUAGES.has(word.language) ? word.language : 'en'
         }
 

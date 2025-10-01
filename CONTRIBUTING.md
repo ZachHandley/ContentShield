@@ -1,6 +1,6 @@
-# Contributing to NaughtyWords
+# Contributing to ContentShield
 
-Thank you for your interest in contributing to NaughtyWords! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to ContentShield! This document provides guidelines and information for contributors.
 
 ## Table of Contents
 
@@ -37,13 +37,13 @@ We pledge to make participation in our project a harassment-free experience for 
 1. Fork the repository on GitHub
 2. Clone your fork locally:
    ```bash
-   git clone https://github.com/yourusername/NaughtyWords.git
-   cd NaughtyWords
+   git clone https://github.com/yourusername/ContentShield.git
+   cd ContentShield
    ```
 
 3. Add the upstream repository:
    ```bash
-   git remote add upstream https://github.com/zachhandley/NaughtyWords.git
+   git remote add upstream https://github.com/zachhandley/ContentShield.git
    ```
 
 ## Development Setup
@@ -131,7 +131,7 @@ We use ESLint and Prettier for code formatting. The configuration is already set
 ### Naming Conventions
 
 - **Files**: Use kebab-case (e.g., `language-detector.ts`)
-- **Classes**: Use PascalCase (e.g., `NaughtyWordsDetector`)
+- **Classes**: Use PascalCase (e.g., `ContentShieldDetector`)
 - **Functions/Variables**: Use camelCase (e.g., `analyzeText`)
 - **Constants**: Use UPPER_SNAKE_CASE (e.g., `MAX_CACHE_SIZE`)
 - **Types/Interfaces**: Use PascalCase (e.g., `DetectionResult`)
@@ -197,13 +197,13 @@ Fixes #456
 
 ```typescript
 import { describe, it, expect, beforeEach } from 'vitest'
-import { NaughtyWordsDetector } from '../src/core/detector.js'
+import { ContentShieldDetector } from '../src/core/detector.js'
 
-describe('NaughtyWordsDetector', () => {
-  let detector: NaughtyWordsDetector
+describe('ContentShieldDetector', () => {
+  let detector: ContentShieldDetector
 
   beforeEach(async () => {
-    detector = new NaughtyWordsDetector()
+    detector = new ContentShieldDetector()
     await detector.initialize()
   })
 
@@ -527,7 +527,7 @@ For security-related issues, please email the maintainers directly instead of cr
 
 - GitHub Discussions for general questions
 - GitHub Issues for bug reports and feature requests
-- Stack Overflow with the `naughty-words` tag
+- Stack Overflow with the `content-shield` tag
 
 ### Contributing Ideas
 
@@ -548,4 +548,4 @@ Contributors will be recognized in:
 - Release notes for significant contributions
 - GitHub contributor statistics
 
-Thank you for contributing to NaughtyWords! Your contributions help make content moderation more accessible and effective for everyone.
+Thank you for contributing to ContentShield! Your contributions help make content moderation more accessible and effective for everyone.

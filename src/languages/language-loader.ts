@@ -6,7 +6,7 @@
 import fs from 'fs/promises'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import type { LanguageCode, SeverityLevel, ProfanityCategory } from '../types/index.js'
+import type { LanguageCode, SeverityLevel, ProfanityCategory, StaticLanguageData } from '../types/index.js'
 
 /**
  * Language data structure
@@ -26,14 +26,15 @@ export interface LanguageData {
     categories: ProfanityCategory[]
     variations?: string[]
     context?: string[]
+    [key: string]: unknown // Allow additional properties for language-specific metadata
   }>
-  categories: Record<string, string[]>
-  severity: Record<string, SeverityLevel>
-  variations: Record<string, string[]>
+  categories: Record<string, string[] | string>
+  severity: Record<string, SeverityLevel | number>
+  variations: Record<string, string[] | string>
   context: Record<string, {
     acceptable: string[]
     problematic: string[]
-  }>
+  } | string>
 }
 
 /**
@@ -81,6 +82,7 @@ export interface LanguageLoadOptions {
   preloadCommonWords?: boolean
   validateData?: boolean
   useCompressedFormat?: boolean
+  languageData?: Partial<Record<LanguageCode, StaticLanguageData>>
 }
 
 /**
@@ -100,7 +102,8 @@ export interface LanguageLoadResult {
 export class LanguageLoader {
   private cache = new Map<LanguageCode, LanguageData>()
   private loadingPromises = new Map<LanguageCode, Promise<LanguageLoadResult>>()
-  private options: Required<LanguageLoadOptions>
+  private options: Required<Omit<LanguageLoadOptions, 'languageData'>>
+  private staticLanguageData: Partial<Record<LanguageCode, StaticLanguageData>> | undefined
 
   // Performance tracking
   private loadTimes = new Map<LanguageCode, number>()
@@ -110,6 +113,11 @@ export class LanguageLoader {
   constructor(options: LanguageLoadOptions = {}) {
     // Resolve data path relative to package location
     const defaultDataPath = options.dataPath || path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'data', 'languages')
+
+    // Store static language data separately (only if provided)
+    if (options.languageData) {
+      this.staticLanguageData = options.languageData
+    }
 
     this.options = {
       dataPath: defaultDataPath,
@@ -167,9 +175,16 @@ export class LanguageLoader {
     this.cacheMisses++
 
     try {
-      // Load all language files
-      const languageDir = path.join(this.options.dataPath, language)
-      const data = await this.loadLanguageFiles(languageDir)
+      let data: LanguageData
+
+      // Priority 1: Check for static language data first
+      if (this.staticLanguageData?.[language]) {
+        data = await this.loadFromStaticData(this.staticLanguageData[language]!)
+      } else {
+        // Priority 2: Fall back to JSON file loading
+        const languageDir = path.join(this.options.dataPath, language)
+        data = await this.loadLanguageFiles(languageDir)
+      }
 
       // Validate data if requested
       if (this.options.validateData) {
@@ -199,6 +214,76 @@ export class LanguageLoader {
         loadTime,
         fromCache: false
       }
+    }
+  }
+
+  /**
+   * Load language data from static imports (tree-shakeable)
+   */
+  private async loadFromStaticData(
+    staticData: StaticLanguageData
+  ): Promise<LanguageData> {
+    // Convert simplified StaticLanguageData to full LanguageData structure
+    const categories: Record<string, string[]> = {}
+    const severity: Record<string, SeverityLevel> = {}
+    const variations: Record<string, string[]> = {}
+    const context: Record<string, { acceptable: string[], problematic: string[] }> = {}
+
+    // Process each word entry to populate the data structures
+    for (const entry of staticData.words) {
+      const word = entry.word
+
+      // Add to severity map
+      severity[word] = entry.severity
+
+      // Add to categories map
+      for (const category of entry.categories) {
+        if (!categories[category]) {
+          categories[category] = []
+        }
+        if (!categories[category].includes(word)) {
+          categories[category].push(word)
+        }
+      }
+
+      // Add variations if present
+      if (entry.variations && entry.variations.length > 0) {
+        variations[word] = entry.variations
+      }
+    }
+
+    // Convert word entries to the profanity array format
+    const profanity = staticData.words.map(entry => {
+      const item: {
+        word: string
+        severity: SeverityLevel
+        categories: ProfanityCategory[]
+        variations?: string[]
+        context?: string[]
+      } = {
+        word: entry.word,
+        severity: entry.severity,
+        categories: entry.categories
+      }
+
+      if (entry.variations) {
+        item.variations = entry.variations
+      }
+
+      if (entry.context_notes) {
+        item.context = [entry.context_notes]
+      }
+
+      return item
+    })
+
+    return {
+      metadata: staticData.metadata,
+      profanity,
+      categories,
+      severity,
+      variations,
+      context
     }
   }
 

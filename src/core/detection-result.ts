@@ -9,7 +9,8 @@ import type {
   ProfanityCategory,
   LanguageCode
 } from '../types/index.js'
-import { SeverityLevel as SeverityEnum, ProfanityCategory as CategoryEnum } from '../types/index.js'
+import { SeverityLevel as SeverityEnum } from '../types/index.js'
+import { ALL_CATEGORIES } from '../config/default-config.js'
 
 /**
  * Comprehensive emoji regex (same as in text-processing)
@@ -199,24 +200,10 @@ export class DetectionResultBuilder {
           [SeverityEnum.HIGH]: 0,
           [SeverityEnum.SEVERE]: 0
         },
-        categoryDistribution: {
-          [CategoryEnum.GENERAL]: 0,
-          [CategoryEnum.PROFANITY]: 0,
-          [CategoryEnum.SEXUAL]: 0,
-          [CategoryEnum.VIOLENCE]: 0,
-          [CategoryEnum.HATE_SPEECH]: 0,
-          [CategoryEnum.DISCRIMINATION]: 0,
-          [CategoryEnum.SUBSTANCE_ABUSE]: 0,
-          [CategoryEnum.RELIGIOUS]: 0,
-          [CategoryEnum.POLITICAL]: 0,
-          [CategoryEnum.BODY_PARTS]: 0,
-          [CategoryEnum.SCATOLOGICAL]: 0,
-          [CategoryEnum.SLURS]: 0,
-          [CategoryEnum.DISABILITY]: 0,
-          [CategoryEnum.ETHNIC]: 0,
-          [CategoryEnum.LGBTQ]: 0,
-          [CategoryEnum.RACIAL]: 0
-        },
+        categoryDistribution: ALL_CATEGORIES.reduce((acc, cat) => {
+          acc[cat] = 0
+          return acc
+        }, {} as Record<ProfanityCategory, number>),
         languageDistribution: {} as Record<LanguageCode, number>,
         averageConfidence: 0,
         confidenceDistribution: {
@@ -468,19 +455,19 @@ export class DetectionResultBuilder {
     const suggestions: string[] = []
 
     // Generate based on category
-    if (match.categories.includes(CategoryEnum.GENERAL)) {
+    if (match.categories.includes('general')) {
       suggestions.push('[censored]', '[removed]', '***')
     }
 
-    if (match.categories.includes(CategoryEnum.SEXUAL)) {
+    if (match.categories.includes('sexual')) {
       suggestions.push('[inappropriate content]', '[explicit content removed]')
     }
 
-    if (match.categories.includes(CategoryEnum.VIOLENCE)) {
+    if (match.categories.includes('violence')) {
       suggestions.push('[violent content]', '[aggressive language]')
     }
 
-    if (match.categories.includes(CategoryEnum.HATE_SPEECH)) {
+    if (match.categories.includes('hate_speech')) {
       suggestions.push('[hate speech removed]', '[offensive content]')
     }
 
@@ -511,15 +498,15 @@ export class DetectionResultBuilder {
       reasons.push('high severity')
     }
 
-    if (match.categories.includes(CategoryEnum.HATE_SPEECH)) {
+    if (match.categories.includes('hate_speech')) {
       reasons.push('hate speech')
     }
 
-    if (match.categories.includes(CategoryEnum.SEXUAL)) {
+    if (match.categories.includes('sexual')) {
       reasons.push('sexual content')
     }
 
-    if (match.categories.includes(CategoryEnum.VIOLENCE)) {
+    if (match.categories.includes('violence')) {
       reasons.push('violent content')
     }
 
@@ -707,7 +694,7 @@ export class DetectionResultBuilder {
       context.textType = 'email'
     } else if (text.length < 200 && context.patterns.hasEmojis) {
       context.textType = 'chat'
-    } else if (text.length > 1000) {
+    } else if (text.length > 300) {
       context.textType = 'article'
     }
 

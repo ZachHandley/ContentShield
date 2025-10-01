@@ -569,6 +569,7 @@ export class CharacterMapper {
     return Array.from(variations)
   }
 
+  // @ts-expect-error - Utility method for future use
   private expandWithMappings(
     variations: string[],
     mappings: Record<string, string[]>

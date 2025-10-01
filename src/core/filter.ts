@@ -222,6 +222,11 @@ export class ProfanityFilter {
       case FilterModeEnum.CENSOR:
         replacement = this.generateCensorReplacement(originalWord, config)
         method = 'censor'
+        // Apply gradual filtering only for CENSOR mode
+        if (config.gradualFiltering) {
+          replacement = this.applyGradualFiltering(originalWord, match, replacement, config)
+          reason += ' (gradual filtering applied)'
+        }
         break
 
       case FilterModeEnum.REMOVE:
@@ -246,12 +251,6 @@ export class ProfanityFilter {
             method: 'custom'
           }
         }
-    }
-
-    // Apply gradual filtering if enabled
-    if (config.gradualFiltering) {
-      replacement = this.applyGradualFiltering(originalWord, match, replacement, config)
-      reason += ' (gradual filtering applied)'
     }
 
     // Apply custom replacements if available
@@ -333,23 +332,23 @@ export class ProfanityFilter {
     for (const category of match.categories) {
       const categoryReplacements = config.categoryReplacements.get(category)
       if (categoryReplacements && categoryReplacements.length > 0) {
-        // Pick replacement based on word length or randomly
-        const replacement = this.selectBestReplacement(
-          match.word,
+        // Pick replacement based on severity for deterministic results
+        const replacement = this.selectReplacementBySeverity(
+          match.severity,
           categoryReplacements
         )
         if (replacement) return replacement
       }
     }
 
-    // Fallback replacements based on severity
+    // Fallback replacements based on severity - deterministic choices for each severity
     switch (match.severity) {
       case 1:
-        return this.selectRandomFromArray(['inappropriate', 'unsuitable', 'improper'])
+        return 'inappropriate'
       case 2:
-        return this.selectRandomFromArray(['offensive', 'inappropriate', 'unsuitable'])
+        return 'offensive'
       case 3:
-        return this.selectRandomFromArray(['[removed]', '[inappropriate]', '[offensive]'])
+        return '[removed]'
       case 4:
         return '[content removed]'
       default:
@@ -434,31 +433,20 @@ export class ProfanityFilter {
   }
 
   /**
-   * Select best replacement from array based on word characteristics
+   * Select replacement based on severity level for deterministic results
    */
-  private selectBestReplacement(originalWord: string, replacements: string[]): string {
+  private selectReplacementBySeverity(severity: number, replacements: string[]): string {
     if (replacements.length === 0) return '[censored]'
     if (replacements.length === 1) return replacements[0] || '[censored]'
 
-    // Try to find replacement with similar length
-    const similarLength = replacements.find(
-      r => Math.abs(r.length - originalWord.length) <= 2
+    // Map severity (1-4) to array index
+    // Lower severity gets earlier items, higher severity gets later items
+    const index = Math.min(
+      Math.floor((severity - 1) * replacements.length / 4),
+      replacements.length - 1
     )
 
-    if (similarLength) return similarLength
-
-    // Fallback to random selection
-    return this.selectRandomFromArray(replacements)
-  }
-
-  /**
-   * Select random item from array
-   */
-  private selectRandomFromArray<T>(array: T[]): T {
-    if (array.length === 0) throw new Error('Cannot select from empty array')
-    const item = array[Math.floor(Math.random() * array.length)]
-    if (item === undefined) throw new Error('Selected undefined item from array')
-    return item
+    return replacements[index] || '[censored]'
   }
 
 

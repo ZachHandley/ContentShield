@@ -43,7 +43,7 @@ describe('Performance Benchmarks', () => {
     const matcherConfig: MatcherConfig = {
       languages: ['en'],
       minSeverity: SeverityLevel.LOW,
-      categories: [ProfanityCategory.GENERAL],
+      categories: ['general'],
       fuzzyMatching: true,
       fuzzyThreshold: 0.8,
       whitelist: [],
@@ -81,7 +81,7 @@ describe('Performance Benchmarks', () => {
             testWords.push({
               word: word.toLowerCase(),
               severity: Math.floor(Math.random() * 4) + 1,
-              categories: [ProfanityCategory.GENERAL],
+              categories: ['general'],
               variations: [
                 word.replace(/[aeiou]/g, '@'),
                 word.replace(/o/g, '0'),
@@ -105,7 +105,7 @@ describe('Performance Benchmarks', () => {
       testWords.push({
         word,
         severity: SeverityLevel.MODERATE,
-        categories: [ProfanityCategory.GENERAL]
+        categories: ['general']
       })
     })
 
@@ -115,7 +115,7 @@ describe('Performance Benchmarks', () => {
       testWords.push({
         word: randomWord,
         severity: SeverityLevel.LOW,
-        categories: [ProfanityCategory.GENERAL]
+        categories: ['general']
       })
     }
 
@@ -157,7 +157,7 @@ describe('Performance Benchmarks', () => {
         trie.insert(word, {
           word,
           severity: SeverityLevel.LOW,
-          categories: [ProfanityCategory.GENERAL],
+          categories: ['general'],
           language: 'en'
         })
       }
