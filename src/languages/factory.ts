@@ -276,19 +276,24 @@ export async function createAutoDetector(
 
 /**
  * Create detector with custom language data loader
+ *
+ * NOTE: This is currently a placeholder implementation. Full integration of custom loaders
+ * would require architectural changes to pass the loader instance through the detector
+ * initialization chain. For now, this function creates a detector with default loading behavior.
+ *
+ * Future enhancement: Modify NaughtyWordsDetector constructor to accept optional LanguageLoader
+ * instance and use it instead of the default loading mechanism.
  */
 export function createDetectorWithCustomLoader(
   languages: LanguageCode | LanguageCode[],
   dataPath: string,
   config: Partial<DetectorConfig> = {}
 ): NaughtyWordsDetector {
-  // Create custom language loader
-  // TODO: Integrate custom loader with detector when needed
+  // Create custom language loader (currently unused - see function documentation)
   new LanguageLoader({ dataPath })
 
   // Create detector with custom configuration
   const detector = createDetector(languages, config)
-  // This would require changes to the detector initialization
 
   return detector
 }

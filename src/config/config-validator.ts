@@ -139,7 +139,8 @@ export class ConfigValidator {
       isValid: errors.length === 0,
       errors,
       warnings,
-      sanitizedConfig: errors.length === 0 ? sanitizedConfig : undefined
+      // Always return sanitizedConfig for partial recovery, even when there are errors
+      sanitizedConfig
     }
   }
 
@@ -238,8 +239,8 @@ export class ConfigValidator {
     }
 
     if (sanitized.length === 0) {
-      errors.push('No valid languages found')
-      return { errors, warnings }
+      warnings.push('No valid languages found, defaulting to auto-detect')
+      return { errors, warnings, sanitizedLanguages: ['auto' as LanguageCode] }
     }
 
     // Special validation for 'auto' language
@@ -261,7 +262,8 @@ export class ConfigValidator {
 
     if (!Object.values(SeverityLevel).includes(severity as SeverityLevel)) {
       errors.push(`Invalid severity level: ${severity}`)
-      return { errors }
+      // Return default severity for sanitization
+      return { errors, sanitizedSeverity: SeverityLevel.LOW }
     }
 
     return { errors, sanitizedSeverity: severity as SeverityLevel }
@@ -323,12 +325,14 @@ export class ConfigValidator {
 
     if (typeof threshold !== 'number') {
       errors.push('fuzzyThreshold must be a number')
-      return { errors, warnings }
+      // Return default threshold for sanitization
+      return { errors, warnings, sanitizedThreshold: 0.8 }
     }
 
     if (threshold < 0 || threshold > 1) {
       errors.push('fuzzyThreshold must be between 0 and 1')
-      return { errors, warnings }
+      // Return default threshold for sanitization
+      return { errors, warnings, sanitizedThreshold: 0.8 }
     }
 
     if (threshold < 0.5) {
@@ -389,10 +393,14 @@ export class ConfigValidator {
 
         seenWords.add(word.word.toLowerCase())
 
+        const filteredCategories = Array.isArray(word.categories)
+          ? word.categories.filter((c: unknown) => Object.values(ProfanityCategory).includes(c as ProfanityCategory))
+          : []
+
         const validWord: CustomWord = {
           word: word.word.trim(),
           severity: Object.values(SeverityLevel).includes(word.severity) ? word.severity : SeverityLevel.MEDIUM,
-          categories: Array.isArray(word.categories) ? word.categories.filter((c: unknown) => Object.values(ProfanityCategory).includes(c as ProfanityCategory)) : [ProfanityCategory.PROFANITY],
+          categories: filteredCategories.length > 0 ? filteredCategories : [ProfanityCategory.PROFANITY],
           language: typeof word.language === 'string' && SUPPORTED_LANGUAGES.has(word.language) ? word.language : 'en'
         }
 
@@ -493,6 +501,8 @@ export class ConfigValidator {
    */
   static quickValidate(config: Partial<DetectorConfig>): boolean {
     try {
+      // Test for circular references by attempting to stringify
+      JSON.stringify(config)
       const result = this.validate(config)
       return result.isValid
     } catch {

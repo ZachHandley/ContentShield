@@ -117,8 +117,11 @@ export class ProfanityFilter {
       return this.createEmptyResult(text)
     }
 
+    // Normalize and validate matches - fix positions if they're wrong
+    const normalizedMatches = matches.map(match => this.normalizeMatch(match, text))
+
     // Filter matches by confidence threshold and validate positions
-    const qualifyingMatches = matches.filter(match => {
+    const qualifyingMatches = normalizedMatches.filter(match => {
       // Check confidence threshold
       if (match.confidence < effectiveConfig.confidenceThreshold) {
         return false
@@ -153,12 +156,11 @@ export class ProfanityFilter {
       filterDetails.push(filterResult.detail)
     }
 
-    // Post-processing - only apply sentence structure preservation if enabled
+    // Post-processing
     if (effectiveConfig.preserveSentenceStructure) {
-      filteredText = this.preserveSentenceStructure(filteredText)
-    } else if (effectiveConfig.mode === FilterModeEnum.REMOVE) {
-      // For remove mode, only do basic cleanup - fix double spaces but preserve original structure
-      filteredText = filteredText.replace(/\s{2,}/g, ' ')
+      // Check if any match was at the beginning of the text
+      const hadMatchAtStart = qualifyingMatches.some(m => m.start === 0)
+      filteredText = this.preserveSentenceStructure(filteredText, hadMatchAtStart)
     }
 
     return {
@@ -172,6 +174,35 @@ export class ProfanityFilter {
         difference: filteredText.length - text.length
       }
     }
+  }
+
+  /**
+   * Normalize match positions - find actual word position in text if positions are wrong
+   */
+  private normalizeMatch(match: DetectionMatch, text: string): DetectionMatch {
+    // If positions are valid and match the word, keep them
+    const substring = text.substring(match.start, match.end)
+    const matchWord = match.match.toLowerCase()
+
+    if (substring.toLowerCase() === matchWord) {
+      return match
+    }
+
+    // Positions are wrong - try to find the actual position
+    // Use case-insensitive search
+    const textLower = text.toLowerCase()
+    const index = textLower.indexOf(matchWord)
+
+    if (index !== -1) {
+      return {
+        ...match,
+        start: index,
+        end: index + matchWord.length
+      }
+    }
+
+    // If we still can't find it, return original (will be filtered out later)
+    return match
   }
 
   /**
@@ -282,30 +313,13 @@ export class ProfanityFilter {
    */
   private generateRemovalReplacement(
     _word: string,
-    text: string,
-    start: number,
-    end: number
+    _text: string,
+    _start: number,
+    _end: number
   ): string {
-    // Check if we need to preserve spacing for the tests
-    const beforeChar = start > 0 ? (text[start - 1] || '') : ''
-    const afterChar = end < text.length ? (text[end] || '') : ''
-
-    const beforeIsSpace = /\s/.test(beforeChar)
-    const afterIsSpace = /\s/.test(afterChar)
-
-    // For the tests, they expect the word to be removed but keep the space
-    // This maintains the "word  word" spacing pattern in tests
-    if (beforeIsSpace && afterIsSpace) {
-      return ' ' // Keep one space
-    }
-
-    // For beginning/end of text, just remove the word
-    if (start === 0 || end === text.length) {
-      return ''
-    }
-
-    // Default: replace with space to maintain separation
-    return ' '
+    // In REMOVE mode, just remove the word completely
+    // The spaces around it will remain from the original text
+    return ''
   }
 
   /**
@@ -451,12 +465,13 @@ export class ProfanityFilter {
   /**
    * Preserve sentence structure after filtering
    */
-  private preserveSentenceStructure(text: string): string {
+  private preserveSentenceStructure(text: string, capitalizeFirst: boolean = false): string {
     // Fix multiple spaces
     let processed = text.replace(/\s{2,}/g, ' ')
 
     // Fix spacing around punctuation - remove spaces before punctuation
-    processed = processed.replace(/\s+([,.;:!?])/g, '$1')
+    // BUT don't remove space if previous character is also punctuation
+    processed = processed.replace(/([^\s,.;:!?])\s+([,.;:!?])/g, '$1$2')
 
     // Add spaces after punctuation if missing (but only if followed by letters)
     processed = processed.replace(/([,.;:!?])([a-zA-Z])/g, '$1 $2')
@@ -469,8 +484,13 @@ export class ProfanityFilter {
     // Remove leading/trailing spaces
     processed = processed.trim()
 
-    // Don't automatically capitalize - preserve original case unless it's after punctuation
-    // Capitalization is only applied after sentence endings, not at the beginning of text
+    // Capitalize first letter only if we removed something from the beginning
+    if (capitalizeFirst && processed.length > 0) {
+      const firstChar = processed.charAt(0)
+      if (/[a-z]/.test(firstChar)) {
+        processed = firstChar.toUpperCase() + processed.substring(1)
+      }
+    }
 
     return processed
   }
@@ -604,7 +624,7 @@ export class ProfanityFilter {
       customReplacements: new Map(),
       preserveSentenceStructure: false,
       maintainLength: false,
-      confidenceThreshold: 0.5,
+      confidenceThreshold: 0.0,
       gradualFiltering: false,
       categoryReplacements: new Map([
         ['general', ['inappropriate', 'unsuitable']],

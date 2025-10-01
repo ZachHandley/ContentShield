@@ -14,7 +14,7 @@ import { SeverityLevel as SeverityEnum, ProfanityCategory as CategoryEnum } from
 /**
  * Comprehensive emoji regex (same as in text-processing)
  */
-const EMOJI_REGEX = /[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F700}-\u{1F77F}\u{1F780}-\u{1F7FF}\u{1F800}-\u{1F8FF}\u{1F900}-\u{1F9FF}\u{1FA00}-\u{1FA6F}\u{1FA70}-\u{1FAFF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F1E6}-\u{1F1FF}\u{1F3FB}-\u{1F3FF}]/gu
+const EMOJI_REGEX = /(?:[\u{1F600}-\u{1F64F}]|[\u{1F300}-\u{1F5FF}]|[\u{1F680}-\u{1F6FF}]|[\u{1F700}-\u{1F77F}]|[\u{1F780}-\u{1F7FF}]|[\u{1F800}-\u{1F8FF}]|[\u{1F900}-\u{1F9FF}]|[\u{1FA00}-\u{1FA6F}]|[\u{1FA70}-\u{1FAFF}]|[\u{2600}-\u{26FF}]|[\u{2700}-\u{27BF}]|[\u{1F1E6}-\u{1F1FF}]|[\u{1F3FB}-\u{1F3FF}])/gu
 
 /**
  * Performance metrics for detection operation
@@ -315,7 +315,11 @@ export class DetectionResultBuilder {
    * Add a warning
    */
   addWarning(warning: string): this {
-    this.result.warnings!.push(warning)
+    if (this.result.warnings) {
+      this.result.warnings.push(warning)
+    } else {
+      this.result.warnings = [warning]
+    }
     return this
   }
 
@@ -323,7 +327,11 @@ export class DetectionResultBuilder {
    * Add a recommendation
    */
   addRecommendation(recommendation: string): this {
-    this.result.recommendations!.push(recommendation)
+    if (this.result.recommendations) {
+      this.result.recommendations.push(recommendation)
+    } else {
+      this.result.recommendations = [recommendation]
+    }
     return this
   }
 
@@ -331,7 +339,9 @@ export class DetectionResultBuilder {
    * Set configuration hash for caching
    */
   setConfigHash(hash: string): this {
-    this.result.metadata!.configHash = hash
+    if (this.result.metadata) {
+      this.result.metadata.configHash = hash
+    }
     return this
   }
 
@@ -360,8 +370,8 @@ export class DetectionResultBuilder {
    * Enhance a basic match with additional metadata
    */
   private enhanceMatch(match: DetectionMatch): EnhancedDetectionMatch {
-    const position = this.calculatePosition(match, this.result.originalText!)
-    const context = this.extractContext(match, this.result.originalText!)
+    const position = this.calculatePosition(match, this.result.originalText || '')
+    const context = this.extractContext(match, this.result.originalText || '')
     const suggestions = this.generateSuggestions(match)
 
     return {
@@ -520,62 +530,93 @@ export class DetectionResultBuilder {
    * Calculate edit distance between two strings
    */
   private calculateEditDistance(str1: string, str2: string): number {
-    const matrix = Array(str1.length + 1).fill(null).map(() => Array(str2.length + 1).fill(0))
+    // Simple implementation without complex matrix
+    if (str1 === str2) return 0
+    if (str1.length === 0) return str2.length
+    if (str2.length === 0) return str1.length
 
-    for (let i = 0; i <= str1.length; i++) matrix[i]![0] = i
-    for (let j = 0; j <= str2.length; j++) matrix[0]![j] = j
+    // Type assertion to help TypeScript understand the matrix is properly initialized
+    const matrix = Array(str2.length + 1).fill(null).map(() =>
+      Array(str1.length + 1).fill(0)
+    ) as number[][]
 
-    for (let i = 1; i <= str1.length; i++) {
-      for (let j = 1; j <= str2.length; j++) {
-        if (str1[i - 1] === str2[j - 1]) {
-          matrix[i]![j] = matrix[i - 1]![j - 1]!
-        } else {
-          matrix[i]![j] = Math.min(
-            matrix[i - 1]![j]! + 1, // deletion
-            matrix[i]![j - 1]! + 1, // insertion
-            matrix[i - 1]![j - 1]! + 1 // substitution
-          )
-        }
+    // Initialize first row and column
+    for (let i = 0; i <= str1.length; i++) {
+      // Matrix row 0 is guaranteed to exist by Array.from above
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+      matrix[0]![i] = i
+    }
+    for (let j = 0; j <= str2.length; j++) {
+      // All matrix rows are guaranteed to exist by Array.from above
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+      matrix[j]![0] = j
+    }
+
+    // Fill matrix - all matrix indices within bounds are guaranteed by loop conditions
+    for (let j = 1; j <= str2.length; j++) {
+      for (let i = 1; i <= str1.length; i++) {
+        const cost = str1[i - 1] === str2[j - 1] ? 0 : 1
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+        matrix[j]![i] = Math.min(
+          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+          matrix[j - 1]![i]! + 1,     // deletion
+          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+          matrix[j]![i - 1]! + 1,     // insertion
+          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+          matrix[j - 1]![i - 1]! + cost // substitution
+        )
       }
     }
 
-    return matrix[str1.length]![str2.length]!
+    // Final indices guaranteed by matrix initialization
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    return matrix[str2.length]![str1.length]!
   }
 
   /**
    * Update statistics based on matches
    */
   private updateStatistics(): void {
-    const matches = this.result.matches!
-    const stats = this.result.statistics!
+    const matches = this.result.matches || []
+    const stats = this.result.statistics
 
     // Count unique profane words
     const uniqueWords = new Set(matches.map(m => m.match.toLowerCase()))
-    stats.uniqueProfaneWords = uniqueWords.size
+    if (stats) {
+      stats.uniqueProfaneWords = uniqueWords.size
+    }
 
     // Calculate profanity density
-    stats.profanityDensity = stats.totalWords > 0 ? (matches.length / stats.totalWords) : 0
+    if (stats) {
+      stats.profanityDensity = stats.totalWords > 0 ? (matches.length / stats.totalWords) : 0
+    }
 
     // Update severity distribution
     for (const match of matches) {
-      stats.severityDistribution[match.severity]++
+      if (stats && stats.severityDistribution) {
+        stats.severityDistribution[match.severity]++
+      }
     }
 
     // Update category distribution
     for (const match of matches) {
       for (const category of match.categories) {
-        stats.categoryDistribution[category]++
+        if (stats && stats.categoryDistribution) {
+          stats.categoryDistribution[category]++
+        }
       }
     }
 
     // Update language distribution
     for (const match of matches) {
-      stats.languageDistribution[match.language] =
-        (stats.languageDistribution[match.language] || 0) + 1
+      if (stats && stats.languageDistribution) {
+        stats.languageDistribution[match.language] =
+          (stats.languageDistribution[match.language] || 0) + 1
+      }
     }
 
     // Calculate confidence statistics
-    if (matches.length > 0) {
+    if (matches.length > 0 && stats) {
       stats.averageConfidence = matches.reduce((sum, m) => sum + m.confidence, 0) / matches.length
 
       const confidenceCounts = matches.reduce(
@@ -596,7 +637,9 @@ export class DetectionResultBuilder {
    * Calculate performance metrics
    */
   private calculatePerformanceMetrics(): void {
-    const performance = this.result.performance!
+    const performance = this.result.performance
+    if (!performance) return
+
     const start = this.performanceMarkers.get('start') || this.startTime
     const end = this.performanceMarkers.get('end') || Date.now()
 
@@ -643,8 +686,9 @@ export class DetectionResultBuilder {
    * Analyze text context
    */
   private analyzeTextContext(): void {
-    const text = this.result.originalText!
-    const context = this.result.textContext!
+    const text = this.result.originalText || ''
+    const context = this.result.textContext
+    if (!context) return
 
     // Detect patterns
     context.patterns.hasUrls = /(https?:\/\/[^\s]+)|(www\.[^\s]+\.[^\s]+)/i.test(text)
@@ -686,30 +730,30 @@ export class DetectionResultBuilder {
    * Generate recommendations based on analysis
    */
   private generateRecommendations(): void {
-    const recommendations = this.result.recommendations!
-    const matches = this.result.matches!
-    const context = this.result.textContext!
+    const recommendations = this.result.recommendations || []
+    const matches = this.result.matches || []
+    const context = this.result.textContext
 
     if (matches.length === 0) {
       return
     }
 
     // High severity recommendations
-    if (this.result.maxSeverity! >= SeverityEnum.HIGH) {
+    if (this.result.maxSeverity && this.result.maxSeverity >= SeverityEnum.HIGH) {
       recommendations.push('Consider complete content review due to high severity language')
     }
 
     // High density recommendations
-    if (this.result.statistics!.profanityDensity > 0.1) {
+    if (this.result.statistics && this.result.statistics.profanityDensity > 0.1) {
       recommendations.push('High profanity density detected - consider content moderation')
     }
 
     // Context-based recommendations
-    if (context.textType === 'social_media' && matches.length > 0) {
+    if (context && context.textType === 'social_media' && matches.length > 0) {
       recommendations.push('Social media content may need community guidelines review')
     }
 
-    if (context.emotionalTone.aggressive > 0.3) {
+    if (context && context.emotionalTone.aggressive > 0.3) {
       recommendations.push('Aggressive tone detected - consider tone moderation')
     }
 
@@ -741,6 +785,8 @@ export class DetectionResultUtils {
     }
 
     if (results.length === 1) {
+      // results.length === 1 check guarantees first element exists
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
       return results[0]!
     }
 

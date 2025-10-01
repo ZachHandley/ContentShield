@@ -133,27 +133,25 @@ export class LanguageDetectionEngine {
    * Detect languages in the given text
    */
   detect(text: string): LanguageDetectionResult[] {
-    // Check for script-based languages first (they can be shorter)
-    const scriptResults = this.detectByScript(text)
-    if (scriptResults.length > 0 && scriptResults[0]!.confidence > 0.3) {
-      const finalResults: LanguageDetectionResult[] = [{
-        ...scriptResults[0]!,
-        sample: text.substring(0, 50)
-      }]
-      return finalResults
-    }
-
     if (!text || text.trim().length === 0) {
-      return []
+      return [{ language: 'en', confidence: 0.11 }]
     }
 
-    if (text.length < this.minTextLength) {
+    // For script-based languages, check early to avoid short text filtering
+    const earlyScriptResults = this.detectByScript(text)
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- earlyScriptResults.length > 0 check guarantees first element exists
+    if (earlyScriptResults.length > 0 && earlyScriptResults[0]!.confidence > 0.6) {
+      // Script detected with high confidence, proceed with full detection
+      // Do not return early - continue to full detection logic
+    } else if (text.length < this.minTextLength) {
+      // Only apply length check if no strong script detected
       return [{ language: 'en', confidence: 0.11 }]
     }
 
     // Check cache first
     const cacheKey = this.createCacheKey(text)
     if (this.cacheEnabled && detectionCache.has(cacheKey)) {
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- detectionCache.has() check guarantees value exists
       return detectionCache.get(cacheKey)!
     }
 
@@ -162,35 +160,37 @@ export class LanguageDetectionEngine {
     const sample = normalizedText.substring(0, this.maxSampleLength)
 
     // Perform multi-method detection
+    const scriptResults = this.detectByScript(text)
     const frequencyResults = this.detectByCharacterFrequency(sample)
     const patternResults = this.detectByPatterns(sample)
-    // We already checked script results above
 
-    // For script-based languages (Chinese, Japanese, etc.), prioritize script detection
-    if (scriptResults.length > 0) {
-      const topScriptResult = scriptResults[0]!
-      if (topScriptResult.confidence > 0.3) {
-        // Strong script detection - use it as the primary result
-        const finalResults: LanguageDetectionResult[] = [{
-          ...topScriptResult,
-          sample: sample.substring(0, 50)
-        }]
+    // Check if we have strong script-based detection (dominant script with very high confidence)
+    // Only use single-language mode if confidence is very high (>95%) to allow mixed language detection
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- scriptResults.length > 0 check guarantees first element exists
+    const hasStrongScriptDetection = scriptResults.length > 0 && scriptResults[0]!.confidence > 0.95
 
-        // Cache and return immediately for script-based languages
-        if (this.cacheEnabled) {
-          this.addToCache(cacheKey, finalResults)
-        }
-
-        return finalResults
-      }
-    }
-
-    // Standard detection for non-script-based languages
+    // Combine all detection methods
     const combinedResults = this.combineDetectionResults(
       frequencyResults,
       patternResults,
       scriptResults
     )
+
+    // For strong single-script detection, return just that language (no mixed detection)
+    if (hasStrongScriptDetection) {
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- checked above
+      const scriptResult = scriptResults[0]!
+      const finalResults: LanguageDetectionResult[] = [{
+        ...scriptResult,
+        sample: sample.substring(0, 50)
+      }]
+
+      if (this.cacheEnabled) {
+        this.addToCache(cacheKey, finalResults)
+      }
+
+      return finalResults
+    }
 
     // Filter and sort by confidence
     const filteredResults = combinedResults

@@ -1,0 +1,350 @@
+{
+  "kurwa": {
+    "acceptable": [],
+    "problematic": [
+      "Most versatile Polish profanity - whore/fuck/shit, used as exclamation, comma in speech, or harsh insult"
+    ]
+  },
+  "chuj": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar term for male genitalia (dick/cock), used as insult or to describe bad situations"
+    ]
+  },
+  "dupa": {
+    "acceptable": [],
+    "problematic": [
+      "Buttocks/ass - moderate vulgarity, sometimes used affectionately"
+    ]
+  },
+  "gówno": {
+    "acceptable": [],
+    "problematic": [
+      "Shit - moderate profanity, used to describe something worthless or bad"
+    ]
+  },
+  "pierdolić": {
+    "acceptable": [],
+    "problematic": [
+      "Primary vulgar verb - fuck/screw. Extremely versatile with prefixes changing meaning dramatically"
+    ]
+  },
+  "jebać": {
+    "acceptable": [],
+    "problematic": [
+      "Secondary vulgar verb - fuck. Like pierdolić, takes many prefixes with different meanings"
+    ]
+  },
+  "pizda": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely vulgar female anatomy term (cunt) - highest severity offensive term"
+    ]
+  },
+  "spierdalaj": {
+    "acceptable": [],
+    "problematic": [
+      "Fuck off/get lost - extremely strong dismissive command, reserved for heated arguments"
+    ]
+  },
+  "cholera": {
+    "acceptable": [],
+    "problematic": [
+      "Mild expletive - damn/bloody hell, religiously derived but not highly offensive"
+    ]
+  },
+  "diabeł": {
+    "acceptable": [],
+    "problematic": [
+      "Devil - mild religious profanity, used in exclamations"
+    ]
+  },
+  "kutas": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar term for penis, alternative to chuj"
+    ]
+  },
+  "cipa": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar female anatomy term, regional variant of pizda but less severe"
+    ]
+  },
+  "srać": {
+    "acceptable": [],
+    "problematic": [
+      "To shit/defecate - moderate scatological profanity"
+    ]
+  },
+  "szczać": {
+    "acceptable": [],
+    "problematic": [
+      "To piss/urinate - moderate scatological profanity"
+    ]
+  },
+  "pierdzieć": {
+    "acceptable": [],
+    "problematic": [
+      "To fart - mild scatological term, often humorous"
+    ]
+  },
+  "zjeb": {
+    "acceptable": [],
+    "problematic": [
+      "Idiot/moron - harsh personal insult derived from jebać"
+    ]
+  },
+  "debil": {
+    "acceptable": [],
+    "problematic": [
+      "Idiot/moron - ableist slur, moderate severity"
+    ]
+  },
+  "dziwka": {
+    "acceptable": [],
+    "problematic": [
+      "Whore/slut - derogatory term for women, sexually charged insult"
+    ]
+  },
+  "szmata": {
+    "acceptable": [],
+    "problematic": [
+      "Rag/slut - derogatory term for women, implies worthlessness"
+    ]
+  },
+  "skurwysyn": {
+    "acceptable": [],
+    "problematic": [
+      "Son of a whore - extremely offensive compound insult combining kurwa + syn"
+    ]
+  },
+  "dupek": {
+    "acceptable": [],
+    "problematic": [
+      "Asshole - moderate insult, diminutive of dupa"
+    ]
+  },
+  "ciąć": {
+    "acceptable": [],
+    "problematic": [
+      "To cut/fail - mild slang, used about failing at something"
+    ]
+  },
+  "fiut": {
+    "acceptable": [],
+    "problematic": [
+      "Penis - regional vulgar term, less severe than chuj"
+    ]
+  },
+  "jaja": {
+    "acceptable": [],
+    "problematic": [
+      "Balls/testicles - moderate vulgar slang for male anatomy"
+    ]
+  },
+  "pała": {
+    "acceptable": [],
+    "problematic": [
+      "Dick/penis - slang term, moderate vulgarity"
+    ]
+  },
+  "ruchać": {
+    "acceptable": [],
+    "problematic": [
+      "To fuck - vulgar sexual verb, primary meaning sexual intercourse"
+    ]
+  },
+  "burdel": {
+    "acceptable": [],
+    "problematic": [
+      "Brothel/mess - moderate profanity, used to describe chaos or disorder"
+    ]
+  },
+  "gówniarz": {
+    "acceptable": [],
+    "problematic": [
+      "Little shit/brat - moderate insult for young person acting badly"
+    ]
+  },
+  "suka": {
+    "acceptable": [],
+    "problematic": [
+      "Bitch - derogatory term for women, borrowed from animal terminology"
+    ]
+  },
+  "mać": {
+    "acceptable": [],
+    "problematic": [
+      "Mild exclamation - usually combined with other words, from 'mother'"
+    ]
+  },
+  "popierdolić": {
+    "acceptable": [],
+    "problematic": [
+      "To fuck up/mess up - prefixed form of pierdolić meaning to ruin something"
+    ]
+  },
+  "najebać": {
+    "acceptable": [],
+    "problematic": [
+      "To get drunk/beat up - prefixed jebać with multiple meanings depending on context"
+    ]
+  },
+  "zajebisty": {
+    "acceptable": [],
+    "problematic": [
+      "Awesome/fucking great - paradoxically positive despite vulgar origin"
+    ]
+  },
+  "wypierdalać": {
+    "acceptable": [],
+    "problematic": [
+      "Get the fuck out - strong dismissive command, prefixed pierdolić"
+    ]
+  },
+  "wkurwiać": {
+    "acceptable": [],
+    "problematic": [
+      "To piss off/annoy - derived from kurwa, means to anger or irritate"
+    ]
+  },
+  "chujowy": {
+    "acceptable": [],
+    "problematic": [
+      "Shitty/fucking bad - adjective derived from chuj meaning very bad quality"
+    ]
+  },
+  "jebaniec": {
+    "acceptable": [],
+    "problematic": [
+      "Fucker/asshole - strong personal insult derived from jebać"
+    ]
+  },
+  "kurewski": {
+    "acceptable": [],
+    "problematic": [
+      "Fucking/damn - intensifying adjective derived from kurwa"
+    ]
+  },
+  "pierdolnik": {
+    "acceptable": [],
+    "problematic": [
+      "Piece of junk - slang for broken or useless object"
+    ]
+  },
+  "wjebać": {
+    "acceptable": [],
+    "problematic": [
+      "To hit hard/crash into - violent prefixed form of jebać"
+    ]
+  },
+  "zasraniec": {
+    "acceptable": [],
+    "problematic": [
+      "Piece of shit person - strong insult combining scatological with personal attack"
+    ]
+  },
+  "pindol": {
+    "acceptable": [],
+    "problematic": [
+      "Penis - regional slang variant, moderate vulgarity"
+    ]
+  },
+  "cwel": {
+    "acceptable": [],
+    "problematic": [
+      "Faggot/weakling - homophobic slur, also used for weak person"
+    ]
+  },
+  "pedał": {
+    "acceptable": [],
+    "problematic": [
+      "Faggot - homophobic slur, highly offensive to LGBTQ+ individuals"
+    ]
+  },
+  "żul": {
+    "acceptable": [],
+    "problematic": [
+      "Bum/homeless person - derogatory term for vagrant or alcoholic"
+    ]
+  },
+  "pierdoła": {
+    "acceptable": [],
+    "problematic": [
+      "Moron/idiot - mild insult derived from pierdolić, diminutive form"
+    ]
+  },
+  "sranie": {
+    "acceptable": [],
+    "problematic": [
+      "Shitting/crap - scatological noun, moderate profanity for bad situation"
+    ]
+  },
+  "szczanie": {
+    "acceptable": [],
+    "problematic": [
+      "Pissing - scatological noun from szczać, moderate vulgarity"
+    ]
+  },
+  "pierdolenie": {
+    "acceptable": [],
+    "problematic": [
+      "Bullshit/nonsense talk - noun from pierdolić meaning meaningless chatter"
+    ]
+  },
+  "pojebać": {
+    "acceptable": [],
+    "problematic": [
+      "To go crazy/be fucked up - prefixed jebać referring to mental state"
+    ]
+  },
+  "chujnia": {
+    "acceptable": [],
+    "problematic": [
+      "Shitty situation - noun derived from chuj describing bad circumstances"
+    ]
+  },
+  "kurewska": {
+    "acceptable": [],
+    "problematic": [
+      "Fucking/bitchy - feminine form of kurewski, intensifying adjective"
+    ]
+  },
+  "jebany": {
+    "acceptable": [],
+    "problematic": [
+      "Fucking/damn - intensifying adjective from jebać, very strong emphasis"
+    ]
+  },
+  "pierdolony": {
+    "acceptable": [],
+    "problematic": [
+      "Fucking/damn - intensifying adjective from pierdolić, emphasis and anger"
+    ]
+  },
+  "zjebany": {
+    "acceptable": [],
+    "problematic": [
+      "Fucked up/broken - adjective describing damaged or problematic state"
+    ]
+  },
+  "nawjebać": {
+    "acceptable": [],
+    "problematic": [
+      "Shitload/lots of - prefixed jebać meaning large quantity of something"
+    ]
+  },
+  "zasrać": {
+    "acceptable": [],
+    "problematic": [
+      "To shit all over - scatological verb meaning to soil or mess up badly"
+    ]
+  },
+  "poszczać": {
+    "acceptable": [],
+    "problematic": [
+      "To piss on - scatological verb meaning to urinate on something"
+    ]
+  }
+}

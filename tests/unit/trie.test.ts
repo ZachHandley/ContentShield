@@ -217,17 +217,17 @@ describe('ProfanityTrie', () => {
 
     it('should find overlapping matches', () => {
       // Insert overlapping patterns
-      trie.insert('badword', {
-        word: 'badword',
+      trie.insert('shit', {
+        word: 'shit',
         severity: SeverityLevel.HIGH,
         categories: [ProfanityCategory.GENERAL],
         language: 'en'
       })
 
-      const matches = trie.multiPatternSearch('this badword is terrible')
+      const matches = trie.multiPatternSearch('this shit is terrible')
       expect(matches.length).toBeGreaterThan(0)
 
-      // Should find both 'bad' in 'badword' and 'badword' itself, plus 'terrible'
+      // Should find both 'bad' in 'shit' and 'shit' itself, plus 'terrible'
       const foundWords = matches.map(m => m.word)
       expect(foundWords).toContain('terrible')
     })

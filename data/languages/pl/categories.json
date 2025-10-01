@@ -1,0 +1,286 @@
+{
+  "kurwa": [
+    "general",
+    "profanity",
+    "sexual"
+  ],
+  "chuj": [
+    "sexual",
+    "profanity",
+    "anatomy"
+  ],
+  "dupa": [
+    "anatomy",
+    "profanity"
+  ],
+  "gówno": [
+    "scatological",
+    "profanity"
+  ],
+  "pierdolić": [
+    "profanity",
+    "sexual",
+    "verb"
+  ],
+  "jebać": [
+    "profanity",
+    "sexual",
+    "verb"
+  ],
+  "pizda": [
+    "sexual",
+    "profanity",
+    "anatomy",
+    "derogatory"
+  ],
+  "spierdalaj": [
+    "profanity",
+    "imperative",
+    "dismissive"
+  ],
+  "cholera": [
+    "religious",
+    "mild_profanity"
+  ],
+  "diabeł": [
+    "religious",
+    "mild_profanity"
+  ],
+  "kutas": [
+    "sexual",
+    "anatomy",
+    "profanity"
+  ],
+  "cipa": [
+    "sexual",
+    "anatomy",
+    "profanity"
+  ],
+  "srać": [
+    "scatological",
+    "verb",
+    "profanity"
+  ],
+  "szczać": [
+    "scatological",
+    "verb",
+    "profanity"
+  ],
+  "pierdzieć": [
+    "scatological",
+    "verb",
+    "mild_profanity"
+  ],
+  "zjeb": [
+    "profanity",
+    "derogatory",
+    "insult"
+  ],
+  "debil": [
+    "derogatory",
+    "insult",
+    "ableist"
+  ],
+  "dziwka": [
+    "sexual",
+    "derogatory",
+    "gendered"
+  ],
+  "szmata": [
+    "derogatory",
+    "gendered",
+    "insult"
+  ],
+  "skurwysyn": [
+    "profanity",
+    "derogatory",
+    "compound"
+  ],
+  "dupek": [
+    "insult",
+    "profanity"
+  ],
+  "ciąć": [
+    "mild_profanity",
+    "slang"
+  ],
+  "fiut": [
+    "sexual",
+    "anatomy",
+    "regional"
+  ],
+  "jaja": [
+    "sexual",
+    "anatomy",
+    "slang"
+  ],
+  "pała": [
+    "sexual",
+    "anatomy",
+    "slang"
+  ],
+  "ruchać": [
+    "sexual",
+    "verb",
+    "profanity"
+  ],
+  "burdel": [
+    "sexual",
+    "profanity",
+    "chaos"
+  ],
+  "gówniarz": [
+    "derogatory",
+    "age",
+    "insult"
+  ],
+  "suka": [
+    "derogatory",
+    "gendered",
+    "animal"
+  ],
+  "mać": [
+    "mild_profanity",
+    "exclamation"
+  ],
+  "popierdolić": [
+    "profanity",
+    "verb",
+    "prefixed"
+  ],
+  "najebać": [
+    "profanity",
+    "verb",
+    "prefixed"
+  ],
+  "zajebisty": [
+    "profanity",
+    "positive",
+    "slang"
+  ],
+  "wypierdalać": [
+    "profanity",
+    "verb",
+    "dismissive"
+  ],
+  "wkurwiać": [
+    "profanity",
+    "verb",
+    "emotion"
+  ],
+  "chujowy": [
+    "profanity",
+    "adjective",
+    "derogatory"
+  ],
+  "jebaniec": [
+    "profanity",
+    "derogatory",
+    "insult"
+  ],
+  "kurewski": [
+    "profanity",
+    "adjective",
+    "intensifier"
+  ],
+  "pierdolnik": [
+    "profanity",
+    "slang",
+    "object"
+  ],
+  "wjebać": [
+    "profanity",
+    "verb",
+    "violence"
+  ],
+  "zasraniec": [
+    "scatological",
+    "derogatory",
+    "insult"
+  ],
+  "pindol": [
+    "sexual",
+    "anatomy",
+    "slang"
+  ],
+  "cwel": [
+    "derogatory",
+    "homophobic",
+    "insult"
+  ],
+  "pedał": [
+    "homophobic",
+    "derogatory",
+    "slur"
+  ],
+  "żul": [
+    "derogatory",
+    "classist",
+    "homeless"
+  ],
+  "pierdoła": [
+    "profanity",
+    "derogatory",
+    "diminutive"
+  ],
+  "sranie": [
+    "scatological",
+    "profanity",
+    "noun"
+  ],
+  "szczanie": [
+    "scatological",
+    "profanity",
+    "noun"
+  ],
+  "pierdolenie": [
+    "profanity",
+    "noun",
+    "nonsense"
+  ],
+  "pojebać": [
+    "profanity",
+    "verb",
+    "mental"
+  ],
+  "chujnia": [
+    "profanity",
+    "noun",
+    "situation"
+  ],
+  "kurewska": [
+    "profanity",
+    "adjective",
+    "gendered"
+  ],
+  "jebany": [
+    "profanity",
+    "adjective",
+    "intensifier"
+  ],
+  "pierdolony": [
+    "profanity",
+    "adjective",
+    "intensifier"
+  ],
+  "zjebany": [
+    "profanity",
+    "adjective",
+    "condition"
+  ],
+  "nawjebać": [
+    "profanity",
+    "verb",
+    "quantity"
+  ],
+  "zasrać": [
+    "scatological",
+    "verb",
+    "profanity"
+  ],
+  "poszczać": [
+    "scatological",
+    "verb",
+    "profanity"
+  ]
+}

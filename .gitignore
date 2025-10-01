@@ -137,3 +137,16 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Debug and test files
+debug-*.ts
+debug-*.js
+test-*.ts
+test-*.js
+test-*.cjs
+simple-test.*
+final-verification.*
+profile-performance.*
+test-output.log
+audit-languages.sh
+*.bundled_*.mjs

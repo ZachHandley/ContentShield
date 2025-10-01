@@ -32,7 +32,7 @@ describe('Quick Start Functions', () => {
 
   describe('isClean', () => {
     it('should return true for clean text', async () => {
-      const result = await isClean('This is clean text.')
+      const result = await isClean('This is a normal message.')
       expect(result).toBe(true)
     })
   })

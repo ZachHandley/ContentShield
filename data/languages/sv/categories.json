@@ -1,0 +1,362 @@
+{
+  "tusan": [
+    "general",
+    "euphemism"
+  ],
+  "sjutton": [
+    "general",
+    "euphemism"
+  ],
+  "attans": [
+    "general",
+    "euphemism"
+  ],
+  "kors": [
+    "general",
+    "religious"
+  ],
+  "järnspikar": [
+    "general",
+    "euphemism"
+  ],
+  "gudars skymning": [
+    "general",
+    "religious",
+    "euphemism"
+  ],
+  "för bövelen": [
+    "general",
+    "euphemism"
+  ],
+  "herre gud": [
+    "general",
+    "religious"
+  ],
+  "jisses": [
+    "general",
+    "religious"
+  ],
+  "fy": [
+    "general",
+    "disgust"
+  ],
+  "skit": [
+    "general",
+    "scatological"
+  ],
+  "fan": [
+    "general",
+    "religious"
+  ],
+  "helvete": [
+    "general",
+    "religious"
+  ],
+  "satan": [
+    "general",
+    "religious"
+  ],
+  "jävel": [
+    "general",
+    "religious"
+  ],
+  "förbannad": [
+    "general",
+    "religious"
+  ],
+  "piss": [
+    "general",
+    "scatological"
+  ],
+  "idiot": [
+    "general",
+    "intelligence"
+  ],
+  "dumhuvud": [
+    "general",
+    "intelligence"
+  ],
+  "pucko": [
+    "general",
+    "intelligence"
+  ],
+  "klantskalle": [
+    "general",
+    "intelligence"
+  ],
+  "mongo": [
+    "general",
+    "intelligence",
+    "ableist"
+  ],
+  "nöt": [
+    "general",
+    "intelligence",
+    "animal"
+  ],
+  "apa": [
+    "general",
+    "intelligence",
+    "animal"
+  ],
+  "kåt": [
+    "general",
+    "sexual"
+  ],
+  "knulla": [
+    "sexual",
+    "vulgar"
+  ],
+  "hora": [
+    "sexual",
+    "vulgar",
+    "misogynistic"
+  ],
+  "fitta": [
+    "sexual",
+    "vulgar",
+    "misogynistic"
+  ],
+  "kuk": [
+    "sexual",
+    "vulgar"
+  ],
+  "bög": [
+    "sexual",
+    "lgbtq",
+    "slur"
+  ],
+  "blatte": [
+    "ethnic",
+    "racist",
+    "slur"
+  ],
+  "svartskalle": [
+    "ethnic",
+    "racist",
+    "slur"
+  ],
+  "turk": [
+    "ethnic",
+    "slur"
+  ],
+  "fan ta dig": [
+    "general",
+    "religious",
+    "phrase"
+  ],
+  "dra åt helvete": [
+    "general",
+    "religious",
+    "phrase"
+  ],
+  "fan i helvete": [
+    "general",
+    "religious",
+    "phrase"
+  ],
+  "satans helvetes förbannade jävla fan": [
+    "general",
+    "religious",
+    "phrase",
+    "compound"
+  ],
+  "fan jävla skit": [
+    "general",
+    "religious",
+    "scatological",
+    "phrase"
+  ],
+  "skitstövel": [
+    "general",
+    "scatological"
+  ],
+  "jävlar anamma": [
+    "general",
+    "religious",
+    "phrase"
+  ],
+  "gå och dö": [
+    "general",
+    "violence",
+    "phrase"
+  ],
+  "skit-snygg": [
+    "general",
+    "scatological",
+    "compound"
+  ],
+  "skit-ful": [
+    "general",
+    "scatological",
+    "compound"
+  ],
+  "attans bananer": [
+    "general",
+    "euphemism",
+    "phrase"
+  ],
+  "fan-jävel": [
+    "general",
+    "religious",
+    "compound"
+  ],
+  "helvetes-jävel": [
+    "general",
+    "religious",
+    "compound"
+  ],
+  "satan-jävel": [
+    "general",
+    "religious",
+    "compound"
+  ],
+  "piss-träd": [
+    "general",
+    "scatological",
+    "compound"
+  ],
+  "skit-träd": [
+    "general",
+    "scatological",
+    "compound"
+  ],
+  "djävulskap": [
+    "general",
+    "religious"
+  ],
+  "förbannelse": [
+    "general",
+    "religious"
+  ],
+  "hemsk": [
+    "general"
+  ],
+  "äcklig": [
+    "general",
+    "disgust"
+  ],
+  "vidrig": [
+    "general",
+    "disgust"
+  ],
+  "rövhål": [
+    "general",
+    "scatological",
+    "vulgar"
+  ],
+  "arsle": [
+    "general",
+    "scatological"
+  ],
+  "bajskorv": [
+    "general",
+    "scatological",
+    "childish"
+  ],
+  "fittnylle": [
+    "sexual",
+    "vulgar",
+    "misogynistic"
+  ],
+  "kuksuger": [
+    "sexual",
+    "vulgar",
+    "lgbtq"
+  ],
+  "fittslem": [
+    "sexual",
+    "vulgar",
+    "misogynistic"
+  ],
+  "kukhuvud": [
+    "sexual",
+    "vulgar"
+  ],
+  "runkare": [
+    "sexual",
+    "vulgar"
+  ],
+  "slyna": [
+    "sexual",
+    "misogynistic"
+  ],
+  "ludder": [
+    "sexual",
+    "misogynistic"
+  ],
+  "käring": [
+    "general",
+    "misogynistic"
+  ],
+  "gubbe": [
+    "general",
+    "ageist"
+  ],
+  "mesar": [
+    "general",
+    "weakness"
+  ],
+  "fegis": [
+    "general",
+    "weakness"
+  ],
+  "kräk": [
+    "general",
+    "disgust"
+  ],
+  "slem": [
+    "general",
+    "disgust"
+  ],
+  "snorunge": [
+    "general",
+    "ageist"
+  ],
+  "pajas": [
+    "general",
+    "intelligence"
+  ],
+  "knäppskalle": [
+    "general",
+    "intelligence"
+  ],
+  "stolpskott": [
+    "general",
+    "intelligence"
+  ],
+  "tölp": [
+    "general",
+    "intelligence"
+  ],
+  "kåk": [
+    "general",
+    "prison"
+  ],
+  "soppa": [
+    "general",
+    "mess"
+  ],
+  "pannkaka": [
+    "general",
+    "intelligence"
+  ],
+  "kött": [
+    "general",
+    "objectification"
+  ],
+  "packet": [
+    "general"
+  ],
+  "as": [
+    "general"
+  ],
+  "ynkrygg": [
+    "general",
+    "weakness"
+  ],
+  "usling": [
+    "general",
+    "weakness"
+  ]
+}

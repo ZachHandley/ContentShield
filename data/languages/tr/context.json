@@ -1,0 +1,404 @@
+{
+  "kahretsin": {
+    "acceptable": [],
+    "problematic": [
+      "Mild curse, equivalent to 'damn it' in English"
+    ]
+  },
+  "lanet": {
+    "acceptable": [],
+    "problematic": [
+      "Mild religious curse meaning 'curse' or 'damn'"
+    ]
+  },
+  "Allah kahretsin": {
+    "acceptable": [],
+    "problematic": [
+      "Religious exclamation, mildly offensive"
+    ]
+  },
+  "cehennem": {
+    "acceptable": [],
+    "problematic": [
+      "Religious reference to hell, mild profanity"
+    ]
+  },
+  "bok": {
+    "acceptable": [],
+    "problematic": [
+      "Common scatological term meaning 'shit'"
+    ]
+  },
+  "pislik": {
+    "acceptable": [],
+    "problematic": [
+      "Means 'filth' or 'dirt', moderately offensive"
+    ]
+  },
+  "göt": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar term for buttocks"
+    ]
+  },
+  "mal": {
+    "acceptable": [],
+    "problematic": [
+      "Common insult meaning 'stupid' or 'idiot'"
+    ]
+  },
+  "salak": {
+    "acceptable": [],
+    "problematic": [
+      "Common insult meaning 'stupid' or 'dumb'"
+    ]
+  },
+  "aptal": {
+    "acceptable": [],
+    "problematic": [
+      "Insult meaning 'stupid' or 'fool'"
+    ]
+  },
+  "gerizekalı": {
+    "acceptable": [],
+    "problematic": [
+      "Offensive term meaning 'retard' or 'backward'"
+    ]
+  },
+  "dangalak": {
+    "acceptable": [],
+    "problematic": [
+      "Regional insult meaning 'stupid' or 'fool'"
+    ]
+  },
+  "ibne": {
+    "acceptable": [],
+    "problematic": [
+      "Highly offensive homophobic slur"
+    ]
+  },
+  "piç": {
+    "acceptable": [],
+    "problematic": [
+      "Highly offensive term meaning 'bastard'"
+    ]
+  },
+  "orospu": {
+    "acceptable": [],
+    "problematic": [
+      "Highly offensive term for prostitute, very derogatory"
+    ]
+  },
+  "orospu çocuğu": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive compound insult meaning 'son of a bitch'"
+    ]
+  },
+  "kahpe": {
+    "acceptable": [],
+    "problematic": [
+      "Derogatory term for women, meaning 'whore' or 'bitch'"
+    ]
+  },
+  "sürtük": {
+    "acceptable": [],
+    "problematic": [
+      "Derogatory term for women with sexual implications"
+    ]
+  },
+  "fahişe": {
+    "acceptable": [],
+    "problematic": [
+      "Formal but derogatory term for prostitute"
+    ]
+  },
+  "kaltak": {
+    "acceptable": [],
+    "problematic": [
+      "Derogatory term for women, similar to 'bitch'"
+    ]
+  },
+  "amcık": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely vulgar term for female genitalia"
+    ]
+  },
+  "am": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar term for female genitalia"
+    ]
+  },
+  "yarrak": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely vulgar term for male genitalia"
+    ]
+  },
+  "sik": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar term for male genitalia"
+    ]
+  },
+  "taşak": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar term for testicles"
+    ]
+  },
+  "meme": {
+    "acceptable": [],
+    "problematic": [
+      "Slang term for breast, mildly offensive"
+    ]
+  },
+  "siktir": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar dismissal, equivalent to 'f*ck off'"
+    ]
+  },
+  "sikeyim": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely vulgar sexual threat"
+    ]
+  },
+  "götüne koyayım": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely vulgar sexual threat"
+    ]
+  },
+  "amına koyayım": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely vulgar sexual expletive, often abbreviated as 'amk'"
+    ]
+  },
+  "amk": {
+    "acceptable": [],
+    "problematic": [
+      "Abbreviated form of 'amına koyayım', extremely common online"
+    ]
+  },
+  "aq": {
+    "acceptable": [],
+    "problematic": [
+      "Abbreviated vulgar expression"
+    ]
+  },
+  "mk": {
+    "acceptable": [],
+    "problematic": [
+      "Abbreviated vulgar expression"
+    ]
+  },
+  "lan": {
+    "acceptable": [],
+    "problematic": [
+      "Casual address, can be mildly rude depending on context"
+    ]
+  },
+  "ulan": {
+    "acceptable": [],
+    "problematic": [
+      "Dismissive address, moderately rude"
+    ]
+  },
+  "herifte": {
+    "acceptable": [],
+    "problematic": [
+      "Derogatory term for a person, meaning 'guy' or 'fellow'"
+    ]
+  },
+  "kevaşe": {
+    "acceptable": [],
+    "problematic": [
+      "Archaic but highly offensive term for prostitute"
+    ]
+  },
+  "pezevenk": {
+    "acceptable": [],
+    "problematic": [
+      "Offensive term meaning 'pimp' or 'scoundrel'"
+    ]
+  },
+  "gavat": {
+    "acceptable": [],
+    "problematic": [
+      "Highly offensive term related to cuckoldry"
+    ]
+  },
+  "piçkurusu": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive compound insult"
+    ]
+  },
+  "amına kodumun": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely vulgar compound expletive"
+    ]
+  },
+  "sikik": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar adjective meaning 'f*cked' or 'screwed'"
+    ]
+  },
+  "züppe": {
+    "acceptable": [],
+    "problematic": [
+      "Insult meaning 'snob' or 'pretentious person'"
+    ]
+  },
+  "namussuz": {
+    "acceptable": [],
+    "problematic": [
+      "Highly offensive attack on honor, meaning 'dishonorable'"
+    ]
+  },
+  "şerefsiz": {
+    "acceptable": [],
+    "problematic": [
+      "Highly offensive attack on honor, meaning 'shameless'"
+    ]
+  },
+  "alçak": {
+    "acceptable": [],
+    "problematic": [
+      "Insult meaning 'lowlife' or 'despicable'"
+    ]
+  },
+  "köpek": {
+    "acceptable": [],
+    "problematic": [
+      "Animal insult meaning 'dog', moderately offensive"
+    ]
+  },
+  "domuz": {
+    "acceptable": [],
+    "problematic": [
+      "Animal insult meaning 'pig', can be religiously offensive"
+    ]
+  },
+  "eşek": {
+    "acceptable": [],
+    "problematic": [
+      "Animal insult meaning 'donkey' or 'ass'"
+    ]
+  },
+  "it": {
+    "acceptable": [],
+    "problematic": [
+      "Derogatory term meaning 'mutt' or 'cur'"
+    ]
+  },
+  "kahbe evladı": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive compound family insult"
+    ]
+  },
+  "anasını sikeyim": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive family-targeted sexual threat"
+    ]
+  },
+  "bacını sikeyim": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive family-targeted sexual threat"
+    ]
+  },
+  "karını sikeyim": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive family-targeted sexual threat"
+    ]
+  },
+  "götlek": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar insult related to buttocks"
+    ]
+  },
+  "sikko": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar dismissive term"
+    ]
+  },
+  "dalyarak": {
+    "acceptable": [],
+    "problematic": [
+      "Compound vulgar insult combining 'branch' and male genitalia"
+    ]
+  },
+  "ananı sikeyim": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive mother-targeted sexual threat"
+    ]
+  },
+  "siktiğimin": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely vulgar possessive form"
+    ]
+  },
+  "amına koyduğumun": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely vulgar possessive form"
+    ]
+  },
+  "götveren": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive homophobic sexual insult"
+    ]
+  },
+  "göt lalesi": {
+    "acceptable": [],
+    "problematic": [
+      "Offensive homophobic insult meaning 'ass tulip'"
+    ]
+  },
+  "oç": {
+    "acceptable": [],
+    "problematic": [
+      "Abbreviated form of 'orospu çocuğu', extremely offensive"
+    ]
+  },
+  "sg": {
+    "acceptable": [],
+    "problematic": [
+      "Abbreviated form of 'siktir git'"
+    ]
+  },
+  "sikerim": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar sexual threat meaning 'I'll f*ck'"
+    ]
+  },
+  "sikişmek": {
+    "acceptable": [],
+    "problematic": [
+      "Vulgar term for sexual intercourse"
+    ]
+  },
+  "sikmek": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely vulgar term for sexual intercourse"
+    ]
+  }
+}

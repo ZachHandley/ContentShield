@@ -1,0 +1,500 @@
+{
+  "tusan": {
+    "acceptable": [],
+    "problematic": [
+      "Euphemism for 'thousand', very mild curse word similar to 'darn'"
+    ]
+  },
+  "sjutton": {
+    "acceptable": [],
+    "problematic": [
+      "Number seventeen used as mild euphemism, equivalent to 'heck'"
+    ]
+  },
+  "attans": {
+    "acceptable": [],
+    "problematic": [
+      "Old form of eighteen, mild exclamation similar to 'dang'"
+    ]
+  },
+  "kors": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'cross', mild religious exclamation"
+    ]
+  },
+  "järnspikar": {
+    "acceptable": [],
+    "problematic": [
+      "Literally 'iron nails', old-fashioned mild exclamation"
+    ]
+  },
+  "gudars skymning": {
+    "acceptable": [],
+    "problematic": [
+      "Literally 'twilight of the gods', old-fashioned mild curse"
+    ]
+  },
+  "för bövelen": {
+    "acceptable": [],
+    "problematic": [
+      "Equivalent to 'for goodness sake', mild exclamation"
+    ]
+  },
+  "herre gud": {
+    "acceptable": [],
+    "problematic": [
+      "Lord God, mild religious exclamation similar to 'Oh my God'"
+    ]
+  },
+  "jisses": {
+    "acceptable": [],
+    "problematic": [
+      "Taboo deformation for Jesus, mild expression of surprise"
+    ]
+  },
+  "fy": {
+    "acceptable": [],
+    "problematic": [
+      "Expression of disgust, equivalent to 'ugh' or 'yuck'"
+    ]
+  },
+  "skit": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'shit', can be used as emphasis like 'very' in compounds"
+    ]
+  },
+  "fan": {
+    "acceptable": [],
+    "problematic": [
+      "Devil/Satan reference, equivalent to 'damn' or 'fuck', very common"
+    ]
+  },
+  "helvete": {
+    "acceptable": [],
+    "problematic": [
+      "Literally 'hell', used similarly to English 'hell'"
+    ]
+  },
+  "satan": {
+    "acceptable": [],
+    "problematic": [
+      "Literal invocation of Satan, used as strong exclamation"
+    ]
+  },
+  "jävel": {
+    "acceptable": [],
+    "problematic": [
+      "Devil reference, very versatile curse word, equivalent to English 'fuck'"
+    ]
+  },
+  "förbannad": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'damned' or 'cursed', moderate profanity"
+    ]
+  },
+  "piss": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'piss', used as interjection and prefix"
+    ]
+  },
+  "idiot": {
+    "acceptable": [],
+    "problematic": [
+      "Intelligence-based insult, same as English 'idiot'"
+    ]
+  },
+  "dumhuvud": {
+    "acceptable": [],
+    "problematic": [
+      "Literally 'stupid head', moderate intelligence insult"
+    ]
+  },
+  "pucko": {
+    "acceptable": [],
+    "problematic": [
+      "Slang for 'stupid person', derogatory intelligence insult"
+    ]
+  },
+  "klantskalle": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'bonehead', moderate intelligence insult"
+    ]
+  },
+  "mongo": {
+    "acceptable": [],
+    "problematic": [
+      "Slang meaning 'retard' or 'weirdo', considered offensive"
+    ]
+  },
+  "nöt": {
+    "acceptable": [],
+    "problematic": [
+      "Old term for cattle, used as mild insult meaning 'stupid'"
+    ]
+  },
+  "apa": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'ape/monkey', implies stupidity or brutishness"
+    ]
+  },
+  "kåt": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'horny', sexual reference but not extremely offensive"
+    ]
+  },
+  "knulla": {
+    "acceptable": [],
+    "problematic": [
+      "Most offensive sexual term, equivalent to English 'fuck'"
+    ]
+  },
+  "hora": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'whore', strong sexual insult primarily targeting women"
+    ]
+  },
+  "fitta": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive, equivalent to English 'cunt', strongest sexual profanity"
+    ]
+  },
+  "kuk": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'cock/dick', strong sexual profanity used interjectively"
+    ]
+  },
+  "bög": {
+    "acceptable": [],
+    "problematic": [
+      "Homosexual slur, partially reappropriated but still offensive"
+    ]
+  },
+  "blatte": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive derogatory term for non-Swedish immigrants"
+    ]
+  },
+  "svartskalle": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive term for people with dark skin/hair"
+    ]
+  },
+  "turk": {
+    "acceptable": [],
+    "problematic": [
+      "Generic derogatory term for immigrants, offensive"
+    ]
+  },
+  "fan ta dig": {
+    "acceptable": [],
+    "problematic": [
+      "Strong curse phrase meaning 'go to hell' or 'fuck you'"
+    ]
+  },
+  "dra åt helvete": {
+    "acceptable": [],
+    "problematic": [
+      "Strong curse phrase meaning 'go to hell'"
+    ]
+  },
+  "fan i helvete": {
+    "acceptable": [],
+    "problematic": [
+      "Strong compound curse combining 'fan' and 'helvete', 'fucking hell'"
+    ]
+  },
+  "satans helvetes förbannade jävla fan": {
+    "acceptable": [],
+    "problematic": [
+      "Maximum intensity compound curse combining multiple religious profanities"
+    ]
+  },
+  "fan jävla skit": {
+    "acceptable": [],
+    "problematic": [
+      "Strong compound curse combining religious and scatological terms"
+    ]
+  },
+  "skitstövel": {
+    "acceptable": [],
+    "problematic": [
+      "Strong insult literally meaning 'shit boot', equivalent to 'bastard'"
+    ]
+  },
+  "jävlar anamma": {
+    "acceptable": [],
+    "problematic": [
+      "Moderate exclamation, 'anamma' is euphemism for 'name of God'"
+    ]
+  },
+  "gå och dö": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive phrase meaning 'go and die' or 'kill yourself'"
+    ]
+  },
+  "skit-snygg": {
+    "acceptable": [],
+    "problematic": [
+      "Using 'skit' as intensifier meaning 'very good looking'"
+    ]
+  },
+  "skit-ful": {
+    "acceptable": [],
+    "problematic": [
+      "Using 'skit' as intensifier meaning 'very ugly'"
+    ]
+  },
+  "attans bananer": {
+    "acceptable": [],
+    "problematic": [
+      "Mild compound insult combining 'attans' with 'bananas'"
+    ]
+  },
+  "fan-jävel": {
+    "acceptable": [],
+    "problematic": [
+      "Strong compound combining 'fan' and 'jävel' for emphasis"
+    ]
+  },
+  "helvetes-jävel": {
+    "acceptable": [],
+    "problematic": [
+      "Strong compound combining 'helvete' and 'jävel'"
+    ]
+  },
+  "satan-jävel": {
+    "acceptable": [],
+    "problematic": [
+      "Strong compound combining 'satan' and 'jävel'"
+    ]
+  },
+  "piss-träd": {
+    "acceptable": [],
+    "problematic": [
+      "Moderate compound insult literally 'piss tree'"
+    ]
+  },
+  "skit-träd": {
+    "acceptable": [],
+    "problematic": [
+      "Moderate compound insult literally 'shit tree'"
+    ]
+  },
+  "djävulskap": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'devilry' or 'deviltry', moderate religious curse"
+    ]
+  },
+  "förbannelse": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'curse' or 'damnation', moderate religious profanity"
+    ]
+  },
+  "hemsk": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'awful' or 'terrible', mild negative descriptor"
+    ]
+  },
+  "äcklig": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'disgusting' or 'gross', mild expression of disgust"
+    ]
+  },
+  "vidrig": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'disgusting' or 'repulsive', stronger than äcklig"
+    ]
+  },
+  "rövhål": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'asshole', strong vulgar insult"
+    ]
+  },
+  "arsle": {
+    "acceptable": [],
+    "problematic": [
+      "Mild term for 'butt' or 'bottom', less offensive than röv"
+    ]
+  },
+  "bajskorv": {
+    "acceptable": [],
+    "problematic": [
+      "Childish term literally 'poop sausage', moderate scatological"
+    ]
+  },
+  "fittnylle": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive compound using 'fitta', highly vulgar"
+    ]
+  },
+  "kuksuger": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive sexual insult meaning 'cocksucker'"
+    ]
+  },
+  "fittslem": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive compound using 'fitta', highly vulgar"
+    ]
+  },
+  "kukhuvud": {
+    "acceptable": [],
+    "problematic": [
+      "Strong vulgar insult literally 'dickhead'"
+    ]
+  },
+  "runkare": {
+    "acceptable": [],
+    "problematic": [
+      "Strong sexual insult referring to masturbation"
+    ]
+  },
+  "slyna": {
+    "acceptable": [],
+    "problematic": [
+      "Strong derogatory term for women, similar to 'slut'"
+    ]
+  },
+  "ludder": {
+    "acceptable": [],
+    "problematic": [
+      "Strong derogatory term for women, similar to 'whore'"
+    ]
+  },
+  "käring": {
+    "acceptable": [],
+    "problematic": [
+      "Derogatory term for older women, equivalent to 'hag' or 'old witch'"
+    ]
+  },
+  "gubbe": {
+    "acceptable": [],
+    "problematic": [
+      "Can be derogatory for older men when used dismissively"
+    ]
+  },
+  "mesar": {
+    "acceptable": [],
+    "problematic": [
+      "Insult implying weakness or cowardice, 'wimp'"
+    ]
+  },
+  "fegis": {
+    "acceptable": [],
+    "problematic": [
+      "Insult meaning 'coward' or 'chicken'"
+    ]
+  },
+  "kräk": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'puke' or 'vomit', used as disgusting insult"
+    ]
+  },
+  "slem": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'slime' or 'mucus', used as disgusting insult"
+    ]
+  },
+  "snorunge": {
+    "acceptable": [],
+    "problematic": [
+      "Derogatory term for young person, 'snotty kid'"
+    ]
+  },
+  "pajas": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'clown' in derogatory sense, implies foolishness"
+    ]
+  },
+  "knäppskalle": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'crackpot' or 'nutcase', intelligence insult"
+    ]
+  },
+  "stolpskott": {
+    "acceptable": [],
+    "problematic": [
+      "Literally 'post shot', meaning someone who missed target, implies stupidity"
+    ]
+  },
+  "tölp": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'oaf' or 'clumsy fool', moderate intelligence insult"
+    ]
+  },
+  "kåk": {
+    "acceptable": [],
+    "problematic": [
+      "Slang for prison or jail, mild criminal reference"
+    ]
+  },
+  "soppa": {
+    "acceptable": [],
+    "problematic": [
+      "Literally 'soup', used to describe messy situation"
+    ]
+  },
+  "pannkaka": {
+    "acceptable": [],
+    "problematic": [
+      "Literally 'pancake', mild insult implying flatness or stupidity"
+    ]
+  },
+  "kött": {
+    "acceptable": [],
+    "problematic": [
+      "Literally 'meat', can be used to objectify people"
+    ]
+  },
+  "packet": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'riffraff' or 'scum', moderate general insult"
+    ]
+  },
+  "as": {
+    "acceptable": [],
+    "problematic": [
+      "Can be used as intensifier or mild insult, context-dependent"
+    ]
+  },
+  "ynkrygg": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'wretch' or 'miserable person', implies pathetic weakness"
+    ]
+  },
+  "usling": {
+    "acceptable": [],
+    "problematic": [
+      "Meaning 'wretch' or 'miserable creature', implies contempt"
+    ]
+  }
+}

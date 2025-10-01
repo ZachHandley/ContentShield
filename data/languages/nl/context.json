@@ -1,0 +1,374 @@
+{
+  "kanker": {
+    "acceptable": [],
+    "problematic": [
+      "Most offensive Dutch curse, cancer-related. Extremely taboo and socially unacceptable. Often used by teens despite social stigma."
+    ]
+  },
+  "kankerlijer": {
+    "acceptable": [],
+    "problematic": [
+      "Combination of kanker + lijer (sufferer). One of the most offensive possible Dutch insults."
+    ]
+  },
+  "tyfus": {
+    "acceptable": [],
+    "problematic": [
+      "Typhoid-based curse. Less taboo than kanker as typhoid is historical. Used as adjective for unpleasant things."
+    ]
+  },
+  "tering": {
+    "acceptable": [],
+    "problematic": [
+      "Tuberculosis-based curse. Commonly used disease-based swear, less severe than kanker."
+    ]
+  },
+  "pleuris": {
+    "acceptable": [],
+    "problematic": [
+      "Tuberculosis variant. Milder of the disease-based curses."
+    ]
+  },
+  "kolere": {
+    "acceptable": [],
+    "problematic": [
+      "Cholera-based curse. Disconnected from disease origins in modern usage."
+    ]
+  },
+  "kut": {
+    "acceptable": [],
+    "problematic": [
+      "Female genitalia reference. Extremely versatile - used as expletive, adjective, adverb. Can describe feelings or weather."
+    ]
+  },
+  "kutwijf": {
+    "acceptable": [],
+    "problematic": [
+      "Combination of kut + wijf (derogatory woman). Female equivalent of klootzak."
+    ]
+  },
+  "lul": {
+    "acceptable": [],
+    "problematic": [
+      "Male genitalia reference. Used to describe unsympathetic man or as general insult meaning asshole/prick."
+    ]
+  },
+  "klootzak": {
+    "acceptable": [],
+    "problematic": [
+      "Literally 'scrotum/ball sack'. Used for irritating, annoying or disagreeable person."
+    ]
+  },
+  "klote": {
+    "acceptable": [],
+    "problematic": [
+      "From kloten (testicles). Used as expletive, adjective, or adverb like 'kut'."
+    ]
+  },
+  "klootviool": {
+    "acceptable": [],
+    "problematic": [
+      "Creative compound: kloot (ball) + viool (violin). Humorous insult."
+    ]
+  },
+  "hoer": {
+    "acceptable": [],
+    "problematic": [
+      "Prostitute. Often combined with other terms."
+    ]
+  },
+  "stoephoer": {
+    "acceptable": [],
+    "problematic": [
+      "Compound: stoep (sidewalk) + hoer. Streetwalker reference."
+    ]
+  },
+  "neuken": {
+    "acceptable": [],
+    "problematic": [
+      "Verb meaning 'to fuck'. Used in compounds and expressions."
+    ]
+  },
+  "mierenneuker": {
+    "acceptable": [],
+    "problematic": [
+      "Literally 'ant fucker'. Someone who obsesses over minor details, nitpicker. Can be verb (mierenneuken)."
+    ]
+  },
+  "godverdomme": {
+    "acceptable": [],
+    "problematic": [
+      "Direct translation of 'goddammit'. Standalone expression of frustration or anger."
+    ]
+  },
+  "verdomme": {
+    "acceptable": [],
+    "problematic": [
+      "Shortened version of godverdomme for milder impact. Equivalent to 'damn'."
+    ]
+  },
+  "potverdorie": {
+    "acceptable": [],
+    "problematic": [
+      "Euphemism for godverdomme. Socially acceptable, used around children and in professional settings."
+    ]
+  },
+  "jezus": {
+    "acceptable": [],
+    "problematic": [
+      "Used like in English - shock, frustration, disbelief. Mild blasphemy."
+    ]
+  },
+  "eikel": {
+    "acceptable": [],
+    "problematic": [
+      "Literally 'acorn'. Similar to klootzak but milder. Describes foolish rather than malicious behavior."
+    ]
+  },
+  "trut": {
+    "acceptable": [],
+    "problematic": [
+      "Mild slang for female private parts. Used as insult for women."
+    ]
+  },
+  "slet": {
+    "acceptable": [],
+    "problematic": [
+      "Slut, promiscuous woman. Derogatory term for women."
+    ]
+  },
+  "pik": {
+    "acceptable": [],
+    "problematic": [
+      "Penis, dick. Anatomical slang."
+    ]
+  },
+  "lulletje": {
+    "acceptable": [],
+    "problematic": [
+      "Diminutive of lul. Milder due to diminutive form (-je ending)."
+    ]
+  },
+  "pannenkoek": {
+    "acceptable": [],
+    "problematic": [
+      "Literally 'pancake'. Used as mild insult meaning fool or idiot."
+    ]
+  },
+  "sufkop": {
+    "acceptable": [],
+    "problematic": [
+      "Compound: suf (drowsy/dull) + kop (head). Meaning dullard or dimwit."
+    ]
+  },
+  "idioot": {
+    "acceptable": [],
+    "problematic": [
+      "Idiot. Standard mild insult about intelligence."
+    ]
+  },
+  "sukkel": {
+    "acceptable": [],
+    "problematic": [
+      "Dimwit, someone pitiable rather than contemptible. Relatively mild."
+    ]
+  },
+  "stommeling": {
+    "acceptable": [],
+    "problematic": [
+      "From stom (stupid). Meaning fool or dummy."
+    ]
+  },
+  "dombo": {
+    "acceptable": [],
+    "problematic": [
+      "From dom (stupid). Very mild insult meaning dummy."
+    ]
+  },
+  "kutzooi": {
+    "acceptable": [],
+    "problematic": [
+      "Compound: kut + zooi (mess). Meaning fucking mess or shitty situation."
+    ]
+  },
+  "klotezooi": {
+    "acceptable": [],
+    "problematic": [
+      "Compound: klote + zooi. Similar to kutzooi but slightly milder."
+    ]
+  },
+  "shit": {
+    "acceptable": [],
+    "problematic": [
+      "English loanword. Common among Dutch speakers due to English proficiency."
+    ]
+  },
+  "fuck": {
+    "acceptable": [],
+    "problematic": [
+      "English loanword. Commonly used by younger Dutch speakers."
+    ]
+  },
+  "bitch": {
+    "acceptable": [],
+    "problematic": [
+      "English loanword. Popular among younger generations."
+    ]
+  },
+  "godvermiljaardedju": {
+    "acceptable": [],
+    "problematic": [
+      "Flemish (Belgian) creative way of cursing God. Regional to Belgium."
+    ]
+  },
+  "kalf": {
+    "acceptable": [],
+    "problematic": [
+      "Flemish: baby cow, meaning childish hapless idiot. Regional to Belgium."
+    ]
+  },
+  "onnozelaar": {
+    "acceptable": [],
+    "problematic": [
+      "Flemish: despicable idiot or dimwit. Regional to Belgium."
+    ]
+  },
+  "duivel": {
+    "acceptable": [],
+    "problematic": [
+      "Devil. Often in phrase 'loop naar de duivel' (go to the devil). More common in Belgium."
+    ]
+  },
+  "verdorie": {
+    "acceptable": [],
+    "problematic": [
+      "Mild euphemism, similar to 'darn it'. Very socially acceptable."
+    ]
+  },
+  "stront": {
+    "acceptable": [],
+    "problematic": [
+      "Shit, feces. Scatological term."
+    ]
+  },
+  "poep": {
+    "acceptable": [],
+    "problematic": [
+      "Childish term for poop. Very mild, often used with children."
+    ]
+  },
+  "kak": {
+    "acceptable": [],
+    "problematic": [
+      "Childish term for crap/poop. Very mild."
+    ]
+  },
+  "drol": {
+    "acceptable": [],
+    "problematic": [
+      "Turd. Mild scatological term, often diminutive."
+    ]
+  },
+  "rotzooi": {
+    "acceptable": [],
+    "problematic": [
+      "Compound: rot (rotten) + zooi (mess). Meaning mess or rubbish situation."
+    ]
+  },
+  "rotkop": {
+    "acceptable": [],
+    "problematic": [
+      "Compound: rot (rotten) + kop (head). Meaning jerk or asshole."
+    ]
+  },
+  "zeik": {
+    "acceptable": [],
+    "problematic": [
+      "To piss/urinate. Also used as verb meaning to whine or complain."
+    ]
+  },
+  "zeiknerd": {
+    "acceptable": [],
+    "problematic": [
+      "Compound: zeik (piss) + nerd. Someone who constantly complains."
+    ]
+  },
+  "pies": {
+    "acceptable": [],
+    "problematic": [
+      "Mild term for pee/urine. Child-friendly."
+    ]
+  },
+  "scheet": {
+    "acceptable": [],
+    "problematic": [
+      "Fart. Mild bodily function term."
+    ]
+  },
+  "stomme": {
+    "acceptable": [],
+    "problematic": [
+      "Stupid (adjective). Very mild when used as 'stomme idioot' etc."
+    ]
+  },
+  "achterlijk": {
+    "acceptable": [],
+    "problematic": [
+      "Retarded. Ableist slur that's socially problematic."
+    ]
+  },
+  "mongool": {
+    "acceptable": [],
+    "problematic": [
+      "Extremely offensive ableist slur. Historically used for Down syndrome, now recognized as highly inappropriate."
+    ]
+  },
+  "debiel": {
+    "acceptable": [],
+    "problematic": [
+      "Imbecile. Ableist term for someone with intellectual disability, used as general insult."
+    ]
+  },
+  "gek": {
+    "acceptable": [],
+    "problematic": [
+      "Crazy/mad. Mild term that can be affectionate or mildly insulting depending on context."
+    ]
+  },
+  "zak": {
+    "acceptable": [],
+    "problematic": [
+      "Bag/sack. Used as mild insult meaning jerk, especially in compounds."
+    ]
+  },
+  "wijf": {
+    "acceptable": [],
+    "problematic": [
+      "Derogatory term for woman. Archaic but still used in compounds like kutwijf."
+    ]
+  },
+  "teef": {
+    "acceptable": [],
+    "problematic": [
+      "Female dog, bitch. Derogatory term for women."
+    ]
+  },
+  "heks": {
+    "acceptable": [],
+    "problematic": [
+      "Witch. Mild derogatory term for difficult woman."
+    ]
+  },
+  "kreng": {
+    "acceptable": [],
+    "problematic": [
+      "Carrion, corpse of animal. Used as harsh insult for women meaning bitch or nasty person."
+    ]
+  },
+  "del": {
+    "acceptable": [],
+    "problematic": [
+      "Slang term meaning idiot or fool. Relatively mild."
+    ]
+  }
+}

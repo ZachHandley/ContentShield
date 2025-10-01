@@ -1,7 +1,9 @@
 {
+  "code": "fr",
+  "name": "French",
   "version": "1.0.0",
-  "last_updated": "2025-09-25",
-  "language": "fr",
+  "lastUpdated": "2025-09-30",
+  "wordCount": 229,
   "language_info": {
     "name": "French",
     "native_name": "Français",
@@ -104,26 +106,6 @@
       "Compound insults more creative and elaborate"
     ]
   },
-  "special_systems": {
-    "verlan": {
-      "description": "Syllable reversal slang system",
-      "prevalence": "Prominent in French urban areas",
-      "profanity_application": "Used to mask offensive terms",
-      "evolution": "Constantly evolving with youth culture"
-    },
-    "quebec_sacres": {
-      "description": "Religious profanity system unique to Quebec",
-      "origin": "Catholic religious terms transformed to profanity",
-      "cultural_significance": "Marker of Quebec linguistic identity",
-      "hierarchy": "Complex intensity system for different religious terms"
-    },
-    "formal_informal": {
-      "description": "Strong register distinctions affect profanity appropriateness",
-      "tu_vous": "Pronoun choice affects acceptable language level",
-      "professional": "Formal contexts have zero tolerance",
-      "casual": "Informal contexts much more permissive"
-    }
-  },
   "data_collection_methodology": {
     "sources": [
       "French sociolinguistic research",
@@ -194,5 +176,25 @@
     "belgium": "EU hate speech directives and Belgian anti-discrimination law",
     "switzerland": "Swiss anti-racism law covers most severe categories",
     "international": "Varies by country, but generally aligned with Western hate speech norms"
+  },
+  "special_systems": {
+    "verlan": {
+      "description": "Syllable reversal slang system",
+      "prevalence": "Prominent in French urban areas",
+      "profanity_application": "Used to mask offensive terms",
+      "evolution": "Constantly evolving with youth culture"
+    },
+    "quebec_sacres": {
+      "description": "Religious profanity system unique to Quebec",
+      "origin": "Catholic religious terms transformed to profanity",
+      "cultural_significance": "Marker of Quebec linguistic identity",
+      "hierarchy": "Complex intensity system for different religious terms"
+    },
+    "formal_informal": {
+      "description": "Strong register distinctions affect profanity appropriateness",
+      "tu_vous": "Pronoun choice affects acceptable language level",
+      "professional": "Formal contexts have zero tolerance",
+      "casual": "Informal contexts much more permissive"
+    }
   }
 }

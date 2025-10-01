@@ -92,6 +92,17 @@ export class ProfanityMatcher {
     const trie = new ProfanityTrie()
 
     for (const wordData of words) {
+      // Skip null, undefined, or malformed entries
+      if (!wordData || typeof wordData !== 'object') {
+        continue
+      }
+
+      // Skip entries with empty or invalid word
+      if (!wordData.word || typeof wordData.word !== 'string' || wordData.word.trim().length === 0) {
+        continue
+      }
+
+      // Skip entries that don't meet config criteria
       if (!this.shouldIncludeWord(wordData)) {
         continue
       }
@@ -173,7 +184,13 @@ export class ProfanityMatcher {
 
     let normalizedText: string
     if (this.normalizationCache.has(cacheKey)) {
-      normalizedText = this.normalizationCache.get(cacheKey)!
+      const cached = this.normalizationCache.get(cacheKey)
+      normalizedText = cached || textNormalizer.normalize(text, {
+        removeAccents: true,
+        expandContractions: true,
+        normalizeWhitespace: true,
+        preserveCase: caseSensitive
+      })
     } else {
       normalizedText = textNormalizer.normalize(text, {
         removeAccents: true,
@@ -198,14 +215,28 @@ export class ProfanityMatcher {
       // Find exact matches first (fastest)
       const exactMatches = trie.multiPatternSearch(normalizedText, caseSensitive)
 
-      // Only do fuzzy search if enabled and we have few exact matches
+      // PERFORMANCE OPTIMIZATION: Smart fuzzy search
+      // Only do fuzzy search if:
+      // 1. Fuzzy matching is enabled
+      // 2. Text is reasonably small (< 5000 chars) OR we found very few exact matches
+      // 3. We haven't found too many matches already
       let fuzzyMatches: TrieMatch[] = []
-      if (this.config.fuzzyMatching) {
-        fuzzyMatches = trie.fuzzySearch(
-          normalizedText,
-          this.config.maxEditDistance,
-          caseSensitive
-        )
+      if (this.config.fuzzyMatching && allMatches.length < 50) {
+        // For large texts, only use fuzzy search if we found very few exact matches
+        const shouldUseFuzzySearch = normalizedText.length < 5000 || exactMatches.length < 5
+
+        if (shouldUseFuzzySearch) {
+          // For very large texts, extract and search only words instead of full text
+          if (normalizedText.length > 2000) {
+            fuzzyMatches = this.fuzzySearchWords(trie, normalizedText, caseSensitive)
+          } else {
+            fuzzyMatches = trie.fuzzySearch(
+              normalizedText,
+              this.config.maxEditDistance,
+              caseSensitive
+            )
+          }
+        }
       }
 
       // Convert to detection matches
@@ -240,6 +271,54 @@ export class ProfanityMatcher {
     this.cacheMatches(text, detectedLanguages, caseSensitive, finalMatches)
 
     return finalMatches
+  }
+
+  /**
+   * Perform fuzzy search on individual words (much faster for large texts)
+   */
+  private fuzzySearchWords(
+    trie: ProfanityTrie,
+    text: string,
+    caseSensitive: boolean
+  ): TrieMatch[] {
+    // Extract unique words from text
+    const wordPattern = /\b\w+\b/g
+    const words = new Set<string>()
+    const wordPositions = new Map<string, number[]>()
+
+    let match
+    while ((match = wordPattern.exec(text)) !== null) {
+      const word = match[0]
+      if (word.length >= this.config.minWordLength) {
+        words.add(word)
+        if (!wordPositions.has(word)) {
+          wordPositions.set(word, [])
+        }
+        wordPositions.get(word)!.push(match.index)
+      }
+    }
+
+    // Fuzzy search each unique word individually
+    const matches: TrieMatch[] = []
+    for (const word of words) {
+      const wordMatches = trie.fuzzySearch(word, this.config.maxEditDistance, caseSensitive)
+
+      // Map matches back to their positions in the original text
+      if (wordMatches.length > 0 && wordPositions.has(word)) {
+        const positions = wordPositions.get(word)!
+        for (const position of positions) {
+          for (const fuzzyMatch of wordMatches) {
+            matches.push({
+              ...fuzzyMatch,
+              start: position,
+              end: position + word.length
+            })
+          }
+        }
+      }
+    }
+
+    return matches
   }
 
   /**
@@ -433,8 +512,9 @@ export class ProfanityMatcher {
   private calculateContextConfidence(context: MatchContext): number {
     let confidence = 1.0
 
-    // Reduce confidence for very short sentences
-    if (context.sentence.length < 20) {
+    // Reduce confidence for very short sentences (fragments)
+    // Only penalize very short fragments (< 10 chars) as they lack context
+    if (context.sentence.length < 10) {
       confidence *= 0.8
     }
 
@@ -513,8 +593,9 @@ export class ProfanityMatcher {
       confidence *= 1.1
     }
 
-    // Reduce confidence for very short words
-    if (match.word.length <= 3) {
+    // Reduce confidence for very short matched text (not the dictionary word)
+    // Use the actual matched text length, not the dictionary word length
+    if (match.match.length <= 3) {
       confidence *= 0.8
     }
 
@@ -637,7 +718,13 @@ export class ProfanityMatcher {
   getStats(): {
     totalLanguages: number
     totalWords: number
-    trieStats: Record<string, any>
+    trieStats: Record<string, {
+      totalWords: number
+      totalNodes: number
+      averageDepth: number
+      maxDepth: number
+      memoryUsage: number
+    }>
     cacheStats: {
       hits: number
       misses: number
@@ -646,7 +733,13 @@ export class ProfanityMatcher {
     }
     normalizationCacheSize: number
   } {
-    const trieStats: Record<string, any> = {}
+    const trieStats: Record<string, {
+      totalWords: number
+      totalNodes: number
+      averageDepth: number
+      maxDepth: number
+      memoryUsage: number
+    }> = {}
     let totalWords = 0
 
     for (const [language, trie] of this.tries) {
@@ -704,7 +797,8 @@ export class ProfanityMatcher {
     const cacheKey = this.getCacheKey(text, languages, caseSensitive)
     if (this.matchCache.has(cacheKey)) {
       this.cacheHits++
-      return this.matchCache.get(cacheKey)!
+      const cached = this.matchCache.get(cacheKey)
+      return cached || null
     }
     this.cacheMisses++
     return null

@@ -37,6 +37,42 @@ export interface LanguageData {
 }
 
 /**
+ * Internal language data structure used during loading
+ */
+interface PartialLanguageData {
+  metadata?: {
+    name: string
+    code: LanguageCode
+    version: string
+    wordCount: number
+    lastUpdated: string
+    contributors?: string[]
+  }
+  profanity?: Array<{
+    word: string
+    severity: SeverityLevel
+    categories: ProfanityCategory[]
+    variations?: string[]
+    context?: string[]
+  }> | { words: Array<{
+    word: string
+    severity: SeverityLevel
+    categories: ProfanityCategory[]
+    variations?: string[]
+    context?: string[]
+  }> }
+  categories?: Record<string, string[]>
+  severity?: Record<string, SeverityLevel>
+  variations?: Record<string, string[]>
+  context?: Record<string, {
+    acceptable: string[]
+    problematic: string[]
+  }>
+  // Index signature to allow dynamic property access
+  [key: string]: unknown
+}
+
+/**
  * Language loading options
  */
 export interface LanguageLoadOptions {
@@ -96,6 +132,7 @@ export class LanguageLoader {
       this.cacheHits++
       return {
         success: true,
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- cache.has() check above guarantees value exists
         data: this.cache.get(language)!,
         loadTime: performance.now() - startTime,
         fromCache: true
@@ -104,6 +141,7 @@ export class LanguageLoader {
 
     // Check if already loading
     if (this.loadingPromises.has(language)) {
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- loadingPromises.has() check above guarantees value exists
       return await this.loadingPromises.get(language)!
     }
 
@@ -183,7 +221,7 @@ export class LanguageLoader {
     })
 
     const results = await Promise.all(loadPromises)
-    const languageData: any = {}
+    const languageData: PartialLanguageData = {}
 
     for (const result of results) {
       if (result.data) {

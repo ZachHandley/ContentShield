@@ -384,9 +384,9 @@ describe('Full Detection Pipeline Integration', () => {
     it('should handle mixed content types', async () => {
       const mixedContent = `
         Email: user@example.com
-        URL: https://example.com/badword
+        URL: https://example.com/shit
         Phone: (555) 123-4567
-        Code: function badword() { return "terrible"; }
+        Code: function shit() { return "terrible"; }
         Regular text with explicit content.
       `
 

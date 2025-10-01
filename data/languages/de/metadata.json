@@ -1,7 +1,9 @@
 {
+  "code": "de",
+  "name": "German",
   "version": "1.0.0",
-  "last_updated": "2025-09-25",
-  "language": "de",
+  "lastUpdated": "2025-09-30",
+  "wordCount": 226,
   "language_info": {
     "name": "German",
     "native_name": "Deutsch",
@@ -112,33 +114,6 @@
       "Creative profanity more culturally appreciated"
     ]
   },
-  "compound_system": {
-    "description": "German's most distinctive profanity feature",
-    "productivity": "Unlimited - new combinations constantly created",
-    "cultural_significance": "Compound creativity valued as linguistic skill",
-    "detection_challenges": "Automated detection extremely difficult",
-    "severity_effects": "Compounds often more severe than individual components",
-    "examples": ["Scheissdreck", "Arschgeige", "Vollpfosten", "Hurensohn"]
-  },
-  "legal_framework": {
-    "volksverhetzung": {
-      "description": "German hate speech law covering incitement",
-      "penalties": "Up to 5 years imprisonment",
-      "coverage": "Incitement against groups based on identity",
-      "online_enforcement": "Actively enforced on German internet platforms"
-    },
-    "beleidigung": {
-      "description": "Personal insult laws",
-      "penalties": "Fines up to €185,000",
-      "coverage": "Personal attacks and defamation",
-      "public_figure_extensions": "Special protections for public officials"
-    },
-    "workplace_protections": {
-      "description": "Labor law protections against discriminatory language",
-      "consequences": "Termination for hate speech",
-      "harassment_laws": "Sexual and discriminatory harassment prohibited"
-    }
-  },
   "data_collection_methodology": {
     "sources": [
       "German sociolinguistic research",
@@ -211,6 +186,38 @@
     "compound_detection": "Special algorithms needed for compound word analysis",
     "case_sensitivity": "German capitalization rules affect detection patterns",
     "regex_patterns": "Complex patterns needed for compound formation rules"
+  },
+  "legal_framework": {
+    "volksverhetzung": {
+      "description": "German hate speech law covering incitement",
+      "penalties": "Up to 5 years imprisonment",
+      "coverage": "Incitement against groups based on identity",
+      "online_enforcement": "Actively enforced on German internet platforms"
+    },
+    "beleidigung": {
+      "description": "Personal insult laws",
+      "penalties": "Fines up to €185,000",
+      "coverage": "Personal attacks and defamation",
+      "public_figure_extensions": "Special protections for public officials"
+    },
+    "workplace_protections": {
+      "description": "Labor law protections against discriminatory language",
+      "consequences": "Termination for hate speech",
+      "harassment_laws": "Sexual and discriminatory harassment prohibited"
+    }
+  },
+  "compound_system": {
+    "description": "German's most distinctive profanity feature",
+    "productivity": "Unlimited - new combinations constantly created",
+    "cultural_significance": "Compound creativity valued as linguistic skill",
+    "detection_challenges": "Automated detection extremely difficult",
+    "severity_effects": "Compounds often more severe than individual components",
+    "examples": [
+      "Scheissdreck",
+      "Arschgeige",
+      "Vollpfosten",
+      "Hurensohn"
+    ]
   },
   "special_challenges": {
     "infinite_compounds": "Theoretical unlimited compound formation potential",

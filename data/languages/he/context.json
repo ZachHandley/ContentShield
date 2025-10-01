@@ -1,0 +1,380 @@
+{
+  "משוגע": {
+    "acceptable": [],
+    "problematic": [
+      "Crazy/insane, mild insult implying mental instability (romanized: meshuga)"
+    ]
+  },
+  "טיפש": {
+    "acceptable": [],
+    "problematic": [
+      "Stupid/foolish, mild intellectual insult (romanized: tipesh)"
+    ]
+  },
+  "אידיוט": {
+    "acceptable": [],
+    "problematic": [
+      "Idiot, borrowed from English/Greek, mild insult (romanized: idiot)"
+    ]
+  },
+  "דביל": {
+    "acceptable": [],
+    "problematic": [
+      "Moron, from Russian, mild intellectual insult (romanized: debil)"
+    ]
+  },
+  "כסיל": {
+    "acceptable": [],
+    "problematic": [
+      "Fool, biblical Hebrew term for stupid person (romanized: ksil)"
+    ]
+  },
+  "מטומטם": {
+    "acceptable": [],
+    "problematic": [
+      "Dumb/stupid, implies lack of intelligence (romanized: metumtam)"
+    ]
+  },
+  "חרא": {
+    "acceptable": [],
+    "problematic": [
+      "Shit, common profanity borrowed from Arabic, moderate severity (romanized: khara)"
+    ]
+  },
+  "זין": {
+    "acceptable": [],
+    "problematic": [
+      "Dick/penis, also means weapon in Hebrew, moderate sexual profanity (romanized: zayin)"
+    ]
+  },
+  "יא זין": {
+    "acceptable": [],
+    "problematic": [
+      "You dick, direct insult using sexual organ, can be used jokingly among friends (romanized: ya zayin)"
+    ]
+  },
+  "זונה": {
+    "acceptable": [],
+    "problematic": [
+      "Whore/prostitute, derogatory term for women (romanized: zona)"
+    ]
+  },
+  "מניאק": {
+    "acceptable": [],
+    "problematic": [
+      "Maniac/asshole, implies crazy or antisocial behavior (romanized: manyak)"
+    ]
+  },
+  "מנוול": {
+    "acceptable": [],
+    "problematic": [
+      "Scoundrel/dishonest person, implies moral corruption (romanized: menuval)"
+    ]
+  },
+  "ערס": {
+    "acceptable": [],
+    "problematic": [
+      "Low-class person, discriminatory term ruled offensive by Israeli courts (romanized: ars)"
+    ]
+  },
+  "פרחה": {
+    "acceptable": [],
+    "problematic": [
+      "Bimbo, derogatory term for attractive but unintelligent woman (romanized: freha)"
+    ]
+  },
+  "לך לעזאזל": {
+    "acceptable": [],
+    "problematic": [
+      "Go to hell, biblical curse meaning go to the devil (romanized: lech la'azazel)"
+    ]
+  },
+  "תזדיין": {
+    "acceptable": [],
+    "problematic": [
+      "Go fuck yourself, strong sexual curse commanding masturbation (romanized: tizdayen)"
+    ]
+  },
+  "לך להזדיין": {
+    "acceptable": [],
+    "problematic": [
+      "Go fuck yourself, full phrase commanding sexual self-gratification (romanized: lech lehizdayen)"
+    ]
+  },
+  "בן זונה": {
+    "acceptable": [],
+    "problematic": [
+      "Son of a whore, compound family insult attacking mother's reputation (romanized: ben zona)"
+    ]
+  },
+  "כוס": {
+    "acceptable": [],
+    "problematic": [
+      "Cunt/vagina, highly vulgar sexual organ reference (romanized: kus)"
+    ]
+  },
+  "כוס אמק": {
+    "acceptable": [],
+    "problematic": [
+      "Your mother's cunt, compound sexual family insult from Arabic (romanized: kus emek)"
+    ]
+  },
+  "לזיין": {
+    "acceptable": [],
+    "problematic": [
+      "To fuck, sexual verb meaning to have intercourse aggressively (romanized: lezayen)"
+    ]
+  },
+  "מזדיין": {
+    "acceptable": [],
+    "problematic": [
+      "Masturbating, someone engaging in self-gratification (romanized: mizdayen)"
+    ]
+  },
+  "חתיכה": {
+    "acceptable": [],
+    "problematic": [
+      "Piece, objectifying term for attractive woman, literally means piece (romanized: hatikha)"
+    ]
+  },
+  "שרמוטה": {
+    "acceptable": [],
+    "problematic": [
+      "Slut/whore, highly derogatory sexual slur against women from Arabic (romanized: sharmuta)"
+    ]
+  },
+  "גחון": {
+    "acceptable": [],
+    "problematic": [
+      "Belly, derogatory term for fat person, focuses on stomach (romanized: gachon)"
+    ]
+  },
+  "נבל": {
+    "acceptable": [],
+    "problematic": [
+      "Scoundrel/villain, biblical term for morally corrupt person (romanized: naval)"
+    ]
+  },
+  "ממזר": {
+    "acceptable": [],
+    "problematic": [
+      "Bastard, biblical term for illegitimate child, general insult (romanized: mamzer)"
+    ]
+  },
+  "חזיר": {
+    "acceptable": [],
+    "problematic": [
+      "Pig, insulting comparison to non-kosher animal, implies uncleanliness (romanized: khazir)"
+    ]
+  },
+  "כלב": {
+    "acceptable": [],
+    "problematic": [
+      "Dog, common animal insult implying loyalty betrayal or lowness (romanized: kelev)"
+    ]
+  },
+  "חמור": {
+    "acceptable": [],
+    "problematic": [
+      "Donkey/ass, mild insult implying stupidity, biblical reference (romanized: chamor)"
+    ]
+  },
+  "שוטה": {
+    "acceptable": [],
+    "problematic": [
+      "Fool, biblical/talmudic term for foolish person (romanized: shoteh)"
+    ]
+  },
+  "רשע": {
+    "acceptable": [],
+    "problematic": [
+      "Wicked person/villain, biblical term for evil character (romanized: rasha)"
+    ]
+  },
+  "מפגר": {
+    "acceptable": [],
+    "problematic": [
+      "Retarded, offensive term for mentally disabled, highly inappropriate (romanized: mefager)"
+    ]
+  },
+  "גוי": {
+    "acceptable": [],
+    "problematic": [
+      "Non-Jew, can be neutral or derogatory depending on context and tone (romanized: goy)"
+    ]
+  },
+  "קוקסינל": {
+    "acceptable": [],
+    "problematic": [
+      "Military slang for incompetent soldier, implies worthlessness (romanized: kuksinel)"
+    ]
+  },
+  "שוקיסט": {
+    "acceptable": [],
+    "problematic": [
+      "Military slang for soldier who adapts/compromises principles, mild criticism (romanized: shokist)"
+    ]
+  },
+  "ג'ובניק": {
+    "acceptable": [],
+    "problematic": [
+      "Military slang for non-combat soldier, implies easier service (romanized: jobnik)"
+    ]
+  },
+  "פזמניק": {
+    "acceptable": [],
+    "problematic": [
+      "Senior soldier nearing discharge, military hierarchy term (romanized: pazamnik)"
+    ]
+  },
+  "מתחפשן": {
+    "acceptable": [],
+    "problematic": [
+      "Military slang for soldier doing minimum work, implies laziness (romanized: mitchapsen)"
+    ]
+  },
+  "שבוץ": {
+    "acceptable": [],
+    "problematic": [
+      "Military slang for tired/complaining soldier (romanized: shavuz)"
+    ]
+  },
+  "מת'חפן": {
+    "acceptable": [],
+    "problematic": [
+      "Military slang for someone who avoids duties/responsibilities (romanized: methaphen)"
+    ]
+  },
+  "זבל": {
+    "acceptable": [],
+    "problematic": [
+      "Garbage/trash, calling someone worthless or disgusting (romanized: zevel)"
+    ]
+  },
+  "חתיכת זבל": {
+    "acceptable": [],
+    "problematic": [
+      "Piece of garbage, compound insult emphasizing complete worthlessness (romanized: hatikhat zevel)"
+    ]
+  },
+  "פדרסט": {
+    "acceptable": [],
+    "problematic": [
+      "Pederast, homophobic slur with sexual connotations, highly offensive (romanized: pederast)"
+    ]
+  },
+  "הומו": {
+    "acceptable": [],
+    "problematic": [
+      "Homo, derogatory shortening of homosexual, offensive slur (romanized: homo)"
+    ]
+  },
+  "לסבית": {
+    "acceptable": [],
+    "problematic": [
+      "Lesbian, can be neutral term or slur depending on context (romanized: lesbit)"
+    ]
+  },
+  "יאללה": {
+    "acceptable": [],
+    "problematic": [
+      "Come on/let's go, borrowed from Arabic, can be dismissive (romanized: yalla)"
+    ]
+  },
+  "תכלס": {
+    "acceptable": [],
+    "problematic": [
+      "Bottom line/seriously, slang for getting to the point (romanized: tachles)"
+    ]
+  },
+  "וואלה": {
+    "acceptable": [],
+    "problematic": [
+      "Really/wow, borrowed from Arabic, expression of surprise (romanized: wallah)"
+    ]
+  },
+  "חלאס": {
+    "acceptable": [],
+    "problematic": [
+      "Enough/finished, borrowed from Arabic, shows finality (romanized: khalas)"
+    ]
+  },
+  "מסכין": {
+    "acceptable": [],
+    "problematic": [
+      "Poor thing/pathetic, shows condescending pity, from Arabic (romanized: misken)"
+    ]
+  },
+  "כפרה": {
+    "acceptable": [],
+    "problematic": [
+      "Dude/bro, term of endearment among young Israelis (romanized: kfara)"
+    ]
+  },
+  "סטירה": {
+    "acceptable": [],
+    "problematic": [
+      "Slap, threat of physical violence, implies hitting (romanized: stira)"
+    ]
+  },
+  "מכות": {
+    "acceptable": [],
+    "problematic": [
+      "Beatings, plural form threatening physical violence (romanized: makot)"
+    ]
+  },
+  "לתת לך על הפנים": {
+    "acceptable": [],
+    "problematic": [
+      "To hit you in the face, direct threat of facial violence (romanized: latet lecha al hapanim)"
+    ]
+  },
+  "תסתום ת'פה": {
+    "acceptable": [],
+    "problematic": [
+      "Shut your mouth, rude command to stop talking (romanized: tistom et hape)"
+    ]
+  },
+  "שתוק": {
+    "acceptable": [],
+    "problematic": [
+      "Shut up, direct rude command to be quiet (romanized: shtok)"
+    ]
+  },
+  "תלך למות": {
+    "acceptable": [],
+    "problematic": [
+      "Go die, extreme death wish, highly offensive threat (romanized: telech lamut)"
+    ]
+  },
+  "אני אהרוג אותך": {
+    "acceptable": [],
+    "problematic": [
+      "I will kill you, direct death threat, extremely serious (romanized: ani eherog otcha)"
+    ]
+  },
+  "קללה": {
+    "acceptable": [],
+    "problematic": [
+      "Curse, general term for curse or profanity, biblical origin (romanized: klala)"
+    ]
+  },
+  "ארור": {
+    "acceptable": [],
+    "problematic": [
+      "Cursed/damned, biblical curse wishing divine punishment (romanized: arur)"
+    ]
+  },
+  "יימח שמו": {
+    "acceptable": [],
+    "problematic": [
+      "May his name be erased, severe religious curse wishing memory obliteration (romanized: yimach shmo)"
+    ]
+  },
+  "לעזאזל איתך": {
+    "acceptable": [],
+    "problematic": [
+      "To hell with you, biblical curse sending someone to demons (romanized: le'azazel itcha)"
+    ]
+  }
+}

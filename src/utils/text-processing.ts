@@ -264,7 +264,7 @@ export class TextProcessor {
                 result += 'ı'  // lowercase undotted ı stays the same
                 break
               default:
-                result += char!.toLowerCase()
+                result += char ? char.toLowerCase() : ''
                 break
             }
           }

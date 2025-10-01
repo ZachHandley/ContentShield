@@ -96,7 +96,7 @@ describe('Performance Benchmarks', () => {
 
     // Add some real-world patterns
     const patterns = [
-      'badword', 'terrible', 'awful', 'horrible', 'disgusting',
+      'shit', 'damn', 'hell', 'crap', 'piss',
       'hate', 'stupid', 'idiot', 'moron', 'fool',
       'damn', 'hell', 'crap', 'junk', 'trash'
     ]
@@ -170,7 +170,7 @@ describe('Performance Benchmarks', () => {
 
     it('should search large text efficiently', () => {
       const largeText = 'This is a large text with some profanity and offensive content mixed in. '.repeat(100) +
-        'It contains badword and terrible things that should be detected quickly. '.repeat(50)
+        'It contains shit and damn things that should be detected quickly. '.repeat(50)
 
       const startTime = Date.now()
       const matches = largeTrie.multiPatternSearch(largeText)
@@ -223,7 +223,7 @@ describe('Performance Benchmarks', () => {
     })
 
     it('should handle context filtering efficiently', () => {
-      const contextText = 'This is not badword, and definitely not terrible content according to research.'
+      const contextText = 'This is not shit, and definitely not damn content according to research.'
 
       const startTime = Date.now()
       const matches = matcher.findMatches(contextText, ['en'])
@@ -236,7 +236,7 @@ describe('Performance Benchmarks', () => {
 
     it('should batch process efficiently', () => {
       const texts = Array(100).fill(0).map((_, i) =>
-        `Text ${i} contains some badword and terrible content that needs filtering.`
+        `Text ${i} contains some shit and damn content that needs filtering.`
       )
 
       const startTime = Date.now()
@@ -255,7 +255,7 @@ describe('Performance Benchmarks', () => {
 
   describe('Filter Performance', () => {
     it('should filter multiple matches quickly', () => {
-      const textWithMatches = 'This badword text contains terrible and awful content that needs filtering now.'
+      const textWithMatches = 'This shit text contains damn and hell content that needs filtering now.'
 
       const matches = matcher.findMatches(textWithMatches, ['en'])
 
@@ -270,7 +270,7 @@ describe('Performance Benchmarks', () => {
     })
 
     it('should handle different filter modes efficiently', () => {
-      const text = 'This contains badword and terrible content for testing.'
+      const text = 'This contains shit and damn content for testing.'
       const matches = matcher.findMatches(text, ['en'])
 
       const modes = [FilterMode.CENSOR, FilterMode.REMOVE, FilterMode.REPLACE]
@@ -327,7 +327,7 @@ describe('Performance Benchmarks', () => {
 
     it('should handle batch processing at scale', async () => {
       const texts = Array(50).fill(0).map((_, i) =>
-        `Document ${i} contains various badword and terrible content that might need filtering or censoring.`
+        `Document ${i} contains various shit and damn content that might need filtering or censoring.`
       )
 
       const startTime = Date.now()
@@ -399,7 +399,7 @@ describe('Performance Benchmarks', () => {
 
     it('should handle high concurrency simulation', async () => {
       const texts = Array(200).fill(0).map((_, i) =>
-        `Concurrent text ${i} with some badword and terrible content.`
+        `Concurrent text ${i} with some shit and damn content.`
       )
 
       const startTime = Date.now()
@@ -421,11 +421,11 @@ describe('Performance Benchmarks', () => {
 
     it('should maintain accuracy under performance pressure', async () => {
       const testTexts = [
-        'This contains obvious badword profanity',
-        'Clean text with no issues',
-        'This has terrible and awful content',
-        'Another clean example text',
-        'Mixed badword with clean content'
+        'This contains obvious shit profanity',
+        'Clean message with no problems',
+        'This has damn and hell content',
+        'Another clean example message',
+        'Mixed fuck with clean content'
       ]
 
       const startTime = Date.now()
@@ -441,8 +441,9 @@ describe('Performance Benchmarks', () => {
 
       // Check accuracy - should consistently detect profanity in same texts
       const profaneTexts = allResults.filter((_, i) =>
-        testTexts[i % testTexts.length].includes('badword') ||
-        testTexts[i % testTexts.length].includes('terrible')
+        testTexts[i % testTexts.length].includes('shit') ||
+        testTexts[i % testTexts.length].includes('damn') ||
+        testTexts[i % testTexts.length].includes('fuck')
       )
 
       const accuracyRate = profaneTexts.filter(r => r.hasProfanity).length / profaneTexts.length
@@ -456,13 +457,13 @@ describe('Performance Benchmarks', () => {
   function generateLargeTestText(wordCount: number): string {
     const words = [
       'this', 'is', 'a', 'test', 'document', 'with', 'various', 'content',
-      'some', 'clean', 'words', 'and', 'occasional', 'badword', 'or',
-      'terrible', 'content', 'mixed', 'in', 'for', 'testing', 'purposes',
+      'some', 'clean', 'words', 'and', 'occasional', 'shit', 'or',
+      'damn', 'content', 'mixed', 'in', 'for', 'testing', 'purposes',
       'the', 'detection', 'engine', 'should', 'handle', 'this', 'efficiently',
       'regardless', 'of', 'text', 'length', 'or', 'content', 'density'
     ]
 
-    const profaneWords = ['badword', 'terrible', 'awful', 'inappropriate']
+    const profaneWords = ['shit', 'damn', 'hell', 'inappropriate']
 
     const result = []
     for (let i = 0; i < wordCount; i++) {

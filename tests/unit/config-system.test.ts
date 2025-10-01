@@ -86,7 +86,7 @@ describe('Configuration System', () => {
     describe('Custom Words Validation', () => {
       it('should validate custom words as strings', () => {
         const config: Partial<DetectorConfig> = {
-          customWords: ['badword1', 'badword2']
+          customWords: ['shit1', 'shit2']
         }
 
         const result = ConfigValidator.validate(config)

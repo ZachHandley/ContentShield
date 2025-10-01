@@ -53,11 +53,21 @@ import {
 
 // Utility functions
 export { normalizeText } from './utils/text-normalizer.js'
-export { fuzzyMatch } from './utils/fuzzy-matcher.js'
-export { createDefaultConfig } from './utils/config.js'
+export {
+  fuzzyMatch,
+  findFuzzyMatches,
+  calculateSimilarity,
+  findBestMatch
+} from './utils/fuzzy-matcher.js'
+export {
+  createDefaultConfig,
+  createStrictConfig,
+  createLenientConfig,
+  createFamilyFriendlyConfig
+} from './utils/config.js'
 
 // Quick-start functions
-export { detect, filter, isClean } from './core/quick-start.js'
+export { detect, filter, isClean, configure, reset } from './core/quick-start.js'
 
 // Performance monitoring and optimization
 export interface PerformanceMonitor {
@@ -309,7 +319,7 @@ export function getLibraryInfo(): {
 export async function healthCheck(): Promise<{
   status: 'healthy' | 'warning' | 'error'
   checks: Record<string, boolean>
-  details: Record<string, any>
+  details: Record<string, unknown>
 }> {
   const checks = {
     coreInit: false,
@@ -318,7 +328,7 @@ export async function healthCheck(): Promise<{
     performance: false
   }
 
-  const details: Record<string, any> = {}
+  const details: Record<string, unknown> = {}
 
   try {
     // Test core initialization
@@ -376,3 +386,10 @@ export type {
   ProfanityCategory,
   FilterMode
 } from './types/index.js'
+
+// Re-export filter types
+export type {
+  FilterConfig,
+  FilterResult,
+  FilterDetail
+} from './core/filter.js'

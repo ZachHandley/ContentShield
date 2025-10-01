@@ -50,7 +50,7 @@ describe('ProfanityMatcher', () => {
     it('should load language data successfully', async () => {
       const testWords = [
         {
-          word: 'badword',
+          word: 'shit',
           severity: SeverityLevel.MODERATE,
           categories: [ProfanityCategory.GENERAL],
           variations: ['b4dword', 'badw0rd'],
@@ -116,7 +116,7 @@ describe('ProfanityMatcher', () => {
     beforeEach(async () => {
       const testWords = [
         {
-          word: 'badword',
+          word: 'shit',
           severity: SeverityLevel.MODERATE,
           categories: [ProfanityCategory.GENERAL]
         },
@@ -136,11 +136,11 @@ describe('ProfanityMatcher', () => {
     })
 
     it('should find basic matches', () => {
-      const matches = matcher.findMatches('this contains badword', ['en'])
+      const matches = matcher.findMatches('this contains shit', ['en'])
 
       expect(matches).toHaveLength(1)
-      expect(matches[0].word).toBe('badword')
-      expect(matches[0].match).toBe('badword')
+      expect(matches[0].word).toBe('shit')
+      expect(matches[0].match).toBe('shit')
       expect(matches[0].severity).toBe(SeverityLevel.MODERATE)
       expect(matches[0].categories).toContain(ProfanityCategory.GENERAL)
       expect(matches[0].language).toBe('en')
@@ -148,10 +148,10 @@ describe('ProfanityMatcher', () => {
     })
 
     it('should find multiple matches', () => {
-      const matches = matcher.findMatches('this badword is terrible', ['en'])
+      const matches = matcher.findMatches('this shit is terrible', ['en'])
 
       expect(matches).toHaveLength(2)
-      expect(matches.map(m => m.word)).toContain('badword')
+      expect(matches.map(m => m.word)).toContain('shit')
       expect(matches.map(m => m.word)).toContain('terrible')
     })
 
@@ -162,11 +162,11 @@ describe('ProfanityMatcher', () => {
     })
 
     it('should handle case insensitivity', () => {
-      const matches = matcher.findMatches('This BADWORD is bad', ['en'])
+      const matches = matcher.findMatches('This SHIT is bad', ['en'])
 
       expect(matches).toHaveLength(1)
-      expect(matches[0].word).toBe('BADWORD')
-      expect(matches[0].match).toBe('badword')
+      expect(matches[0].word).toBe('SHIT')
+      expect(matches[0].match).toBe('shit')
     })
 
     it('should return empty array for clean text', () => {

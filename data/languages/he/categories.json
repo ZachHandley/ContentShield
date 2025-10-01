@@ -1,0 +1,297 @@
+{
+  "משוגע": [
+    "derogatory",
+    "mental_health"
+  ],
+  "טיפש": [
+    "derogatory",
+    "intelligence"
+  ],
+  "אידיוט": [
+    "derogatory",
+    "intelligence"
+  ],
+  "דביל": [
+    "derogatory",
+    "intelligence"
+  ],
+  "כסיל": [
+    "derogatory",
+    "intelligence",
+    "biblical"
+  ],
+  "מטומטם": [
+    "derogatory",
+    "intelligence"
+  ],
+  "חרא": [
+    "profanity",
+    "general",
+    "scatological"
+  ],
+  "זין": [
+    "profanity",
+    "sexual",
+    "anatomy"
+  ],
+  "יא זין": [
+    "profanity",
+    "sexual",
+    "direct_insult"
+  ],
+  "זונה": [
+    "derogatory",
+    "sexual",
+    "gender_slur"
+  ],
+  "מניאק": [
+    "derogatory",
+    "behavior"
+  ],
+  "מנוול": [
+    "derogatory",
+    "character"
+  ],
+  "ערס": [
+    "derogatory",
+    "social_class",
+    "discriminatory"
+  ],
+  "פרחה": [
+    "derogatory",
+    "gender_slur",
+    "intelligence"
+  ],
+  "לך לעזאזל": [
+    "curse",
+    "biblical",
+    "dismissal"
+  ],
+  "תזדיין": [
+    "profanity",
+    "sexual",
+    "vulgar_command"
+  ],
+  "לך להזדיין": [
+    "profanity",
+    "sexual",
+    "vulgar_command"
+  ],
+  "בן זונה": [
+    "profanity",
+    "family_insult",
+    "compound"
+  ],
+  "כוס": [
+    "profanity",
+    "sexual",
+    "anatomy",
+    "vulgar"
+  ],
+  "כוס אמק": [
+    "profanity",
+    "sexual",
+    "family_insult",
+    "compound"
+  ],
+  "לזיין": [
+    "profanity",
+    "sexual",
+    "vulgar_verb"
+  ],
+  "מזדיין": [
+    "profanity",
+    "sexual",
+    "masturbation"
+  ],
+  "חתיכה": [
+    "sexual",
+    "objectification"
+  ],
+  "שרמוטה": [
+    "derogatory",
+    "sexual",
+    "gender_slur"
+  ],
+  "גחון": [
+    "derogatory",
+    "physical_appearance"
+  ],
+  "נבל": [
+    "derogatory",
+    "character",
+    "biblical"
+  ],
+  "ממזר": [
+    "derogatory",
+    "family_insult",
+    "biblical"
+  ],
+  "חזיר": [
+    "derogatory",
+    "animal_insult",
+    "religious"
+  ],
+  "כלב": [
+    "derogatory",
+    "animal_insult"
+  ],
+  "חמור": [
+    "derogatory",
+    "intelligence",
+    "animal_insult"
+  ],
+  "שוטה": [
+    "derogatory",
+    "intelligence",
+    "biblical"
+  ],
+  "רשע": [
+    "derogatory",
+    "character",
+    "biblical"
+  ],
+  "מפגר": [
+    "derogatory",
+    "mental_health",
+    "ableist"
+  ],
+  "גוי": [
+    "derogatory",
+    "ethnic",
+    "religious"
+  ],
+  "קוקסינל": [
+    "derogatory",
+    "military",
+    "incompetence"
+  ],
+  "שוקיסט": [
+    "derogatory",
+    "military",
+    "behavior"
+  ],
+  "ג'ובניק": [
+    "derogatory",
+    "military",
+    "duty"
+  ],
+  "פזמניק": [
+    "military",
+    "seniority"
+  ],
+  "מתחפשן": [
+    "derogatory",
+    "military",
+    "laziness"
+  ],
+  "שבוץ": [
+    "derogatory",
+    "military",
+    "complaining"
+  ],
+  "מת'חפן": [
+    "derogatory",
+    "military",
+    "avoidance"
+  ],
+  "זבל": [
+    "derogatory",
+    "general",
+    "worthlessness"
+  ],
+  "חתיכת זבל": [
+    "derogatory",
+    "compound",
+    "worthlessness"
+  ],
+  "פדרסט": [
+    "derogatory",
+    "sexual",
+    "homophobic"
+  ],
+  "הומו": [
+    "derogatory",
+    "sexual",
+    "homophobic"
+  ],
+  "לסבית": [
+    "derogatory",
+    "sexual",
+    "homophobic"
+  ],
+  "יאללה": [
+    "dismissal",
+    "impatience"
+  ],
+  "תכלס": [
+    "slang",
+    "directness"
+  ],
+  "וואלה": [
+    "exclamation",
+    "surprise"
+  ],
+  "חלאס": [
+    "dismissal",
+    "finality"
+  ],
+  "מסכין": [
+    "derogatory",
+    "pity"
+  ],
+  "כפרה": [
+    "endearment",
+    "slang"
+  ],
+  "סטירה": [
+    "violence",
+    "physical_threat"
+  ],
+  "מכות": [
+    "violence",
+    "physical_threat"
+  ],
+  "לתת לך על הפנים": [
+    "violence",
+    "physical_threat",
+    "compound"
+  ],
+  "תסתום ת'פה": [
+    "dismissal",
+    "rude_command"
+  ],
+  "שתוק": [
+    "dismissal",
+    "rude_command"
+  ],
+  "תלך למות": [
+    "death_wish",
+    "extreme_threat"
+  ],
+  "אני אהרוג אותך": [
+    "death_threat",
+    "violence",
+    "extreme_threat"
+  ],
+  "קללה": [
+    "curse",
+    "general",
+    "biblical"
+  ],
+  "ארור": [
+    "curse",
+    "biblical",
+    "damnation"
+  ],
+  "יימח שמו": [
+    "curse",
+    "religious",
+    "memory_erasure"
+  ],
+  "לעזאזל איתך": [
+    "curse",
+    "biblical",
+    "damnation"
+  ]
+}

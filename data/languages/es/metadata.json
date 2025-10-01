@@ -1,7 +1,9 @@
 {
+  "code": "es",
+  "name": "Spanish",
   "version": "1.0.0",
-  "last_updated": "2025-09-25",
-  "language": "es",
+  "lastUpdated": "2025-09-25",
+  "wordCount": 25,
   "language_info": {
     "name": "Spanish",
     "native_name": "Español",

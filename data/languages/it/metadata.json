@@ -1,7 +1,9 @@
 {
+  "code": "it",
+  "name": "Italian",
   "version": "1.0.0",
-  "last_updated": "2025-09-25",
-  "language": "it",
+  "lastUpdated": "2025-09-25",
+  "wordCount": 31,
   "language_info": {
     "name": "Italian",
     "native_name": "Italiano",
@@ -104,30 +106,6 @@
       "Diminutive/augmentative systems more developed"
     ]
   },
-  "gesture_system": {
-    "description": "Italian profanity uniquely integrated with hand gesture system",
-    "cultural_significance": "Hand gestures as important as verbal profanity in Italian culture",
-    "learning_pattern": "Gestures learned as integral part of profanity education",
-    "substitution_function": "Gestures can completely replace verbal profanity",
-    "amplification_effect": "Gestures typically increase verbal profanity severity",
-    "international_recognition": "Italian profanity gestures globally recognized",
-    "examples": ["vaffanculo + middle finger", "cornuto + horns gesture", "ombrello gesture"]
-  },
-  "blasphemy_system": {
-    "description": "Elaborate religious profanity system unique to Italian culture",
-    "hierarchy": "Four-level system from mild religious references to extreme blasphemy",
-    "legal_implications": "Some extreme blasphemy can violate Italian public decency laws",
-    "regional_variations": "Northern Italy more tolerant, Southern Italy more sensitive",
-    "cultural_context": "Catholic heritage creates complex attitudes toward religious profanity",
-    "examples": ["madonna (mild)", "porca madonna (moderate)", "dio cane (serious)", "porco dio (extreme)"]
-  },
-  "regional_discrimination": {
-    "description": "Profanity reflects North-South Italian regional tensions",
-    "historical_context": "Italian unification history affects regional language attitudes",
-    "economic_implications": "Regional slurs carry economic and social class weight",
-    "examples": ["terrone (anti-Southern)", "polentone (anti-Northern)"],
-    "sensitivity_level": "High - can cause significant social and political tensions"
-  },
   "data_collection_methodology": {
     "sources": [
       "Italian sociolinguistic research",
@@ -220,14 +198,6 @@
       "tourism_considerations": "Tourist areas may have different enforcement patterns"
     }
   },
-  "cultural_integration": {
-    "artistic_tradition": "Rich tradition of profanity in Italian literature and cinema",
-    "comedic_heritage": "Commedia dell'arte and modern comedy extensively feature profanity",
-    "regional_identity": "Profanity patterns as markers of regional and cultural identity",
-    "family_culture": "Complex family dynamics affect profanity usage and acceptance",
-    "religious_coexistence": "Catholic culture coexists with secular profanity traditions",
-    "international_influence": "Italian profanity culture exported globally through media and immigration"
-  },
   "special_challenges": {
     "gesture_documentation": "Difficulty in comprehensively documenting gesture-verbal integration",
     "regional_complexity": "Extreme regional variations within single national language",
@@ -235,5 +205,13 @@
     "legal_uncertainty": "Some blasphemy laws rarely enforced creating uncertainty",
     "tourism_distortion": "Tourism industry creating artificial profanity patterns",
     "family_honor_complexity": "Complex family honor culture affects research and documentation"
+  },
+  "cultural_integration": {
+    "artistic_tradition": "Rich tradition of profanity in Italian literature and cinema",
+    "comedic_heritage": "Commedia dell'arte and modern comedy extensively feature profanity",
+    "regional_identity": "Profanity patterns as markers of regional and cultural identity",
+    "family_culture": "Complex family dynamics affect profanity usage and acceptance",
+    "religious_coexistence": "Catholic culture coexists with secular profanity traditions",
+    "international_influence": "Italian profanity culture exported globally through media and immigration"
   }
 }

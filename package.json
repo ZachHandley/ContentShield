@@ -1,7 +1,7 @@
 {
   "name": "naughty-words",
   "version": "0.1.0",
-  "description": "A modern TypeScript library for multi-language profanity detection and content moderation with severity levels and customizable filtering",
+  "description": "A modern TypeScript library for multi-language naughty word detection and content moderation. Simple, fast, and comprehensive - 3,600+ entries across 17 languages.",
   "keywords": [
     "profanity",
     "moderation",
@@ -11,11 +11,17 @@
     "filter",
     "censorship",
     "bad-words",
+    "naughty-words",
     "obscenity",
     "vulgar",
-    "swear"
+    "swear",
+    "curse-words",
+    "chat-moderation",
+    "text-filtering",
+    "content-moderation",
+    "multilingual"
   ],
-  "author": "Zach Handley <zachhandley@gmail.com>",
+  "author": "Zach Handley <zachhandley@gmail.com> (https://zachhandley.com)",
   "license": "MIT",
   "repository": {
     "type": "git",

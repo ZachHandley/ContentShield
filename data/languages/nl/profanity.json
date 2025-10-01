@@ -1,0 +1,4365 @@
+{
+  "language": "nl",
+  "version": "1.0.0",
+  "last_updated": "2025-09-30",
+  "total_entries": 230,
+  "words": [
+    {
+      "word": "kanker",
+      "severity": 4,
+      "categories": [
+        "disease",
+        "extreme",
+        "offensive"
+      ],
+      "variations": [
+        "k4nker",
+        "knkr",
+        "kankerd",
+        "kankers"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Most offensive Dutch curse, cancer-related. Extremely taboo and socially unacceptable. Often used by teens despite social stigma.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Very high - kankerlijer, kankerjong, kankerzooi",
+      "cultural_context": "Disease-based swearing unique to Dutch culture"
+    },
+    {
+      "word": "kankerlijer",
+      "severity": 4,
+      "categories": [
+        "disease",
+        "extreme",
+        "offensive",
+        "compound"
+      ],
+      "variations": [
+        "k4nkerlijer",
+        "kankerlijers"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Combination of kanker + lijer (sufferer). One of the most offensive possible Dutch insults.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Extremely offensive disease-based compound insult"
+    },
+    {
+      "word": "tyfus",
+      "severity": 3,
+      "categories": [
+        "disease",
+        "profanity"
+      ],
+      "variations": [
+        "tief",
+        "tyfuslijer",
+        "tieuf"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Typhoid-based curse. Less taboo than kanker as typhoid is historical. Used as adjective for unpleasant things.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - tyfuszooi, tyfuswijf",
+      "cultural_context": "Disease-based swearing, historical disease less socially sensitive"
+    },
+    {
+      "word": "tering",
+      "severity": 3,
+      "categories": [
+        "disease",
+        "profanity"
+      ],
+      "variations": [
+        "tring",
+        "teringlijer",
+        "teringslijder"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Tuberculosis-based curse. Commonly used disease-based swear, less severe than kanker.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - teringzooi, teringwijf",
+      "cultural_context": "Disease-based swearing from tuberculosis era"
+    },
+    {
+      "word": "pleuris",
+      "severity": 2,
+      "categories": [
+        "disease",
+        "profanity"
+      ],
+      "variations": [
+        "pleur",
+        "pleurislijer"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Tuberculosis variant. Milder of the disease-based curses.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate - pleuriszooi",
+      "cultural_context": "Milder disease-based curse"
+    },
+    {
+      "word": "kolere",
+      "severity": 2,
+      "categories": [
+        "disease",
+        "profanity"
+      ],
+      "variations": [
+        "kler",
+        "klere",
+        "kolerelijer"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Cholera-based curse. Disconnected from disease origins in modern usage.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - klerezooi, klerewijf",
+      "cultural_context": "Disease-based curse with weakened association to original disease"
+    },
+    {
+      "word": "kut",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "vulgar",
+        "anatomy"
+      ],
+      "variations": [
+        "kutt",
+        "k0t",
+        "kute"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Female genitalia reference. Extremely versatile - used as expletive, adjective, adverb. Can describe feelings or weather.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Very high - kutwijf, kutfiets, kutzooi, kutding",
+      "cultural_context": "One of most versatile Dutch curse words"
+    },
+    {
+      "word": "kutwijf",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "vulgar",
+        "anatomy",
+        "compound",
+        "misogynistic"
+      ],
+      "variations": [
+        "kutwijven",
+        "kutwijfje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Combination of kut + wijf (derogatory woman). Female equivalent of klootzak.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Gendered insult combining vulgar anatomy with derogatory term for woman"
+    },
+    {
+      "word": "lul",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "anatomy",
+        "vulgar"
+      ],
+      "variations": [
+        "lulle",
+        "lulletje",
+        "lullen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Male genitalia reference. Used to describe unsympathetic man or as general insult meaning asshole/prick.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - lulletje, lulhannes",
+      "cultural_context": "Common anatomical insult for males"
+    },
+    {
+      "word": "klootzak",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "vulgar",
+        "profanity"
+      ],
+      "variations": [
+        "klootzakken",
+        "klootzakje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Literally 'scrotum/ball sack'. Used for irritating, annoying or disagreeable person.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate",
+      "cultural_context": "Very common Dutch insult using male anatomy"
+    },
+    {
+      "word": "klote",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "vulgar",
+        "profanity"
+      ],
+      "variations": [
+        "kloten",
+        "kloot"
+      ],
+      "case_sensitive": false,
+      "context_notes": "From kloten (testicles). Used as expletive, adjective, or adverb like 'kut'.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - klotezooi, kloteding",
+      "cultural_context": "Anatomical curse with versatile usage"
+    },
+    {
+      "word": "klootviool",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "vulgar",
+        "compound",
+        "creative"
+      ],
+      "variations": [
+        "klootviolen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Creative compound: kloot (ball) + viool (violin). Humorous insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Example of Dutch creative/humorous compound cursing"
+    },
+    {
+      "word": "hoer",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "derogatory",
+        "profession"
+      ],
+      "variations": [
+        "hoere",
+        "hoeren",
+        "hoertje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Prostitute. Often combined with other terms.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - stoephoer, slethoer",
+      "cultural_context": "Profession-based derogatory term for women"
+    },
+    {
+      "word": "stoephoer",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "derogatory",
+        "profession",
+        "compound"
+      ],
+      "variations": [
+        "stoephoeren"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Compound: stoep (sidewalk) + hoer. Streetwalker reference.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Compound insult intensifying prostitute reference"
+    },
+    {
+      "word": "neuken",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "verb",
+        "vulgar"
+      ],
+      "variations": [
+        "neuke",
+        "geneukt",
+        "neukend"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Verb meaning 'to fuck'. Used in compounds and expressions.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - mierenneuker, paardeneuker",
+      "cultural_context": "Primary Dutch equivalent to English f-word"
+    },
+    {
+      "word": "mierenneuker",
+      "severity": 1,
+      "categories": [
+        "sexual",
+        "compound",
+        "creative",
+        "metaphorical"
+      ],
+      "variations": [
+        "mierenneukers",
+        "mierenneuken"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Literally 'ant fucker'. Someone who obsesses over minor details, nitpicker. Can be verb (mierenneuken).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Creative metaphorical compound showing Dutch linguistic creativity"
+    },
+    {
+      "word": "godverdomme",
+      "severity": 2,
+      "categories": [
+        "religious",
+        "blasphemy"
+      ],
+      "variations": [
+        "godverdamme",
+        "godverdome",
+        "godverdomd"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Direct translation of 'goddammit'. Standalone expression of frustration or anger.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Religious blasphemy common in secular Netherlands"
+    },
+    {
+      "word": "verdomme",
+      "severity": 1,
+      "categories": [
+        "religious",
+        "mild"
+      ],
+      "variations": [
+        "verdamme",
+        "verd0mme"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Shortened version of godverdomme for milder impact. Equivalent to 'damn'.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate",
+      "cultural_context": "Milder religious curse"
+    },
+    {
+      "word": "potverdorie",
+      "severity": 1,
+      "categories": [
+        "euphemism",
+        "mild",
+        "socially_acceptable"
+      ],
+      "variations": [
+        "potverdriedubbeltjes",
+        "potverdikkie"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Euphemism for godverdomme. Socially acceptable, used around children and in professional settings.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Socially acceptable euphemism showing Dutch politeness strategies"
+    },
+    {
+      "word": "jezus",
+      "severity": 1,
+      "categories": [
+        "religious",
+        "mild",
+        "blasphemy"
+      ],
+      "variations": [
+        "jezus christus",
+        "jiezus",
+        "jeetje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Used like in English - shock, frustration, disbelief. Mild blasphemy.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild religious exclamation"
+    },
+    {
+      "word": "eikel",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "metaphorical",
+        "anatomy"
+      ],
+      "variations": [
+        "eikels",
+        "eikeltje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Literally 'acorn'. Similar to klootzak but milder. Describes foolish rather than malicious behavior.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild metaphorical insult using natural imagery"
+    },
+    {
+      "word": "trut",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "anatomy",
+        "derogatory"
+      ],
+      "variations": [
+        "trutten",
+        "trutje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild slang for female private parts. Used as insult for women.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate",
+      "cultural_context": "Milder anatomical term used as gendered insult"
+    },
+    {
+      "word": "slet",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "derogatory",
+        "misogynistic"
+      ],
+      "variations": [
+        "sletten",
+        "sletje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Slut, promiscuous woman. Derogatory term for women.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate - slethoer",
+      "cultural_context": "Sexual morality-based insult for women"
+    },
+    {
+      "word": "pik",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "sexual",
+        "vulgar"
+      ],
+      "variations": [
+        "pikkie",
+        "pikken"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Penis, dick. Anatomical slang.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate",
+      "cultural_context": "Common anatomical slang"
+    },
+    {
+      "word": "lulletje",
+      "severity": 1,
+      "categories": [
+        "anatomy",
+        "diminutive",
+        "mild"
+      ],
+      "variations": [
+        "lulletjes"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Diminutive of lul. Milder due to diminutive form (-je ending).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Shows Dutch diminutive softening of harsh language"
+    },
+    {
+      "word": "pannenkoek",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "metaphorical",
+        "food"
+      ],
+      "variations": [
+        "pannenkoeken"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Literally 'pancake'. Used as mild insult meaning fool or idiot.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Food-based metaphorical insult, very mild"
+    },
+    {
+      "word": "sufkop",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "compound"
+      ],
+      "variations": [
+        "sufkoppen",
+        "sufkopje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Compound: suf (drowsy/dull) + kop (head). Meaning dullard or dimwit.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Mild compound insult about intelligence"
+    },
+    {
+      "word": "idioot",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "intelligence"
+      ],
+      "variations": [
+        "idioten",
+        "idiotje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Idiot. Standard mild insult about intelligence.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "International cognate insult"
+    },
+    {
+      "word": "sukkel",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "pity"
+      ],
+      "variations": [
+        "sukkels",
+        "sukkeltje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Dimwit, someone pitiable rather than contemptible. Relatively mild.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild term combining pity and mild contempt"
+    },
+    {
+      "word": "stommeling",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "intelligence"
+      ],
+      "variations": [
+        "stommelingen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "From stom (stupid). Meaning fool or dummy.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Intelligence-based mild insult"
+    },
+    {
+      "word": "dombo",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "intelligence"
+      ],
+      "variations": [
+        "dombo's"
+      ],
+      "case_sensitive": false,
+      "context_notes": "From dom (stupid). Very mild insult meaning dummy.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Very mild intelligence-based insult"
+    },
+    {
+      "word": "kutzooi",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "vulgar",
+        "compound"
+      ],
+      "variations": [
+        "kutzooitje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Compound: kut + zooi (mess). Meaning fucking mess or shitty situation.",
+      "target_type": "situation",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Common compound intensifier"
+    },
+    {
+      "word": "klotezooi",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "vulgar",
+        "compound"
+      ],
+      "variations": [
+        "klotezooitje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Compound: klote + zooi. Similar to kutzooi but slightly milder.",
+      "target_type": "situation",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Common compound describing bad situations"
+    },
+    {
+      "word": "shit",
+      "severity": 2,
+      "categories": [
+        "scatological",
+        "english_loan"
+      ],
+      "variations": [
+        "shitt",
+        "sh1t"
+      ],
+      "case_sensitive": false,
+      "context_notes": "English loanword. Common among Dutch speakers due to English proficiency.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate",
+      "cultural_context": "English influence on Dutch profanity"
+    },
+    {
+      "word": "fuck",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "english_loan"
+      ],
+      "variations": [
+        "fuk",
+        "f*ck",
+        "fucked"
+      ],
+      "case_sensitive": false,
+      "context_notes": "English loanword. Commonly used by younger Dutch speakers.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - fuckface, etc.",
+      "cultural_context": "English influence on Dutch profanity, generational"
+    },
+    {
+      "word": "bitch",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "english_loan",
+        "misogynistic"
+      ],
+      "variations": [
+        "bitches",
+        "b1tch"
+      ],
+      "case_sensitive": false,
+      "context_notes": "English loanword. Popular among younger generations.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate",
+      "cultural_context": "English gendered insult adopted by Dutch youth"
+    },
+    {
+      "word": "godvermiljaardedju",
+      "severity": 2,
+      "categories": [
+        "religious",
+        "blasphemy",
+        "flemish",
+        "creative"
+      ],
+      "variations": [
+        "godvermiljaarde"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Flemish (Belgian) creative way of cursing God. Regional to Belgium.",
+      "target_type": "general",
+      "regions": [
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Belgian/Flemish creative religious curse"
+    },
+    {
+      "word": "kalf",
+      "severity": 1,
+      "categories": [
+        "animal",
+        "flemish",
+        "mild"
+      ],
+      "variations": [
+        "kalveren"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Flemish: baby cow, meaning childish hapless idiot. Regional to Belgium.",
+      "target_type": "person",
+      "regions": [
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Belgian/Flemish animal-based mild insult"
+    },
+    {
+      "word": "onnozelaar",
+      "severity": 1,
+      "categories": [
+        "flemish",
+        "mild",
+        "intelligence"
+      ],
+      "variations": [
+        "onnozelaars"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Flemish: despicable idiot or dimwit. Regional to Belgium.",
+      "target_type": "person",
+      "regions": [
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Belgian/Flemish intelligence-based insult"
+    },
+    {
+      "word": "duivel",
+      "severity": 1,
+      "categories": [
+        "religious",
+        "flemish"
+      ],
+      "variations": [
+        "duivels"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Devil. Often in phrase 'loop naar de duivel' (go to the devil). More common in Belgium.",
+      "target_type": "general",
+      "regions": [
+        "belgium",
+        "netherlands"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Religious reference, more Catholic influence in Belgium"
+    },
+    {
+      "word": "verdorie",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "euphemism"
+      ],
+      "variations": [
+        "verdorie zeg"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild euphemism, similar to 'darn it'. Very socially acceptable.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Very mild socially acceptable expression"
+    },
+    {
+      "word": "stront",
+      "severity": 2,
+      "categories": [
+        "scatological",
+        "vulgar"
+      ],
+      "variations": [
+        "strond",
+        "stronten"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Shit, feces. Scatological term.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - strontzooi, strontkop",
+      "cultural_context": "Basic scatological term"
+    },
+    {
+      "word": "poep",
+      "severity": 1,
+      "categories": [
+        "scatological",
+        "childish"
+      ],
+      "variations": [
+        "poepje",
+        "poepen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Childish term for poop. Very mild, often used with children.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low - poepkop",
+      "cultural_context": "Childish scatological term"
+    },
+    {
+      "word": "kak",
+      "severity": 1,
+      "categories": [
+        "scatological",
+        "childish"
+      ],
+      "variations": [
+        "kakje",
+        "kakken"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Childish term for crap/poop. Very mild.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Very mild childish scatological term"
+    },
+    {
+      "word": "drol",
+      "severity": 1,
+      "categories": [
+        "scatological",
+        "mild"
+      ],
+      "variations": [
+        "drollen",
+        "drolletje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Turd. Mild scatological term, often diminutive.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild scatological term with diminutive forms"
+    },
+    {
+      "word": "rotzooi",
+      "severity": 2,
+      "categories": [
+        "general",
+        "compound"
+      ],
+      "variations": [
+        "rotzooitje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Compound: rot (rotten) + zooi (mess). Meaning mess or rubbish situation.",
+      "target_type": "situation",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Common compound for describing bad situations"
+    },
+    {
+      "word": "rotkop",
+      "severity": 2,
+      "categories": [
+        "compound",
+        "mild"
+      ],
+      "variations": [
+        "rotkoppen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Compound: rot (rotten) + kop (head). Meaning jerk or asshole.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Common compound insult"
+    },
+    {
+      "word": "zeik",
+      "severity": 2,
+      "categories": [
+        "bodily_function",
+        "vulgar"
+      ],
+      "variations": [
+        "zeiken",
+        "zeikerig"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To piss/urinate. Also used as verb meaning to whine or complain.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - zeiksnor, zeiknerd",
+      "cultural_context": "Bodily function term with extended metaphorical use"
+    },
+    {
+      "word": "zeiknerd",
+      "severity": 2,
+      "categories": [
+        "bodily_function",
+        "compound",
+        "derogatory"
+      ],
+      "variations": [
+        "zeiknerds"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Compound: zeik (piss) + nerd. Someone who constantly complains.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Modern compound combining bodily function with English loanword"
+    },
+    {
+      "word": "pies",
+      "severity": 1,
+      "categories": [
+        "bodily_function",
+        "mild"
+      ],
+      "variations": [
+        "piesje",
+        "piesen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Mild term for pee/urine. Child-friendly.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Child-friendly bodily function term"
+    },
+    {
+      "word": "scheet",
+      "severity": 1,
+      "categories": [
+        "bodily_function",
+        "mild"
+      ],
+      "variations": [
+        "scheetje",
+        "scheten"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Fart. Mild bodily function term.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low - scheetlucht",
+      "cultural_context": "Mild bodily function term"
+    },
+    {
+      "word": "stomme",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "intelligence",
+        "adjective"
+      ],
+      "variations": [
+        "stom",
+        "stomste"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Stupid (adjective). Very mild when used as 'stomme idioot' etc.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - stomkop, stommeling",
+      "cultural_context": "Basic mild adjective for stupidity"
+    },
+    {
+      "word": "achterlijk",
+      "severity": 2,
+      "categories": [
+        "ableist",
+        "derogatory"
+      ],
+      "variations": [
+        "achterlijke"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Retarded. Ableist slur that's socially problematic.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Ableist term becoming less socially acceptable"
+    },
+    {
+      "word": "mongool",
+      "severity": 3,
+      "categories": [
+        "ableist",
+        "offensive",
+        "slur"
+      ],
+      "variations": [
+        "mongolen",
+        "mongooltje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Extremely offensive ableist slur. Historically used for Down syndrome, now recognized as highly inappropriate.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Ableist slur that's highly socially unacceptable"
+    },
+    {
+      "word": "debiel",
+      "severity": 2,
+      "categories": [
+        "ableist",
+        "derogatory"
+      ],
+      "variations": [
+        "debielen",
+        "debiele"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Imbecile. Ableist term for someone with intellectual disability, used as general insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Ableist medical term repurposed as insult"
+    },
+    {
+      "word": "gek",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "mental_health"
+      ],
+      "variations": [
+        "gekke",
+        "gekken"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Crazy/mad. Mild term that can be affectionate or mildly insulting depending on context.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate - gekkie",
+      "cultural_context": "Mild mental health-related term with context-dependent meaning"
+    },
+    {
+      "word": "zak",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "container"
+      ],
+      "variations": [
+        "zakken",
+        "zakje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Bag/sack. Used as mild insult meaning jerk, especially in compounds.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Very high - klootzak, lulzak, strontzak",
+      "cultural_context": "Base word for many Dutch compound insults"
+    },
+    {
+      "word": "wijf",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "misogynistic",
+        "archaic"
+      ],
+      "variations": [
+        "wijven",
+        "wijfje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Derogatory term for woman. Archaic but still used in compounds like kutwijf.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - kutwijf, rotwijf",
+      "cultural_context": "Archaic derogatory term for women, mainly in compounds"
+    },
+    {
+      "word": "teef",
+      "severity": 2,
+      "categories": [
+        "animal",
+        "derogatory",
+        "misogynistic"
+      ],
+      "variations": [
+        "teven",
+        "teefje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Female dog, bitch. Derogatory term for women.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Animal-based gendered insult"
+    },
+    {
+      "word": "heks",
+      "severity": 1,
+      "categories": [
+        "supernatural",
+        "derogatory",
+        "mild"
+      ],
+      "variations": [
+        "heksen",
+        "heksje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Witch. Mild derogatory term for difficult woman.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Supernatural/folkloric-based mild gendered insult"
+    },
+    {
+      "word": "kreng",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "misogynistic"
+      ],
+      "variations": [
+        "krengen",
+        "krengje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Carrion, corpse of animal. Used as harsh insult for women meaning bitch or nasty person.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Death/decay-based harsh gendered insult"
+    },
+    {
+      "word": "del",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "slang"
+      ],
+      "variations": [
+        "dellen",
+        "delletje"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Slang term meaning idiot or fool. Relatively mild.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Modern slang mild insult"
+    },
+    {
+      "word": "aap",
+      "severity": 1,
+      "categories": [
+        "animal",
+        "mild"
+      ],
+      "variations": [
+        "apen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ape. Mild animal-based insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate - aapmens",
+      "cultural_context": "Common animal-based mild insult"
+    },
+    {
+      "word": "aapmens",
+      "severity": 1,
+      "categories": [
+        "animal",
+        "compound",
+        "mild"
+      ],
+      "variations": [
+        "aapmensen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Ape-person. Mild compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Animal-based compound insult"
+    },
+    {
+      "word": "akela",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "slang"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Idiot. Mild slang term.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Slang mild insult"
+    },
+    {
+      "word": "anusridder",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "anatomy",
+        "creative",
+        "compound"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Anus knight. Creative compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Creative anatomical compound insult"
+    },
+    {
+      "word": "banaan",
+      "severity": 3,
+      "categories": [
+        "racial",
+        "slur",
+        "hate_speech"
+      ],
+      "variations": [
+        "bananen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Banana. Racial slur for Asian people. Highly offensive.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Racist slur for Asian people"
+    },
+    {
+      "word": "bastaard",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "archaic"
+      ],
+      "variations": [
+        "bastaards"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Bastard. Traditional insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Traditional insult"
+    },
+    {
+      "word": "blerrie",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "euphemism"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild curse word. Euphemistic.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild euphemistic curse"
+    },
+    {
+      "word": "boef",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "criminal"
+      ],
+      "variations": [
+        "boeven"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Crook, rascal. Mild term.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild criminal-based term"
+    },
+    {
+      "word": "botmuil",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "anatomy"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Blockhead. Mild insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild anatomy-based insult"
+    },
+    {
+      "word": "domkop",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "intelligence",
+        "compound"
+      ],
+      "variations": [
+        "domkoppen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Dumb head. Compound: dom (dumb) + kop (head).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Common mild intelligence-based compound"
+    },
+    {
+      "word": "domme",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "intelligence",
+        "adjective"
+      ],
+      "variations": [
+        "dom",
+        "domste"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Stupid (adjective). Very mild.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - domkop, dommerik, dombo",
+      "cultural_context": "Basic mild adjective for stupidity"
+    },
+    {
+      "word": "dommerik",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "intelligence"
+      ],
+      "variations": [
+        "dommeriken"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Fool. From dom (stupid).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild intelligence-based insult"
+    },
+    {
+      "word": "donder",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "weather"
+      ],
+      "variations": [
+        "donderen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Thunder. Mild curse word.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Weather-based mild curse"
+    },
+    {
+      "word": "doos",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "anatomy",
+        "slang"
+      ],
+      "variations": [
+        "dozen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Box. Slang for vagina.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Anatomical slang term"
+    },
+    {
+      "word": "draak",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "mythological",
+        "misogynistic"
+      ],
+      "variations": [
+        "draken"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Dragon. Mild insult for ugly woman.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mythological creature-based gendered insult"
+    },
+    {
+      "word": "druif",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "food",
+        "humorous"
+      ],
+      "variations": [
+        "druiven"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Grape. Very mild, almost humorous insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Food-based very mild/humorous insult"
+    },
+    {
+      "word": "engerd",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "creepy"
+      ],
+      "variations": [
+        "engerds"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Creep. Mild insult for creepy person.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild insult for unsettling people"
+    },
+    {
+      "word": "etterbak",
+      "severity": 2,
+      "categories": [
+        "bodily_function",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Pus mouth. Compound: etter (pus) + bak (mouth).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Bodily secretion-based compound insult"
+    },
+    {
+      "word": "fag",
+      "severity": 3,
+      "categories": [
+        "english_loan",
+        "hate_speech",
+        "slur"
+      ],
+      "variations": [
+        "fags"
+      ],
+      "case_sensitive": false,
+      "context_notes": "English loanword. Homophobic slur. Highly offensive.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "English homophobic slur adopted by Dutch speakers"
+    },
+    {
+      "word": "flikker",
+      "severity": 3,
+      "categories": [
+        "hate_speech",
+        "slur",
+        "offensive"
+      ],
+      "variations": [
+        "flikkers"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Faggot. Highly offensive homophobic slur.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate - flikker op",
+      "cultural_context": "Major Dutch homophobic slur"
+    },
+    {
+      "word": "fucking",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "english_loan"
+      ],
+      "variations": [
+        "fuckin"
+      ],
+      "case_sensitive": false,
+      "context_notes": "English loanword. Common intensifier among Dutch speakers.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High",
+      "cultural_context": "English intensifier adopted by Dutch youth"
+    },
+    {
+      "word": "galbak",
+      "severity": 2,
+      "categories": [
+        "bodily_function",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Bile mouth. Compound: gal (bile) + bak (mouth).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Bodily secretion-based compound insult"
+    },
+    {
+      "word": "gekkie",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "mental_health",
+        "diminutive"
+      ],
+      "variations": [
+        "gekkies"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Crazy person (diminutive). Can be affectionate or mildly insulting.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Diminutive form softening mental health-related term"
+    },
+    {
+      "word": "geitenneuker",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "animal",
+        "compound",
+        "creative"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Goat fucker. Creative compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Animal-sexual compound insult"
+    },
+    {
+      "word": "godverdamme",
+      "severity": 2,
+      "categories": [
+        "religious",
+        "blasphemy"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Variant of godverdomme. Goddammit.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Religious blasphemy variant"
+    },
+    {
+      "word": "godverdorie",
+      "severity": 1,
+      "categories": [
+        "religious",
+        "mild",
+        "euphemism"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild variant of godverdomme. Gosh darn.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild religious euphemism"
+    },
+    {
+      "word": "gore",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "adjective"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Disgusting (adjective). Mild.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate",
+      "cultural_context": "Mild disgust-based adjective"
+    },
+    {
+      "word": "halvegare",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "intelligence"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Half-baked. Mild intelligence insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild intelligence-based insult"
+    },
+    {
+      "word": "hoereneuker",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Whore fucker. Sexual compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Sexual compound insult"
+    },
+    {
+      "word": "hoerenjong",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "compound",
+        "derogatory"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Son of a whore. Compound: hoer + jong (boy).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Maternal insult via prostitution"
+    },
+    {
+      "word": "hoerenkind",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "compound",
+        "derogatory"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Whore child. Compound: hoer + kind (child).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Maternal insult via prostitution"
+    },
+    {
+      "word": "homo",
+      "severity": 2,
+      "categories": [
+        "slur",
+        "context_dependent"
+      ],
+      "variations": [
+        "homo's"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Homosexual. Can be neutral or offensive depending on context and tone.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Context-dependent term for homosexual"
+    },
+    {
+      "word": "hondenlul",
+      "severity": 2,
+      "categories": [
+        "animal",
+        "anatomy",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Dog dick. Animal-anatomical compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Animal-anatomical compound insult"
+    },
+    {
+      "word": "hondenneuker",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "animal",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Dog fucker. Animal-sexual compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Animal-sexual compound insult"
+    },
+    {
+      "word": "huffter",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "mild"
+      ],
+      "variations": [
+        "huffters"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Brute, jerk. Variant of hufter.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "General insult for disagreeable person"
+    },
+    {
+      "word": "hufter",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "mild"
+      ],
+      "variations": [
+        "hufters"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Jerk, asshole. Common mild insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Common general insult"
+    },
+    {
+      "word": "imbeciel",
+      "severity": 2,
+      "categories": [
+        "ableist",
+        "derogatory"
+      ],
+      "variations": [
+        "imbecielen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Imbecile. Ableist medical term used as insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Ableist medical term repurposed as insult"
+    },
+    {
+      "word": "janet",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "misogynistic",
+        "slang"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Derogatory slang term for women.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Slang gendered insult"
+    },
+    {
+      "word": "jeetje",
+      "severity": 1,
+      "categories": [
+        "religious",
+        "mild",
+        "euphemism"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mild variant of jezus. Gee whiz.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild religious euphemism"
+    },
+    {
+      "word": "jood",
+      "severity": 3,
+      "categories": [
+        "racial",
+        "slur",
+        "hate_speech",
+        "context_dependent"
+      ],
+      "variations": [
+        "joden"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Jew. Can be neutral or highly offensive slur depending on context.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate - jodenstreek",
+      "cultural_context": "Context-dependent term that can be antisemitic slur"
+    },
+    {
+      "word": "jodenstreek",
+      "severity": 3,
+      "categories": [
+        "racial",
+        "slur",
+        "hate_speech",
+        "compound"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Jewish trick. Antisemitic compound. Highly offensive.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Antisemitic stereotype-based compound"
+    },
+    {
+      "word": "kakken",
+      "severity": 1,
+      "categories": [
+        "scatological",
+        "childish",
+        "verb"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "To crap (verb). Very mild childish term.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Childish scatological verb"
+    },
+    {
+      "word": "kankerbek",
+      "severity": 4,
+      "categories": [
+        "disease",
+        "extreme",
+        "compound",
+        "offensive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cancer mouth. Extremely offensive disease-based compound.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Extreme disease-based compound insult"
+    },
+    {
+      "word": "kankerhoer",
+      "severity": 4,
+      "categories": [
+        "disease",
+        "sexual",
+        "extreme",
+        "compound",
+        "offensive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cancer whore. Extremely offensive disease-sexual compound.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Extreme disease-sexual compound"
+    },
+    {
+      "word": "kankerjong",
+      "severity": 4,
+      "categories": [
+        "disease",
+        "extreme",
+        "compound",
+        "offensive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cancer kid. Extremely offensive disease-based compound.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Extreme disease-based compound"
+    },
+    {
+      "word": "kankermongool",
+      "severity": 4,
+      "categories": [
+        "disease",
+        "ableist",
+        "extreme",
+        "compound",
+        "offensive",
+        "hate_speech"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cancer mongoloid. Combination of worst possible Dutch insults. Extremely offensive.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Extreme combination of disease and ableist slurs"
+    },
+    {
+      "word": "kankernicht",
+      "severity": 4,
+      "categories": [
+        "disease",
+        "hate_speech",
+        "extreme",
+        "compound",
+        "offensive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cancer faggot. Combination of disease curse and homophobic slur. Extremely offensive.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Extreme combination of disease and homophobic slurs"
+    },
+    {
+      "word": "kankerwijf",
+      "severity": 4,
+      "categories": [
+        "disease",
+        "misogynistic",
+        "extreme",
+        "compound",
+        "offensive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cancer woman. Extremely offensive disease-based gendered compound.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Extreme disease-based gendered insult"
+    },
+    {
+      "word": "kankerzooi",
+      "severity": 4,
+      "categories": [
+        "disease",
+        "extreme",
+        "compound",
+        "offensive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cancer mess. Extremely offensive disease-based compound for situations.",
+      "target_type": "situation",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Extreme disease-based situation descriptor"
+    },
+    {
+      "word": "klerelijer",
+      "severity": 3,
+      "categories": [
+        "disease",
+        "profanity",
+        "compound"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cholera sufferer. Disease-based compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Disease-based compound insult"
+    },
+    {
+      "word": "klere",
+      "severity": 2,
+      "categories": [
+        "disease",
+        "profanity"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cholera. Variant of kolere.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - klerezooi",
+      "cultural_context": "Disease-based curse"
+    },
+    {
+      "word": "klerezooi",
+      "severity": 2,
+      "categories": [
+        "disease",
+        "compound",
+        "profanity"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cholera mess. Disease-based compound.",
+      "target_type": "situation",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Disease-based situation descriptor"
+    },
+    {
+      "word": "klojo",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "slang"
+      ],
+      "variations": [
+        "klojos"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Clumsy fool. Mild slang insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild slang insult"
+    },
+    {
+      "word": "klooien",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "verb"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "To mess around (verb). Mild.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild verb"
+    },
+    {
+      "word": "kloot",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Testicle. Anatomical term.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Very high - klootzak, klootviool, klootjesvolk",
+      "cultural_context": "Base anatomical term for compounds"
+    },
+    {
+      "word": "klootjesvolk",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "derogatory",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Testicle people. Derogatory term for rabble or lower classes.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Class-based anatomical compound insult"
+    },
+    {
+      "word": "kloteding",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "vulgar",
+        "compound"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Shitty thing. Compound: klote + ding (thing).",
+      "target_type": "object",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Anatomical compound for objects"
+    },
+    {
+      "word": "kneus",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "pity"
+      ],
+      "variations": [
+        "kneuzen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Dimwit, bumbler. Mild with pity connotation.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild pitying insult"
+    },
+    {
+      "word": "koelie",
+      "severity": 3,
+      "categories": [
+        "racial",
+        "slur",
+        "hate_speech"
+      ],
+      "variations": [
+        "koelies"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Coolie. Racial slur for Asian laborers. Highly offensive.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Colonial-era racist slur"
+    },
+    {
+      "word": "kolerelijer",
+      "severity": 2,
+      "categories": [
+        "disease",
+        "compound",
+        "profanity"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cholera sufferer. Disease-based compound.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Disease-based compound insult"
+    },
+    {
+      "word": "kontlikker",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "sexual",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Ass licker. Anatomical-sexual compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Anatomical-sexual compound insult"
+    },
+    {
+      "word": "kontneuker",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "sexual",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Ass fucker. Anatomical-sexual compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Anatomical-sexual compound insult"
+    },
+    {
+      "word": "kutding",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "vulgar",
+        "compound"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cunt thing. Compound: kut + ding (thing).",
+      "target_type": "object",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Anatomical compound for objects"
+    },
+    {
+      "word": "kutfiets",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "vulgar",
+        "compound",
+        "creative"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cunt bike. Creative compound showing Dutch versatility with kut.",
+      "target_type": "object",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Example of creative Dutch compound profanity"
+    },
+    {
+      "word": "kutkop",
+      "severity": 3,
+      "categories": [
+        "sexual",
+        "vulgar",
+        "compound"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Cunt head. Compound: kut + kop (head).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Anatomical compound insult"
+    },
+    {
+      "word": "lamzak",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "derogatory"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Lame sack. Mild insult for lazy person.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild laziness-based insult"
+    },
+    {
+      "word": "lapzwans",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "derogatory"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Wimp, weakling. Mild insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild weakness-based insult"
+    },
+    {
+      "word": "lesbo",
+      "severity": 2,
+      "categories": [
+        "slur",
+        "hate_speech",
+        "context_dependent"
+      ],
+      "variations": [
+        "lesbo's"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Lesbian. Can be neutral or offensive slur depending on context.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Context-dependent term for lesbian"
+    },
+    {
+      "word": "lijer",
+      "severity": 2,
+      "categories": [
+        "disease",
+        "suffix"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Sufferer. Used in disease-based compounds (-lijer).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Very high - kankerlijer, teringlijer, tyfuslijer",
+      "cultural_context": "Key suffix in disease-based Dutch profanity"
+    },
+    {
+      "word": "loeder",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "derogatory",
+        "misogynistic"
+      ],
+      "variations": [
+        "loeders"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Slut. Derogatory term for women.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Sexual morality-based gendered insult"
+    },
+    {
+      "word": "loeser",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "english_loan"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Loser. English loanword adapted to Dutch.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "English loanword mild insult"
+    },
+    {
+      "word": "lomperik",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "derogatory"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Boor, oaf. Mild insult for rude person.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild manners-based insult"
+    },
+    {
+      "word": "lulhannes",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Dick Hans. Compound: lul + hannes (name).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Anatomical compound with common name"
+    },
+    {
+      "word": "lulkoek",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Dick cake. Means nonsense or bullshit. Compound: lul + koek (cake).",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Anatomical compound meaning nonsense"
+    },
+    {
+      "word": "lullen",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "verb",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "To talk shit (verb). From lul.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Anatomical-based verb for talking nonsense"
+    },
+    {
+      "word": "lulletje rozenwater",
+      "severity": 1,
+      "categories": [
+        "anatomy",
+        "compound",
+        "creative",
+        "mild"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Little dick rose water. Means pussy or wimp. Creative compound phrase.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound phrase",
+      "cultural_context": "Creative anatomical compound phrase for weakness"
+    },
+    {
+      "word": "lulzak",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Dick sack. Compound: lul + zak.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Anatomical compound insult"
+    },
+    {
+      "word": "makaak",
+      "severity": 3,
+      "categories": [
+        "racial",
+        "slur",
+        "hate_speech",
+        "animal"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Macaque. Racial slur comparing people to monkeys. Highly offensive.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Animal-based racist slur"
+    },
+    {
+      "word": "matennaaier",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mate fucker. Sexual compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Sexual compound insult"
+    },
+    {
+      "word": "mietje",
+      "severity": 2,
+      "categories": [
+        "hate_speech",
+        "slur",
+        "misogynistic"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Sissy. Homophobic and misogynistic slur.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Homophobic/misogynistic slur based on effeminacy"
+    },
+    {
+      "word": "minkukel",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "derogatory"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Nobody, insignificant person. Mild insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild insignificance-based insult"
+    },
+    {
+      "word": "mongooltje",
+      "severity": 3,
+      "categories": [
+        "ableist",
+        "offensive",
+        "slur",
+        "diminutive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Little mongol (diminutive). Still highly offensive despite diminutive.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Diminutive form of extreme ableist slur"
+    },
+    {
+      "word": "mongolen",
+      "severity": 3,
+      "categories": [
+        "ableist",
+        "offensive",
+        "slur"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mongols (plural). Highly offensive ableist slur.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Plural of extreme ableist slur"
+    },
+    {
+      "word": "moriaan",
+      "severity": 3,
+      "categories": [
+        "racial",
+        "slur",
+        "hate_speech",
+        "archaic"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Moor. Archaic racial slur. Highly offensive.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Historical racist term from colonial era"
+    },
+    {
+      "word": "mossel",
+      "severity": 2,
+      "categories": [
+        "ethnic",
+        "slur",
+        "derogatory"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Mussel. Ethnic slur. Offensive.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Food-based ethnic slur"
+    },
+    {
+      "word": "muts",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "derogatory"
+      ],
+      "variations": [
+        "mutsen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Cap. Mild insult for wimp or weakling.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Clothing-based mild weakness insult"
+    },
+    {
+      "word": "naaien",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "verb",
+        "vulgar"
+      ],
+      "variations": [
+        "naaier"
+      ],
+      "case_sensitive": false,
+      "context_notes": "To fuck/screw (verb). Also means to cheat or swindle.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate",
+      "cultural_context": "Sexual verb with dual meaning"
+    },
+    {
+      "word": "neger",
+      "severity": 3,
+      "categories": [
+        "racial",
+        "slur",
+        "hate_speech"
+      ],
+      "variations": [
+        "negers"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Negro. Racial slur. Highly offensive and socially unacceptable.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Major Dutch racial slur"
+    },
+    {
+      "word": "neuk",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Fuck (noun form). Vulgar sexual term.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High",
+      "cultural_context": "Base sexual profanity"
+    },
+    {
+      "word": "neukerd",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Fucker. Vulgar sexual term.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Sexual profanity"
+    },
+    {
+      "word": "neuke",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Variant of neuken. To fuck.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate",
+      "cultural_context": "Sexual verb variant"
+    },
+    {
+      "word": "nicht",
+      "severity": 3,
+      "categories": [
+        "hate_speech",
+        "slur",
+        "offensive"
+      ],
+      "variations": [
+        "nichten"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Faggot. Highly offensive homophobic slur.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate - kankernicht",
+      "cultural_context": "Major Dutch homophobic slur"
+    },
+    {
+      "word": "onbenul",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "intelligence"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Dimwit, clueless person. Mild intelligence insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild intelligence-based insult"
+    },
+    {
+      "word": "ongelofelijke",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "adjective"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Unbelievable (adjective). Used in curse expressions.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Moderate",
+      "cultural_context": "Intensifier in Dutch curses"
+    },
+    {
+      "word": "oelewapper",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "humorous"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Silly fool. Mild, almost humorous insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild humorous insult"
+    },
+    {
+      "word": "paardeneuker",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "animal",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Horse fucker. Animal-sexual compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Animal-sexual compound insult"
+    },
+    {
+      "word": "pannekoek",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "food",
+        "humorous"
+      ],
+      "variations": [
+        "pannekoeken"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Pancake. Very mild, humorous insult meaning fool.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Food-based very mild/humorous insult"
+    },
+    {
+      "word": "papzak",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "derogatory"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Pulp sack. Mild insult for weak person.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild weakness-based insult"
+    },
+    {
+      "word": "piemelneus",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Dick nose. Anatomical compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Anatomical compound insult"
+    },
+    {
+      "word": "piesje",
+      "severity": 1,
+      "categories": [
+        "bodily_function",
+        "mild",
+        "childish",
+        "diminutive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Little pee (diminutive). Very mild, child-friendly.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Child-friendly diminutive bodily function term"
+    },
+    {
+      "word": "pikkie",
+      "severity": 2,
+      "categories": [
+        "anatomy",
+        "sexual",
+        "diminutive",
+        "mild"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Little dick (diminutive). Milder due to diminutive form.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Diminutive anatomical term"
+    },
+    {
+      "word": "plebs",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "class"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Plebs, rabble. Mild class-based insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Latin-based class insult"
+    },
+    {
+      "word": "pleurislijer",
+      "severity": 2,
+      "categories": [
+        "disease",
+        "compound",
+        "profanity"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Pleurisy sufferer. Disease-based compound.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Disease-based compound insult"
+    },
+    {
+      "word": "poepchinees",
+      "severity": 3,
+      "categories": [
+        "racial",
+        "slur",
+        "hate_speech",
+        "scatological",
+        "compound"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Poop Chinese. Racist compound combining scatological with ethnicity. Highly offensive.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Racist scatological compound"
+    },
+    {
+      "word": "poephoofd",
+      "severity": 1,
+      "categories": [
+        "scatological",
+        "compound",
+        "childish"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Poop head. Childish compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Childish scatological compound"
+    },
+    {
+      "word": "poepje",
+      "severity": 1,
+      "categories": [
+        "scatological",
+        "childish",
+        "diminutive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Little poop (diminutive). Very mild, childish.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Childish diminutive scatological term"
+    },
+    {
+      "word": "potverdomme",
+      "severity": 1,
+      "categories": [
+        "religious",
+        "mild",
+        "euphemism"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Pot damn. Euphemism for godverdomme.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild religious euphemism"
+    },
+    {
+      "word": "prutser",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "derogatory"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Bungler, incompetent person. Mild insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild competence-based insult"
+    },
+    {
+      "word": "relnicht",
+      "severity": 3,
+      "categories": [
+        "hate_speech",
+        "slur",
+        "compound",
+        "offensive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Riot faggot. Homophobic compound slur.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Homophobic compound slur"
+    },
+    {
+      "word": "rotzak",
+      "severity": 2,
+      "categories": [
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Rotten sack. Compound: rot + zak. Common insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Common compound insult"
+    },
+    {
+      "word": "rotjooch",
+      "severity": 2,
+      "categories": [
+        "compound",
+        "mild"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Rotten kid. Compound: rot + jooch (kid).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Age-based compound insult"
+    },
+    {
+      "word": "rotwijf",
+      "severity": 2,
+      "categories": [
+        "compound",
+        "misogynistic",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Rotten woman. Compound: rot + wijf. Gendered insult.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Gendered compound insult"
+    },
+    {
+      "word": "scheetje",
+      "severity": 1,
+      "categories": [
+        "bodily_function",
+        "mild",
+        "diminutive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Little fart (diminutive). Very mild.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Diminutive bodily function term"
+    },
+    {
+      "word": "schijt",
+      "severity": 2,
+      "categories": [
+        "scatological",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Shit. Scatological term.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - schijthuis, schijtkop",
+      "cultural_context": "Basic scatological profanity"
+    },
+    {
+      "word": "schijten",
+      "severity": 2,
+      "categories": [
+        "scatological",
+        "verb",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "To shit (verb). Scatological.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Scatological verb"
+    },
+    {
+      "word": "schijtebroek",
+      "severity": 2,
+      "categories": [
+        "scatological",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Shitpants. Compound for coward.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Scatological compound for cowardice"
+    },
+    {
+      "word": "schijthuis",
+      "severity": 2,
+      "categories": [
+        "scatological",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Shithouse. Scatological compound.",
+      "target_type": "place",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Scatological compound for places"
+    },
+    {
+      "word": "schijtkop",
+      "severity": 2,
+      "categories": [
+        "scatological",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Shithead. Compound: schijt + kop (head).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Scatological compound insult"
+    },
+    {
+      "word": "schoft",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "mild"
+      ],
+      "variations": [
+        "schoften"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Scoundrel, villain. Moderate insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Traditional general insult"
+    },
+    {
+      "word": "sletje",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "derogatory",
+        "misogynistic",
+        "diminutive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Little slut (diminutive). Still offensive despite diminutive.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Diminutive sexual morality-based insult"
+    },
+    {
+      "word": "sletten",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "derogatory",
+        "misogynistic"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Sluts (plural). Derogatory term for women.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Plural sexual morality-based insult"
+    },
+    {
+      "word": "slethoer",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "derogatory",
+        "misogynistic",
+        "compound"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Slut whore. Compound combining two sexual insults.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Intensified sexual morality-based compound"
+    },
+    {
+      "word": "smeerlap",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "mild"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Dirty rag. Moderate insult for unpleasant person.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Cleanliness-based insult"
+    },
+    {
+      "word": "smeerpijp",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "mild"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Grease pipe. Moderate insult for unpleasant person.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Industrial-based insult"
+    },
+    {
+      "word": "snol",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "derogatory",
+        "misogynistic"
+      ],
+      "variations": [
+        "snollen"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Slut. Derogatory term for women.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Sexual morality-based gendered insult"
+    },
+    {
+      "word": "stomkop",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "intelligence",
+        "compound"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Dumb head. Compound: stom + kop (head).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Mild intelligence-based compound"
+    },
+    {
+      "word": "strontkop",
+      "severity": 2,
+      "categories": [
+        "scatological",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Shithead. Compound: stront + kop (head).",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Scatological compound insult"
+    },
+    {
+      "word": "strontzooi",
+      "severity": 2,
+      "categories": [
+        "scatological",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Shit mess. Compound: stront + zooi (mess).",
+      "target_type": "situation",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Scatological compound for situations"
+    },
+    {
+      "word": "sukkeltje",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "pity",
+        "diminutive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Little dimwit (diminutive). Very mild, pitiable.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Diminutive mild pitying insult"
+    },
+    {
+      "word": "teefje",
+      "severity": 2,
+      "categories": [
+        "animal",
+        "derogatory",
+        "misogynistic",
+        "diminutive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Little bitch (diminutive). Still offensive despite diminutive.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Diminutive animal-based gendered insult"
+    },
+    {
+      "word": "teringhond",
+      "severity": 3,
+      "categories": [
+        "disease",
+        "animal",
+        "compound",
+        "profanity"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Tuberculosis dog. Disease-animal compound.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Disease-animal compound insult"
+    },
+    {
+      "word": "teringlijer",
+      "severity": 3,
+      "categories": [
+        "disease",
+        "compound",
+        "profanity"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Tuberculosis sufferer. Disease-based compound.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Disease-based compound insult"
+    },
+    {
+      "word": "teringslijder",
+      "severity": 3,
+      "categories": [
+        "disease",
+        "compound",
+        "profanity"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "TB sufferer. Variant of teringlijer.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Disease-based compound variant"
+    },
+    {
+      "word": "teringwijf",
+      "severity": 3,
+      "categories": [
+        "disease",
+        "misogynistic",
+        "compound",
+        "profanity"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Tuberculosis woman. Disease-based gendered compound.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Disease-based gendered insult"
+    },
+    {
+      "word": "teringzooi",
+      "severity": 3,
+      "categories": [
+        "disease",
+        "compound",
+        "profanity"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Tuberculosis mess. Disease-based compound for situations.",
+      "target_type": "situation",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Disease-based situation descriptor"
+    },
+    {
+      "word": "toeter",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "slang"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Horn. Mild slang for idiot.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Sound-based mild insult"
+    },
+    {
+      "word": "trutje",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "anatomy",
+        "derogatory",
+        "diminutive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Little bitch (diminutive). Milder due to diminutive.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Diminutive gendered insult"
+    },
+    {
+      "word": "trutten",
+      "severity": 2,
+      "categories": [
+        "sexual",
+        "anatomy",
+        "derogatory"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Bitches (plural). Derogatory for women.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Plural gendered insult"
+    },
+    {
+      "word": "tyfuslijer",
+      "severity": 3,
+      "categories": [
+        "disease",
+        "compound",
+        "profanity"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Typhoid sufferer. Disease-based compound.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Disease-based compound insult"
+    },
+    {
+      "word": "tyfuswijf",
+      "severity": 3,
+      "categories": [
+        "disease",
+        "misogynistic",
+        "compound",
+        "profanity"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Typhoid woman. Disease-based gendered compound.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Disease-based gendered insult"
+    },
+    {
+      "word": "tyfuszooi",
+      "severity": 3,
+      "categories": [
+        "disease",
+        "compound",
+        "profanity"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Typhoid mess. Disease-based compound for situations.",
+      "target_type": "situation",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Disease-based situation descriptor"
+    },
+    {
+      "word": "uitskuiken",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "slang"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Idiot. Mild slang term.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild slang insult"
+    },
+    {
+      "word": "vark",
+      "severity": 1,
+      "categories": [
+        "animal",
+        "mild"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Pig (variant). Mild animal insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Animal-based mild insult"
+    },
+    {
+      "word": "varken",
+      "severity": 1,
+      "categories": [
+        "animal",
+        "mild"
+      ],
+      "variations": [
+        "varkens"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Pig. Mild animal insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Common animal-based mild insult"
+    },
+    {
+      "word": "verdomd",
+      "severity": 1,
+      "categories": [
+        "religious",
+        "mild"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Damned (adjective). Mild religious curse.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Mild religious curse adjective"
+    },
+    {
+      "word": "vuile",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "adjective"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Dirty (adjective). Used in compounds.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High - vuile hond, etc.",
+      "cultural_context": "Common compound prefix adjective"
+    },
+    {
+      "word": "vuilak",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "derogatory"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Dirty one. Mild insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Cleanliness-based mild insult"
+    },
+    {
+      "word": "wappie",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "modern",
+        "slang"
+      ],
+      "variations": [
+        "wappies"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Crazy person. COVID-era term for conspiracy theorist. Modern slang.",
+      "target_type": "person",
+      "regions": [
+        "netherlands"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Modern Netherlands slang from COVID era"
+    },
+    {
+      "word": "wijfje",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "misogynistic",
+        "diminutive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Little woman (diminutive). Still derogatory despite diminutive.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Diminutive gendered insult"
+    },
+    {
+      "word": "wijven",
+      "severity": 2,
+      "categories": [
+        "derogatory",
+        "misogynistic"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Women (plural, derogatory). Archaic but still used.",
+      "target_type": "woman",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Plural archaic derogatory term for women"
+    },
+    {
+      "word": "zakje",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "diminutive"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Little sack (diminutive). Very mild.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Diminutive mild insult"
+    },
+    {
+      "word": "zeikbek",
+      "severity": 2,
+      "categories": [
+        "bodily_function",
+        "compound",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Piss mouth. Bodily function compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Bodily function compound insult"
+    },
+    {
+      "word": "zeiken",
+      "severity": 2,
+      "categories": [
+        "bodily_function",
+        "verb",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "To piss/whine (verb). Dual meaning: urinate or complain.",
+      "target_type": "general",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "High",
+      "cultural_context": "Bodily function verb with metaphorical use"
+    },
+    {
+      "word": "zeikerig",
+      "severity": 2,
+      "categories": [
+        "bodily_function",
+        "adjective",
+        "vulgar"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Whiny (adjective). From zeiken.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Bodily function-based adjective for complaining"
+    },
+    {
+      "word": "zakkenwasser",
+      "severity": 1,
+      "categories": [
+        "mild",
+        "compound",
+        "creative"
+      ],
+      "variations": [],
+      "case_sensitive": false,
+      "context_notes": "Sack washer. Mild creative compound insult.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Base compound word",
+      "cultural_context": "Creative mild compound insult"
+    },
+    {
+      "word": "zigeuner",
+      "severity": 3,
+      "categories": [
+        "ethnic",
+        "slur",
+        "hate_speech"
+      ],
+      "variations": [
+        "zigeuners"
+      ],
+      "case_sensitive": false,
+      "context_notes": "Gypsy. Ethnic slur for Romani people. Highly offensive.",
+      "target_type": "person",
+      "regions": [
+        "netherlands",
+        "belgium"
+      ],
+      "compound_potential": "Low",
+      "cultural_context": "Ethnic slur for Romani people"
+    }
+  ]
+}

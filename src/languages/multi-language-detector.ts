@@ -7,6 +7,7 @@ import type {
   DetectorConfig,
   LanguageCode,
   DetectionResult,
+  DetectionMatch,
   AnalysisOptions,
   ProfanityCategory
 } from '../types/index.js'
@@ -69,6 +70,8 @@ export class MultiLanguageDetector {
   // Caching
   private resultCache = new Map<string, MultiLanguageDetectionResult>()
   private readonly MAX_CACHE_SIZE = 1000
+  private cacheHits = 0
+  private cacheMisses = 0
 
   constructor(
     baseConfig: Partial<DetectorConfig> = {},
@@ -130,8 +133,10 @@ export class MultiLanguageDetector {
       const cacheKey = this.generateCacheKey(text, options)
       const cached = this.resultCache.get(cacheKey)
       if (cached) {
+        this.cacheHits++
         return cached
       }
+      this.cacheMisses++
     }
 
     const startTime = performance.now()
@@ -231,6 +236,7 @@ export class MultiLanguageDetector {
     if (this.options.parallelProcessing && languages.length > 1) {
       // Parallel processing for multiple languages
       const analysisPromises = languages.map(async (language) => {
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- languageDetectors.get() guaranteed to return detector for languages passed to analyzeByLanguages()
         const detector = this.languageDetectors.get(language)!
         const result = await detector.analyze(text, options)
         return { language, result }
@@ -264,6 +270,7 @@ export class MultiLanguageDetector {
   ): MultiLanguageDetectionResult {
     // Find primary result (highest confidence or primary language)
     let primaryResult: DetectionResult | null = null
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- primaryLanguage is set in constructor with default value 'en'
     let primaryLanguage: LanguageCode = this.options.primaryLanguage!
 
     let highestConfidence = 0
@@ -286,7 +293,7 @@ export class MultiLanguageDetector {
     }
 
     // Merge all matches
-    const allMatches: any[] = []
+    const allMatches: DetectionMatch[] = []
     const allCategories = new Set<ProfanityCategory>()
     let maxSeverity: SeverityLevel = SeverityLevel.LOW
     let totalConfidence = 0
@@ -468,9 +475,10 @@ export class MultiLanguageDetector {
       hitRate: number
     }
   } {
+    const totalRequests = this.cacheHits + this.cacheMisses
     const cacheStats = {
       size: this.resultCache.size,
-      hitRate: 0 // TODO: Implement cache hit tracking
+      hitRate: totalRequests > 0 ? this.cacheHits / totalRequests : 0
     }
 
     return {

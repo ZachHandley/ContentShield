@@ -261,37 +261,106 @@ export class CharacterMapper {
    * Apply all character mappings to text
    */
   mapCharacters(text: string): string[] {
-    let variations = [text]
+    // Check if text requires disabled features
+    if (!this.enableHomographs && this.hasHomographs(text)) {
+      // Text contains homographs but homograph support is disabled
+      // Return only the original text without generating variations
+      return [text]
+    }
 
-    // Apply leetspeak mappings
+    if (!this.enableDiacritics && this.hasDiacritics(text)) {
+      // Text contains diacritics but diacritic support is disabled
+      // Return only the original text without generating variations
+      return [text]
+    }
+
+    let variations = new Set<string>([text])
+
+    // Apply leetspeak mappings (both normalization and obfuscation)
     if (this.enableLeetspeak) {
-      variations = this.expandWithMappings(variations, LEETSPEAK_MAPPINGS)
+      const newVariations = new Set<string>()
+      for (const variant of variations) {
+        newVariations.add(variant)
+
+        // Only normalize if text contains leetspeak
+        if (this.hasLeetspeak(variant)) {
+          const normalized = this.normalizeLeetspeak(variant)
+          if (normalized !== variant) {
+            newVariations.add(normalized)
+          }
+        }
+
+        // Only generate obfuscated versions if text contains normal letters
+        if (/[a-zA-Z]/.test(variant)) {
+          const obfuscated = this.generateLeetspeakVariations(variant)
+          obfuscated.forEach(v => newVariations.add(v))
+        }
+      }
+      variations = newVariations
     }
 
     // Apply homograph mappings
     if (this.enableHomographs) {
-      variations = this.expandWithMappings(variations, HOMOGRAPH_MAPPINGS)
+      const newVariations = new Set<string>()
+      for (const variant of variations) {
+        newVariations.add(variant)
+
+        // Only normalize if text contains homographs
+        if (this.hasHomographs(variant)) {
+          const normalized = this.normalizeHomographs(variant)
+          if (normalized !== variant) {
+            newVariations.add(normalized)
+          }
+        }
+      }
+      variations = newVariations
     }
 
     // Apply diacritic mappings
     if (this.enableDiacritics) {
-      const diacriticMaps = {
-        ...DIACRITIC_MAPPINGS.general,
-        ...(DIACRITIC_MAPPINGS[this.language] || {})
+      const newVariations = new Set<string>()
+      for (const variant of variations) {
+        newVariations.add(variant)
+
+        // Only normalize if text contains diacritics
+        if (this.hasDiacritics(variant)) {
+          const normalized = this.normalizeDiacritics(variant)
+          if (normalized !== variant) {
+            newVariations.add(normalized)
+          }
+        }
       }
-      variations = this.expandWithMappings(variations, diacriticMaps)
+      variations = newVariations
     }
 
     // Normalize repetitive characters
     if (this.enableRepetitionNormalization) {
-      variations = variations.map(v => this.normalizeRepetition(v))
+      const newVariations = new Set<string>()
+      for (const variant of variations) {
+        newVariations.add(variant)
+
+        // Only normalize if text has repetition
+        if (this.hasRepetition(variant)) {
+          const normalized = this.normalizeRepetition(variant)
+          if (normalized !== variant) {
+            newVariations.add(normalized)
+          }
+        }
+      }
+      variations = newVariations
     }
 
     // Remove separators and invisible characters
-    variations = variations.map(v => this.removeSeparators(v))
+    const finalVariations = new Set<string>()
+    for (const variant of variations) {
+      const cleaned = this.removeSeparators(variant)
+      if (cleaned.length > 0) {
+        finalVariations.add(cleaned)
+      }
+    }
 
-    // Remove duplicates and empty strings
-    return [...new Set(variations)].filter(v => v.length > 0)
+    // Return unique variations
+    return Array.from(finalVariations)
   }
 
   /**
@@ -465,6 +534,39 @@ export class CharacterMapper {
       hasSeparators,
       obfuscationLevel
     }
+  }
+
+  /**
+   * Generate leetspeak variations of text (normal -> obfuscated)
+   */
+  private generateLeetspeakVariations(text: string): string[] {
+    const variations = new Set<string>()
+
+    // Common character to leetspeak mappings (reverse direction)
+    const reverseMap: Record<string, string[]> = {
+      'a': ['@', '4'], 'A': ['@', '4'],
+      'e': ['3'], 'E': ['3'],
+      'i': ['1', '!', '|'], 'I': ['1', '!', '|'],
+      'o': ['0'], 'O': ['0'],
+      's': ['$', '5'], 'S': ['$', '5'],
+      't': ['+', '7'], 'T': ['+', '7'],
+      'l': ['1', '|'], 'L': ['1', '|'],
+      'g': ['9'], 'G': ['9'],
+      'b': ['8'], 'B': ['8']
+    }
+
+    // Generate single-character substitutions
+    for (let i = 0; i < text.length; i++) {
+      const char = text[i]
+      if (char && reverseMap[char]) {
+        for (const replacement of reverseMap[char]) {
+          const variation = text.substring(0, i) + replacement + text.substring(i + 1)
+          variations.add(variation)
+        }
+      }
+    }
+
+    return Array.from(variations)
   }
 
   private expandWithMappings(

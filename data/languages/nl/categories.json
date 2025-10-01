@@ -1,0 +1,289 @@
+{
+  "kanker": [
+    "disease",
+    "extreme",
+    "offensive"
+  ],
+  "kankerlijer": [
+    "disease",
+    "extreme",
+    "offensive",
+    "compound"
+  ],
+  "tyfus": [
+    "disease",
+    "profanity"
+  ],
+  "tering": [
+    "disease",
+    "profanity"
+  ],
+  "pleuris": [
+    "disease",
+    "profanity"
+  ],
+  "kolere": [
+    "disease",
+    "profanity"
+  ],
+  "kut": [
+    "sexual",
+    "vulgar",
+    "anatomy"
+  ],
+  "kutwijf": [
+    "sexual",
+    "vulgar",
+    "anatomy",
+    "compound",
+    "misogynistic"
+  ],
+  "lul": [
+    "sexual",
+    "anatomy",
+    "vulgar"
+  ],
+  "klootzak": [
+    "anatomy",
+    "vulgar",
+    "profanity"
+  ],
+  "klote": [
+    "anatomy",
+    "vulgar",
+    "profanity"
+  ],
+  "klootviool": [
+    "anatomy",
+    "vulgar",
+    "compound",
+    "creative"
+  ],
+  "hoer": [
+    "sexual",
+    "derogatory",
+    "profession"
+  ],
+  "stoephoer": [
+    "sexual",
+    "derogatory",
+    "profession",
+    "compound"
+  ],
+  "neuken": [
+    "sexual",
+    "verb",
+    "vulgar"
+  ],
+  "mierenneuker": [
+    "sexual",
+    "compound",
+    "creative",
+    "metaphorical"
+  ],
+  "godverdomme": [
+    "religious",
+    "blasphemy"
+  ],
+  "verdomme": [
+    "religious",
+    "mild"
+  ],
+  "potverdorie": [
+    "euphemism",
+    "mild",
+    "socially_acceptable"
+  ],
+  "jezus": [
+    "religious",
+    "mild",
+    "blasphemy"
+  ],
+  "eikel": [
+    "mild",
+    "metaphorical",
+    "anatomy"
+  ],
+  "trut": [
+    "sexual",
+    "anatomy",
+    "derogatory"
+  ],
+  "slet": [
+    "sexual",
+    "derogatory",
+    "misogynistic"
+  ],
+  "pik": [
+    "anatomy",
+    "sexual",
+    "vulgar"
+  ],
+  "lulletje": [
+    "anatomy",
+    "diminutive",
+    "mild"
+  ],
+  "pannenkoek": [
+    "mild",
+    "metaphorical",
+    "food"
+  ],
+  "sufkop": [
+    "mild",
+    "compound"
+  ],
+  "idioot": [
+    "mild",
+    "intelligence"
+  ],
+  "sukkel": [
+    "mild",
+    "pity"
+  ],
+  "stommeling": [
+    "mild",
+    "intelligence"
+  ],
+  "dombo": [
+    "mild",
+    "intelligence"
+  ],
+  "kutzooi": [
+    "sexual",
+    "vulgar",
+    "compound"
+  ],
+  "klotezooi": [
+    "anatomy",
+    "vulgar",
+    "compound"
+  ],
+  "shit": [
+    "scatological",
+    "english_loan"
+  ],
+  "fuck": [
+    "sexual",
+    "english_loan"
+  ],
+  "bitch": [
+    "derogatory",
+    "english_loan",
+    "misogynistic"
+  ],
+  "godvermiljaardedju": [
+    "religious",
+    "blasphemy",
+    "flemish",
+    "creative"
+  ],
+  "kalf": [
+    "animal",
+    "flemish",
+    "mild"
+  ],
+  "onnozelaar": [
+    "flemish",
+    "mild",
+    "intelligence"
+  ],
+  "duivel": [
+    "religious",
+    "flemish"
+  ],
+  "verdorie": [
+    "mild",
+    "euphemism"
+  ],
+  "stront": [
+    "scatological",
+    "vulgar"
+  ],
+  "poep": [
+    "scatological",
+    "childish"
+  ],
+  "kak": [
+    "scatological",
+    "childish"
+  ],
+  "drol": [
+    "scatological",
+    "mild"
+  ],
+  "rotzooi": [
+    "general",
+    "compound"
+  ],
+  "rotkop": [
+    "compound",
+    "mild"
+  ],
+  "zeik": [
+    "bodily_function",
+    "vulgar"
+  ],
+  "zeiknerd": [
+    "bodily_function",
+    "compound",
+    "derogatory"
+  ],
+  "pies": [
+    "bodily_function",
+    "mild"
+  ],
+  "scheet": [
+    "bodily_function",
+    "mild"
+  ],
+  "stomme": [
+    "mild",
+    "intelligence",
+    "adjective"
+  ],
+  "achterlijk": [
+    "ableist",
+    "derogatory"
+  ],
+  "mongool": [
+    "ableist",
+    "offensive",
+    "slur"
+  ],
+  "debiel": [
+    "ableist",
+    "derogatory"
+  ],
+  "gek": [
+    "mild",
+    "mental_health"
+  ],
+  "zak": [
+    "mild",
+    "container"
+  ],
+  "wijf": [
+    "derogatory",
+    "misogynistic",
+    "archaic"
+  ],
+  "teef": [
+    "animal",
+    "derogatory",
+    "misogynistic"
+  ],
+  "heks": [
+    "supernatural",
+    "derogatory",
+    "mild"
+  ],
+  "kreng": [
+    "derogatory",
+    "misogynistic"
+  ],
+  "del": [
+    "mild",
+    "slang"
+  ]
+}

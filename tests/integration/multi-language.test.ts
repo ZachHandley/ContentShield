@@ -243,7 +243,7 @@ describe('Multi-Language Integration', () => {
         expect(result).toHaveProperty('originalText')
         expect(result).toHaveProperty('detectedLanguages')
         expect(result).toHaveProperty('matches')
-        expect(result).toHaveProperty('severity')
+        expect(result).toHaveProperty('maxSeverity')
         expect(result).toHaveProperty('confidence')
       }
     })

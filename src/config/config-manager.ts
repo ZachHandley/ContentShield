@@ -56,6 +56,7 @@ export class ConfigManager {
   private changeListeners: Array<(event: ConfigChangeEvent) => void> = []
   private fileWatcher: ReturnType<typeof watch> | null | undefined
   private configCache = new Map<string, DetectorConfig>()
+  private readonly maxHistorySize = 10
 
   private readonly options: Required<ConfigManagerOptions>
 
@@ -103,10 +104,8 @@ export class ConfigManager {
       source: 'default'
     })
 
-    // Auto-optimize for detected languages if enabled
-    if (this.options.autoOptimizeForLanguages) {
-      this.autoOptimizeForLanguages()
-    }
+    // Note: Auto-optimization is NOT run during initialization
+    // It only runs when configuration is explicitly changed via updateConfig
   }
 
   /**
@@ -121,7 +120,9 @@ export class ConfigManager {
    */
   async updateConfig(
     newConfig: Partial<DetectorConfig>,
-    source: ConfigSource = 'runtime'
+    source: ConfigSource = 'runtime',
+    skipHistory = false,
+    skipNotification = false
   ): Promise<void> {
     const previousConfig = { ...this.currentConfig }
     const mergedConfig = { ...this.currentConfig, ...newConfig }
@@ -138,30 +139,47 @@ export class ConfigManager {
       this.currentConfig = mergedConfig as DetectorConfig
     }
 
-    // Add to history
-    this.configHistory.push({
-      config: { ...this.currentConfig },
-      timestamp: new Date(),
-      source
-    })
+    // Add to history (unless explicitly skipped)
+    if (!skipHistory) {
+      this.configHistory.push({
+        config: { ...this.currentConfig },
+        timestamp: new Date(),
+        source
+      })
+
+      // Limit history size
+      if (this.configHistory.length > this.maxHistorySize) {
+        this.configHistory.shift()
+      }
+    }
 
     // Detect changes
     const changeDetails = this.detectChanges(previousConfig, this.currentConfig)
 
-    // Notify listeners
-    const event: ConfigChangeEvent = {
-      source,
-      previousConfig,
-      newConfig: { ...this.currentConfig },
-      timestamp: new Date(),
-      changeDetails
+    // Auto-optimize if enabled (do this BEFORE notification so the final state is notified)
+    const shouldAutoOptimize = this.options.autoOptimizeForLanguages &&
+                                changeDetails.modified.includes('languages') &&
+                                !skipNotification
+    if (shouldAutoOptimize) {
+      await this.autoOptimizeForLanguages()
     }
 
-    this.notifyListeners(event)
+    // Notify listeners (unless explicitly skipped)
+    if (!skipNotification) {
+      // Re-detect changes after auto-optimization
+      const finalChangeDetails = shouldAutoOptimize
+        ? this.detectChanges(previousConfig, this.currentConfig)
+        : changeDetails
 
-    // Auto-optimize if enabled
-    if (this.options.autoOptimizeForLanguages && changeDetails.modified.includes('languages')) {
-      this.autoOptimizeForLanguages()
+      const event: ConfigChangeEvent = {
+        source,
+        previousConfig,
+        newConfig: { ...this.currentConfig },
+        timestamp: new Date(),
+        changeDetails: finalChangeDetails
+      }
+
+      this.notifyListeners(event)
     }
   }
 
@@ -250,7 +268,7 @@ export class ConfigManager {
   /**
    * Auto-optimize configuration for detected languages
    */
-  private autoOptimizeForLanguages(): void {
+  private async autoOptimizeForLanguages(): Promise<void> {
     const optimizations: Partial<DetectorConfig> = {}
 
     // If only one specific language, apply language-specific optimizations
@@ -271,7 +289,8 @@ export class ConfigManager {
     }
 
     if (Object.keys(optimizations).length > 0) {
-      this.updateConfig(optimizations, 'runtime')
+      // Apply optimizations directly without triggering events or history
+      await this.updateConfig(optimizations, 'runtime', true, true)
     }
   }
 
@@ -327,12 +346,29 @@ export class ConfigManager {
       return false
     }
 
-    // Get the second-to-last config (last one is current)
-    const previousConfigEntry = this.configHistory[this.configHistory.length - 2]
+    // Remove current config from history
+    this.configHistory.pop()
+
+    // Get the now-last config (was previously second-to-last)
+    const previousConfigEntry = this.configHistory[this.configHistory.length - 1]
     if (!previousConfigEntry) {
       return false
     }
-    await this.updateConfig(previousConfigEntry.config, 'runtime')
+
+    // Update current config without adding to history
+    const previousConfig = { ...this.currentConfig }
+    this.currentConfig = { ...previousConfigEntry.config }
+
+    // Detect changes and notify
+    const changeDetails = this.detectChanges(previousConfig, this.currentConfig)
+    const event: ConfigChangeEvent = {
+      source: 'runtime',
+      previousConfig,
+      newConfig: { ...this.currentConfig },
+      timestamp: new Date(),
+      changeDetails
+    }
+    this.notifyListeners(event)
 
     return true
   }
@@ -341,7 +377,25 @@ export class ConfigManager {
    * Reset to default configuration
    */
   async resetToDefault(): Promise<void> {
-    await this.updateConfig(DEFAULT_DETECTOR_CONFIG, 'runtime')
+    // Clear history and start fresh
+    const previousConfig = { ...this.currentConfig }
+    this.currentConfig = { ...DEFAULT_DETECTOR_CONFIG }
+    this.configHistory = [{
+      config: { ...this.currentConfig },
+      timestamp: new Date(),
+      source: 'default'
+    }]
+
+    // Detect changes and notify
+    const changeDetails = this.detectChanges(previousConfig, this.currentConfig)
+    const event: ConfigChangeEvent = {
+      source: 'runtime',
+      previousConfig,
+      newConfig: { ...this.currentConfig },
+      timestamp: new Date(),
+      changeDetails
+    }
+    this.notifyListeners(event)
   }
 
   /**

@@ -1,10 +1,9 @@
 {
-  "language": "ru",
-  "language_name": "Russian (Русский)",
+  "code": "ru",
+  "name": "Russian",
   "version": "1.0.0",
-  "last_updated": "2025-09-25",
-  "total_words": 180,
-  "total_variations": 850,
+  "lastUpdated": "2025-09-30",
+  "wordCount": 215,
   "source_attribution": {
     "primary_sources": [
       {
@@ -34,108 +33,30 @@
     "academic_sources": [
       {
         "name": "Russian Mat: Linguistic and Cultural Analysis",
-        "authors": ["Mokienko, V.M.", "Nikitina, T.G."],
+        "authors": [
+          "Mokienko, V.M.",
+          "Nikitina, T.G."
+        ],
         "description": "Comprehensive linguistic analysis of Russian mat system",
         "year": "2008"
       },
       {
         "name": "Obscene Language in Russian Internet Communication",
-        "authors": ["Krongauz, M.A."],
+        "authors": [
+          "Krongauz, M.A."
+        ],
         "description": "Analysis of profanity evolution in digital communication",
         "year": "2015"
       },
       {
         "name": "Sociolinguistic Aspects of Russian Profanity",
-        "authors": ["Zemskaya, E.A.", "Kitajgorodskaya, M.V."],
+        "authors": [
+          "Zemskaya, E.A.",
+          "Kitajgorodskaya, M.V."
+        ],
         "description": "Social stratification and usage patterns of Russian profanity",
         "year": "2010"
       }
-    ]
-  },
-  "linguistic_specifications": {
-    "script_systems": {
-      "primary": {
-        "name": "Cyrillic",
-        "iso_15924": "Cyrl",
-        "unicode_blocks": [
-          "Cyrillic (U+0400–U+04FF)",
-          "Cyrillic Supplement (U+0500–U+052F)",
-          "Cyrillic Extended-A (U+2DE0–U+2DFF)",
-          "Cyrillic Extended-B (U+A640–U+A69F)"
-        ]
-      },
-      "secondary": {
-        "name": "Latin (Transliteration)",
-        "iso_15924": "Latn",
-        "usage": "Internet communication, gaming, SMS"
-      }
-    },
-    "transliteration_standards": [
-      "ISO 9:1995 (Cyrillic transliteration)",
-      "GOST 7.79-2000 (Russian standard)",
-      "BGN/PCGN romanization",
-      "Internet informal conventions"
-    ],
-    "morphological_features": {
-      "highly_inflected": true,
-      "case_system": "6 cases (nominative, genitive, dative, accusative, instrumental, prepositional)",
-      "gender_system": "3 genders (masculine, feminine, neuter)",
-      "aspect_system": "perfective/imperfective verb aspects",
-      "diminutive_productive": true,
-      "profanity_productivity": "Mat words highly productive in word formation"
-    },
-    "phonological_notes": [
-      "Palatalization affects perception and spelling variations",
-      "Vowel reduction in unstressed positions",
-      "Consonant cluster simplification in casual speech"
-    ]
-  },
-  "cultural_context": {
-    "historical_background": [
-      "Pre-Christian Slavic origins of mat system",
-      "Orthodox Christian influence on taboo reinforcement",
-      "Soviet suppression and underground persistence",
-      "Post-Soviet liberalization and internet culture"
-    ],
-    "mat_system_significance": {
-      "description": "Unique linguistic and cultural phenomenon",
-      "core_words": ["хуй", "пизда", "ебать", "блядь"],
-      "linguistic_productivity": "Forms hundreds of derivative expressions",
-      "cultural_function": "Masculine bonding, emotional expression, transgression marker",
-      "social_taboo": "Strictly forbidden in public discourse but integral to informal communication"
-    },
-    "contemporary_usage": [
-      "Internet culture normalization",
-      "Gaming community adoption",
-      "Generational attitude shifts",
-      "Regional variation patterns",
-      "Gender expectation evolution"
-    ],
-    "religious_considerations": {
-      "orthodox_christianity": "Strong traditional disapproval",
-      "religious_profanity": "Blasphemous language particularly sensitive",
-      "modern_secularization": "Declining religious influence on language attitudes"
-    }
-  },
-  "technical_specifications": {
-    "encoding": "UTF-8",
-    "normalization": "NFD (Unicode Normalization Form Decomposed)",
-    "case_sensitivity": false,
-    "collation": "Russian (ru-RU)",
-    "regex_considerations": [
-      "Cyrillic character class support required",
-      "Mixed script handling (Cyrillic + Latin)",
-      "Homoglyph detection (а vs a, р vs p, о vs o)",
-      "Unicode normalization before matching"
-    ],
-    "variation_types": [
-      "cyrillic_latin_transliteration",
-      "leetspeak_substitution",
-      "symbol_replacement",
-      "phonetic_variants",
-      "morphological_derivatives",
-      "internet_abbreviations",
-      "keyboard_layout_confusion"
     ]
   },
   "compilation_methodology": {
@@ -163,27 +84,26 @@
       "Contextual appropriateness review"
     ]
   },
-  "usage_statistics": {
-    "frequency_distribution": {
-      "level_1": "25% (45 words)",
-      "level_2": "35% (63 words)",
-      "level_3": "30% (54 words)",
-      "level_4": "10% (18 words)"
-    },
-    "category_distribution": {
-      "mat_system": "22% (40 words)",
-      "general_profanity": "20% (36 words)",
-      "derogatory_terms": "18% (32 words)",
-      "scatological": "15% (27 words)",
-      "sexual_content": "12% (22 words)",
-      "ethnic_slurs": "8% (14 words)",
-      "religious_profanity": "5% (9 words)"
-    },
-    "script_distribution": {
-      "cyrillic_primary": "100% (180 words)",
-      "latin_transliteration": "85% (153 words)",
-      "mixed_script_variants": "40% (72 words)"
-    }
+  "technical_specifications": {
+    "encoding": "UTF-8",
+    "normalization": "NFD (Unicode Normalization Form Decomposed)",
+    "case_sensitivity": false,
+    "collation": "Russian (ru-RU)",
+    "regex_considerations": [
+      "Cyrillic character class support required",
+      "Mixed script handling (Cyrillic + Latin)",
+      "Homoglyph detection (а vs a, р vs p, о vs o)",
+      "Unicode normalization before matching"
+    ],
+    "variation_types": [
+      "cyrillic_latin_transliteration",
+      "leetspeak_substitution",
+      "symbol_replacement",
+      "phonetic_variants",
+      "morphological_derivatives",
+      "internet_abbreviations",
+      "keyboard_layout_confusion"
+    ]
   },
   "usage_notes": {
     "intended_use": "Content moderation, profanity filtering, linguistic research",
@@ -200,11 +120,5 @@
       "Consider generational and regional differences",
       "Balance cultural sensitivity with free expression"
     ]
-  },
-  "maintenance_schedule": {
-    "regular_updates": "Quarterly",
-    "internet_slang_monitoring": "Monthly",
-    "academic_review": "Annually",
-    "native_speaker_validation": "Bi-annually"
   }
 }

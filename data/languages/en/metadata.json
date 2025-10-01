@@ -1,9 +1,9 @@
 {
   "code": "en",
   "name": "English",
-  "version": "1.0.0",
-  "lastUpdated": "2025-09-25",
-  "wordCount": 0,
+  "version": "2.0.0",
+  "lastUpdated": "2025-09-30",
+  "wordCount": 714,
   "source_attribution": {
     "primary_sources": [
       {
@@ -35,7 +35,12 @@
       {
         "name": "Automated Hate Speech Detection and the Problem of Offensive Language",
         "url": "https://arxiv.org/abs/1703.04009",
-        "authors": ["Davidson, T.", "Warmsley, D.", "Macy, M.", "Weber, I."],
+        "authors": [
+          "Davidson, T.",
+          "Warmsley, D.",
+          "Macy, M.",
+          "Weber, I."
+        ],
         "description": "Academic research on offensive language categorization"
       },
       {
@@ -67,7 +72,13 @@
     "encoding": "UTF-8",
     "case_sensitivity": false,
     "normalization": "NFD (Unicode Normalization Form Decomposed)",
-    "variation_types": ["leetspeak", "spacing", "repetition", "symbols", "misspellings"]
+    "variation_types": [
+      "leetspeak",
+      "spacing",
+      "repetition",
+      "symbols",
+      "misspellings"
+    ]
   },
   "usage_notes": {
     "intended_use": "Content moderation and profanity filtering",

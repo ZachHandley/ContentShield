@@ -4,10 +4,16 @@ import { FilterMode } from '../types/index.js'
 
 // Global default instance for quick-start functions
 let defaultDetector: NaughtyWordsDetector | null = null
+let initPromise: Promise<void> | null = null
 
-function getDefaultDetector(): NaughtyWordsDetector {
+async function getDefaultDetector(): Promise<NaughtyWordsDetector> {
   if (!defaultDetector) {
     defaultDetector = new NaughtyWordsDetector()
+    initPromise = defaultDetector.initialize()
+  }
+  if (initPromise) {
+    await initPromise
+    initPromise = null
   }
   return defaultDetector
 }
@@ -16,7 +22,8 @@ function getDefaultDetector(): NaughtyWordsDetector {
  * Quick detection function using default configuration
  */
 export async function detect(text: string) {
-  return await getDefaultDetector().analyze(text)
+  const detector = await getDefaultDetector()
+  return await detector.analyze(text)
 }
 
 /**
@@ -26,22 +33,29 @@ export async function filter(
   text: string,
   mode: FilterMode = FilterMode.CENSOR
 ) {
-  return await getDefaultDetector().filter(text, mode)
+  const detector = await getDefaultDetector()
+  return await detector.filter(text, mode)
 }
 
 /**
  * Quick clean check using default configuration
  */
 export async function isClean(text: string): Promise<boolean> {
-  return !(await getDefaultDetector().isProfane(text))
+  const detector = await getDefaultDetector()
+  return !(await detector.isProfane(text))
 }
 
 /**
  * Configure the default detector instance
  */
-export function configure(config: Partial<DetectorConfig>): void {
+export async function configure(
+  config: Partial<DetectorConfig>
+): Promise<void> {
   if (!defaultDetector) {
     defaultDetector = new NaughtyWordsDetector(config)
+    initPromise = defaultDetector.initialize()
+    await initPromise
+    initPromise = null
   } else {
     defaultDetector.updateConfig(config)
   }
@@ -52,4 +66,5 @@ export function configure(config: Partial<DetectorConfig>): void {
  */
 export function reset(): void {
   defaultDetector = null
+  initPromise = null
 }

@@ -1,4 +1,22 @@
 /**
+ * Serialized trie node structure for import/export
+ */
+interface SerializedTrieNode {
+  isEndOfWord: boolean
+  children: Record<string, SerializedTrieNode>
+  data?: TrieNodeData
+}
+
+/**
+ * Serialized trie structure for import/export
+ */
+interface SerializedTrie {
+  root: SerializedTrieNode
+  totalWords: number
+  version: string
+}
+
+/**
  * Trie (Prefix Tree) implementation optimized for profanity detection
  * Supports fuzzy matching, variations, and efficient word storage
  *
@@ -66,7 +84,8 @@ export class TrieNode {
     if (!this.children.has(char)) {
       this.children.set(char, new TrieNode())
     }
-    return this.children.get(char)!
+    const node = this.children.get(char)
+    return node || new TrieNode()
   }
 }
 
@@ -156,7 +175,7 @@ export class ProfanityTrie {
 
     // Search at each starting position
     for (let i = 0; i < searchText.length; i++) {
-      const match = this.searchFromPosition(searchText, i)
+      const match = this.searchFromPosition(searchText, i, text)
       if (match) {
         matches.push(match)
       }
@@ -168,12 +187,13 @@ export class ProfanityTrie {
   /**
    * Search for matches starting from a specific position
    */
-  private searchFromPosition(text: string, startPos: number): TrieMatch | null {
+  private searchFromPosition(searchText: string, startPos: number, originalText?: string): TrieMatch | null {
     let currentNode = this.root
     let currentPos = startPos
+    const textToReturn = originalText || searchText
 
-    while (currentPos < text.length) {
-      const char = text[currentPos]
+    while (currentPos < searchText.length) {
+      const char = searchText[currentPos]
       if (!char) break
       const childNode = currentNode.getChild(char)
 
@@ -187,9 +207,9 @@ export class ProfanityTrie {
       // Check if we found a complete word
       if (currentNode.isEndOfWord && currentNode.data) {
         // Ensure we're at word boundaries to avoid partial matches
-        if (this.isWordBoundary(text, startPos, currentPos)) {
+        if (this.isWordBoundary(searchText, startPos, currentPos)) {
           return {
-            word: text.substring(startPos, currentPos),
+            word: textToReturn.substring(startPos, currentPos),
             start: startPos,
             end: currentPos,
             data: currentNode.data
@@ -215,7 +235,13 @@ export class ProfanityTrie {
     const maxWordLength = 30 // Reasonable max word length to search
 
     // Search at each starting position with early termination
+    // Only search from word boundaries to avoid substring matches
     for (let i = 0; i < searchText.length; i++) {
+      // Skip if not at a word boundary (avoids finding "rofanity" in "profanity")
+      if (i > 0 && /[a-zA-Z0-9]/.test(searchText[i - 1] || '')) {
+        continue
+      }
+
       // Limit search to reasonable word length
       const maxSearchLength = Math.min(maxWordLength, searchText.length - i)
 
@@ -262,6 +288,7 @@ export class ProfanityTrie {
     }]
 
     while (queue.length > 0) {
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- Queue length checked in while condition, shift() guaranteed to return value
       const current = queue.shift()!
       const { node, pattern, patternPos, editDistance } = current
 
@@ -351,6 +378,7 @@ export class ProfanityTrie {
     }]
 
     while (queue.length > 0) {
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- Queue length checked in while condition, shift() guaranteed to return value
       const current = queue.shift()!
       const { node, pattern, patternPos, editDistance } = current
 
@@ -517,7 +545,17 @@ export class ProfanityTrie {
 
     // Continue DFS to children if we haven't exceeded max edit distance
     // Note: Legacy DFS method removed for now
-    // TODO: Implement optimized fuzzy search continuation
+    //
+    // PERFORMANCE OPTIMIZATION (DEFERRED):
+    // The current implementation uses BFS (breadth-first search) in the main fuzzySearch method.
+    // A potential optimization would be to add DFS (depth-first search) continuation here for child
+    // nodes when the current node's minimum edit distance is still within maxEditDistance.
+    //
+    // This would allow early pruning of entire subtrees and potentially improve performance for
+    // large tries. However, the current BFS implementation is already quite efficient and the
+    // added complexity may not justify the marginal gains.
+    //
+    // Deferring this optimization until profiling shows it as a significant bottleneck.
   }
 
   /**
@@ -585,6 +623,7 @@ export class ProfanityTrie {
 
     // Build failure links using BFS
     while (queue.length > 0) {
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- Queue length checked in while condition, shift() guaranteed to return value
       const current = queue.shift()!
 
       for (const [char, child] of Array.from(current.children.entries())) {
@@ -599,7 +638,8 @@ export class ProfanityTrie {
         if (failure === null) {
           child.failureLink = this.root
         } else {
-          child.failureLink = failure.children.get(char)!
+          const failureChild = failure.children.get(char)
+          child.failureLink = failureChild || this.root
         }
 
         // Set output link
@@ -732,9 +772,9 @@ export class ProfanityTrie {
   /**
    * Export Trie to a serializable format
    */
-  export(): object {
-    const exportNode = (node: TrieNode): any => {
-      const exported: any = {
+  export(): SerializedTrie {
+    const exportNode = (node: TrieNode): SerializedTrieNode => {
+      const exported: SerializedTrieNode = {
         isEndOfWord: node.isEndOfWord,
         children: {}
       }
@@ -760,10 +800,10 @@ export class ProfanityTrie {
   /**
    * Import Trie from serialized format
    */
-  import(data: any): void {
+  import(data: SerializedTrie): void {
     this.clear()
 
-    const importNode = (nodeData: any): TrieNode => {
+    const importNode = (nodeData: SerializedTrieNode): TrieNode => {
       const node = new TrieNode()
       node.isEndOfWord = nodeData.isEndOfWord || false
 
@@ -806,7 +846,8 @@ export class ProfanityTrie {
     // Check cache first
     if (this.searchCache.has(cacheKey)) {
       this.cacheHits++
-      return this.searchCache.get(cacheKey)!
+      const cached = this.searchCache.get(cacheKey)
+      return cached || []
     }
 
     this.cacheMisses++
