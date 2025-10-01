@@ -1,6 +1,6 @@
 {
   "name": "content-shield",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ultra-fast content moderation with SymSpell fuzzy matching. Multi-language profanity detection with 100x performance improvement. 3,600+ entries across 19 languages.",
   "keywords": [
     "profanity",
