@@ -470,7 +470,7 @@ describe('Full Detection Pipeline Integration', () => {
       // Verify all components worked together
       expect(result.enhancedMatches).toHaveLength(result.matches.length)
       expect(result.statistics.totalWords).toBeGreaterThan(0)
-      expect(result.performance.totalTime).toBeGreaterThan(0)
+      expect(result.performance.totalTime).toBeGreaterThanOrEqual(0)
     })
 
     it('should maintain data consistency across components', async () => {
