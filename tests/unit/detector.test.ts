@@ -1,12 +1,12 @@
 import { describe, it, expect, beforeEach } from 'vitest'
-import { NaughtyWordsDetector } from '../../src/core/detector.js'
+import { ContentShieldDetector } from '../../src/core/detector.js'
 import { SeverityLevel, ProfanityCategory } from '../../src/types/index.js'
 
-describe('NaughtyWordsDetector', () => {
-  let detector: NaughtyWordsDetector
+describe('ContentShieldDetector', () => {
+  let detector: ContentShieldDetector
 
   beforeEach(() => {
-    detector = new NaughtyWordsDetector()
+    detector = new ContentShieldDetector()
   })
 
   describe('constructor', () => {
@@ -18,7 +18,7 @@ describe('NaughtyWordsDetector', () => {
     })
 
     it('should create a detector with custom configuration', () => {
-      const customDetector = new NaughtyWordsDetector({
+      const customDetector = new ContentShieldDetector({
         languages: ['en', 'es'],
         minSeverity: SeverityLevel.HIGH,
         fuzzyMatching: false,

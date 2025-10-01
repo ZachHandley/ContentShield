@@ -3,18 +3,18 @@
  */
 
 import { describe, it, expect, beforeEach, afterEach } from 'vitest'
-import { NaughtyWordsDetector } from '../../src/core/detector.js'
+import { ContentShieldDetector } from '../../src/core/detector.js'
 import { ProfanityTrie } from '../../src/core/trie.js'
 import { ConfigManager } from '../../src/config/index.js'
 import { SeverityLevel } from '../../src/types/index.js'
 
 describe('Memory Usage and Leak Detection', () => {
-  let detector: NaughtyWordsDetector
+  let detector: ContentShieldDetector
   let trie: ProfanityTrie
   let configManager: ConfigManager
 
   beforeEach(async () => {
-    detector = new NaughtyWordsDetector({
+    detector = new ContentShieldDetector({
       languages: ['en'],
       minSeverity: SeverityLevel.LOW
     })
@@ -155,7 +155,7 @@ describe('Memory Usage and Leak Detection', () => {
 
     it('should handle detector memory optimization', () => {
       // Create detector with caches
-      const detector = new NaughtyWordsDetector()
+      const detector = new ContentShieldDetector()
 
       // Fill with some data
       detector.analyze('test message')

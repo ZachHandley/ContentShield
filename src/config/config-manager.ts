@@ -66,7 +66,7 @@ export class ConfigManager {
   ) {
     this.options = {
       enableHotReload: false,
-      configFilePath: './naughty-words.config.json',
+      configFilePath: './content-shield.config.json',
       validateOnLoad: true,
       autoOptimizeForLanguages: true,
       enableEnvironmentOverrides: true,

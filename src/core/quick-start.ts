@@ -1,14 +1,14 @@
-import { NaughtyWordsDetector } from './detector.js'
+import { ContentShieldDetector } from './detector.js'
 import type { DetectorConfig } from '../types/index.js'
 import { FilterMode } from '../types/index.js'
 
 // Global default instance for quick-start functions
-let defaultDetector: NaughtyWordsDetector | null = null
+let defaultDetector: ContentShieldDetector | null = null
 let initPromise: Promise<void> | null = null
 
-async function getDefaultDetector(): Promise<NaughtyWordsDetector> {
+async function getDefaultDetector(): Promise<ContentShieldDetector> {
   if (!defaultDetector) {
-    defaultDetector = new NaughtyWordsDetector()
+    defaultDetector = new ContentShieldDetector()
     initPromise = defaultDetector.initialize()
     await initPromise
     initPromise = null
@@ -55,8 +55,8 @@ export async function isClean(text: string): Promise<boolean> {
  * @example
  * ```typescript
  * // Configure with static language data (tree-shakeable)
- * import { configure, detect } from 'naughty-words'
- * import { EN } from 'naughty-words/languages/en'
+ * import { configure, detect } from 'content-shield'
+ * import { EN } from 'content-shield/languages/en'
  *
  * await configure({
  *   languageData: { en: EN },
@@ -69,7 +69,7 @@ export async function isClean(text: string): Promise<boolean> {
  * @example
  * ```typescript
  * // Configure with dynamic loading (loads from data directory)
- * import { configure, detect } from 'naughty-words'
+ * import { configure, detect } from 'content-shield'
  *
  * await configure({
  *   languages: ['en', 'es'],
@@ -82,9 +82,9 @@ export async function isClean(text: string): Promise<boolean> {
  * @example
  * ```typescript
  * // Configure multiple languages with static imports
- * import { configure, detect } from 'naughty-words'
- * import { EN } from 'naughty-words/languages/en'
- * import { ES } from 'naughty-words/languages/es'
+ * import { configure, detect } from 'content-shield'
+ * import { EN } from 'content-shield/languages/en'
+ * import { ES } from 'content-shield/languages/es'
  *
  * await configure({
  *   languageData: {
@@ -102,7 +102,7 @@ export async function configure(
   config: Partial<DetectorConfig>
 ): Promise<void> {
   if (!defaultDetector) {
-    defaultDetector = new NaughtyWordsDetector(config)
+    defaultDetector = new ContentShieldDetector(config)
     initPromise = defaultDetector.initialize()
     await initPromise
     initPromise = null

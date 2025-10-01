@@ -1,5 +1,5 @@
 /**
- * NaughtyWords - A modern TypeScript library for multi-language profanity detection
+ * ContentShield - A modern TypeScript library for multi-language profanity detection
  * and content moderation with severity levels and customizable filtering
  *
  * Features:
@@ -23,7 +23,7 @@ import type {
 } from './types/index.js'
 
 // Core detection classes
-export { NaughtyWordsDetector } from './core/detector.js'
+export { ContentShieldDetector } from './core/detector.js'
 export { LanguageDetector } from './core/language-detector.js'
 export { ProfanityFilter } from './core/filter.js'
 export { ProfanityTrie } from './core/trie.js'
@@ -37,7 +37,7 @@ export * from './config/index.js'
 export * from './languages/index.js'
 
 // Import functions for internal use
-import { NaughtyWordsDetector } from './core/detector.js'
+import { ContentShieldDetector } from './core/detector.js'
 import { ProfanityFilter } from './core/filter.js'
 import {
   getConfigPreset,
@@ -153,7 +153,7 @@ export async function detectEnhanced(
   const languages = Array.isArray(language) ? language : [language]
 
   // Choose appropriate detector based on requirements
-  let detector: NaughtyWordsDetector
+  let detector: ContentShieldDetector
 
   if (performance) {
     detector = createPerformanceDetector(languages, customConfig)
@@ -246,8 +246,8 @@ export async function createConfiguredDetector(
   preset: 'performance' | 'comprehensive' | 'strict' | 'lenient' = 'comprehensive',
   languages: LanguageCode | LanguageCode[] = 'auto',
   customConfig: Partial<DetectorConfig> = {}
-): Promise<NaughtyWordsDetector> {
-  let detector: NaughtyWordsDetector
+): Promise<ContentShieldDetector> {
+  let detector: ContentShieldDetector
 
   switch (preset) {
     case 'performance':
@@ -276,7 +276,7 @@ export async function createConfiguredDetector(
 export async function createSmartDetector(
   sampleTexts: string[],
   customConfig: Partial<DetectorConfig> = {}
-): Promise<NaughtyWordsDetector> {
+): Promise<ContentShieldDetector> {
   // Combine sample texts for analysis
   const combinedText = sampleTexts.join(' ').slice(0, 1000) // Limit to 1000 chars
 
@@ -332,7 +332,7 @@ export async function healthCheck(): Promise<{
 
   try {
     // Test core initialization
-    const detector = new NaughtyWordsDetector()
+    const detector = new ContentShieldDetector()
     await detector.initialize()
     checks.coreInit = true
 

@@ -3,14 +3,14 @@
  */
 
 import { describe, it, expect, beforeAll } from 'vitest'
-import { NaughtyWordsDetector } from '../../src/core/detector.js'
+import { ContentShieldDetector } from '../../src/core/detector.js'
 import { ProfanityTrie, type TrieNodeData } from '../../src/core/trie.js'
 import { ProfanityMatcher, type MatcherConfig } from '../../src/core/profanity-matcher.js'
 import { ProfanityFilter } from '../../src/core/filter.js'
 import { SeverityLevel, ProfanityCategory, FilterMode, type LanguageCode } from '../../src/types/index.js'
 
 describe('Performance Benchmarks', () => {
-  let detector: NaughtyWordsDetector
+  let detector: ContentShieldDetector
   let largeTrie: ProfanityTrie
   let matcher: ProfanityMatcher
   let filter: ProfanityFilter
@@ -32,7 +32,7 @@ describe('Performance Benchmarks', () => {
 
   beforeAll(async () => {
     // Setup test components
-    detector = new NaughtyWordsDetector({
+    detector = new ContentShieldDetector({
       languages: ['en'],
       fuzzyMatching: true,
       normalizeText: true
@@ -344,7 +344,7 @@ describe('Performance Benchmarks', () => {
     })
 
     it('should maintain performance with fuzzy matching enabled', async () => {
-      const fuzzyDetector = new NaughtyWordsDetector({
+      const fuzzyDetector = new ContentShieldDetector({
         languages: ['en'],
         fuzzyMatching: true,
         fuzzyThreshold: 0.7

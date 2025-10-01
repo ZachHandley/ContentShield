@@ -12,7 +12,7 @@ import type {
   ProfanityCategory
 } from '../types/index.js'
 import { SeverityLevel } from '../types/index.js'
-import { NaughtyWordsDetector } from '../core/detector.js'
+import { ContentShieldDetector } from '../core/detector.js'
 import { LanguageDetector } from '../core/language-detector.js'
 import { LanguageLoader } from './language-loader.js'
 import { ConfigManager } from '../config/config-manager.js'
@@ -54,7 +54,7 @@ export enum LanguageDetectionStrategy {
  * Multi-language profanity detector
  */
 export class MultiLanguageDetector {
-  private languageDetectors = new Map<LanguageCode, NaughtyWordsDetector>()
+  private languageDetectors = new Map<LanguageCode, ContentShieldDetector>()
   private languageDetector: LanguageDetector
   private languageLoader: LanguageLoader
   private configManager: ConfigManager
@@ -104,7 +104,7 @@ export class MultiLanguageDetector {
     const initPromises = this.options.languages.map(async (language) => {
       try {
         const optimizedConfig = this.configManager.getOptimizedConfigForLanguages([language])
-        const detector = new NaughtyWordsDetector(optimizedConfig)
+        const detector = new ContentShieldDetector(optimizedConfig)
         await detector.initialize()
 
         this.languageDetectors.set(language, detector)
@@ -383,7 +383,7 @@ export class MultiLanguageDetector {
       const finalConfig = { ...baseConfig, ...optimizedConfig }
 
       // Initialize detector
-      const detector = new NaughtyWordsDetector(finalConfig)
+      const detector = new ContentShieldDetector(finalConfig)
       await detector.initialize()
 
       // Add to collection
@@ -434,7 +434,7 @@ export class MultiLanguageDetector {
   /**
    * Get language-specific detector
    */
-  getLanguageDetector(language: LanguageCode): NaughtyWordsDetector | undefined {
+  getLanguageDetector(language: LanguageCode): ContentShieldDetector | undefined {
     return this.languageDetectors.get(language)
   }
 
@@ -451,7 +451,7 @@ export class MultiLanguageDetector {
         const finalConfig = { ...newConfig, ...optimizedConfig }
 
         // Create new detector with updated config
-        const newDetector = new NaughtyWordsDetector(finalConfig)
+        const newDetector = new ContentShieldDetector(finalConfig)
         await newDetector.initialize()
 
         this.languageDetectors.set(language, newDetector)

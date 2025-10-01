@@ -3,12 +3,12 @@
  */
 
 import { describe, it, expect, beforeAll, afterAll } from 'vitest'
-import { NaughtyWordsDetector } from '../../src/core/detector.js'
+import { ContentShieldDetector } from '../../src/core/detector.js'
 import { ProfanityTrie } from '../../src/core/trie.js'
 import { SeverityLevel, ProfanityCategory, type LanguageCode } from '../../src/types/index.js'
 
 describe('Enhanced Performance Benchmarks', () => {
-  let detector: NaughtyWordsDetector
+  let detector: ContentShieldDetector
   let trie: ProfanityTrie
 
   // Performance targets with new optimizations
@@ -38,7 +38,7 @@ describe('Enhanced Performance Benchmarks', () => {
   }
 
   beforeAll(async () => {
-    detector = new NaughtyWordsDetector({
+    detector = new ContentShieldDetector({
       languages: ['en'],
       fuzzyMatching: true,
       normalizeText: true

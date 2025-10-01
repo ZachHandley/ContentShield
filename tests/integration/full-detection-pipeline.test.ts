@@ -4,7 +4,7 @@
  */
 
 import { describe, it, expect, beforeAll } from 'vitest'
-import { NaughtyWordsDetector } from '../../src/core/detector.js'
+import { ContentShieldDetector } from '../../src/core/detector.js'
 import { ProfanityTrie } from '../../src/core/trie.js'
 import { ProfanityMatcher } from '../../src/core/profanity-matcher.js'
 import { ProfanityFilter } from '../../src/core/filter.js'
@@ -18,7 +18,7 @@ import {
 } from '../../src/types/index.js'
 
 describe('Full Detection Pipeline Integration', () => {
-  let detector: NaughtyWordsDetector
+  let detector: ContentShieldDetector
 
   // Test data representing realistic profanity database
   const testProfanityData = {
@@ -90,7 +90,7 @@ describe('Full Detection Pipeline Integration', () => {
       preserveStructure: true
     }
 
-    detector = new NaughtyWordsDetector(config)
+    detector = new ContentShieldDetector(config)
 
     // Load test data into the detector
     const matcher = (detector as any).matcher
@@ -233,7 +233,7 @@ describe('Full Detection Pipeline Integration', () => {
     })
 
     it('should handle language auto-detection fallback', async () => {
-      const autoDetector = new NaughtyWordsDetector({
+      const autoDetector = new ContentShieldDetector({
         languages: ['auto']
       })
 
@@ -400,7 +400,7 @@ describe('Full Detection Pipeline Integration', () => {
 
   describe('Configuration and Customization', () => {
     it('should respect minimum severity configuration', async () => {
-      const restrictiveDetector = new NaughtyWordsDetector({
+      const restrictiveDetector = new ContentShieldDetector({
         minSeverity: SeverityLevel.HIGH,
         languages: ['en']
       })
@@ -419,7 +419,7 @@ describe('Full Detection Pipeline Integration', () => {
     })
 
     it('should respect category filtering', async () => {
-      const categoryDetector = new NaughtyWordsDetector({
+      const categoryDetector = new ContentShieldDetector({
         categories: ['sexual'],
         languages: ['en']
       })

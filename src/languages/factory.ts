@@ -1,4 +1,4 @@
-import { NaughtyWordsDetector } from '../core/detector.js'
+import { ContentShieldDetector } from '../core/detector.js'
 import { MultiLanguageDetector } from './multi-language-detector.js'
 import { LanguageLoader } from './language-loader.js'
 import type { DetectorConfig, LanguageCode } from '../types/index.js'
@@ -21,7 +21,7 @@ export function createDetector(
   languages: LanguageCode | LanguageCode[],
   config: Partial<DetectorConfig> = {},
   options: DetectorFactoryOptions = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   const languageArray = Array.isArray(languages) ? languages : [languages]
 
   // Get optimized configuration
@@ -41,7 +41,7 @@ export function createDetector(
     }
   }
 
-  const detector = new NaughtyWordsDetector(detectorConfig)
+  const detector = new ContentShieldDetector(detectorConfig)
 
   // Preload language data if requested
   if (options.preloadLanguageData) {
@@ -81,7 +81,7 @@ export function createAdvancedMultiLanguageDetector(
 export function createEnglishDetector(
   config: Partial<DetectorConfig> = {},
   options: DetectorFactoryOptions = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   return createDetector('en', {
     ...getConfigPreset('default'),
     fuzzyMatching: true,
@@ -96,7 +96,7 @@ export function createEnglishDetector(
 export function createSpanishDetector(
   config: Partial<DetectorConfig> = {},
   options: DetectorFactoryOptions = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   return createDetector('es', {
     ...getConfigPreset('default'),
     fuzzyThreshold: 0.7, // Spanish has more variations
@@ -111,7 +111,7 @@ export function createSpanishDetector(
 export function createFrenchDetector(
   config: Partial<DetectorConfig> = {},
   options: DetectorFactoryOptions = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   return createDetector('fr', {
     ...getConfigPreset('default'),
     fuzzyThreshold: 0.7,
@@ -126,7 +126,7 @@ export function createFrenchDetector(
 export function createGermanDetector(
   config: Partial<DetectorConfig> = {},
   options: DetectorFactoryOptions = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   return createDetector('de', {
     ...getConfigPreset('default'),
     fuzzyThreshold: 0.8, // German compound words
@@ -141,7 +141,7 @@ export function createGermanDetector(
 export function createRussianDetector(
   config: Partial<DetectorConfig> = {},
   options: DetectorFactoryOptions = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   return createDetector('ru', {
     ...getConfigPreset('default'),
     fuzzyThreshold: 0.7,
@@ -157,7 +157,7 @@ export function createRussianDetector(
 export function createChineseDetector(
   config: Partial<DetectorConfig> = {},
   options: DetectorFactoryOptions = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   return createDetector('zh', {
     ...getConfigPreset('strict'),
     fuzzyThreshold: 0.9, // Chinese characters need precision
@@ -173,7 +173,7 @@ export function createChineseDetector(
 export function createJapaneseDetector(
   config: Partial<DetectorConfig> = {},
   options: DetectorFactoryOptions = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   return createDetector('ja', {
     ...getConfigPreset('strict'),
     fuzzyThreshold: 0.9,
@@ -189,7 +189,7 @@ export function createJapaneseDetector(
 export function createArabicDetector(
   config: Partial<DetectorConfig> = {},
   options: DetectorFactoryOptions = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   return createDetector('ar', {
     ...getConfigPreset('default'),
     fuzzyThreshold: 0.7,
@@ -205,7 +205,7 @@ export function createArabicDetector(
 export function createPerformanceDetector(
   languages: LanguageCode | LanguageCode[] = 'en',
   config: Partial<DetectorConfig> = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   return createDetector(languages, {
     ...getConfigPreset('performance'),
     ...config
@@ -222,7 +222,7 @@ export function createPerformanceDetector(
 export function createComprehensiveDetector(
   languages: LanguageCode[] = ['auto'],
   config: Partial<DetectorConfig> = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   return createDetector(languages, {
     ...getConfigPreset('comprehensive'),
     ...config
@@ -239,7 +239,7 @@ export function createComprehensiveDetector(
 export function createEnvironmentDetector(
   languages: LanguageCode | LanguageCode[] = 'en',
   environment: 'development' | 'production' | 'testing' = 'production'
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   const environmentConfigs = {
     development: getConfigPreset('comprehensive'),
     production: getConfigPreset('performance'),
@@ -260,9 +260,9 @@ export function createEnvironmentDetector(
 export async function createAutoDetector(
   sampleText: string,
   config: Partial<DetectorConfig> = {}
-): Promise<NaughtyWordsDetector> {
+): Promise<ContentShieldDetector> {
   // Quick language detection
-  const tempDetector = new NaughtyWordsDetector({ languages: ['auto'] })
+  const tempDetector = new ContentShieldDetector({ languages: ['auto'] })
   const quickResult = await tempDetector.analyze(sampleText, { measurePerformance: false })
 
   const detectedLanguages = quickResult.detectedLanguages || ['en']
@@ -281,14 +281,14 @@ export async function createAutoDetector(
  * would require architectural changes to pass the loader instance through the detector
  * initialization chain. For now, this function creates a detector with default loading behavior.
  *
- * Future enhancement: Modify NaughtyWordsDetector constructor to accept optional LanguageLoader
+ * Future enhancement: Modify ContentShieldDetector constructor to accept optional LanguageLoader
  * instance and use it instead of the default loading mechanism.
  */
 export function createDetectorWithCustomLoader(
   languages: LanguageCode | LanguageCode[],
   dataPath: string,
   config: Partial<DetectorConfig> = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   // Create custom language loader (currently unused - see function documentation)
   new LanguageLoader({ dataPath })
 
@@ -302,7 +302,7 @@ export function createDetectorWithCustomLoader(
  * Get language-specific factory function
  */
 export function getLanguageFactory(language: LanguageCode):
-  ((config?: Partial<DetectorConfig>, options?: DetectorFactoryOptions) => NaughtyWordsDetector) | null {
+  ((config?: Partial<DetectorConfig>, options?: DetectorFactoryOptions) => ContentShieldDetector) | null {
 
   const factories = {
     en: createEnglishDetector,
@@ -325,8 +325,8 @@ export function createDetectorCollection(
   languages: LanguageCode[],
   config: Partial<DetectorConfig> = {},
   options: DetectorFactoryOptions = {}
-): Map<LanguageCode, NaughtyWordsDetector> {
-  const detectors = new Map<LanguageCode, NaughtyWordsDetector>()
+): Map<LanguageCode, ContentShieldDetector> {
+  const detectors = new Map<LanguageCode, ContentShieldDetector>()
 
   for (const language of languages) {
     const factory = getLanguageFactory(language)
@@ -347,6 +347,6 @@ export function createDetectorCollection(
 export function createMultiLanguageDetector(
   languages: LanguageCode[],
   config: Partial<DetectorConfig> = {}
-): NaughtyWordsDetector {
+): ContentShieldDetector {
   return createDetector(languages, config)
 }

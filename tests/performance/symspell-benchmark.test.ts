@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { SymSpellIndex } from '../../src/core/symspell.js'
-import { NaughtyWordsDetector } from '../../src/core/detector.js'
+import { ContentShieldDetector } from '../../src/core/detector.js'
 
 describe('SymSpell Performance Benchmarks', () => {
   describe('SymSpell Index Performance', () => {
@@ -66,7 +66,7 @@ describe('SymSpell Performance Benchmarks', () => {
 
   describe('Real-World Fuzzy Matching Performance', () => {
     it('should handle fuzzy matching on large texts blazingly fast', async () => {
-      const detector = new NaughtyWordsDetector({
+      const detector = new ContentShieldDetector({
         languages: ['en'],
         fuzzyMatching: true,
         fuzzyThreshold: 0.8

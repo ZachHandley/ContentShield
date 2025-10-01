@@ -1,5 +1,5 @@
 import {
-  NaughtyWordsDetector,
+  ContentShieldDetector,
   detect,
   filter,
   isClean,
@@ -33,7 +33,7 @@ async function quickStartExample() {
 async function advancedDetectorExample() {
   console.log('=== Advanced Detector Example ===')
 
-  const detector = new NaughtyWordsDetector({
+  const detector = new ContentShieldDetector({
     languages: ['en', 'es'],
     minSeverity: SeverityLevel.MODERATE,
     categories: [
@@ -101,7 +101,7 @@ async function languageSpecificExample() {
 async function customWordsExample() {
   console.log('=== Custom Words Example ===')
 
-  const detector = new NaughtyWordsDetector({
+  const detector = new ContentShieldDetector({
     customWords: [
       {
         word: 'customBadWord',

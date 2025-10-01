@@ -1,9 +1,9 @@
 /**
- * Comprehensive tests for the enhanced NaughtyWordsDetector
+ * Comprehensive tests for the enhanced ContentShieldDetector
  */
 
 import { describe, it, expect, beforeEach, vi } from 'vitest'
-import { NaughtyWordsDetector } from '../../src/core/detector.js'
+import { ContentShieldDetector } from '../../src/core/detector.js'
 import { SeverityLevel, FilterMode, type DetectorConfig, type ProfanityCategory } from '../../src/types/index.js'
 import fs from 'fs/promises'
 
@@ -53,12 +53,12 @@ function mockLanguageFiles() {
   })
 }
 
-describe('Enhanced NaughtyWordsDetector', () => {
-  let detector: NaughtyWordsDetector
+describe('Enhanced ContentShieldDetector', () => {
+  let detector: ContentShieldDetector
 
   beforeEach(() => {
     vi.clearAllMocks()
-    detector = new NaughtyWordsDetector()
+    detector = new ContentShieldDetector()
   })
 
   describe('Initialization', () => {
@@ -81,7 +81,7 @@ describe('Enhanced NaughtyWordsDetector', () => {
         replacementChar: '#'
       }
 
-      const customDetector = new NaughtyWordsDetector(customConfig)
+      const customDetector = new ContentShieldDetector(customConfig)
       const config = customDetector.getConfig()
 
       expect(config.languages).toEqual(['en', 'es'])
@@ -147,7 +147,7 @@ describe('Enhanced NaughtyWordsDetector', () => {
       expect(exported).toHaveProperty('version')
       expect(exported).toHaveProperty('timestamp')
 
-      const newDetector = new NaughtyWordsDetector()
+      const newDetector = new ContentShieldDetector()
       newDetector.importConfig(exported)
 
       expect(newDetector.getConfig().minSeverity).toBe(SeverityLevel.HIGH)
@@ -256,7 +256,7 @@ describe('Enhanced NaughtyWordsDetector', () => {
     })
 
     it('should use specified languages when not auto-detecting', () => {
-      const specificDetector = new NaughtyWordsDetector({
+      const specificDetector = new ContentShieldDetector({
         languages: ['en', 'es']
       })
 
@@ -266,7 +266,7 @@ describe('Enhanced NaughtyWordsDetector', () => {
     })
 
     it('should handle unsupported languages gracefully', async () => {
-      const detector = new NaughtyWordsDetector({
+      const detector = new ContentShieldDetector({
         languages: ['unsupported' as any]
       })
 
@@ -281,7 +281,7 @@ describe('Enhanced NaughtyWordsDetector', () => {
     })
 
     it('should normalize text when enabled', async () => {
-      const detector = new NaughtyWordsDetector({ normalizeText: true })
+      const detector = new ContentShieldDetector({ normalizeText: true })
 
       // Should handle text normalization without errors
       await expect(
@@ -290,7 +290,7 @@ describe('Enhanced NaughtyWordsDetector', () => {
     })
 
     it('should skip normalization when disabled', async () => {
-      const detector = new NaughtyWordsDetector({ normalizeText: false })
+      const detector = new ContentShieldDetector({ normalizeText: false })
 
       await expect(
         detector.analyze('This text won\'t be normalized')

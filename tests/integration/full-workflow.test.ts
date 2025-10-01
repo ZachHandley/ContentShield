@@ -1,9 +1,9 @@
 import { describe, it, expect } from 'vitest'
-import { NaughtyWordsDetector, createDetector, SeverityLevel, FilterMode } from '../../src/index.js'
+import { ContentShieldDetector, createDetector, SeverityLevel, FilterMode } from '../../src/index.js'
 
 describe('Full Workflow Integration', () => {
   it('should create detector and process text', async () => {
-    const detector = new NaughtyWordsDetector({
+    const detector = new ContentShieldDetector({
       minSeverity: SeverityLevel.LOW,
       fuzzyMatching: true,
     })
@@ -35,7 +35,7 @@ describe('Full Workflow Integration', () => {
   })
 
   it('should handle configuration updates', () => {
-    const detector = new NaughtyWordsDetector()
+    const detector = new ContentShieldDetector()
 
     const initialConfig = detector.getConfig()
     expect(initialConfig.minSeverity).toBe(SeverityLevel.LOW)

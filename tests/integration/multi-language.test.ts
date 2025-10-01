@@ -4,13 +4,13 @@
  */
 
 import { describe, it, expect, beforeAll } from 'vitest'
-import { NaughtyWordsDetector } from '../../src/core/detector.js'
+import { ContentShieldDetector } from '../../src/core/detector.js'
 import { LanguageDetector } from '../../src/core/language-detector.js'
 import { createDetector } from '../../src/languages/factory.js'
 import { SeverityLevel, ProfanityCategory, type LanguageCode } from '../../src/types/index.js'
 
 describe('Multi-Language Integration', () => {
-  let detector: NaughtyWordsDetector
+  let detector: ContentShieldDetector
   let languageDetector: LanguageDetector
 
   const SUPPORTED_LANGUAGES: LanguageCode[] = [
@@ -82,7 +82,7 @@ describe('Multi-Language Integration', () => {
   }
 
   beforeAll(async () => {
-    detector = new NaughtyWordsDetector({
+    detector = new ContentShieldDetector({
       languages: ['auto'], // Auto-detect all languages
       minSeverity: SeverityLevel.LOW,
       fuzzyMatching: true

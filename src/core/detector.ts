@@ -20,7 +20,7 @@ import { fileURLToPath } from 'url'
 /**
  * Main profanity detection class with comprehensive analysis capabilities
  */
-export class NaughtyWordsDetector {
+export class ContentShieldDetector {
   private config: DetectorConfig
   private matcher: ProfanityMatcher
   private filterEngine: ProfanityFilter
