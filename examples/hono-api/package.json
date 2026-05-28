@@ -1,0 +1,22 @@
+{
+  "name": "content-shield-hono-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Example HTTP API for ContentShield using Hono. Deployable to Node, Bun, Deno, or Cloudflare Workers.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server-node.ts",
+    "start:node": "tsx src/server-node.ts",
+    "start:bun": "bun run src/server-bun.ts",
+    "deploy:cf": "wrangler deploy"
+  },
+  "dependencies": {
+    "@hono/node-server": "^2.0.4",
+    "content-shield": "workspace:*",
+    "hono": "^4.12.23"
+  },
+  "devDependencies": {
+    "tsx": "^4.22.3",
+    "wrangler": "^4.95.0"
+  }
+}

@@ -145,7 +145,7 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "build": "tsup",
+    "build": "tsup && tsx scripts/emit-data-json.ts",
     "build:watch": "tsup --watch",
     "dev": "tsup --watch --onSuccess \"node dist/index.js\"",
     "test": "vitest",
@@ -160,7 +160,8 @@
     "clean": "rm -rf dist",
     "convert:json": "tsx scripts/convert-json-to-ts.ts",
     "prepare": "husky install",
-    "prepublishOnly": "npm run clean && npm run build && npm run test:run"
+    "prepublishOnly": "pnpm run clean && pnpm run build && pnpm run test:run",
+    "emit:data": "tsx scripts/emit-data-json.ts"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",
@@ -176,6 +177,7 @@
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.1",
     "tsup": "^8.0.1",
+    "tsx": "^4.22.3",
     "typescript": "^5.3.3",
     "vitest": "^1.1.0"
   },

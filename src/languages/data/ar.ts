@@ -1,27 +1,24 @@
 /**
- * Arabic (AR) Language Data
- * Auto-generated from JSON data on 2025-10-01
+ * Arabic profanity data
+ * Auto-generated from JSON files - DO NOT EDIT MANUALLY
  *
- * Total entries: 105
+ * Language: Arabic
  * Version: 1.0.0
- * Last updated: 2025-09-30
+ * Last Updated: 2025-09-30
+ * Total Entries: 105
  */
 
-import type { LanguageData } from '../language-loader.js';
-
-export const AR: LanguageData = {
-  metadata: {
-  "name": "Arabic",
-  "code": "ar",
-  "version": "1.0.0",
-  "wordCount": 105,
-  "lastUpdated": "2025-09-30",
-  "contributors": []
-},
-  profanity: [
+export const AR = {
+  "metadata": {
+    "name": "Arabic",
+    "code": "ar",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-30",
+    "wordCount": 105
+  },
+  "words": [
     {
       "word": "عبد",
-      "romanized": "abd",
       "severity": 4,
       "categories": [
         "hate_speech",
@@ -35,19 +32,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Nigger - extremely racist slur, absolutely forbidden. Arabizi: 3abd",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "absolutely_forbidden",
-        "levantine": "absolutely_forbidden",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "absolutely_forbidden",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "ارذلي زبي يا قحبة",
-      "romanized": "arthali zebbi ya kahba",
       "severity": 4,
       "categories": [
         "sexual",
@@ -61,19 +49,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Suck my dick bitch - Tunisian extremely vulgar sexual command. Arabizi: arthali zebbi ya ka7ba",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "taboo_but_used",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "اصبع على صرمك",
-      "romanized": "asba ala sormek",
       "severity": 4,
       "categories": [
         "sexual",
@@ -87,19 +66,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Get a penis on your hole - Tunisian extremely vulgar sexual insult. Arabizi: asba3 ala sormek",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "عيره فيك",
-      "romanized": "ayreh feek",
       "severity": 4,
       "categories": [
         "sexual",
@@ -113,19 +83,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "My penis in you - extremely vulgar Levantine insult. Arabizi: 3ayre feek",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "extremely_vulgar",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "rare",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "برا نايك",
-      "romanized": "bara naik",
       "severity": 4,
       "categories": [
         "sexual",
@@ -140,19 +101,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fuck you - Tunisian extremely vulgar sexual command. Arabizi: bara nayek",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "taboo_but_used",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "برانك",
-      "romanized": "baranek",
       "severity": 4,
       "categories": [
         "sexual",
@@ -167,19 +119,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Go fuck yourself - Tunisian extremely vulgar command. Arabizi: baranek",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "taboo_but_used",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "شرموطا",
-      "romanized": "charmouta",
       "severity": 4,
       "categories": [
         "sexual",
@@ -194,19 +137,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Slut (variant spelling) - extremely offensive term for women. Arabizi: shar6a",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "extremely_offensive",
-        "levantine": "taboo",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_offensive",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "فشخ",
-      "romanized": "fashkh",
       "severity": 4,
       "categories": [
         "sexual",
@@ -220,19 +154,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucking - extremely vulgar sexual term, Egyptian. Arabizi: fash5",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "extremely_vulgar",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "rare",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "general"
     },
     {
       "word": "هدبحك",
-      "romanized": "hadbaHak",
       "severity": 4,
       "categories": [
         "threat",
@@ -246,19 +171,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "I'll kill you - violent threat, extremely serious. Arabizi: hadba7ak",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_offensive",
-        "levantine": "moderate",
-        "gulf": "rare",
-        "maghrebi": "moderate",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "هنيكك",
-      "romanized": "haneikak",
       "severity": 4,
       "categories": [
         "sexual",
@@ -273,19 +189,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "I will fuck you - sexual threat, extremely vulgar. Arabizi: 7aneekak",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "extremely_vulgar",
-        "levantine": "taboo",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "هوي موك",
-      "romanized": "hwi muk",
       "severity": 4,
       "categories": [
         "sexual",
@@ -299,19 +206,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fuck your mother - Moroccan extremely offensive family/sexual insult. Arabizi: hwi mouk",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "taboo_but_used",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "ابن الاهبة",
-      "romanized": "ibn el ahba",
       "severity": 4,
       "categories": [
         "sexual",
@@ -325,19 +223,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Son of a prostitute - extremely offensive family insult. Arabizi: ebn el a7ba",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "taboo_but_used",
-        "levantine": "taboo",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "taboo",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "جعب",
-      "romanized": "ja3b",
       "severity": 4,
       "categories": [
         "sexual",
@@ -352,19 +241,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vagina - Tunisian extremely vulgar anatomical term. Arabizi: je3b",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "general"
     },
     {
       "word": "قهوة",
-      "romanized": "kahwa",
       "severity": 4,
       "categories": [
         "sexual",
@@ -378,19 +258,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Whore (Moroccan spelling) - extremely offensive Maghrebi term. Arabizi: ga7wa",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "extremely_offensive",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "كس اختك",
-      "romanized": "kess ikhtak",
       "severity": 4,
       "categories": [
         "sexual",
@@ -404,19 +275,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fuck your sister - extremely offensive family/sexual insult. Arabizi: kess i5tak",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "taboo",
-        "levantine": "taboo_but_used",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "taboo",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "خنيث",
-      "romanized": "khaneeth",
       "severity": 4,
       "categories": [
         "hate_speech",
@@ -430,19 +292,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Gay (extremely derogatory) - severe homophobic slur. Arabizi: 5aneeth",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "extremely_offensive",
-        "levantine": "taboo",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_offensive",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "خارج",
-      "romanized": "khareg",
       "severity": 4,
       "categories": [
         "sexual",
@@ -457,19 +310,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vagina - Tunisian extremely vulgar anatomical term. Arabizi: 5areg",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "general"
     },
     {
       "word": "كوس",
-      "romanized": "koos",
       "severity": 4,
       "categories": [
         "sexual",
@@ -483,19 +327,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vagina (variant spelling) - extremely vulgar anatomical term. Arabizi: koos",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "extremely_vulgar",
-        "levantine": "extremely_vulgar",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "general"
     },
     {
       "word": "كس",
-      "romanized": "kus",
       "severity": 4,
       "categories": [
         "sexual",
@@ -510,19 +345,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Female genitalia, extremely vulgar, often in compound expressions",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "extremely_vulgar",
-        "levantine": "extremely_vulgar",
-        "gulf": "taboo",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "general"
     },
     {
       "word": "كس امك",
-      "romanized": "kus ummak",
       "severity": 4,
       "categories": [
         "sexual",
@@ -537,19 +363,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Your mother's vagina, most offensive Arabic insult, taboo",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "taboo_but_used",
-        "levantine": "taboo_but_used",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "taboo",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "منيك",
-      "romanized": "manyak",
       "severity": 4,
       "categories": [
         "hate_speech",
@@ -563,19 +380,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Faggot - extremely offensive homophobic slur. Arabizi: manyak",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "extremely_offensive",
-        "levantine": "taboo",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_offensive",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "منيوك",
-      "romanized": "manyouk",
       "severity": 4,
       "categories": [
         "sexual",
@@ -590,19 +398,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucked (passive), extremely vulgar sexual insult",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "extremely_vulgar",
-        "levantine": "taboo",
-        "gulf": "forbidden",
-        "maghrebi": "vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "متناك",
-      "romanized": "metnaak",
       "severity": 4,
       "categories": [
         "sexual",
@@ -617,19 +416,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucked (passive) - extremely vulgar sexual insult. Arabizi: metnak",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "extremely_vulgar",
-        "levantine": "taboo",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "نيك",
-      "romanized": "nik",
       "severity": 4,
       "categories": [
         "sexual",
@@ -645,19 +435,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fuck (verb), extremely vulgar sexual verb",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "extremely_vulgar",
-        "levantine": "taboo",
-        "gulf": "forbidden",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "general"
     },
     {
       "word": "نونة",
-      "romanized": "nouna",
       "severity": 4,
       "categories": [
         "sexual",
@@ -672,19 +453,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Clit - Tunisian extremely vulgar anatomical term. Arabizi: noona",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "general"
     },
     {
       "word": "قحبة",
-      "romanized": "qa7ba",
       "severity": 4,
       "categories": [
         "sexual",
@@ -699,19 +471,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Prostitute, extremely offensive term for women, taboo",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "extremely_offensive",
-        "levantine": "taboo",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_offensive",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "سالغوت",
-      "romanized": "salgot",
       "severity": 4,
       "categories": [
         "sexual",
@@ -725,19 +488,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Slut - Moroccan extremely offensive term for women. Arabizi: salghout",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "very_offensive",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "شرموطة",
-      "romanized": "sharmuta",
       "severity": 4,
       "categories": [
         "sexual",
@@ -752,19 +506,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Whore/slut, extremely offensive term for women, severe insult",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_offensive",
-        "levantine": "extremely_offensive",
-        "gulf": "taboo",
-        "maghrebi": "very_offensive",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "صرم",
-      "romanized": "sorm",
       "severity": 4,
       "categories": [
         "sexual",
@@ -779,19 +524,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vagina - Tunisian extremely vulgar anatomical term. Arabizi: 9orm",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "general"
     },
     {
       "word": "طابون",
-      "romanized": "tabon",
       "severity": 4,
       "categories": [
         "sexual",
@@ -805,19 +541,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Pussy - Maghrebi extremely vulgar anatomical term. Arabizi: 6aboun",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "general"
     },
     {
       "word": "يا ابن الشرموطة",
-      "romanized": "ya ibn el sharmouta",
       "severity": 4,
       "categories": [
         "sexual",
@@ -831,19 +558,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Son of a bitch/whore - extremely offensive compound insult. Arabizi: ya ebn el shar6a",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_offensive",
-        "levantine": "taboo_but_used",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "very_offensive",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "يا بن المتناكة",
-      "romanized": "ya ibn il-mitnaka",
       "severity": 4,
       "categories": [
         "sexual",
@@ -858,19 +576,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Son of the fucked woman, extremely vulgar compound family insult",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "extremely_vulgar",
-        "levantine": "taboo",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "يا شرموطة",
-      "romanized": "ya sharmouta",
       "severity": 4,
       "categories": [
         "sexual",
@@ -884,19 +593,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "You bitch/whore - extremely offensive to women. Arabizi: ya shar6a",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_offensive",
-        "levantine": "extremely_offensive",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "very_offensive",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "زوك",
-      "romanized": "zouk",
       "severity": 4,
       "categories": [
         "sexual",
@@ -911,19 +611,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vagina - Tunisian extremely vulgar anatomical term. Arabizi: zouc",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "absolutely_forbidden",
-        "maghrebi": "extremely_vulgar",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "general"
     },
     {
       "word": "الله ياخدك",
-      "romanized": "allah yakhthek",
       "severity": 3,
       "categories": [
         "religious",
@@ -937,19 +628,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "May God take your soul - religious death curse. Arabizi: allah ya5odak",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "moderate",
-        "levantine": "very_common",
-        "gulf": "moderate",
-        "maghrebi": "moderate",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "الله يخرب بيتك",
-      "romanized": "allahi yekhrib beitak",
       "severity": 3,
       "categories": [
         "religious",
@@ -963,19 +645,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "God damn you - religious curse invoking divine destruction. Arabizi: allah ye5reb beytak",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "very_common",
-        "gulf": "moderate",
-        "maghrebi": "common",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "ابن المرة",
-      "romanized": "ebn el-mara",
       "severity": 3,
       "categories": [
         "family_insult",
@@ -989,19 +662,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Son of a bitch - family insult, offensive. Arabizi: ebn el-mara",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "common",
-        "gulf": "moderate",
-        "maghrebi": "common",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "العن ابوك",
-      "romanized": "el'an abook",
       "severity": 3,
       "categories": [
         "religious",
@@ -1015,19 +679,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "May your father be cursed - family-targeted religious curse. Arabizi: el3an abook",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "very_common",
-        "gulf": "moderate",
-        "maghrebi": "common",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "غاهبة",
-      "romanized": "gahaba",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1042,19 +697,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Bitch - Tunisian offensive term for women. Arabizi: ra7aba",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "very_offensive",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "ابن كلب",
-      "romanized": "ibn kalb",
       "severity": 3,
       "categories": [
         "derogatory",
@@ -1069,19 +715,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Son of a dog, compound insult involving family, highly offensive",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "very_common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "كاود",
-      "romanized": "kawed",
       "severity": 3,
       "categories": [
         "dismissive",
@@ -1095,19 +732,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fuck off - Moroccan dismissive vulgar term. Arabizi: kaoud",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "common",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "خنزير",
-      "romanized": "khanzeer",
       "severity": 3,
       "categories": [
         "derogatory",
@@ -1122,19 +750,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Pig, extremely offensive due to Islamic dietary laws, severe insult",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_offensive",
-        "levantine": "very_offensive",
-        "gulf": "extremely_offensive",
-        "maghrebi": "very_offensive",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "خارة",
-      "romanized": "khara",
       "severity": 3,
       "categories": [
         "scatological",
@@ -1147,19 +766,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Shit (variant spelling) - scatological vulgar term. Arabizi: 5ara",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "common",
-        "gulf": "moderate",
-        "maghrebi": "common",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "general"
     },
     {
       "word": "خول",
-      "romanized": "khawal",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -1174,19 +784,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Gay (derogatory) - homophobic slur, very offensive. Arabizi: 5awal",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "offensive",
-        "levantine": "very_offensive",
-        "gulf": "extremely_offensive",
-        "maghrebi": "offensive",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "كول خرا",
-      "romanized": "kol khara",
       "severity": 3,
       "categories": [
         "scatological",
@@ -1200,19 +801,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Eat shit - scatological command, very vulgar. Arabizi: kol 5ara",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "very_common",
-        "gulf": "rare",
-        "maghrebi": "very_common",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "لبوة",
-      "romanized": "labwa",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1226,19 +818,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Slut - offensive term for women, Egyptian usage. Arabizi: labwa",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_offensive",
-        "levantine": "moderate",
-        "gulf": "taboo",
-        "maghrebi": "moderate",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "ملحاة",
-      "romanized": "malhat",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1253,19 +836,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Bitch - Tunisian offensive term for women. Arabizi: mal7at",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "very_offensive",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "نام",
-      "romanized": "nam",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1280,19 +854,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Dick - Tunisian vulgar anatomical term. Arabizi: naam",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "common",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "general"
     },
     {
       "word": "شاذ",
-      "romanized": "shaz",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -1307,19 +872,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Gay (derogatory) - homophobic term, offensive. Arabizi: shazz",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "offensive",
-        "levantine": "offensive",
-        "gulf": "very_offensive",
-        "maghrebi": "offensive",
-        "msa": "formal_negative"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "تلحس طيزي",
-      "romanized": "telhas teezi",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1333,19 +889,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Kiss my ass - vulgar Levantine insult. Arabizi: tel7as 6eezi",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "moderate",
-        "levantine": "very_common",
-        "gulf": "rare",
-        "maghrebi": "moderate",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "ولد الكلاب",
-      "romanized": "wald il klaab",
       "severity": 3,
       "categories": [
         "derogatory",
@@ -1359,19 +906,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Son of dogs - compound family insult, plural form. Arabizi: walad el klaab",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "very_common",
-        "gulf": "moderate",
-        "maghrebi": "common",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "يا خرا",
-      "romanized": "ya khara",
       "severity": 3,
       "categories": [
         "scatological",
@@ -1386,19 +924,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "You shit, direct scatological insult, very vulgar",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "common",
-        "gulf": "less_common",
-        "maghrebi": "common",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "يخسف الله به الأرض",
-      "romanized": "yakhsaf allah bih al'ard",
       "severity": 3,
       "categories": [
         "religious",
@@ -1411,19 +940,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "May God swallow the Earth beneath you - elaborate religious curse. Arabizi: ya5saf allah bih al2ard",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "common",
-        "gulf": "moderate",
-        "maghrebi": "rare",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "يلعن ابوك",
-      "romanized": "yil'an abuk",
       "severity": 3,
       "categories": [
         "religious",
@@ -1437,19 +957,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Curse your father, religious curse involving family, very offensive",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "very_common",
-        "gulf": "moderate",
-        "maghrebi": "common",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "extreme"
+      "target_type": "individual"
     },
     {
       "word": "زبي",
-      "romanized": "zabbi",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1464,19 +975,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "My penis, vulgar anatomical reference, common in Levantine",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "moderate_usage",
-        "levantine": "very_common",
-        "gulf": "less_common",
-        "maghrebi": "moderate",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "general"
     },
     {
       "word": "زامل",
-      "romanized": "zamel",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -1490,19 +992,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Gay (derogatory) - Maghrebi homophobic slur. Arabizi: zamel",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "moderate",
-        "gulf": "rare",
-        "maghrebi": "very_common",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "زوب",
-      "romanized": "zob",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1516,19 +1009,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Dick - Maghrebi vulgar anatomical term. Arabizi: zoub",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "moderate",
-        "gulf": "rare",
-        "maghrebi": "very_common",
-        "msa": "absolutely_forbidden"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "general"
     },
     {
       "word": "عرص",
-      "romanized": "3ars",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1543,19 +1027,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Pimp, Egyptian-specific insult, implies immoral behavior",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "less_common",
-        "gulf": "rare",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "احمق",
-      "romanized": "a7maq",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1570,19 +1045,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fool/idiot, traditional insult implying lack of wisdom",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "formal_insult"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "ابو ريحة",
-      "romanized": "abu reiha",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1596,19 +1062,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Father of stinky smells - Levantine insult implying uncleanliness. Arabizi: abu ree7a",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "moderate",
-        "levantine": "very_common",
-        "gulf": "rare",
-        "maghrebi": "moderate",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "عايل متسول",
-      "romanized": "ayel motasawel",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1622,19 +1079,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "You're a ghetto/beggar - classist Egyptian insult. Arabizi: 3ayel metsa7el",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "بعبوص",
-      "romanized": "baa'boos",
       "severity": 2,
       "categories": [
         "gesture",
@@ -1648,19 +1096,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Middle finger gesture - Egyptian term for obscene gesture. Arabizi: ba3boos",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "general"
     },
     {
       "word": "بهيم",
-      "romanized": "baheem",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1674,19 +1113,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Beast (masculine) - common animal insult across dialects. Arabizi: ba7eem",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "formal_insult"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "بهيمة",
-      "romanized": "baheema",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1701,19 +1131,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Beast (feminine) - common animal insult across dialects. Arabizi: ba7eema",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "formal_insult"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "بيدان",
-      "romanized": "bedan",
       "severity": 2,
       "categories": [
         "anatomical",
@@ -1727,19 +1148,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Balls (testicles) - vulgar anatomical term. Arabizi: beedan",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "moderate",
-        "gulf": "rare",
-        "maghrebi": "moderate",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "general"
     },
     {
       "word": "دنيء",
-      "romanized": "danee'",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1753,19 +1165,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vile - MSA formal moral insult. Arabizi: danee2",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "moderate",
-        "levantine": "moderate",
-        "gulf": "moderate",
-        "maghrebi": "moderate",
-        "msa": "formal_insult"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "فاسق",
-      "romanized": "fasiq",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1779,19 +1182,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Sinner/immoral - MSA religious/moral insult. Arabizi: fasi2",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "moderate",
-        "levantine": "moderate",
-        "gulf": "common",
-        "maghrebi": "moderate",
-        "msa": "formal_religious"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "individual"
     },
     {
       "word": "حقير",
-      "romanized": "haqeer",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1805,19 +1199,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Beast/Brute - Gulf insult, moderate severity. Arabizi: 7a2eer",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "moderate",
-        "gulf": "very_common",
-        "maghrebi": "rare",
-        "msa": "formal_insult"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "حمار",
-      "romanized": "himar",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1832,19 +1217,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Donkey, implies stupidity, widely used across Arabic dialects",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "extremely_common",
-        "levantine": "very_common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "mild"
+      "target_type": "individual"
     },
     {
       "word": "ابن الجزمة",
-      "romanized": "ibn il-gazma",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1858,19 +1234,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Son of a shoe - Egyptian compound family insult. Arabizi: ebn el gazma",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "rare",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "ابن الحمار",
-      "romanized": "ibn il-homar",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1884,19 +1251,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Son of a donkey - compound family insult implying stupidity. Arabizi: ebn el 7omar",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "common",
-        "gulf": "moderate",
-        "maghrebi": "common",
-        "msa": "forbidden"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "كلب",
-      "romanized": "kalb",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1912,19 +1270,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Dog, common insult across all Arabic dialects, moderate offense",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "formal_disapproval"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "لعنة",
-      "romanized": "la'na",
       "severity": 2,
       "categories": [
         "religious",
@@ -1939,19 +1288,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Curse, religious profanity involving divine condemnation",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "common",
-        "gulf": "moderate",
-        "maghrebi": "common",
-        "msa": "formal_religious"
-      },
-      "religious_sensitivity": "high"
+      "target_type": "general"
     },
     {
       "word": "مخه زي الجزمة",
-      "romanized": "moxxu gazma",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1965,19 +1305,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "His mind is like a shoe - Egyptian insult implying stupidity. Arabizi: mo55o zay el gazma",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "مشرمل",
-      "romanized": "msharml",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1991,19 +1322,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Shameless (masculine) - Moroccan moral insult. Arabizi: msharmel",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "common",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "مشرملة",
-      "romanized": "msharmla",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -2018,19 +1340,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Shameless (feminine) - Moroccan moral insult. Arabizi: msharmela",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "common",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "قليل الأدب",
-      "romanized": "qalil al'adab",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -2044,19 +1357,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Of little literature/manners - formal MSA insult. Arabizi: 2aleel al2adab",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "formal",
-        "levantine": "formal",
-        "gulf": "formal",
-        "maghrebi": "formal",
-        "msa": "formal_insult"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "صافي نتا حمار",
-      "romanized": "safi nta hmar",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -2070,19 +1374,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Enough, you're a donkey - Moroccan compound insult. Arabizi: 9afi nta 7mar",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "common",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "سافل",
-      "romanized": "safil",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -2096,19 +1391,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Low/base - MSA formal moral insult. Arabizi: safil",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "moderate",
-        "levantine": "moderate",
-        "gulf": "moderate",
-        "maghrebi": "moderate",
-        "msa": "formal_insult"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "سووا",
-      "romanized": "soowa",
       "severity": 2,
       "categories": [
         "anatomical",
@@ -2122,19 +1408,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Ass - Maghrebi anatomical term. Arabizi: souwa",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "common",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "general"
     },
     {
       "word": "طه حضرتك",
-      "romanized": "tah-hathek",
       "severity": 2,
       "categories": [
         "curse",
@@ -2147,19 +1424,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "May all your luck be taken away - Levantine curse. Arabizi: 6ah 7a6rek",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "common",
-        "gulf": "rare",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "تيس",
-      "romanized": "tays",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -2173,19 +1441,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Goat - Gulf animal insult, implies stubbornness. Arabizi: 6ays",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "moderate",
-        "gulf": "very_common",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "تيز",
-      "romanized": "teez",
       "severity": 2,
       "categories": [
         "anatomical",
@@ -2199,19 +1458,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Buttocks/ass, mildly vulgar, common in casual speech",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "very_common",
-        "gulf": "moderate",
-        "maghrebi": "common",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "general"
     },
     {
       "word": "طز فيك",
-      "romanized": "tozz feek",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -2226,19 +1476,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Screw you - dismissive insult, moderate severity. Arabizi: 6ozz feek",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "common",
-        "gulf": "moderate",
-        "maghrebi": "common",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "وسخ",
-      "romanized": "wisikh",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -2253,19 +1494,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Dirty/filthy, implies moral or physical uncleanliness",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "common",
-        "gulf": "moderate",
-        "maghrebi": "common",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "يا جزمة",
-      "romanized": "ya gazma",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -2280,19 +1512,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "You shoe - uniquely Egyptian insult, implies worthlessness. Arabizi: ya gazma",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "يا حيوان",
-      "romanized": "ya hayawan",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -2307,19 +1530,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "You animal - common insult across dialects. Arabizi: ya 7ayawan",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "يخرب بيتك",
-      "romanized": "yixrib beitak",
       "severity": 2,
       "categories": [
         "religious",
@@ -2333,19 +1547,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "May God destroy your house - Egyptian curse, moderate severity. Arabizi: ye5rab beytak",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "individual"
     },
     {
       "word": "زاكة",
-      "romanized": "zaaka",
       "severity": 2,
       "categories": [
         "anatomical",
@@ -2359,19 +1564,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Ass - Tunisian anatomical term. Arabizi: zaka",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "common",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "general"
     },
     {
       "word": "زفت",
-      "romanized": "zift",
       "severity": 2,
       "categories": [
         "scatological",
@@ -2385,19 +1581,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Tar/crap - scatological insult, moderate severity. Arabizi: zeft",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "common",
-        "gulf": "moderate",
-        "maghrebi": "common",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "moderate"
+      "target_type": "general"
     },
     {
       "word": "أهبل",
-      "romanized": "ahbal",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2412,19 +1599,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Stupid/crazy - mild Egyptian insult. Arabizi: 2ahbal",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "moderate",
-        "gulf": "rare",
-        "maghrebi": "moderate",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "أجدب",
-      "romanized": "ajdab",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2439,19 +1617,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Idiot - Gulf mild insult. Arabizi: 2ajdab",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "common",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "العمى",
-      "romanized": "al'ama",
       "severity": 1,
       "categories": [
         "exclamation",
@@ -2465,19 +1634,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Blindness/Damn - Levantine exclamation, mild curse. Arabizi: al3ama",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "very_common",
-        "gulf": "rare",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "general"
     },
     {
       "word": "بخيل",
-      "romanized": "bakheel",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2491,19 +1651,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Stingy - MSA character insult, mild severity. Arabizi: ba5eel",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "acceptable_mild"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "بليد",
-      "romanized": "baleed",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2517,19 +1668,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Stupid/Dull - Gulf mild insult about intelligence. Arabizi: baleed",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "moderate",
-        "levantine": "moderate",
-        "gulf": "very_common",
-        "maghrebi": "moderate",
-        "msa": "acceptable_mild"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "فصيل",
-      "romanized": "faseel",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2543,19 +1685,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Buzz killer - Egyptian slang for annoying person. Arabizi: fa9eel",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "غبية",
-      "romanized": "ghabeyya",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2571,19 +1704,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Stupid (feminine form) - mild insult. Arabizi: 3abeyya",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "acceptable_mild"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "غبي",
-      "romanized": "ghabi",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2598,19 +1722,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Stupid, mild insult questioning intelligence",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "acceptable_mild"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "جاهل",
-      "romanized": "jahil",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2624,19 +1739,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Ignorant - MSA mild insult about knowledge. Arabizi: ja7el",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "acceptable_mild"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "كاذب",
-      "romanized": "kathib",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2650,19 +1756,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Liar - MSA character insult, mild severity. Arabizi: kazib",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "acceptable_mild"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "مجنون",
-      "romanized": "majnoon",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2676,19 +1773,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Crazy - MSA mild insult implying mental instability. Arabizi: majnoun",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "common",
-        "gulf": "common",
-        "maghrebi": "common",
-        "msa": "acceptable_mild"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "متعب",
-      "romanized": "mota3eb",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2702,19 +1790,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Annoying (masculine) - mild complaint. Arabizi: met3eb",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "common",
-        "gulf": "moderate",
-        "maghrebi": "moderate",
-        "msa": "neutral"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "متعبة",
-      "romanized": "mota3eba",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2729,19 +1808,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Annoying (feminine) - mild complaint. Arabizi: met3eba",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "common",
-        "levantine": "common",
-        "gulf": "moderate",
-        "maghrebi": "moderate",
-        "msa": "neutral"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "سطل",
-      "romanized": "satal",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -2756,19 +1826,10 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fool - Gulf mild insult. Arabizi: sa6al",
-      "target_type": "individual",
-      "dialect_usage": {
-        "egyptian": "rare",
-        "levantine": "rare",
-        "gulf": "common",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "individual"
     },
     {
       "word": "يا خرابي",
-      "romanized": "ya 5arabi",
       "severity": 1,
       "categories": [
         "exclamation",
@@ -2782,37 +1843,9 @@ export const AR: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Damn it! - Egyptian exclamation, mild frustration. Arabizi: ya 5arabi",
-      "target_type": "general",
-      "dialect_usage": {
-        "egyptian": "very_common",
-        "levantine": "rare",
-        "gulf": "rare",
-        "maghrebi": "rare",
-        "msa": "inappropriate"
-      },
-      "religious_sensitivity": "low"
+      "target_type": "general"
     }
-  ],
-  categories: {
-  "religious": "Religious Profanity",
-  "sexual": "Sexual Content",
-  "family_insults": "Family Honor Attacks",
-  "derogatory": "General Derogatory Terms",
-  "animal_insults": "Animal-Based Insults",
-  "scatological": "Scatological References",
-  "anatomical": "Anatomical References",
-  "gender_specific": "Gender-Specific Insults",
-  "sectarian_ethnic": "Sectarian and Ethnic Slurs",
-  "political": "Political Profanity",
-  "dialectal_specific": "Dialect-Specific Terms",
-  "compound_insults": "Compound Insults"
-},
-  severity: {
-  "1": 1,
-  "2": 2,
-  "3": 3,
-  "4": 4
-},
-  variations: {},
-  context: {}
-} as const;
+  ]
+} as const
+
+export type ARType = typeof AR

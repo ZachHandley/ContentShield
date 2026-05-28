@@ -83,12 +83,12 @@ export class ProfanityMatcher {
    */
   async loadLanguage(
     language: LanguageCode,
-    words: Array<{
-      word: string
-      severity: SeverityLevel
-      categories: ProfanityCategory[]
-      variations?: string[]
-      caseSensitive?: boolean
+    words: ReadonlyArray<{
+      readonly word: string
+      readonly severity: SeverityLevel
+      readonly categories: readonly ProfanityCategory[]
+      readonly variations?: readonly string[]
+      readonly caseSensitive?: boolean
     }>
   ): Promise<void> {
     const trie = new ProfanityTrie()
@@ -112,7 +112,7 @@ export class ProfanityMatcher {
       const trieData: TrieNodeData = {
         word: wordData.word,
         severity: wordData.severity,
-        categories: wordData.categories,
+        categories: [...wordData.categories],
         language,
         caseSensitive: wordData.caseSensitive ?? false,
         confidence: 1.0
@@ -308,10 +308,12 @@ export class ProfanityMatcher {
       const word = match[0]
       if (word.length >= this.config.minWordLength) {
         words.add(word)
-        if (!wordPositions.has(word)) {
-          wordPositions.set(word, [])
+        let positions = wordPositions.get(word)
+        if (!positions) {
+          positions = []
+          wordPositions.set(word, positions)
         }
-        wordPositions.get(word)!.push(match.index)
+        positions.push(match.index)
       }
     }
 
@@ -664,9 +666,9 @@ export class ProfanityMatcher {
    * Check if word should be included based on config
    */
   private shouldIncludeWord(wordData: {
-    word: string
-    severity: SeverityLevel
-    categories: ProfanityCategory[]
+    readonly word: string
+    readonly severity: SeverityLevel
+    readonly categories: readonly ProfanityCategory[]
   }): boolean {
     // Check minimum severity
     if (wordData.severity < this.config.minSeverity) {

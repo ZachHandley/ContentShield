@@ -150,7 +150,7 @@ export class ProfanityTrie {
    */
   insertWithVariations(
     baseWord: string,
-    variations: string[],
+    variations: readonly string[],
     data: TrieNodeData
   ): void {
     // Insert the base word

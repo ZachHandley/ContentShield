@@ -1,27 +1,24 @@
 /**
- * Russian (RU) Language Data
- * Auto-generated from JSON data on 2025-10-01
+ * Russian profanity data
+ * Auto-generated from JSON files - DO NOT EDIT MANUALLY
  *
- * Total entries: 215
+ * Language: Russian
  * Version: 1.0.0
- * Last updated: 2025-09-30
+ * Last Updated: 2025-09-30
+ * Total Entries: 215
  */
 
-import type { LanguageData } from '../language-loader.js';
-
-export const RU: LanguageData = {
-  metadata: {
-  "name": "Russian",
-  "code": "ru",
-  "version": "1.0.0",
-  "wordCount": 215,
-  "lastUpdated": "2025-09-30",
-  "contributors": []
-},
-  profanity: [
+export const RU = {
+  "metadata": {
+    "name": "Russian",
+    "code": "ru",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-30",
+    "wordCount": 215
+  },
+  "words": [
     {
       "word": "блядь",
-      "romanized": "blyad",
       "severity": 3,
       "categories": [
         "mat_system",
@@ -40,16 +37,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Core mat word, extremely common in Russian internet culture, used as intensifier",
-      "target_type": "general",
-      "regional_variants": [
-        "блядка (diminutive)",
-        "блядина (augmentative)"
-      ],
-      "mat_classification": "primary_mat"
+      "target_type": "general"
     },
     {
       "word": "сука",
-      "romanized": "suka",
       "severity": 3,
       "categories": [
         "mat_system",
@@ -67,16 +58,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Very common mat word, literally 'bitch', used for both genders in modern usage",
-      "target_type": "individual",
-      "regional_variants": [
-        "сучара (colloquial)",
-        "сучонка (regional)"
-      ],
-      "mat_classification": "primary_mat"
+      "target_type": "individual"
     },
     {
       "word": "пиздец",
-      "romanized": "pizdets",
       "severity": 3,
       "categories": [
         "mat_system",
@@ -93,16 +78,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Mat expression meaning disaster/end, very commonly used as exclamation",
-      "target_type": "general",
-      "regional_variants": [
-        "пиздос (youth slang)",
-        "пиздосы (plural form)"
-      ],
-      "mat_classification": "primary_mat"
+      "target_type": "general"
     },
     {
       "word": "хуй",
-      "romanized": "huy",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -120,16 +99,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Strongest mat word, male genitalia, used in many compound expressions",
-      "target_type": "general",
-      "regional_variants": [
-        "хер (euphemistic)",
-        "хрен (mild variant)"
-      ],
-      "mat_classification": "primary_mat"
+      "target_type": "general"
     },
     {
       "word": "ебать",
-      "romanized": "ebat",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -147,16 +120,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Strong mat verb, sexual/violent connotations, basis for many expressions",
-      "target_type": "general",
-      "regional_variants": [
-        "ебашить (intensified)",
-        "ебнуться (reflexive)"
-      ],
-      "mat_classification": "primary_mat"
+      "target_type": "general"
     },
     {
       "word": "пизда",
-      "romanized": "pizda",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -173,16 +140,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Female genitalia, part of core mat vocabulary, used in many expressions",
-      "target_type": "general",
-      "regional_variants": [
-        "писька (childish)",
-        "пиздёнка (diminutive)"
-      ],
-      "mat_classification": "primary_mat"
+      "target_type": "general"
     },
     {
       "word": "говно",
-      "romanized": "govno",
       "severity": 2,
       "categories": [
         "scatological",
@@ -197,16 +158,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Common scatological term, widely used as general insult",
-      "target_type": "general",
-      "regional_variants": [
-        "гавно (colloquial pronunciation)",
-        "говнище (augmentative)"
-      ],
-      "mat_classification": "secondary"
+      "target_type": "general"
     },
     {
       "word": "дерьмо",
-      "romanized": "dermo",
       "severity": 2,
       "categories": [
         "scatological",
@@ -221,16 +176,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Scatological term, less intense than mat words but still vulgar",
-      "target_type": "general",
-      "regional_variants": [
-        "дерьмеце (diminutive)",
-        "дерьмина (augmentative)"
-      ],
-      "mat_classification": "secondary"
+      "target_type": "general"
     },
     {
       "word": "жопа",
-      "romanized": "zhopa",
       "severity": 2,
       "categories": [
         "anatomical",
@@ -246,16 +195,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Buttocks, common vulgar term, relatively mild compared to mat",
-      "target_type": "general",
-      "regional_variants": [
-        "жопка (diminutive)",
-        "жопища (augmentative)"
-      ],
-      "mat_classification": "secondary"
+      "target_type": "general"
     },
     {
       "word": "мудак",
-      "romanized": "mudak",
       "severity": 3,
       "categories": [
         "derogatory",
@@ -270,16 +213,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term for males, related to male genitalia slang",
-      "target_type": "individual",
-      "regional_variants": [
-        "мудачок (diminutive)",
-        "мудачина (augmentative)"
-      ],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "козёл",
-      "romanized": "kozel",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -294,16 +231,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Literally goat, common insult implying stupidity or stubbornness",
-      "target_type": "individual",
-      "regional_variants": [
-        "козлина (augmentative)",
-        "козлик (diminutive)"
-      ],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "сволочь",
-      "romanized": "svoloch",
       "severity": 3,
       "categories": [
         "derogatory",
@@ -318,16 +249,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Strong derogatory term, implies moral corruption",
-      "target_type": "individual",
-      "regional_variants": [
-        "сволота (collective)",
-        "сволочуга (colloquial)"
-      ],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "гад",
-      "romanized": "gad",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -342,16 +267,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Literally reptile, used as general insult",
-      "target_type": "individual",
-      "regional_variants": [
-        "гадина (augmentative)",
-        "гадёныш (diminutive)"
-      ],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "падла",
-      "romanized": "padla",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -366,16 +285,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term implying moral decay, literally carrion",
-      "target_type": "individual",
-      "regional_variants": [
-        "падаль (variant)",
-        "падлюка (augmentative)"
-      ],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "урод",
-      "romanized": "urod",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -390,16 +303,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term about appearance, literally freak/monster",
-      "target_type": "individual",
-      "regional_variants": [
-        "уродина (augmentative)",
-        "уродик (diminutive)"
-      ],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "дура",
-      "romanized": "dura",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -414,16 +321,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Mild insult for females, implies stupidity",
-      "target_type": "individual",
-      "regional_variants": [
-        "дурочка (diminutive)",
-        "дурища (augmentative)"
-      ],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "дурак",
-      "romanized": "durak",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -438,16 +339,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Common mild insult, implies foolishness",
-      "target_type": "individual",
-      "regional_variants": [
-        "дурачок (diminutive)",
-        "дурачина (augmentative)"
-      ],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "идиот",
-      "romanized": "idiot",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -462,16 +357,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Strong insult implying mental deficiency",
-      "target_type": "individual",
-      "regional_variants": [
-        "идиотка (female form)",
-        "идиотина (augmentative)"
-      ],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "дебил",
-      "romanized": "debil",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -486,16 +375,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term with medical origins, now general insult",
-      "target_type": "individual",
-      "regional_variants": [
-        "дебилка (female)",
-        "дебилоид (internet slang)"
-      ],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "шлюха",
-      "romanized": "shlyuha",
       "severity": 3,
       "categories": [
         "sexual",
@@ -511,16 +394,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Strong sexual insult for women, implies promiscuity",
-      "target_type": "individual",
-      "regional_variants": [
-        "шлюшка (diminutive)",
-        "шлюхонка (regional)"
-      ],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "курва",
-      "romanized": "kurva",
       "severity": 3,
       "categories": [
         "sexual",
@@ -536,16 +413,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Borrowed from Polish, sexual insult for women. Cyrillic: курва, Latin: kurva",
-      "target_type": "individual",
-      "regional_variants": [
-        "курба (variant)",
-        "курвище (augmentative)"
-      ],
-      "mat_classification": "borrowed"
+      "target_type": "individual"
     },
     {
       "word": "авексдо",
-      "romanized": "aveksdo",
       "severity": 1,
       "categories": [
         "general"
@@ -555,13 +426,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Mild exclamation. Cyrillic: авексдо, Latin: aveksdo",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "аборт",
-      "romanized": "abort",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -571,13 +439,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Abortion used as insult. Cyrillic: аборт, Latin: abort",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "баба",
-      "romanized": "baba",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -588,13 +453,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Woman (can be derogatory). Cyrillic: баба, Latin: baba",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "бздёнок",
-      "romanized": "bzdyonok",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -605,13 +467,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Little fart/coward. Cyrillic: бздёнок, Latin: bzdyonok",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "блатной",
-      "romanized": "blatnoy",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -621,13 +480,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Criminal/gangster. Cyrillic: блатной, Latin: blatnoy",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "блевать",
-      "romanized": "blevat",
       "severity": 2,
       "categories": [
         "scatological"
@@ -638,13 +494,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To vomit. Cyrillic: блевать, Latin: blevat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "блин",
-      "romanized": "blin",
       "severity": 1,
       "categories": [
         "general"
@@ -654,13 +507,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Damn (euphemism for blyad'). Cyrillic: блин, Latin: blin",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "блядки",
-      "romanized": "blyadki",
       "severity": 3,
       "categories": [
         "mat_system",
@@ -671,13 +521,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Little whores (diminutive of blyad'). Cyrillic: блядки, Latin: blyadki",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "блядовать",
-      "romanized": "blyadovat",
       "severity": 3,
       "categories": [
         "mat_system",
@@ -688,13 +535,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To whore around (from blyad'). Cyrillic: блядовать, Latin: blyadovat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "блядство",
-      "romanized": "blyadstvo",
       "severity": 3,
       "categories": [
         "mat_system",
@@ -705,13 +549,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Whoring/debauchery (from blyad'). Cyrillic: блядство, Latin: blyadstvo",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "блядун",
-      "romanized": "blyadun",
       "severity": 3,
       "categories": [
         "mat_system",
@@ -723,13 +564,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Male whore (from blyad'). Cyrillic: блядун, Latin: blyadun",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "бугор",
-      "romanized": "bugor",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -739,13 +577,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Criminal boss. Cyrillic: бугор, Latin: bugor",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "вафлер",
-      "romanized": "vafler",
       "severity": 2,
       "categories": [
         "sexual",
@@ -756,13 +591,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Cocksucker (from gaming). Cyrillic: вафлер, Latin: vafler",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "вздроченный",
-      "romanized": "vzdrochennyi",
       "severity": 3,
       "categories": [
         "sexual"
@@ -772,13 +604,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Jerked off/exhausted. Cyrillic: вздроченный, Latin: vzdrochennyi",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "выблядок",
-      "romanized": "vyblyad ok",
       "severity": 3,
       "categories": [
         "mat_system",
@@ -790,13 +619,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Bastard (from blyad'). Cyrillic: выблядок, Latin: vyblyad ok",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "выёбываться",
-      "romanized": "vyobyvatsia",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -807,13 +633,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To show off (from yebat'). Cyrillic: выёбываться, Latin: vyobyvatsia",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "выпердыш",
-      "romanized": "vyperdysh",
       "severity": 2,
       "categories": [
         "scatological",
@@ -824,13 +647,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fart/insignificant person. Cyrillic: выпердыш, Latin: vyperdysh",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "гадина",
-      "romanized": "gadina",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -840,13 +660,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Reptile/scumbag (augmentative of gad). Cyrillic: гадина, Latin: gadina",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "гандон",
-      "romanized": "gandon",
       "severity": 3,
       "categories": [
         "sexual",
@@ -857,13 +674,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Condom/asshole. Cyrillic: гандон, Latin: gandon",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "гнида",
-      "romanized": "gnida",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -873,13 +687,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Nit/scum. Cyrillic: гнида, Latin: gnida",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "говнюк",
-      "romanized": "govnyuk",
       "severity": 2,
       "categories": [
         "scatological",
@@ -890,13 +701,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Shitty person. Cyrillic: говнюк, Latin: govnyuk",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "говнище",
-      "romanized": "govnishche",
       "severity": 2,
       "categories": [
         "scatological"
@@ -906,13 +714,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Big shit (augmentative). Cyrillic: говнище, Latin: govnishche",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "голубой",
-      "romanized": "goluboy",
       "severity": 2,
       "categories": [
         "slurs"
@@ -922,13 +727,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Blue/gay (euphemism). Cyrillic: голубой, Latin: goluboy",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "дебилка",
-      "romanized": "debilka",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -940,13 +742,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Female retard. Cyrillic: дебилка, Latin: debilka",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "дебилоид",
-      "romanized": "debiloid",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -957,13 +756,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Retarded person (internet slang). Cyrillic: дебилоид, Latin: debiloid",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "дерьмеце",
-      "romanized": "der'metse",
       "severity": 2,
       "categories": [
         "scatological"
@@ -973,13 +769,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Little shit (diminutive). Cyrillic: дерьмеце, Latin: der'metse",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "дерьмина",
-      "romanized": "der'mina",
       "severity": 2,
       "categories": [
         "scatological"
@@ -989,13 +782,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Big shit (augmentative). Cyrillic: дерьмина, Latin: der'mina",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "долбоёб",
-      "romanized": "dolboyob",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -1006,13 +796,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucking idiot (from yebat'). Cyrillic: долбоёб, Latin: dolboyob",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "дрочить",
-      "romanized": "drochit",
       "severity": 3,
       "categories": [
         "sexual"
@@ -1022,13 +809,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To masturbate. Cyrillic: дрочить, Latin: drochit'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "дрочер",
-      "romanized": "drocher",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1039,13 +823,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Masturbator/wanker. Cyrillic: дрочер, Latin: drocher",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "дурачок",
-      "romanized": "durachok",
       "severity": 1,
       "categories": [
         "derogatory"
@@ -1055,13 +836,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Little fool (diminutive). Cyrillic: дурачок, Latin: durachok",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "ебало",
-      "romanized": "ebalo",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -1072,13 +850,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Face/mug (from yebat'). Cyrillic: ебало, Latin: ebalo",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "ебальник",
-      "romanized": "ebal'nik",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -1089,13 +864,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Face/mug (from yebat'). Cyrillic: ебальник, Latin: ebal'nik",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "ебануть",
-      "romanized": "ebanut",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -1106,13 +878,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To fuck/to hit (from yebat'). Cyrillic: ебануть, Latin: ebanut'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "ебанутый",
-      "romanized": "ebanutyj",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -1123,13 +892,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucked up/crazy (from yebat'). Cyrillic: ебанутый, Latin: ebanutyj",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "ебарь",
-      "romanized": "ebar",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -1140,13 +906,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucker (from yebat'). Cyrillic: ебарь, Latin: ebar'",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "ебашить",
-      "romanized": "ebashit",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -1157,13 +920,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To fuck/to work hard (from yebat'). Cyrillic: ебашить, Latin: ebashit'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "ебло",
-      "romanized": "eblo",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -1174,13 +934,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Face/mug (from yebat'). Cyrillic: ебло, Latin: eblo",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "ебнуть",
-      "romanized": "ebnut",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -1191,13 +948,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To fuck/to hit (from yebat'). Cyrillic: ебнуть, Latin: ebnut'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "ебнуться",
-      "romanized": "ebnut'sya",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1207,13 +961,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To go crazy (reflexive from yebat'). Cyrillic: ебнуться, Latin: ebnut'sya",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "жопка",
-      "romanized": "zhopka",
       "severity": 2,
       "categories": [
         "anatomical"
@@ -1223,13 +974,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Little ass (diminutive). Cyrillic: жопка, Latin: zhopka",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "жополиз",
-      "romanized": "zhopoliz",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -1239,13 +987,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Ass-licker/brown-noser. Cyrillic: жополиз, Latin: zhopoliz",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "жопище",
-      "romanized": "zhopishche",
       "severity": 2,
       "categories": [
         "anatomical"
@@ -1255,13 +1000,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Big ass (augmentative). Cyrillic: жопище, Latin: zhopishche",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "заебать",
-      "romanized": "zaebat",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1271,13 +1013,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To fuck up/to tire out (from yebat'). Cyrillic: заебать, Latin: zaebat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "заебаться",
-      "romanized": "zaebat'sya",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1287,13 +1026,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To be fucked/exhausted (from yebat'). Cyrillic: заебаться, Latin: zaebat'sya",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "заебись",
-      "romanized": "zaebis",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1303,13 +1039,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucking awesome (from yebat'). Cyrillic: заебись, Latin: zaebis'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "залупа",
-      "romanized": "zalupa",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -1320,13 +1053,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Dick head (from khuy root). Cyrillic: залупа, Latin: zalupa",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "залупать",
-      "romanized": "zalupat",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1336,13 +1066,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Related to dick (from khuy root). Cyrillic: залупать, Latin: zalupat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "засать",
-      "romanized": "zasat",
       "severity": 2,
       "categories": [
         "scatological"
@@ -1352,13 +1079,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To piss on. Cyrillic: засать, Latin: zasat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "засранец",
-      "romanized": "zasranets",
       "severity": 2,
       "categories": [
         "scatological",
@@ -1369,13 +1093,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Shitty person/coward. Cyrillic: засранец, Latin: zasranets",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "заёбать",
-      "romanized": "zayobat",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1385,13 +1106,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Variant of zaebat'. Cyrillic: заёбать, Latin: zayobat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "идиотка",
-      "romanized": "idiotka",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1402,13 +1120,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Female idiot. Cyrillic: идиотка, Latin: idiotka",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "идиотина",
-      "romanized": "idiotina",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -1418,13 +1133,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Big idiot (augmentative). Cyrillic: идиотина, Latin: idiotina",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "измудохать",
-      "romanized": "izmudohat",
       "severity": 3,
       "categories": [
         "violence"
@@ -1434,13 +1146,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To beat up (from muda root). Cyrillic: измудохать, Latin: izmudohat'",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "козлина",
-      "romanized": "kozlina",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -1450,13 +1159,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Big goat (augmentative). Cyrillic: козлина, Latin: kozlina",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "кретин",
-      "romanized": "kretin",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1467,13 +1173,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Cretin/moron. Cyrillic: кретин, Latin: kretin",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "малафья",
-      "romanized": "malafia",
       "severity": 2,
       "categories": [
         "sexual"
@@ -1483,13 +1186,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Sperm (slang). Cyrillic: малафья, Latin: malafia",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "манда",
-      "romanized": "manda",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -1501,13 +1201,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Pussy (variant of pizda). Cyrillic: манда, Latin: manda",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "primary_mat"
+      "target_type": "general"
     },
     {
       "word": "мандавошка",
-      "romanized": "mandavoshka",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -1517,13 +1214,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Crab louse/scumbag. Cyrillic: мандавошка, Latin: mandavoshka",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "мент",
-      "romanized": "ment",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -1533,13 +1227,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Cop (derogatory). Cyrillic: мент, Latin: ment",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "мерзавец",
-      "romanized": "merzavets",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -1549,13 +1240,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Scoundrel/bastard. Cyrillic: мерзавец, Latin: merzavets",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "муда",
-      "romanized": "muda",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1566,13 +1254,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Testicles (archaic). Cyrillic: муда, Latin: muda",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "мудачина",
-      "romanized": "mudachina",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -1582,13 +1267,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Big asshole (augmentative from muda). Cyrillic: мудачина, Latin: mudachina",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "мудачок",
-      "romanized": "mudachok",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -1598,13 +1280,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Little asshole (diminutive from muda). Cyrillic: мудачок, Latin: mudachok",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "мудило",
-      "romanized": "mudilo",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -1614,13 +1293,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Asshole (from muda). Cyrillic: мудило, Latin: mudilo",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "мудозвон",
-      "romanized": "mudozvon",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -1630,13 +1306,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Annoying person (literally 'ball-ringer'). Cyrillic: мудозвон, Latin: mudozvon",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "наебать",
-      "romanized": "naebat",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1646,13 +1319,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To fuck over/deceive (from yebat'). Cyrillic: наебать, Latin: naebat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "наебениться",
-      "romanized": "naebenitsya",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1662,13 +1332,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To get drunk (from yebat'). Cyrillic: наебениться, Latin: naebenitsya",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "наебнуться",
-      "romanized": "naebnut'sya",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1678,13 +1345,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To fall/crash (from yebat'). Cyrillic: наебнуться, Latin: naebnut'sya",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "нахуй",
-      "romanized": "nahuy",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1695,13 +1359,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To dick/fuck off (from khuy). Cyrillic: нахуй, Latin: nahuy",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "нахуячиться",
-      "romanized": "nahuyachit'sya",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1711,13 +1372,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To get wasted (from khuy). Cyrillic: нахуячиться, Latin: nahuyachit'sya",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "невебенный",
-      "romanized": "nevebennyj",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1727,13 +1385,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Incredible (from yebat'). Cyrillic: невебенный, Latin: nevebennyj",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "обнаженный",
-      "romanized": "obnazhennyi",
       "severity": 1,
       "categories": [
         "general"
@@ -1743,13 +1398,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Naked (mild). Cyrillic: обнаженный, Latin: obnazhennyi",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "опесдол",
-      "romanized": "opesdol",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1759,13 +1411,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Variant of opizdet (from pizda). Cyrillic: опесдол, Latin: opesdol",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "опизденеть",
-      "romanized": "opizdenet",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1775,13 +1424,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To be shocked (from pizda). Cyrillic: опизденеть, Latin: opizdenet'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "остохуительно",
-      "romanized": "ostohuitel'no",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1791,13 +1437,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucking amazing (from khuy). Cyrillic: остохуительно, Latin: ostohuitel'no",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "остоёбло",
-      "romanized": "ostoyoblo",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1807,13 +1450,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Got bored (from yebat'). Cyrillic: остоёбло, Latin: ostoyoblo",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "отмудохать",
-      "romanized": "otmudohat",
       "severity": 3,
       "categories": [
         "violence"
@@ -1823,13 +1463,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To beat up (from muda). Cyrillic: отмудохать, Latin: otmudohat'",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "отпиздить",
-      "romanized": "otpizdit",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -1840,13 +1477,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To beat up (from pizda). Cyrillic: отпиздить, Latin: otpizdit'",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "отсоси",
-      "romanized": "otsosi",
       "severity": 4,
       "categories": [
         "sexual"
@@ -1856,13 +1490,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Suck (dick) - imperative. Cyrillic: отсоси, Latin: otsosi",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "отъебись",
-      "romanized": "otyobis",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1872,13 +1503,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fuck off (from yebat'). Cyrillic: отъебись, Latin: otyobis'",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "охуеть",
-      "romanized": "ohuet",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1888,13 +1516,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To be shocked/amazed (from khuy). Cyrillic: охуеть, Latin: ohuet'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "охуительно",
-      "romanized": "ohuitel'no",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -1904,13 +1529,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucking amazing (from khuy). Cyrillic: охуительно, Latin: ohuitel'no",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "падло",
-      "romanized": "padlo",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -1920,13 +1542,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Scumbag/bastard. Cyrillic: падло, Latin: padlo",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "педераст",
-      "romanized": "pederast",
       "severity": 3,
       "categories": [
         "slurs",
@@ -1937,13 +1556,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Pederast/faggot (homophobic slur). Cyrillic: педераст, Latin: pederast",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "педик",
-      "romanized": "pedik",
       "severity": 3,
       "categories": [
         "slurs",
@@ -1954,13 +1570,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Faggot (homophobic slur). Cyrillic: педик, Latin: pedik",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "пердеть",
-      "romanized": "perdet",
       "severity": 2,
       "categories": [
         "scatological"
@@ -1970,13 +1583,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To fart. Cyrillic: пердеть, Latin: perdet'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "пердун",
-      "romanized": "perdun",
       "severity": 2,
       "categories": [
         "scatological",
@@ -1987,13 +1597,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Farter. Cyrillic: пердун, Latin: perdun",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "пиздато",
-      "romanized": "pizdato",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2003,13 +1610,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucking great (from pizda). Cyrillic: пиздато, Latin: pizdato",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "пиздатый",
-      "romanized": "pizdatyj",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2019,13 +1623,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucking awesome (from pizda). Cyrillic: пиздатый, Latin: pizdatyj",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "пиздёнка",
-      "romanized": "pizdyonka",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2036,13 +1637,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Little pussy (diminutive from pizda). Cyrillic: пиздёнка, Latin: pizdyonka",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "пиздет",
-      "romanized": "pizdet",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2052,13 +1650,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To lie (from pizda). Cyrillic: пиздет, Latin: pizdet",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "пиздеж",
-      "romanized": "pizdzh",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2068,13 +1663,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Lies/bullshit (from pizda). Cyrillic: пиздеж, Latin: pizdzh",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "пиздить",
-      "romanized": "pizdit",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2084,13 +1676,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To steal/to lie (from pizda). Cyrillic: пиздить, Latin: pizdit'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "пиздиук",
-      "romanized": "pizdiuk",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2101,13 +1690,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Little fucker (from pizda). Cyrillic: пиздиук, Latin: pizdiuk",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "пиздобратия",
-      "romanized": "pizdobratia",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2117,13 +1703,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Pussy brotherhood (from pizda). Cyrillic: пиздобратия, Latin: pizdobratia",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "пиздоглазый",
-      "romanized": "pizdoglazyi",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2135,13 +1718,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Pussy-eyed (ethnic slur, from pizda). Cyrillic: пиздоглазый, Latin: pizdoglazyi",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "пиздопрошибательный",
-      "romanized": "pizdoproshihatel'nyi",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2151,13 +1731,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Mind-blowing (from pizda). Cyrillic: пиздопрошибательный, Latin: pizdoproshihatel'nyi",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "пиздопроёбина",
-      "romanized": "pizdoproyobina",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2167,13 +1744,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucking mess (compound mat from pizda+yebat'). Cyrillic: пиздопроёбина, Latin: pizdoproyobina",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "пиздопроёб",
-      "romanized": "pizdoproyob",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2183,13 +1757,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fuck-up (compound mat from pizda+yebat'). Cyrillic: пиздопроёб, Latin: pizdoproyob",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "пиздострадалец",
-      "romanized": "pizdostradalet",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2199,13 +1770,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Pussy sufferer (from pizda). Cyrillic: пиздострадалец, Latin: pizdostradalet",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "пиздун",
-      "romanized": "pizdun",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2216,13 +1784,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Liar (from pizda). Cyrillic: пиздун, Latin: pizdun",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "пиздылина",
-      "romanized": "pizdylina",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2233,13 +1798,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Pussy-related insult (from pizda). Cyrillic: пиздылина, Latin: pizdylina",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "писька",
-      "romanized": "pis'ka",
       "severity": 1,
       "categories": [
         "sexual",
@@ -2250,13 +1812,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Pussy (childish form of pizda). Cyrillic: писька, Latin: pis'ka",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "писюн",
-      "romanized": "pisyun",
       "severity": 1,
       "categories": [
         "sexual",
@@ -2267,13 +1826,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Penis (childish). Cyrillic: писюн, Latin: pisyun",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "поебень",
-      "romanized": "poeben",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2283,13 +1839,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucked up situation (from yebat'). Cyrillic: поебень, Latin: poeben'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "похуй",
-      "romanized": "pohuy",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2299,13 +1852,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Don't give a fuck (from khuy). Cyrillic: похуй, Latin: pohuy",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "похуист",
-      "romanized": "pohuyist",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2316,13 +1866,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Person who doesn't give a fuck (from khuy). Cyrillic: похуист, Latin: pohuyist",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "припиздень",
-      "romanized": "pripizden",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2332,13 +1879,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To arrive (vulgar, from pizda). Cyrillic: припиздень, Latin: pripizden'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "присрать",
-      "romanized": "prisrat",
       "severity": 2,
       "categories": [
         "scatological"
@@ -2348,13 +1892,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To shit on. Cyrillic: присрать, Latin: prisrat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "проебать",
-      "romanized": "proebat",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2364,13 +1905,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To fuck up/lose (from yebat'). Cyrillic: проебать, Latin: proebat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "проебаться",
-      "romanized": "proebat'sya",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2380,13 +1918,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To screw up (from yebat'). Cyrillic: проебаться, Latin: proebat'sya",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "промудобладскся",
-      "romanized": "promudobladsksya",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -2396,13 +1931,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To fuck around (from muda). Cyrillic: промудобладскся, Latin: promudobladsksya",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "пропиздеть",
-      "romanized": "propizdet",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2412,13 +1944,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To miss/lose (from pizda). Cyrillic: пропиздеть, Latin: propizdet'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "пропездолоч",
-      "romanized": "propezdoloch",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2429,13 +1958,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucking bastard (from pizda). Cyrillic: пропездолоч, Latin: propezdoloch",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "просрать",
-      "romanized": "prosrat",
       "severity": 2,
       "categories": [
         "scatological"
@@ -2445,13 +1971,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To shit away/lose. Cyrillic: просрать, Latin: prosrat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "пёзда",
-      "romanized": "pyozda",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2463,13 +1986,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Variant of pizda. Cyrillic: пёзда, Latin: pyozda",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "primary_mat"
+      "target_type": "general"
     },
     {
       "word": "распиздяй",
-      "romanized": "raspizdjay",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2480,13 +2000,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Sloppy person (from pizda). Cyrillic: распиздяй, Latin: raspizdjay",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "распиздяйство",
-      "romanized": "raspizdjaystvo",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2496,13 +2013,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Sloppiness (from pizda). Cyrillic: распиздяйство, Latin: raspizdjaystvo",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "распиздатый",
-      "romanized": "raspizdatyj",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2512,13 +2026,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Worn out/loose (from pizda). Cyrillic: распиздатый, Latin: raspizdatyj",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "расперделся",
-      "romanized": "rasperdelsya",
       "severity": 2,
       "categories": [
         "scatological"
@@ -2528,13 +2039,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Spread out (from perdet'). Cyrillic: расперделся, Latin: rasperdelsya",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "сволота",
-      "romanized": "svolota",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -2544,13 +2052,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Scum (collective). Cyrillic: сволота, Latin: svolota",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "срака",
-      "romanized": "sraka",
       "severity": 2,
       "categories": [
         "anatomical"
@@ -2560,13 +2065,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Ass (vulgar). Cyrillic: срака, Latin: sraka",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "срать",
-      "romanized": "srat",
       "severity": 2,
       "categories": [
         "scatological"
@@ -2576,13 +2078,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To shit. Cyrillic: срать, Latin: srat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "сратье",
-      "romanized": "sratye",
       "severity": 2,
       "categories": [
         "scatological"
@@ -2592,13 +2091,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Shitting. Cyrillic: сратье, Latin: sratye",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "ссать",
-      "romanized": "ssat",
       "severity": 2,
       "categories": [
         "scatological"
@@ -2608,13 +2104,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To piss. Cyrillic: ссать, Latin: ssat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "стерва",
-      "romanized": "sterva",
       "severity": 3,
       "categories": [
         "derogatory",
@@ -2625,13 +2118,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Bitch/shrew. Cyrillic: стерва, Latin: sterva",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "стервятник",
-      "romanized": "stervyatnik",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -2641,13 +2131,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vulture/bastard. Cyrillic: стервятник, Latin: stervyatnik",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "сучара",
-      "romanized": "suchara",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -2657,13 +2144,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Bitch (colloquial). Cyrillic: сучара, Latin: suchara",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "сучонка",
-      "romanized": "suchonka",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -2673,13 +2157,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Little bitch (regional). Cyrillic: сучонка, Latin: suchonka",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "трахать",
-      "romanized": "trahat",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2689,13 +2170,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To fuck (less vulgar than yebat'). Cyrillic: трахать, Latin: trahat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "трахаться",
-      "romanized": "trahat'sya",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2705,13 +2183,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To fuck (reflexive). Cyrillic: трахаться, Latin: trahat'sya",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "убить",
-      "romanized": "ubit",
       "severity": 2,
       "categories": [
         "violence"
@@ -2721,13 +2196,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To kill (can be vulgar in context). Cyrillic: убить, Latin: ubit'",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "ублюдок",
-      "romanized": "ublyudok",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -2737,13 +2209,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Bastard/mongrel. Cyrillic: ублюдок, Latin: ublyudok",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "уебан",
-      "romanized": "ujeban",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2754,13 +2223,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucker/idiot (from yebat'). Cyrillic: уебан, Latin: ujeban",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "уёбище",
-      "romanized": "uyobishche",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2770,13 +2236,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucking mess (from yebat'). Cyrillic: уёбище, Latin: uyobishche",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "уебок",
-      "romanized": "ujebok",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2787,13 +2250,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fucker (from yebat'). Cyrillic: уебок, Latin: ujebok",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "уродина",
-      "romanized": "urodina",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -2804,13 +2264,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Big freak (augmentative). Cyrillic: уродина, Latin: urodina",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "уродище",
-      "romanized": "urodishche",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -2821,13 +2278,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Monster (augmentative). Cyrillic: уродище, Latin: urodishche",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "хер",
-      "romanized": "her",
       "severity": 3,
       "categories": [
         "mat_system",
@@ -2839,13 +2293,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Dick (euphemistic form of khuy). Cyrillic: хер, Latin: her",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "херня",
-      "romanized": "hernya",
       "severity": 3,
       "categories": [
         "mat_system"
@@ -2855,13 +2306,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Bullshit/crap (from khuy). Cyrillic: херня, Latin: hernya",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "херов",
-      "romanized": "herov",
       "severity": 3,
       "categories": [
         "mat_system"
@@ -2871,13 +2319,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Dick's/shitty (from khuy). Cyrillic: херов, Latin: herov",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "хрен",
-      "romanized": "hren",
       "severity": 2,
       "categories": [
         "general"
@@ -2887,13 +2332,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Horseradish/dick (mild euphemism for khuy). Cyrillic: хрен, Latin: hren",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "хуеплёт",
-      "romanized": "hueplyot",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2904,13 +2346,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Bullshitter (from khuy). Cyrillic: хуеплёт, Latin: hueplyot",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "хуесос",
-      "romanized": "huesos",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2921,13 +2360,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Cocksucker (from khuy). Cyrillic: хуесос, Latin: huesos",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "хуета",
-      "romanized": "hueta",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2937,13 +2373,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Bullshit (from khuy). Cyrillic: хуета, Latin: hueta",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "хуёво",
-      "romanized": "huyovo",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2953,13 +2386,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Shitty/bad (from khuy). Cyrillic: хуёво, Latin: huyovo",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "хуёвый",
-      "romanized": "huyovyi",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -2969,13 +2399,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Shitty/bad (from khuy). Cyrillic: хуёвый, Latin: huyovyi",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "хуйло",
-      "romanized": "huylo",
       "severity": 4,
       "categories": [
         "mat_system",
@@ -2986,13 +2413,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Dickhead (from khuy, political usage). Cyrillic: хуйло, Latin: huylo",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "individual"
     },
     {
       "word": "хуйня",
-      "romanized": "huynya",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -3002,13 +2426,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Bullshit/crap (from khuy). Cyrillic: хуйня, Latin: huynya",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "хуяк",
-      "romanized": "huyak",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -3018,13 +2439,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Bang/hit (from khuy). Cyrillic: хуяк, Latin: huyak",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "хуякать",
-      "romanized": "huyakat",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -3034,13 +2452,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "To hit/work hard (from khuy). Cyrillic: хуякать, Latin: huyakat'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "цыган",
-      "romanized": "tsygan",
       "severity": 2,
       "categories": [
         "slurs"
@@ -3050,13 +2465,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Gypsy (can be ethnic slur). Cyrillic: цыган, Latin: tsygan",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "чёрт",
-      "romanized": "chort",
       "severity": 1,
       "categories": [
         "general"
@@ -3066,13 +2478,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Devil/damn (mild curse). Cyrillic: чёрт, Latin: chort",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "general"
     },
     {
       "word": "чмо",
-      "romanized": "chmo",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -3082,13 +2491,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Loser/scum (prison slang). Cyrillic: чмо, Latin: chmo",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "чмошник",
-      "romanized": "chmoshnik",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -3098,13 +2504,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Lowlife (from chmo). Cyrillic: чмошник, Latin: chmoshnik",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "чмырь",
-      "romanized": "chmyr",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -3114,13 +2517,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Scum (prison slang). Cyrillic: чмырь, Latin: chmyr'",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "шалава",
-      "romanized": "shalava",
       "severity": 3,
       "categories": [
         "sexual",
@@ -3131,13 +2531,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Slut/whore. Cyrillic: шалава, Latin: shalava",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "шлюшка",
-      "romanized": "shlyushka",
       "severity": 3,
       "categories": [
         "sexual",
@@ -3148,13 +2545,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Little whore (diminutive). Cyrillic: шлюшка, Latin: shlyushka",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "ебень",
-      "romanized": "eben",
       "severity": 4,
       "categories": [
         "mat_system"
@@ -3164,13 +2558,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Middle of nowhere (from yebat'). Cyrillic: ебень, Latin: eben'",
-      "target_type": "general",
-      "regional_variants": [],
-      "mat_classification": "derived"
+      "target_type": "general"
     },
     {
       "word": "хачик",
-      "romanized": "hachik",
       "severity": 4,
       "categories": [
         "slurs",
@@ -3181,13 +2572,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory for Caucasian peoples. Cyrillic: хачик, Latin: hachik",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "хач",
-      "romanized": "hach",
       "severity": 4,
       "categories": [
         "slurs",
@@ -3198,13 +2586,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Caucasian slur (short form). Cyrillic: хач, Latin: hach",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "чурка",
-      "romanized": "churka",
       "severity": 4,
       "categories": [
         "slurs",
@@ -3215,13 +2600,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory for Central Asian peoples. Cyrillic: чурка, Latin: churka",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "черножопый",
-      "romanized": "chernozhopyi",
       "severity": 4,
       "categories": [
         "slurs",
@@ -3232,13 +2614,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Black-assed (racist slur). Cyrillic: черножопый, Latin: chernozhopyi",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "чучмек",
-      "romanized": "chuchmek",
       "severity": 4,
       "categories": [
         "slurs",
@@ -3249,13 +2628,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Central Asian slur. Cyrillic: чучмек, Latin: chuchmek",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "узбек",
-      "romanized": "uzbek",
       "severity": 2,
       "categories": [
         "slurs"
@@ -3265,13 +2641,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Can be neutral or slur depending on context. Cyrillic: узбек, Latin: uzbek",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "жид",
-      "romanized": "zhid",
       "severity": 4,
       "categories": [
         "slurs",
@@ -3282,13 +2655,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Kike/Yid (anti-Semitic slur). Cyrillic: жид, Latin: zhid",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "москаль",
-      "romanized": "moskal",
       "severity": 2,
       "categories": [
         "slurs"
@@ -3298,13 +2668,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory for Russians (used by Ukrainians). Cyrillic: москаль, Latin: moskal'",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "хохол",
-      "romanized": "hohol",
       "severity": 2,
       "categories": [
         "slurs"
@@ -3314,13 +2681,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory for Ukrainians (used by Russians). Cyrillic: хохол, Latin: hohol",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "пидор",
-      "romanized": "pidor",
       "severity": 3,
       "categories": [
         "slurs",
@@ -3331,13 +2695,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Faggot (homophobic slur). Cyrillic: пидор, Latin: pidor",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "пидорас",
-      "romanized": "pidoras",
       "severity": 3,
       "categories": [
         "slurs",
@@ -3348,13 +2709,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Faggot (augmentative). Cyrillic: пидорас, Latin: pidoras",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "пидорасня",
-      "romanized": "pidorasnya",
       "severity": 4,
       "categories": [
         "slurs",
@@ -3365,13 +2723,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Faggotry (collective). Cyrillic: пидорасня, Latin: pidorasnya",
-      "target_type": "group",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "group"
     },
     {
       "word": "педрила",
-      "romanized": "pedrila",
       "severity": 3,
       "categories": [
         "slurs",
@@ -3382,13 +2737,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Faggot (variant). Cyrillic: педрила, Latin: pedrila",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "гомик",
-      "romanized": "gomik",
       "severity": 2,
       "categories": [
         "slurs"
@@ -3398,13 +2750,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Homo (diminutive, derogatory). Cyrillic: гомик, Latin: gomik",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "гомосек",
-      "romanized": "gomosek",
       "severity": 2,
       "categories": [
         "slurs"
@@ -3414,13 +2763,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Homosexual (derogatory). Cyrillic: гомосек, Latin: gomosek",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "петух",
-      "romanized": "petuh",
       "severity": 3,
       "categories": [
         "slurs"
@@ -3430,13 +2776,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Rooster/prison bitch (prison slang, homophobic). Cyrillic: петух, Latin: petuh",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "лесбиянка",
-      "romanized": "lesbianka",
       "severity": 1,
       "categories": [
         "slurs"
@@ -3446,13 +2789,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Lesbian (can be neutral or slur). Cyrillic: лесбиянка, Latin: lesbianka",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "вор",
-      "romanized": "vor",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -3462,13 +2802,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Thief (neutral, but prison context). Cyrillic: вор, Latin: vor",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "зек",
-      "romanized": "zek",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -3478,13 +2815,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Convict (from Soviet Gulag). Cyrillic: зек, Latin: zek",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "мусор",
-      "romanized": "musor",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -3494,13 +2828,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Trash/cop (derogatory). Cyrillic: мусор, Latin: musor",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "легавый",
-      "romanized": "legavyi",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -3510,13 +2841,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Cop (derogatory, literally 'hound dog'). Cyrillic: легавый, Latin: legavyi",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "фраер",
-      "romanized": "fraer",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -3526,13 +2854,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Sucker/civilian (prison slang). Cyrillic: фраер, Latin: fraer",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "шестёрка",
-      "romanized": "shestyorka",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -3542,13 +2867,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Errand boy (criminal hierarchy). Cyrillic: шестёрка, Latin: shestyorka",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "чушка",
-      "romanized": "chushka",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -3558,13 +2880,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Pig/filthy person. Cyrillic: чушка, Latin: chushka",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "жаба",
-      "romanized": "zhaba",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -3575,13 +2894,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Toad/ugly woman. Cyrillic: жаба, Latin: zhaba",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "кабан",
-      "romanized": "kaban",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -3591,13 +2907,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Boar/fat man. Cyrillic: кабан, Latin: kaban",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "кобыла",
-      "romanized": "kobyla",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -3608,13 +2921,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Mare/big woman. Cyrillic: кобыла, Latin: kobyla",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "корова",
-      "romanized": "korova",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -3625,13 +2935,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Cow/fat woman. Cyrillic: корова, Latin: korova",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "лох",
-      "romanized": "loh",
       "severity": 2,
       "categories": [
         "derogatory"
@@ -3641,13 +2948,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Sucker/loser. Cyrillic: лох, Latin: loh",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "мразь",
-      "romanized": "mraz",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -3657,13 +2961,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Scum/vermin. Cyrillic: мразь, Latin: mraz'",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "мымра",
-      "romanized": "mymra",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -3674,13 +2975,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Ugly old woman. Cyrillic: мымра, Latin: mymra",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "тварь",
-      "romanized": "tvar",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -3690,13 +2988,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Creature/bastard. Cyrillic: тварь, Latin: tvar'",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "ублюдина",
-      "romanized": "ublyudina",
       "severity": 3,
       "categories": [
         "derogatory"
@@ -3706,13 +3001,10 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Big bastard (augmentative). Cyrillic: ублюдина, Latin: ublyudina",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     },
     {
       "word": "ухарь",
-      "romanized": "uhar",
       "severity": 1,
       "categories": [
         "derogatory"
@@ -3722,31 +3014,9 @@ export const RU: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Daredevil (can be negative). Cyrillic: ухарь, Latin: uhar'",
-      "target_type": "individual",
-      "regional_variants": [],
-      "mat_classification": "non_mat"
+      "target_type": "individual"
     }
-  ],
-  categories: {
-  "mat_system": "Мат (Mat System)",
-  "soviet_legacy": "Soviet-era Profanity",
-  "general": "General Profanity",
-  "scatological": "Scatological Terms",
-  "sexual": "Sexual Content",
-  "derogatory": "Derogatory Terms",
-  "gender_specific": "Gender-Specific Insults",
-  "anatomical": "Anatomical References",
-  "ethnic_regional": "Ethnic and Regional Slurs",
-  "religious": "Religious Profanity",
-  "borrowed_profanity": "Borrowed Profanity",
-  "internet_culture": "Internet Culture Profanity"
-},
-  severity: {
-  "1": 1,
-  "2": 2,
-  "3": 3,
-  "4": 4
-},
-  variations: {},
-  context: {}
-} as const;
+  ]
+} as const
+
+export type RUType = typeof RU

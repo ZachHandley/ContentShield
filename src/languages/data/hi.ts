@@ -1,27 +1,24 @@
 /**
- * Hindi (HI) Language Data
- * Auto-generated from JSON data on 2025-10-01
+ * Hindi profanity data
+ * Auto-generated from JSON files - DO NOT EDIT MANUALLY
  *
- * Total entries: 101
+ * Language: Hindi
  * Version: 1.0.0
- * Last updated: 2025-09-30
+ * Last Updated: 2025-09-30
+ * Total Entries: 101
  */
 
-import type { LanguageData } from '../language-loader.js';
-
-export const HI: LanguageData = {
-  metadata: {
-  "name": "Hindi",
-  "code": "hi",
-  "version": "1.0.0",
-  "wordCount": 101,
-  "lastUpdated": "2025-09-30",
-  "contributors": []
-},
-  profanity: [
+export const HI = {
+  "metadata": {
+    "name": "Hindi",
+    "code": "hi",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-30",
+    "wordCount": 101
+  },
+  "words": [
     {
       "word": "बहन की चूत",
-      "romanized": "bahan ki choot",
       "severity": 4,
       "categories": [
         "family_honor",
@@ -38,7 +35,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "बहनचोद",
-      "romanized": "bahenchod",
       "severity": 4,
       "categories": [
         "sexual",
@@ -54,20 +50,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Sister-fucker, extremely severe family and sexual insult",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "very_common",
-        "delhi_region": "extremely_common",
-        "bihar_up": "very_common",
-        "punjabi_region": "common",
-        "mumbai": "common"
-      },
-      "cultural_sensitivity": "extreme",
-      "hinglish_mixing": "commonly abbreviated as BC in English text"
+      "target_type": "individual"
     },
     {
       "word": "भोसड़ी के",
-      "romanized": "bhosadi ke",
       "severity": 4,
       "categories": [
         "sexual",
@@ -83,20 +69,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Cunt-related insult, extremely vulgar reference to female genitalia",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "very_common",
-        "delhi_region": "extremely_common",
-        "bihar_up": "very_common",
-        "punjabi_influence": "common",
-        "south_india": "less_common"
-      },
-      "cultural_sensitivity": "extreme",
-      "hinglish_mixing": "sometimes written as BK in English"
+      "target_type": "individual"
     },
     {
       "word": "भोसड़ी बगान",
-      "romanized": "bhosdi bagan",
       "severity": 4,
       "categories": [
         "sexual"
@@ -111,7 +87,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "बूर",
-      "romanized": "bur",
       "severity": 4,
       "categories": [
         "sexual"
@@ -128,7 +103,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चोद",
-      "romanized": "chod",
       "severity": 4,
       "categories": [
         "family_honor",
@@ -147,7 +121,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चोदना",
-      "romanized": "chodna",
       "severity": 4,
       "categories": [
         "family_honor",
@@ -165,7 +138,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चोदू",
-      "romanized": "chodu",
       "severity": 4,
       "categories": [
         "family_honor",
@@ -183,7 +155,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चूत",
-      "romanized": "choot",
       "severity": 4,
       "categories": [
         "sexual"
@@ -201,7 +172,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चुदाई",
-      "romanized": "chudai",
       "severity": 4,
       "categories": [
         "sexual"
@@ -218,7 +188,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चुदवाने",
-      "romanized": "chudwane",
       "severity": 4,
       "categories": [
         "sexual"
@@ -234,7 +203,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चुतमारिके",
-      "romanized": "chutmarike",
       "severity": 4,
       "categories": [
         "sexual"
@@ -249,7 +217,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "गांड मरा",
-      "romanized": "gaand mara",
       "severity": 4,
       "categories": [
         "sexual"
@@ -265,7 +232,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "लंड चूस",
-      "romanized": "lund choos",
       "severity": 4,
       "categories": [
         "sexual"
@@ -281,7 +247,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "माँ चुदा",
-      "romanized": "maa chuda",
       "severity": 4,
       "categories": [
         "family_honor",
@@ -298,7 +263,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "मां का भोसड़ा",
-      "romanized": "maa ka bhosda",
       "severity": 4,
       "categories": [
         "family_honor",
@@ -315,7 +279,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "मादरचोद",
-      "romanized": "madarchod",
       "severity": 4,
       "categories": [
         "sexual",
@@ -332,20 +295,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Motherfucker, most severe Hindi insult combining family and sexual abuse",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "extremely_common",
-        "delhi_region": "very_common",
-        "bihar_up": "extremely_common",
-        "mumbai": "common",
-        "south_india": "known_but_less_common"
-      },
-      "cultural_sensitivity": "extreme",
-      "hinglish_mixing": "often abbreviated as MC in English contexts"
+      "target_type": "individual"
     },
     {
       "word": "रांड",
-      "romanized": "raand",
       "severity": 4,
       "categories": [
         "sexual",
@@ -360,19 +313,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Widow turned prostitute, extremely derogatory for women, historical context",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "very_offensive",
-        "traditional_areas": "extremely_taboo",
-        "historical_usage": "caste_and_class_implications",
-        "modern_usage": "declining_but_still_severe"
-      },
-      "cultural_sensitivity": "extreme",
-      "hinglish_mixing": "rarely used in English contexts due to severity"
+      "target_type": "individual"
     },
     {
       "word": "रंडी",
-      "romanized": "randi",
       "severity": 4,
       "categories": [
         "sexual",
@@ -388,20 +332,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Whore/prostitute, extremely derogatory term for women",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "common",
-        "delhi_region": "common",
-        "bihar_up": "very_common",
-        "punjabi_region": "common",
-        "mumbai": "moderate"
-      },
-      "cultural_sensitivity": "extreme",
-      "hinglish_mixing": "often mixed with English expletives"
+      "target_type": "individual"
     },
     {
       "word": "रंडी का बच्चा",
-      "romanized": "randi ka baccha",
       "severity": 4,
       "categories": [
         "sexual"
@@ -416,7 +350,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "साली रंडी",
-      "romanized": "saali randi",
       "severity": 4,
       "categories": [
         "sexual"
@@ -432,7 +365,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "भड़वा",
-      "romanized": "bhadwa",
       "severity": 3,
       "categories": [
         "sexual",
@@ -447,19 +379,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Pimp, male who exploits women sexually, implies moral corruption",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "common",
-        "delhi_region": "frequently_used",
-        "bihar_up": "common",
-        "urban_areas": "well_understood"
-      },
-      "cultural_sensitivity": "high",
-      "hinglish_mixing": "sometimes used in English contexts"
+      "target_type": "individual"
     },
     {
       "word": "भड़वे",
-      "romanized": "bhadwe",
       "severity": 3,
       "categories": [
         "slurs"
@@ -475,7 +398,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "छक्का",
-      "romanized": "chakka",
       "severity": 3,
       "categories": [
         "homophobic",
@@ -490,19 +412,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term for homosexual/transgender, implies effeminacy",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "common_but_declining",
-        "youth_awareness": "increasingly_recognized_as_offensive",
-        "urban_areas": "sensitivity_increasing",
-        "traditional_usage": "still_common"
-      },
-      "cultural_sensitivity": "very_high_lgbtq",
-      "hinglish_mixing": "sometimes used in discriminatory English contexts"
+      "target_type": "individual"
     },
     {
       "word": "छिनाल",
-      "romanized": "chhinal",
       "severity": 3,
       "categories": [
         "sexual"
@@ -518,7 +431,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चूचे",
-      "romanized": "chooche",
       "severity": 3,
       "categories": [
         "slurs"
@@ -535,7 +447,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चूतड़",
-      "romanized": "chutad",
       "severity": 3,
       "categories": [
         "slurs"
@@ -551,7 +462,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चूतिया",
-      "romanized": "chutiya",
       "severity": 3,
       "categories": [
         "sexual",
@@ -567,20 +477,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Cunt-related insult, implies stupidity through sexual organ reference",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "extremely_common",
-        "delhi_region": "very_common",
-        "bihar_up": "extremely_common",
-        "mumbai": "common",
-        "punjabi_region": "common"
-      },
-      "cultural_sensitivity": "high",
-      "hinglish_mixing": "very common in urban settings"
+      "target_type": "individual"
     },
     {
       "word": "चूतिए",
-      "romanized": "chutiye",
       "severity": 3,
       "categories": [
         "sexual"
@@ -596,7 +496,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "डफली",
-      "romanized": "dafli",
       "severity": 3,
       "categories": [
         "slurs"
@@ -611,7 +510,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "गांड",
-      "romanized": "gaand",
       "severity": 3,
       "categories": [
         "slurs"
@@ -628,7 +526,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "गांड फट",
-      "romanized": "gaand phat",
       "severity": 3,
       "categories": [
         "slurs"
@@ -644,7 +541,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "गांडिया",
-      "romanized": "gandiya",
       "severity": 3,
       "categories": [
         "slurs"
@@ -660,7 +556,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "गांडिये",
-      "romanized": "gandiye",
       "severity": 3,
       "categories": [
         "slurs"
@@ -675,7 +570,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "गांडू",
-      "romanized": "gandu",
       "severity": 3,
       "categories": [
         "sexual",
@@ -691,20 +585,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Asshole/gay insult, refers to anal anatomy with homophobic connotations",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "very_common",
-        "delhi_region": "extremely_common",
-        "bihar_up": "very_common",
-        "mumbai": "common",
-        "youth_culture": "widespread"
-      },
-      "cultural_sensitivity": "high",
-      "hinglish_mixing": "popular in urban youth Hinglish"
+      "target_type": "individual"
     },
     {
       "word": "घस्ती",
-      "romanized": "ghasti",
       "severity": 3,
       "categories": [
         "sexual"
@@ -721,7 +605,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "गोटे",
-      "romanized": "gote",
       "severity": 3,
       "categories": [
         "slurs"
@@ -737,7 +620,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "हरामी",
-      "romanized": "harami",
       "severity": 3,
       "categories": [
         "religious",
@@ -753,20 +635,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Bastard, illegitimate birth insult with religious/moral implications",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "very_common",
-        "muslim_areas": "particularly_offensive",
-        "delhi_region": "common",
-        "bihar_up": "very_common",
-        "punjabi_region": "common"
-      },
-      "cultural_sensitivity": "high_religious",
-      "hinglish_mixing": "used in both Hindi and Urdu contexts"
+      "target_type": "individual"
     },
     {
       "word": "हरामजादा",
-      "romanized": "haramzada",
       "severity": 3,
       "categories": [
         "slurs"
@@ -783,7 +655,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "हिजड़ा",
-      "romanized": "hijra",
       "severity": 3,
       "categories": [
         "lgbtq"
@@ -800,7 +671,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "झाट",
-      "romanized": "jhaat",
       "severity": 3,
       "categories": [
         "slurs"
@@ -817,7 +687,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "कमजात",
-      "romanized": "kamjat",
       "severity": 3,
       "categories": [
         "caste"
@@ -833,7 +702,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "कंजर",
-      "romanized": "kanjar",
       "severity": 3,
       "categories": [
         "sexual",
@@ -850,7 +718,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "कुत्ते की औलाद",
-      "romanized": "kutte ki aulad",
       "severity": 3,
       "categories": [
         "slurs"
@@ -865,7 +732,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "कुत्ती",
-      "romanized": "kutti",
       "severity": 3,
       "categories": [
         "animal_insult",
@@ -880,19 +746,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Female dog/bitch, specifically targeting women with animal comparison",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "very_common",
-        "gender_specific": "particularly_offensive_to_women",
-        "youth_culture": "frequently_used",
-        "urban_areas": "common"
-      },
-      "cultural_sensitivity": "high_gender",
-      "hinglish_mixing": "often mixed with English 'bitch'"
+      "target_type": "individual"
     },
     {
       "word": "लौड़ा",
-      "romanized": "lauda",
       "severity": 3,
       "categories": [
         "anatomical",
@@ -908,20 +765,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Penis, male anatomical reference used as general insult",
-      "target_type": "general",
-      "regional_usage": {
-        "northern_hindi": "very_common",
-        "bihar_up": "extremely_common",
-        "delhi_region": "common",
-        "rural_areas": "very_common",
-        "mumbai": "moderate"
-      },
-      "cultural_sensitivity": "high",
-      "hinglish_mixing": "sometimes mixed with English expressions"
+      "target_type": "general"
     },
     {
       "word": "लौड़े पे",
-      "romanized": "laude pe",
       "severity": 3,
       "categories": [
         "sexual"
@@ -937,7 +784,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "लोडू",
-      "romanized": "lodu",
       "severity": 3,
       "categories": [
         "sexual"
@@ -954,7 +800,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "वेश्या",
-      "romanized": "veshya",
       "severity": 3,
       "categories": [
         "sexual"
@@ -970,7 +815,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "बदतमीज",
-      "romanized": "badtameez",
       "severity": 2,
       "categories": [
         "slurs"
@@ -986,7 +830,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "बकचोद",
-      "romanized": "bakchod",
       "severity": 2,
       "categories": [
         "family_honor",
@@ -1004,7 +847,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "बकलंड",
-      "romanized": "bakland",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1020,7 +862,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "बेवकूफ",
-      "romanized": "bewakoof",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1039,7 +880,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "बेवड़ा",
-      "romanized": "bewda",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1057,7 +897,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चल भाग",
-      "romanized": "chal bhag",
       "severity": 2,
       "categories": [
         "sexual",
@@ -1074,7 +913,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चरसी",
-      "romanized": "charsi",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1090,7 +928,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "गंदी",
-      "romanized": "gandi",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1107,7 +944,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "गंवार",
-      "romanized": "ganwar",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1123,7 +959,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "गू",
-      "romanized": "goo",
       "severity": 2,
       "categories": [
         "scatological"
@@ -1139,7 +974,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "गुस्ताख",
-      "romanized": "gustakh",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1155,7 +989,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "हग",
-      "romanized": "hag",
       "severity": 2,
       "categories": [
         "scatological"
@@ -1172,7 +1005,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "हगना",
-      "romanized": "hagna",
       "severity": 2,
       "categories": [
         "scatological"
@@ -1188,7 +1020,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "जाहिल",
-      "romanized": "jahil",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1204,7 +1035,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "जंगली",
-      "romanized": "jangli",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1220,7 +1050,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "कमीना",
-      "romanized": "kameena",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1235,19 +1064,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Scoundrel, mean person, character attack without specific vulgarity",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "very_common",
-        "bollywood": "frequent_usage",
-        "all_regions": "widely_understood",
-        "formal_tolerance": "somewhat_acceptable"
-      },
-      "cultural_sensitivity": "moderate",
-      "hinglish_mixing": "popular in Bollywood and casual speech"
+      "target_type": "individual"
     },
     {
       "word": "कमीने",
-      "romanized": "kamine",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1263,7 +1083,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "कूड़ा",
-      "romanized": "kooda",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1279,7 +1098,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "कुत्ता",
-      "romanized": "kutta",
       "severity": 2,
       "categories": [
         "animal_insult",
@@ -1295,20 +1113,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Dog, common insult implying low status, cowardice, or servility",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "extremely_common",
-        "delhi_region": "very_common",
-        "bihar_up": "extremely_common",
-        "all_regions": "universally_understood",
-        "rural_areas": "very_common"
-      },
-      "cultural_sensitivity": "moderate",
-      "hinglish_mixing": "often used with English: 'kutta hai' (he's a dog)"
+      "target_type": "individual"
     },
     {
       "word": "कुत्ते का बच्चा",
-      "romanized": "kutte ka baccha",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1323,7 +1131,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "मरना",
-      "romanized": "marna",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1339,7 +1146,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "मूत",
-      "romanized": "moot",
       "severity": 2,
       "categories": [
         "scatological"
@@ -1356,7 +1162,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "मूतना",
-      "romanized": "mootna",
       "severity": 2,
       "categories": [
         "scatological"
@@ -1372,7 +1177,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "नालायक",
-      "romanized": "nalayak",
       "severity": 2,
       "categories": [
         "derogatory",
@@ -1387,19 +1191,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Worthless, useless person, often used by parents for children",
-      "target_type": "individual",
-      "regional_usage": {
-        "all_regions": "commonly_understood",
-        "family_usage": "parent_to_child_common",
-        "bollywood": "frequent_usage",
-        "emotional_context": "disappointment_expression"
-      },
-      "cultural_sensitivity": "moderate",
-      "hinglish_mixing": "common in family contexts"
+      "target_type": "individual"
     },
     {
       "word": "नालायकी",
-      "romanized": "nalayaki",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1415,7 +1210,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "नशेड़ी",
-      "romanized": "nashedi",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1431,7 +1225,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "नीच",
-      "romanized": "neech",
       "severity": 2,
       "categories": [
         "caste"
@@ -1447,7 +1240,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "पाद",
-      "romanized": "paad",
       "severity": 2,
       "categories": [
         "scatological"
@@ -1464,7 +1256,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "पेशाब",
-      "romanized": "peshab",
       "severity": 2,
       "categories": [
         "scatological"
@@ -1480,7 +1271,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "पेशाबी",
-      "romanized": "peshabee",
       "severity": 2,
       "categories": [
         "scatological"
@@ -1496,7 +1286,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "फूहड़",
-      "romanized": "phuhar",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1512,7 +1301,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "साला",
-      "romanized": "saala",
       "severity": 2,
       "categories": [
         "family_insult",
@@ -1527,19 +1315,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Brother-in-law, mild family-related insult, very common",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "extremely_common",
-        "all_regions": "universally_understood",
-        "bollywood": "popularized_through_films",
-        "casual_usage": "widely_accepted"
-      },
-      "cultural_sensitivity": "low_to_moderate",
-      "hinglish_mixing": "extremely common in Hinglish expressions"
+      "target_type": "individual"
     },
     {
       "word": "सुअर",
-      "romanized": "suar",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1556,7 +1335,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "टट्टी",
-      "romanized": "tatti",
       "severity": 2,
       "categories": [
         "scatological"
@@ -1573,7 +1351,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "ठरकी",
-      "romanized": "tharki",
       "severity": 2,
       "categories": [
         "slurs"
@@ -1589,7 +1366,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "बदमाश",
-      "romanized": "badmash",
       "severity": 1,
       "categories": [
         "derogatory",
@@ -1604,19 +1380,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Rascal, mischievous person, relatively mild character insult",
-      "target_type": "individual",
-      "regional_usage": {
-        "northern_hindi": "very_common",
-        "all_regions": "universally_understood",
-        "children": "often_used_playfully",
-        "bollywood": "romanticized_usage"
-      },
-      "cultural_sensitivity": "low",
-      "hinglish_mixing": "commonly used in English contexts"
+      "target_type": "individual"
     },
     {
       "word": "बकवास",
-      "romanized": "bakwas",
       "severity": 1,
       "categories": [
         "scatological"
@@ -1632,7 +1399,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "भक",
-      "romanized": "bhak",
       "severity": 1,
       "categories": [
         "slurs"
@@ -1648,7 +1414,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "भोंडा",
-      "romanized": "bhonda",
       "severity": 1,
       "categories": [
         "slurs"
@@ -1664,7 +1429,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "चप्पल",
-      "romanized": "chappal",
       "severity": 1,
       "categories": [
         "slurs"
@@ -1680,7 +1444,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "छी",
-      "romanized": "chhi",
       "severity": 1,
       "categories": [
         "slurs"
@@ -1697,7 +1460,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "देहाती",
-      "romanized": "dehati",
       "severity": 1,
       "categories": [
         "slurs"
@@ -1713,7 +1475,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "धक्का",
-      "romanized": "dhakka",
       "severity": 1,
       "categories": [
         "slurs"
@@ -1729,7 +1490,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "फालतू",
-      "romanized": "faltu",
       "severity": 1,
       "categories": [
         "slurs"
@@ -1746,7 +1506,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "गधा",
-      "romanized": "gadha",
       "severity": 1,
       "categories": [
         "animal_insult",
@@ -1761,19 +1520,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Donkey, implies stupidity, very common mild insult",
-      "target_type": "individual",
-      "regional_usage": {
-        "all_regions": "universally_common",
-        "rural_areas": "extremely_common",
-        "children": "frequently_used",
-        "educational": "sometimes_acceptable"
-      },
-      "cultural_sensitivity": "very_low",
-      "hinglish_mixing": "often used in English sentences"
+      "target_type": "individual"
     },
     {
       "word": "गंदगी",
-      "romanized": "gandagi",
       "severity": 1,
       "categories": [
         "slurs"
@@ -1789,7 +1539,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "घटिया",
-      "romanized": "ghatiya",
       "severity": 1,
       "categories": [
         "caste"
@@ -1805,7 +1554,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "हट",
-      "romanized": "hatt",
       "severity": 1,
       "categories": [
         "slurs"
@@ -1821,7 +1569,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "जूता",
-      "romanized": "joota",
       "severity": 1,
       "categories": [
         "slurs"
@@ -1837,7 +1584,6 @@ export const HI: LanguageData = {
     },
     {
       "word": "मूर्ख",
-      "romanized": "murkh",
       "severity": 1,
       "categories": [
         "intelligence",
@@ -1852,19 +1598,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Fool/idiot, formal term for lack of intelligence",
-      "target_type": "individual",
-      "regional_usage": {
-        "formal_hindi": "appropriate_usage",
-        "educational": "academically_acceptable",
-        "all_regions": "understood",
-        "literature": "classical_usage"
-      },
-      "cultural_sensitivity": "very_low",
-      "hinglish_mixing": "less common in English mixing"
+      "target_type": "individual"
     },
     {
       "word": "पागल",
-      "romanized": "pagal",
       "severity": 1,
       "categories": [
         "mental_health",
@@ -1879,19 +1616,10 @@ export const HI: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Crazy/mad, mild insult questioning sanity, can be playful",
-      "target_type": "individual",
-      "regional_usage": {
-        "all_regions": "universally_common",
-        "bollywood": "romanticized_usage",
-        "casual_friendship": "often_playful",
-        "youth_culture": "common_expression"
-      },
-      "cultural_sensitivity": "low",
-      "hinglish_mixing": "extremely common in casual English conversation"
+      "target_type": "individual"
     },
     {
       "word": "उल्लू का पट्ठा",
-      "romanized": "ullu ka pattha",
       "severity": 1,
       "categories": [
         "slurs"
@@ -1905,28 +1633,7 @@ export const HI: LanguageData = {
       "context_notes": "उल्लू का पट्ठा (ullu ka pattha): Son of an owl/Idiot",
       "target_type": "individual"
     }
-  ],
-  categories: {
-  "family_insults": "Family Honor Attacks",
-  "sexual": "Sexual Content",
-  "anatomical": "Anatomical References",
-  "derogatory": "General Derogatory Terms",
-  "animal_insults": "Animal-Based Insults",
-  "religious_blasphemy": "Religious Profanity",
-  "caste_discrimination": "Caste-Based Discrimination",
-  "regional_ethnic": "Regional and Ethnic Slurs",
-  "gender_specific": "Gender-Specific Insults",
-  "lgbtq_discrimination": "LGBTQ+ Discrimination",
-  "mental_health": "Mental Health Stigmatization",
-  "hinglish_modern": "Modern Hinglish Profanity",
-  "traditional_formal": "Traditional Formal Insults"
-},
-  severity: {
-  "1": 1,
-  "2": 2,
-  "3": 3,
-  "4": 4
-},
-  variations: {},
-  context: {}
-} as const;
+  ]
+} as const
+
+export type HIType = typeof HI

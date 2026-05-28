@@ -178,8 +178,9 @@ export class LanguageLoader {
       let data: LanguageData
 
       // Priority 1: Check for static language data first
-      if (this.staticLanguageData?.[language]) {
-        data = await this.loadFromStaticData(this.staticLanguageData[language]!)
+      const staticEntry = this.staticLanguageData?.[language]
+      if (staticEntry) {
+        data = await this.loadFromStaticData(staticEntry)
       } else {
         // Priority 2: Fall back to JSON file loading
         const languageDir = path.join(this.options.dataPath, language)
@@ -248,7 +249,7 @@ export class LanguageLoader {
 
       // Add variations if present
       if (entry.variations && entry.variations.length > 0) {
-        variations[word] = entry.variations
+        variations[word] = [...entry.variations]
       }
     }
 
@@ -263,11 +264,11 @@ export class LanguageLoader {
       } = {
         word: entry.word,
         severity: entry.severity,
-        categories: entry.categories
+        categories: [...entry.categories]
       }
 
       if (entry.variations) {
-        item.variations = entry.variations
+        item.variations = [...entry.variations]
       }
 
       if (entry.context_notes) {
@@ -277,8 +278,11 @@ export class LanguageLoader {
       return item
     })
 
+    const { contributors, ...metaRest } = staticData.metadata
     return {
-      metadata: staticData.metadata,
+      metadata: contributors
+        ? { ...metaRest, contributors: [...contributors] }
+        : { ...metaRest },
       profanity,
       categories,
       severity,

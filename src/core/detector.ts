@@ -5,7 +5,6 @@ import type {
   AnalysisOptions,
   LanguageCode,
   CustomWord,
-  StaticLanguageData,
 } from '../types/index.js'
 import { SeverityLevel, FilterMode } from '../types/index.js'
 import { DEFAULT_DETECTOR_CONFIG } from '../config/default-config.js'
@@ -55,7 +54,7 @@ export class ContentShieldDetector {
           await this.matcher.loadLanguage(langCode, words)
         } else {
           // Priority 2: Use static LANGUAGE_DATA imports
-          const langData = LANGUAGE_DATA[langCode as keyof typeof LANGUAGE_DATA] as unknown as StaticLanguageData | undefined
+          const langData = LANGUAGE_DATA[langCode]
           if (langData?.words) {
             await this.matcher.loadLanguage(langCode, langData.words)
           } else {
@@ -612,7 +611,7 @@ export class ContentShieldDetector {
     }
 
     // Use static LANGUAGE_DATA imports
-    const langData = LANGUAGE_DATA[language as keyof typeof LANGUAGE_DATA] as unknown as StaticLanguageData | undefined
+    const langData = LANGUAGE_DATA[language]
 
     if (langData?.words) {
       await this.matcher.loadLanguage(language, langData.words)

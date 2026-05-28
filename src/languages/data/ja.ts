@@ -1,27 +1,24 @@
 /**
- * Japanese (JA) Language Data
- * Auto-generated from JSON data on 2025-10-01
+ * Japanese profanity data
+ * Auto-generated from JSON files - DO NOT EDIT MANUALLY
  *
- * Total entries: 247
+ * Language: Japanese
  * Version: 1.0.0
- * Last updated: 2025-09-30
+ * Last Updated: 2025-09-30
+ * Total Entries: 135
  */
 
-import type { LanguageData } from '../language-loader.js';
-
-export const JA: LanguageData = {
-  metadata: {
-  "name": "Japanese",
-  "code": "ja",
-  "version": "1.0.0",
-  "wordCount": 247,
-  "lastUpdated": "2025-09-30",
-  "contributors": []
-},
-  profanity: [
+export const JA = {
+  "metadata": {
+    "name": "Japanese",
+    "code": "ja",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-30",
+    "wordCount": 135
+  },
+  "words": [
     {
       "word": "馬鹿",
-      "romanized": "baka",
       "severity": 1,
       "categories": [
         "general",
@@ -36,12 +33,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Common mild insult meaning 'stupid' or 'idiot', widely used in anime/manga. Hiragana: ばか, Katakana: バカ, Kanji: 馬鹿, Romaji: baka",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "馬鹿野郎",
-      "romanized": "bakayarou",
       "severity": 2,
       "categories": [
         "general",
@@ -54,12 +49,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Stronger version meaning 'stupid bastard'. Hiragana: ばかやろう, Katakana: バカヤロウ, Kanji: 馬鹿野郎, Romaji: bakayarou",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "大馬鹿",
-      "romanized": "oobaka",
       "severity": 2,
       "categories": [
         "general",
@@ -71,12 +64,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Intensified form meaning 'big idiot'. Hiragana: おおばか, Kanji: 大馬鹿, Romaji: oobaka",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "馬鹿たれ",
-      "romanized": "bakatare",
       "severity": 2,
       "categories": [
         "general",
@@ -88,12 +79,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Variant meaning 'stupid fool'. Hiragana: ばかたれ, Kanji: 馬鹿たれ, Romaji: bakatare",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "糞",
-      "romanized": "kuso",
       "severity": 2,
       "categories": [
         "general",
@@ -107,12 +96,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Meaning 'shit' or 'damn', commonly used as intensifier. Hiragana: くそ, Katakana: クソ, Kanji: 糞, Romaji: kuso",
-      "target_type": "general",
-      "formality_level": "very_casual"
+      "target_type": "general"
     },
     {
       "word": "クソ食らえ",
-      "romanized": "kuso kurae",
       "severity": 3,
       "categories": [
         "scatological",
@@ -124,12 +111,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Strong insult meaning 'eat shit'. Hiragana: くそくらえ, Katakana: クソ食らえ, Romaji: kuso kurae",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "クソ野郎",
-      "romanized": "kusoyarou",
       "severity": 3,
       "categories": [
         "general",
@@ -141,12 +126,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Compound profanity meaning 'piece of shit'. Hiragana: くそやろう, Katakana/Mixed: クソ野郎, Romaji: kusoyarou",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "畜生",
-      "romanized": "chikushou",
       "severity": 2,
       "categories": [
         "general",
@@ -160,12 +143,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Buddhist term meaning 'beast', used as curse word. Hiragana: ちくしょう, Katakana: チクショウ, Kanji: 畜生, Romaji: chikushou",
-      "target_type": "general",
-      "formality_level": "casual"
+      "target_type": "general"
     },
     {
       "word": "阿呆",
-      "romanized": "aho",
       "severity": 1,
       "categories": [
         "general",
@@ -179,12 +160,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Kansai dialect equivalent of 'baka', slightly stronger in Tokyo. Hiragana: あほう, Katakana: アホ, Kanji: 阿呆, Romaji: aho",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "阿呆たれ",
-      "romanized": "ahotare",
       "severity": 2,
       "categories": [
         "general",
@@ -196,12 +175,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Kansai variant meaning 'stupid fool'. Hiragana: あほたれ, Kanji: 阿呆たれ, Romaji: ahotare",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "くたばれ",
-      "romanized": "kutabare",
       "severity": 3,
       "categories": [
         "violence",
@@ -213,12 +190,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vulgar command meaning 'drop dead' or 'croak'. Hiragana: くたばれ, Katakana: クタバレ, Romaji: kutabare",
-      "target_type": "individual",
-      "formality_level": "very_rude"
+      "target_type": "individual"
     },
     {
       "word": "ざけんな",
-      "romanized": "zakenna",
       "severity": 2,
       "categories": [
         "general",
@@ -229,12 +204,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Aggressive phrase meaning 'bullshit' or 'don't mess with me'. Hiragana: ざけんな, Romaji: zakenna",
-      "target_type": "individual",
-      "formality_level": "very_rude"
+      "target_type": "individual"
     },
     {
       "word": "ふざけるな",
-      "romanized": "fuzakeru na",
       "severity": 2,
       "categories": [
         "general",
@@ -247,12 +220,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Command meaning 'don't mess with me' or 'stop joking around'. Hiragana: ふざけるな/ふざけんな, Romaji: fuzakeru na",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "間抜け",
-      "romanized": "manuke",
       "severity": 1,
       "categories": [
         "general",
@@ -265,12 +236,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'fool' or 'clueless'. Hiragana: まぬけ, Katakana: マヌケ, Kanji: 間抜け, Romaji: manuke",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "ボケ",
-      "romanized": "boke",
       "severity": 1,
       "categories": [
         "general",
@@ -282,12 +251,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Kansai term meaning 'fool' or 'stupid', used in comedy. Hiragana: ぼけ, Katakana: ボケ, Romaji: boke",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "とんま",
-      "romanized": "tonma",
       "severity": 1,
       "categories": [
         "general",
@@ -299,12 +266,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'blockhead' or 'fool'. Hiragana: とんま, Katakana: トンマ, Romaji: tonma",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "おたんこなす",
-      "romanized": "otankonasu",
       "severity": 1,
       "categories": [
         "general",
@@ -316,12 +281,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Playful insult meaning 'dummy' or 'birdbrain'. Hiragana: おたんこなす, Katakana: オタンコナス, Romaji: otankonasu",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "能無し",
-      "romanized": "nounashi",
       "severity": 2,
       "categories": [
         "general",
@@ -333,12 +296,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'incompetent' or 'useless'. Hiragana: のうなし, Kanji: 能無し, Romaji: nounashi",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "脳足りん",
-      "romanized": "nou tarin",
       "severity": 2,
       "categories": [
         "general",
@@ -350,12 +311,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'brainless' or 'not enough brains'. Hiragana: のうたりん, Kanji: 脳足りん, Romaji: nou tarin",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "のろま",
-      "romanized": "noroma",
       "severity": 1,
       "categories": [
         "general",
@@ -367,12 +326,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'slowpoke' or 'dunce'. Hiragana: のろま, Katakana: ノロマ, Romaji: noroma",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "低脳",
-      "romanized": "teinou",
       "severity": 2,
       "categories": [
         "general",
@@ -385,12 +342,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'low intelligence', ableist connotation. Hiragana: ていのう, Kanji: 低脳, Romaji: teinou",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "白痴",
-      "romanized": "hakuchi",
       "severity": 3,
       "categories": [
         "insult",
@@ -403,12 +358,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Medical term for mental disability used as severe insult. Hiragana: はくち, Katakana: ハクチ, Kanji: 白痴, Romaji: hakuchi",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "愚か者",
-      "romanized": "orokamono",
       "severity": 2,
       "categories": [
         "general",
@@ -420,12 +373,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Formal term meaning 'foolish person'. Hiragana: おろかもの, Kanji: 愚か者, Romaji: orokamono",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "ブス",
-      "romanized": "busu",
       "severity": 2,
       "categories": [
         "appearance",
@@ -437,12 +388,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term for ugly woman, quite hurtful. Hiragana: ぶす, Katakana: ブス, Romaji: busu",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "ブサイク",
-      "romanized": "busaiku",
       "severity": 2,
       "categories": [
         "appearance",
@@ -455,12 +404,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'ugly' or 'unattractive'. Hiragana: ぶさいく, Katakana: ブサイク, Kanji: 不細工, Romaji: busaiku",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "デブ",
-      "romanized": "debu",
       "severity": 2,
       "categories": [
         "appearance",
@@ -472,12 +419,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term for fat person, considered bullying. Hiragana: でぶ, Katakana: デブ, Romaji: debu",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "豚",
-      "romanized": "buta",
       "severity": 2,
       "categories": [
         "appearance",
@@ -490,12 +435,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'pig', used to insult overweight people. Hiragana: ぶた, Katakana: ブタ, Kanji: 豚, Romaji: buta",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "ゴリラ",
-      "romanized": "gorira",
       "severity": 2,
       "categories": [
         "appearance",
@@ -507,12 +450,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'gorilla', used for big or violent people. Hiragana: ごりら, Katakana: ゴリラ, Romaji: gorira",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "猿",
-      "romanized": "saru",
       "severity": 2,
       "categories": [
         "appearance",
@@ -525,12 +466,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'monkey', derogatory term. Hiragana: さる, Katakana: サル, Kanji: 猿, Romaji: saru",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "化け物",
-      "romanized": "bakemono",
       "severity": 2,
       "categories": [
         "appearance",
@@ -543,12 +482,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'monster' or 'freak'. Hiragana: ばけもの, Katakana: バケモノ, Kanji: 化け物, Romaji: bakemono",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "ハゲ",
-      "romanized": "hage",
       "severity": 2,
       "categories": [
         "appearance",
@@ -560,12 +497,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'baldy' or 'bald person'. Hiragana: はげ, Katakana: ハゲ, Romaji: hage",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "チビ",
-      "romanized": "chibi",
       "severity": 2,
       "categories": [
         "appearance",
@@ -577,12 +512,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'shorty' or 'small person'. Hiragana: ちび, Katakana: チビ, Romaji: chibi",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "醜い",
-      "romanized": "minikui",
       "severity": 2,
       "categories": [
         "appearance",
@@ -594,12 +527,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'ugly' or 'hideous'. Hiragana: みにくい, Kanji: 醜い, Romaji: minikui",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "きもい",
-      "romanized": "kimoi",
       "severity": 2,
       "categories": [
         "general",
@@ -614,12 +545,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Slang for 'gross' or 'disgusting', from 'kimochi warui'. Hiragana: きもい, Katakana: キモイ, Full form: 気持ち悪い, Romaji: kimoi",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "クサイ",
-      "romanized": "kusai",
       "severity": 1,
       "categories": [
         "appearance",
@@ -631,12 +560,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'smelly' or 'stinky'. Hiragana: くさい, Katakana: クサイ, Romaji: kusai",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "汚い",
-      "romanized": "kitanai",
       "severity": 1,
       "categories": [
         "appearance",
@@ -648,12 +575,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'dirty' or 'filthy'. Hiragana: きたない, Kanji: 汚い, Romaji: kitanai",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "貴様",
-      "romanized": "kisama",
       "severity": 3,
       "categories": [
         "general",
@@ -666,12 +591,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely rude pronoun 'you', was once respectful but became hostile. Hiragana: きさま, Katakana: キサマ, Kanji: 貴様, Romaji: kisama",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "手前",
-      "romanized": "temee",
       "severity": 3,
       "categories": [
         "general",
@@ -684,12 +607,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hostile pronoun meaning 'you bastard'. Hiragana: てめえ, Katakana: テメエ, Kanji: 手前, Romaji: temee",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "お前",
-      "romanized": "omae",
       "severity": 2,
       "categories": [
         "general",
@@ -702,12 +623,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Rude/casual pronoun 'you'. Hiragana: おまえ, Katakana: オマエ, Kanji: お前, Romaji: omae",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "奴",
-      "romanized": "yatsu",
       "severity": 2,
       "categories": [
         "general",
@@ -720,12 +639,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory third person 'that guy'. Hiragana: やつ, Katakana: ヤツ, Kanji: 奴, Romaji: yatsu",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "こいつ",
-      "romanized": "koitsu",
       "severity": 2,
       "categories": [
         "general",
@@ -737,12 +654,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Rude demonstrative 'this guy'. Hiragana: こいつ, Katakana: コイツ, Romaji: koitsu",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "あいつ",
-      "romanized": "aitsu",
       "severity": 2,
       "categories": [
         "general",
@@ -754,12 +669,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Rude demonstrative 'that guy'. Hiragana: あいつ, Katakana: アイツ, Romaji: aitsu",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "そいつ",
-      "romanized": "soitsu",
       "severity": 2,
       "categories": [
         "general",
@@ -771,12 +684,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Rude demonstrative 'that person'. Hiragana: そいつ, Katakana: ソイツ, Romaji: soitsu",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "野郎",
-      "romanized": "yarou",
       "severity": 2,
       "categories": [
         "general",
@@ -789,12 +700,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'bastard' or 'jerk'. Hiragana: やろう, Katakana: ヤロウ, Kanji: 野郎, Romaji: yarou",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "下衆野郎",
-      "romanized": "gesuyarou",
       "severity": 3,
       "categories": [
         "general",
@@ -806,12 +715,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Compound profanity meaning 'lowlife asshole'. Hiragana: げすやろう, Kanji: 下衆野郎, Romaji: gesuyarou",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "死ね",
-      "romanized": "shine",
       "severity": 4,
       "categories": [
         "violence",
@@ -825,12 +732,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely offensive command meaning 'die', considered very serious threat. Hiragana: しね, Katakana: シネ, Kanji: 死ね, Internet variant: 氏ね, Romaji: shine",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "死んじまえ",
-      "romanized": "shinjimae",
       "severity": 4,
       "categories": [
         "violence",
@@ -842,12 +747,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely offensive command meaning 'drop dead'. Hiragana: しんじまえ, Kanji: 死んじまえ, Romaji: shinjimae",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "殺す",
-      "romanized": "korosu",
       "severity": 4,
       "categories": [
         "violence",
@@ -860,12 +763,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Verb meaning 'to kill', extremely serious when directed at person. Hiragana: ころす, Katakana: コロス, Kanji: 殺す, Romaji: korosu",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "殺すぞ",
-      "romanized": "korosu zo",
       "severity": 4,
       "categories": [
         "violence",
@@ -877,12 +778,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Explicit death threat meaning 'I'll kill you'. Hiragana: ころすぞ, Kanji: 殺すぞ, Romaji: korosu zo",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "黙れ",
-      "romanized": "damare",
       "severity": 2,
       "categories": [
         "general",
@@ -895,12 +794,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Harsh command meaning 'shut up'. Hiragana: だまれ, Katakana: ダマレ, Kanji: 黙れ, Romaji: damare",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "うるさい",
-      "romanized": "urusai",
       "severity": 2,
       "categories": [
         "general",
@@ -913,12 +810,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'shut up' or 'noisy', rude command. Hiragana: うるさい, Katakana: ウルサイ, Kanji: 五月蝿い, Romaji: urusai",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "どけ",
-      "romanized": "doke",
       "severity": 2,
       "categories": [
         "general",
@@ -930,12 +825,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Harsh command meaning 'get out of my way'. Hiragana: どけ, Katakana: ドケ, Romaji: doke",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "失せろ",
-      "romanized": "usero",
       "severity": 3,
       "categories": [
         "general",
@@ -947,12 +840,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Harsh command meaning 'get lost' or 'piss off'. Hiragana: うせろ, Kanji: 失せろ, Romaji: usero",
-      "target_type": "individual",
-      "formality_level": "very_rude"
+      "target_type": "individual"
     },
     {
       "word": "消えろ",
-      "romanized": "kiero",
       "severity": 3,
       "categories": [
         "general",
@@ -964,12 +855,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Harsh command meaning 'disappear' or 'get lost'. Hiragana: きえろ, Kanji: 消えろ, Romaji: kiero",
-      "target_type": "individual",
-      "formality_level": "very_rude"
+      "target_type": "individual"
     },
     {
       "word": "変態",
-      "romanized": "hentai",
       "severity": 2,
       "categories": [
         "sexual",
@@ -982,12 +871,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'pervert', also known in Western culture through anime. Hiragana: へんたい, Katakana: ヘンタイ, Kanji: 変態, Romaji: hentai",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "スケベ",
-      "romanized": "sukebe",
       "severity": 2,
       "categories": [
         "sexual",
@@ -1000,12 +887,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'lecher' or 'pervert'. Hiragana: すけべ, Katakana: スケベ, Kanji: 助平, Romaji: sukebe",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "エロ",
-      "romanized": "ero",
       "severity": 1,
       "categories": [
         "sexual"
@@ -1016,12 +901,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'perverted' or 'sexual', from English 'erotic'. Hiragana: えろ, Katakana: エロ, Romaji: ero",
-      "target_type": "general",
-      "formality_level": "casual"
+      "target_type": "general"
     },
     {
       "word": "エッチ",
-      "romanized": "ecchi",
       "severity": 1,
       "categories": [
         "sexual"
@@ -1032,12 +915,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'lewd', 'naughty', or 'sex', from letter 'H'. Hiragana: えっち, Katakana: エッチ, Romaji: ecchi",
-      "target_type": "general",
-      "formality_level": "casual"
+      "target_type": "general"
     },
     {
       "word": "やりまん",
-      "romanized": "yariman",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1049,12 +930,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely derogatory term for promiscuous woman, means 'slut'. Hiragana: やりまん, Katakana: ヤリマン, Romaji: yariman",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "やりちん",
-      "romanized": "yarichin",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1066,12 +945,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term for promiscuous man, means 'man-whore'. Hiragana: やりちん, Katakana: ヤリチン, Romaji: yarichin",
-      "target_type": "individual",
-      "formality_level": "very_rude"
+      "target_type": "individual"
     },
     {
       "word": "淫売",
-      "romanized": "inbai",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1084,12 +961,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term for prostitute, highly offensive to women. Hiragana: いんばい, Katakana: インバイ, Kanji: 淫売, Romaji: inbai",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "売春婦",
-      "romanized": "baishunfu",
       "severity": 2,
       "categories": [
         "sexual",
@@ -1101,12 +976,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Term for prostitute, offensive when used as insult. Hiragana: ばいしゅんふ, Kanji: 売春婦, Romaji: baishunfu",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "娼婦",
-      "romanized": "shoufu",
       "severity": 2,
       "categories": [
         "sexual",
@@ -1118,12 +991,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Term for prostitute, offensive when used as insult. Hiragana: しょうふ, Kanji: 娼婦, Romaji: shoufu",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "女郎",
-      "romanized": "jorou",
       "severity": 2,
       "categories": [
         "sexual",
@@ -1135,12 +1006,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Archaic term for prostitute. Hiragana: じょろう, Kanji: 女郎, Romaji: jorou",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "尻軽",
-      "romanized": "shirigaru",
       "severity": 2,
       "categories": [
         "sexual",
@@ -1152,12 +1021,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term meaning 'easy woman' or 'promiscuous'. Hiragana: しりがる, Kanji: 尻軽, Romaji: shirigaru",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "遊び人",
-      "romanized": "asobinin",
       "severity": 1,
       "categories": [
         "sexual"
@@ -1168,12 +1035,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'player' or 'womanizer'. Hiragana: あそびにん, Kanji: 遊び人, Romaji: asobinin",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "あばずれ",
-      "romanized": "abazure",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1185,12 +1050,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Highly offensive term meaning 'bitch' or 'slut'. Hiragana: あばずれ, Katakana: アバズレ, Romaji: abazure",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "ちんこ",
-      "romanized": "chinko",
       "severity": 2,
       "categories": [
         "sexual",
@@ -1202,12 +1065,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vulgar term for penis/dick, childish/crude. Hiragana: ちんこ, Katakana: チンコ, Romaji: chinko",
-      "target_type": "general",
-      "formality_level": "very_casual"
+      "target_type": "general"
     },
     {
       "word": "ちんぽ",
-      "romanized": "chinpo",
       "severity": 2,
       "categories": [
         "sexual",
@@ -1221,12 +1082,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vulgar term for penis/dick. Hiragana: ちんぽ/ちんぽこ, Katakana: チンポ, Romaji: chinpo",
-      "target_type": "general",
-      "formality_level": "very_casual"
+      "target_type": "general"
     },
     {
       "word": "まら",
-      "romanized": "mara",
       "severity": 2,
       "categories": [
         "sexual",
@@ -1238,12 +1097,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vulgar Buddhist term for penis. Hiragana: まら, Katakana: マラ, Romaji: mara",
-      "target_type": "general",
-      "formality_level": "very_casual"
+      "target_type": "general"
     },
     {
       "word": "金玉",
-      "romanized": "kintama",
       "severity": 2,
       "categories": [
         "sexual",
@@ -1258,12 +1115,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vulgar term for testicles/balls. Hiragana: きんたま, Katakana: キンタマ, Kanji: 金玉, Shortened: タマ, Romaji: kintama",
-      "target_type": "general",
-      "formality_level": "very_casual"
+      "target_type": "general"
     },
     {
       "word": "まんこ",
-      "romanized": "manko",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1275,12 +1130,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vulgar term for vagina/cunt, highly offensive. Hiragana: まんこ, Katakana: マンコ, Romaji: manko",
-      "target_type": "general",
-      "formality_level": "extremely_rude"
+      "target_type": "general"
     },
     {
       "word": "おまんこ",
-      "romanized": "omanko",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1292,12 +1145,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vulgar term for vagina/cunt with honorific prefix, highly offensive. Hiragana: おまんこ, Katakana: オマンコ, Romaji: omanko",
-      "target_type": "general",
-      "formality_level": "extremely_rude"
+      "target_type": "general"
     },
     {
       "word": "おっぱい",
-      "romanized": "oppai",
       "severity": 1,
       "categories": [
         "sexual",
@@ -1309,12 +1160,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Casual/vulgar term for breasts/boobs. Hiragana: おっぱい, Katakana: オッパイ, Romaji: oppai",
-      "target_type": "general",
-      "formality_level": "casual"
+      "target_type": "general"
     },
     {
       "word": "乳",
-      "romanized": "chichi",
       "severity": 1,
       "categories": [
         "sexual",
@@ -1326,12 +1175,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Term for breasts/tits, can be vulgar in context. Hiragana: ちち, Kanji: 乳, Romaji: chichi",
-      "target_type": "general",
-      "formality_level": "casual"
+      "target_type": "general"
     },
     {
       "word": "おちんちん",
-      "romanized": "ochinchin",
       "severity": 1,
       "categories": [
         "sexual",
@@ -1343,12 +1190,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Childish term for penis with honorific prefix. Hiragana: おちんちん, Katakana: オチンチン, Romaji: ochinchin",
-      "target_type": "general",
-      "formality_level": "childish"
+      "target_type": "general"
     },
     {
       "word": "けつ",
-      "romanized": "ketsu",
       "severity": 1,
       "categories": [
         "body_parts"
@@ -1361,12 +1206,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Casual/vulgar term for ass/butt. Hiragana: けつ, Katakana: ケツ, Kanji: 尻, Romaji: ketsu",
-      "target_type": "general",
-      "formality_level": "casual"
+      "target_type": "general"
     },
     {
       "word": "けつの穴",
-      "romanized": "ketsu no ana",
       "severity": 2,
       "categories": [
         "body_parts"
@@ -1377,12 +1220,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Vulgar term for asshole. Hiragana: けつのあな, Katakana/Mixed: ケツの穴, Romaji: ketsu no ana",
-      "target_type": "general",
-      "formality_level": "very_casual"
+      "target_type": "general"
     },
     {
       "word": "肛門",
-      "romanized": "koumon",
       "severity": 1,
       "categories": [
         "body_parts"
@@ -1393,12 +1234,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Clinical term for anus. Hiragana: こうもん, Kanji: 肛門, Romaji: koumon",
-      "target_type": "general",
-      "formality_level": "clinical"
+      "target_type": "general"
     },
     {
       "word": "うんこ",
-      "romanized": "unko",
       "severity": 1,
       "categories": [
         "scatological"
@@ -1409,12 +1248,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Childish/casual term for shit/poop. Hiragana: うんこ, Katakana: ウンコ, Romaji: unko",
-      "target_type": "general",
-      "formality_level": "childish"
+      "target_type": "general"
     },
     {
       "word": "大便",
-      "romanized": "daiben",
       "severity": 1,
       "categories": [
         "scatological"
@@ -1425,12 +1262,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Clinical term for feces. Hiragana: だいべん, Kanji: 大便, Romaji: daiben",
-      "target_type": "general",
-      "formality_level": "clinical"
+      "target_type": "general"
     },
     {
       "word": "小便",
-      "romanized": "shouben",
       "severity": 1,
       "categories": [
         "scatological"
@@ -1444,12 +1279,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Casual term for urine/piss. Hiragana: しょうべん/しょんべん, Katakana: ションベン, Kanji: 小便, Romaji: shouben/shonben",
-      "target_type": "general",
-      "formality_level": "casual"
+      "target_type": "general"
     },
     {
       "word": "おしっこ",
-      "romanized": "oshikko",
       "severity": 1,
       "categories": [
         "scatological"
@@ -1460,12 +1293,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Childish term for pee/urine. Hiragana: おしっこ, Katakana: オシッコ, Romaji: oshikko",
-      "target_type": "general",
-      "formality_level": "childish"
+      "target_type": "general"
     },
     {
       "word": "うざい",
-      "romanized": "uzai",
       "severity": 1,
       "categories": [
         "general",
@@ -1477,12 +1308,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Internet slang meaning 'annoying' or 'irritating'. Hiragana: うざい, Katakana: ウザイ, Romaji: uzai",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "うざったい",
-      "romanized": "uzattai",
       "severity": 2,
       "categories": [
         "general",
@@ -1494,12 +1323,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Intensified form meaning 'super annoying'. Hiragana: うざったい, Katakana/Mixed: ウザったい, Romaji: uzattai",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "むかつく",
-      "romanized": "mukatsuku",
       "severity": 2,
       "categories": [
         "general",
@@ -1511,12 +1338,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'irritating' or 'pisses me off'. Hiragana: むかつく, Katakana/Mixed: ムカつく, Romaji: mukatsuku",
-      "target_type": "general",
-      "formality_level": "casual"
+      "target_type": "general"
     },
     {
       "word": "腹立つ",
-      "romanized": "hara tatsu",
       "severity": 2,
       "categories": [
         "general"
@@ -1527,12 +1352,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'makes me angry'. Hiragana: はらたつ, Kanji: 腹立つ, Romaji: hara tatsu",
-      "target_type": "general",
-      "formality_level": "casual"
+      "target_type": "general"
     },
     {
       "word": "嘘つき",
-      "romanized": "usotsuki",
       "severity": 1,
       "categories": [
         "general",
@@ -1545,12 +1368,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'liar'. Hiragana: うそつき, Katakana: ウソツキ, Kanji: 嘘つき, Romaji: usotsuki",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "卑怯",
-      "romanized": "hikyou",
       "severity": 2,
       "categories": [
         "general",
@@ -1562,12 +1383,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'coward' or 'cowardly'. Hiragana: ひきょう, Kanji: 卑怯, Romaji: hikyou",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "弱虫",
-      "romanized": "yowamushi",
       "severity": 1,
       "categories": [
         "general",
@@ -1580,12 +1399,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'weakling' or 'coward'. Hiragana: よわむし, Katakana: ヨワムシ, Kanji: 弱虫, Romaji: yowamushi",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "腰抜け",
-      "romanized": "koshinuke",
       "severity": 2,
       "categories": [
         "general",
@@ -1597,12 +1414,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'coward', literally 'one who loses their hips/backbone'. Hiragana: こしぬけ, Kanji: 腰抜け, Romaji: koshinuke",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "臆病者",
-      "romanized": "okubyoumono",
       "severity": 2,
       "categories": [
         "general",
@@ -1614,12 +1429,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'coward'. Hiragana: おくびょうもの, Kanji: 臆病者, Romaji: okubyoumono",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "けち",
-      "romanized": "kechi",
       "severity": 1,
       "categories": [
         "general",
@@ -1631,12 +1444,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'stingy' or 'cheap'. Hiragana: けち, Katakana: ケチ, Romaji: kechi",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "ずるい",
-      "romanized": "zurui",
       "severity": 1,
       "categories": [
         "general",
@@ -1648,12 +1459,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'unfair' or 'sneaky'. Hiragana: ずるい, Katakana/Mixed: ズルい, Romaji: zurui",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "ダサい",
-      "romanized": "dasai",
       "severity": 1,
       "categories": [
         "general",
@@ -1666,12 +1475,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'lame' or 'uncool'. Katakana: ダサい, Hiragana: ださい, Romaji: dasai",
-      "target_type": "individual",
-      "formality_level": "casual"
+      "target_type": "individual"
     },
     {
       "word": "クズ",
-      "romanized": "kuzu",
       "severity": 2,
       "categories": [
         "general",
@@ -1684,12 +1491,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'trash' or 'scum'. Hiragana: くず, Katakana: クズ, Kanji: 屑, Romaji: kuzu",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "カス",
-      "romanized": "kasu",
       "severity": 2,
       "categories": [
         "general",
@@ -1702,12 +1507,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'scum' or 'worthless'. Hiragana: かす, Katakana: カス, Kanji: 滓, Romaji: kasu",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "ゴミ",
-      "romanized": "gomi",
       "severity": 2,
       "categories": [
         "general",
@@ -1719,12 +1522,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'garbage' or 'trash'. Hiragana: ごみ, Katakana: ゴミ, Romaji: gomi",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "塵",
-      "romanized": "chiri",
       "severity": 2,
       "categories": [
         "general",
@@ -1736,12 +1537,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'dust' or 'trash', literary insult. Hiragana: ちり, Kanji: 塵, Romaji: chiri",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "ガキ",
-      "romanized": "gaki",
       "severity": 2,
       "categories": [
         "general",
@@ -1754,12 +1553,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term for brat/kid. Hiragana: がき, Katakana: ガキ, Kanji: 餓鬼, Romaji: gaki",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "糞ガキ",
-      "romanized": "kusogaki",
       "severity": 3,
       "categories": [
         "general",
@@ -1771,12 +1568,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Compound profanity meaning 'little brat' or 'shitty kid'. Hiragana: くそがき, Katakana/Mixed: 糞ガキ, Romaji: kusogaki",
-      "target_type": "individual",
-      "formality_level": "very_rude"
+      "target_type": "individual"
     },
     {
       "word": "じじい",
-      "romanized": "jijii",
       "severity": 2,
       "categories": [
         "general",
@@ -1789,12 +1584,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Rude term for old man. Hiragana: じじい, Katakana: ジジイ, Kanji: 爺, Romaji: jijii",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "くそじじい",
-      "romanized": "kusojijii",
       "severity": 3,
       "categories": [
         "general",
@@ -1806,12 +1599,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Compound profanity meaning 'old fart'. Hiragana: くそじじい, Katakana: クソジジイ, Romaji: kusojijii",
-      "target_type": "individual",
-      "formality_level": "very_rude"
+      "target_type": "individual"
     },
     {
       "word": "ばばあ",
-      "romanized": "babaa",
       "severity": 2,
       "categories": [
         "general",
@@ -1824,12 +1615,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Rude term for old woman/hag. Hiragana: ばばあ, Katakana: ババア, Kanji: 婆, Romaji: babaa",
-      "target_type": "individual",
-      "formality_level": "rude"
+      "target_type": "individual"
     },
     {
       "word": "くそばばあ",
-      "romanized": "kusobabaa",
       "severity": 3,
       "categories": [
         "general",
@@ -1841,12 +1630,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Compound profanity meaning 'old hag'. Hiragana: くそばばあ, Katakana: クソババア, Romaji: kusobabaa",
-      "target_type": "individual",
-      "formality_level": "very_rude"
+      "target_type": "individual"
     },
     {
       "word": "チョン",
-      "romanized": "chon",
       "severity": 4,
       "categories": [
         "ethnic",
@@ -1858,12 +1645,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely offensive ethnic slur against Koreans, banned from broadcast. Hiragana: ちょん, Katakana: チョン, Romaji: chon",
-      "target_type": "group",
-      "formality_level": "extremely_discriminatory"
+      "target_type": "group"
     },
     {
       "word": "朝鮮人",
-      "romanized": "chousenjin",
       "severity": 3,
       "categories": [
         "ethnic",
@@ -1876,12 +1661,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "When used derogatorily, becomes ethnic slur against Koreans. Hiragana: ちょうせんじん, Katakana: チョウセンジン, Kanji: 朝鮮人, Romaji: chousenjin",
-      "target_type": "group",
-      "formality_level": "discriminatory"
+      "target_type": "group"
     },
     {
       "word": "支那",
-      "romanized": "shina",
       "severity": 3,
       "categories": [
         "ethnic",
@@ -1894,12 +1677,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory historical term for China, now considered offensive. Hiragana: しな, Katakana: シナ, Kanji: 支那, Romaji: shina",
-      "target_type": "group",
-      "formality_level": "discriminatory"
+      "target_type": "group"
     },
     {
       "word": "毛唐",
-      "romanized": "ketou",
       "severity": 4,
       "categories": [
         "ethnic",
@@ -1911,12 +1692,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely offensive slur meaning 'hairy barbarian', used for Westerners. Hiragana: けとう, Kanji: 毛唐, Romaji: ketou",
-      "target_type": "group",
-      "formality_level": "extremely_discriminatory"
+      "target_type": "group"
     },
     {
       "word": "外人",
-      "romanized": "gaijin",
       "severity": 1,
       "categories": [
         "ethnic"
@@ -1928,12 +1707,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Term for foreigner, can be neutral or derogatory depending on context. Hiragana: がいじん, Katakana: ガイジン, Kanji: 外人, Romaji: gaijin",
-      "target_type": "group",
-      "formality_level": "potentially_offensive"
+      "target_type": "group"
     },
     {
       "word": "おかま",
-      "romanized": "okama",
       "severity": 2,
       "categories": [
         "lgbtq",
@@ -1945,12 +1722,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Term for effeminate man or drag queen, can be derogatory depending on context. Hiragana: おかま, Katakana: オカマ, Romaji: okama",
-      "target_type": "individual",
-      "formality_level": "potentially_offensive"
+      "target_type": "individual"
     },
     {
       "word": "ホモ",
-      "romanized": "homo",
       "severity": 2,
       "categories": [
         "lgbtq",
@@ -1962,12 +1737,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Shortened form of homosexual, often used derogatorily. Hiragana: ほも, Katakana: ホモ, Romaji: homo",
-      "target_type": "individual",
-      "formality_level": "potentially_offensive"
+      "target_type": "individual"
     },
     {
       "word": "レズ",
-      "romanized": "rezu",
       "severity": 2,
       "categories": [
         "lgbtq",
@@ -1979,12 +1752,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Shortened form of lesbian, often used derogatorily. Hiragana: れず, Katakana: レズ, Romaji: rezu",
-      "target_type": "individual",
-      "formality_level": "potentially_offensive"
+      "target_type": "individual"
     },
     {
       "word": "オネエ",
-      "romanized": "onee",
       "severity": 1,
       "categories": [
         "lgbtq"
@@ -1995,12 +1766,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Term for effeminate man, can be neutral or derogatory. Hiragana: おねえ, Katakana: オネエ, Romaji: onee",
-      "target_type": "individual",
-      "formality_level": "potentially_offensive"
+      "target_type": "individual"
     },
     {
       "word": "基地外",
-      "romanized": "kichigai",
       "severity": 4,
       "categories": [
         "ableist",
@@ -2014,12 +1783,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely offensive term for mentally ill person, banned from media. Hiragana: きちがい, Katakana: キチガイ, Kanji: 基地外/気違い, Romaji: kichigai",
-      "target_type": "individual",
-      "formality_level": "extremely_discriminatory"
+      "target_type": "individual"
     },
     {
       "word": "池沼",
-      "romanized": "ikeshou",
       "severity": 4,
       "categories": [
         "ableist",
@@ -2032,12 +1799,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Internet slang abbreviation for mental disability, extremely offensive, banned from broadcast. Hiragana: いけしょう, Katakana: イケショウ, Kanji: 池沼, Romaji: ikeshou",
-      "target_type": "individual",
-      "formality_level": "extremely_discriminatory"
+      "target_type": "individual"
     },
     {
       "word": "知恵遅れ",
-      "romanized": "chieokure",
       "severity": 3,
       "categories": [
         "ableist"
@@ -2048,12 +1813,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Ableist term meaning 'mentally retarded'. Hiragana: ちえおくれ, Kanji: 知恵遅れ, Romaji: chieokure",
-      "target_type": "individual",
-      "formality_level": "extremely_rude"
+      "target_type": "individual"
     },
     {
       "word": "障害者",
-      "romanized": "shougaisha",
       "severity": 1,
       "categories": [
         "ableist"
@@ -2064,12 +1827,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Term for disabled person, neutral in proper context but offensive when used as insult. Hiragana: しょうがいしゃ, Kanji: 障害者, Romaji: shougaisha",
-      "target_type": "individual",
-      "formality_level": "context_dependent"
+      "target_type": "individual"
     },
     {
       "word": "カタワ",
-      "romanized": "katawa",
       "severity": 4,
       "categories": [
         "ableist",
@@ -2082,12 +1843,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely offensive slur for cripple/disabled person, banned from broadcast. Hiragana: かたわ, Katakana: カタワ, Kanji: 片輪, Romaji: katawa",
-      "target_type": "individual",
-      "formality_level": "extremely_discriminatory"
+      "target_type": "individual"
     },
     {
       "word": "びっこ",
-      "romanized": "bikko",
       "severity": 4,
       "categories": [
         "ableist",
@@ -2100,12 +1859,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely offensive slur meaning 'lame' or 'cripple', banned from broadcast. Hiragana: びっこ, Katakana: ビッコ, Kanji: 跛, Romaji: bikko",
-      "target_type": "individual",
-      "formality_level": "extremely_discriminatory"
+      "target_type": "individual"
     },
     {
       "word": "メクラ",
-      "romanized": "mekura",
       "severity": 4,
       "categories": [
         "ableist",
@@ -2118,12 +1875,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely offensive slur for blind person, banned from broadcast. Hiragana: めくら, Katakana: メクラ, Kanji: 盲, Romaji: mekura",
-      "target_type": "individual",
-      "formality_level": "extremely_discriminatory"
+      "target_type": "individual"
     },
     {
       "word": "つんぼ",
-      "romanized": "tsunbo",
       "severity": 4,
       "categories": [
         "ableist",
@@ -2135,12 +1890,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely offensive slur for deaf person, banned from broadcast. Hiragana: つんぼ, Katakana: ツンボ, Romaji: tsunbo",
-      "target_type": "individual",
-      "formality_level": "extremely_discriminatory"
+      "target_type": "individual"
     },
     {
       "word": "DQN",
-      "romanized": "dokyun",
       "severity": 2,
       "categories": [
         "general",
@@ -2152,12 +1905,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Internet slang for delinquent or troublemaker, from TV show name. Katakana: ドキュン, Romaji: DQN/dokyun",
-      "target_type": "individual",
-      "formality_level": "casual_insult"
+      "target_type": "individual"
     },
     {
       "word": "厨房",
-      "romanized": "chuubou",
       "severity": 1,
       "categories": [
         "general",
@@ -2171,12 +1922,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Internet slang meaning 'middle schooler', implies immaturity. Hiragana: ちゅうぼう, Katakana: チュウボウ, Kanji: 厨房, Shortened: 厨, Romaji: chuubou",
-      "target_type": "individual",
-      "formality_level": "casual_insult"
+      "target_type": "individual"
     },
     {
       "word": "ゆとり",
-      "romanized": "yutori",
       "severity": 1,
       "categories": [
         "general",
@@ -2188,12 +1937,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Refers to generation with 'relaxed education', implies laziness. Hiragana: ゆとり, Katakana: ユトリ, Romaji: yutori",
-      "target_type": "group",
-      "formality_level": "casual_insult"
+      "target_type": "group"
     },
     {
       "word": "情弱",
-      "romanized": "joujaku",
       "severity": 1,
       "categories": [
         "general",
@@ -2205,12 +1952,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Internet slang meaning 'information-poor' or 'uninformed'. Hiragana: じょうじゃく, Kanji: 情弱, Romaji: joujaku",
-      "target_type": "individual",
-      "formality_level": "casual_insult"
+      "target_type": "individual"
     },
     {
       "word": "リア充",
-      "romanized": "riajuu",
       "severity": 1,
       "categories": [
         "general"
@@ -2221,12 +1966,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Internet slang meaning 'normie', can be derogatory in some contexts. Hiragana: りあじゅう, Katakana/Kanji: リア充, Romaji: riajuu",
-      "target_type": "individual",
-      "formality_level": "internet_casual"
+      "target_type": "individual"
     },
     {
       "word": "陰キャ",
-      "romanized": "inkya",
       "severity": 1,
       "categories": [
         "general",
@@ -2238,12 +1981,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Internet slang for introverted loser. Hiragana: いんきゃ, Kanji: 陰キャ, Romaji: inkya",
-      "target_type": "individual",
-      "formality_level": "casual_insult"
+      "target_type": "individual"
     },
     {
       "word": "陽キャ",
-      "romanized": "youkya",
       "severity": 1,
       "categories": [
         "general"
@@ -2254,12 +1995,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Internet slang for extroverted person, can be negative in some contexts. Hiragana: ようきゃ, Kanji: 陽キャ, Romaji: youkya",
-      "target_type": "individual",
-      "formality_level": "internet_casual"
+      "target_type": "individual"
     },
     {
       "word": "キョロ充",
-      "romanized": "kyorojuu",
       "severity": 1,
       "categories": [
         "general",
@@ -2271,12 +2010,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Internet slang meaning 'fake normie'. Hiragana: きょろじゅう, Katakana/Kanji: キョロ充, Romaji: kyorojuu",
-      "target_type": "individual",
-      "formality_level": "internet_casual"
+      "target_type": "individual"
     },
     {
       "word": "ディスる",
-      "romanized": "disuru",
       "severity": 1,
       "categories": [
         "general"
@@ -2287,12 +2024,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Modern slang verb meaning 'to diss' or 'insult', from English. Hiragana: でぃする, Katakana: ディスる, Romaji: disuru",
-      "target_type": "general",
-      "formality_level": "internet_casual"
+      "target_type": "general"
     },
     {
       "word": "童貞",
-      "romanized": "doutei",
       "severity": 1,
       "categories": [
         "sexual",
@@ -2305,12 +2040,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Term for male virgin, used mockingly in internet culture. Hiragana: どうてい, Katakana: ドウテイ, Kanji: 童貞, Romaji: doutei",
-      "target_type": "individual",
-      "formality_level": "casual_insult"
+      "target_type": "individual"
     },
     {
       "word": "処女",
-      "romanized": "shojo",
       "severity": 1,
       "categories": [
         "sexual"
@@ -2322,12 +2055,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Term for female virgin, less commonly used as insult than doutei. Hiragana: しょじょ, Katakana: ショジョ, Kanji: 処女, Romaji: shojo",
-      "target_type": "individual",
-      "formality_level": "potentially_sensitive"
+      "target_type": "individual"
     },
     {
       "word": "やばい",
-      "romanized": "yabai",
       "severity": 1,
       "categories": [
         "general"
@@ -2340,12 +2071,10 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Originally meant 'dangerous' but now used as 'awesome/terrible' depending on context. Hiragana: やばい, Katakana: ヤバイ, Romaji: yabai",
-      "target_type": "general",
-      "formality_level": "casual"
+      "target_type": "general"
     },
     {
       "word": "めんどくさい",
-      "romanized": "mendokusai",
       "severity": 1,
       "categories": [
         "general"
@@ -2358,32 +2087,9 @@ export const JA: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Means 'troublesome' or 'bothersome', mildly rude. Hiragana: めんどくさい, Katakana: メンドクサイ, Romaji: mendokusai",
-      "target_type": "general",
-      "formality_level": "casual"
+      "target_type": "general"
     }
-  ],
-  categories: {
-  "general": "一般的な悪口 (General Profanity)",
-  "insult": "侮辱語 (Personal Insults)",
-  "sexual": "性的な言葉 (Sexual Content)",
-  "violence": "暴力的な言葉 (Violence and Threats)",
-  "hate_speech": "ヘイトスピーチ (Hate Speech)",
-  "appearance": "外見への悪口 (Appearance-based Insults)",
-  "lgbtq": "LGBTQ関連 (LGBTQ-related Terms)",
-  "scatological": "スカトロジー (Scatological References)",
-  "body_parts": "身体部位 (Body Parts)",
-  "age": "年齢差別 (Age Discrimination)",
-  "internet_slang": "ネットスラング (Internet Slang)",
-  "religious": "宗教的冒涜 (Religious Profanity)",
-  "generational": "世代論 (Generational Discrimination)",
-  "disability": "障害者差別 (Disability Discrimination)"
-},
-  severity: {
-  "1": 1,
-  "2": 2,
-  "3": 3,
-  "4": 4
-},
-  variations: {},
-  context: {}
-} as const;
+  ]
+} as const
+
+export type JAType = typeof JA

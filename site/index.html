@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ContentShield — Browser Demo</title>
+  <meta name="description" content="ContentShield — ultra-fast multilingual profanity detection. Try it live in your browser, no install required." />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0d1117;
+      --panel: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --severity-1: #3fb950;
+      --severity-2: #d29922;
+      --severity-3: #f0883e;
+      --severity-4: #f85149;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    main { max-width: 880px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    h1 { margin: 0 0 .25rem; font-size: 2rem; }
+    .subtitle { color: var(--muted); margin: 0 0 2rem; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin-bottom: 1.25rem;
+    }
+    label { display: block; font-weight: 600; margin-bottom: .5rem; }
+    textarea {
+      width: 100%;
+      min-height: 140px;
+      padding: .75rem;
+      background: var(--bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: .95rem;
+      resize: vertical;
+    }
+    .row {
+      display: flex;
+      gap: .75rem;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: .75rem;
+    }
+    select, button {
+      font: inherit;
+      padding: .5rem .9rem;
+      background: var(--bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    select { min-width: 9rem; }
+    button.primary {
+      background: var(--accent);
+      color: #0d1117;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+    button.primary:disabled { opacity: .6; cursor: wait; }
+    .status { color: var(--muted); font-size: .9rem; }
+    .results { display: grid; gap: 1rem; }
+    .summary {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      font-size: .95rem;
+    }
+    .summary strong { color: var(--text); }
+    .summary span { color: var(--muted); }
+    .filtered {
+      padding: .75rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .matches { display: flex; flex-direction: column; gap: .5rem; }
+    .match {
+      padding: .6rem .75rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      flex-wrap: wrap;
+    }
+    .badge {
+      display: inline-block;
+      padding: .15rem .55rem;
+      border-radius: 999px;
+      font-size: .75rem;
+      font-weight: 600;
+      color: #0d1117;
+    }
+    .sev-1 { background: var(--severity-1); }
+    .sev-2 { background: var(--severity-2); }
+    .sev-3 { background: var(--severity-3); }
+    .sev-4 { background: var(--severity-4); }
+    .match .word { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 600; }
+    .match .cats { color: var(--muted); font-size: .85rem; }
+    pre.snippet {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1rem;
+      overflow-x: auto;
+      font-size: .85rem;
+      margin: 0;
+    }
+    a { color: var(--accent); }
+    .footer { color: var(--muted); font-size: .85rem; margin-top: 2rem; text-align: center; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>ContentShield</h1>
+    <p class="subtitle">
+      Ultra-fast multilingual profanity detection. Runs entirely in your browser — no server, no data leaves your machine.
+      <a href="https://github.com/zachhandley/ContentShield">GitHub</a>
+      · <a href="https://www.npmjs.com/package/content-shield">npm</a>
+    </p>
+
+    <section class="card">
+      <label for="input">Text to analyse</label>
+      <textarea id="input" placeholder="Type or paste something here..."></textarea>
+      <div class="row">
+        <select id="lang">
+          <option value="en">English</option>
+          <option value="es">Spanish</option>
+          <option value="de">German</option>
+          <option value="fr">French</option>
+          <option value="it">Italian</option>
+          <option value="pt">Portuguese</option>
+          <option value="nl">Dutch</option>
+          <option value="pl">Polish</option>
+          <option value="sv">Swedish</option>
+          <option value="tr">Turkish</option>
+          <option value="he">Hebrew</option>
+          <option value="ar">Arabic</option>
+          <option value="hi">Hindi</option>
+          <option value="ru">Russian</option>
+          <option value="zh">Chinese</option>
+          <option value="ja">Japanese</option>
+          <option value="ko">Korean</option>
+        </select>
+        <button id="run" class="primary">Detect</button>
+        <span id="status" class="status">Engine ready (English bundled).</span>
+      </div>
+    </section>
+
+    <section class="card" id="resultsCard" hidden>
+      <label>Results</label>
+      <div class="results">
+        <div class="summary" id="summary"></div>
+        <div>
+          <div class="status" style="margin-bottom: .25rem;">Filtered output:</div>
+          <div id="filtered" class="filtered"></div>
+        </div>
+        <div>
+          <div class="status" style="margin-bottom: .25rem;">Matches:</div>
+          <div id="matches" class="matches"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <label>Use it on your own page (no install)</label>
+      <pre class="snippet"><code>&lt;script src="https://zachhandley.github.io/ContentShield/content-shield.global.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+  // English is bundled. For other languages:
+  await ContentShield.loadLanguage('es', 'https://zachhandley.github.io/ContentShield')
+
+  const result = await ContentShield.detect("some text to check")
+  console.log(result)
+&lt;/script&gt;</code></pre>
+    </section>
+
+    <section class="card">
+      <label>Want a real HTTP API?</label>
+      <p style="margin: 0 0 .5rem; color: var(--muted);">
+        GitHub Pages can't host an HTTP endpoint, but ContentShield ships with a
+        <a href="https://github.com/zachhandley/ContentShield/tree/main/examples/hono-api">Hono example</a>
+        you can deploy to Cloudflare Workers, Bun, Deno, or Node in about a minute.
+      </p>
+    </section>
+
+    <p class="footer">
+      ContentShield is MIT-licensed.
+      Per-language data files are also served from this site at
+      <code>/data/&lt;code&gt;.json</code>.
+    </p>
+  </main>
+
+  <script src="./content-shield.global.js"></script>
+  <script>
+    const input = document.getElementById('input')
+    const langSelect = document.getElementById('lang')
+    const runBtn = document.getElementById('run')
+    const status = document.getElementById('status')
+    const resultsCard = document.getElementById('resultsCard')
+    const summary = document.getElementById('summary')
+    const filteredEl = document.getElementById('filtered')
+    const matchesEl = document.getElementById('matches')
+
+    const loadedLanguages = new Set(['en'])
+    const baseUrl = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '')
+
+    async function ensureLanguageLoaded(code) {
+      if (loadedLanguages.has(code)) return
+      status.textContent = `Loading ${code} data...`
+      await ContentShield.loadLanguage(code, baseUrl)
+      loadedLanguages.add(code)
+      status.textContent = `Loaded ${[...loadedLanguages].join(', ')}.`
+    }
+
+    function renderMatch(match) {
+      const sev = Math.min(4, Math.max(1, match.severity || 1))
+      const cats = (match.categories || []).join(', ') || '—'
+      const wrap = document.createElement('div')
+      wrap.className = 'match'
+      wrap.innerHTML = `
+        <span class="badge sev-${sev}">Severity ${sev}</span>
+        <span class="word"></span>
+        <span class="cats"></span>
+      `
+      wrap.querySelector('.word').textContent = match.word
+      wrap.querySelector('.cats').textContent = cats
+      return wrap
+    }
+
+    runBtn.addEventListener('click', async () => {
+      const text = input.value.trim()
+      if (!text) {
+        status.textContent = 'Type something to analyse first.'
+        return
+      }
+      runBtn.disabled = true
+      try {
+        await ensureLanguageLoaded(langSelect.value)
+        const result = await ContentShield.detect(text)
+        const filtered = await ContentShield.filter(text)
+        resultsCard.hidden = false
+        summary.innerHTML = `
+          <span>Profanity: <strong>${result.hasProfanity ? 'yes' : 'no'}</strong></span>
+          <span>Matches: <strong>${result.totalMatches || 0}</strong></span>
+          <span>Max severity: <strong>${result.maxSeverity || 0}</strong></span>
+        `
+        filteredEl.textContent = filtered || text
+        matchesEl.innerHTML = ''
+        for (const m of (result.matches || [])) {
+          matchesEl.appendChild(renderMatch(m))
+        }
+        if (!result.matches?.length) {
+          matchesEl.innerHTML = '<div class="status">No matches.</div>'
+        }
+      } catch (err) {
+        status.textContent = `Error: ${err.message}`
+        console.error(err)
+      } finally {
+        runBtn.disabled = false
+      }
+    })
+  </script>
+</body>
+</html>

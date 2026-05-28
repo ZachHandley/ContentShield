@@ -3,6 +3,7 @@
  * Auto-generated on 2025-10-01
  */
 
+import type { LanguageCode, StaticLanguageData } from '../../types/index.js';
 import { EN } from './en.js';
 import { ES } from './es.js';
 import { DE } from './de.js';
@@ -23,7 +24,10 @@ import { HI } from './hi.js';
 
 export { EN, ES, DE, PT, FR, IT, NL, PL, SV, TR, HE, RU, ZH, JA, KO, AR, HI };
 
-export const LANGUAGE_DATA = {
+// Annotated to keep TS from trying to serialize the full literal type of every
+// word entry across 17 languages — that hits the
+// "inferred type exceeds maximum length" limit.
+export const LANGUAGE_DATA: Partial<Record<LanguageCode, StaticLanguageData>> = {
   en: EN,
   es: ES,
   de: DE,
@@ -40,5 +44,5 @@ export const LANGUAGE_DATA = {
   ja: JA,
   ko: KO,
   ar: AR,
-  hi: HI
-} as const;
+  hi: HI,
+};

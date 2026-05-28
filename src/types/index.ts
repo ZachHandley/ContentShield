@@ -268,25 +268,25 @@ export interface DetectionResult {
  * Language metadata information
  */
 export interface LanguageMetadata {
-  name: string
-  code: LanguageCode
-  version: string
-  wordCount: number
-  lastUpdated: string
-  contributors?: string[]
+  readonly name: string
+  readonly code: LanguageCode
+  readonly version: string
+  readonly wordCount: number
+  readonly lastUpdated: string
+  readonly contributors?: readonly string[]
 }
 
 /**
  * Word entry in language data
  */
 export interface WordEntry {
-  word: string
-  severity: SeverityLevel
-  categories: ProfanityCategory[]
-  variations?: string[]
-  case_sensitive?: boolean
-  context_notes?: string
-  target_type?: string
+  readonly word: string
+  readonly severity: SeverityLevel
+  readonly categories: readonly ProfanityCategory[]
+  readonly variations?: readonly string[]
+  readonly case_sensitive?: boolean
+  readonly context_notes?: string
+  readonly target_type?: string
 }
 
 /**
@@ -294,8 +294,8 @@ export interface WordEntry {
  * This is a simplified version that only contains essential word data
  */
 export interface StaticLanguageData {
-  metadata: LanguageMetadata
-  words: WordEntry[]
+  readonly metadata: LanguageMetadata
+  readonly words: readonly WordEntry[]
 }
 
 /**

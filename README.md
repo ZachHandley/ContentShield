@@ -53,6 +53,45 @@ yarn add content-shield
 pnpm add content-shield
 ```
 
+## Try it in your browser (no install)
+
+Live demo: **<https://zachhandley.github.io/ContentShield/>** — runs entirely
+client-side, no text leaves the page.
+
+Drop ContentShield into any HTML file with a single `<script>` tag:
+
+```html
+<script src="https://zachhandley.github.io/ContentShield/content-shield.global.js"></script>
+<script>
+  // English is bundled with the IIFE. For other languages:
+  await ContentShield.loadLanguage('es', 'https://zachhandley.github.io/ContentShield')
+
+  const result = await ContentShield.detect("some user-submitted text")
+  console.log(result.hasProfanity, result.matches)
+</script>
+```
+
+Per-language data is also published as JSON at predictable URLs like
+`https://zachhandley.github.io/ContentShield/data/en.json`, so you can fetch
+just one locale instead of bundling all 19.
+
+## Run it as an HTTP API
+
+GitHub Pages can't host a real HTTP endpoint — if you need one
+(callable from `fetch`, `curl`, a game server, a Discord bot), the
+**[`examples/hono-api/`](./examples/hono-api)** directory ships a
+runtime-agnostic [Hono](https://hono.dev) app. The same `app.ts` runs on
+Node, Bun, Deno, and Cloudflare Workers; pick the adapter you want and
+deploy in about a minute. Cloudflare Workers' free tier covers 100k
+req/day with no credit card.
+
+```bash
+cd examples/hono-api
+pnpm install
+pnpm run dev   # Node — POST http://localhost:3000/detect
+# or `pnpm run deploy:cf` for Cloudflare Workers
+```
+
 ## Quick Start
 
 ### Simple Detection

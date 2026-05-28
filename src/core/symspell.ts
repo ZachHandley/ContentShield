@@ -68,10 +68,12 @@ export class SymSpellIndex {
       const deleteVariants = this.generateDeletes(normalizedWord, this.options.maxEditDistance)
 
       for (const variant of deleteVariants) {
-        if (!this.deletes.has(variant)) {
-          this.deletes.set(variant, new Set())
+        let bucket = this.deletes.get(variant)
+        if (!bucket) {
+          bucket = new Set()
+          this.deletes.set(variant, bucket)
         }
-        this.deletes.get(variant)!.add(normalizedWord)
+        bucket.add(normalizedWord)
       }
     }
   }
@@ -139,7 +141,8 @@ export class SymSpellIndex {
     const visited = new Set<string>([effectiveWord])
 
     while (queue.length > 0) {
-      const current = queue.shift()!
+      const current = queue.shift()
+      if (!current) break
 
       // Add current state to deletes (including the starting word)
       deletes.add(current.str)

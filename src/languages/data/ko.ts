@@ -1,27 +1,24 @@
 /**
- * Korean (KO) Language Data
- * Auto-generated from JSON data on 2025-10-01
+ * Korean profanity data
+ * Auto-generated from JSON files - DO NOT EDIT MANUALLY
  *
- * Total entries: 240
+ * Language: Korean
  * Version: 1.0.0
- * Last updated: 2025-09-30
+ * Last Updated: 2025-09-30
+ * Total Entries: 239
  */
 
-import type { LanguageData } from '../language-loader.js';
-
-export const KO: LanguageData = {
-  metadata: {
-  "name": "Korean",
-  "code": "ko",
-  "version": "1.0.0",
-  "wordCount": 240,
-  "lastUpdated": "2025-09-30",
-  "contributors": []
-},
-  profanity: [
+export const KO = {
+  "metadata": {
+    "name": "Korean",
+    "code": "ko",
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-30",
+    "wordCount": 239
+  },
+  "words": [
     {
       "word": "바보",
-      "romanized": "babo",
       "severity": 1,
       "categories": [
         "insult",
@@ -34,13 +31,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Mild insult meaning 'fool' or 'stupid', commonly used even affectionately",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "똥",
-      "romanized": "ttong",
       "severity": 1,
       "categories": [
         "general",
@@ -53,13 +47,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Basic scatological reference meaning 'poop', mild profanity",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "시발",
-      "romanized": "sibal",
       "severity": 3,
       "categories": [
         "general",
@@ -75,13 +66,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Strong curse word, literally 'pussy', most common Korean swear word",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "씨발",
-      "romanized": "ssibal",
       "severity": 3,
       "categories": [
         "general",
@@ -96,13 +84,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Variant of sibal, extremely common Korean expletive",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "개새끼",
-      "romanized": "gaesaekki",
       "severity": 3,
       "categories": [
         "insult",
@@ -116,13 +101,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Literally 'puppy' but means 'son of a bitch', attacks family honor",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "죽어",
-      "romanized": "jugeo",
       "severity": 4,
       "categories": [
         "violence",
@@ -136,13 +118,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Death command meaning 'die', extremely serious threat",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "니 엄마",
-      "romanized": "ni eomma",
       "severity": 4,
       "categories": [
         "family_honor",
@@ -156,13 +135,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Attack on mother, violates fundamental Korean filial piety",
-      "target_type": "family",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "family"
     },
     {
       "word": "병신",
-      "romanized": "byeongsin",
       "severity": 3,
       "categories": [
         "insult",
@@ -176,13 +152,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Ableist slur meaning 'disabled person', highly offensive",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "꼴통",
-      "romanized": "kkoltong",
       "severity": 2,
       "categories": [
         "insult",
@@ -195,13 +168,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Political insult meaning 'stubborn conservative', generational conflict term",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "꼰대",
-      "romanized": "kkondae",
       "severity": 2,
       "categories": [
         "generational",
@@ -214,13 +184,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Older person who forces outdated values, generational criticism",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "좆",
-      "romanized": "jot",
       "severity": 3,
       "categories": [
         "sexual",
@@ -234,13 +201,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Male genitalia reference, strong profanity often used for emphasis",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "미친",
-      "romanized": "michin",
       "severity": 2,
       "categories": [
         "insult",
@@ -254,13 +218,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Meaning 'crazy', moderate insult commonly used",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "지랄",
-      "romanized": "jiral",
       "severity": 2,
       "categories": [
         "general",
@@ -274,13 +235,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Meaning 'nonsense' or 'bullshit', moderate profanity",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "조센진",
-      "romanized": "josenjin",
       "severity": 4,
       "categories": [
         "hate_speech",
@@ -293,13 +251,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Japanese colonial era slur for Koreans, extremely offensive historical term",
-      "target_type": "group",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "group"
     },
     {
       "word": "된장녀",
-      "romanized": "doenjangnyeo",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -312,13 +267,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term for women who prefer foreign brands, misogynistic",
-      "target_type": "group",
-      "speech_level": "rude",
-      "respect_violation": true
+      "target_type": "group"
     },
     {
       "word": "김치녀",
-      "romanized": "gimchinyeo",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -331,13 +283,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Anti-feminist slur targeting Korean women, highly misogynistic",
-      "target_type": "group",
-      "speech_level": "rude",
-      "respect_violation": true
+      "target_type": "group"
     },
     {
       "word": "한남",
-      "romanized": "hannam",
       "severity": 2,
       "categories": [
         "hate_speech",
@@ -350,13 +299,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term for Korean men, used in gender conflicts",
-      "target_type": "group",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "group"
     },
     {
       "word": "창년",
-      "romanized": "changnyeon",
       "severity": 4,
       "categories": [
         "sexual",
@@ -369,13 +315,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely derogatory term for women, means 'whore'",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "좆같은",
-      "romanized": "jotgateun",
       "severity": 3,
       "categories": [
         "sexual",
@@ -389,13 +332,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Strong profanity meaning 'fucking' or 'damn', very crude",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "개소리",
-      "romanized": "gaesori",
       "severity": 2,
       "categories": [
         "general",
@@ -409,13 +349,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Literally 'dog sound', means 'nonsense' or 'bullshit'",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "개놈",
-      "romanized": "gaenom",
       "severity": 2,
       "categories": [
         "insult",
@@ -426,15 +363,11 @@ export const KO: LanguageData = {
         "gaenom",
         "개년"
       ],
-      "case_size_sensitive": false,
       "context_notes": "Calling someone a 'dog', moderate insult",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "젓같은",
-      "romanized": "jeotgateun",
       "severity": 1,
       "categories": [
         "general"
@@ -446,13 +379,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Mild profanity, softer alternative to stronger curses",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "엿먹어",
-      "romanized": "yeotmeogeo",
       "severity": 2,
       "categories": [
         "general",
@@ -465,13 +395,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Literally 'eat taffy' but sexual connotation, means 'fuck off'",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "꺼져",
-      "romanized": "kkeojyeo",
       "severity": 2,
       "categories": [
         "general",
@@ -484,13 +411,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Command meaning 'get lost' or 'go away', rude dismissal",
-      "target_type": "individual",
-      "speech_level": "rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "닥쳐",
-      "romanized": "dakchyeo",
       "severity": 2,
       "categories": [
         "general",
@@ -503,13 +427,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Command meaning 'shut up', rude and dismissive",
-      "target_type": "individual",
-      "speech_level": "rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "상놈",
-      "romanized": "sangnom",
       "severity": 3,
       "categories": [
         "insult",
@@ -521,13 +442,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Historical class-based insult meaning 'commoner', status attack",
-      "target_type": "individual",
-      "speech_level": "formal_insult",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "천민",
-      "romanized": "cheonmin",
       "severity": 4,
       "categories": [
         "hate_speech",
@@ -539,13 +457,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Historical lowest class reference, extremely classist and offensive",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "쪽발이",
-      "romanized": "jjokbari",
       "severity": 4,
       "categories": [
         "hate_speech",
@@ -558,13 +473,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely derogatory term for Japanese people, references foot-binding",
-      "target_type": "group",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "group"
     },
     {
       "word": "짱깨",
-      "romanized": "jjangkkae",
       "severity": 4,
       "categories": [
         "hate_speech",
@@ -577,13 +489,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Extremely derogatory term for Chinese people, highly racist",
-      "target_type": "group",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "group"
     },
     {
       "word": "양놈",
-      "romanized": "yangnom",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -595,13 +504,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term for Westerners, means 'foreign bastard'",
-      "target_type": "group",
-      "speech_level": "rude",
-      "respect_violation": true
+      "target_type": "group"
     },
     {
       "word": "흑형",
-      "romanized": "heukhyeong",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -613,13 +519,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Patronizing term for Black people, seemingly friendly but racially inappropriate",
-      "target_type": "group",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "group"
     },
     {
       "word": "빨갱이",
-      "romanized": "ppalgaengi",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -632,13 +535,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Anti-communist slur meaning 'red', Cold War era hate speech",
-      "target_type": "group",
-      "speech_level": "political",
-      "respect_violation": false
+      "target_type": "group"
     },
     {
       "word": "좌빨",
-      "romanized": "jwappe",
       "severity": 2,
       "categories": [
         "hate_speech",
@@ -651,13 +551,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Left-wing communist, political slur used by conservatives",
-      "target_type": "group",
-      "speech_level": "political",
-      "respect_violation": false
+      "target_type": "group"
     },
     {
       "word": "종북",
-      "romanized": "jongbuk",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -670,13 +567,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "North Korea follower, serious political accusation in South Korea",
-      "target_type": "individual",
-      "speech_level": "political",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "급식충",
-      "romanized": "geupsikchhung",
       "severity": 2,
       "categories": [
         "generational",
@@ -689,13 +583,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Derogatory term for young students, generational conflict language",
-      "target_type": "group",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "group"
     },
     {
       "word": "틀딱",
-      "romanized": "teulddak",
       "severity": 2,
       "categories": [
         "generational",
@@ -707,13 +598,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Mocking term for older people using technology poorly",
-      "target_type": "group",
-      "speech_level": "casual",
-      "respect_violation": true
+      "target_type": "group"
     },
     {
       "word": "노잼",
-      "romanized": "nojaem",
       "severity": 1,
       "categories": [
         "internet_gaming",
@@ -726,13 +614,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Internet slang meaning 'not fun' or 'boring', mild criticism",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "솔까말",
-      "romanized": "solkkamal",
       "severity": 1,
       "categories": [
         "internet_gaming",
@@ -745,13 +630,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Internet abbreviation for 'honestly speaking', not really profane",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "ㅈㄴ",
-      "romanized": "jn",
       "severity": 3,
       "categories": [
         "internet_gaming",
@@ -764,13 +646,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Abbreviated form of 'jonna' (fucking), very common online",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "존나",
-      "romanized": "jonna",
       "severity": 3,
       "categories": [
         "general",
@@ -784,13 +663,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Intensifier meaning 'fucking' or 'very', extremely common",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "개빡침",
-      "romanized": "gaeppakchim",
       "severity": 2,
       "categories": [
         "general",
@@ -804,13 +680,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Intense anger expression, common in gaming and online",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "멍청이",
-      "romanized": "meongcheongi",
       "severity": 1,
       "categories": [
         "insult",
@@ -823,13 +696,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Mild insult meaning 'idiot' or 'stupid person'",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "놈",
-      "romanized": "nom",
       "severity": 1,
       "categories": [
         "general"
@@ -840,13 +710,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Casual way to refer to a person, can be mildly derogatory",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "새끼",
-      "romanized": "saekki",
       "severity": 2,
       "categories": [
         "insult",
@@ -860,13 +727,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Literally 'baby animal', used as insult meaning 'bastard'",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "자지",
-      "romanized": "jaji",
       "severity": 3,
       "categories": [
         "sexual"
@@ -878,13 +742,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Male genitalia, crude sexual reference",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "보지",
-      "romanized": "boji",
       "severity": 3,
       "categories": [
         "sexual"
@@ -896,13 +757,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Female genitalia, crude sexual reference",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "아가리",
-      "romanized": "agari",
       "severity": 2,
       "categories": [
         "insult",
@@ -914,13 +772,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 아가리, Romanization: agari - vulgar term for mouth, 'trap'",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "아씨",
-      "romanized": "aish",
       "severity": 1,
       "categories": [
         "general"
@@ -932,13 +787,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 아씨, Romanization: aish - mild curse, 'ah fuck'",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "암캐",
-      "romanized": "amkae",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -950,13 +802,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 암캐, Romanization: amkae - female dog, derogatory for women",
-      "target_type": "group",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "group"
     },
     {
       "word": "애자",
-      "romanized": "aeja",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -968,13 +817,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 애자, Romanization: aeja - disabled person (offensive)",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "빡치다",
-      "romanized": "ppakchida",
       "severity": 2,
       "categories": [
         "general"
@@ -986,13 +832,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 빡치다, Romanization: ppakchida - to be pissed off",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "빡대가리",
-      "romanized": "ppakdaegari",
       "severity": 2,
       "categories": [
         "insult"
@@ -1003,13 +846,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 빡대가리, Romanization: ppakdaegari - stubborn person, 'thick skull'",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "빙신",
-      "romanized": "bingsin",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -1021,13 +861,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 빙신, Romanization: bingsin - variant of byeongsin, ableist slur",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "변태",
-      "romanized": "byeontae",
       "severity": 2,
       "categories": [
         "sexual",
@@ -1039,13 +876,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 변태, Romanization: byeontae - pervert, deviant",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "불알",
-      "romanized": "bul-al",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1058,13 +892,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 불알, Romanization: bul-al - testicles, vulgar",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "비열한",
-      "romanized": "biyeolhan",
       "severity": 2,
       "categories": [
         "insult"
@@ -1075,13 +906,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 비열한, Romanization: biyeolhan - despicable, vile",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "빠구리",
-      "romanized": "ppaguri",
       "severity": 3,
       "categories": [
         "sexual"
@@ -1092,13 +920,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 빠구리, Romanization: ppaguri - sexual intercourse (vulgar)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "빌어먹을",
-      "romanized": "bileomeogeul",
       "severity": 2,
       "categories": [
         "general"
@@ -1109,13 +934,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 빌어먹을, Romanization: bileomeogeul - damned, cursed",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "창녀",
-      "romanized": "changnyeo",
       "severity": 4,
       "categories": [
         "sexual",
@@ -1127,13 +949,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 창녀, Romanization: changnyeo - prostitute, whore (variant of 창년)",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "쳐죽일놈",
-      "romanized": "cheojugilnom",
       "severity": 4,
       "categories": [
         "violence",
@@ -1145,13 +964,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 쳐죽일놈, Romanization: cheojugilnom - 'should be beaten to death'",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "닥쳐라",
-      "romanized": "dakchyeora",
       "severity": 2,
       "categories": [
         "general",
@@ -1163,13 +979,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 닥쳐라, Romanization: dakchyeora - shut up (stronger than 닥쳐)",
-      "target_type": "individual",
-      "speech_level": "rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "대가리",
-      "romanized": "daegari",
       "severity": 2,
       "categories": [
         "insult"
@@ -1180,13 +993,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 대가리, Romanization: daegari - head (vulgar), 'noggin'",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "덜떨어진",
-      "romanized": "deolddeoleojin",
       "severity": 2,
       "categories": [
         "insult",
@@ -1198,13 +1008,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 덜떨어진, Romanization: deolddeoleojin - stupid, 'not all there'",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "도둑놈",
-      "romanized": "doduknom",
       "severity": 2,
       "categories": [
         "insult"
@@ -1215,13 +1022,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 도둑놈, Romanization: doduknom - thief (insulting)",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "돌대가리",
-      "romanized": "doldaegari",
       "severity": 2,
       "categories": [
         "insult"
@@ -1232,13 +1036,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 돌대가리, Romanization: doldaegari - stone head, very stupid",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "똥개",
-      "romanized": "ttonggae",
       "severity": 2,
       "categories": [
         "scatological",
@@ -1250,13 +1051,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 똥개, Romanization: ttonggae - shit dog",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "뒤질래",
-      "romanized": "dwijillae",
       "severity": 4,
       "categories": [
         "violence",
@@ -1268,13 +1066,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 뒤질래, Romanization: dwijillae - wanna die?",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "뒤지다",
-      "romanized": "dwijida",
       "severity": 4,
       "categories": [
         "violence"
@@ -1286,13 +1081,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 뒤지다, Romanization: dwijida - to die (vulgar)",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "염병",
-      "romanized": "yeombyeong",
       "severity": 2,
       "categories": [
         "general"
@@ -1303,13 +1095,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 염병, Romanization: yeombyeong - plague, damn it",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "옘병",
-      "romanized": "yaembyeong",
       "severity": 2,
       "categories": [
         "general"
@@ -1320,13 +1109,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 옘병, Romanization: yaembyeong - variant of yeombyeong",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "개",
-      "romanized": "gae",
       "severity": 1,
       "categories": [
         "general"
@@ -1337,13 +1123,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 개, Romanization: gae - dog (prefix for intensification)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "개같은",
-      "romanized": "gaegateun",
       "severity": 2,
       "categories": [
         "insult"
@@ -1354,13 +1137,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 개같은, Romanization: gaegateun - dog-like, shitty",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "개년",
-      "romanized": "gaenyeon",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -1372,13 +1152,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 개년, Romanization: gaenyeon - bitch (female dog)",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "개자식",
-      "romanized": "gaejasik",
       "severity": 3,
       "categories": [
         "insult",
@@ -1390,13 +1167,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 개자식, Romanization: gaejasik - son of a bitch",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "개좆",
-      "romanized": "gaejot",
       "severity": 3,
       "categories": [
         "sexual"
@@ -1407,13 +1181,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 개좆, Romanization: gaejot - dog dick",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "개차반",
-      "romanized": "gaechabaan",
       "severity": 2,
       "categories": [
         "general"
@@ -1424,13 +1195,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 개차반, Romanization: gaechabaan - fucking mess",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "걸레",
-      "romanized": "geolle",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1442,13 +1210,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 걸레, Romanization: geolle - rag, slut",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "걸레같은년",
-      "romanized": "geolle gateun nyeon",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1460,13 +1225,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 걸레같은년, Romanization: geolle gateun nyeon - trashy woman",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "거지같은",
-      "romanized": "geojigateun",
       "severity": 2,
       "categories": [
         "insult",
@@ -1478,13 +1240,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 거지같은, Romanization: geojigateun - beggar-like, pathetic",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "고자",
-      "romanized": "goja",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1496,13 +1255,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 고자, Romanization: goja - eunuch, impotent (insult)",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "꺼지라",
-      "romanized": "kkeojira",
       "severity": 2,
       "categories": [
         "general",
@@ -1514,13 +1270,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 꺼지라, Romanization: kkeojira - get lost (command, stronger than 꺼져)",
-      "target_type": "individual",
-      "speech_level": "rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "꼬라지",
-      "romanized": "kkoraji",
       "severity": 2,
       "categories": [
         "insult"
@@ -1531,13 +1284,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 꼬라지, Romanization: kkoraji - pathetic appearance",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "꼴값",
-      "romanized": "kkolgap",
       "severity": 2,
       "categories": [
         "insult"
@@ -1548,13 +1298,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 꼴값, Romanization: kkolgap - acting one's pathetic status",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "한남충",
-      "romanized": "hannamchoong",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -1566,13 +1313,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 한남충, Romanization: hannamchoong - Korean man bug",
-      "target_type": "group",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "group"
     },
     {
       "word": "호구",
-      "romanized": "hogu",
       "severity": 1,
       "categories": [
         "insult"
@@ -1583,13 +1327,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 호구, Romanization: hogu - sucker, fool",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "호로",
-      "romanized": "horo",
       "severity": 4,
       "categories": [
         "sexual"
@@ -1600,13 +1341,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 호로, Romanization: horo - prostitute",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "호로새끼",
-      "romanized": "horosaekki",
       "severity": 4,
       "categories": [
         "sexual",
@@ -1618,13 +1356,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 호로새끼, Romanization: horosaekki - son of a whore",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "화냥년",
-      "romanized": "hwanyangnyeon",
       "severity": 4,
       "categories": [
         "sexual",
@@ -1636,13 +1371,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 화냥년, Romanization: hwanyangnyeon - promiscuous woman",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "후레아들",
-      "romanized": "hureadeul",
       "severity": 3,
       "categories": [
         "insult",
@@ -1654,13 +1386,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 후레아들, Romanization: hureadeul - son of a bitch",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "후레자식",
-      "romanized": "hurejasik",
       "severity": 3,
       "categories": [
         "insult",
@@ -1672,13 +1401,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 후레자식, Romanization: hurejasik - bastard child",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "후장",
-      "romanized": "hujang",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1690,13 +1416,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 후장, Romanization: hujang - anus (vulgar)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "희쭈그리",
-      "romanized": "huijjugeuri",
       "severity": 3,
       "categories": [
         "sexual"
@@ -1707,13 +1430,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 희쭈그리, Romanization: huijjugeuri - vagina (regional slang)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "잡년",
-      "romanized": "jabyeon",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1725,13 +1445,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 잡년, Romanization: jabyeon - bitch, slut",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "재수없어",
-      "romanized": "jaesu-eopseo",
       "severity": 2,
       "categories": [
         "insult"
@@ -1742,13 +1459,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 재수없어, Romanization: jaesu-eopseo - unlucky, annoying person",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "저능아",
-      "romanized": "jeoneonga",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -1760,13 +1474,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 저능아, Romanization: jeoneonga - low intelligence (ableist)",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "젠장",
-      "romanized": "jenjang",
       "severity": 2,
       "categories": [
         "general"
@@ -1777,13 +1488,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 젠장, Romanization: jenjang - damn it, shit",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "제정신이야",
-      "romanized": "jejeongsiniya",
       "severity": 2,
       "categories": [
         "insult"
@@ -1794,13 +1502,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 제정신이야, Romanization: jejeongsiniya - are you crazy?",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "조센징",
-      "romanized": "josenjing",
       "severity": 4,
       "categories": [
         "hate_speech",
@@ -1812,13 +1517,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 조센징, Romanization: josenjing - variant of josenjin, Japanese colonial slur for Koreans",
-      "target_type": "group",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "group"
     },
     {
       "word": "좆같은",
-      "romanized": "jotgateun",
       "severity": 3,
       "categories": [
         "sexual"
@@ -1829,13 +1531,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 좆같은, Romanization: jotgateun - fucking, dick-like (duplicate removed)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "좆까",
-      "romanized": "jotka",
       "severity": 3,
       "categories": [
         "sexual"
@@ -1846,13 +1545,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 좆까, Romanization: jotka - don't give a fuck",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "좆만한",
-      "romanized": "jotmanhan",
       "severity": 3,
       "categories": [
         "sexual",
@@ -1864,13 +1560,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 좆만한, Romanization: jotmanhan - dick-sized, tiny",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "좆되다",
-      "romanized": "jotdoeda",
       "severity": 3,
       "categories": [
         "sexual"
@@ -1881,13 +1574,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 좆되다, Romanization: jotdoeda - to be fucked, screwed",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "좆됐어",
-      "romanized": "jotdwaesseo",
       "severity": 3,
       "categories": [
         "sexual"
@@ -1898,13 +1588,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 좆됐어, Romanization: jotdwaesseo - I'm fucked",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "졸라",
-      "romanized": "jolla",
       "severity": 3,
       "categories": [
         "sexual"
@@ -1915,13 +1602,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 졸라, Romanization: jolla - variant of jonna",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "종간나",
-      "romanized": "jongganna",
       "severity": 4,
       "categories": [
         "hate_speech",
@@ -1933,13 +1617,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 종간나, Romanization: jongganna - mixed race (offensive)",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "좌파빨갱이",
-      "romanized": "jwapappalgaengi",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -1951,13 +1632,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 좌파빨갱이, Romanization: jwapappalgaengi - left-wing red",
-      "target_type": "group",
-      "speech_level": "political",
-      "respect_violation": false
+      "target_type": "group"
     },
     {
       "word": "죽어라",
-      "romanized": "jugeora",
       "severity": 4,
       "categories": [
         "violence",
@@ -1969,13 +1647,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 죽어라, Romanization: jugeora - die (stronger command)",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "죽을래",
-      "romanized": "jugeullae",
       "severity": 4,
       "categories": [
         "violence",
@@ -1987,13 +1662,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 죽을래, Romanization: jugeullae - wanna die?",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "죽일년",
-      "romanized": "jugilnyeon",
       "severity": 4,
       "categories": [
         "violence",
@@ -2006,13 +1678,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 죽일년, Romanization: jugilnyeon - woman who should die",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "쥐좆",
-      "romanized": "jwijot",
       "severity": 3,
       "categories": [
         "sexual",
@@ -2024,13 +1693,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 쥐좆, Romanization: jwijot - mouse dick, tiny dick",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "김치남",
-      "romanized": "gimchinam",
       "severity": 2,
       "categories": [
         "hate_speech",
@@ -2042,13 +1708,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 김치남, Romanization: gimchinam - kimchi man",
-      "target_type": "group",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "group"
     },
     {
       "word": "망할",
-      "romanized": "manghal",
       "severity": 2,
       "categories": [
         "general"
@@ -2059,13 +1722,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 망할, Romanization: manghal - damned, cursed",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "먹튀",
-      "romanized": "meoktwi",
       "severity": 2,
       "categories": [
         "insult"
@@ -2076,13 +1736,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 먹튀, Romanization: meoktwi - eat and run, scammer",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "멍청한",
-      "romanized": "meongcheonghan",
       "severity": 1,
       "categories": [
         "insult"
@@ -2093,13 +1750,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 멍청한, Romanization: meongcheonghan - stupid",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "몰카",
-      "romanized": "molka",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2110,13 +1764,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 몰카, Romanization: molka - hidden camera, spy cam",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "미친놈",
-      "romanized": "michinnom",
       "severity": 2,
       "categories": [
         "insult"
@@ -2127,13 +1778,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 미친놈, Romanization: michinnom - crazy bastard (male)",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "미친년",
-      "romanized": "michinnyeon",
       "severity": 2,
       "categories": [
         "insult",
@@ -2145,13 +1793,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 미친년, Romanization: michinnyeon - crazy bitch (female)",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "미친새끼",
-      "romanized": "michinsaekki",
       "severity": 2,
       "categories": [
         "insult"
@@ -2162,13 +1807,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 미친새끼, Romanization: michinsaekki - crazy son of a bitch",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "미친개",
-      "romanized": "michingae",
       "severity": 2,
       "categories": [
         "insult"
@@ -2179,13 +1821,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 미친개, Romanization: michingae - crazy dog",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "미쳤어",
-      "romanized": "michyeosseo",
       "severity": 2,
       "categories": [
         "insult"
@@ -2196,13 +1835,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 미쳤어, Romanization: michyeosseo - are you crazy?",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "미쳤어요",
-      "romanized": "michyeosseoyo",
       "severity": 1,
       "categories": [
         "insult"
@@ -2213,13 +1849,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 미쳤어요, Romanization: michyeosseoyo - are you crazy? (polite)",
-      "target_type": "individual",
-      "speech_level": "polite",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "남창",
-      "romanized": "namchang",
       "severity": 4,
       "categories": [
         "sexual"
@@ -2230,13 +1863,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 남창, Romanization: namchang - male prostitute",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "냄져",
-      "romanized": "naemjyeo",
       "severity": 2,
       "categories": [
         "hate_speech",
@@ -2248,13 +1878,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 냄져, Romanization: naemjyeo - man (derogatory spelling)",
-      "target_type": "group",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "group"
     },
     {
       "word": "넌씨눈",
-      "romanized": "neonssinun",
       "severity": 2,
       "categories": [
         "insult"
@@ -2265,13 +1892,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 넌씨눈, Romanization: neonssinun - stink eye, dirty look",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "년",
-      "romanized": "nyeon",
       "severity": 2,
       "categories": [
         "hate_speech",
@@ -2283,13 +1907,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 년, Romanization: nyeon - bitch, year (derogatory for women)",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "노망",
-      "romanized": "nomang",
       "severity": 2,
       "categories": [
         "insult",
@@ -2301,13 +1922,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 노망, Romanization: nomang - senile, demented",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "노예",
-      "romanized": "noye",
       "severity": 2,
       "categories": [
         "insult",
@@ -2319,13 +1937,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 노예, Romanization: noye - slave (insulting context)",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "로리타",
-      "romanized": "lorita",
       "severity": 4,
       "categories": [
         "sexual"
@@ -2336,13 +1951,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 로리타, Romanization: lorita - lolita, pedophilic reference",
-      "target_type": "general",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "사까시",
-      "romanized": "sakasi",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2353,13 +1965,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 사까시, Romanization: sakasi - fellatio (vulgar)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "섹스",
-      "romanized": "sekseu",
       "severity": 2,
       "categories": [
         "sexual"
@@ -2370,13 +1979,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 섹스, Romanization: sekseu - sex (can be vulgar in context)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "세끼",
-      "romanized": "sekki",
       "severity": 2,
       "categories": [
         "insult"
@@ -2387,13 +1993,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 세끼, Romanization: sekki - variant of saekki",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "소인배",
-      "romanized": "soinbae",
       "severity": 2,
       "categories": [
         "insult"
@@ -2404,13 +2007,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 소인배, Romanization: soinbae - petty person",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "쌍년",
-      "romanized": "ssangnyeon",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -2422,13 +2022,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 쌍년, Romanization: ssangnyeon - double bitch",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "쌍놈",
-      "romanized": "ssangnom",
       "severity": 3,
       "categories": [
         "insult"
@@ -2439,13 +2036,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 쌍놈, Romanization: ssangnom - double bastard",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "쌍욕",
-      "romanized": "ssangyok",
       "severity": 3,
       "categories": [
         "general"
@@ -2456,13 +2050,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 쌍욕, Romanization: ssangyok - double curse",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "씨발놈",
-      "romanized": "ssibalnom",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2474,13 +2065,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씨발놈, Romanization: ssibalnom - fucking bastard",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "씨발년",
-      "romanized": "ssibalnyeon",
       "severity": 3,
       "categories": [
         "sexual",
@@ -2492,13 +2080,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씨발년, Romanization: ssibalnyeon - fucking bitch",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "씨팔",
-      "romanized": "ssipal",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2509,13 +2094,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씨팔, Romanization: ssipal - variant of ssibal",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "씁새끼",
-      "romanized": "ssipsaekki",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2526,13 +2108,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씁새끼, Romanization: ssipsaekki - fucking bastard",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "씹",
-      "romanized": "ssip",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2543,13 +2122,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씹, Romanization: ssip - fuck (abbreviated)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "씹새끼",
-      "romanized": "ssipsaekki",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2560,13 +2136,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씹새끼, Romanization: ssipsaekki - fucking bastard (duplicate)",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "씹물",
-      "romanized": "ssipmul",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2577,13 +2150,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씹물, Romanization: ssipmul - pussy juice (vulgar)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "씹빨",
-      "romanized": "ssippal",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2594,13 +2164,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씹빨, Romanization: ssippal - pussy sucker",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "씹알",
-      "romanized": "ssipal",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2611,13 +2178,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씹알, Romanization: ssipal - fuck off",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "씹창",
-      "romanized": "ssipchang",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2628,13 +2192,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씹창, Romanization: ssipchang - fucking disaster",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "씹팔",
-      "romanized": "ssippal",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2645,13 +2206,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씹팔, Romanization: ssippal - variant of ssibal",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "씹할",
-      "romanized": "ssiphal",
       "severity": 3,
       "categories": [
         "sexual"
@@ -2662,13 +2220,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씹할, Romanization: ssiphal - fuck",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "또라이",
-      "romanized": "ttorrai",
       "severity": 2,
       "categories": [
         "insult"
@@ -2679,13 +2234,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 또라이, Romanization: ttorrai - nutjob, crazy person",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "야동",
-      "romanized": "yadong",
       "severity": 2,
       "categories": [
         "sexual"
@@ -2696,13 +2248,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 야동, Romanization: yadong - adult video, porn",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "야사",
-      "romanized": "yasa",
       "severity": 2,
       "categories": [
         "sexual"
@@ -2713,13 +2262,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 야사, Romanization: yasa - pornographic story",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "야애니",
-      "romanized": "yaaeni",
       "severity": 2,
       "categories": [
         "sexual"
@@ -2730,13 +2276,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 야애니, Romanization: yaaeni - hentai, adult anime",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "양아치",
-      "romanized": "yangachi",
       "severity": 2,
       "categories": [
         "insult"
@@ -2747,13 +2290,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 양아치, Romanization: yangachi - thug, hooligan",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "어중이떠중이",
-      "romanized": "eojungitteojungi",
       "severity": 2,
       "categories": [
         "insult"
@@ -2764,13 +2304,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 어중이떠중이, Romanization: eojungitteojungi - riffraff",
-      "target_type": "group",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "group"
     },
     {
       "word": "얼간이",
-      "romanized": "eolgani",
       "severity": 1,
       "categories": [
         "insult"
@@ -2781,13 +2318,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 얼간이, Romanization: eolgani - fool, simpleton",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "엄창",
-      "romanized": "eomchang",
       "severity": 4,
       "categories": [
         "family_honor",
@@ -2799,13 +2333,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 엄창, Romanization: eomchang - mother whore, attacks family honor",
-      "target_type": "family",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "family"
     },
     {
       "word": "에로",
-      "romanized": "ero",
       "severity": 2,
       "categories": [
         "sexual"
@@ -2816,13 +2347,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 에로, Romanization: ero - erotic (can be vulgar)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "염병할",
-      "romanized": "yeombyeonghal",
       "severity": 2,
       "categories": [
         "general"
@@ -2833,13 +2361,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 염병할, Romanization: yeombyeonghal - goddamn",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "옘병할",
-      "romanized": "yaembyeonghal",
       "severity": 2,
       "categories": [
         "general"
@@ -2850,13 +2375,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 옘병할, Romanization: yaembyeonghal - variant of yeombyeonghal",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "오랑캐",
-      "romanized": "orangkae",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -2868,13 +2390,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 오랑캐, Romanization: orangkae - barbarian (ethnic slur)",
-      "target_type": "group",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "group"
     },
     {
       "word": "왕따",
-      "romanized": "wangtta",
       "severity": 2,
       "categories": [
         "insult"
@@ -2885,13 +2404,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 왕따, Romanization: wangtta - outcast, bullied person",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "외퀴",
-      "romanized": "oekwi",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -2903,13 +2419,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 외퀴, Romanization: oekwi - one-eyed (ableist)",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "유모",
-      "romanized": "yumo",
       "severity": 2,
       "categories": [
         "sexual"
@@ -2920,13 +2433,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 유모, Romanization: yumo - wet nurse (can be sexual slang)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "육갑",
-      "romanized": "yukgap",
       "severity": 2,
       "categories": [
         "general"
@@ -2937,13 +2447,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 육갑, Romanization: yukgap - bullshit, nonsense",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "은꼴",
-      "romanized": "eunkkol",
       "severity": 2,
       "categories": [
         "sexual"
@@ -2954,13 +2461,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 은꼴, Romanization: eunkkol - masturbation material",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "자살해",
-      "romanized": "jasalhae",
       "severity": 4,
       "categories": [
         "violence",
@@ -2972,13 +2476,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 자살해, Romanization: jasalhae - go kill yourself",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "장애인",
-      "romanized": "jangaein",
       "severity": 2,
       "categories": [
         "hate_speech",
@@ -2990,13 +2491,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 장애인, Romanization: jangaein - disabled person (offensive in context)",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "저능",
-      "romanized": "jeoneung",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -3008,13 +2506,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 저능, Romanization: jeoneung - low intelligence (ableist)",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "정신병자",
-      "romanized": "jeongsinbyeongja",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -3026,13 +2521,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 정신병자, Romanization: jeongsinbyeongja - mentally ill person (ableist)",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "정신나갔어",
-      "romanized": "jeongsinagasseo",
       "severity": 2,
       "categories": [
         "insult"
@@ -3043,13 +2535,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 정신나갔어, Romanization: jeongsinagasseo - you've lost your mind",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "제기랄",
-      "romanized": "jegiral",
       "severity": 2,
       "categories": [
         "general"
@@ -3060,13 +2549,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 제기랄, Romanization: jegiral - damn it, shit",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "조까",
-      "romanized": "jokka",
       "severity": 3,
       "categories": [
         "sexual"
@@ -3077,13 +2563,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 조까, Romanization: jokka - fuck it",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "조질래",
-      "romanized": "jojillae",
       "severity": 3,
       "categories": [
         "violence",
@@ -3095,13 +2578,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 조질래, Romanization: jojillae - wanna get beaten?",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "존만한",
-      "romanized": "jonmanhan",
       "severity": 3,
       "categories": [
         "sexual",
@@ -3113,13 +2593,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 존만한, Romanization: jonmanhan - dick-sized (insult)",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "ㄱㅅ",
-      "romanized": "gs",
       "severity": 2,
       "categories": [
         "internet_gaming"
@@ -3131,13 +2608,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: ㄱㅅ, Romanization: gs - abbreviation for 개소리 (gaesori) - bullshit",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "ㅂㄷㅂㄷ",
-      "romanized": "bdbd",
       "severity": 2,
       "categories": [
         "internet_gaming"
@@ -3149,13 +2623,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: ㅂㄷㅂㄷ, Romanization: bdbd - 부들부들 (budeulbudeul) - trembling with anger",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "ㅆㅂ",
-      "romanized": "ssb",
       "severity": 3,
       "categories": [
         "internet_gaming",
@@ -3168,13 +2639,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: ㅆㅂ, Romanization: ssb - abbreviation for 씨발 (ssibal) - fuck",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "ㅈ",
-      "romanized": "j",
       "severity": 3,
       "categories": [
         "internet_gaming",
@@ -3187,13 +2655,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: ㅈ, Romanization: j - abbreviation for 좆 (jot) - dick",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "ㅉㅉ",
-      "romanized": "jjjj",
       "severity": 1,
       "categories": [
         "internet_gaming"
@@ -3205,13 +2670,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: ㅉㅉ, Romanization: jjjj - 쯧쯧 (jjeujjeu) - tsk tsk (disapproval)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "ㅊㅊ",
-      "romanized": "cc",
       "severity": 1,
       "categories": [
         "internet_gaming"
@@ -3222,13 +2684,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: ㅊㅊ, Romanization: cc - 축하 (chukha) but can mean 처치 (cheochi) - get rid of",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "ㅍㅌㅊ",
-      "romanized": "ptc",
       "severity": 1,
       "categories": [
         "internet_gaming"
@@ -3240,13 +2699,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: ㅍㅌㅊ, Romanization: ptc - 파이팅 (paiting) - fighting (but used sarcastically)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "강간",
-      "romanized": "ganggan",
       "severity": 4,
       "categories": [
         "sexual",
@@ -3258,13 +2714,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 강간, Romanization: ganggan - rape",
-      "target_type": "general",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "거유",
-      "romanized": "geoyu",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3275,13 +2728,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 거유, Romanization: geoyu - big breasts",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "계집",
-      "romanized": "gyejip",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -3293,13 +2743,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 계집, Romanization: gyejip - woman (archaic, derogatory)",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "계집년",
-      "romanized": "gyejipnyeon",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -3311,13 +2758,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 계집년, Romanization: gyejipnyeon - bitch",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "근친",
-      "romanized": "geunchin",
       "severity": 4,
       "categories": [
         "sexual"
@@ -3328,13 +2772,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 근친, Romanization: geunchin - incest",
-      "target_type": "general",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "노모",
-      "romanized": "nomo",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3345,13 +2786,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 노모, Romanization: nomo - exposed/uncensored (porn term)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "딸딸이",
-      "romanized": "ttalttari",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3362,13 +2800,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 딸딸이, Romanization: ttalttari - masturbation",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "딸치다",
-      "romanized": "ttalchida",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3379,13 +2814,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 딸치다, Romanization: ttalchida - to masturbate",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "따먹다",
-      "romanized": "ttameokda",
       "severity": 3,
       "categories": [
         "sexual"
@@ -3396,13 +2828,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 따먹다, Romanization: ttameokda - to fuck (vulgar)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "망가",
-      "romanized": "manga",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3413,13 +2842,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 망가, Romanization: manga - manga (porn context)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "몸매",
-      "romanized": "mommae",
       "severity": 1,
       "categories": [
         "sexual"
@@ -3430,13 +2856,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 몸매, Romanization: mommae - body figure (can be objectifying)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "바바리맨",
-      "romanized": "babarimen",
       "severity": 3,
       "categories": [
         "sexual"
@@ -3447,13 +2870,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 바바리맨, Romanization: babarimen - flasher, exhibitionist",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "발기",
-      "romanized": "balgi",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3464,13 +2884,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 발기, Romanization: balgi - erection",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "보짓물",
-      "romanized": "bojitmul",
       "severity": 4,
       "categories": [
         "sexual"
@@ -3481,13 +2898,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 보짓물, Romanization: bojitmul - vaginal fluid (extremely vulgar)",
-      "target_type": "general",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "빨다",
-      "romanized": "ppalda",
       "severity": 3,
       "categories": [
         "sexual"
@@ -3498,13 +2912,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 빨다, Romanization: ppalda - to suck (sexual)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "빨아주다",
-      "romanized": "pparajuda",
       "severity": 3,
       "categories": [
         "sexual"
@@ -3515,13 +2926,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 빨아주다, Romanization: pparajuda - to give head",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "사정",
-      "romanized": "sajeong",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3532,13 +2940,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 사정, Romanization: sajeong - ejaculation",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "섹파",
-      "romanized": "sekpa",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3549,13 +2954,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 섹파, Romanization: sekpa - sex partner",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "스와핑",
-      "romanized": "seuwaping",
       "severity": 3,
       "categories": [
         "sexual"
@@ -3566,13 +2968,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 스와핑, Romanization: seuwaping - swapping (partner swapping)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "씹년",
-      "romanized": "ssipnyeon",
       "severity": 3,
       "categories": [
         "sexual",
@@ -3584,13 +2983,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 씹년, Romanization: ssipnyeon - fucking bitch",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "애무",
-      "romanized": "aemu",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3601,13 +2997,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 애무, Romanization: aemu - caress (sexual)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "오르가즘",
-      "romanized": "oreugazeum",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3618,13 +3011,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 오르가즘, Romanization: oreugazeum - orgasm",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "유두",
-      "romanized": "yudu",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3635,13 +3025,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 유두, Romanization: yudu - nipple",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "음경",
-      "romanized": "eumgyeong",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3652,13 +3039,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 음경, Romanization: eumgyeong - penis (clinical but vulgar in casual use)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "음모",
-      "romanized": "eumo",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3669,13 +3053,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 음모, Romanization: eumo - pubic hair",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "자위",
-      "romanized": "jawi",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3686,13 +3067,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 자위, Romanization: jawi - masturbation",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "자위행위",
-      "romanized": "jawihengwi",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3703,13 +3081,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 자위행위, Romanization: jawihengwi - act of masturbation",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "정액",
-      "romanized": "jeongaek",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3720,13 +3095,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 정액, Romanization: jeongaek - semen",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "직촬",
-      "romanized": "jikchwal",
       "severity": 3,
       "categories": [
         "sexual"
@@ -3737,13 +3109,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 직촬, Romanization: jikchwal - direct filming (upskirt, spy cam)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "질",
-      "romanized": "jil",
       "severity": 3,
       "categories": [
         "sexual"
@@ -3754,13 +3123,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 질, Romanization: jil - vagina",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "처녀",
-      "romanized": "cheonyeo",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3771,13 +3137,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 처녀, Romanization: cheonyeo - virgin (female, can be offensive)",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "처먹다",
-      "romanized": "cheomeokda",
       "severity": 3,
       "categories": [
         "sexual"
@@ -3788,13 +3151,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 처먹다, Romanization: cheomeokda - to fuck (eat in vulgar sense)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "콘돔",
-      "romanized": "kondom",
       "severity": 1,
       "categories": [
         "sexual"
@@ -3805,13 +3165,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 콘돔, Romanization: kondom - condom",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "클리토리스",
-      "romanized": "keullitoriseu",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3822,13 +3179,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 클리토리스, Romanization: keullitoriseu - clitoris",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "타락",
-      "romanized": "tarak",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3839,13 +3193,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 타락, Romanization: tarak - corruption, debauchery",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "포르노",
-      "romanized": "poreuno",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3856,13 +3207,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 포르노, Romanization: poreuno - pornography",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "하드코어",
-      "romanized": "hadeukoa",
       "severity": 2,
       "categories": [
         "sexual"
@@ -3873,13 +3221,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 하드코어, Romanization: hadeukoa - hardcore (porn)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "항문",
-      "romanized": "hangmun",
       "severity": 2,
       "categories": [
         "sexual",
@@ -3891,13 +3236,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 항문, Romanization: hangmun - anus",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "니기미",
-      "romanized": "nigimi",
       "severity": 4,
       "categories": [
         "family_honor"
@@ -3908,13 +3250,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 니기미, Romanization: nigimi - your mother (regional curse)",
-      "target_type": "family",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "family"
     },
     {
       "word": "시부랄",
-      "romanized": "sibural",
       "severity": 3,
       "categories": [
         "sexual"
@@ -3925,13 +3264,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 시부랄, Romanization: sibural - fuck (dialectal variant)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "엠병",
-      "romanized": "embyeong",
       "severity": 2,
       "categories": [
         "general"
@@ -3942,13 +3278,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 엠병, Romanization: embyeong - damn (dialect)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "이눔아",
-      "romanized": "inuma",
       "severity": 2,
       "categories": [
         "insult"
@@ -3959,13 +3292,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 이눔아, Romanization: inuma - you bastard (traditional)",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "이새끼",
-      "romanized": "isaekki",
       "severity": 2,
       "categories": [
         "insult"
@@ -3976,13 +3306,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 이새끼, Romanization: isaekki - this bastard",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "저새끼",
-      "romanized": "jeosaekki",
       "severity": 2,
       "categories": [
         "insult"
@@ -3993,13 +3320,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 저새끼, Romanization: jeosaekki - that bastard",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "니미",
-      "romanized": "nimi",
       "severity": 4,
       "categories": [
         "family_honor"
@@ -4010,13 +3334,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 니미, Romanization: nimi - your mother (shortened)",
-      "target_type": "family",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "family"
     },
     {
       "word": "니미럴",
-      "romanized": "nimirol",
       "severity": 4,
       "categories": [
         "family_honor"
@@ -4027,13 +3348,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 니미럴, Romanization: nimirol - your mother (variant)",
-      "target_type": "family",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "family"
     },
     {
       "word": "뒤질",
-      "romanized": "dwijil",
       "severity": 4,
       "categories": [
         "violence"
@@ -4044,13 +3362,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 뒤질, Romanization: dwijil - die (dialectal)",
-      "target_type": "individual",
-      "speech_level": "extremely_rude",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "때씹",
-      "romanized": "ttaessip",
       "severity": 3,
       "categories": [
         "sexual"
@@ -4061,13 +3376,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 때씹, Romanization: ttaessip - fuck (regional)",
-      "target_type": "general",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "general"
     },
     {
       "word": "때끼",
-      "romanized": "ttaekki",
       "severity": 2,
       "categories": [
         "insult"
@@ -4078,13 +3390,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 때끼, Romanization: ttaekki - bastard (regional)",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "망할년",
-      "romanized": "manghalnyeon",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -4096,13 +3405,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 망할년, Romanization: manghalnyeon - damned woman",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "뙤놈",
-      "romanized": "dwaenom",
       "severity": 2,
       "categories": [
         "insult"
@@ -4113,13 +3419,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 뙤놈, Romanization: dwaenom - damn bastard (dialect)",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "시부렁",
-      "romanized": "siburong",
       "severity": 2,
       "categories": [
         "general"
@@ -4130,13 +3433,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 시부렁, Romanization: siburong - muttering curses",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "육시랄",
-      "romanized": "yuksiral",
       "severity": 2,
       "categories": [
         "general"
@@ -4147,13 +3447,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 육시랄, Romanization: yuksiral - damn it all",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "이그",
-      "romanized": "igeu",
       "severity": 1,
       "categories": [
         "general"
@@ -4164,13 +3461,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 이그, Romanization: igeu - ugh (mild curse)",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "개만도못한",
-      "romanized": "gaemando mothan",
       "severity": 2,
       "categories": [
         "insult"
@@ -4181,13 +3475,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 개만도못한, Romanization: gaemando mothan - worse than a dog",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "지옥에가",
-      "romanized": "jiogega",
       "severity": 3,
       "categories": [
         "violence",
@@ -4199,13 +3490,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 지옥에가, Romanization: jiogega - go to hell",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     },
     {
       "word": "썩을",
-      "romanized": "sseogeul",
       "severity": 2,
       "categories": [
         "general"
@@ -4216,13 +3504,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 썩을, Romanization: sseogeul - rotten, damned",
-      "target_type": "general",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "general"
     },
     {
       "word": "미친광이",
-      "romanized": "michingwangi",
       "severity": 2,
       "categories": [
         "insult"
@@ -4233,13 +3518,10 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 미친광이, Romanization: michingwangi - crazy fool",
-      "target_type": "individual",
-      "speech_level": "casual",
-      "respect_violation": false
+      "target_type": "individual"
     },
     {
       "word": "정신병",
-      "romanized": "jeongsinbyeong",
       "severity": 3,
       "categories": [
         "hate_speech",
@@ -4251,28 +3533,9 @@ export const KO: LanguageData = {
       ],
       "case_sensitive": false,
       "context_notes": "Hangul: 정신병, Romanization: jeongsinbyeong - mental illness (used as insult)",
-      "target_type": "individual",
-      "speech_level": "very_casual",
-      "respect_violation": true
+      "target_type": "individual"
     }
-  ],
-  categories: {
-  "general": "일반적인 욕설 (General Profanity)",
-  "insult": "모욕어 (Personal Insults)",
-  "sexual": "성적인 언어 (Sexual Content)",
-  "violence": "폭력적인 언어 (Violence and Threats)",
-  "hate_speech": "혐오 발언 (Hate Speech)",
-  "family_honor": "가족 모독 (Family Honor Attacks)",
-  "hierarchy_violation": "위계질서 위반 (Hierarchy Violations)",
-  "internet_gaming": "인터넷/게임 욕설 (Internet/Gaming Slang)",
-  "generational": "세대갈등 언어 (Generational Conflict Language)"
-},
-  severity: {
-  "1": 1,
-  "2": 2,
-  "3": 3,
-  "4": 4
-},
-  variations: {},
-  context: {}
-} as const;
+  ]
+} as const
+
+export type KOType = typeof KO
