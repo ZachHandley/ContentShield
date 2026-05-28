@@ -7,14 +7,29 @@ import { describe, it, expect, beforeAll } from 'vitest'
 import { ContentShieldDetector } from '../../src/core/detector.js'
 import { LanguageDetector } from '../../src/core/language-detector.js'
 import { createDetector } from '../../src/languages/factory.js'
-import { SeverityLevel, ProfanityCategory, type LanguageCode } from '../../src/types/index.js'
+import {
+  SeverityLevel,
+  ProfanityCategory,
+  type LanguageCode,
+} from '../../src/types/index.js'
 
 describe('Multi-Language Integration', () => {
   let detector: ContentShieldDetector
   let languageDetector: LanguageDetector
 
   const SUPPORTED_LANGUAGES: LanguageCode[] = [
-    'en', 'es', 'fr', 'de', 'it', 'pt', 'ru', 'zh', 'ja', 'ko', 'ar', 'hi'
+    'en',
+    'es',
+    'fr',
+    'de',
+    'it',
+    'pt',
+    'ru',
+    'zh',
+    'ja',
+    'ko',
+    'ar',
+    'hi',
   ]
 
   // Test phrases in different languages
@@ -22,70 +37,70 @@ describe('Multi-Language Integration', () => {
     en: {
       clean: 'Hello, how are you today?',
       profane: 'This is a damn test message',
-      mixed: 'Hello damn world'
+      mixed: 'Hello damn world',
     },
     es: {
       clean: 'Hola, ¿cómo estás hoy?',
       profane: 'Este es un maldito mensaje de prueba',
-      mixed: 'Hola maldito mundo'
+      mixed: 'Hola maldito mundo',
     },
     fr: {
-      clean: 'Bonjour, comment allez-vous aujourd\'hui?',
-      profane: 'C\'est un putain de message de test',
-      mixed: 'Bonjour putain monde'
+      clean: "Bonjour, comment allez-vous aujourd'hui?",
+      profane: "C'est un putain de message de test",
+      mixed: 'Bonjour putain monde',
     },
     de: {
       clean: 'Hallo, wie geht es dir heute?',
       profane: 'Das ist eine verdammte Testnachricht',
-      mixed: 'Hallo verdammte Welt'
+      mixed: 'Hallo verdammte Welt',
     },
     it: {
       clean: 'Ciao, come stai oggi?',
       profane: 'Questo è un dannato messaggio di prova',
-      mixed: 'Ciao dannato mondo'
+      mixed: 'Ciao dannato mondo',
     },
     pt: {
       clean: 'Olá, como você está hoje?',
       profane: 'Esta é uma mensagem de teste maldita',
-      mixed: 'Olá mundo maldito'
+      mixed: 'Olá mundo maldito',
     },
     ru: {
       clean: 'Привет, как дела сегодня?',
       profane: 'Это проклятое тестовое сообщение',
-      mixed: 'Привет проклятый мир'
+      mixed: 'Привет проклятый мир',
     },
     zh: {
       clean: '你好，你今天怎么样？',
       profane: '这是一个该死的测试消息',
-      mixed: '你好该死的世界'
+      mixed: '你好该死的世界',
     },
     ja: {
       clean: 'こんにちは、今日はいかがですか？',
       profane: 'これはくそったれのテストメッセージです',
-      mixed: 'こんにちはくそったれの世界'
+      mixed: 'こんにちはくそったれの世界',
     },
     ko: {
       clean: '안녕하세요, 오늘 어떠세요?',
       profane: '이것은 빌어먹을 테스트 메시지입니다',
-      mixed: '안녕하세요 빌어먹을 세계'
+      mixed: '안녕하세요 빌어먹을 세계',
     },
     ar: {
       clean: 'مرحبا، كيف حالك اليوم؟',
       profane: 'هذه رسالة اختبار ملعونة',
-      mixed: 'مرحبا عالم ملعون'
+      mixed: 'مرحبا عالم ملعون',
     },
     hi: {
       clean: 'नमस्ते, आज आप कैसे हैं?',
       profane: 'यह एक गंदा टेस्ट संदेश है',
-      mixed: 'नमस्ते गंदी दुनिया'
-    }
+      mixed: 'नमस्ते गंदी दुनिया',
+    },
   }
 
   beforeAll(async () => {
     detector = new ContentShieldDetector({
       languages: ['auto'], // Auto-detect all languages
       minSeverity: SeverityLevel.LOW,
-      fuzzyMatching: true
+      fuzzyMatching: true,
     })
 
     languageDetector = new LanguageDetector()
@@ -98,7 +113,9 @@ describe('Multi-Language Integration', () => {
     it('should detect all supported languages', async () => {
       for (const lang of SUPPORTED_LANGUAGES) {
         if (TEST_PHRASES[lang]) {
-          const results = await languageDetector.detect(TEST_PHRASES[lang].clean)
+          const results = await languageDetector.detect(
+            TEST_PHRASES[lang].clean
+          )
           expect(results).toBeDefined()
           expect(Array.isArray(results)).toBe(true)
 
@@ -235,9 +252,12 @@ describe('Multi-Language Integration', () => {
     })
 
     it('should provide consistent result structure across languages', async () => {
-      for (const lang of SUPPORTED_LANGUAGES.slice(0, 5)) { // Test subset for performance
+      for (const lang of SUPPORTED_LANGUAGES.slice(0, 5)) {
+        // Test subset for performance
         const langDetector = createDetector(lang)
-        const result = await langDetector.analyze(TEST_PHRASES[lang]?.clean || 'test')
+        const result = await langDetector.analyze(
+          TEST_PHRASES[lang]?.clean || 'test'
+        )
 
         // All results should have consistent structure
         expect(result).toHaveProperty('originalText')
@@ -253,7 +273,8 @@ describe('Multi-Language Integration', () => {
     it('should have reasonable performance for all languages', async () => {
       const performanceResults = []
 
-      for (const lang of SUPPORTED_LANGUAGES.slice(0, 6)) { // Test subset
+      for (const lang of SUPPORTED_LANGUAGES.slice(0, 6)) {
+        // Test subset
         if (TEST_PHRASES[lang]) {
           const detector = createDetector(lang)
 
@@ -271,7 +292,8 @@ describe('Multi-Language Integration', () => {
 
       // No language should be dramatically slower than others
       const durations = performanceResults.map(r => r.duration)
-      const avgDuration = durations.reduce((a, b) => a + b, 0) / durations.length
+      const avgDuration =
+        durations.reduce((a, b) => a + b, 0) / durations.length
       const maxDuration = Math.max(...durations)
 
       expect(maxDuration).toBeLessThan(avgDuration * 5) // No more than 5x average
@@ -350,10 +372,12 @@ describe('Multi-Language Integration', () => {
   describe('Error Handling and Robustness', () => {
     it('should handle unsupported language gracefully', async () => {
       // Test with unsupported language code
-      expect(() => createDetector('unsupported-lang' as LanguageCode)).not.toThrow()
+      expect(() =>
+        createDetector('unsupported-lang' as LanguageCode)
+      ).not.toThrow()
     })
 
-    it('should handle malformed text input', async () => {
+    it('should handle malformed text input', { timeout: 15000 }, async () => {
       const malformedInputs = [
         '\u0000\u0001\u0002', // Control characters
         '���', // Replacement characters

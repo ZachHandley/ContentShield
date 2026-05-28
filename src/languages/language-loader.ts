@@ -6,7 +6,12 @@
 import fs from 'fs/promises'
 import path from 'path'
 import { fileURLToPath } from 'url'
-import type { LanguageCode, SeverityLevel, ProfanityCategory, StaticLanguageData } from '../types/index.js'
+import type {
+  LanguageCode,
+  SeverityLevel,
+  ProfanityCategory,
+  StaticLanguageData,
+} from '../types/index.js'
 
 /**
  * Language data structure
@@ -31,10 +36,14 @@ export interface LanguageData {
   categories: Record<string, string[] | string>
   severity: Record<string, SeverityLevel | number>
   variations: Record<string, string[] | string>
-  context: Record<string, {
-    acceptable: string[]
-    problematic: string[]
-  } | string>
+  context: Record<
+    string,
+    | {
+        acceptable: string[]
+        problematic: string[]
+      }
+    | string
+  >
 }
 
 /**
@@ -49,26 +58,33 @@ interface PartialLanguageData {
     lastUpdated: string
     contributors?: string[]
   }
-  profanity?: Array<{
-    word: string
-    severity: SeverityLevel
-    categories: ProfanityCategory[]
-    variations?: string[]
-    context?: string[]
-  }> | { words: Array<{
-    word: string
-    severity: SeverityLevel
-    categories: ProfanityCategory[]
-    variations?: string[]
-    context?: string[]
-  }> }
+  profanity?:
+    | Array<{
+        word: string
+        severity: SeverityLevel
+        categories: ProfanityCategory[]
+        variations?: string[]
+        context?: string[]
+      }>
+    | {
+        words: Array<{
+          word: string
+          severity: SeverityLevel
+          categories: ProfanityCategory[]
+          variations?: string[]
+          context?: string[]
+        }>
+      }
   categories?: Record<string, string[]>
   severity?: Record<string, SeverityLevel>
   variations?: Record<string, string[]>
-  context?: Record<string, {
-    acceptable: string[]
-    problematic: string[]
-  }>
+  context?: Record<
+    string,
+    {
+      acceptable: string[]
+      problematic: string[]
+    }
+  >
   // Index signature to allow dynamic property access
   [key: string]: unknown
 }
@@ -103,7 +119,9 @@ export class LanguageLoader {
   private cache = new Map<LanguageCode, LanguageData>()
   private loadingPromises = new Map<LanguageCode, Promise<LanguageLoadResult>>()
   private options: Required<Omit<LanguageLoadOptions, 'languageData'>>
-  private staticLanguageData: Partial<Record<LanguageCode, StaticLanguageData>> | undefined
+  private staticLanguageData:
+    | Partial<Record<LanguageCode, StaticLanguageData>>
+    | undefined
 
   // Performance tracking
   private loadTimes = new Map<LanguageCode, number>()
@@ -112,7 +130,14 @@ export class LanguageLoader {
 
   constructor(options: LanguageLoadOptions = {}) {
     // Resolve data path relative to package location
-    const defaultDataPath = options.dataPath || path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'data', 'languages')
+    const defaultDataPath =
+      options.dataPath ||
+      path.join(
+        path.dirname(fileURLToPath(import.meta.url)),
+        '..',
+        'data',
+        'languages'
+      )
 
     // Store static language data separately (only if provided)
     if (options.languageData) {
@@ -125,7 +150,7 @@ export class LanguageLoader {
       preloadCommonWords: true,
       validateData: true,
       useCompressedFormat: false,
-      ...options
+      ...options,
     }
   }
 
@@ -143,7 +168,7 @@ export class LanguageLoader {
         // eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- cache.has() check above guarantees value exists
         data: this.cache.get(language)!,
         loadTime: performance.now() - startTime,
-        fromCache: true
+        fromCache: true,
       }
     }
 
@@ -204,7 +229,7 @@ export class LanguageLoader {
         success: true,
         data,
         loadTime,
-        fromCache: false
+        fromCache: false,
       }
     } catch (error) {
       const loadTime = performance.now() - startTime
@@ -213,7 +238,7 @@ export class LanguageLoader {
         success: false,
         error: error instanceof Error ? error.message : String(error),
         loadTime,
-        fromCache: false
+        fromCache: false,
       }
     }
   }
@@ -228,7 +253,10 @@ export class LanguageLoader {
     const categories: Record<string, string[]> = {}
     const severity: Record<string, SeverityLevel> = {}
     const variations: Record<string, string[]> = {}
-    const context: Record<string, { acceptable: string[], problematic: string[] }> = {}
+    const context: Record<
+      string,
+      { acceptable: string[]; problematic: string[] }
+    > = {}
 
     // Process each word entry to populate the data structures
     for (const entry of staticData.words) {
@@ -264,7 +292,7 @@ export class LanguageLoader {
       } = {
         word: entry.word,
         severity: entry.severity,
-        categories: [...entry.categories]
+        categories: [...entry.categories],
       }
 
       if (entry.variations) {
@@ -287,7 +315,7 @@ export class LanguageLoader {
       categories,
       severity,
       variations,
-      context
+      context,
     }
   }
 
@@ -295,16 +323,28 @@ export class LanguageLoader {
    * Load all language files from directory
    */
   private async loadLanguageFiles(languageDir: string): Promise<LanguageData> {
-    const files = ['metadata.json', 'profanity.json', 'categories.json', 'severity.json', 'variations.json', 'context.json']
+    const files = [
+      'metadata.json',
+      'profanity.json',
+      'categories.json',
+      'severity.json',
+      'variations.json',
+      'context.json',
+    ]
 
-    const loadPromises = files.map(async (filename) => {
+    const loadPromises = files.map(async filename => {
       const filePath = path.join(languageDir, filename)
       try {
         const content = await fs.readFile(filePath, 'utf-8')
-        return { filename: filename.replace('.json', ''), data: JSON.parse(content) }
-      } catch (error) {
+        return {
+          filename: filename.replace('.json', ''),
+          data: JSON.parse(content),
+        }
+      } catch {
         // Some files might be optional
-        console.warn(`Warning: Could not load ${filename} for language directory ${languageDir}`)
+        console.warn(
+          `Warning: Could not load ${filename} for language directory ${languageDir}`
+        )
         return { filename: filename.replace('.json', ''), data: null }
       }
     })
@@ -325,7 +365,9 @@ export class LanguageLoader {
 
     // Ensure required fields exist
     if (!languageData.metadata || !languageData.profanity) {
-      throw new Error('Missing required language data files (metadata.json, profanity.json)')
+      throw new Error(
+        'Missing required language data files (metadata.json, profanity.json)'
+      )
     }
 
     return languageData as LanguageData
@@ -334,14 +376,19 @@ export class LanguageLoader {
   /**
    * Validate language data structure
    */
-  private validateLanguageData(data: LanguageData, language: LanguageCode): void {
+  private validateLanguageData(
+    data: LanguageData,
+    language: LanguageCode
+  ): void {
     // Check metadata
     if (!data.metadata || !data.metadata.name || !data.metadata.code) {
       throw new Error(`Invalid metadata for language ${language}`)
     }
 
     if (data.metadata.code !== language) {
-      throw new Error(`Language code mismatch: expected ${language}, got ${data.metadata.code}`)
+      throw new Error(
+        `Language code mismatch: expected ${language}, got ${data.metadata.code}`
+      )
     }
 
     // Check profanity data
@@ -350,10 +397,18 @@ export class LanguageLoader {
     }
 
     // Validate profanity entries
-    for (let i = 0; i < Math.min(data.profanity.length, 10); i++) { // Sample validation
+    for (let i = 0; i < Math.min(data.profanity.length, 10); i++) {
+      // Sample validation
       const entry = data.profanity[i]
-      if (!entry || !entry.word || !entry.severity || !Array.isArray(entry.categories)) {
-        throw new Error(`Invalid profanity entry at index ${i} for language ${language}`)
+      if (
+        !entry ||
+        !entry.word ||
+        !entry.severity ||
+        !Array.isArray(entry.categories)
+      ) {
+        throw new Error(
+          `Invalid profanity entry at index ${i} for language ${language}`
+        )
       }
     }
   }
@@ -361,7 +416,9 @@ export class LanguageLoader {
   /**
    * Preload common languages
    */
-  async preloadCommonLanguages(languages: LanguageCode[] = ['en', 'es', 'fr']): Promise<void> {
+  async preloadCommonLanguages(
+    languages: LanguageCode[] = ['en', 'es', 'fr']
+  ): Promise<void> {
     const preloadPromises = languages.map(lang => this.loadLanguage(lang))
     await Promise.all(preloadPromises)
   }
@@ -369,8 +426,10 @@ export class LanguageLoader {
   /**
    * Batch load multiple languages
    */
-  async loadLanguages(languages: LanguageCode[]): Promise<Map<LanguageCode, LanguageLoadResult>> {
-    const loadPromises = languages.map(async (lang) => {
+  async loadLanguages(
+    languages: LanguageCode[]
+  ): Promise<Map<LanguageCode, LanguageLoadResult>> {
+    const loadPromises = languages.map(async lang => {
       const result = await this.loadLanguage(lang)
       return { lang, result }
     })
@@ -390,13 +449,19 @@ export class LanguageLoader {
    */
   async getAvailableLanguages(): Promise<LanguageCode[]> {
     try {
-      const entries = await fs.readdir(this.options.dataPath, { withFileTypes: true })
+      const entries = await fs.readdir(this.options.dataPath, {
+        withFileTypes: true,
+      })
       const languages: LanguageCode[] = []
 
       for (const entry of entries) {
         if (entry.isDirectory()) {
           // Check if it's a valid language directory
-          const metadataPath = path.join(this.options.dataPath, entry.name, 'metadata.json')
+          const metadataPath = path.join(
+            this.options.dataPath,
+            entry.name,
+            'metadata.json'
+          )
           try {
             await fs.access(metadataPath)
             languages.push(entry.name as LanguageCode)
@@ -416,9 +481,15 @@ export class LanguageLoader {
   /**
    * Get language metadata without loading full data
    */
-  async getLanguageMetadata(language: LanguageCode): Promise<LanguageData['metadata'] | null> {
+  async getLanguageMetadata(
+    language: LanguageCode
+  ): Promise<LanguageData['metadata'] | null> {
     try {
-      const metadataPath = path.join(this.options.dataPath, language, 'metadata.json')
+      const metadataPath = path.join(
+        this.options.dataPath,
+        language,
+        'metadata.json'
+      )
       const content = await fs.readFile(metadataPath, 'utf-8')
       return JSON.parse(content)
     } catch {
@@ -461,7 +532,7 @@ export class LanguageLoader {
       cacheHits: this.cacheHits,
       cacheMisses: this.cacheMisses,
       hitRate: total > 0 ? this.cacheHits / total : 0,
-      cachedLanguages: Array.from(this.cache.keys())
+      cachedLanguages: Array.from(this.cache.keys()),
     }
   }
 
@@ -557,7 +628,9 @@ let globalLanguageLoader: LanguageLoader | null = null
 /**
  * Get global language loader instance
  */
-export function getGlobalLanguageLoader(options?: LanguageLoadOptions): LanguageLoader {
+export function getGlobalLanguageLoader(
+  options?: LanguageLoadOptions
+): LanguageLoader {
   if (!globalLanguageLoader) {
     globalLanguageLoader = new LanguageLoader(options)
   }

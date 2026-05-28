@@ -10,7 +10,10 @@ import { SeverityLevel, FilterMode } from '../types/index.js'
 import { DEFAULT_DETECTOR_CONFIG } from '../config/default-config.js'
 import { ProfanityMatcher, type MatcherConfig } from './profanity-matcher.js'
 import { ProfanityFilter, type FilterConfig } from './filter.js'
-import { DetectionResultBuilder, type EnhancedDetectionResult } from './detection-result.js'
+import {
+  DetectionResultBuilder,
+  type EnhancedDetectionResult,
+} from './detection-result.js'
 import { LanguageDetector } from './language-detector.js'
 import { textNormalizer } from '../utils/text-normalizer.js'
 import { LANGUAGE_DATA } from '../languages/data/index.js'
@@ -45,7 +48,7 @@ export class ContentShieldDetector {
     // Load language data for each configured language
     const loadPromises = this.config.languages
       .filter(lang => lang !== 'auto')
-      .map(async (lang) => {
+      .map(async lang => {
         const langCode = lang as LanguageCode
 
         // Priority 1: Use languageData from config if provided
@@ -110,7 +113,7 @@ export class ContentShieldDetector {
     }
 
     // Step 1: Detect languages
-    let detectedLanguages: LanguageCode[] = []
+    let detectedLanguages: LanguageCode[]
     if (this.config.languages.includes('auto')) {
       const languageResults = await this.languageDetector.detect(text)
 
@@ -143,7 +146,7 @@ export class ContentShieldDetector {
           removeAccents: true,
           expandContractions: true,
           normalizeWhitespace: true,
-          preserveCase: false
+          preserveCase: false,
         })
       : text
 
@@ -180,7 +183,7 @@ export class ContentShieldDetector {
     if (effectiveOptions.filterMode !== FilterMode.DETECT_ONLY) {
       const filterResult = this.filterEngine.filter(text, matches, {
         mode: effectiveOptions.filterMode,
-        confidenceThreshold: 0.5
+        confidenceThreshold: 0.5,
       })
       filteredText = filterResult.filteredText
     }
@@ -208,7 +211,7 @@ export class ContentShieldDetector {
       { pattern: /[\u0400-\u04ff]/, name: 'Cyrillic' },
       { pattern: /[\u0900-\u097f]/, name: 'Devanagari' },
       { pattern: /[\uac00-\ud7af]/, name: 'Korean' },
-      { pattern: /[a-zA-Z]/, name: 'Latin' }
+      { pattern: /[a-zA-Z]/, name: 'Latin' },
     ]
 
     const detectedScripts = new Set<string>()
@@ -263,13 +266,16 @@ export class ContentShieldDetector {
     matcherStats: {
       totalLanguages: number
       totalWords: number
-      trieStats: Record<string, {
-        totalWords: number
-        totalNodes: number
-        averageDepth: number
-        maxDepth: number
-        memoryUsage: number
-      }>
+      trieStats: Record<
+        string,
+        {
+          totalWords: number
+          totalNodes: number
+          averageDepth: number
+          maxDepth: number
+          memoryUsage: number
+        }
+      >
     }
     filterStats: {
       customReplacements: number
@@ -284,7 +290,7 @@ export class ContentShieldDetector {
       configHash: this.configHash,
       matcherStats: this.matcher.getStats(),
       filterStats: this.filterEngine.getStats(),
-      supportedLanguages: this.config.languages
+      supportedLanguages: this.config.languages,
     }
   }
 
@@ -332,7 +338,7 @@ export class ContentShieldDetector {
       config: this.config,
       configHash: this.configHash,
       version: '1.0.0',
-      timestamp: new Date().toISOString()
+      timestamp: new Date().toISOString(),
     }
   }
 
@@ -368,7 +374,10 @@ export class ContentShieldDetector {
       contextAware: true,
       minWordLength: 2,
       // Conservative edit distance: max 1 for high threshold (0.8), max 2 for lower thresholds
-      maxEditDistance: this.config.fuzzyThreshold >= 0.8 ? 1 : Math.max(1, Math.floor(this.config.fuzzyThreshold * 3))
+      maxEditDistance:
+        this.config.fuzzyThreshold >= 0.8
+          ? 1
+          : Math.max(1, Math.floor(this.config.fuzzyThreshold * 3)),
     }
   }
 
@@ -385,18 +394,22 @@ export class ContentShieldDetector {
       maintainLength: false,
       confidenceThreshold: 0.5,
       gradualFiltering: true,
-      categoryReplacements: new Map()
+      categoryReplacements: new Map(),
     }
   }
 
   /**
    * Calculate overall confidence based on matches
    */
-  private calculateOverallConfidence(matches: DetectionMatch[], text: string): number {
+  private calculateOverallConfidence(
+    matches: DetectionMatch[],
+    text: string
+  ): number {
     if (matches.length === 0) return 1.0
 
     // Base confidence on average match confidence, text length, and context
-    const averageConfidence = matches.reduce((sum, match) => sum + match.confidence, 0) / matches.length
+    const averageConfidence =
+      matches.reduce((sum, match) => sum + match.confidence, 0) / matches.length
 
     // Adjust for text length (longer text generally more reliable)
     const lengthFactor = Math.min(1.0, text.length / 100)
@@ -404,7 +417,13 @@ export class ContentShieldDetector {
     // Adjust for number of matches (more matches generally more confident)
     const matchesFactor = Math.min(1.0, matches.length / 5)
 
-    return Math.max(0.1, Math.min(1.0, averageConfidence * (0.7 + lengthFactor * 0.2 + matchesFactor * 0.1)))
+    return Math.max(
+      0.1,
+      Math.min(
+        1.0,
+        averageConfidence * (0.7 + lengthFactor * 0.2 + matchesFactor * 0.1)
+      )
+    )
   }
 
   /**
@@ -421,34 +440,47 @@ export class ContentShieldDetector {
     }
 
     if (matches.some(m => m.confidence < 0.5)) {
-      builder.addWarning('Some matches have low confidence - manual review recommended')
+      builder.addWarning(
+        'Some matches have low confidence - manual review recommended'
+      )
     }
 
-    if (this.config.languages.length === 1 && this.config.languages[0] === 'auto') {
-      builder.addWarning('Auto language detection enabled - specify languages for better performance')
+    if (
+      this.config.languages.length === 1 &&
+      this.config.languages[0] === 'auto'
+    ) {
+      builder.addWarning(
+        'Auto language detection enabled - specify languages for better performance'
+      )
     }
 
     // Add recommendations
     if (matches.length > text.split(' ').length * 0.2) {
-      builder.addRecommendation('High profanity density detected - consider comprehensive content review')
+      builder.addRecommendation(
+        'High profanity density detected - consider comprehensive content review'
+      )
     }
 
     if (matches.some(m => m.severity >= SeverityLevel.SEVERE)) {
-      builder.addRecommendation('Severe profanity detected - immediate action recommended')
+      builder.addRecommendation(
+        'Severe profanity detected - immediate action recommended'
+      )
     }
   }
 
   /**
    * Merge analysis options with defaults
    */
-  private mergeAnalysisOptions(options: Partial<AnalysisOptions>): AnalysisOptions {
+  private mergeAnalysisOptions(
+    options: Partial<AnalysisOptions>
+  ): AnalysisOptions {
     return {
       filterMode: FilterMode.DETECT_ONLY,
       includeMatches: true,
       includeConfidence: true,
       measurePerformance: false,
       maxLength: 100000,
-      ...options
+      ...options,
     }
   }
 
@@ -463,14 +495,14 @@ export class ContentShieldDetector {
       fuzzyMatching: config.fuzzyMatching,
       fuzzyThreshold: config.fuzzyThreshold,
       customWords: config.customWords.map(w => w.word).sort(),
-      whitelist: config.whitelist.sort()
+      whitelist: config.whitelist.sort(),
     })
 
     // Simple hash function
     let hash = 0
     for (let i = 0; i < configString.length; i++) {
       const char = configString.charCodeAt(i)
-      hash = ((hash << 5) - hash) + char
+      hash = (hash << 5) - hash + char
       hash = hash & hash // Convert to 32-bit integer
     }
 
@@ -605,7 +637,10 @@ export class ContentShieldDetector {
    */
   private lazyLoadedLanguages = new Set<LanguageCode>()
 
-  async ensureLanguageLoaded(language: LanguageCode, _dataPath?: string): Promise<void> {
+  async ensureLanguageLoaded(
+    language: LanguageCode,
+    _dataPath?: string
+  ): Promise<void> {
     if (this.lazyLoadedLanguages.has(language)) {
       return
     }
@@ -625,7 +660,10 @@ export class ContentShieldDetector {
   /**
    * Generate cache key for analysis
    */
-  private generateAnalysisCacheKey(text: string, options: Partial<AnalysisOptions>): string {
+  private generateAnalysisCacheKey(
+    text: string,
+    options: Partial<AnalysisOptions>
+  ): string {
     const optionsHash = JSON.stringify(options)
     return `${this.configHash}:${optionsHash}:${text.slice(0, 100)}` // Use first 100 chars for key
   }
@@ -646,7 +684,7 @@ export class ContentShieldDetector {
       analysisCacheMisses: this.analysisCacheMisses,
       analysisCacheHitRate: total > 0 ? this.analysisCacheHits / total : 0,
       analysisCacheSize: this.analysisCache.size,
-      lazyLoadedLanguages: this.lazyLoadedLanguages.size
+      lazyLoadedLanguages: this.lazyLoadedLanguages.size,
     }
   }
 

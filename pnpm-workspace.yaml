@@ -1,2 +1,13 @@
 packages:
   - examples/*
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+  - workerd
+overrides:
+  vite: ^8.0.14
+  esbuild: ^0.28.0

@@ -3,13 +3,17 @@
  * Handles configuration loading, validation, environment overrides, and hot-swapping
  */
 
-import type { DetectorConfig, LanguageCode, SeverityLevel } from '../types/index.js'
+import type {
+  DetectorConfig,
+  LanguageCode,
+  SeverityLevel,
+} from '../types/index.js'
 import {
   DEFAULT_DETECTOR_CONFIG,
   getEnvironmentConfig,
   getConfigPreset,
   LANGUAGE_OPTIMIZED_CONFIGS,
-  CONFIG_PRESETS
+  CONFIG_PRESETS,
 } from './default-config.js'
 import { ConfigValidator } from './config-validator.js'
 import fs from 'fs/promises'
@@ -52,7 +56,11 @@ export interface ConfigManagerOptions {
  */
 export class ConfigManager {
   private currentConfig: DetectorConfig
-  private configHistory: Array<{ config: DetectorConfig; timestamp: Date; source: ConfigSource }> = []
+  private configHistory: Array<{
+    config: DetectorConfig
+    timestamp: Date
+    source: ConfigSource
+  }> = []
   private changeListeners: Array<(event: ConfigChangeEvent) => void> = []
   private fileWatcher: ReturnType<typeof watch> | null | undefined
   private configCache = new Map<string, DetectorConfig>()
@@ -71,7 +79,7 @@ export class ConfigManager {
       autoOptimizeForLanguages: true,
       enableEnvironmentOverrides: true,
       cacheValidatedConfigs: true,
-      ...options
+      ...options,
     }
 
     // Start with default config
@@ -89,10 +97,13 @@ export class ConfigManager {
     if (this.options.validateOnLoad) {
       const validation = ConfigValidator.validate(mergedConfig)
       if (!validation.isValid) {
-        throw new Error(`Configuration validation failed: ${validation.errors.join(', ')}`)
+        throw new Error(
+          `Configuration validation failed: ${validation.errors.join(', ')}`
+        )
       }
       // If validation is valid, sanitizedConfig should be available
-      this.currentConfig = validation.sanitizedConfig || mergedConfig as DetectorConfig
+      this.currentConfig =
+        validation.sanitizedConfig || (mergedConfig as DetectorConfig)
     } else {
       this.currentConfig = mergedConfig as DetectorConfig
     }
@@ -101,7 +112,7 @@ export class ConfigManager {
     this.configHistory.push({
       config: { ...this.currentConfig },
       timestamp: new Date(),
-      source: 'default'
+      source: 'default',
     })
 
     // Note: Auto-optimization is NOT run during initialization
@@ -131,10 +142,13 @@ export class ConfigManager {
     if (this.options.validateOnLoad) {
       const validation = ConfigValidator.validate(mergedConfig)
       if (!validation.isValid) {
-        throw new Error(`Configuration validation failed: ${validation.errors.join(', ')}`)
+        throw new Error(
+          `Configuration validation failed: ${validation.errors.join(', ')}`
+        )
       }
       // If validation is valid, sanitizedConfig should be available
-      this.currentConfig = validation.sanitizedConfig || mergedConfig as DetectorConfig
+      this.currentConfig =
+        validation.sanitizedConfig || (mergedConfig as DetectorConfig)
     } else {
       this.currentConfig = mergedConfig as DetectorConfig
     }
@@ -144,7 +158,7 @@ export class ConfigManager {
       this.configHistory.push({
         config: { ...this.currentConfig },
         timestamp: new Date(),
-        source
+        source,
       })
 
       // Limit history size
@@ -157,9 +171,10 @@ export class ConfigManager {
     const changeDetails = this.detectChanges(previousConfig, this.currentConfig)
 
     // Auto-optimize if enabled (do this BEFORE notification so the final state is notified)
-    const shouldAutoOptimize = this.options.autoOptimizeForLanguages &&
-                                changeDetails.modified.includes('languages') &&
-                                !skipNotification
+    const shouldAutoOptimize =
+      this.options.autoOptimizeForLanguages &&
+      changeDetails.modified.includes('languages') &&
+      !skipNotification
     if (shouldAutoOptimize) {
       await this.autoOptimizeForLanguages()
     }
@@ -176,7 +191,7 @@ export class ConfigManager {
         previousConfig,
         newConfig: { ...this.currentConfig },
         timestamp: new Date(),
-        changeDetails: finalChangeDetails
+        changeDetails: finalChangeDetails,
       }
 
       this.notifyListeners(event)
@@ -200,7 +215,9 @@ export class ConfigManager {
         this.enableHotReload(configPath)
       }
     } catch (error) {
-      throw new Error(`Failed to load configuration from ${configPath}: ${error}`)
+      throw new Error(`Failed to load configuration from ${configPath}`, {
+        cause: error,
+      })
     }
   }
 
@@ -214,7 +231,9 @@ export class ConfigManager {
       const configJson = JSON.stringify(this.currentConfig, null, 2)
       await fs.writeFile(configPath, configJson, 'utf-8')
     } catch (error) {
-      throw new Error(`Failed to save configuration to ${configPath}: ${error}`)
+      throw new Error(`Failed to save configuration to ${configPath}`, {
+        cause: error,
+      })
     }
   }
 
@@ -226,7 +245,9 @@ export class ConfigManager {
 
     // Check for common environment variables
     if (process.env.NAUGHTY_WORDS_LANGUAGES) {
-      envOverrides.languages = process.env.NAUGHTY_WORDS_LANGUAGES.split(',') as LanguageCode[]
+      envOverrides.languages = process.env.NAUGHTY_WORDS_LANGUAGES.split(
+        ','
+      ) as LanguageCode[]
     }
 
     if (process.env.NAUGHTY_WORDS_MIN_SEVERITY) {
@@ -237,15 +258,19 @@ export class ConfigManager {
     }
 
     if (process.env.NAUGHTY_WORDS_FUZZY_MATCHING) {
-      envOverrides.fuzzyMatching = process.env.NAUGHTY_WORDS_FUZZY_MATCHING === 'true'
+      envOverrides.fuzzyMatching =
+        process.env.NAUGHTY_WORDS_FUZZY_MATCHING === 'true'
     }
 
     if (process.env.NAUGHTY_WORDS_FUZZY_THRESHOLD) {
-      envOverrides.fuzzyThreshold = parseFloat(process.env.NAUGHTY_WORDS_FUZZY_THRESHOLD)
+      envOverrides.fuzzyThreshold = parseFloat(
+        process.env.NAUGHTY_WORDS_FUZZY_THRESHOLD
+      )
     }
 
     if (process.env.NAUGHTY_WORDS_NORMALIZE_TEXT) {
-      envOverrides.normalizeText = process.env.NAUGHTY_WORDS_NORMALIZE_TEXT === 'true'
+      envOverrides.normalizeText =
+        process.env.NAUGHTY_WORDS_NORMALIZE_TEXT === 'true'
     }
 
     if (process.env.NAUGHTY_WORDS_REPLACEMENT_CHAR) {
@@ -272,11 +297,17 @@ export class ConfigManager {
     const optimizations: Partial<DetectorConfig> = {}
 
     // If only one specific language, apply language-specific optimizations
-    if (this.currentConfig.languages.length === 1 && this.currentConfig.languages[0] !== 'auto') {
+    if (
+      this.currentConfig.languages.length === 1 &&
+      this.currentConfig.languages[0] !== 'auto'
+    ) {
       const language = this.currentConfig.languages[0]
-      const langOptimizations = language && language in LANGUAGE_OPTIMIZED_CONFIGS
-        ? LANGUAGE_OPTIMIZED_CONFIGS[language as keyof typeof LANGUAGE_OPTIMIZED_CONFIGS]
-        : undefined
+      const langOptimizations =
+        language && language in LANGUAGE_OPTIMIZED_CONFIGS
+          ? LANGUAGE_OPTIMIZED_CONFIGS[
+              language as keyof typeof LANGUAGE_OPTIMIZED_CONFIGS
+            ]
+          : undefined
 
       if (langOptimizations) {
         Object.assign(optimizations, langOptimizations)
@@ -285,7 +316,10 @@ export class ConfigManager {
 
     // Apply performance optimizations for many languages
     if (this.currentConfig.languages.length > 3) {
-      optimizations.fuzzyThreshold = Math.max(0.7, this.currentConfig.fuzzyThreshold)
+      optimizations.fuzzyThreshold = Math.max(
+        0.7,
+        this.currentConfig.fuzzyThreshold
+      )
     }
 
     if (Object.keys(optimizations).length > 0) {
@@ -302,7 +336,7 @@ export class ConfigManager {
       // Dynamically import fs watch functionality
       const { watch } = await import('fs')
 
-      this.fileWatcher = watch(filePath, async (eventType) => {
+      this.fileWatcher = watch(filePath, async eventType => {
         if (eventType === 'change') {
           try {
             await this.loadFromFile(filePath)
@@ -334,7 +368,11 @@ export class ConfigManager {
   /**
    * Get configuration history
    */
-  getConfigHistory(): Array<{ config: DetectorConfig; timestamp: Date; source: ConfigSource }> {
+  getConfigHistory(): Array<{
+    config: DetectorConfig
+    timestamp: Date
+    source: ConfigSource
+  }> {
     return [...this.configHistory]
   }
 
@@ -350,7 +388,8 @@ export class ConfigManager {
     this.configHistory.pop()
 
     // Get the now-last config (was previously second-to-last)
-    const previousConfigEntry = this.configHistory[this.configHistory.length - 1]
+    const previousConfigEntry =
+      this.configHistory[this.configHistory.length - 1]
     if (!previousConfigEntry) {
       return false
     }
@@ -366,7 +405,7 @@ export class ConfigManager {
       previousConfig,
       newConfig: { ...this.currentConfig },
       timestamp: new Date(),
-      changeDetails
+      changeDetails,
     }
     this.notifyListeners(event)
 
@@ -380,11 +419,13 @@ export class ConfigManager {
     // Clear history and start fresh
     const previousConfig = { ...this.currentConfig }
     this.currentConfig = { ...DEFAULT_DETECTOR_CONFIG }
-    this.configHistory = [{
-      config: { ...this.currentConfig },
-      timestamp: new Date(),
-      source: 'default'
-    }]
+    this.configHistory = [
+      {
+        config: { ...this.currentConfig },
+        timestamp: new Date(),
+        source: 'default',
+      },
+    ]
 
     // Detect changes and notify
     const changeDetails = this.detectChanges(previousConfig, this.currentConfig)
@@ -393,7 +434,7 @@ export class ConfigManager {
       previousConfig,
       newConfig: { ...this.currentConfig },
       timestamp: new Date(),
-      changeDetails
+      changeDetails,
     }
     this.notifyListeners(event)
   }
@@ -401,12 +442,16 @@ export class ConfigManager {
   /**
    * Validate current configuration
    */
-  validateCurrentConfig(): { isValid: boolean; errors: string[]; warnings: string[] } {
+  validateCurrentConfig(): {
+    isValid: boolean
+    errors: string[]
+    warnings: string[]
+  } {
     const result = ConfigValidator.validate(this.currentConfig)
     return {
       isValid: result.isValid,
       errors: result.errors,
-      warnings: result.warnings
+      warnings: result.warnings,
     }
   }
 
@@ -429,9 +474,12 @@ export class ConfigManager {
     // Apply language-specific optimizations
     if (languages.length === 1 && languages[0] !== 'auto') {
       const language = languages[0]
-      const langOptimizations = language && language in LANGUAGE_OPTIMIZED_CONFIGS
-        ? LANGUAGE_OPTIMIZED_CONFIGS[language as keyof typeof LANGUAGE_OPTIMIZED_CONFIGS]
-        : undefined
+      const langOptimizations =
+        language && language in LANGUAGE_OPTIMIZED_CONFIGS
+          ? LANGUAGE_OPTIMIZED_CONFIGS[
+              language as keyof typeof LANGUAGE_OPTIMIZED_CONFIGS
+            ]
+          : undefined
       if (langOptimizations) {
         optimizedConfig = { ...optimizedConfig, ...langOptimizations }
       }
@@ -466,9 +514,16 @@ export class ConfigManager {
     oldConfig: DetectorConfig,
     newConfig: DetectorConfig
   ): { added: string[]; modified: string[]; removed: string[] } {
-    const changes = { added: [] as string[], modified: [] as string[], removed: [] as string[] }
+    const changes = {
+      added: [] as string[],
+      modified: [] as string[],
+      removed: [] as string[],
+    }
 
-    const allKeys = new Set([...Object.keys(oldConfig), ...Object.keys(newConfig)])
+    const allKeys = new Set([
+      ...Object.keys(oldConfig),
+      ...Object.keys(newConfig),
+    ])
 
     for (const key of allKeys) {
       const oldValue = (oldConfig as unknown as Record<string, unknown>)[key]
